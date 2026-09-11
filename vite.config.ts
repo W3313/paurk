@@ -40,12 +40,16 @@ export default defineConfig(({ command }) => ({
   plugins: [
     react(),
     {
-      name: 'truechiller-security-headers',
+      name: 'truechiller-html-and-headers',
       // The dev server needs inline scripts for React Fast Refresh, so the policy is production-only.
-      transformIndexHtml: (html: string) =>
-        command === 'build'
-          ? html.replace('<meta charset="UTF-8" />', `<meta charset="UTF-8" />\n    <meta http-equiv="Content-Security-Policy" content="${CSP}" />`)
-          : html,
+      transformIndexHtml: (html: string) => {
+        // Absolute URLs are required for social cards; set VITE_SITE_URL once the domain is known.
+        const site = (process.env.VITE_SITE_URL ?? 'https://truechiller.pages.dev').replace(/\/$/, '')
+        const withSite = html.replaceAll('%SITE_URL%', site)
+        return command === 'build'
+          ? withSite.replace('<meta charset="UTF-8" />', `<meta charset="UTF-8" />\n    <meta http-equiv="Content-Security-Policy" content="${CSP}" />`)
+          : withSite
+      },
       generateBundle() {
         this.emitFile({ type: 'asset', fileName: '_headers', source: HEADERS })
       },

@@ -116,6 +116,17 @@ export default function App() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [weatherKey])
 
+  // The tab, the history entry and anything that reads the title follow the route.
+  useEffect(() => {
+    const spot = spotId ? spotsByCity.get(spotId.split('/')[0])?.find((x) => x.id === spotId) : null
+    const title =
+      mode === 'spot' && spot && city ? `${spot.name}, ${city.name} · TrueChiller`
+      : mode === 'city' && city ? `${city.name} · TrueChiller`
+      : mode === 'stones' ? 'Stones · TrueChiller'
+      : 'TrueChiller · somewhere to breathe, wherever, whenever'
+    document.title = title
+  }, [mode, city, spotId])
+
   // Notes on arrival.
   useEffect(() => {
     if (city && mode === 'city') {

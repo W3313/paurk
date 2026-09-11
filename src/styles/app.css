@@ -293,3 +293,6 @@ html[data-still] .sheet, html[data-still] .column { scroll-behavior: auto; }
 
 /* ---------- print ---------- */
 @media print { .stage, .horizon, .sunrule, .header .words, .globe-wrap { display: none !important; } .column { height: auto; overflow: visible; } .row { page-break-inside: avoid; } .sources a::after { content: " (" attr(href) ")"; } }
+
+/* ---------- crash ---------- */
+.crash { min-height: 100dvh; display: grid; align-content: center; justify-items: start; gap: var(--s-4); padding: var(--gutter); max-width: 60ch; margin: 0 auto; }

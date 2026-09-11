@@ -3,17 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+
+    <title>TrueChiller · somewhere to breathe, wherever, whenever</title>
+    <meta name="description" content="Low-key places to chill, around you and around the world. 590 quiet parks, waterfronts, viewpoints, gardens, cafes and libraries across 43 cities, ranked for right now by the sun, the weather and how far you would have to walk." />
+    <link rel="canonical" href="%SITE_URL%/" />
+
     <meta name="theme-color" content="#F4F1EA" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#1D1D1A" media="(prefers-color-scheme: dark)" />
-    <meta name="description" content="TrueChiller: somewhere to breathe, wherever, whenever. Low-key chill spots around you, on a globe." />
-    <title>TrueChiller</title>
+    <meta name="color-scheme" content="light dark" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="TrueChiller" />
+    <meta property="og:title" content="TrueChiller · somewhere to breathe, wherever, whenever" />
+    <meta property="og:description" content="Low-key places to chill, around you and around the world. Ranked for right now by the sun, the weather and how far you would have to walk." />
+    <meta property="og:url" content="%SITE_URL%/" />
+    <meta property="og:image" content="%SITE_URL%/og.jpg" />
+    <meta property="og:image:width" content="2400" />
+    <meta property="og:image:height" content="1260" />
+    <meta property="og:image:alt" content="A pale porcelain globe resting in warm paper light, with small rings marking cities." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="TrueChiller · somewhere to breathe, wherever, whenever" />
+    <meta name="twitter:description" content="Low-key places to chill, around you and around the world." />
+    <meta name="twitter:image" content="%SITE_URL%/og.jpg" />
+
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="TrueChiller" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Zen+Kaku+Gothic+New:wght@300;400;500&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23F4F1EA'/%3E%3Ccircle cx='32' cy='30' r='20' fill='%23EDE9E0' stroke='%236B685F' stroke-width='1'/%3E%3Ccircle cx='40' cy='24' r='4' fill='%23C8553D'/%3E%3C/svg%3E" />
+    <link rel="preload" href="/globe-dots.bin" as="fetch" type="application/octet-stream" crossorigin />
   </head>
   <body>
     <div id="root"></div>
+    <noscript>
+      <p style="font: 300 16px/1.7 system-ui, sans-serif; color: #23231F; background: #F4F1EA; margin: 0; padding: 40px; max-width: 60ch;">
+        TrueChiller needs JavaScript: the globe, the sun times and the ranking are all computed in your browser,
+        and nothing is rendered on a server. The places themselves are public parks, gardens, waterfronts,
+        viewpoints, libraries and cafes in 43 cities.
+      </p>
+    </noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
