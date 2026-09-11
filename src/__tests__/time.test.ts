@@ -26,3 +26,20 @@ describe('sunInfo', () => {
     expect(formatCountdown(125)).toBe('2h 5m')
   })
 })
+
+import { instantAtLocalMinutes, localMinutes } from '../lib/time'
+
+describe('instantAtLocalMinutes', () => {
+  it('lands on the requested wall-clock minute across a DST change', () => {
+    // Lisbon leaves summer time on 2026-10-25 at 02:00 WEST -> 01:00 WET
+    const base = new Date('2026-10-25T10:00:00Z') // 10:00 WET
+    const t = instantAtLocalMinutes(base, 'Europe/Lisbon', 30) // 00:30 local, before the change
+    expect(localMinutes(t, 'Europe/Lisbon')).toBe(30)
+    const u = instantAtLocalMinutes(new Date('2026-06-10T09:00:00Z'), 'Asia/Tokyo', 21 * 60 + 30)
+    expect(localMinutes(u, 'Asia/Tokyo')).toBe(21 * 60 + 30)
+  })
+  it('treats the last 90 minutes before sunset as golden hour', () => {
+    const info = sunInfo(new Date('2026-09-10T10:00:00Z'), { lat: 1.35, lng: 103.82 }) // Singapore 18:00, sunset ≈ 19:05
+    expect(info.period).toBe('golden')
+  })
+})

@@ -19,7 +19,7 @@ export function parseHash(hash: string): Partial<State> | null {
   const base: Partial<State> = { vibes, pinnedMinutes, previewMinutes: pinnedMinutes }
   const [kind, a, b] = pathPart.split('/')
   if (!pathPart) return { ...base, mode: 'sky', citySlug: null, spotId: null }
-  if (kind === 'stones') return { ...base, mode: 'stones' }
+  if (kind === 'stones' || kind === 'saved') return { ...base, mode: 'stones' }
   if (kind === 'about') return { ...base, mode: 'about' }
   if (kind === 'c' && a && cityBySlug.has(a)) return { ...base, mode: 'city', citySlug: a, spotId: null }
   if (kind === 's' && a && b) {
@@ -58,7 +58,10 @@ export function startRouter() {
     window.clearTimeout(timer)
     timer = window.setTimeout(() => {
       const h = hashFor()
-      if (location.hash !== h) history.replaceState(null, '', h)
+      if (location.hash === h) return
+      const path = (x: string) => x.split('?')[0]
+      if (path(location.hash || '#/') === path(h)) history.replaceState(null, '', h)
+      else history.pushState(null, '', h)
     }, 120)
   })
 }

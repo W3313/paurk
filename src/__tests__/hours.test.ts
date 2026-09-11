@@ -105,3 +105,12 @@ describe('parseHours', () => {
     expect(parseHours(undefined as unknown as string, THU_1930, TZ)).toEqual(unknown)
   })
 })
+
+describe('parseHours day-only schedules', () => {
+  it('does not treat a bare day list as a schedule', () => {
+    const now = new Date('2026-09-10T11:00:00Z')
+    expect(parseHours('daily', now, 'Europe/Lisbon').confidence).toBe('low')
+    expect(parseHours('Mon-Fri', now, 'Europe/Lisbon').confidence).toBe('low')
+    expect(parseHours('Mon-Fri 9-5, Sat', now, 'Europe/Lisbon').confidence).toBe('low')
+  })
+})

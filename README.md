@@ -49,8 +49,8 @@ The brief asked for research through Reddit. Reddit is not reachable from the en
    substacks), and those are the sources cited. **No URL is cited unless it appeared in a search result.**
 2. **One skeptical verify agent per city** confirmed each place exists and is public, applied the safety policy,
    sanity-checked coordinates against the city centre, confirmed the Wikipedia title that drives the photo, and
-   wrote the file. Where the verify stage could not search (budget or session limits), it says so inside the
-   file, and the build marks those spots `verified: false`; the app labels the city list accordingly.
+   wrote the file. All 43 cities went through this stage (590 spots; 383 with a confirmed photo title; 104 with
+   a caution note). Each file records which checks were made by live search and which from reviewer knowledge.
 3. `scripts/build-dataset.mjs` validates, de-duplicates and drops anything more than 80 km from its city.
 
 Coordinates are approximate (each carries a confidence level). Hours change; the app only says *open now* when

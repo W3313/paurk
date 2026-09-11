@@ -48,16 +48,18 @@ function commonsFilePage(originalUrl: string | undefined): string | null {
 }
 
 export function fetchWikiPhoto(title: string, targetWidth = 900): Promise<Photo | null> {
+  // eslint-disable-next-line @typescript-eslint/no-use-before-define
   const cache = readCache()
   const hit = cache[title]
   if (hit && Date.now() - hit.t < TTL) return Promise.resolve(hit.p)
   const existing = inflight.get(title)
   if (existing) return existing
 
-  const p = (async () => {
+  const p: Promise<Photo | null | undefined> = (async () => {
     try {
       const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title.replace(/ /g, '_'))}`
       const res = await fetch(url, { headers: { Accept: 'application/json' } })
+      if (res.status === 404) return null
       if (!res.ok) throw new Error(String(res.status))
       const j = (await res.json()) as {
         thumbnail?: { source: string; width: number; height: number }
@@ -78,14 +80,14 @@ export function fetchWikiPhoto(title: string, targetWidth = 900): Promise<Photo 
       }
       return photo
     } catch {
-      return null
+      return undefined // transient: not cached
     }
   })()
-  inflight.set(title, p)
-  p.then((photo) => {
-    cache[title] = { t: Date.now(), p: photo }
-    writeCache()
+  const settled = p.then((photo) => {
+    if (photo !== undefined) { cache[title] = { t: Date.now(), p: photo }; writeCache() }
     inflight.delete(title)
+    return photo ?? null
   })
-  return p
+  inflight.set(title, settled)
+  return settled
 }

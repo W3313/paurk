@@ -34,11 +34,24 @@ describe('fetchWikiPhoto', () => {
     expect(fetchMock).toHaveBeenCalledTimes(1)
   })
   it('returns null (and caches the miss) when the article has no image or the request fails', async () => {
-    const fetchMock = vi.fn(async (_url: string) => ({ ok: false, json: async () => ({}) }))
+    const fetchMock = vi.fn(async (_url: string) => ({ ok: false, status: 404, json: async () => ({}) }))
     vi.stubGlobal('fetch', fetchMock)
     const { fetchWikiPhoto } = await import('../lib/photos')
     expect(await fetchWikiPhoto('Nope')).toBeNull()
     expect(await fetchWikiPhoto('Nope')).toBeNull()
     expect(fetchMock).toHaveBeenCalledTimes(1)
+  })
+})
+
+describe('fetchWikiPhoto transient failures', () => {
+  it('does not cache a network error or 5xx, but does cache a 404', async () => {
+    let calls = 0
+    vi.stubGlobal('fetch', vi.fn(async (_url: string) => { calls++; if (calls === 1) throw new TypeError('offline'); if (calls === 2) return { ok: false, status: 503, json: async () => ({}) }; return { ok: false, status: 404, json: async () => ({}) } }))
+    const { fetchWikiPhoto } = await import('../lib/photos')
+    expect(await fetchWikiPhoto('Flaky')).toBeNull()
+    expect(await fetchWikiPhoto('Flaky')).toBeNull()
+    expect(await fetchWikiPhoto('Flaky')).toBeNull()
+    expect(await fetchWikiPhoto('Flaky')).toBeNull() // cached 404
+    expect(calls).toBe(3)
   })
 })

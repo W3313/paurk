@@ -24,7 +24,9 @@ const minutesBetween = (a: Date, b: Date) => Math.round((b.getTime() - a.getTime
 
 export function sunInfo(now: Date, pos: LatLng): SunInfo {
   const t = SunCalc.getTimes(now, pos.lat, pos.lng)
-  const sunrise = valid(t.sunrise), sunset = valid(t.sunset), goldenStart = valid(t.goldenHour)
+  const sunrise = valid(t.sunrise), sunset = valid(t.sunset)
+  // Spec §7.2: golden hour is the last 90 minutes before sunset.
+  const goldenStart = sunset ? new Date(sunset.getTime() - 90 * 60000) : null
   const dawn = valid(t.dawn), dusk = valid(t.dusk), goldenEnd = valid(t.goldenHourEnd), noon = valid(t.solarNoon)
   const polar = !sunrise || !sunset
 
@@ -47,7 +49,8 @@ export function sunInfo(now: Date, pos: LatLng): SunInfo {
   // Next-day lookups for countdowns after sunset.
   const tomorrow = SunCalc.getTimes(new Date(now.getTime() + 86400000), pos.lat, pos.lng)
   const nextSunrise = sunrise && now < sunrise ? sunrise : valid(tomorrow.sunrise)
-  const nextGolden = goldenStart && now < goldenStart ? goldenStart : valid(tomorrow.goldenHour)
+  const tomorrowSunset = valid(tomorrow.sunset)
+  const nextGolden = goldenStart && now < goldenStart ? goldenStart : tomorrowSunset ? new Date(tomorrowSunset.getTime() - 90 * 60000) : null
   const nextSunset = sunset && now < sunset ? sunset : valid(tomorrow.sunset)
 
   const alt = SunCalc.getPosition(now, pos.lat, pos.lng).altitude // radians, -π/2..π/2
@@ -110,7 +113,12 @@ export function localMinutes(date: Date, timeZone: string): number {
 /** The instant that is `minutes` past local midnight on `base`'s local date in `timeZone`. */
 export function instantAtLocalMinutes(base: Date, timeZone: string, minutes: number): Date {
   const cur = localMinutes(base, timeZone)
-  return new Date(base.getTime() + (minutes - cur) * 60000)
+  let t = new Date(base.getTime() + (minutes - cur) * 60000)
+  // A DST change between base and t shifts the wall clock; correct once by the shortest way round.
+  const got = localMinutes(t, timeZone)
+  const diff = ((minutes - got + 720 + 1440) % 1440) - 720
+  if (diff !== 0) t = new Date(t.getTime() + diff * 60000)
+  return t
 }
 
 /** Local weekday index (0 = Sunday) in a zone. */

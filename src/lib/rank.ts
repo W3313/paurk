@@ -32,7 +32,7 @@ export function rankSpot(spot: Spot, ctx: Context): Ranked {
   switch (ctx.period) {
     case 'night':
       if (bt.includes('night') || has('night') || has('skyline')) add('night', 3)
-      if (has('stargaze')) add('stargaze', 1.5)
+      else if (has('stargaze')) add('stargaze', 3)
       if (spot.safety.level === 'caution') score -= 2.5
       if (!bt.includes('night') && !has('night') && !spot.indoor) score -= 2
       if (spot.indoor) score += 1

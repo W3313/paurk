@@ -39,7 +39,7 @@ export function SpotPage({ spot, city, now, sun, origin, originIsReal, mobile }:
   if (sunsetSpot && sun.sunset && sun.period !== 'night') {
     const arriveMin = Math.round((sun.sunset.getTime() - now.getTime()) / 60000) - walk
     if (arriveMin > 0) {
-      const lb = leaveBy(sun, walk, city.timezone)
+      const lb = leaveBy(sun, walk, city.timezone, now)
       if (lb) nowLine.push(`leave by ${lb}`)
       good = good || hours.status !== 'closed'
     } else if (sun.period !== 'golden') nowLine.push(`too far for tonight — sunset ${formatClock(sun.sunset, city.timezone)} tomorrow`)

@@ -79,7 +79,7 @@ for (const file of files) {
       bestTimes: bestTimes.length ? bestTimes : ['afternoon'],
       indoor: raw.indoor === true,
       free: raw.free === true,
-      hours: str(raw.hours, 80) || 'varies',
+      hours: str(raw.hours, 160) || 'varies',
       lat: +lat.toFixed(5),
       lng: +lng.toFixed(5),
       coordConfidence: ['high','medium','low'].includes(raw.coordConfidence) ? raw.coordConfidence : 'low',

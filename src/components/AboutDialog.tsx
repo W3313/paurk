@@ -15,7 +15,7 @@ export function AboutDialog({ open, onClose }: Props) {
     if (open && !d.open) d.showModal()
     if (!open && d.open) d.close()
   }, [open])
-  const slate = document.documentElement.dataset.theme === 'slate'
+  const slate = theme === 'slate' || (theme === 'auto' && matchMedia('(prefers-color-scheme: dark)').matches)
   return (
     <dialog ref={ref} onClose={onClose} aria-label="About TrueChiller" onClick={(e) => { if (e.target === e.currentTarget) onClose() }}>
       <div className="dialog dialog--about about">

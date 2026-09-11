@@ -27,7 +27,7 @@ export function WorldNow({ now, onMore }: Props) {
           <span className="worldnow-cities">
             {g.cities.slice(0, 4).map((c) => (
               <a key={c.slug} className="word" href={`#/c/${c.slug}`}
-                onClick={(e) => { e.preventDefault(); getGlobe()?.select(c.slug) }}
+                onClick={(e) => { e.preventDefault(); const g = getGlobe(); if (g) g.select(c.slug); else actions.openCity(c.slug) }}
                 onPointerEnter={() => getGlobe()?.setHot(c.slug)} onPointerLeave={() => getGlobe()?.setHot(null)}
                 onFocus={() => getGlobe()?.setHot(c.slug)} onBlur={() => getGlobe()?.setHot(null)}>{c.name}</a>
             ))}

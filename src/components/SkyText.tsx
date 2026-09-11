@@ -38,7 +38,7 @@ export function SkyText({ now, sun, place, userPos, timeZone, onChooseCity, onAb
       <AroundYou onChooseCity={onChooseCity} />
       <WorldNow now={now} onMore={() => onChooseCity()} />
       {place && pick && (
-        <p className="serendipity">today in {place.name}: <a className="word word--small" href={`#/s/${pick.id}`} onClick={(e) => { e.preventDefault(); getGlobe()?.select(place.slug); actions.openSpot(pick.id) }}>{pick.name}</a> · <button type="button" className="word word--quiet word--small" onClick={() => setSeed((s) => s + 1)}>another</button></p>
+        <p className="serendipity">today in {place.name}: <a className="word word--small" href={`#/s/${pick.id}`} onClick={(e) => { e.preventDefault(); getGlobe()?.select(place.slug, false); actions.openSpot(pick.id) }}>{pick.name}</a> · <button type="button" className="word word--quiet word--small" onClick={() => setSeed((s) => s + 1)}>another</button></p>
       )}
       <p className="only-mobile"><button type="button" className="word word--quiet word--small" onClick={onAbout}>about</button></p>
     </div>

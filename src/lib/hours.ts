@@ -129,6 +129,7 @@ function parseSchedule(text: string, sun: SunMin): Schedule | null {
     }
     carried = null
   }
+  if (carried !== null) return null // a bare day list with no time range is not a schedule
   return s
 }
 

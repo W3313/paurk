@@ -80,10 +80,10 @@ export function SpotRow({ ranked, city, now, sun, ctx, origin, originIsReal, ind
   )
 }
 
-export function leaveBy(sun: SunInfo, walk: number, timeZone: string): string | null {
+export function leaveBy(sun: SunInfo, walk: number, timeZone: string, now: Date): string | null {
   if (!sun.sunset) return null
   const t = sun.sunset.getTime() - (walk + 10) * 60000
-  if (t < Date.now()) return null
+  if (t < now.getTime()) return null
   return formatClock(new Date(t), timeZone)
 }
 

@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { cities, cityBySlug, spotsByCity } from './data'
-import { actions, useStore } from './store'
+import { actions, useStore, type Weather } from './store'
+import { distanceKm } from './lib/geo'
 import { useNow } from './hooks/useNow'
 import { useCityNow } from './hooks/useCityNow'
 import { useOnlineWatcher } from './hooks/useOnline'
@@ -92,19 +93,25 @@ export default function App() {
     else if (inCity) actions.sky()
   }, [inCity])
 
-  // Weather for the origin (user) or the city centre, once per 20 minutes.
+  // Weather for the place on screen (you, when you are near the city; else the city centre), per place, once per 20 minutes.
+  const weatherCache = useRef(new Map<string, Weather | null>())
+  const weatherKey = city ? (userPos && distanceKm(userPos, city) <= 80 ? `user:${city.slug}` : city.slug) : userPos ? 'user' : null
   useEffect(() => {
-    const pos = userPos ?? city
-    if (!pos) return
-    const key = userPos ? 'user' : city!.slug
-    const w = useStore.length ? null : null
-    void w
-    const current = (window as unknown as { __tcWeather?: Record<string, number> }).__tcWeather ?? {}
-    if (current[key] && Date.now() - current[key] < 20 * 60000) return
-    current[key] = Date.now()
-    ;(window as unknown as { __tcWeather?: Record<string, number> }).__tcWeather = current
-    void fetchWeather(pos).then((wx) => { if (wx) actions.setWeather({ ...wx, key }) })
-  }, [userPos, city])
+    if (!weatherKey) { actions.setWeather(null); return }
+    const pos = weatherKey.startsWith('user') ? userPos! : city!
+    const cached = weatherCache.current.get(weatherKey)
+    actions.setWeather(cached && Date.now() - cached.fetchedAt < 20 * 60000 ? cached : null)
+    if (cached && Date.now() - cached.fetchedAt < 20 * 60000) return
+    let alive = true
+    void fetchWeather(pos).then((wx) => {
+      if (!wx) return
+      const w = { ...wx, key: weatherKey }
+      weatherCache.current.set(weatherKey, w)
+      if (alive) actions.setWeather(w)
+    })
+    return () => { alive = false }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [weatherKey])
 
   // Notes on arrival.
   useEffect(() => {
@@ -135,7 +142,7 @@ export default function App() {
   const seat: [number, number] = mode === 'sky' ? [0.5, 0.5] : mobile ? [0.5, 0.4] : [0.42, 0.45]
   const paperweight = mobile && (inCity || mode === 'stones') && sheetProgress >= 0.9
   const sunDate = city && cityNow.preview ? cityNow.now : null
-  const originIsReal = !!userPos && !!city && (accuracy === null || accuracy < 50000)
+  const originIsReal = !!userPos && !!city && distanceKm(userPos, city) <= 80 && (accuracy === null || accuracy < 50000)
   const origin = originIsReal ? userPos : null
 
   const column = mode === 'stones' ? <StonesPage /> : city && cityNow.sun ? (

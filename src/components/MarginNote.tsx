@@ -6,25 +6,27 @@ export function MarginNote({ fallback, className = '' }: { fallback?: string; cl
   const queue = useStore((s) => s.notes)
   const [line, setLine] = useState<string | null>(null)
   const [key, setKey] = useState(0)
-  const busy = useRef(false)
+  const busyUntil = useRef(0)
   const last = useRef<string | null>(null)
 
   useEffect(() => {
-    if (busy.current || !queue.length) return
-    const next = queue[0]
-    actions.shiftNote()
-    if (next === last.current) return
-    last.current = next
-    setLine(next)
-    setKey((k) => k + 1)
-    busy.current = true
-    const t = window.setTimeout(() => { busy.current = false; if (queue.length > 1) setKey((k) => k + 1) }, 1200)
+    if (!queue.length) return
+    const wait = Math.max(0, busyUntil.current - Date.now())
+    const t = window.setTimeout(() => {
+      const next = queue[0]
+      actions.shiftNote()
+      busyUntil.current = Date.now() + 1200
+      if (next === last.current) return
+      last.current = next
+      setLine(next)
+      setKey((k) => k + 1)
+    }, wait)
     return () => window.clearTimeout(t)
-  }, [queue, key])
+  }, [queue])
 
   useEffect(() => {
     if (!line) return
-    const t = window.setTimeout(() => setLine(null), 6000)
+    const t = window.setTimeout(() => { setLine(null); last.current = null }, 6000)
     return () => window.clearTimeout(t)
   }, [line, key])
 

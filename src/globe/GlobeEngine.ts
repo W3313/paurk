@@ -298,6 +298,8 @@ export class GlobeEngine {
     for (const el of this.labelEls.values()) el.remove()
     this.labelEls.clear()
     this.rings?.geometry.dispose(); this.discs?.geometry.dispose()
+    ;(this.rings?.material as THREE.Material | undefined)?.dispose(); (this.discs?.material as THREE.Material | undefined)?.dispose()
+    this.rings?.dispose(); this.discs?.dispose()
     if (this.rings) this.globe.remove(this.rings)
     if (this.discs) this.globe.remove(this.discs)
     this.rings = null; this.discs = null
@@ -531,6 +533,7 @@ export class GlobeEngine {
     this.velYaw = 0; this.velPitch = 0
     this.lastInteraction = performance.now()
     if (this.still) duration = 0
+    this.cancelAnim()
     this.wake()
     return new Promise((resolve) => {
       if (duration === 0) {
@@ -543,6 +546,13 @@ export class GlobeEngine {
     })
   }
 
+  /** Ends any flight in progress and settles its promise. */
+  private cancelAnim() {
+    const a = this.anim
+    this.anim = null
+    a?.done?.()
+  }
+
   /** Set the orientation instantly (initial view). */
   lookAt(lat: number, lng: number, zoom = SKY_ZOOM) {
     const [ty, tp] = GlobeEngine.viewFor(lat, lng)
@@ -552,6 +562,7 @@ export class GlobeEngine {
 
   /** Return to the sky: keep the current longitude, ease the zoom back. */
   release(duration = 1400): Promise<void> {
+    this.cancelAnim()
     this.wake()
     return new Promise((resolve) => {
       if (this.still || duration === 0) { this.zoom = SKY_ZOOM; resolve(); return }
@@ -586,7 +597,7 @@ export class GlobeEngine {
       el.setPointerCapture(e.pointerId)
       this.pointers.set(e.pointerId, { x: e.clientX, y: e.clientY })
       this.lastInteraction = performance.now()
-      this.anim = null
+      this.cancelAnim()
       this.wake()
       if (this.pointers.size === 1) {
         this.drag = { t: performance.now(), moved: 0, lastX: e.clientX, lastY: e.clientY, lastT: performance.now() }
@@ -677,6 +688,7 @@ export class GlobeEngine {
     this.focused = next
     const m = this.markers[next]
     const [ty, tp] = GlobeEngine.viewFor(m.lat, m.lng)
+    this.cancelAnim()
     this.anim = { t0: performance.now(), dur: this.still ? 0 : 500, from: [this.yaw, this.pitch, this.zoom], to: [this.yaw + norm(ty - this.yaw), tp, this.zoom], ease: settle }
     this.opts.onFocusMarker?.(m.id)
   }

@@ -5,6 +5,8 @@ export function BreatheOverlay({ name, open, onClose, still }: { name: string; o
   const ref = useRef<HTMLDialogElement>(null)
   const [t, setT] = useState(0)
   const [cue, setCue] = useState('in')
+  const onCloseRef = useRef(onClose)
+  onCloseRef.current = onClose
   useEffect(() => {
     const d = ref.current
     if (!d) return
@@ -18,10 +20,10 @@ export function BreatheOverlay({ name, open, onClose, still }: { name: string; o
       const s = (performance.now() - t0) / 1000
       setT(s)
       setCue(Math.floor(s / 4) % 2 === 0 ? 'in' : 'out')
-      if (s >= 60) { setCue("that's one minute"); window.clearInterval(id); window.setTimeout(onClose, 2500) }
+      if (s >= 60) { setCue("that's one minute"); window.clearInterval(id); window.setTimeout(() => onCloseRef.current(), 2500) }
     }, 250)
     return () => window.clearInterval(id)
-  }, [open, onClose])
+  }, [open])
   return (
     <dialog ref={ref} className="breathe-dialog" onClose={onClose} onClick={onClose} aria-label={`Breathe here: ${name}`}>
       <div className="breathe" onClick={(e) => e.stopPropagation()}>
