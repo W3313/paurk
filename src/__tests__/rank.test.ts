@@ -44,3 +44,18 @@ describe('layoutRadar', () => {
     expect(rings.length).toBeGreaterThan(0)
   })
 })
+
+describe('night weights', () => {
+  it('gives stargaze the full night bonus, without stacking on night', () => {
+    const stars: Spot = { ...base, id: 'x/s', vibes: ['stargaze'], bestTimes: ['golden-hour'] }
+    const nightStars: Spot = { ...base, id: 'x/n', vibes: ['night', 'stargaze'], bestTimes: ['night'] }
+    const ctx = { period: 'night' as const, raining: false, vibes: [], origin: null }
+    const a = rankSpots([stars], ctx)[0]
+    expect(a.reasons).toContain('stargaze')
+    expect(a.score).toBeCloseTo(1.8 + 3 - 2)
+    const b = rankSpots([nightStars], ctx)[0]
+    expect(b.reasons).toContain('night')
+    expect(b.reasons).not.toContain('stargaze')
+    expect(b.score).toBeCloseTo(1.8 + 3)
+  })
+})

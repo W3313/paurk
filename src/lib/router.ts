@@ -50,6 +50,8 @@ export function startRouter() {
     applying = true
     setState(r ?? { mode: 'sky', citySlug: null, spotId: null })
     applying = false
+    const canonical = hashFor()
+    if (location.hash !== canonical) history.replaceState(null, '', canonical)
   }
   apply()
   window.addEventListener('hashchange', apply)

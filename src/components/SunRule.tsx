@@ -68,7 +68,7 @@ export function SunRule({ cityName, timeZone, lat, lng, now, previewMinutes, onP
   const noon = instantAtLocalMinutes(now, timeZone, 720)
   const times = SunCalc.getTimes(noon, lat, lng)
   const at = (d: Date | null) => (valid(d) ? localMinutes(d, timeZone) : null)
-  const sunrise = at(times.sunrise), sunset = at(times.sunset), golden = at(times.goldenHour)
+  const sunrise = at(times.sunrise), sunset = at(times.sunset), golden = at(sunInfo(noon, { lat, lng }).goldenStart)
   const dawn = at(times.dawn), dusk = at(times.dusk)
   const noonAltitude = SunCalc.getPosition(noon, lat, lng).altitude
 

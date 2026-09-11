@@ -160,7 +160,7 @@ export class GlobeEngine {
   private fitDist = 3.4
   private velYaw = 0
   private velPitch = 0
-  private anim: { t0: number; dur: number; from: [number, number, number]; to: [number, number, number]; ease: (t: number) => number; done?: () => void } | null = null
+  private anim: { t0: number; dur: number; from: [number, number, number]; to: [number, number, number]; ease: (t: number) => number; done?: (arrived: boolean) => void } | null = null
   private pointers = new Map<number, { x: number; y: number }>()
   private drag: { t: number; moved: number; lastX: number; lastY: number; lastT: number } | null = null
   private pinchDist = 0
@@ -190,6 +190,7 @@ export class GlobeEngine {
   still: boolean
   coarse: boolean
   private tierIdle = true
+  private horizonScratch = new THREE.Color()
   private inkColor = new THREE.Color()
   private accentColor = new THREE.Color()
   private listbox: HTMLDivElement | null = null
@@ -215,13 +216,14 @@ export class GlobeEngine {
     this.scene.add(this.globe)
     const th = opts.theme
     const col = (c: string) => new THREE.Color(c)
+    const hz = this.horizonScratch
     this.inkColor.set(th.ink)
     this.accentColor.set(th.accent)
 
     this.sphereMat = new THREE.ShaderMaterial({
       vertexShader: SPHERE_VERT,
       fragmentShader: SPHERE_FRAG,
-      uniforms: { uSun: { value: new THREE.Vector3(0, 0, 1) }, uHorizon: { value: new THREE.Vector4(0.86, 0.86, 0.84, 0.2) }, uOcean: { value: col(th.ocean) }, uNight: { value: col(th.night) } },
+      uniforms: { uSun: { value: new THREE.Vector3(0, 0, 1) }, uHorizon: { value: new THREE.Vector4(...hz.setRGB(0.86, 0.86, 0.84, THREE.SRGBColorSpace).toArray(), 0.2) }, uOcean: { value: col(th.ocean) }, uNight: { value: col(th.night) } },
     })
     this.globe.add(new THREE.Mesh(new THREE.SphereGeometry(1, this.lite ? 64 : 96, this.lite ? 64 : 96), this.sphereMat))
 
@@ -320,8 +322,9 @@ export class GlobeEngine {
       opt.textContent = m.label
       this.listbox.appendChild(opt)
     }
+    this.listbox.id = 'tc-globe-cities'
     this.opts.container.appendChild(this.listbox)
-    this.renderer.domElement.setAttribute('aria-owns', '')
+    this.renderer.domElement.setAttribute('aria-owns', this.listbox.id)
     this.rings?.geometry.dispose(); this.discs?.geometry.dispose()
     ;(this.rings?.material as THREE.Material | undefined)?.dispose(); (this.discs?.material as THREE.Material | undefined)?.dispose()
     this.rings?.dispose(); this.discs?.dispose()
@@ -370,6 +373,8 @@ export class GlobeEngine {
       this.labelEls.set(user.id, el)
     } else this.userRing.visible = false
     this.userPos = user ? new THREE.Vector3(...latLngToVec3(user.lat, user.lng, 1)) : null
+    if (this.focused >= 0 && this.focused < this.markers.length) this.listbox.querySelector(`#${CSS.escape(`tc-city-${this.markers[this.focused].id}`)}`)?.setAttribute('aria-selected', 'true')
+    else if (this.focused >= this.markers.length) this.setFocusIndex(-1)
     this.wake()
   }
   private userPos: THREE.Vector3 | null = null
@@ -436,9 +441,10 @@ export class GlobeEngine {
     this.wake()
   }
 
-  /** rgba 0..1 mirrored from the page's --horizon. */
+  /** rgba 0..1 (sRGB, as on the page) mirrored from --horizon; decoded to the working colour space here. */
   setHorizon(r: number, g: number, b: number, a: number) {
-    ;(this.sphereMat.uniforms.uHorizon.value as THREE.Vector4).set(r, g, b, a)
+    const c = this.horizonScratch.setRGB(r, g, b, THREE.SRGBColorSpace)
+    ;(this.sphereMat.uniforms.uHorizon.value as THREE.Vector4).set(c.r, c.g, c.b, a)
     this.wake()
   }
 
@@ -555,7 +561,8 @@ export class GlobeEngine {
     return [-Math.atan2(x, z), clamp(Math.atan2(y, Math.hypot(x, z)), -PITCH_LIMIT, PITCH_LIMIT)]
   }
 
-  flyTo(lat: number, lng: number, zoom = 1.45, duration = 1800): Promise<void> {
+  /** Resolves true when the flight arrives, false when it is interrupted. */
+  flyTo(lat: number, lng: number, zoom = 1.45, duration = 1800): Promise<boolean> {
     const [ty, tp] = GlobeEngine.viewFor(lat, lng)
     const dy = norm(ty - this.yaw)
     this.velYaw = 0; this.velPitch = 0
@@ -568,7 +575,7 @@ export class GlobeEngine {
         this.yaw += dy; this.pitch = tp; this.zoom = clamp(zoom, MIN_ZOOM, MAX_ZOOM)
         this.opts.container.classList.add('is-crossfade')
         window.setTimeout(() => this.opts.container.classList.remove('is-crossfade'), 300)
-        resolve(); return
+        resolve(true); return
       }
       this.anim = { t0: performance.now(), dur: duration, from: [this.yaw, this.pitch, this.zoom], to: [this.yaw + dy, tp, clamp(zoom, MIN_ZOOM, MAX_ZOOM)], ease: quintic, done: resolve }
     })
@@ -578,7 +585,7 @@ export class GlobeEngine {
   private cancelAnim() {
     const a = this.anim
     this.anim = null
-    a?.done?.()
+    a?.done?.(false)
   }
 
   /** Set the orientation instantly (initial view). */
@@ -589,11 +596,11 @@ export class GlobeEngine {
   }
 
   /** Return to the sky: keep the current longitude, ease the zoom back. */
-  release(duration = 1400): Promise<void> {
+  release(duration = 1400): Promise<boolean> {
     this.cancelAnim()
     this.wake()
     return new Promise((resolve) => {
-      if (this.still || duration === 0) { this.zoom = SKY_ZOOM; resolve(); return }
+      if (this.still || duration === 0) { this.zoom = SKY_ZOOM; resolve(true); return }
       this.anim = { t0: performance.now(), dur: duration, from: [this.yaw, this.pitch, this.zoom], to: [this.yaw, clamp(this.pitch, -0.6, 0.6), SKY_ZOOM], ease: quintic, done: resolve }
     })
   }
@@ -718,7 +725,6 @@ export class GlobeEngine {
     const [ty, tp] = GlobeEngine.viewFor(m.lat, m.lng)
     this.cancelAnim()
     this.anim = { t0: performance.now(), dur: this.still ? 0 : 500, from: [this.yaw, this.pitch, this.zoom], to: [this.yaw + norm(ty - this.yaw), tp, this.zoom], ease: settle }
-    this.opts.onFocusMarker?.(m.id)
   }
 
   /** Roving focus for keyboard users: a hidden listbox mirrors the markers; the canvas points at the active option. */
@@ -857,7 +863,7 @@ export class GlobeEngine {
       this.yaw = from[0] + (to[0] - from[0]) * e
       this.pitch = from[1] + (to[1] - from[1]) * e
       this.zoom = from[2] + (to[2] - from[2]) * e
-      if (k >= 1) { const done = this.anim.done; this.anim = null; done?.() }
+      if (k >= 1) { const done = this.anim.done; this.anim = null; done?.(true) }
     } else if (!this.drag) {
       this.yaw += this.velYaw
       this.pitch = clamp(this.pitch + this.velPitch, -PITCH_LIMIT, PITCH_LIMIT)

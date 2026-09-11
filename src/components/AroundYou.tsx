@@ -32,7 +32,7 @@ export function AroundYou({ onChooseCity }: Props) {
         actions.setUserPos(here, 'granted', p.coords.accuracy)
         const near = nearestCity(here)
         const g = getGlobe()
-        if (g) await g.flyTo(here.lat, here.lng, 1.2, 2000)
+        if (g && !(await g.flyTo(here.lat, here.lng, 1.2, 2000))) return
         if (near.km <= 80) {
           setFar(null)
           if (g) g.select(near.city.slug); else actions.openCity(near.city.slug)
