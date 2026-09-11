@@ -124,7 +124,11 @@ function parseSchedule(text: string, sun: SunMin): Schedule | null {
       else {
         const range = parseRange(m[2], sun)
         if (!range) return null
-        for (const d of days) s.ranges[d].push(range)
+        // Two alternative windows for one day (seasonal or otherwise) are not a schedule we understand.
+        for (const d of days) {
+          if (s.ranges[d].some(([a, b]) => range[0] < b && a < range[1])) return null
+          s.ranges[d].push(range)
+        }
       }
     }
     carried = null
@@ -159,13 +163,21 @@ function evaluate(s: Schedule, day: number, min: number): HoursStatus {
  * `now` is an absolute instant, evaluated in `timeZone`. `sun` (e.g. a `SunInfo`) resolves `dawn–dusk` /
  * `sunrise to sunset`; without it those read as unknown. Never throws on garbage input.
  */
+/**
+ * Seasonal qualifiers mean the posted times change through the year, and the string only ever encodes
+ * one season. Guessing here produces a confident wrong "open now", so these read as unknown instead.
+ */
+const SEASONAL = /\b(?:winter|summer|spring|autumn|fall|seasonal(?:ly)?|by season|shorter|longer|jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)\b/i
+
 export function parseHours(text: string, now: Date, timeZone: string, sun?: Sun): HoursStatus {
+  const raw = String(text ?? '')
+  if (SEASONAL.test(raw)) return UNKNOWN
   const here = local(now, timeZone)
   if (!here) return UNKNOWN
   const sunMin: SunMin = {
     sunrise: sun?.sunrise ? (local(sun.sunrise, timeZone)?.min ?? null) : null,
     sunset: sun?.sunset ? (local(sun.sunset, timeZone)?.min ?? null) : null,
   }
-  const schedule = parseSchedule(normalise(String(text ?? '')), sunMin)
+  const schedule = parseSchedule(normalise(raw), sunMin)
   return schedule ? evaluate(schedule, here.day, here.min) : UNKNOWN
 }

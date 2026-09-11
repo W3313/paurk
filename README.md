@@ -41,6 +41,17 @@ Routing is hash-based, so there are no deep-link 404s and no catch-all redirect 
 emits `dist/_headers` on every build from the same policy it injects as a meta tag, so the Content-Security-Policy,
 referrer and caching rules travel with the build rather than living in a dashboard.
 
+What the first visit downloads, gzipped:
+
+| | |
+| --- | --- |
+| App and the data lists and ranking need | 170 KB |
+| Body font, self-hosted latin subsets | 34 KB |
+| Third-party font stylesheet | 0.8 KB |
+| Globe land data, delta-encoded and gzipped | 12.5 KB |
+| three.js and the globe engine, after first paint | 137 KB |
+| Blurbs, tips and sources, when a city is opened | 156 KB |
+
 To deploy by hand instead of connecting Git: `npm run build && npx wrangler pages deploy dist`.
 
 ## What it does

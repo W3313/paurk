@@ -9,6 +9,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 const root = resolve(__dirname, '..')
 const IN = resolve(root, 'data/research')
 const OUT = resolve(root, 'src/data/spots.json')
+const OUT_DETAILS = resolve(root, 'src/data/spot-details.json')
 const REPORT = resolve(root, 'data/research-report.md')
 
 const CATEGORIES = new Set(['park','garden','waterfront','viewpoint','beach','trail','plaza','rooftop','cafe','library','bookstore','museum','indoor','market','other'])
@@ -26,10 +27,25 @@ function km(aLat, aLng, bLat, bLng) {
 const slugify = (s) => s.toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
 const str = (v, max = 600) => (typeof v === 'string' ? v.trim().replace(/\s+/g, ' ').slice(0, max) : '')
 const num = (v) => (typeof v === 'number' && Number.isFinite(v) ? v : null)
+/** Like `str`, but never cuts a word in half: link labels are rendered verbatim as the link text. */
+const clipWords = (v, max) => {
+  const t = str(v, 10000)
+  return t.length <= max ? t : t.slice(0, max - 1).replace(/\s+\S*$/, '').trimEnd() + '…'
+}
+/**
+ * Code and data files in repositories are not provenance for a place: they are other people's seed
+ * data and notes. Travel writing that happens to live in a repository is kept.
+ */
+const isCodeArtifact = (u) =>
+  /(^|\.)(github|gitlab)\.com$/.test(u.hostname) &&
+  (/\.(ts|tsx|js|mjs|cjs|py|csv|json|ya?ml|sql)$/i.test(u.pathname) ||
+    /\/seed|\/knowledge[-_ ]?base\/|\/skills\/|[-_]kb\/|_research\.md$/i.test(u.pathname))
 
 const files = readdirSync(IN).filter((f) => f.endsWith('.json')).sort()
 const cities = []
 const spots = []
+/** Prose only ever shown on a spot page; kept out of the entry bundle (see src/data/index.ts). */
+const details = {}
 const report = []
 let dropped = 0
 
@@ -60,15 +76,19 @@ for (const file of files) {
       .filter((s) => s && typeof s.url === 'string' && s.url.length < 500 && !/[\s\x00-\x1f]/.test(s.url.trim()))
       .map((s) => { try { const u = new URL(s.url.trim()); return u.protocol === 'https:' || u.protocol === 'http:' ? { ...s, url: u.href, host: u.hostname } : null } catch { return null } })
       .filter(Boolean)
+      .filter((s) => { try { return !isCodeArtifact(new URL(s.url)) } catch { return false } })
       .slice(0, 4)
-      .map((s) => ({ url: s.url, label: str(s.label, 90) || s.host, kind: ['reddit','forum','blog','press','official','other'].includes(s.kind) ? s.kind : 'other' }))
+      .map((s) => ({ url: s.url, label: clipWords(s.label, 90) || s.host, kind: ['reddit','forum','blog','press','official','other'].includes(s.kind) ? s.kind : 'other' }))
     if (sources.some((s) => s.kind === 'reddit' || /reddit\.com/.test(s.url))) reddit++
+    const note = (raw.safety?.note ?? '').trim().replace(/\s+/g, ' ')
+    if (note.length > 400) throw new Error(`${slug}/${key}: safety note is ${note.length} chars; raise the cap rather than truncating the mitigation away`)
     const level = raw.safety?.level === 'caution' ? 'caution' : 'ok'
     if (level === 'caution') cautions++
     const wikipediaTitle = typeof raw.wikipediaTitle === 'string' && raw.wikipediaTitle.trim() ? raw.wikipediaTitle.trim().replace(/_/g, ' ') : null
     if (wikipediaTitle) wiki++
     seen.add(key)
     kept++
+    details[`${slug}/${key}`] = { blurb: str(raw.blurb, 700), tips: str(raw.tips, 400), sources }
     spots.push({
       id: `${slug}/${key}`,
       city: slug,
@@ -76,8 +96,6 @@ for (const file of files) {
       neighborhood: str(raw.neighborhood, 80),
       category,
       vibes,
-      blurb: str(raw.blurb, 700),
-      tips: str(raw.tips, 400),
       bestTimes: bestTimes.length ? bestTimes : ['afternoon'],
       indoor: raw.indoor === true,
       free: raw.free === true,
@@ -86,8 +104,8 @@ for (const file of files) {
       lng: +lng.toFixed(5),
       coordConfidence: ['high','medium','low'].includes(raw.coordConfidence) ? raw.coordConfidence : 'low',
       wikipediaTitle,
-      sources,
-      safety: { level, note: str(raw.safety?.note, 240) },
+      sourceCount: sources.length,
+      safety: { level, note: str(raw.safety?.note, 400) },
       lowkeyScore: Math.min(5, Math.max(1, Math.round(num(raw.lowkeyScore) ?? 3))),
       verified: raw.verified !== false,
     })
@@ -102,5 +120,9 @@ cities.sort((a, b) => a.name.localeCompare(b.name))
 spots.sort((a, b) => a.city.localeCompare(b.city) || b.lowkeyScore - a.lowkeyScore || a.name.localeCompare(b.name))
 mkdirSync(dirname(OUT), { recursive: true })
 writeFileSync(OUT, JSON.stringify({ cities, spots }, null, 0))
+writeFileSync(OUT_DETAILS, JSON.stringify(details, null, 0))
 writeFileSync(REPORT, `# Research report\n\nGenerated from ${files.length} city files. ${spots.length} spots across ${cities.length} cities; ${dropped} dropped by validation.\n\n${report.join('\n')}\n`)
-console.log(`dataset: ${cities.length} cities, ${spots.length} spots (${dropped} dropped) -> src/data/spots.json`)
+const kb = (p) => Math.round(readFileSync(p, 'utf8').length / 1024)
+console.log(`dataset: ${cities.length} cities, ${spots.length} spots (${dropped} dropped)`)
+console.log(`  src/data/spots.json        ${kb(OUT)} KB  (bundled: what lists and ranking need)`)
+console.log(`  src/data/spot-details.json ${kb(OUT_DETAILS)} KB  (lazy chunk: blurb, tips, sources)`)

@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import type { City, LatLng, Spot } from '../types'
+import type { City, LatLng, Spot, SpotDetail } from '../types'
+import { loadDetails } from '../data'
 import { actions, useStore } from '../store'
 import { SpotImage } from './SpotImage'
 import { TakeCare } from './TakeCare'
@@ -20,6 +21,15 @@ export function SpotPage({ spot, city, now, sun, origin, originIsReal, mobile }:
   const still = useStore((s) => s.still)
   const nameRef = useRef<HTMLHeadingElement>(null)
   const [breathe, setBreathe] = useState(false)
+  // The prose lives in its own chunk (see src/data/index.ts); CityColumn starts the fetch on arrival,
+  // so by the time a row is tapped this is usually already resolved.
+  const [detail, setDetail] = useState<SpotDetail | null>(null)
+  useEffect(() => {
+    let alive = true
+    setDetail(null)
+    void loadDetails().then((all) => { if (alive) setDetail(all[spot.id] ?? { blurb: '', tips: '', sources: [] }) })
+    return () => { alive = false }
+  }, [spot.id])
   useEffect(() => { nameRef.current?.focus({ preventScroll: true }) }, [spot.id])
   useEffect(() => { focusGlobeTick(city, spot); return () => focusGlobeTick(city, null) }, [city, spot])
 
@@ -57,9 +67,9 @@ export function SpotPage({ spot, city, now, sun, origin, originIsReal, mobile }:
       <h2 className="spot-name" id="spot-name" ref={nameRef} tabIndex={-1}>{spot.name}</h2>
       <p className="small">{[spot.neighborhood, spot.category, spot.indoor ? 'indoor' : 'outdoor', spot.free ? 'free' : 'paid'].filter(Boolean).join(' · ')}{spot.coordConfidence === 'low' ? ' · location approximate' : ''}</p>
       <p className={good ? 'moss' : 'ink2'} style={{ fontSize: 'var(--t-small)' }}>{nowLine.join(' · ')}{originIsReal ? '' : ''}</p>
-      <p className="blurb">{spot.blurb}</p>
+      {detail ? <p className="blurb">{detail.blurb}</p> : <p className="blurb ink2">…</p>}
       {night && care}
-      {spot.tips && <p className="pull">{spot.tips}</p>}
+      {detail?.tips && <p className="pull">{detail.tips}</p>}
       <section className="section">
         <h3 className="h3">best at</h3>
         <p>{spot.bestTimes.map((t, i) => <span key={t}>{i > 0 && ' · '}<span className={t === currentTime ? 'hit' : ''} style={t === currentTime ? { textDecoration: 'underline', textDecorationColor: 'var(--accent)', textUnderlineOffset: '.25em' } : undefined}>{TIME_WORDS[t]}</span></span>)}</p>
@@ -69,11 +79,11 @@ export function SpotPage({ spot, city, now, sun, origin, originIsReal, mobile }:
         <p><span className="mono">{spot.hours}</span>{' · '}<span className={hours.status === 'open' ? 'moss' : 'ink2'}>{hours.confidence === 'high' ? (hours.status === 'open' ? 'open now' : 'closed now') : 'see hours'}</span></p>
       </section>
       {!night && care}
-      {spot.sources.length > 0 && (
+      {(detail ? detail.sources.length > 0 : spot.sourceCount > 0) && (
         <section className="section">
           <h3 className="h3">sources</h3>
           <ul className="sources">
-            {spot.sources.map((src) => (
+            {(detail?.sources ?? []).map((src) => (
               <li key={src.url}><span className="kind">{src.kind}</span><a className="word word--small" href={src.url} target="_blank" rel="noreferrer">{src.label}</a></li>
             ))}
           </ul>

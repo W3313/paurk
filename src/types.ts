@@ -18,8 +18,6 @@ export interface Spot {
   neighborhood: string
   category: Category
   vibes: Vibe[]
-  blurb: string
-  tips: string
   bestTimes: BestTime[]
   indoor: boolean
   free: boolean
@@ -28,7 +26,8 @@ export interface Spot {
   lng: number
   coordConfidence: 'high' | 'medium' | 'low'
   wikipediaTitle: string | null
-  sources: Source[]
+  /** How many sources the spot page will show once the detail chunk loads. */
+  sourceCount: number
   safety: { level: 'ok' | 'caution'; note: string }
   lowkeyScore: number
   /** false when the independent review stage did not run for this spot */
@@ -46,6 +45,9 @@ export interface City {
   spotCount: number
   verified: boolean
 }
+
+/** The prose half of a spot, loaded on demand: it is two thirds of the corpus and only the spot page shows it. */
+export interface SpotDetail { blurb: string; tips: string; sources: Source[] }
 
 export interface Dataset { cities: City[]; spots: Spot[] }
 

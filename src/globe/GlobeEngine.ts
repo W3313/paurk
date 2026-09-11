@@ -1,6 +1,7 @@
 import * as THREE from 'three'
 import { geoInterpolate } from 'd3-geo'
 import { latLngToVec3, subsolarPoint } from '../lib/geo'
+import { loadDots } from './loadDots'
 
 /**
  * The porcelain globe from docs/DESIGN.md §4: a matte ball on paper that catches the page's
@@ -275,10 +276,8 @@ export class GlobeEngine {
   // ---------- data ----------
   private async loadDots(url: string) {
     try {
-      const res = await fetch(url)
-      const buf = await res.arrayBuffer()
+      const data = await loadDots(url)
       if (this.disposed) return
-      const data = new Int16Array(buf)
       const stride = this.lite ? 2 : 1
       const n = Math.floor(data.length / 2 / stride)
       const pos = new Float32Array(n * 3), phase = new Float32Array(n), reveal = new Float32Array(n)

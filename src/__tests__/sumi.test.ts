@@ -11,8 +11,6 @@ const base: Spot = {
   neighborhood: 'Graça',
   category: 'viewpoint',
   vibes: ['view', 'sunset'],
-  blurb: '',
-  tips: '',
   bestTimes: ['golden-hour'],
   indoor: false,
   free: true,
@@ -21,7 +19,7 @@ const base: Spot = {
   lng: -9.131,
   coordConfidence: 'high',
   wikipediaTitle: null,
-  sources: [],
+  sourceCount: 0,
   safety: { level: 'ok', note: '' },
   lowkeyScore: 0.8, verified: true,
 }
