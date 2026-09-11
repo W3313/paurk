@@ -22,8 +22,26 @@ npm run shots      # headless Chromium screenshots + 44px tap-target check (need
 npm run build:data # regenerate src/data/spots.json and public/globe-dots.bin from data/research and world-atlas
 ```
 
-Deploys to GitHub Pages from `main` via `.github/workflows/deploy.yml` (set `VITE_BASE` when the site is served
-from a sub-path).
+## Deploy
+
+Built for **Cloudflare Pages**. Connect the repository once and every push to `main` deploys; other branches get
+their own preview URL.
+
+| Setting | Value |
+| --- | --- |
+| Build command | `npm run build` |
+| Build output directory | `dist` |
+| Production branch | `main` |
+| Node version | pinned to 22 by `.node-version` |
+
+Leave `VITE_BASE` unset: the site is served from the root of a domain, and `base` already defaults to `/`. Set it
+only when serving from a sub-path (`VITE_BASE=/truechiller/ npm run build` for a GitHub Pages project site).
+
+Routing is hash-based, so there are no deep-link 404s and no catch-all redirect rule is needed. `vite.config.ts`
+emits `dist/_headers` on every build from the same policy it injects as a meta tag, so the Content-Security-Policy,
+referrer and caching rules travel with the build rather than living in a dashboard.
+
+To deploy by hand instead of connecting Git: `npm run build && npx wrangler pages deploy dist`.
 
 ## What it does
 
@@ -35,7 +53,7 @@ from a sub-path).
 | **Ranking** | "Right now" scoring: period of day × weather (Open-Meteo, keyless, optional) × your chosen vibes × distance × hours confidence. Every top pick explains itself in one line starting with *because*. At night, spots with a caution note sink below *better in daylight*. |
 | **Spot page** | A deterministic *Sumi poster* is painted first; a photograph from the spot's Wikipedia article loads over it when one exists (fetched in your browser from Wikipedia's public API, with a Commons attribution link). Blurb, tip, best times, hours (*open now* only when the hours are unambiguous, otherwise *see hours*), *take care* note, sources, save, share, *breathe here*. |
 | **Stones** | Saved spots (localStorage) grouped by city; the globe fills the disc of cities that hold stones. |
-| **Access** | Every control is an underlined word with a 44 px hit box (checked in CI by `scripts/qa/screenshot.mjs`); native dialogs; one polite live region; reduced-motion (*still*) mode; paper and slate themes; 4.5:1 text contrast under every horizon colour. |
+| **Access** | Every control is an underlined word with a 44 px hit box (checked by `npm run shots`); native dialogs; one polite live region; reduced-motion (*still*) mode; paper and slate themes; 4.5:1 text contrast under every horizon colour. |
 
 ## How the spots were gathered
 
