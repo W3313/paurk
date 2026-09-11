@@ -12,11 +12,12 @@ const fold = (s: string) => s.toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g
 /** Native dialog: type a city, or pick from the regions (spec §6.4). The no-WebGL and no-location path. */
 export function CityDialog({ open, onClose, onPick, current, now }: Props) {
   const ref = useRef<HTMLDialogElement>(null)
+  const inputRef = useRef<HTMLInputElement>(null)
   const [q, setQ] = useState('')
   useEffect(() => {
     const d = ref.current
     if (!d) return
-    if (open && !d.open) { setQ(''); d.showModal() }
+    if (open && !d.open) { setQ(''); d.showModal(); inputRef.current?.focus() }
     if (!open && d.open) d.close()
   }, [open])
   const guess = useMemo(() => guessCity(cities, now), [now])
@@ -35,7 +36,7 @@ export function CityDialog({ open, onClose, onPick, current, now }: Props) {
     <dialog ref={ref} onClose={onClose} aria-label="Choose a city" onClick={(e) => { if (e.target === e.currentTarget) onClose() }}>
       <div className="dialog">
         <button type="button" className="word word--quiet dialog-close" onClick={onClose}>close</button>
-        <input className="search" type="search" placeholder="type a city" value={q} onChange={(e) => setQ(e.target.value)} autoFocus aria-label="Type a city" />
+        <input ref={inputRef} className="search" type="search" placeholder="type a city" value={q} onChange={(e) => setQ(e.target.value)} aria-label="Type a city" />
         {!q && guess && (
           <p className="small">guess: {guess.name} (from your clock) · <button type="button" className="word word--small" onClick={() => onPick(guess.slug)}>open {guess.name}</button></p>
         )}

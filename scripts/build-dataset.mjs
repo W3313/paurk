@@ -57,9 +57,11 @@ for (const file of files) {
     if (raw.free === true && !vibes.includes('free')) vibes.push('free')
     if (raw.indoor === true && !vibes.includes('rain-ok')) vibes.push('rain-ok')
     const sources = (raw.sources ?? [])
-      .filter((s) => s && typeof s.url === 'string' && /^https?:\/\//.test(s.url))
+      .filter((s) => s && typeof s.url === 'string' && s.url.length < 500 && !/[\s\x00-\x1f]/.test(s.url.trim()))
+      .map((s) => { try { const u = new URL(s.url.trim()); return u.protocol === 'https:' || u.protocol === 'http:' ? { ...s, url: u.href, host: u.hostname } : null } catch { return null } })
+      .filter(Boolean)
       .slice(0, 4)
-      .map((s) => ({ url: s.url.trim(), label: str(s.label, 90) || new URL(s.url).hostname, kind: ['reddit','forum','blog','press','official','other'].includes(s.kind) ? s.kind : 'other' }))
+      .map((s) => ({ url: s.url, label: str(s.label, 90) || s.host, kind: ['reddit','forum','blog','press','official','other'].includes(s.kind) ? s.kind : 'other' }))
     if (sources.some((s) => s.kind === 'reddit' || /reddit\.com/.test(s.url))) reddit++
     const level = raw.safety?.level === 'caution' ? 'caution' : 'ok'
     if (level === 'caution') cautions++

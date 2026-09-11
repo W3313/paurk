@@ -46,14 +46,21 @@ const THEME_KEY = 'tc.theme.v1'
 const STILL_KEY = 'tc.still.v1'
 export const GEO_DENIED_KEY = 'tc.geo.denied'
 
-export function loadLS<T>(key: string, fallback: T): T {
+export function loadLS<T>(key: string, fallback: T, valid?: (v: unknown) => v is T): T {
   try {
     const v = localStorage.getItem(key)
-    return v === null ? fallback : (JSON.parse(v) as T)
+    if (v === null) return fallback
+    const parsed: unknown = JSON.parse(v)
+    if (valid) return valid(parsed) ? parsed : fallback
+    return parsed as T
   } catch {
     return fallback
   }
 }
+const isStringArray = (v: unknown): v is string[] => Array.isArray(v) && v.every((x) => typeof x === 'string' && x.length < 200)
+const isUnits = (v: unknown): v is 'metric' | 'imperial' => v === 'metric' || v === 'imperial'
+const isTheme = (v: unknown): v is Theme => v === 'paper' || v === 'slate' || v === 'auto'
+const isBool = (v: unknown): v is boolean => typeof v === 'boolean'
 export function saveLS(key: string, value: unknown) {
   try { localStorage.setItem(key, JSON.stringify(value)) } catch { /* storage unavailable */ }
 }
@@ -68,13 +75,13 @@ let state: State = {
   userPos: null,
   userAccuracyM: null,
   geoStatus: typeof navigator !== 'undefined' && !('geolocation' in navigator) ? 'unsupported' : 'idle',
-  savedIds: loadLS<string[]>(SAVED_KEY, []),
+  savedIds: loadLS<string[]>(SAVED_KEY, [], isStringArray),
   weather: null,
-  units: loadLS<'metric' | 'imperial'>(UNITS_KEY, typeof navigator !== 'undefined' && navigator.language === 'en-US' ? 'imperial' : 'metric'),
+  units: loadLS<'metric' | 'imperial'>(UNITS_KEY, typeof navigator !== 'undefined' && navigator.language === 'en-US' ? 'imperial' : 'metric', isUnits),
   previewMinutes: null,
   pinnedMinutes: null,
-  theme: loadLS<Theme>(THEME_KEY, 'auto'),
-  still: loadLS<boolean>(STILL_KEY, false) || prefersStill,
+  theme: loadLS<Theme>(THEME_KEY, 'auto', isTheme),
+  still: loadLS<boolean>(STILL_KEY, false, isBool) || prefersStill,
   ambient: false,
   notes: [],
   globeReady: false,

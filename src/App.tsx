@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { cities, cityBySlug, spotsByCity } from './data'
 import { actions, useStore, type Weather } from './store'
 import { distanceKm } from './lib/geo'
+import { nearestCity } from './components/AroundYou'
 import { useNow } from './hooks/useNow'
 import { useCityNow } from './hooks/useCityNow'
 import { useOnlineWatcher } from './hooks/useOnline'
@@ -93,12 +94,14 @@ export default function App() {
     else if (inCity) actions.sky()
   }, [inCity])
 
-  // Weather for the place on screen (you, when you are near the city; else the city centre), per place, once per 20 minutes.
+  // Weather for the city on screen (or the nearest city to you on the sky), once per 20 minutes per city.
+  // Only city-centre coordinates are ever sent; your own position never leaves the device.
   const weatherCache = useRef(new Map<string, Weather | null>())
-  const weatherKey = city ? (userPos && distanceKm(userPos, city) <= 80 ? `user:${city.slug}` : city.slug) : userPos ? 'user' : null
+  const weatherCity = city ?? (userPos ? nearestCity(userPos).city : null)
+  const weatherKey = weatherCity && (city || (userPos && distanceKm(userPos, weatherCity) <= 80)) ? weatherCity.slug : null
   useEffect(() => {
-    if (!weatherKey) { actions.setWeather(null); return }
-    const pos = weatherKey.startsWith('user') ? userPos! : city!
+    if (!weatherKey || !weatherCity) { actions.setWeather(null); return }
+    const pos = weatherCity
     const cached = weatherCache.current.get(weatherKey)
     actions.setWeather(cached && Date.now() - cached.fetchedAt < 20 * 60000 ? cached : null)
     if (cached && Date.now() - cached.fetchedAt < 20 * 60000) return
@@ -131,6 +134,7 @@ export default function App() {
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return
+      if (document.querySelector('dialog[open]')) return
       if (e.key === 'Escape') { if (document.documentElement.dataset.ambient !== undefined) actions.setAmbient(false); else if (mode === 'spot') actions.backToList(); else if (mode === 'city' || mode === 'stones') actions.sky() }
       else if (e.key === 'a' && !e.metaKey && !e.ctrlKey) actions.setAmbient(document.documentElement.dataset.ambient === undefined)
       else if (document.documentElement.dataset.ambient !== undefined) actions.setAmbient(false)
@@ -181,7 +185,7 @@ export default function App() {
             </aside>
           )}
         </main>
-        {mode !== 'sky' && <div className="vh"><MarginNote /></div>}
+        {(mode === 'spot' || mode === 'stones') && <div className="vh"><MarginNote /></div>}
       </div>
       <CityDialog open={cityOpen} onClose={() => setCityOpen(false)} current={citySlug} now={live}
         onPick={(slug) => { setCityOpen(false); const g = getGlobe(); if (g) g.select(slug); else actions.openCity(slug) }} />

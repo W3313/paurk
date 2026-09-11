@@ -228,7 +228,7 @@ html[data-still] .row.is-settling { animation: none; }
 .photo::after { content: ""; position: absolute; inset: 0; background: var(--bg); mix-blend-mode: multiply; opacity: 0; pointer-events: none; transition: opacity var(--d-micro); }
 .photo.has-photo:not(.is-original)::after { opacity: .18; }
 .attribution { font-family: var(--font-mono); font-size: var(--t-mono-s); color: var(--ink-2); letter-spacing: .02em; display: flex; flex-wrap: wrap; gap: 4px 16px; align-items: center; }
-.attribution .word { font-family: var(--font-mono); font-size: var(--t-mono-s); font-weight: 400; color: var(--ink-2); min-height: 32px; }
+.attribution .word { font-family: var(--font-mono); font-size: var(--t-mono-s); font-weight: 400; color: var(--ink-2); }
 .spot-name { font-family: var(--font-display); font-weight: 300; font-size: var(--t-display-l); line-height: 1.1; }
 .spot-name:focus { outline: none; }
 .blurb { max-width: 60ch; }
@@ -285,6 +285,11 @@ html[data-ambient] .header, html[data-ambient] .sky-text > :not(.plate):not(.pha
 
 /* ---------- hit-box safety: everything actionable ≥ 44px ---------- */
 a.row { min-height: 44px; }
+
+/* ---------- still: no motion beyond short fades ---------- */
+html[data-still] .city .stage, html[data-still] .globe-wrap, html[data-still] .needle, html[data-still] .loupe, html[data-still] .stone::after, html[data-still] .word { transition: none !important; }
+html[data-still] .photo img { transition-duration: 300ms; }
+html[data-still] .sheet, html[data-still] .column { scroll-behavior: auto; }
 
 /* ---------- print ---------- */
 @media print { .stage, .horizon, .sunrule, .header .words, .globe-wrap { display: none !important; } .column { height: auto; overflow: visible; } .row { page-break-inside: avoid; } .sources a::after { content: " (" attr(href) ")"; } }

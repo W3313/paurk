@@ -17,10 +17,24 @@ const TTL = 7 * 86400000
 type CacheEntry = { t: number; p: Photo | null }
 let mem: Record<string, CacheEntry> | null = null
 
+const WIKI_HOSTS = /^https:\/\/(upload\.wikimedia\.org|commons\.wikimedia\.org|[a-z-]+\.wikipedia\.org)\//
+const safeUrl = (u: unknown): u is string => typeof u === 'string' && u.length < 2000 && WIKI_HOSTS.test(u)
+function validEntry(e: unknown): e is CacheEntry {
+  if (!e || typeof e !== 'object') return false
+  const { t, p } = e as { t?: unknown; p?: unknown }
+  if (typeof t !== 'number') return false
+  if (p === null) return true
+  if (!p || typeof p !== 'object') return false
+  const ph = p as Partial<Photo>
+  return safeUrl(ph.src) && safeUrl(ph.pageUrl) && (ph.fileUrl === null || safeUrl(ph.fileUrl)) && typeof ph.width === 'number' && typeof ph.height === 'number'
+}
+
 function readCache(): Record<string, CacheEntry> {
   if (mem) return mem
   try {
-    mem = JSON.parse(localStorage.getItem(CACHE_KEY) ?? '{}') as Record<string, CacheEntry>
+    const raw: unknown = JSON.parse(localStorage.getItem(CACHE_KEY) ?? '{}')
+    mem = {}
+    if (raw && typeof raw === 'object') for (const [k, v] of Object.entries(raw as Record<string, unknown>)) if (validEntry(v)) mem[k] = v
   } catch {
     mem = {}
   }
@@ -58,7 +72,9 @@ export function fetchWikiPhoto(title: string, targetWidth = 900): Promise<Photo 
   const p: Promise<Photo | null | undefined> = (async () => {
     try {
       const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title.replace(/ /g, '_'))}`
-      const res = await fetch(url, { headers: { Accept: 'application/json' } })
+      const ac = new AbortController()
+      const timer = setTimeout(() => ac.abort(), 8000)
+      const res = await fetch(url, { headers: { Accept: 'application/json' }, signal: ac.signal }).finally(() => clearTimeout(timer))
       if (res.status === 404) return null
       if (!res.ok) throw new Error(String(res.status))
       const j = (await res.json()) as {
@@ -67,17 +83,19 @@ export function fetchWikiPhoto(title: string, targetWidth = 900): Promise<Photo 
         content_urls?: { desktop?: { page?: string } }
         title?: string
       }
-      if (!j.thumbnail) return null
+      if (!j.thumbnail || !safeUrl(j.thumbnail.source)) return null
       const w = Math.min(targetWidth, j.originalimage?.width ?? targetWidth)
       const scale = w / j.thumbnail.width
+      const page = j.content_urls?.desktop?.page
       const photo: Photo = {
         src: widen(j.thumbnail.source, w),
         width: w,
         height: Math.round(j.thumbnail.height * scale),
-        pageUrl: j.content_urls?.desktop?.page ?? `https://en.wikipedia.org/wiki/${encodeURIComponent(title.replace(/ /g, '_'))}`,
+        pageUrl: safeUrl(page) ? page : `https://en.wikipedia.org/wiki/${encodeURIComponent(title.replace(/ /g, '_'))}`,
         fileUrl: commonsFilePage(j.originalimage?.source ?? j.thumbnail.source),
         credit: 'Wikimedia Commons',
       }
+      if (!validEntry({ t: 0, p: photo })) return null
       return photo
     } catch {
       return undefined // transient: not cached

@@ -76,6 +76,7 @@ void main() {
   c = mix(c, uHorizon.rgb, h);
   c += (hash(gl_FragCoord.xy) - 0.5) * 0.025;
   gl_FragColor = vec4(c, 1.0);
+  #include <colorspace_fragment>
 }`
 const DOT_VERT = /* glsl */ `
 attribute float aPhase; attribute float aReveal;
@@ -98,6 +99,7 @@ void main() {
   float disc = smoothstep(0.5, 0.35, length(gl_PointCoord - 0.5));
   if (disc <= 0.01) discard;
   gl_FragColor = vec4(uLand, vAlpha * disc);
+  #include <colorspace_fragment>
 }`
 const HALO_VERT = /* glsl */ `
 varying vec3 vN; varying vec3 vView;
@@ -113,6 +115,7 @@ varying vec3 vN; varying vec3 vView;
 void main() {
   float d = clamp(-dot(normalize(vN), vView), 0.0, 1.0);
   gl_FragColor = vec4(uColor, uHalo * smoothstep(0.0, 0.34, d));
+  #include <colorspace_fragment>
 }`
 const ROUTE_VERT = /* glsl */ `
 attribute float aDist; varying float vDist;
@@ -123,6 +126,7 @@ void main() {
   float a = step(fract(vDist * 90.0), 0.5) * step(vDist, uProgress) * uAlpha;
   if (a <= 0.001) discard;
   gl_FragColor = vec4(uColor, a);
+  #include <colorspace_fragment>
 }`
 
 interface Route { line: THREE.Line; mat: THREE.ShaderMaterial; t0: number }
@@ -185,6 +189,10 @@ export class GlobeEngine {
   autoRotate = true
   still: boolean
   coarse: boolean
+  private tierIdle = true
+  private inkColor = new THREE.Color()
+  private accentColor = new THREE.Color()
+  private listbox: HTMLDivElement | null = null
 
   constructor(opts: GlobeOptions) {
     this.opts = opts
@@ -207,6 +215,8 @@ export class GlobeEngine {
     this.scene.add(this.globe)
     const th = opts.theme
     const col = (c: string) => new THREE.Color(c)
+    this.inkColor.set(th.ink)
+    this.accentColor.set(th.accent)
 
     this.sphereMat = new THREE.ShaderMaterial({
       vertexShader: SPHERE_VERT,
@@ -297,6 +307,21 @@ export class GlobeEngine {
     const user = markers.find((m) => m.kind === 'user')
     for (const el of this.labelEls.values()) el.remove()
     this.labelEls.clear()
+    this.listbox?.remove()
+    this.listbox = document.createElement('div')
+    this.listbox.className = 'vh'
+    this.listbox.setAttribute('role', 'listbox')
+    this.listbox.setAttribute('aria-label', 'Cities on the globe')
+    for (const m of markers.filter((x) => x.kind === 'city')) {
+      const opt = document.createElement('span')
+      opt.setAttribute('role', 'option')
+      opt.id = `tc-city-${m.id}`
+      opt.setAttribute('aria-selected', 'false')
+      opt.textContent = m.label
+      this.listbox.appendChild(opt)
+    }
+    this.opts.container.appendChild(this.listbox)
+    this.renderer.domElement.setAttribute('aria-owns', '')
     this.rings?.geometry.dispose(); this.discs?.geometry.dispose()
     ;(this.rings?.material as THREE.Material | undefined)?.dispose(); (this.discs?.material as THREE.Material | undefined)?.dispose()
     this.rings?.dispose(); this.discs?.dispose()
@@ -359,8 +384,7 @@ export class GlobeEngine {
 
   private writeInstances(force = false) {
     if (!this.rings || !this.discs) return
-    const th = this.opts.theme
-    const ink = new THREE.Color(th.ink), accent = new THREE.Color(th.accent)
+    const ink = this.inkColor, accent = this.accentColor
     let changed = force
     for (let i = 0; i < this.markers.length; i++) {
       const m = this.markers[i]
@@ -398,6 +422,8 @@ export class GlobeEngine {
 
   setTheme(theme: GlobeTheme) {
     this.opts.theme = theme
+    this.inkColor.set(theme.ink)
+    this.accentColor.set(theme.accent)
     ;(this.sphereMat.uniforms.uOcean.value as THREE.Color).set(theme.ocean)
     ;(this.sphereMat.uniforms.uNight.value as THREE.Color).set(theme.night)
     ;(this.dotMat.uniforms.uLand.value as THREE.Color).set(theme.land)
@@ -425,6 +451,7 @@ export class GlobeEngine {
 
   /** Where the sphere's centre sits in the container (fractions), via camera view offset. */
   setSeat(fx: number, fy: number) {
+    if (fx === this.seat[0] && fy === this.seat[1]) return
     this.seat = [fx, fy]
     this.applySeat()
     this.wake()
@@ -450,8 +477,9 @@ export class GlobeEngine {
   setTick(from: { lat: number; lng: number } | null, bearing: number | null) {
     if (!from || bearing === null) { this.tick.visible = false; this.wake(); return }
     const a = new THREE.Vector3(...latLngToVec3(from.lat, from.lng, 1.008))
-    const north = new THREE.Vector3(0, 1, 0).sub(a.clone().multiplyScalar(a.y)).normalize()
-    const east = new THREE.Vector3().crossVectors(north, a).normalize().negate()
+    const n = a.clone().normalize()
+    const north = new THREE.Vector3(0, 1, 0).sub(n.clone().multiplyScalar(n.y)).normalize()
+    const east = new THREE.Vector3().crossVectors(north, n).normalize()
     const dir = north.clone().multiplyScalar(Math.cos((bearing * Math.PI) / 180)).add(east.multiplyScalar(Math.sin((bearing * Math.PI) / 180)))
     const b = a.clone().add(dir.multiplyScalar(0.05))
     this.tick.geometry.setFromPoints([a, b])
@@ -661,14 +689,14 @@ export class GlobeEngine {
       switch (e.key) {
         case 'ArrowLeft': this.yaw -= step; break
         case 'ArrowRight': this.yaw += step; break
-        case 'ArrowUp': this.pitch = clamp(this.pitch + step, -PITCH_LIMIT, PITCH_LIMIT); break
-        case 'ArrowDown': this.pitch = clamp(this.pitch - step, -PITCH_LIMIT, PITCH_LIMIT); break
+        case 'ArrowUp': this.pitch = clamp(this.pitch - step, -PITCH_LIMIT, PITCH_LIMIT); break
+        case 'ArrowDown': this.pitch = clamp(this.pitch + step, -PITCH_LIMIT, PITCH_LIMIT); break
         case '+': case '=': this.zoomBy(1.18); break
         case '-': case '_': this.zoomBy(0.85); break
         case 'PageDown': case ']': this.cycleFocus(1); break
         case 'PageUp': case '[': this.cycleFocus(-1); break
         case 'Enter': case ' ': if (this.focused >= 0) this.select(this.markers[this.focused].id); break
-        case 'Escape': this.focused = -1; this.opts.onFocusMarker?.(null); this.select(null); break
+        case 'Escape': this.setFocusIndex(-1); this.select(null); break
         default: return
       }
       e.preventDefault()
@@ -676,16 +704,16 @@ export class GlobeEngine {
       this.writeInstances(true)
       this.wake()
     }, { signal: sig })
-    el.addEventListener('blur', () => { this.focused = -1; this.writeInstances(true); this.wake() }, { signal: sig })
+    el.addEventListener('blur', () => { this.setFocusIndex(-1); this.writeInstances(true); this.wake() }, { signal: sig })
     document.addEventListener('visibilitychange', () => this.wake(), { signal: sig })
   }
 
   private cycleFocus(dir: number) {
     if (!this.markers.length) return
     const order = this.markers.map((m, i) => ({ i, lng: m.lng })).sort((a, b) => a.lng - b.lng).map((o) => o.i)
-    const pos = order.indexOf(this.focused)
+    const pos = this.focused < 0 ? (dir > 0 ? -1 : order.length) : order.indexOf(this.focused)
     const next = order[(pos + dir + order.length) % order.length]
-    this.focused = next
+    this.setFocusIndex(next)
     const m = this.markers[next]
     const [ty, tp] = GlobeEngine.viewFor(m.lat, m.lng)
     this.cancelAnim()
@@ -693,12 +721,30 @@ export class GlobeEngine {
     this.opts.onFocusMarker?.(m.id)
   }
 
+  /** Roving focus for keyboard users: a hidden listbox mirrors the markers; the canvas points at the active option. */
+  private setFocusIndex(i: number) {
+    this.focused = i
+    const el = this.renderer.domElement
+    if (this.listbox) for (const opt of this.listbox.children) opt.setAttribute('aria-selected', 'false')
+    if (i >= 0) {
+      const id = `tc-city-${this.markers[i].id}`
+      el.setAttribute('aria-activedescendant', id)
+      this.listbox?.querySelector(`#${CSS.escape(id)}`)?.setAttribute('aria-selected', 'true')
+      this.opts.onFocusMarker?.(this.markers[i].id)
+    } else {
+      el.removeAttribute('aria-activedescendant')
+      this.opts.onFocusMarker?.(null)
+    }
+  }
+
   private tmp = new THREE.Vector3()
   private tmp2 = new THREE.Vector3()
-  private camDir = new THREE.Vector3(0, 0, 1)
+  private tmp3 = new THREE.Vector3()
   private project(n: THREE.Vector3): { x: number; y: number; facing: number } {
     const v = this.tmp.copy(n).applyMatrix4(this.globe.matrixWorld)
-    const facing = this.tmp2.copy(v).normalize().dot(this.camDir)
+    // Visible iff the surface normal faces the camera from this point (the perspective limb, not the axis).
+    const toCam = this.tmp2.copy(this.camera.position).sub(v).normalize()
+    const facing = this.tmp3.copy(v).normalize().dot(toCam)
     v.project(this.camera)
     const w = this.opts.container.clientWidth, h = this.opts.container.clientHeight
     return { x: (v.x * 0.5 + 0.5) * w, y: (-v.y * 0.5 + 0.5) * h, facing }
@@ -712,7 +758,7 @@ export class GlobeEngine {
     let best: string | null = null, bestD = r * r
     for (let i = 0; i < this.markers.length; i++) {
       const p = this.project(this.markerN[i])
-      if (p.facing < 0.05) continue
+      if (p.facing < 0.03) continue
       const d = (p.x - px) ** 2 + (p.y - py) ** 2
       if (d < bestD) { bestD = d; best = this.markers[i].id }
     }
@@ -727,7 +773,7 @@ export class GlobeEngine {
       const cands: { id: string; x: number; y: number; d: number }[] = []
       for (let i = 0; i < this.markers.length; i++) {
         const p = this.project(this.markerN[i])
-        if (p.facing < 0.15) continue
+        if (p.facing < 0.12) continue
         cands.push({ id: this.markers[i].id, x: p.x, y: p.y, d: (p.x - cx) ** 2 + (p.y - cy) ** 2 })
       }
       cands.sort((a, b) => a.d - b.d)
@@ -747,8 +793,8 @@ export class GlobeEngine {
       const el = this.labelEls.get(m.id)
       if (!el) continue
       const p = this.project(this.markerN[i])
-      const on = shown.has(m.id) && p.facing > 0.05 && p.x > 24 && p.x < w - 110
-      const fade = on ? clamp((p.facing - 0.15) / 0.35, 0, 1) : 0
+      const on = shown.has(m.id) && p.facing > 0.03 && p.x > 24 && p.x < w - 110
+      const fade = on ? clamp((p.facing - 0.05) / 0.3, 0, 1) : 0
       el.style.opacity = String(fade)
       el.style.pointerEvents = fade > 0.3 ? 'auto' : 'none'
       el.style.transform = `translate3d(${p.x.toFixed(1)}px, ${p.y.toFixed(1)}px, 0)`
@@ -758,7 +804,7 @@ export class GlobeEngine {
       const el = this.labelEls.get('user')
       if (el) {
         const p = this.project(this.userPos)
-        const fade = clamp((p.facing - 0.15) / 0.35, 0, 1)
+        const fade = clamp((p.facing - 0.05) / 0.3, 0, 1)
         el.style.opacity = String(fade)
         el.style.transform = `translate3d(${p.x.toFixed(1)}px, ${p.y.toFixed(1)}px, 0)`
       }
@@ -791,14 +837,14 @@ export class GlobeEngine {
     if (document.hidden || this.paused || !this.visible) return
     const now = performance.now()
     const animating = !!this.anim || !!this.drag || Math.abs(this.velYaw) > 1e-5 || Math.abs(this.velPitch) > 1e-5 || now < this.awake || (this.revealT0 !== null && now - this.revealT0 < 1600)
-    const idleMotion = !this.still && (this.autoRotate || this.ripple.visible || this.userRing.visible)
+    const idleMotion = !this.still && this.tierIdle && (this.autoRotate || this.ripple.visible || this.userRing.visible)
     if (!animating && !idleMotion && now - this.lastRender < 1000) return
     if (!animating && idleMotion && now - this.lastRender < 33) return
     const dt = Math.min(0.05, (now - this.lastFrame) / 1000)
     this.lastFrame = now
     this.lastRender = now
     const t = (now - this.t0) / 1000
-    const breath = this.still ? 0 : 0.5 - 0.5 * Math.cos((now * 2 * Math.PI) / BREATH_MS)
+    const breath = this.still || !this.tierIdle ? 0 : 0.5 - 0.5 * Math.cos((now * 2 * Math.PI) / BREATH_MS)
     this.dotMat.uniforms.uTime.value = t
     this.haloMat.uniforms.uHalo.value = 0.1 - 0.03 * breath
     if (this.revealT0 !== null && !this.still) this.dotMat.uniforms.uReveal.value = clamp((now - this.revealT0) / 1400, 0, 1)
@@ -819,7 +865,7 @@ export class GlobeEngine {
       if (Math.abs(this.velYaw) < 1e-5) this.velYaw = 0
       if (Math.abs(this.velPitch) < 1e-5) this.velPitch = 0
       const since = now - this.lastInteraction
-      if (this.autoRotate && !this.still && !this.selected && since > 8000 && this.pointers.size === 0) {
+      if (this.autoRotate && this.tierIdle && !this.still && !this.selected && since > 8000 && this.pointers.size === 0) {
         const ease = clamp((since - 8000) / 3000, 0, 1)
         this.yaw += 0.02 * dt * ease
       }
@@ -851,7 +897,7 @@ export class GlobeEngine {
       this.frameTimes.push(performance.now() - start)
       if (this.frameTimes.length === 90) {
         const mean = this.frameTimes.reduce((a, b) => a + b, 0) / 90
-        if (mean > 40 && this.lite) { this.autoRotate = false }
+        if (mean > 40 && this.lite) { this.tierIdle = false }
         else if (mean > 24 && !this.lite) { this.lite = true; this.renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 1.5)); this.resize() }
       }
     }
@@ -863,6 +909,7 @@ export class GlobeEngine {
     this.abort.abort()
     this.ro.disconnect()
     this.io?.disconnect()
+    this.listbox?.remove()
     for (const el of this.labelEls.values()) el.remove()
     this.labelEls.clear()
     this.renderer.dispose()
