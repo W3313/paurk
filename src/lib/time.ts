@@ -27,7 +27,7 @@ export function sunInfo(now: Date, pos: LatLng): SunInfo {
   const sunrise = valid(t.sunrise), sunset = valid(t.sunset)
   // Spec §7.2: golden hour is the last 90 minutes before sunset.
   const goldenStart = sunset ? new Date(sunset.getTime() - 90 * 60000) : null
-  const dawn = valid(t.dawn), dusk = valid(t.dusk), goldenEnd = valid(t.goldenHourEnd), noon = valid(t.solarNoon)
+  const dawn = valid(t.dawn), dusk = valid(t.dusk), noon = valid(t.solarNoon)
   const polar = !sunrise || !sunset
 
   let period: Period
@@ -35,15 +35,18 @@ export function sunInfo(now: Date, pos: LatLng): SunInfo {
     const h = now.getHours()
     period = h < 5 ? 'night' : h < 7 ? 'dawn' : h < 11 ? 'morning' : h < 14 ? 'midday' : h < 17 ? 'afternoon' : h < 19 ? 'golden' : h < 21 ? 'dusk' : 'night'
   } else {
+    // Bands are anchored to solar noon and sunset, not to SunCalc's golden-hour angles, so that
+    // "morning" covers the actual morning: sunrise .. noon-90, midday .. noon+90, then afternoon.
     const sr = sunrise as Date, ss = sunset as Date
+    const middayStart = noon ? new Date(noon.getTime() - 90 * 60000) : null
+    const middayEnd = noon ? new Date(noon.getTime() + 90 * 60000) : null
     if (dawn && now < dawn) period = 'night'
     else if (now < sr) period = 'dawn'
-    else if (goldenEnd && now < goldenEnd) period = 'morning'
-    else if (noon && now < new Date(noon.getTime() + 90 * 60000)) period = 'midday'
-    else if (goldenStart && now < goldenStart) period = 'afternoon'
-    else if (now < ss) period = 'golden'
-    else if (dusk && now < dusk) period = 'dusk'
-    else period = 'night'
+    else if (now >= ss) period = dusk && now < dusk ? 'dusk' : 'night'
+    else if (goldenStart && now >= goldenStart) period = 'golden'
+    else if (middayStart && now < middayStart) period = 'morning'
+    else if (middayEnd && now < middayEnd) period = 'midday'
+    else period = 'afternoon'
   }
 
   // Next-day lookups for countdowns after sunset.
