@@ -43,3 +43,38 @@ describe('instantAtLocalMinutes', () => {
     expect(info.period).toBe('golden')
   })
 })
+
+describe('period bands follow the sun, not the golden-hour angle', () => {
+  // Tokyo on 11 September 2026: sunrise 05:20, solar noon 11:38, sunset 17:54 local.
+  const tokyo = { lat: 35.68, lng: 139.69 }
+  const at = (localHour: number, localMin = 0) => new Date(Date.UTC(2026, 8, 11, localHour - 9, localMin, 0))
+  it('calls the actual morning "morning"', () => {
+    expect(sunInfo(at(6), tokyo).period).toBe('morning')
+    expect(sunInfo(at(8), tokyo).period).toBe('morning')
+    expect(sunInfo(at(9, 30), tokyo).period).toBe('morning')
+  })
+  it('keeps midday around solar noon and afternoon after it', () => {
+    expect(sunInfo(at(11), tokyo).period).toBe('midday')
+    expect(sunInfo(at(12), tokyo).period).toBe('midday')
+    expect(sunInfo(at(13), tokyo).period).toBe('midday')
+    expect(sunInfo(at(14), tokyo).period).toBe('afternoon')
+    expect(sunInfo(at(16), tokyo).period).toBe('afternoon')
+  })
+  it('still ends the day with golden, dusk and night', () => {
+    expect(sunInfo(at(17), tokyo).period).toBe('golden')
+    expect(sunInfo(at(18), tokyo).period).toBe('dusk')
+    expect(sunInfo(at(20), tokyo).period).toBe('night')
+    expect(sunInfo(at(4), tokyo).period).toBe('night')
+    expect(sunInfo(at(5), tokyo).period).toBe('dawn')
+  })
+  it('never reports midday or afternoon after sunset, even on a short winter day', () => {
+    const reykjavik = { lat: 64.15, lng: -21.94 }
+    for (let h = 0; h < 24; h++) {
+      const p = sunInfo(new Date(Date.UTC(2026, 11, 15, h, 0, 0)), reykjavik).period
+      const alt = sunInfo(new Date(Date.UTC(2026, 11, 15, h, 0, 0)), reykjavik)
+      if (alt.sunset && new Date(Date.UTC(2026, 11, 15, h, 0, 0)) >= alt.sunset) {
+        expect(['dusk', 'night']).toContain(p)
+      }
+    }
+  })
+})

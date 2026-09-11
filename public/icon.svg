@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="TrueChiller">
+  <rect width="512" height="512" fill="#F4F1EA"/>
+  <circle cx="256" cy="248" r="150" fill="#EDE9E0" stroke="#6B685F" stroke-width="3"/>
+  <g fill="#6B685F" opacity="0.75">
+    <circle cx="196" cy="176" r="5"/><circle cx="232" cy="164" r="5"/><circle cx="268" cy="180" r="5"/>
+    <circle cx="180" cy="222" r="5"/><circle cx="220" cy="212" r="5"/><circle cx="258" cy="226" r="5"/><circle cx="300" cy="210" r="5"/>
+    <circle cx="196" cy="268" r="5"/><circle cx="238" cy="262" r="5"/><circle cx="282" cy="272" r="5"/><circle cx="322" cy="256" r="5"/>
+    <circle cx="216" cy="312" r="5"/><circle cx="258" cy="318" r="5"/><circle cx="300" cy="306" r="5"/>
+    <circle cx="246" cy="356" r="5"/><circle cx="288" cy="348" r="5"/>
+  </g>
+  <circle cx="336" cy="176" r="22" fill="#C8553D"/>
+</svg>

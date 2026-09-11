@@ -1,6 +1,6 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import type { City, LatLng } from '../types'
-import { spotsByCity } from '../data'
+import { loadDetails, spotsByCity } from '../data'
 import { actions, useStore } from '../store'
 import type { SunInfo } from '../lib/time'
 import { formatClock, localMinutes } from '../lib/time'
@@ -32,6 +32,8 @@ export function CityColumn({ city, now, live, sun, preview, origin, originIsReal
   const accuracy = useStore((s) => s.userAccuracyM)
   const [hot, setHot] = useState<string | null>(null)
   const heading = useHeading()
+  // Opening a city is a strong signal a spot page is next, so warm the prose chunk now.
+  useEffect(() => { void loadDetails() }, [])
   const ctx = useRankContext(city, now, sun, origin)
   const ranked = useMemo(() => rankSpots(spots, ctx), [spots, ctx])
   const good = ranked.filter((r) => r.reasons.length > 0 && r.hours?.status !== 'closed').length

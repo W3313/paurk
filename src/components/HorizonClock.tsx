@@ -25,7 +25,7 @@ export function HorizonClock({ sun, mobile }: Props) {
   useEffect(() => {
     const root = document.documentElement
     const dark = theme === 'slate' || (theme === 'auto' && matchMedia('(prefers-color-scheme: dark)').matches)
-    if (dark) root.dataset.theme = 'slate'; else delete root.dataset.theme
+    root.dataset.theme = dark ? 'slate' : 'paper'
   }, [theme])
   useEffect(() => { const r = document.documentElement; if (still) r.dataset.still = ''; else delete r.dataset.still }, [still])
   useEffect(() => { const r = document.documentElement; if (ambient) r.dataset.ambient = ''; else delete r.dataset.ambient }, [ambient])

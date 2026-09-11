@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { geoOrthographic, geoPath } from 'd3-geo'
 import type { GlobeMarker } from '../globe/GlobeEngine'
 import { getState } from '../store'
+import { loadDots } from '../globe/loadDots'
 
 interface Props { markers: GlobeMarker[]; dotsUrl: string; onSelect: (id: string) => void; selected: string | null }
 
@@ -12,8 +13,8 @@ export function Globe2D({ markers, dotsUrl, onSelect, selected }: Props) {
   const [dots, setDots] = useState<[number, number][]>([])
   const [size, setSize] = useState(300)
   useEffect(() => {
-    fetch(dotsUrl).then((r) => r.arrayBuffer()).then((b) => {
-      const a = new Int16Array(b); const out: [number, number][] = []
+    loadDots(dotsUrl).then((a) => {
+      const out: [number, number][] = []
       for (let i = 0; i < a.length / 2; i += 3) out.push([a[i * 2 + 1] / 100, a[i * 2] / 100])
       setDots(out)
     }).catch(() => {})

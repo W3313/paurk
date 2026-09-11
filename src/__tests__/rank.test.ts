@@ -4,9 +4,9 @@ import { layoutRadar } from '../lib/radar'
 import type { Spot } from '../types'
 
 const base: Spot = {
-  id: 'x/a', city: 'x', name: 'A', neighborhood: '', category: 'park', vibes: ['quiet'], blurb: '', tips: '',
+  id: 'x/a', city: 'x', name: 'A', neighborhood: '', category: 'park', vibes: ['quiet'],
   bestTimes: ['afternoon'], indoor: false, free: true, hours: '24h', lat: 0, lng: 0, coordConfidence: 'high',
-  wikipediaTitle: null, sources: [], safety: { level: 'ok', note: '' }, lowkeyScore: 3, verified: true,
+  wikipediaTitle: null, sourceCount: 0, safety: { level: 'ok', note: '' }, lowkeyScore: 3, verified: true,
 }
 const park = { ...base }
 const cafe: Spot = { ...base, id: 'x/b', name: 'B', category: 'cafe', indoor: true, vibes: ['cozy', 'rain-ok'], lat: 0.01, lng: 0.01 }

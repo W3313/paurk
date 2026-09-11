@@ -4,6 +4,7 @@ import { actions, useStore } from '../store'
 import { useNow } from '../hooks/useNow'
 import { sunInfo } from '../lib/time'
 import { rankSpots, type Context } from '../lib/rank'
+import { distanceKm } from '../lib/geo'
 import { parseHours } from '../lib/hours'
 import { SpotRow } from './SpotRow'
 
@@ -11,6 +12,7 @@ import { SpotRow } from './SpotRow'
 export function StonesPage() {
   const ids = useStore((s) => s.savedIds)
   const origin = useStore((s) => s.userPos)
+  const accuracy = useStore((s) => s.userAccuracyM)
   const now = useNow()
   const groups = useMemo(() => {
     const m = new Map<string, string[]>()
@@ -29,13 +31,16 @@ export function StonesPage() {
         const city = cityBySlug.get(slug)
         if (!city) return null
         const sun = sunInfo(now, city)
-        const ctx: Context = { period: sun.period, raining: false, vibes: [], origin, hours: (s) => parseHours(s.hours, now, city.timezone, { sunrise: sun.sunrise, sunset: sun.sunset }) }
+        // Distances are only real when you are actually near that city, as on the city screen.
+        const near = !!origin && distanceKm(origin, city) <= 80 && (accuracy === null || accuracy < 50000)
+        const from = near ? origin : null
+        const ctx: Context = { period: sun.period, raining: false, vibes: [], origin: from, hours: (s) => parseHours(s.hours, now, city.timezone, { sunrise: sun.sunrise, sunset: sun.sunset }) }
         const ranked = rankSpots(sids.map((id) => spotById.get(id)!).filter(Boolean), ctx)
         return (
           <section key={slug} className="section">
             <h2 className="display" style={{ fontSize: 'var(--t-display-m)' }}><a className="word word--display" href={`#/c/${slug}`} onClick={(e) => { e.preventDefault(); actions.openCity(slug) }}>{city.name}</a></h2>
             <ul className="rows" role="list">
-              {ranked.map((r, i) => <SpotRow key={r.spot.id} ranked={r} city={city} now={now} sun={sun} ctx={ctx} origin={origin} originIsReal={!!origin} index={i} />)}
+              {ranked.map((r, i) => <SpotRow key={r.spot.id} ranked={r} city={city} now={now} sun={sun} ctx={ctx} origin={from} originIsReal={near} index={i} />)}
             </ul>
           </section>
         )

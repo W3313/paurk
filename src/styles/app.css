@@ -1,3 +1,59 @@
+/*
+ * Zen Kaku Gothic New, latin and latin-ext subsets only, self-hosted.
+ * Requesting this family from Google Fonts pulls a 87.7 KB gzipped render-blocking stylesheet, because
+ * the family ships 363 @font-face rules to cover Japanese. The app only ever sets latin text in it
+ * (city names in the dataset need latin-ext: Ōsaka, Turkish, Czech, Nordic), so these six faces,
+ * 34 KB in total, replace all of it. Regenerate with scripts/fetch-fonts.mjs.
+ */
+@font-face {
+  font-family: 'Zen Kaku Gothic New';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/fonts/zen-kaku-300-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Zen Kaku Gothic New';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/fonts/zen-kaku-300-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Zen Kaku Gothic New';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/zen-kaku-400-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Zen Kaku Gothic New';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/zen-kaku-400-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Zen Kaku Gothic New';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/zen-kaku-500-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Zen Kaku Gothic New';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/zen-kaku-500-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
 /* TrueChiller — "Exhale" (docs/DESIGN.md). One paper, one ink, one seal-red mark. */
 
 /* ---------- tokens ---------- */
@@ -30,6 +86,23 @@
   --globe-ocean: #2A2B2E; --globe-night: #1F2022; --globe-land: #EDE9E0; --globe-shadow: rgba(0, 0, 0, 0.35);
   --h-night: rgba(20, 22, 30, 0.45); --h-dawn: rgba(214, 170, 160, 0.22); --h-morning: rgba(200, 208, 214, 0.16);
   --h-midday: rgba(220, 220, 214, 0.10); --h-afternoon: rgba(214, 206, 192, 0.14); --h-golden: rgba(232, 185, 138, 0.26); --h-dusk: rgba(150, 140, 168, 0.22);
+}
+
+/*
+ * The same values again, so a dark-scheme visitor is painted dark by the render-blocking stylesheet
+ * rather than flashing cream until React mounts. HorizonClock stamps data-theme="paper" when the user
+ * has chosen light, which is what this :not() excludes. Kept identical by src/__tests__/theme.test.ts.
+ */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="paper"]) {
+  color-scheme: dark;
+  --bg: #1D1D1A; --well: #262622; --hairline: #3A3A35; --ink: #EDE9E0; --ink-2: #B3AEA3;
+  --accent: #C8553D; --accent-ink: #E4826B; --caution: #C9A84E; --moss: #9DB88F;
+  --globe-ocean: #2A2B2E; --globe-night: #1F2022; --globe-land: #EDE9E0; --globe-shadow: rgba(0, 0, 0, 0.35);
+  --h-night: rgba(20, 22, 30, 0.45); --h-dawn: rgba(214, 170, 160, 0.22); --h-morning: rgba(200, 208, 214, 0.16);
+  --h-midday: rgba(220, 220, 214, 0.10); --h-afternoon: rgba(214, 206, 192, 0.14); --h-golden: rgba(232, 185, 138, 0.26); --h-dusk: rgba(150, 140, 168, 0.22);
+  }
+  :root:not([data-theme="paper"]) .horizon { mix-blend-mode: screen; }
 }
 @property --horizon { syntax: '<color>'; inherits: true; initial-value: rgba(220, 220, 214, .2); }
 @property --breath { syntax: '<number>'; inherits: true; initial-value: 0; }
@@ -293,3 +366,6 @@ html[data-still] .sheet, html[data-still] .column { scroll-behavior: auto; }
 
 /* ---------- print ---------- */
 @media print { .stage, .horizon, .sunrule, .header .words, .globe-wrap { display: none !important; } .column { height: auto; overflow: visible; } .row { page-break-inside: avoid; } .sources a::after { content: " (" attr(href) ")"; } }
+
+/* ---------- crash ---------- */
+.crash { min-height: 100dvh; display: grid; align-content: center; justify-items: start; gap: var(--s-4); padding: var(--gutter); max-width: 60ch; margin: 0 auto; }

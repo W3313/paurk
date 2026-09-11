@@ -13,7 +13,7 @@ const require = createRequire(import.meta.url)
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const root = resolve(__dirname, '..')
 
-const N = Number(process.env.GLOBE_DOTS ?? 42000)
+const N = Number(process.env.GLOBE_DOTS ?? 80000) // tuned for the dot density in docs/DESIGN.md §4.2
 const topo = JSON.parse(readFileSync(require.resolve('world-atlas/land-50m.json'), 'utf8'))
 const landFc = topojson.feature(topo, topo.objects.land)
 const land = landFc.type === "FeatureCollection" ? landFc.features[0] : landFc
@@ -46,7 +46,22 @@ for (let i = 0; i < N; i++) {
   const lng = (Math.atan2(z, x) * 180) / Math.PI
   if (onLand(lng, lat)) out.push(Math.round(lat * 100), Math.round(lng * 100))
 }
+// Delta-encode: neighbouring Fibonacci-sphere points are close, so successive differences are small
+// and highly compressible, where the absolute coordinates are near-random int16 noise.
+// Int16Array's modular store makes this exactly reversible even when a delta exceeds the range.
+let prevLat = 0, prevLng = 0
+for (let i = 0; i < out.length; i += 2) {
+  const lat = out[i], lng = out[i + 1]
+  out[i] = lat - prevLat
+  out[i + 1] = lng - prevLng
+  prevLat = lat; prevLng = lng
+}
 const buf = new Int16Array(out)
 mkdirSync(resolve(root, 'public'), { recursive: true })
 writeFileSync(resolve(root, 'public/globe-dots.bin'), Buffer.from(buf.buffer))
-console.log(`globe dots: sampled ${N}, kept ${out.length / 2} land points -> public/globe-dots.bin (${buf.byteLength} bytes)`)
+// Ship a gzipped copy too: Cloudflare does not compress application/octet-stream, and the browser
+// can inflate this itself with DecompressionStream. The plain file stays as the fallback.
+const { gzipSync } = await import('node:zlib')
+const gz = gzipSync(Buffer.from(buf.buffer), { level: 9 })
+writeFileSync(resolve(root, 'public/globe-dots.bin.gz'), gz)
+console.log(`globe dots: sampled ${N}, kept ${out.length / 2} land points -> public/globe-dots.bin (${buf.byteLength} B) + .gz (${gz.length} B)`)

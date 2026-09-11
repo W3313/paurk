@@ -114,3 +114,22 @@ describe('parseHours day-only schedules', () => {
     expect(parseHours('Mon-Fri 9-5, Sat', now, 'Europe/Lisbon').confidence).toBe('low')
   })
 })
+
+describe('parseHours refuses to guess', () => {
+  const now = new Date('2026-09-10T11:00:00Z')
+  const tz = 'Europe/Lisbon'
+  it('treats two alternative windows for one day as not understood', () => {
+    // Copenhagen and Buenos Aires both ship a string of this shape; merging them invented a wider day.
+    expect(parseHours('7am-10pm, 7am-7pm', now, tz)).toEqual({ status: 'unknown', confidence: 'low' })
+    expect(parseHours('8am-8pm, 8am-6pm', now, tz)).toEqual({ status: 'unknown', confidence: 'low' })
+  })
+  it('still understands disjoint and adjoining windows', () => {
+    expect(parseHours('9am-12pm, 2pm-6pm', now, tz).confidence).toBe('high')
+    expect(parseHours('9am-12pm, 12pm-8pm', now, tz).confidence).toBe('high')
+  })
+  it('treats a seasonal schedule as not understood rather than guessing a season', () => {
+    for (const s of ['7am-10pm (May-Sep), 8am-8pm (Oct-Apr)', 'Daily 6am-10pm in summer', '9am-5pm, shorter in winter']) {
+      expect(parseHours(s, now, tz)).toEqual({ status: 'unknown', confidence: 'low' })
+    }
+  })
+})
