@@ -173,7 +173,7 @@ html[data-still] .city-name.is-writing { animation: none; }
   .panel::before { content: ""; position: absolute; top: 12px; left: 50%; width: 32px; height: 3px; margin-left: -16px; background: var(--hairline); }
   .panel .column { padding-top: var(--s-8); }
   .panel-sticky { position: sticky; top: 0; z-index: var(--z-sticky); background: color-mix(in srgb, var(--bg) 92%, transparent); padding: var(--s-3) var(--gutter); margin: 0 calc(-1 * var(--gutter)); }
-  .paperweight { position: fixed !important; top: calc(8px + env(safe-area-inset-top)); left: calc(100vw - 80px - env(safe-area-inset-right)); width: 100vw; height: 38vh !important; transform: scale(0.16); transform-origin: top left; z-index: var(--z-paperweight) !important; cursor: pointer; }
+  .paperweight { position: fixed !important; top: calc(var(--header-h) + 8px + env(safe-area-inset-top)); left: calc(100vw - 80px - env(safe-area-inset-right)); width: 100vw; height: 38vh !important; transform: scale(0.16); transform-origin: top left; z-index: var(--z-paperweight) !important; cursor: pointer; }
   .paperweight .veil, .paperweight .globe-shadow { display: none; }
   .paperweight .globe-wrap { pointer-events: none; }
   .paperweight .tc-globe-canvas { outline: 2px solid var(--hairline); outline-offset: 0; }

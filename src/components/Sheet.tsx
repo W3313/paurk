@@ -9,7 +9,7 @@ export function Sheet({ children, sticky, fullOnMount, bare = false }: { childre
     const el = ref.current
     if (!el) return
     const H = el.clientHeight
-    const tops = [0, 0.37 * H, 0.76 * H]
+    const tops = [0, 0.27 * H, 0.66 * H]
     el.scrollTo({ top: tops[n], behavior: document.documentElement.dataset.still !== undefined ? 'auto' : 'smooth' })
   }
   useEffect(() => {
@@ -18,7 +18,7 @@ export function Sheet({ children, sticky, fullOnMount, bare = false }: { childre
     let raf = 0
     const onScroll = () => {
       cancelAnimationFrame(raf)
-      raf = requestAnimationFrame(() => actions.setSheetProgress(Math.max(0, Math.min(1, el.scrollTop / (0.76 * el.clientHeight)))))
+      raf = requestAnimationFrame(() => actions.setSheetProgress(Math.max(0, Math.min(1, el.scrollTop / (0.66 * el.clientHeight)))))
     }
     el.addEventListener('scroll', onScroll, { passive: true })
     return () => { el.removeEventListener('scroll', onScroll); cancelAnimationFrame(raf) }
@@ -27,7 +27,7 @@ export function Sheet({ children, sticky, fullOnMount, bare = false }: { childre
   useEffect(() => () => actions.setSheetProgress(0), [])
   return (
     <div className="sheet" ref={ref} data-sheet>
-      <div className="sheet-spacer" style={{ height: '37dvh' }} aria-hidden="true" />
+      <div className="sheet-spacer" style={{ height: '27dvh' }} aria-hidden="true" />
       <div className="sheet-spacer" style={{ height: '39dvh' }} aria-hidden="true" />
       <div className="sheet-spacer" style={{ height: '6dvh' }} aria-hidden="true" />
       <section className="panel" aria-label="Details">
