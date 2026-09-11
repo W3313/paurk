@@ -55,8 +55,8 @@ export function CityColumn({ city, now, live, sun, preview, origin, originIsReal
         {!mobile && <p><button type="button" className="word word--quiet" onClick={() => actions.sky()}>← sky</button></p>}
         <h2 className={`city-name${!mobile ? ' is-writing' : ''}`}>{originIsReal && far <= 80 ? <span className="small" style={{ display: 'block' }}>around you</span> : null}{city.name}</h2>
         <p className="small">{city.country}</p>
-        <PlateCaption parts={[city.name.toLowerCase(), `${spots.length} places`, formatClock(now, city.timezone), sun ? undefined : null]} />
-        <PhaseLine text={phaseLine(now, sun, city.timezone, { preview, offline: !online, weather })} />
+        {!mobile && <PlateCaption parts={[city.name.toLowerCase(), `${spots.length} places`, formatClock(now, city.timezone)]} />}
+        {!mobile && <PhaseLine text={phaseLine(now, sun, city.timezone, { preview, offline: !online, weather })} />}
         {preview && <p className="small">showing {formatClock(now, city.timezone)} · <button type="button" className="word word--small" onClick={() => actions.setPreview(null)}>back to now</button></p>}
       </div>
       <SunRule cityName={city.name} timeZone={city.timezone} lat={city.lat} lng={city.lng} now={live}
