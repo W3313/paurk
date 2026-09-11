@@ -1,0 +1,554 @@
+{
+  "city": "Austin",
+  "country": "United States",
+  "slug": "austin",
+  "region": "americas",
+  "cityLat": 30.2672,
+  "cityLng": -97.7431,
+  "timezone": "America/Chicago",
+  "searchesRun": [
+    "Umlauf Sculpture Garden and Museum wikipedia",
+    "Ann and Roy Butler Hike-and-Bike Trail wikipedia",
+    "Mayfield Park Austin peacocks wikipedia",
+    "Waterloo Park Austin Texas wikipedia",
+    "Secret Beach Roy Guerrero Park Austin safety encampment swimming"
+  ],
+  "redditSourcedNotes": "Nothing here is reddit-sourced. The researcher's nine reddit/local queries never executed (search budget exhausted upstream), so the draft came from prior knowledge with empty sources. The verify stage had a budget of 5 searches, all spent: they confirmed the Umlauf Wikipedia article (en.wikipedia.org/wiki/Umlauf_Sculpture_Garden_and_Museum), returned NO English Wikipedia article URL for the Butler Trail, Mayfield Park or Waterloo Park (titles set to null rather than guessed), and surfaced official/press pages for those spots plus Secret Beach, which are attached as sources. Wikipedia titles for Mount Bonnell, Austin Central Library and Elisabet Ney Museum are kept on reviewer knowledge (high confidence) and could not be re-searched. Pennybacker Bridge Overlook was dropped on safety grounds (unfenced cliff edge, informal steep path, highway-shoulder crossing). Secret Beach is kept as a daylight-only caution spot: search results confirm swimming is prohibited because Longhorn Dam releases raise the river quickly, and note trash/glass from nearby encampments. Hours for cafes, museums and the library are best-effort and flagged to check.",
+  "spots": [
+    {
+      "name": "Mount Bonnell (Covert Park)",
+      "neighborhood": "West Austin / Mount Bonnell Rd",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "sunset",
+        "sunrise",
+        "water",
+        "free",
+        "group",
+        "walk",
+        "picnic",
+        "skyline"
+      ],
+      "blurb": "A limestone bluff at about 775 feet above sea level, roughly 200 feet over the Colorado River (Lake Austin), reached by a short flight of stone steps, with the Hill Country stacking up to the west. People sit on the low walls with a coffee and watch the light change over the water and the houses on the far bank. It is one of the city's oldest lookouts and everyone knows it, but on a weekday morning it is just you, a few runners and the wind.",
+      "tips": "Sunset draws a crowd, so arrive 45 minutes early or come at sunrise instead; the quieter walls are south of the pavilion along the ridge path. Park closes at 10pm and the small lot fills fast on weekends.",
+      "bestTimes": [
+        "golden-hour",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "5am-10pm",
+      "lat": 30.3211,
+      "lng": -97.7734,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Mount Bonnell",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Busy, well-trodden public park; stone steps are uneven, and the park closes at 10pm."
+      },
+      "lowkeyScore": 1,
+      "verified": true,
+      "verifyNote": "Wikipedia title kept on reviewer knowledge (search budget spent). Elevation wording corrected: 775 ft is above sea level, not above the river."
+    },
+    {
+      "name": "Mayfield Park and Nature Preserve",
+      "neighborhood": "Old West Austin / W 35th St",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "green",
+        "hidden",
+        "solo",
+        "free",
+        "walk",
+        "picnic"
+      ],
+      "blurb": "A 1920s cottage with walled lily ponds, palms and stone paths, plus a small woodland preserve running down toward Lake Austin, gifted to the city in 1971 by the Mayfield-Gutsch family. Free-roaming peacocks, descended from a pair given to the family in the 1930s, wander the garden and roost in the trees, which is most of the entertainment. Locals sit on a bench by the ponds to read, or loop the short shaded trails when Zilker feels like too much.",
+      "tips": "Enter through the stone gate on W 35th St next to Laguna Gloria; the benches by the back pond are the quietest. Mornings are calmest, and the peacocks are loudest in spring; do not feed them.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Daily 5am-10pm; cottage gardens best in daylight",
+      "lat": 30.3133,
+      "lng": -97.7716,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.austintexas.gov/parks/locations/mayfield-park",
+          "label": "Austin Parks and Recreation: Mayfield Park",
+          "kind": "official"
+        },
+        {
+          "url": "https://mayfieldpark.org/",
+          "label": "Mayfield Park (community site)",
+          "kind": "official"
+        },
+        {
+          "url": "https://austin.com/park-profile-mayfield-park/",
+          "label": "Austin.com park profile: Mayfield Park",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Quiet residential park; gardens are best visited in daylight and the trails are unlit."
+      },
+      "lowkeyScore": 4,
+      "verified": true,
+      "verifyNote": "Existence and peacock history confirmed by search; no English Wikipedia article URL surfaced, so title left null."
+    },
+    {
+      "name": "Austin Central Library Rooftop Garden",
+      "neighborhood": "Downtown / Seaholm",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "study",
+        "view",
+        "skyline",
+        "solo",
+        "free",
+        "quiet",
+        "cozy"
+      ],
+      "blurb": "The six-story downtown library has a planted rooftop garden with lounge chairs looking over Lady Bird Lake and Shoal Creek, plus open-air reading porches on several floors. Inside there are hundreds of seats in the daylit atrium, a cafe and a quiet reading room, so you can move between sun and air conditioning all afternoon. It is one of the few places downtown where you can sit for hours without buying anything.",
+      "tips": "Take the elevator to the top floor for the roof; the west-facing chairs get the sunset over the lake. Weekday mid-afternoons are calm, weekends fill with families; parking in the garage is paid, the trail entrance from Shoal Creek is free.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Thu 10am-9pm, Fri-Sat 10am-6pm, Sun 12-6pm (check site)",
+      "lat": 30.2649,
+      "lng": -97.7527,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Austin Central Library",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building with security; the surrounding Seaholm district is well lit at night."
+      },
+      "lowkeyScore": 3,
+      "verified": true,
+      "verifyNote": "Wikipedia title kept on reviewer knowledge. Coordinates nudged west to the Cesar Chavez / Shoal Creek block."
+    },
+    {
+      "name": "Lady Bird Lake Boardwalk (Butler Trail)",
+      "neighborhood": "East Riverside / South Shore",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "skyline",
+        "night",
+        "walk",
+        "sunset",
+        "sunrise",
+        "free",
+        "people-watch",
+        "view"
+      ],
+      "blurb": "A 1.3-mile stretch of the Ann and Roy Butler Hike-and-Bike Trail, completed in 2014, that hangs out over the water on concrete piers from the I-35 bridge east to Lakeshore Park. Benches and small overlooks face the downtown skyline across the lake, and the boardwalk is lit after dark, so it works for an evening walk or an early morning sit with the rowers going by. The steady flow of joggers keeps it feeling populated without feeling busy.",
+      "tips": "Start from the Lakeshore Blvd or International Shores lot for easy parking and the calmest section; the overlook platforms near the middle have the best skyline framing at dusk. Bring bug spray in summer.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 30.249,
+      "lng": -97.728,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.austintexas.gov/department/ann-and-roy-butler-hike-and-bike-trail-and-boardwalk-lady-bird-lake",
+          "label": "Austin Parks and Recreation: Butler Trail and Boardwalk",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.tclf.org/landscapes/ann-and-roy-butler-hike-and-bike-trail",
+          "label": "The Cultural Landscape Foundation: Butler Hike-and-Bike Trail",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "The boardwalk itself is lit and steadily used, but the wider trail has had isolated assaults reported on its quieter, unlit stretches after dark in recent years. Late in the evening stay on the lit boardwalk near other walkers, and skip the unlit trail segments beyond Lakeshore Park."
+      },
+      "lowkeyScore": 3,
+      "verified": true,
+      "verifyNote": "Trail and boardwalk confirmed via official page; no Wikipedia article URL surfaced in search, title set to null. Safety raised to caution for the unlit trail sections after dark."
+    },
+    {
+      "name": "Mueller Lake Park",
+      "neighborhood": "Mueller",
+      "category": "park",
+      "vibes": [
+        "water",
+        "night",
+        "group",
+        "people-watch",
+        "walk",
+        "free",
+        "sunset",
+        "picnic",
+        "green"
+      ],
+      "blurb": "A roughly 30-acre park built around a small lake at the heart of the Mueller redevelopment, with a looped path, a wide lawn sloping to the water and a pier where people sit with their feet dangling. It is a neighborhood living room: dog walkers, toddlers, and folks reading on blankets, with restaurants and a Sunday farmers market a block away. The lake reflects the sunset and the paths stay lit into the evening.",
+      "tips": "The stone amphitheater steps and the pier are the best sit spots; the lawn gets busy on weekend afternoons, so aim for a weekday evening. Street parking on Mueller Blvd and the nearby garages.",
+      "bestTimes": [
+        "golden-hour",
+        "night",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "5am-10pm",
+      "lat": 30.2985,
+      "lng": -97.705,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Well-lit paths surrounded by apartments and restaurants; comfortable to walk alone in the evening."
+      },
+      "lowkeyScore": 3,
+      "verified": true,
+      "verifyNote": "Kept on reviewer knowledge; not re-searched (budget spent)."
+    },
+    {
+      "name": "Elisabet Ney Museum",
+      "neighborhood": "Hyde Park",
+      "category": "museum",
+      "vibes": [
+        "quiet",
+        "hidden",
+        "green",
+        "solo",
+        "free",
+        "rain-ok",
+        "cozy"
+      ],
+      "blurb": "The castle-like limestone studio of 19th-century sculptor Elisabet Ney, now a free city museum tucked into a residential block of Hyde Park, sitting in a couple of acres of restored prairie and shaded lawn. Inside it is hushed and cool, full of plaster busts and tall windows; outside there are benches under old trees and a small creek along the edge. It is rarely busy, which is the point.",
+      "tips": "The grounds are open even when the building is closed, so come any daylight hour with a book; the bench on the shaded south lawn is the best. Museum interior is free and generally open Wed-Sun afternoons.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Museum Wed-Sun 12-5pm (check site); grounds daylight",
+      "lat": 30.3062,
+      "lng": -97.727,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Elisabet Ney Museum",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Quiet residential neighborhood; grounds are unlit after dark."
+      },
+      "lowkeyScore": 4,
+      "verified": true,
+      "verifyNote": "Wikipedia title kept on reviewer knowledge (high confidence); hours flagged to check."
+    },
+    {
+      "name": "Secret Beach (Roy G. Guerrero Park)",
+      "neighborhood": "East Austin / Montopolis",
+      "category": "beach",
+      "vibes": [
+        "water",
+        "hidden",
+        "sunset",
+        "picnic",
+        "group",
+        "free",
+        "walk"
+      ],
+      "blurb": "A sandy bend of the Colorado River downstream of Longhorn Dam, reached by a 10-15 minute dirt trail through the woods of Roy G. Guerrero Colorado River Metro Park. Locals bring a towel and a book, sit on the sand, and watch herons and the occasional kayak drift by; there is no sign, no lifeguard and no infrastructure. Swimming is prohibited here because dam releases can raise the water fast, so treat it as a riverbank to sit on rather than a place to swim.",
+      "tips": "Park at the Grove Blvd lot and follow the main trail toward the river; wear shoes you can get muddy and watch for broken glass. Go in daylight, bring water and bug spray, keep out of the water when the level is rising (releases are often around midday), and pack out everything.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Park 5am-10pm; daylight only (unlit)",
+      "lat": 30.2455,
+      "lng": -97.706,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.timeout.com/austin/attractions/secret-beach-at-roy-g-guerrero-park",
+          "label": "Time Out Austin: Secret Beach at Roy G. Guerrero Park",
+          "kind": "press"
+        },
+        {
+          "url": "https://do512family.com/swimming-in-austin-2/",
+          "label": "Do512 Family: Austin's Secret Beach",
+          "kind": "blog"
+        },
+        {
+          "url": "https://freefuninaustin.com/secret-beach-new-roy-g-guerrero-park/",
+          "label": "Free Fun in Austin: Secret Beach and Roy G. Guerrero Park",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Unlit, unsigned wooded trail with no staff, and Longhorn Dam releases can raise the river quickly; swimming is prohibited. Visit in daylight with a friend, stay on the sand, and expect some trash and glass from nearby encampments."
+      },
+      "lowkeyScore": 4,
+      "verified": true,
+      "verifyNote": "Existence confirmed by search; sources confirm swimming is illegal here due to dam releases and note encampment debris, so the blurb and tips were rewritten and the spot is daylight-only caution. 'solo' vibe removed."
+    },
+    {
+      "name": "Mozart's Coffee Roasters",
+      "neighborhood": "Lake Austin Blvd / Tarrytown",
+      "category": "cafe",
+      "vibes": [
+        "water",
+        "night",
+        "cozy",
+        "sunset",
+        "people-watch",
+        "study",
+        "rain-ok",
+        "group"
+      ],
+      "blurb": "A big, rambling coffeehouse on the shore of Lake Austin with a multi-level wooden deck under oak trees right at the water's edge. People bring laptops and books and stay for hours, watching boats and ducks, and after dark the deck is strung with lights and stays open late. It is a rare Austin waterfront spot that costs only the price of a coffee.",
+      "tips": "Grab a table on the lowest deck level for the water; weekday mornings and late weeknights are calm, while the winter holiday light show packs it. Parking is shared with Hula Hut and tight on weekends.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Daily from 7am until late evening (roughly 11pm-midnight; check site)",
+      "lat": 30.2958,
+      "lng": -97.7835,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Busy, staffed venue with a lit deck and parking lot late into the evening."
+      },
+      "lowkeyScore": 3,
+      "verified": true,
+      "verifyNote": "Kept on reviewer knowledge; not re-searched (budget spent). Hours flagged to check."
+    },
+    {
+      "name": "Epoch Coffee (North Loop)",
+      "neighborhood": "North Loop",
+      "category": "cafe",
+      "vibes": [
+        "night",
+        "study",
+        "cozy",
+        "rain-ok",
+        "solo",
+        "people-watch"
+      ],
+      "blurb": "A scruffy, beloved coffeehouse on North Loop Blvd that has long been Austin's study hall, with mismatched furniture, a shaded patio and a crowd of students, writers and night-shift workers. Nobody minds if you nurse one drink for four hours. It was famous for being open around the clock, and late nights are still when it feels most itself.",
+      "tips": "The patio out back is quieter than the front room; bring a charger since outlets are contested. Hours have shifted since 2020, so confirm the current late-night schedule before a 2am visit.",
+      "bestTimes": [
+        "night",
+        "morning"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Long hours, historically 24h; check current schedule",
+      "lat": 30.3184,
+      "lng": -97.7279,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed and populated whenever open; North Loop Blvd is a lit commercial strip."
+      },
+      "lowkeyScore": 3,
+      "verified": true,
+      "verifyNote": "Kept on reviewer knowledge; 24-hour claim softened because current hours are unconfirmed."
+    },
+    {
+      "name": "Doug Sahm Hill (Butler Park)",
+      "neighborhood": "South Central / Bouldin",
+      "category": "viewpoint",
+      "vibes": [
+        "skyline",
+        "sunset",
+        "sunrise",
+        "view",
+        "free",
+        "picnic",
+        "walk",
+        "people-watch",
+        "night"
+      ],
+      "blurb": "A grassy, man-made hill in Butler Park with a spiral path up to a paved plaza at the top and a full-width view of the downtown skyline across Lady Bird Lake. It is where South Austinites go to lie in the grass at golden hour and watch the towers light up, without the crowds at Auditorium Shores a few hundred yards east. The park's splash pad and pond sit at the base.",
+      "tips": "Come up the spiral path from the Barton Springs Rd side; the north-facing slope has the skyline. The Palmer Events Center garage is paid during events; otherwise the Pfluger pedestrian bridge from downtown or the Butler Trail is the easiest way in.",
+      "bestTimes": [
+        "golden-hour",
+        "morning",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "5am-10pm",
+      "lat": 30.2612,
+      "lng": -97.7538,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Open, lit park next to the Long Center and Palmer Events Center; steady foot traffic until closing."
+      },
+      "lowkeyScore": 3,
+      "verified": true,
+      "verifyNote": "Kept on reviewer knowledge; 'compass-rose' detail removed as unconfirmed."
+    },
+    {
+      "name": "Umlauf Sculpture Garden and Museum",
+      "neighborhood": "Zilker / Barton Hills",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "green",
+        "solo",
+        "walk",
+        "cozy",
+        "hidden"
+      ],
+      "blurb": "A shaded garden of bronze figures by sculptor Charles Umlauf spread along a hillside with a small pond and a modest gallery, at 605 Azie Morton Rd behind Zilker Park's south edge. Paths wind between live oaks and the sculptures, and there are benches where you can sit for an hour hearing only water and cicadas. It is a few minutes from Barton Springs but a world quieter.",
+      "tips": "Come mid-morning on a weekday for near-solitude; the benches by the pond at the bottom of the hill are the best. Small admission fee; check the site for current hours and free-day programs.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "Tue-Sun, roughly 10am-4pm (check site)",
+      "lat": 30.2618,
+      "lng": -97.77,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Umlauf Sculpture Garden and Museum",
+      "sources": [
+        {
+          "url": "https://www.umlaufsculpture.org/visit",
+          "label": "UMLAUF Sculpture Garden + Museum: Visit",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.tclf.org/landscapes/umlauf-sculpture-garden-museum",
+          "label": "The Cultural Landscape Foundation: UMLAUF Sculpture Garden",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, gated garden open daytime only."
+      },
+      "lowkeyScore": 4,
+      "verified": true,
+      "verifyNote": "Wikipedia article confirmed by search (en.wikipedia.org/wiki/Umlauf_Sculpture_Garden_and_Museum)."
+    },
+    {
+      "name": "Waterloo Park",
+      "neighborhood": "Downtown / Waterloo Greenway",
+      "category": "park",
+      "vibes": [
+        "night",
+        "skyline",
+        "green",
+        "walk",
+        "free",
+        "people-watch",
+        "quiet"
+      ],
+      "blurb": "An 11-acre park along Waller Creek on the east side of downtown, reopened in 2021 after a decade-long rebuild, with a Hill Country garden, winding stone paths, a raised skywalk loop and a big lawn under the Moody Amphitheater canopy. When no concert is on it is calm: office workers eat lunch on the terraces, and in the evening the lit paths and the view of the Capitol dome make it an easy night stroll. The upper garden trails are the quiet part.",
+      "tips": "Enter from 12th St or Red River; the skywalk and the benches in the Hill Country garden on the north side are the calmest. Check the amphitheater schedule, since concert nights close parts of the park.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Daily, roughly 5am-10pm (check site; parts close on concert nights)",
+      "lat": 30.2723,
+      "lng": -97.7358,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://waterloogreenway.org/visit-waterloo-park/",
+          "label": "Waterloo Greenway Conservancy: Visit Waterloo Park",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.austintexas.org/austin-insider-blog/blog/post/waterloo-park-and-moody-amphitheater/",
+          "label": "Visit Austin: Waterloo Park and Moody Amphitheater",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit paths and regular park staff presence; bordered by the medical district and the Capitol complex."
+      },
+      "lowkeyScore": 3,
+      "verified": true,
+      "verifyNote": "Existence, size and 2021 reopening confirmed by search; no Wikipedia article URL for the park surfaced (only 'Waterloo, Texas'), title left null."
+    },
+    {
+      "name": "UT Austin Turtle Pond",
+      "neighborhood": "University of Texas campus",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "hidden",
+        "solo",
+        "study",
+        "free",
+        "green",
+        "night"
+      ],
+      "blurb": "A small landscaped pond with lily pads, fish and dozens of sunning turtles, tucked into a shaded hollow just north of the UT Tower. Students and neighbors sit on the stone edges and benches between classes to read or do nothing, and the surrounding walls keep the campus bustle at arm's length. It is open campus ground, so anyone can wander in.",
+      "tips": "Find it between the Tower and the biology buildings off Inner Campus Drive; the benches on the west side stay shaded longest. Weekends and summer are near-empty; the Tower carillon plays around midday.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Open campus grounds; best in daylight and early evening",
+      "lat": 30.2868,
+      "lng": -97.7393,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Campus is lit and patrolled by UT police around the clock."
+      },
+      "lowkeyScore": 4,
+      "verified": true,
+      "verifyNote": "Kept on reviewer knowledge; not re-searched (budget spent). 'koi' detail removed."
+    }
+  ]
+}
