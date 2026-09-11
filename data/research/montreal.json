@@ -1,0 +1,522 @@
+{
+  "city": "Montreal",
+  "country": "Canada",
+  "slug": "montreal",
+  "region": "americas",
+  "cityLat": 45.5017,
+  "cityLng": -73.5673,
+  "timezone": "America/Toronto",
+  "searchesRun": [
+    "reddit Montreal chill spots",
+    "r/montreal quiet places to relax and sit",
+    "reddit Montreal hidden gems locals only",
+    "reddit Montreal best sunset spot free",
+    "Montreal best places to read a book outside",
+    "Montreal cozy cafe sit for hours laptop friendly quiet",
+    "Montreal free public rooftop terrace viewpoint",
+    "Montreal secret garden courtyard quiet",
+    "Montreal waterfront bench night walk safe"
+  ],
+  "redditSourcedNotes": "RESEARCH NOT PERFORMED - READ BEFORE VERIFYING. All 9 required WebSearch queries listed in searchesRun were issued, but the session's WebSearch budget was already exhausted (200 of 200 calls) before this task began, so every query returned no results. Fallbacks also failed: WebFetch and curl were blocked by the network egress proxy for every domain tried (html.duckduckgo.com, bing.com, reddit.com, en.wikipedia.org, timeout.com, mtlblog.com, montreal.ca). No sibling session was spawned to bypass the per-session cap. Consequently: (1) no Reddit-derived or 'according to locals' content was read; (2) every spot's sources array is intentionally EMPTY rather than fabricated, per the no-fabrication rule; (3) all place descriptions, hours, coordinates and wikipediaTitle values come from the researcher's prior knowledge of Montreal and are unconfirmed - treat every Wikipedia title as a hypothesis to check; (4) coordConfidence is set honestly and is 'low' for Promenade Bellerive, Jardins des Floralies, Champ des Possibles and Cap-Saint-Jacques; (5) Cafe Aunja's current opening status should be confirmed. Recommended: raise CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION and re-run the 9 queries in the verify stage to attach real sources before this city ships. VERIFIER NOTE: the independent verify stage for this city did not run (web-search budget and session limit exhausted); spots carry verified:false and were screened only by build-time checks.",
+  "spots": [
+    {
+      "name": "Belvédère Camillien-Houde",
+      "neighborhood": "Mount Royal (Plateau side)",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "sunrise",
+        "night",
+        "skyline",
+        "free",
+        "solo",
+        "group"
+      ],
+      "blurb": "The east-facing lookout halfway up Camillien-Houde Way, looking straight over the Plateau's rooftops to the Olympic Stadium and the river beyond. It is where Montrealers bike or drive up to sit on the stone wall with a coffee, and because it faces east it gets the sunrise the famous chalet lookout never sees. Far fewer tour groups than Kondiaronk, and a favourite late-night spot for watching the city grid glow.",
+      "tips": "Come at sunrise for the light on the stadium, or after dark when the lights are on; the stone wall is the seat. On foot it is about 15 minutes uphill from the Mont-Royal/Parc Avenue entrance, or take the 11 bus.",
+      "bestTimes": [
+        "morning",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "6am-midnight",
+      "lat": 45.5088,
+      "lng": -73.5852,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit lookout on a road with steady foot and bike traffic until late; the park closes at midnight."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Kondiaronk Belvedere",
+      "neighborhood": "Mount Royal Park",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "skyline",
+        "sunset",
+        "night",
+        "free",
+        "people-watch",
+        "group",
+        "walk"
+      ],
+      "blurb": "The wide stone terrace in front of the Chalet du Mont-Royal, with the whole downtown skyline and the river laid out below. Everyone knows it, but the terrace is long enough that you can claim your own stretch of wall, and the chalet behind it is a free, warm place to sit when the wind picks up. Locals treat it as the default place to bring a visitor, a breakup or a thermos.",
+      "tips": "Skip the midday tour-bus window; go for the last hour of light or after 10pm when the lights are on and the crowd has thinned. The chalet's benches and washrooms are open during the day.",
+      "bestTimes": [
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "6am-midnight",
+      "lat": 45.5036,
+      "lng": -73.5871,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Kondiaronk Belvedere",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit terrace and paved paths with people around late; the wooded trails are dark after sunset, so take the main road or the Peel stairs down."
+      },
+      "lowkeyScore": 1,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Parc La Fontaine",
+      "neighborhood": "Plateau-Mont-Royal",
+      "category": "park",
+      "vibes": [
+        "green",
+        "picnic",
+        "water",
+        "people-watch",
+        "walk",
+        "free",
+        "group",
+        "solo"
+      ],
+      "blurb": "The Plateau's back garden: two linked ponds with a small waterfall, big old trees and long sloping lawns that fill with people reading and napping from May to October. The east half around the ponds is the social side; the west half along Rachel is quieter, with benches under the maples. In winter the ponds become a skating rink.",
+      "tips": "The best benches are on the north bank of the upper pond facing the fountain; weekday mornings are near-empty. Bring a blanket, picnics are the norm.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "6am-midnight",
+      "lat": 45.5265,
+      "lng": -73.57,
+      "coordConfidence": "high",
+      "wikipediaTitle": "La Fontaine Park",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Well lit around the ponds and busy until late in summer; the park closes at midnight."
+      },
+      "lowkeyScore": 2,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Jardins des Floralies (Île Notre-Dame)",
+      "neighborhood": "Parc Jean-Drapeau",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "green",
+        "water",
+        "hidden",
+        "free",
+        "solo",
+        "walk",
+        "picnic"
+      ],
+      "blurb": "The gardens left over from the 1980 Floralies flower show, threaded with canals and footbridges on the island next to the Casino. Because most people go to Jean-Drapeau for the beach, the Biosphere or a festival, the gardens stay strangely empty and you can find a waterside bench with nobody in sight. It feels like a park inside a park.",
+      "tips": "Walk or bike from Jean-Drapeau metro across the Pont du Cosmos (about 15 minutes). On race and festival weekends parts of the island close, so check the Parc Jean-Drapeau site first.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (check site)",
+      "lat": 45.509,
+      "lng": -73.529,
+      "coordConfidence": "low",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Fine by day; the island empties at dusk and the garden paths are dim, so leave before dark."
+      },
+      "lowkeyScore": 4,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Quai de l'Horloge (Clock Tower Pier)",
+      "neighborhood": "Old Port",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunset",
+        "skyline",
+        "night",
+        "free",
+        "walk",
+        "people-watch",
+        "view"
+      ],
+      "blurb": "The long pier at the east end of the Old Port, ending at the white Clock Tower with the Jacques Cartier Bridge overhead. The tip of the pier is where the strolling crowds thin out, leaving open river, the bridge lights and the sun going down behind the city. The small urban beach beside it charges admission, but the pier and its benches are free.",
+      "tips": "Walk to the very end past the beach entrance; the benches on the river side face the bridge. It is windy out there, so bring a layer even in July.",
+      "bestTimes": [
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 45.5117,
+      "lng": -73.5462,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Montreal Clock Tower",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit and patrolled, with people around until late in summer; quieter but still lit in the off-season."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Promenade Bellerive",
+      "neighborhood": "Mercier-Est",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunrise",
+        "quiet",
+        "hidden",
+        "free",
+        "walk",
+        "solo",
+        "picnic",
+        "view"
+      ],
+      "blurb": "A two-kilometre riverside park in the east end that most of the city has never visited: lawns, big trees and benches right on the St. Lawrence, facing the Boucherville islands. It is where people from Mercier walk the dog, fish and watch the freighters go by. Facing east over the river, it gets the sunrise.",
+      "tips": "Take the metro to Honoré-Beaugrand and walk down to the river (15-20 minutes) or ride the 185 bus. In summer a small passenger ferry to the Boucherville islands leaves from here.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "6am-midnight",
+      "lat": 45.6015,
+      "lng": -73.513,
+      "coordConfidence": "low",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Residential and calm; the main path is lit but the park is quiet after dark, so it suits mornings and evenings more than late night."
+      },
+      "lowkeyScore": 4,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Parc Frédéric-Back",
+      "neighborhood": "Saint-Michel",
+      "category": "park",
+      "vibes": [
+        "view",
+        "sunset",
+        "skyline",
+        "walk",
+        "green",
+        "free",
+        "hidden",
+        "stargaze"
+      ],
+      "blurb": "A former quarry and landfill turned into a huge, oddly beautiful park, dotted with white spheres that vent gas and glow at dusk. It sits on a rise, so the loop path gives 360-degree views over the north of the city and a wide-open sky you rarely get in Montreal. It is still under the radar because it is far from the usual neighbourhoods.",
+      "tips": "Enter from Jarry Est near TOHU (Jarry metro plus a short bus ride). The west side of the loop is best for sunset; stay until dusk to watch the spheres light up.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (check site)",
+      "lat": 45.5615,
+      "lng": -73.6215,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Frédéric-Back Park",
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "Paths near the entrances are lit and there are people at dusk; the far loops are dark and empty later, so stay near the entrances after dark or leave once the spheres come on."
+      },
+      "lowkeyScore": 4,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Grande Bibliothèque (BAnQ)",
+      "neighborhood": "Quartier Latin",
+      "category": "library",
+      "vibes": [
+        "quiet",
+        "study",
+        "rain-ok",
+        "cozy",
+        "free",
+        "solo",
+        "night"
+      ],
+      "blurb": "Quebec's big public library, a glass-and-wood building over Berri-UQAM with several floors of reading rooms, deep armchairs and windows that let you watch the street without hearing it. Nobody asks what you are doing; you can sit for a whole afternoon without a card. The upper floors are the quiet ones.",
+      "tips": "Head to the top floors for silence; the ground floor by the entrance is the busiest. It is open late most evenings, which makes it the best rainy-night option downtown.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Tue-Fri 10am-10pm, Sat-Sun 10am-5pm (closed Mon)",
+      "lat": 45.5153,
+      "lng": -73.562,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Grande Bibliothèque",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Secure, staffed building above a metro; the Berri-side plaza can be rough late at night, so exit via de Maisonneuve."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Westmount Public Library and Greenhouse",
+      "neighborhood": "Westmount",
+      "category": "library",
+      "vibes": [
+        "cozy",
+        "quiet",
+        "rain-ok",
+        "green",
+        "study",
+        "free",
+        "solo"
+      ],
+      "blurb": "A Victorian public library at the edge of Westmount Park with a small glass conservatory attached, full of palms, ferns and benches, kept warm and open free of charge all year. In January it is one of the few places in the city where you can read among green things. The library's reading rooms next door are old-fashioned and quiet.",
+      "tips": "The greenhouse door is on the park side of the library; check the library site for its opening days. Westmount Park's lagoon and benches are a two-minute walk when the weather allows.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "varies (check site)",
+      "lat": 45.4834,
+      "lng": -73.597,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Westmount Public Library",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed building in a residential area; the surrounding park is lit and quiet."
+      },
+      "lowkeyScore": 4,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Café Aunja",
+      "neighborhood": "Downtown (Golden Square Mile)",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "quiet",
+        "study",
+        "rain-ok",
+        "solo"
+      ],
+      "blurb": "A Persian tea house on Sherbrooke near the museums, with carpets, low light, poetry on the walls and a room full of students who have been there for three hours. Saffron tea and a cardamom pastry buys you an armchair and nobody hurries you. It is the anti-chain café.",
+      "tips": "It fills with students in exam season; weekday mid-mornings are the calm window. Bring a book rather than a call, it is a quiet-voices kind of room.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "varies (check site)",
+      "lat": 45.4982,
+      "lng": -73.5778,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Busy, well-lit stretch of Sherbrooke Street; no concerns."
+      },
+      "lowkeyScore": 4,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Parc des Rapides",
+      "neighborhood": "LaSalle",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunset",
+        "green",
+        "quiet",
+        "walk",
+        "free",
+        "solo",
+        "view",
+        "hidden"
+      ],
+      "blurb": "A riverside park on the Lachine Rapids where the St. Lawrence turns white and loud, with a heron colony on the islands, benches along the bank and a bike path running in both directions. People from LaSalle and Verdun come to sit and watch the surfers, the herons and the sun going down over the water. It is a migratory bird sanctuary inside the city.",
+      "tips": "The best benches are near the old hydro station at the west end, and the boardwalk facing the rapids is the sunset spot. Take the 58 or 110 bus, or ride the river path from Verdun.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (check site)",
+      "lat": 45.43,
+      "lng": -73.602,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Paths are lit near the parking and the boulevard; further along the bank it is dark after sunset, so treat it as an evening rather than a late-night spot."
+      },
+      "lowkeyScore": 4,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Champ des Possibles",
+      "neighborhood": "Mile End",
+      "category": "park",
+      "vibes": [
+        "hidden",
+        "green",
+        "quiet",
+        "solo",
+        "free",
+        "picnic",
+        "stargaze"
+      ],
+      "blurb": "A wild meadow on a former rail yard behind the Mile End studios, left to grow into milkweed, sumac and wildflowers and protected by the borough as a biodiversity reserve. There are no benches or lawns, just paths through the grass where people sit with a book or lie down out of sight of the street. It is the least manicured public space in the city.",
+      "tips": "Enter from de Gaspé or Saint-Viateur Est; the grass is tall, so bring something to sit on. Best June to September; it is a field, not a park, so there are no washrooms or lights.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 45.5283,
+      "lng": -73.5955,
+      "coordConfidence": "low",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "No lighting and few people after dark; use it by day and around golden hour, and keep off the fenced rail line along its edge."
+      },
+      "lowkeyScore": 5,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Saint Joseph's Oratory gardens and steps",
+      "neighborhood": "Côte-des-Neiges",
+      "category": "garden",
+      "vibes": [
+        "view",
+        "quiet",
+        "green",
+        "sunrise",
+        "free",
+        "solo",
+        "walk"
+      ],
+      "blurb": "The huge basilica on the north flank of Mount Royal has a terraced garden on its slope, with benches, pines and statues, and a grand staircase that looks east over Côte-des-Neiges to the city. It is a pilgrimage site, so people speak quietly and nobody minds if you sit for an hour. The steps catch the morning light.",
+      "tips": "Come early on a weekday, before the tour buses, for the calmest hour. The garden itself is seasonal (roughly May to October) but the outdoor steps and terraces are open year-round.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "6:30am-9pm",
+      "lat": 45.4917,
+      "lng": -73.617,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Saint Joseph's Oratory",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed grounds with lit terraces, on a busy road a short walk from Côte-des-Neiges metro."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Cap-Saint-Jacques Nature Park",
+      "neighborhood": "Pierrefonds-Roxboro",
+      "category": "beach",
+      "vibes": [
+        "water",
+        "sunset",
+        "stargaze",
+        "green",
+        "quiet",
+        "walk",
+        "free",
+        "picnic"
+      ],
+      "blurb": "The biggest nature park on the island, at its far north-west tip: a sandy beach on the Lac des Deux Montagnes, forest trails, a small working farm and shorelines that face west into the sunset. It is a long bus ride from downtown, which keeps it to families and West Islanders. On clear nights it is the darkest sky you can find without leaving the island.",
+      "tips": "Entry is free but parking is paid in season; the 68 bus from Côte-Vertu is the car-free route. The beach closes at dusk, so for stargazing use the trails and shoreline nearer the main entrance.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (check site)",
+      "lat": 45.4645,
+      "lng": -73.9365,
+      "coordConfidence": "low",
+      "wikipediaTitle": "Cap-Saint-Jacques Nature Park",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed park in season; trails are unlit, so bring a light and a friend for night visits."
+      },
+      "lowkeyScore": 4,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    }
+  ]
+}

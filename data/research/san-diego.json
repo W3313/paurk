@@ -1,0 +1,578 @@
+{
+  "city": "San Diego",
+  "country": "United States",
+  "slug": "san-diego",
+  "region": "americas",
+  "cityLat": 32.7157,
+  "cityLng": -117.1611,
+  "timezone": "America/Los_Angeles",
+  "searchesRun": [],
+  "redditSourcedNotes": "RESEARCH DEGRADED - READ BEFORE VERIFYING. Zero web searches were executed for this city: the session's WebSearch budget (200/200) was already exhausted when this agent started, and every WebSearch call (all nine required queries were attempted: 'reddit San Diego chill spots', 'r/sandiego quiet places to relax and sit', 'reddit San Diego hidden gems locals only', 'reddit San Diego best sunset spot free', 'San Diego best places to read a book outside', 'San Diego cozy cafe sit for hours laptop friendly quiet', 'San Diego free public rooftop terrace viewpoint', 'San Diego secret garden courtyard quiet', 'San Diego waterfront bench night walk safe') was rejected without running. WebFetch/curl to search engines, reddit.com, wikipedia.org, sandiego.gov, timeout.com, sdpl.org and sandiego.org were all blocked by the egress proxy. No reddit-derived or 'according to locals' pages were read. All 14 spots therefore come from the researcher's prior knowledge of San Diego; no source is fabricated - the only sources[] entries included are URLs that literally appeared in GitHub code-search results used to verify Wikipedia article titles and addresses (Wikipedia pages, verbatimbooks.com, sandiego.gov central-library page, atlasobscura.com Spruce Street page). Wikipedia titles marked non-null were confirmed via those indexed links (Spruce Street Suspension Bridge, Torrey Pines Gliderport, Presidio Park, Timken Museum of Art, San Diego Central Library, Sunset Cliffs Natural Park, Kate Sessions Memorial Park, Alcazar Garden, Shelter Island, San Diego); the rest are null because no article could be confirmed. Hours are best-effort from memory and should be checked. Recommend re-running this city with a raised CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION before publishing. VERIFIER NOTE: the independent verify stage for this city did not run (web-search budget and session limit exhausted); spots carry verified:false and were screened only by build-time checks.",
+  "spots": [
+    {
+      "name": "Sunset Cliffs Natural Park",
+      "neighborhood": "Point Loma / Ocean Beach",
+      "category": "viewpoint",
+      "vibes": [
+        "sunset",
+        "view",
+        "water",
+        "free",
+        "walk",
+        "solo",
+        "group",
+        "picnic"
+      ],
+      "blurb": "Sixty-eight acres of sandstone bluffs dropping straight into the Pacific at the south end of Ocean Beach, with dirt paths, a few benches and endless rock ledges to sit on. Locals drive down after work, park on the bluff and watch the sun drop; the further south you walk toward the Point Loma Nazarene hillside, the fewer people you share it with. No entry fee, no facilities, just surf, pelicans and a sky that turns orange every evening.",
+      "tips": "Park along Sunset Cliffs Blvd and walk south past Ladera St for the quieter stretch; bring a layer, the wind picks up after sunset. Summer weekends fill up about 30 minutes before sundown.",
+      "bestTimes": [
+        "golden-hour",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 32.718,
+      "lng": -117.2555,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Sunset Cliffs Natural Park",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sunset_Cliffs_Natural_Park",
+          "label": "Wikipedia: Sunset Cliffs Natural Park",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Cliff edges are unstable and unfenced; stay on the marked paths and well back from the edge, and bring a light if you linger after dark."
+      },
+      "lowkeyScore": 2,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Kate Sessions Memorial Park",
+      "neighborhood": "Pacific Beach",
+      "category": "park",
+      "vibes": [
+        "sunset",
+        "view",
+        "green",
+        "free",
+        "picnic",
+        "quiet",
+        "solo",
+        "group",
+        "skyline"
+      ],
+      "blurb": "A wide, sloping lawn on the hill above Pacific Beach where all of Mission Bay, downtown and, on clear days, Mexico spread out below you. It is mostly neighbors with dogs, couples on a blanket and the odd guitar; nobody is performing for anyone. The grass is soft enough to nap on and the sunset light hits the bay before it hits you.",
+      "tips": "Enter from Soledad Rd; the upper lawn near the parking lot has the best downtown view, the lower slope is quieter. Bring a blanket and a sweater, the breeze off the bay is steady.",
+      "bestTimes": [
+        "golden-hour",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "dawn-dusk",
+      "lat": 32.8097,
+      "lng": -117.2275,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Kate Sessions Memorial Park",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kate_Sessions_Memorial_Park",
+          "label": "Wikipedia: Kate Sessions Memorial Park",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Residential hilltop park, fine in daylight; it is unlit after dark so leave by dusk."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Spruce Street Suspension Bridge",
+      "neighborhood": "Bankers Hill",
+      "category": "other",
+      "vibes": [
+        "hidden",
+        "quiet",
+        "green",
+        "free",
+        "walk",
+        "solo"
+      ],
+      "blurb": "A 375-foot wooden footbridge from 1912 hung on steel cables 70 feet above a wooded canyon, tucked into residential Bankers Hill blocks where you would never expect it. It sways gently as you walk, and mid-span you are level with the treetops with the canyon dropping away on both sides. Locals cross it as a shortcut; everyone else leans on the rail for ten quiet minutes.",
+      "tips": "Find it at Spruce St between Front St and Brant St and park on the street. Go on a weekday morning to have the deck to yourself, and take the path down into the canyon if you want a shaded bench.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 32.7373,
+      "lng": -117.1662,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Spruce Street Suspension Bridge",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Spruce_Street_Suspension_Bridge",
+          "label": "Wikipedia: Spruce Street Suspension Bridge",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.atlasobscura.com/places/spruce-street-suspension-bridge",
+          "label": "Atlas Obscura: Spruce Street Suspension Bridge",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Quiet residential street, well used in daylight; it is dim after dark, so go before sunset."
+      },
+      "lowkeyScore": 4,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Shelter Island Shoreline Park",
+      "neighborhood": "Shelter Island / Point Loma",
+      "category": "waterfront",
+      "vibes": [
+        "night",
+        "skyline",
+        "water",
+        "view",
+        "free",
+        "walk",
+        "people-watch",
+        "sunset",
+        "group",
+        "solo"
+      ],
+      "blurb": "A long grassy strip along the bay side of Shelter Island with benches, palm trees and a paved path facing the downtown skyline across the water. Evenings bring families, fishermen and people eating takeout on the seawall; it stays lit and gently busy well into the night. It is the easiest place in the city to sit and watch boats and city lights without anyone selling you anything.",
+      "tips": "Park anywhere along Shelter Island Dr; the benches near the Friendship Bell at the southwest tip have the widest skyline view. Bring a jacket, the bay breeze is cool even in summer.",
+      "bestTimes": [
+        "night",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 32.7135,
+      "lng": -117.23,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Shelter Island, San Diego",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Shelter_Island,_San_Diego",
+          "label": "Wikipedia: Shelter Island, San Diego",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit, patrolled and populated into the evening; the main walkway is comfortable at night."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Presidio Park",
+      "neighborhood": "Mission Hills / Old Town",
+      "category": "park",
+      "vibes": [
+        "quiet",
+        "green",
+        "view",
+        "free",
+        "picnic",
+        "walk",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "Forty acres of rolling lawns and old trees on the hill above Old Town, crowned by the white Serra Museum tower, and almost always nearly empty. From Inspiration Point you look out over Mission Bay and the river valley; the lower lawns are shaded and silent apart from birds and the occasional dog walker. It is the kind of park where you can read a whole chapter without looking up.",
+      "tips": "Drive up Presidio Dr and park near the museum, then walk to the lawn on the west side for the bay view. Bring a blanket; there are few benches.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "dawn-dusk",
+      "lat": 32.7585,
+      "lng": -117.1942,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Presidio Park",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Presidio_Park",
+          "label": "Wikipedia: Presidio Park",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Unlit and empty after dark; come for golden hour and leave by dusk."
+      },
+      "lowkeyScore": 4,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Alcazar Garden",
+      "neighborhood": "Balboa Park",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "green",
+        "free",
+        "cozy",
+        "solo",
+        "people-watch"
+      ],
+      "blurb": "A walled formal garden beside the House of Charm, modeled on the Alcazar in Seville: clipped hedges, seasonal flower beds, two tiled fountains and shaded benches under the arcades. It sits a few steps from the crowds on El Prado but most people walk right past the gate. The sound of the fountains covers the park noise and the California Tower looms over the hedges.",
+      "tips": "Enter through the archway on El Prado just west of the Museum of Us; the benches along the north arcade are shaded by mid-afternoon. Weekday mornings are empty.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "dawn-dusk",
+      "lat": 32.7311,
+      "lng": -117.1516,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Alcazar Garden",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Alcazar_Garden",
+          "label": "Wikipedia: Alcazar Garden",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Inside Balboa Park's busy central mesa; fine by day, and the Prado area is lit and populated in the evening."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Timken Museum of Art",
+      "neighborhood": "Balboa Park",
+      "category": "museum",
+      "vibes": [
+        "quiet",
+        "rain-ok",
+        "free",
+        "cozy",
+        "solo",
+        "study"
+      ],
+      "blurb": "A small, free, air-conditioned museum on the Plaza de Panama with a handful of galleries of European old masters, American paintings and Russian icons, and rarely more than a dozen people inside. The bench in front of the Rembrandt is as calm a seat as exists in the park. It is the place to reset on a hot afternoon or a rainy day; you can be in and out in twenty minutes or stay an hour.",
+      "tips": "It is on the east side of the Lily Pond next to the Botanical Building; admission is free, no ticket needed. Closed Mondays and Tuesdays.",
+      "bestTimes": [
+        "afternoon",
+        "morning"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Wed-Sun 10am-5pm",
+      "lat": 32.7317,
+      "lng": -117.1494,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Timken Museum of Art",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Timken_Museum_of_Art",
+          "label": "Wikipedia: Timken Museum of Art",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed museum on the busiest plaza in Balboa Park."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "San Diego Central Library",
+      "neighborhood": "East Village (Downtown)",
+      "category": "library",
+      "vibes": [
+        "quiet",
+        "rain-ok",
+        "study",
+        "free",
+        "view",
+        "solo",
+        "skyline",
+        "cozy"
+      ],
+      "blurb": "The nine-story downtown library under the steel lattice dome, with a top-floor reading room where you sit at long tables beneath the dome and look out toward the bay and the Coronado Bridge. There is an art gallery on the eighth floor and a quiet outdoor terrace on the ninth. Free, air-conditioned and open into the evening most days.",
+      "tips": "Take the elevator to the 9th floor for the reading room and outdoor terrace; window seats on the bay side go first. Bring a laptop, there are outlets and free Wi-Fi.",
+      "bestTimes": [
+        "afternoon",
+        "morning"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Thu 9:30am-8pm, Fri-Sat 9:30am-6pm, Sun 12-5pm (check site)",
+      "lat": 32.7093,
+      "lng": -117.1538,
+      "coordConfidence": "high",
+      "wikipediaTitle": "San Diego Central Library",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/San_Diego_Central_Library",
+          "label": "Wikipedia: San Diego Central Library",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.sandiego.gov/public-library/central-library",
+          "label": "City of San Diego: Central Library",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Staffed building with security inside; the surrounding East Village blocks can feel rough after dark, so use the Park Blvd entrance and plan your ride home before closing."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Verbatim Books",
+      "neighborhood": "North Park",
+      "category": "bookstore",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "quiet",
+        "solo",
+        "hidden",
+        "study"
+      ],
+      "blurb": "An independent used bookstore on 30th Street with more than 50,000 titles, mismatched armchairs tucked between the stacks and a shop cat. Nobody minds if you settle in with a paperback for an hour; the store also hosts readings and keeps a zine section that brings neighborhood regulars back. It is the rainy-day answer to every outdoor spot on this list.",
+      "tips": "Look for the chairs in the back and along the side aisles; buy a couple of dollar-shelf paperbacks on the way out to keep the place alive. Weeknights are quiet.",
+      "bestTimes": [
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly 11am-8pm daily (check site)",
+      "lat": 32.7481,
+      "lng": -117.1298,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.verbatimbooks.com/",
+          "label": "Verbatim Books (official site)",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Busy commercial stretch of North Park, well lit and walkable in the evening."
+      },
+      "lowkeyScore": 4,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Lestat's Coffee House",
+      "neighborhood": "Normal Heights",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "night",
+        "rain-ok",
+        "study",
+        "people-watch",
+        "solo",
+        "group"
+      ],
+      "blurb": "The Adams Avenue coffee house that has anchored Normal Heights for decades: mismatched couches, dim lamps, a back patio and a long counter where regulars have been camped with laptops since morning. It stays open late, the music room next door hosts open mics and small shows, and nobody hurries you out. It is where locals go to work, read or simply not be at home.",
+      "tips": "The couches at the front fill first; the patio is quieter for reading. Order at the counter, find an outlet and stay as long as you like.",
+      "bestTimes": [
+        "night",
+        "morning"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly 6am-midnight (check site)",
+      "lat": 32.7632,
+      "lng": -117.122,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Well-lit block of Adams Ave with restaurants and bars open late."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Coast Walk Trail",
+      "neighborhood": "La Jolla",
+      "category": "trail",
+      "vibes": [
+        "sunrise",
+        "view",
+        "water",
+        "walk",
+        "free",
+        "quiet",
+        "hidden",
+        "sunset"
+      ],
+      "blurb": "A short dirt path along the top of the sandstone bluffs east of La Jolla Cove, above the sea caves, with a few benches and a wooden footbridge that most Cove visitors never find. You look straight down into turquoise water where sea lions and kayakers drift, without any of the noise of the Cove itself. Twenty minutes here at sunrise is worth more than an hour on the crowded lawn below.",
+      "tips": "Pick it up at the small trailhead on Coast Blvd just east of the Cave Store, or from the end of Coast Walk off Torrey Pines Rd. Wear real shoes, the path is uneven and narrow.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (daylight recommended)",
+      "lat": 32.85,
+      "lng": -117.2665,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "Narrow, unfenced dirt path above the cliffs with no lighting; walk it in daylight and stay back from the edge."
+      },
+      "lowkeyScore": 4,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Torrey Pines Gliderport",
+      "neighborhood": "La Jolla / Torrey Pines",
+      "category": "viewpoint",
+      "vibes": [
+        "sunset",
+        "view",
+        "water",
+        "free",
+        "people-watch",
+        "group",
+        "solo",
+        "picnic"
+      ],
+      "blurb": "A dirt lot and grassy bluff 300 feet above Black's Beach where paragliders and hang gliders launch into the onshore wind, with the whole coastline curling south toward La Jolla. You can sit on the edge of the grass with a coffee from the little cafe and watch them float for as long as you like. It is loud with wind and quiet with everything else.",
+      "tips": "Turn onto Torrey Pines Scenic Dr off N Torrey Pines Rd; parking in the dirt lot is free. Afternoon and early evening bring the most gliders and the best light, and it gets cold fast once the sun drops.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "daylight (cafe hours vary)",
+      "lat": 32.8895,
+      "lng": -117.2513,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Torrey Pines Gliderport",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Torrey_Pines_Gliderport",
+          "label": "Wikipedia: Torrey Pines Gliderport",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Busy daytime bluff with staff on site; stay behind the marked edge."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Marian Bear Memorial Park",
+      "neighborhood": "Clairemont / University City",
+      "category": "trail",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "free",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "A shaded canyon of coast live oaks and sycamores running along the bottom of San Clemente Canyon, with a flat dirt trail, picnic tables and creek crossings that feel miles from the freeway you can faintly hear above. Neighbors walk dogs here in the morning; by midday it is mostly birdsong. Best as a slow walk with a bench stop rather than a workout.",
+      "tips": "Enter from the Regents Rd or Genesee Ave lots on the SR-52 side; the stretch west of Regents Rd is the shadiest. Daylight only, and watch for rattlesnakes on warm afternoons.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "dawn-dusk",
+      "lat": 32.838,
+      "lng": -117.205,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "No lighting and few people after late afternoon; visit in daylight and stay on the main trail."
+      },
+      "lowkeyScore": 4,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Centennial Park (Coronado Ferry Landing)",
+      "neighborhood": "Coronado",
+      "category": "waterfront",
+      "vibes": [
+        "night",
+        "skyline",
+        "water",
+        "view",
+        "free",
+        "sunset",
+        "people-watch",
+        "group"
+      ],
+      "blurb": "A small bayfront lawn beside the Coronado Ferry Landing that faces the full downtown skyline across San Diego Bay, with benches, a pocket beach and a lit promenade. Locals bring a coffee or a sandwich and watch the ferries cross and the city lights come on; it is the calmest skyline view in the county. Fifteen minutes on the ferry from downtown, or a short walk from Coronado's main street.",
+      "tips": "Take the Coronado Ferry from Broadway Pier or the Convention Center and you land right there; the benches on the north corner of the lawn have the best downtown view. Ferries stop around 9-10pm, so check the last one back.",
+      "bestTimes": [
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 32.6982,
+      "lng": -117.1698,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Well-lit, family-oriented waterfront with shops and restaurants next door; comfortable in the evening."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    }
+  ]
+}

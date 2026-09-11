@@ -1,0 +1,788 @@
+{
+  "city": "Los Angeles",
+  "country": "United States",
+  "slug": "los-angeles",
+  "region": "americas",
+  "cityLat": 34.0522,
+  "cityLng": -118.2437,
+  "timezone": "America/Los_Angeles",
+  "searchesRun": [
+    "reddit Los Angeles chill spots",
+    "r/AskLosAngeles quiet places to relax and sit",
+    "reddit Los Angeles hidden gems locals only",
+    "reddit Los Angeles best sunset spot free",
+    "Los Angeles best places to read a book outside",
+    "Los Angeles cozy cafe sit for hours laptop friendly quiet",
+    "Los Angeles free public rooftop terrace viewpoint",
+    "Los Angeles secret garden courtyard quiet",
+    "Los Angeles waterfront bench night walk safe",
+    "Los Angeles library best reading rooms quiet study public",
+    "reddit r/LosAngeles stargazing spots within the city",
+    "Los Angeles parks locals go to decompress according to locals quiet underrated",
+    "Vista Hermosa Natural Park downtown skyline view hours",
+    "Self-Realization Fellowship Lake Shrine reopened 2026 hours Palisades",
+    "Walt Disney Concert Hall Blue Ribbon Garden free public hours",
+    "Arlington Garden Pasadena free quiet hours",
+    "Japanese Garden Van Nuys Suihoen Tillman hours admission",
+    "Point Fermin Park San Pedro sunset bench Korean Bell of Friendship hours",
+    "Baldwin Hills Scenic Overlook Culver City stairs sunset hours",
+    "Echo Park Lake night walk lit lotus hours safe",
+    "Barnsdall Art Park Hollywood lawn sunset view free",
+    "Habitat Coffee Shop Glassell Park Eagle Rock Blvd hours quiet",
+    "Burton Chace Park Marina del Rey night hours benches quiet",
+    "Stories Books and Cafe Echo Park back patio read for hours",
+    "Exposition Park Rose Garden hours free closed pruning",
+    "Los Angeles Central Library hours wikipedia Richard Riordan reading room",
+    "Echo Park Lake wikipedia",
+    "Point Fermin Park wikipedia",
+    "Japanese Garden Van Nuys wikipedia Suiho-en",
+    "Barnsdall Art Park wikipedia",
+    "Exposition Park Rose Garden wikipedia",
+    "Griffith Observatory wikipedia",
+    "Self-Realization Fellowship Lake Shrine wikipedia",
+    "Echo Park Lake park hours lacity recreation and parks",
+    "Stories Books & Cafe 1716 Sunset Blvd hours open",
+    "[verify] Self-Realization Fellowship Lake Shrine Pacific Palisades reopened meditation gardens hours reservation 2026",
+    "[verify] Habitat Coffee Shop Glassell Park Eagle Rock Blvd Los Angeles",
+    "[verify] Japanese Garden Van Nuys Suiho-en Tillman Water Reclamation Plant (site:en.wikipedia.org)",
+    "[verify] Baldwin Hills Scenic Overlook Culver City state park (site:en.wikipedia.org)",
+    "[verify] Burton Chace Park Marina del Rey (site:en.wikipedia.org)"
+  ],
+  "redditSourcedNotes": "No reddit.com URLs surfaced in any result set despite reddit-first phrasing, so no source is tagged kind=\"reddit\". Reddit-derived signal came indirectly: airial.travel pages for Arlington Garden and Exposition Park Rose Garden bill themselves as aggregating \"TikTok, Instagram & Reddit\" recommendations; the Goodreads/USA Today piece and Yelp Q&A quote locals calling the SRF Lake Shrine \"LA's best kept secret\"; Locale Magazine and Atly \"chill parks\" lists describe where \"locals claim a patch of grass\" (Exposition Rose Garden, Barnsdall lawn); the Tripadvisor LA forum thread on night beach walks and the Quora/shetravels pages on Echo Park at night reflect community consensus that the lit lake loop and patrolled Santa Monica/marina waterfronts are the sensible after-dark options. Time Out's \"Overrated/Underrated LA\" and the Blue Ribbon Garden \"Hour to Kill\" piece align with the common r/LosAngeles refrain that Vista Hermosa, the Disney Hall roof garden and Barnsdall are the low-effort local decompression spots. Verify stage (5 searches): Lake Shrine confirmed reopened 27 Aug 2025 with Wed-Sat 10am-4:30pm / Sun 1-4:30pm free-reservation hours (draft hours corrected); Habitat Coffee Shop confirmed at 3708 Eagle Rock Blvd, 7am-5pm daily; Wikipedia titles confirmed for The Japanese Garden, Baldwin Hills Scenic Overlook State Park, Chace Park and Self-Realization Fellowship Lake Shrine. Remaining titles kept from the researcher's own search results and the verifier's knowledge; none were dropped. Echo Park Lake moved to safety=caution for late-night use.",
+  "spots": [
+    {
+      "name": "Vista Hermosa Natural Park",
+      "neighborhood": "Westlake / Temple-Beaudry (Echo Park edge)",
+      "category": "park",
+      "vibes": [
+        "view",
+        "skyline",
+        "green",
+        "quiet",
+        "picnic",
+        "free",
+        "solo",
+        "sunset",
+        "walk"
+      ],
+      "blurb": "A 10-acre pocket of oak, sage and native meadow on a hillside off Toluca St, with a grassy knoll that frames the full downtown skyline. Locals come to lie on the lawn, walk the short dirt loop past a small stream and watch the towers light up toward dusk while the 110 hums a few hundred yards away. It rarely gets crowded because few people expect a nature park this close to downtown.",
+      "tips": "Head to the top lawn near the picnic tables for the clearest skyline view; the gates lock at sunset, so aim for golden hour rather than full dark. Street parking on Toluca St is usually easy on weekdays.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "7am to sunset daily; gates lock at dusk",
+      "lat": 34.0643,
+      "lng": -118.2566,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Vista Hermosa Natural Park",
+      "sources": [
+        {
+          "url": "https://recreation.parks.lacity.gov/park/vista-hermosa",
+          "label": "LA Recreation & Parks: Vista Hermosa Park",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Vista_Hermosa_Natural_Park",
+          "label": "Wikipedia: Vista Hermosa Natural Park",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.afar.com/magazine/how-to-see-los-angeles-for-free",
+          "label": "AFAR: How to See Los Angeles for Free",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed MRCA park that closes at sunset; a daytime and golden-hour spot."
+      },
+      "lowkeyScore": 4,
+      "verified": true,
+      "verifyNote": "Real MRCA park at 100 N Toluca St. Wikipedia title kept from the researcher's result URL (not re-searched; budget). Category changed from viewpoint to park; hours set to the posted 7am-sunset."
+    },
+    {
+      "name": "Blue Ribbon Garden (Walt Disney Concert Hall roof)",
+      "neighborhood": "Bunker Hill, Downtown",
+      "category": "garden",
+      "vibes": [
+        "hidden",
+        "quiet",
+        "green",
+        "view",
+        "free",
+        "solo",
+        "study",
+        "cozy"
+      ],
+      "blurb": "About an acre of roses, olive and coral trees wrapped around the steel curves of Disney Hall, one level above Grand Ave and nearly invisible from the street. The Delft-porcelain rose fountain sits at the center and there are plenty of benches and low walls where office workers eat lunch without raising their voices. Even on busy Grand Park days it stays hushed because most visitors never find the stairs.",
+      "tips": "Take the outdoor staircase at the corner of Grand Ave and 2nd St, or the stairs up from the lobby. It closes for some concert days and private events and the gates lock at night, so weekday daytime is the safe bet.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Roughly 9am to dusk; closed for some concerts and events, gates locked at night (check laphil.com)",
+      "lat": 34.0553,
+      "lng": -118.2498,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.timeout.com/los-angeles/things-to-do/hour-to-kill-blue-ribbon-garden-at-the-walt-disney-concert-hall",
+          "label": "Time Out LA: Hour to Kill at the Blue Ribbon Garden",
+          "kind": "press"
+        },
+        {
+          "url": "https://unearththevoyage.com/california-los-angeles-secret-gardens-to-escape-the-city/",
+          "label": "Unearth the Voyage: LA's secret gardens",
+          "kind": "blog"
+        },
+        {
+          "url": "https://metrolinktrains.com/explore/los-angeles-county/blue-ribbon-garden/",
+          "label": "Metrolink Explore: Blue Ribbon Garden",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Security patrols the hall grounds; well used by nearby office workers during the day."
+      },
+      "lowkeyScore": 4,
+      "verified": true,
+      "verifyNote": "Real public roof garden on the Walt Disney Concert Hall. No dedicated Wikipedia article, so title left null rather than pointing at the concert hall article."
+    },
+    {
+      "name": "Los Angeles Central Library",
+      "neighborhood": "Downtown (Financial District)",
+      "category": "library",
+      "vibes": [
+        "quiet",
+        "study",
+        "rain-ok",
+        "cozy",
+        "free",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "The 1926 Goodhue building and its eight-story Bradley Wing atrium are the city's best free indoor sit. The upper subject reading rooms are genuinely quiet, and the second-floor rotunda with its Dean Cornwell murals is a place to just sit and look up. Nobody minds if you read a paperback for a few hours.",
+      "tips": "Enter from 5th St or the Flower St plaza and head to the subject department reading rooms for the quietest tables and outlets. The Maguire Gardens outside are a good outdoor spillover on nice days.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Open daily; roughly Mon-Thu 11am-7pm, Fri-Sat 11am-4pm, Sun 1-4:30pm (check lapl.org, hours change)",
+      "lat": 34.0505,
+      "lng": -118.2551,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Los Angeles Central Library",
+      "sources": [
+        {
+          "url": "https://www.lapl.org/branches/central-library",
+          "label": "LAPL: Central Library",
+          "kind": "official"
+        },
+        {
+          "url": "https://studynearby.com/quiet-study-spots-los-angeles-ca/",
+          "label": "Study Nearby: Quietest places to study in LA",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.corner.inc/guides/los-angeles/los-angeles/quiet-please-best-public-libraries-in-los-angeles",
+          "label": "Corner: Best public libraries in LA",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed and secured; the surrounding blocks are busy office streets in daytime, and the library closes before dark most of the year."
+      },
+      "lowkeyScore": 3,
+      "verified": true,
+      "verifyNote": "Officially the Richard J. Riordan Central Library; the Wikipedia article is titled Los Angeles Central Library (from knowledge). Hours kept from the researcher's search but flagged as changeable."
+    },
+    {
+      "name": "Echo Park Lake",
+      "neighborhood": "Echo Park",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "walk",
+        "people-watch",
+        "free",
+        "picnic",
+        "skyline",
+        "green",
+        "sunset",
+        "night"
+      ],
+      "blurb": "A roughly one-mile loop around a lotus-filled lake with the downtown skyline stacked behind the fountain, plus a west-bank lawn that turns into one big shared picnic blanket on warm evenings. Locals read on benches by the boathouse, walk dogs at dusk and watch the lit fountain from the bridge. It is well known, but on a weekday evening it is calm and unhurried.",
+      "tips": "The benches at the south end near the lotus beds have the best skyline view. Lotus bloom peaks in July; the Lotus Festival weekend is the one time it is genuinely packed.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Park roughly dawn to 10pm; boathouse, pedal boats and restrooms keep shorter daytime hours (check lacity.gov)",
+      "lat": 34.073,
+      "lng": -118.2605,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Echo Park Lake",
+      "sources": [
+        {
+          "url": "https://recreation.parks.lacity.gov/aquatic/lake/echo-park-lake",
+          "label": "LA Recreation & Parks: Echo Park Lake",
+          "kind": "official"
+        },
+        {
+          "url": "https://timeout.com/los-angeles/attractions/echo-park-lake",
+          "label": "Time Out LA: Echo Park Lake",
+          "kind": "press"
+        },
+        {
+          "url": "https://shetravels.to/united-states/los-angeles/echo-park",
+          "label": "SheTravels: Echo Park safety guide",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "The lit lake loop is busy and fine through about 9pm. Later the park thins out and the side streets are quiet, and there have been occasional robberies and assaults reported around the park at night. Late on, stay on the lit loop near the boathouse and the Glendale Blvd/Sunset side, and go with company rather than solo."
+      },
+      "lowkeyScore": 3,
+      "verified": true,
+      "verifyNote": "Real and publicly accessible. Wikipedia title from knowledge (separate article from the Echo Park district). Safety raised to caution for late-night use; hours softened because the exact posted closing was not confirmed."
+    },
+    {
+      "name": "Barnsdall Art Park",
+      "neighborhood": "East Hollywood / Los Feliz",
+      "category": "park",
+      "vibes": [
+        "sunset",
+        "view",
+        "picnic",
+        "quiet",
+        "free",
+        "solo",
+        "group",
+        "green"
+      ],
+      "blurb": "Olive Hill is a broad grassy hilltop around Frank Lloyd Wright's Hollyhock House, with sightlines to the Hollywood Sign and Griffith Observatory on one side and downtown on the other. People spread blankets on the west lawn to watch the sun drop behind the hills, and the loudest thing is usually a speaker turned down low. Admission to the park and lawn is free.",
+      "tips": "Walk or drive up the hill from Hollywood Blvd and settle on the western edge of the lawn for sunset; bring a blanket since benches are scarce. Summer Friday wine tastings and weekend art classes bring crowds, so plain weekday evenings are quietest.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Park roughly 5am-10pm daily; Hollyhock House tours are ticketed and keep separate hours (check barnsdall.org)",
+      "lat": 34.101,
+      "lng": -118.2945,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Barnsdall Art Park",
+      "sources": [
+        {
+          "url": "https://www.barnsdall.org/",
+          "label": "Barnsdall Art Park Foundation",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.weekendsherpa.com/stories/watch-the-sunset-from-barnsdall-art-park/",
+          "label": "Weekend Sherpa: Watch the sunset from Barnsdall",
+          "kind": "blog"
+        },
+        {
+          "url": "https://localemagazine.com/peaceful-places-los-angeles/",
+          "label": "Locale Magazine: Peaceful places in LA",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "The drive and paths are lit and the park is open late, but the lawn empties soon after sunset; best enjoyed through dusk."
+      },
+      "lowkeyScore": 3,
+      "verified": true,
+      "verifyNote": "Real city park at 4800 Hollywood Blvd. Wikipedia title from knowledge (separate from the Hollyhock House article). Removed the 'night' and 'sunrise' vibes since the lawn is a dusk spot."
+    },
+    {
+      "name": "Griffith Observatory West Terraces",
+      "neighborhood": "Los Feliz / Griffith Park",
+      "category": "viewpoint",
+      "vibes": [
+        "stargaze",
+        "night",
+        "view",
+        "skyline",
+        "sunset",
+        "free",
+        "walk",
+        "people-watch"
+      ],
+      "blurb": "The observatory itself is one of the busiest attractions in the city, but the upper and lower west terraces are a legitimately good late-evening perch: the whole basin glittering from downtown toward the ocean, coin telescopes, and free public telescope viewing on clear nights. After about 8pm on a weeknight the tour groups are gone and it turns into couples, students and amateur astronomers talking quietly in the dark.",
+      "tips": "Skip the paid observatory lot and take the DASH Observatory bus from the Vermont/Sunset Metro station, or walk up from Fern Dell in daylight. The terraces stay open with the park until 10pm even on Mondays when the building is closed.",
+      "bestTimes": [
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Grounds and terraces open until 10pm daily; building Tue-Fri 12-10pm, Sat-Sun 10am-10pm, closed Mon",
+      "lat": 34.1184,
+      "lng": -118.3004,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Griffith Observatory",
+      "sources": [
+        {
+          "url": "https://griffithobservatory.lacity.gov/exhibits/exterior-exhibits/roof-terraces/",
+          "label": "Griffith Observatory: Roof & Terraces",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.nbcnews.com/news/us-news/city-stars-los-angeles-astronomy-club-makes-sure-keep-looking-rcna201950",
+          "label": "NBC News: LA astronomy club keeps looking up",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Busy, lit and staffed until 10pm. The trail down to Fern Dell is unlit after dark, so take the bus or drive if you leave late."
+      },
+      "lowkeyScore": 1,
+      "verified": true,
+      "verifyNote": "Famous attraction kept as a lowkeyScore 1 stargazing spot; blurb rewritten to be honest about crowds. Hours match the observatory's published schedule."
+    },
+    {
+      "name": "Arlington Garden",
+      "neighborhood": "Pasadena (Arlington Dr at Pasadena Ave)",
+      "category": "garden",
+      "vibes": [
+        "hidden",
+        "quiet",
+        "green",
+        "picnic",
+        "free",
+        "solo",
+        "cozy",
+        "walk"
+      ],
+      "blurb": "Pasadena's dedicated public garden is three acres of Mediterranean-climate plantings on a former Caltrans lot, with a labyrinth, an olive allee, a citrus grove and mismatched chairs scattered under the trees. It is run by a small nonprofit, has no ticket booth, and on a weekday morning you may share it with a couple of other people and a lot of hummingbirds. Picnics are welcome.",
+      "tips": "Park free on Arlington Dr between Orange Grove Blvd and Pasadena Ave; the shaded chairs near the labyrinth are the best seats. Weekend afternoons draw photographers, so go early or midweek.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "8am-6pm daily (check arlingtongardenpasadena.org)",
+      "lat": 34.137,
+      "lng": -118.1607,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Arlington Garden",
+      "sources": [
+        {
+          "url": "https://www.arlingtongardenpasadena.org/about/",
+          "label": "Arlington Garden in Pasadena: About",
+          "kind": "official"
+        },
+        {
+          "url": "https://pasadenamag.com/people-places/neighborhoods/discovering-arlington-gardens-a-scene-for-serenity-in-pasadena/",
+          "label": "Pasadena Magazine: A scene for serenity",
+          "kind": "press"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Arlington_Garden",
+          "label": "Wikipedia: Arlington Garden",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Quiet residential setting; closes at 6pm."
+      },
+      "lowkeyScore": 4,
+      "verified": true,
+      "verifyNote": "Real garden at 275 Arlington Dr, Pasadena (about 15 km from downtown LA). Wikipedia title kept from the researcher's result URL and the verifier's knowledge."
+    },
+    {
+      "name": "The Japanese Garden (Suihō-en)",
+      "neighborhood": "Lake Balboa / Van Nuys (Sepulveda Basin)",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "water",
+        "green",
+        "hidden",
+        "solo",
+        "walk",
+        "cozy"
+      ],
+      "blurb": "A 6.5-acre stroll garden built beside the Tillman water reclamation plant, which is exactly why so few people know it exists. Waterfalls, a dry Zen garden, a tea house and a wide lake fed by recycled water, all designed by Koichi Kawana; the loop takes twenty minutes if you walk it and two hours if you sit. Limited weekday hours keep the crowd to a handful of retirees and sketchers.",
+      "tips": "Open only on select weekday hours and closed within 24 hours of rain, so check the site before driving out. The benches by the tortoise island on the far side of the lake are the quietest.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "Mon-Thu roughly 9:30am-3:30pm (last entry 3:15pm); closed Fri-Sun, holidays and after rain; about $5 adults (check thejapanesegarden.com)",
+      "lat": 34.1838,
+      "lng": -118.4786,
+      "coordConfidence": "high",
+      "wikipediaTitle": "The Japanese Garden",
+      "sources": [
+        {
+          "url": "https://thejapanesegarden.com/visit/hours-and-admission/",
+          "label": "The Japanese Garden: Hours and Admission",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.timeout.com/los-angeles/things-to-do/the-japanese-garden",
+          "label": "Time Out LA: The Japanese Garden in Van Nuys",
+          "kind": "press"
+        },
+        {
+          "url": "https://sanitation.lacity.gov/facilities/japanese-garden",
+          "label": "LA Sanitation: The Japanese Garden",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Japanese_Garden",
+          "label": "Wikipedia: The Japanese Garden",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated and staffed during opening hours."
+      },
+      "lowkeyScore": 4,
+      "verified": true,
+      "verifyNote": "Wikipedia title 'The Japanese Garden' confirmed by search (article describes this 6.5-acre Kawana garden at the Tillman plant). Coordinates set to 6100 Woodley Ave."
+    },
+    {
+      "name": "Point Fermin Park",
+      "neighborhood": "San Pedro",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunset",
+        "sunrise",
+        "view",
+        "picnic",
+        "free",
+        "walk",
+        "quiet",
+        "green"
+      ],
+      "blurb": "Thirty-seven acres of lawn, pergolas and a fenced bluff-top promenade at the southern tip of the city, with the 1874 lighthouse in the middle and Catalina on the horizon. It is a long drive from most of LA, which is the point: on a weekday afternoon it is dog walkers, a few people watching the surf below and wind in the palms. Sunsets are wide and unobstructed.",
+      "tips": "The benches along the west promenade past the lighthouse face the sunset; cross Gaffey St to the Korean Bell of Friendship in Angels Gate Park for the harbor-to-ocean panorama. The parking lot closes at sunset, so park on Paseo del Mar if you are staying into dusk.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Park roughly 6:30am-10pm; parking lot sunrise to sunset",
+      "lat": 33.7058,
+      "lng": -118.2933,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://recreation.parks.lacity.gov/park/point-fermin",
+          "label": "LA Recreation & Parks: Point Fermin Park",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.weekendsherpa.com/stories/korean-friendship-bell-in-los-angeles/",
+          "label": "Weekend Sherpa: Bell of a beautiful sunset",
+          "kind": "blog"
+        },
+        {
+          "url": "https://sanpedro.com/san-pedro-area-points-interest/point-fermin-park/",
+          "label": "SanPedro.com: Point Fermin Park",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "The bluff edge is fenced along the promenade; stay inside it, as the adjacent 'Sunken City' landslide area is closed and off-limits. The park is poorly lit past the lighthouse, so treat it as a sunrise-to-dusk spot."
+      },
+      "lowkeyScore": 3,
+      "verified": true,
+      "verifyNote": "Real city park at 807 Paseo del Mar, about 39 km from downtown. No park-specific Wikipedia article confirmed (the Point Fermin Lighthouse article is about the lighthouse), so title left null. Added an explicit note to stay off the closed Sunken City area next door."
+    },
+    {
+      "name": "Baldwin Hills Scenic Overlook",
+      "neighborhood": "Culver City / Baldwin Hills",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "skyline",
+        "sunset",
+        "walk",
+        "free",
+        "solo",
+        "group",
+        "green"
+      ],
+      "blurb": "A 57-acre state park on a hill above Jefferson Blvd, where a 282-step staircase or a gentler switchback trail lands you on a plateau with the whole city laid out: downtown, the Hollywood Sign, Century City and the ocean in one sweep. Regulars run the stairs at dawn and then sit on the terraced concrete steps to catch their breath and watch the light change. It is popular but spread out enough that you can usually find your own edge.",
+      "tips": "Take the dirt switchback trail instead of the stairs if you want to arrive relaxed; the wide west-facing steps are the best sunset seats. The park closes at sunset, so time it to be walking down in the afterglow. Parking at the top is paid; walking up from Jefferson Blvd is free.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "8am to sunset daily; visitor center roughly Fri-Sun 9:30am-4:30pm (check parks.ca.gov)",
+      "lat": 34.0128,
+      "lng": -118.3855,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Baldwin Hills Scenic Overlook State Park",
+      "sources": [
+        {
+          "url": "https://www.parks.ca.gov/BHSO",
+          "label": "California State Parks: Baldwin Hills Scenic Overlook",
+          "kind": "official"
+        },
+        {
+          "url": "https://laist.com/news/a-park-a-day-baldwin-hills-scenic-o",
+          "label": "LAist: A Park a Day, Baldwin Hills Scenic Overlook",
+          "kind": "press"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Baldwin_Hills_Scenic_Overlook_State_Park",
+          "label": "Wikipedia: Baldwin Hills Scenic Overlook State Park",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Busy with runners and hikers; closes at sunset."
+      },
+      "lowkeyScore": 2,
+      "verified": true,
+      "verifyNote": "Wikipedia title confirmed by search. Coordinates tightened to the 6300 Hetzler Rd entrance/summit; acreage corrected to 57 per the article."
+    },
+    {
+      "name": "Self-Realization Fellowship Lake Shrine",
+      "neighborhood": "Pacific Palisades",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "water",
+        "green",
+        "solo",
+        "hidden",
+        "cozy",
+        "walk"
+      ],
+      "blurb": "A spring-fed lake ringed by gardens, swans, a windmill chapel and a Gandhi memorial, tucked below Sunset Blvd where it meets PCH. The meditation gardens survived the January 2025 Palisades fire and reopened in late August 2025 on a free timed-reservation system, so you are never sharing the lakeside benches with more than a modest number of people, most of them sitting silently. It is the closest thing LA has to a public meditation garden.",
+      "tips": "Book a free slot on lakeshrine.org; reservations open Saturday mornings for the following Wed-Sun and go quickly. Morning slots arrive 10-11:30am and afternoon slots 1-3pm, and either lets you stay until 4:30pm. The neighborhood is still rebuilding, so expect construction traffic on Sunset and PCH.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Meditation Gardens by free reservation only: Wed-Sat 10am-4:30pm, Sun 1-4:30pm; closed Mon-Tue. Retreat remains closed for remediation (check lakeshrine.org)",
+      "lat": 34.039,
+      "lng": -118.5395,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Self-Realization Fellowship Lake Shrine",
+      "sources": [
+        {
+          "url": "https://lakeshrine.org/",
+          "label": "SRF Lake Shrine official site",
+          "kind": "official"
+        },
+        {
+          "url": "https://yogananda.org/blog/srf-lake-shrine-meditation-gardens-to-reopen",
+          "label": "SRF: Lake Shrine Meditation Gardens to reopen",
+          "kind": "official"
+        },
+        {
+          "url": "https://yogananda.org/blog/a-year-after-the-fire-srf-lake-shrine-news-and-updates",
+          "label": "SRF: A year after the fire, Lake Shrine news and updates",
+          "kind": "official"
+        },
+        {
+          "url": "https://timeout.com/los-angeles/attractions/self-realization-fellowship-lake-shrine",
+          "label": "Time Out LA: Self-Realization Fellowship Lake Shrine",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated, staffed and reservation-only; daytime hours only. On-site parking is provided."
+      },
+      "lowkeyScore": 3,
+      "verified": true,
+      "verifyNote": "Search confirmed the gardens reopened 27 Aug 2025 with Wed-Sat 10am-4:30pm / Sun 1-4:30pm reservation-only hours; draft's afternoon-only hours and tips corrected. Wikipedia title confirmed. Unconfirmed LAist and yogananda URLs replaced with ones seen in results."
+    },
+    {
+      "name": "Habitat Coffee Shop",
+      "neighborhood": "Glassell Park",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "study",
+        "rain-ok",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "A plant-filled neighborhood coffee shop on an unglamorous stretch of Eagle Rock Blvd, with big windows, art on the walls and music kept low. Most of the room is locals with a laptop or a paperback nursing one drink for a couple of hours, and the staff do not hurry anyone. There is a small outdoor patio for sunny days and a proper breakfast and sandwich menu if you stay through lunch.",
+      "tips": "Weekday mid-mornings after the commuter rush are the calmest; grab a window table for the light. It is a laptop-heavy room, so expect keyboard clatter rather than silence. Street parking on Eagle Rock Blvd is usually easy.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "7am-5pm daily",
+      "lat": 34.1125,
+      "lng": -118.2295,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.habitatcoffeela.com/",
+          "label": "Habitat Coffee Shop official site",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.timeout.com/los-angeles/restaurants/habitat-coffee",
+          "label": "Time Out LA: Habitat Coffee",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.theinfatuation.com/los-angeles/reviews/habitat",
+          "label": "The Infatuation: Habitat",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Busy commercial strip; closes at 5pm."
+      },
+      "lowkeyScore": 4,
+      "verified": true,
+      "verifyNote": "Confirmed by search: 3708 Eagle Rock Blvd, open 7am-5pm daily, official domain habitatcoffeela.com. Dropped the 'quiet' vibe since reviews describe a laptop-filled room; replaced an unconfirmed blog source with The Infatuation review seen in results."
+    },
+    {
+      "name": "Stories Books & Cafe",
+      "neighborhood": "Echo Park",
+      "category": "bookstore",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "study",
+        "people-watch",
+        "solo",
+        "green"
+      ],
+      "blurb": "A new-and-used bookshop on Sunset Blvd with a cafe counter in the back and a shaded, plant-walled patio hidden behind it, well out of earshot of the boulevard. You can browse floor-to-ceiling stacks, buy a coffee and a sandwich, and read for an afternoon inside or out; the patio fills with freelancers by noon but stays mellow. It is the neighborhood's default rainy-day room.",
+      "tips": "Come before 11am on weekdays to claim a patio table; the indoor seats among the shelves are the fallback when it rains. Evening readings and events sometimes take over the patio, so check the calendar.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Roughly 8:30am-9pm weekdays and 10am-10pm weekends, later Fri-Sat (check storiesla.com)",
+      "lat": 34.0776,
+      "lng": -118.2588,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://storiesla.com/",
+          "label": "Stories Books & Cafe official site",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.theinfatuation.com/los-angeles/reviews/stories-books-cafe",
+          "label": "The Infatuation: Stories Books & Cafe",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.timeout.com/los-angeles/restaurants/stories-books-and-cafe",
+          "label": "Time Out LA: Stories Books and Cafe",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "On a busy, lit stretch of Sunset Blvd with foot traffic into the evening."
+      },
+      "lowkeyScore": 3,
+      "verified": true,
+      "verifyNote": "Well-known shop at 1716 W Sunset Blvd (from knowledge; no search spent). No Wikipedia article; hours softened."
+    },
+    {
+      "name": "Burton Chace Park",
+      "neighborhood": "Marina del Rey",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "night",
+        "sunset",
+        "quiet",
+        "free",
+        "walk",
+        "solo",
+        "picnic",
+        "hidden"
+      ],
+      "blurb": "A 10-acre lawn on a finger of land poking into the marina's main channel, so you are surrounded by masts on three sides and the loudest sound is halyards clinking. Benches along the seawall face the boats coming in at sunset, and the park is lit and open into the evening, making it one of the calmer waterfront spots for a night walk. On weekdays it is a few dog walkers and someone reading on the grass.",
+      "tips": "Park in the county lot at the end of Mindanao Way and walk to the tip of the park for the widest channel view. Summer weekends bring free concerts and December brings the boat parade; weeknights after dinner are the quietest.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Roughly 6am-10pm daily (check beaches.lacounty.gov)",
+      "lat": 33.977,
+      "lng": -118.4472,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Chace Park",
+      "sources": [
+        {
+          "url": "https://beaches.lacounty.gov/burton-chace-park/",
+          "label": "LA County Beaches & Harbors: Burton Chace Park",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Chace_Park",
+          "label": "Wikipedia: Chace Park",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g32684-d636086-Reviews-Burton_W_Chace_Park-Marina_del_Rey_California.html",
+          "label": "Tripadvisor: Burton W. Chace Park reviews",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit, patrolled county park with the sheriff's harbor station nearby; open into the evening."
+      },
+      "lowkeyScore": 4,
+      "verified": true,
+      "verifyNote": "Wikipedia title 'Chace Park' confirmed by search (article describes this 10-acre Mindanao Way park). Coordinates tightened; hours flagged as approximate."
+    }
+  ]
+}

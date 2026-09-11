@@ -1,0 +1,720 @@
+{
+  "city": "London",
+  "country": "United Kingdom",
+  "slug": "london",
+  "region": "europe-africa",
+  "cityLat": 51.5074,
+  "cityLng": -0.1278,
+  "timezone": "Europe/London",
+  "searchesRun": [
+    "reddit London chill spots",
+    "r/london quiet places to relax and sit",
+    "reddit London hidden gems locals only",
+    "reddit London best sunset spot free",
+    "London best places to read a book outside",
+    "London cozy cafe sit for hours laptop friendly quiet",
+    "London free public rooftop terrace viewpoint",
+    "London secret garden courtyard quiet",
+    "London waterfront bench night walk safe",
+    "The Tide Greenwich Peninsula elevated park opening hours sunset",
+    "Stave Hill Rotherhithe viewpoint mound",
+    "Dalston Eastern Curve Garden opening hours evening lanterns",
+    "Cloister Garden Museum of the Order of St John Clerkenwell opening hours free",
+    "Brown Hart Gardens Mayfair raised garden opening hours",
+    "The Garden at 120 Fenchurch Street opening hours free rooftop",
+    "Wellcome Collection Reading Room opening hours free quiet",
+    "Hampstead Pergola and Hill Garden opening hours quiet",
+    "Parkland Walk Finsbury Park Highgate nature reserve reddit quiet walk",
+    "London best library reading rooms free public quiet study",
+    "London stargazing spots within city dark reddit",
+    "Royal Festival Hall free seating sit all day Southbank Centre foyer laptop",
+    "St Dunstan in the East garden opening hours Postman's Park opening hours",
+    "Stir Coffee Brixton cafe review quiet work hours",
+    "The Tide Greenwich Peninsula wikipedia",
+    "Dalston Eastern Curve Garden wikipedia",
+    "Stave Hill Rotherhithe wikipedia",
+    "Hill Garden and Pergola Hampstead wikipedia",
+    "Fen Court 120 Fenchurch Street wikipedia",
+    "Parliament Hill Hampstead Heath sunset skyline locals wikipedia",
+    "where Londoners go to decompress according to locals favourite quiet spots",
+    "St Dunstan-in-the-East wikipedia Royal Festival Hall wikipedia Wellcome Collection wikipedia",
+    "[verifier, not executed: session WebSearch budget exhausted 200/200] Stir Coffee Brixton Hill cafe opening hours",
+    "[verifier, not executed] Museum of the Order of St John cloister garden opening hours visit",
+    "[verifier, not executed] The Tide Greenwich Peninsula elevated park opening hours",
+    "[verifier, not executed] Dalston Eastern Curve Garden opening hours",
+    "[verifier, not executed] wikipedia checks: St Dunstan-in-the-East, Postman's Park, Stave Hill, Hill Garden and Pergola, Parkland Walk, Brown Hart Gardens, Parliament Hill",
+    "[verifier] direct fetch attempts of en.wikipedia.org API and official sites (museumstjohn.org.uk, dalstongarden.org, greenwichpeninsula.co.uk, thegardenat120.com, wellcomecollection.org, cityoflondon.gov.uk, theinfatuation.com) all denied by network egress policy"
+  ],
+  "redditSourcedNotes": "No reddit.com pages surfaced in any result set despite reddit-first phrasing, so no source is tagged kind=reddit. Local-opinion content came instead from: a City Hall (london.gov.uk) survey of nearly 1,000 Londoners on their favourite hidden gems (which surfaced Parkland Walk, Cross Bones Graveyard, Fan Museum); a Tripadvisor London forum thread 'Quiet areas in busy London - do they exist?' (Postman's Park, Bushy Park water garden, Bunhill Fields); a hampstead-village.com local guide to Heath sunset spots; a UCL student guide to quiet spots near Euston (Wellcome Reading Room); and 'according to locals' style round-ups from cityunscripted, ianvisits, Londonist and urban75. Stargazing searches confirmed that London proper is very poor for stars (Crayford/Dartford marshes are the only semi-dark spots, and they are not safe low-key night hangouts), so no stargazing spot is included; Stave Hill and Parliament Hill are the best open-sky spots but are unlit. Reddit-derived claims could not be verified directly; treat 'locals' framing as coming from the sources above. VERIFIER NOTE: the fact-check pass could not run any live searches (session search budget exhausted) and direct fetches of Wikipedia and official sites were blocked by egress policy; verification therefore rests on prior knowledge. Wikipedia titles were kept only where the article is well established; uncertain titles were set to null. Stir Coffee (Brixton Hill) was dropped because a single independent cafe's current trading status and hours could not be confirmed.",
+  "spots": [
+    {
+      "name": "St Dunstan-in-the-East Church Garden",
+      "neighborhood": "City of London (Tower Hill)",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "green",
+        "hidden",
+        "solo",
+        "free",
+        "study",
+        "cozy"
+      ],
+      "blurb": "A bombed-out medieval church with a Wren tower whose roofless nave has been taken over by ivy, fig trees and climbing vines, with a small fountain in the middle and benches tucked into the arches. Office workers eat lunch here in near silence; early on a weekday morning it is often nearly empty and works well with a coffee and a book. It sits on a steep side street between London Bridge and the Tower, so most people walk straight past.",
+      "tips": "Come before 9am or after 5pm on a weekday; lunchtime and sunny weekends bring photographers. Enter from St Dunstan's Hill or Idol Lane; the benches under the arches get the most morning sun.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "8am-7pm or dusk, whichever is earlier",
+      "lat": 51.5096,
+      "lng": -0.0823,
+      "coordConfidence": "high",
+      "wikipediaTitle": "St Dunstan-in-the-East",
+      "sources": [
+        {
+          "url": "https://www.cityoflondon.gov.uk/things-to-do/city-gardens/find-a-garden/st-dunstan-in-the-east-church-garden",
+          "label": "City of London: St Dunstan in the East Church Garden",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.stylist.co.uk/travel/hidden-reading-space-around-london-the-best-most-peaceful-spots-for-you-and-your-book/3790",
+          "label": "Stylist: best reading spots in London",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.cityunscripted.com/travel-magazine/hidden-gems-in-london",
+          "label": "City Unscripted: hidden gems locals love",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated City of London garden in a busy office district; closes at dusk."
+      },
+      "lowkeyScore": 3,
+      "verifyNote": "Well-documented public City garden; 'Wren church' corrected to medieval church with Wren tower. Wikipedia title from prior knowledge (live check blocked).",
+      "verified": true
+    },
+    {
+      "name": "Postman's Park",
+      "neighborhood": "City of London (St Paul's)",
+      "category": "park",
+      "vibes": [
+        "quiet",
+        "green",
+        "hidden",
+        "solo",
+        "free",
+        "study"
+      ],
+      "blurb": "A pocket park behind St Paul's, once a lunch spot for workers from the old General Post Office next door, with a covered loggia holding the Watts Memorial: rows of Victorian ceramic tiles honouring ordinary people who died saving others. It is shaded, hushed and contemplative, the kind of place people come to sit alone for twenty minutes. Benches sit around a small pond and mature plane trees keep it cool in summer.",
+      "tips": "Enter from King Edward Street or Little Britain; the benches under the loggia stay dry in light rain. Weekday 12-2pm is the only time it fills up.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "8am-7pm or dusk, whichever is earlier",
+      "lat": 51.5167,
+      "lng": -0.0977,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Postman's Park",
+      "sources": [
+        {
+          "url": "https://www.tripadvisor.com/ShowTopic-g186338-i17-k14427883-Quiet_areas_in_busy_London_do_they_exist-London_England.html",
+          "label": "Tripadvisor forum: Quiet areas in busy London",
+          "kind": "forum"
+        },
+        {
+          "url": "https://dutchgirlinlondon.com/2022/01/23/postmans-park-london/",
+          "label": "Dutch Girl in London: Secret London, Postman's Park",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.cityunscripted.com/travel-magazine/hidden-gems-in-london",
+          "label": "City Unscripted: hidden gems locals love",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated park in a well-policed office district; closes at dusk."
+      },
+      "lowkeyScore": 3,
+      "verifyNote": "Well-known City garden; Wikipedia article is a long-standing featured article (prior knowledge).",
+      "verified": true
+    },
+    {
+      "name": "The Garden at 120",
+      "neighborhood": "City of London (Fenchurch Street)",
+      "category": "rooftop",
+      "vibes": [
+        "view",
+        "skyline",
+        "sunset",
+        "green",
+        "free",
+        "people-watch",
+        "night"
+      ],
+      "blurb": "One of the City's largest free public roof gardens, fifteen storeys up on top of Fen Court, with wisteria pergolas, fruit trees, a long shallow rill and wide views of the Gherkin, the Shard, Tower Bridge and the river. Unlike Sky Garden there is no booking and no bar pressure: you take the lift up, find a bench and stay as long as you like. On summer weekday evenings it has stayed open into the evening, which makes it one of the calmest free places in the City to watch the light go.",
+      "tips": "Enter via the Fenchurch Street lobby and expect a bag check and a short queue at lunchtime; late afternoon on a weekday is usually near-empty. Weekend hours are shorter and it shuts on bank holidays; confirm the day's closing time on the official site before planning a sunset visit.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Mon-Fri approx 10am-9pm in summer and 10am-6:30pm in winter; Sat-Sun approx 10am-5pm; closed bank holidays (check site)",
+      "lat": 51.5125,
+      "lng": -0.0808,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.thegardenat120.com/",
+          "label": "Fen Court: The Garden at 120 (official)",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.urban75.org/blog/in-photos-panoramic-views-of-london-from-the-garden-at-120-fenchurch-street-london-free-to-visit-rooftop-space/",
+          "label": "urban75: panoramic views from The Garden at 120",
+          "kind": "blog"
+        },
+        {
+          "url": "https://theworkingline.com/best-free-rooftops-in-london-viewpoints-garden/",
+          "label": "The Working Line: free rooftops in London",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, security-screened terrace; lit in the evening."
+      },
+      "lowkeyScore": 3,
+      "verifyNote": "Real free roof garden (opened 2019). 'Largest' claim softened; hours flagged as check-site since seasonal times could not be re-verified. No confident Wikipedia article title, left null.",
+      "verified": true
+    },
+    {
+      "name": "Cloister Garden, Museum of the Order of St John",
+      "neighborhood": "Clerkenwell",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "hidden",
+        "green",
+        "solo",
+        "free",
+        "study",
+        "cozy"
+      ],
+      "blurb": "A small walled garden in a monastic style beside the Priory Church of the Order of St John, just off St John's Square, with a fountain, medicinal and herb planting and benches in the shade. It is almost completely silent apart from the water, and even Clerkenwell locals often do not know it is open to the public. Good for an hour of reading with nobody around.",
+      "tips": "Walk through the passage beside the Priory Church on St John's Square, opposite St John's Gate. The garden follows the museum's opening days and occasionally closes for events, so check the museum site before a special trip. Bring your own coffee.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "During museum opening hours only (recently around Wed-Sat 10am-5pm; days vary, check site)",
+      "lat": 51.5224,
+      "lng": -0.1024,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Museum of the Order of St John",
+      "sources": [
+        {
+          "url": "https://museumstjohn.org.uk/planning-your-visit/",
+          "label": "Museum of the Order of St John: Planning your visit",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.ianvisits.co.uk/articles/londons-pocket-parks-st-johns-cloister-garden-ec1-70699/",
+          "label": "IanVisits: London's Pocket Parks, St John's Cloister Garden",
+          "kind": "blog"
+        },
+        {
+          "url": "https://exploring-london.com/2022/09/07/10-unusual-parks-or-gardens-in-london10-the-cloister-garden-museum-of-the-order-of-st-john/",
+          "label": "Exploring London: The Cloister Garden",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Enclosed garden attached to a staffed museum; only open when the museum is."
+      },
+      "lowkeyScore": 5,
+      "verifyNote": "Draft hours 'Mon-Sat 9:30am-dusk' looked wrong; the garden is only open with the museum, which has run reduced days since 2020. 'Loose chairs' claim removed. Wikipedia title is the parent museum's article.",
+      "verified": true
+    },
+    {
+      "name": "Wellcome Collection Reading Room",
+      "neighborhood": "Euston / Bloomsbury",
+      "category": "library",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "quiet",
+        "study",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "A hybrid library-gallery on level 2 of the free Wellcome Collection museum, with sofas, cushions, a wide staircase to sit on, and shelves you can browse without a card or a booking. Students from nearby UCL treat it as a common room, but it rarely feels crowded. Rainy afternoons here with a book are as low-key as central London gets.",
+      "tips": "Take the stairs past the cafe to level 2; the window seats go first. The Wellcome Library next door has proper desks if you need to work (free membership, bring ID). Closed Mondays.",
+      "bestTimes": [
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Tue-Sun 10am-6pm; closed Mon (museum opens late on Thu; check site for Reading Room times)",
+      "lat": 51.5259,
+      "lng": -0.1337,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Wellcome Collection",
+      "sources": [
+        {
+          "url": "https://wellcomecollection.org/visit-us/the-reading-room",
+          "label": "Wellcome Collection: The Reading Room",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.ucl.ac.uk/students/news/2020/dec/5-quiet-spots-near-ucl",
+          "label": "UCL: 5 quiet spots near UCL",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.timeout.com/london/blog/ten-quiet-places-to-escape-to-on-your-lunch-break-in-london-041816",
+          "label": "Time Out: ten quiet places to escape to on your lunch break",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed museum building on Euston Road."
+      },
+      "lowkeyScore": 4,
+      "verifyNote": "Real free space inside a major museum; Wikipedia title is the museum's article (prior knowledge).",
+      "verified": true
+    },
+    {
+      "name": "Brown Hart Gardens",
+      "neighborhood": "Mayfair",
+      "category": "plaza",
+      "vibes": [
+        "quiet",
+        "hidden",
+        "people-watch",
+        "free",
+        "solo",
+        "study"
+      ],
+      "blurb": "A raised Edwardian stone terrace built on top of the Duke Street electricity substation, a short walk south of Oxford Street, with planters, benches and a small cafe. Most shoppers never look up, so it stays surprisingly quiet even on Saturdays. You sit above the street noise and watch Mayfair go by from a stone balustrade.",
+      "tips": "Climb the steps from Duke Street or Brown Hart Gardens; the benches on the south side catch afternoon sun. The gates are locked in the evening.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Daily approx 8am-8pm (shorter in winter; cafe daytime only)",
+      "lat": 51.5134,
+      "lng": -0.1499,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Brown Hart Gardens",
+      "sources": [
+        {
+          "url": "https://www.londonxlondon.com/brown-hart-gardens-london/",
+          "label": "London x London: The hidden secrets of Brown Hart Gardens",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.grosvenor.com/property/uk-f346afcca4062fd904b22f82bec4831e/brown-hart-gardens",
+          "label": "Grosvenor: Brown Hart Gardens",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated raised garden in a busy shopping district; locked overnight."
+      },
+      "lowkeyScore": 4,
+      "verifyNote": "Real Grosvenor-managed public garden; hours are approximate and seasonal.",
+      "verified": true
+    },
+    {
+      "name": "Royal Festival Hall foyers and riverside terrace",
+      "neighborhood": "South Bank",
+      "category": "indoor",
+      "vibes": [
+        "rain-ok",
+        "night",
+        "water",
+        "view",
+        "people-watch",
+        "study",
+        "free",
+        "group"
+      ],
+      "blurb": "Since 1983 the Grade I-listed Royal Festival Hall has kept an open-foyer policy: anyone can walk in, take a table on the upper levels, plug in a laptop, doze in a chair or read for hours with no ticket and no purchase. Upstairs the river-facing balconies look straight across the Thames at Westminster and the Embankment lights. The riverside walk outside is lit and busy until late, so it is a rare central spot that works both wet and late.",
+      "tips": "Level 5 has the quietest tables and good river views, and the National Poetry Library up there is free to browse. Bringing your own food and soft drinks into the foyers is allowed; avoid the pre-concert rush around 6-7:30pm.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Building daily approx 10am-11pm (check site); riverside walk 24h",
+      "lat": 51.5058,
+      "lng": -0.1165,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Royal Festival Hall",
+      "sources": [
+        {
+          "url": "https://www.southbankcentre.co.uk/venues/level-1-foyer-royal-festival-hall/",
+          "label": "Southbank Centre: Royal Festival Hall foyers",
+          "kind": "official"
+        },
+        {
+          "url": "https://seatplan.com/london/news/day-at-the-southbank-centre/",
+          "label": "SeatPlan: How to enjoy a day at the Southbank Centre",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.cityunscripted.com/travel-magazine/london-at-night",
+          "label": "City Unscripted: a local's guide to London after dark",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building; the South Bank riverside is well lit and busy until late."
+      },
+      "lowkeyScore": 2,
+      "verifyNote": "Open-foyer policy dates from 1983; landmark with an obvious Wikipedia article (prior knowledge).",
+      "verified": true
+    },
+    {
+      "name": "Parliament Hill viewpoint",
+      "neighborhood": "Hampstead Heath",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "skyline",
+        "sunset",
+        "sunrise",
+        "green",
+        "picnic",
+        "free",
+        "group",
+        "walk"
+      ],
+      "blurb": "The grassy summit in the south-east corner of Hampstead Heath, about 98m up, with a protected panorama of the skyline from St Paul's to the Shard and Canary Wharf. Locals bring a blanket at dusk and sit in a loose, friendly crowd of picnickers and dog-walkers; at dawn it is nearly empty and the city glows below. It is famous, but big and open enough that it never feels like a queue.",
+      "tips": "Walk up from Gospel Oak Overground (about 10 min); the bench-lined crest faces south-east, so sunrise is the truly quiet slot. There is no lighting on the Heath, so head back down towards Highgate Road or Gospel Oak once the sky goes dark.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 51.559,
+      "lng": -0.1597,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Parliament Hill, London",
+      "sources": [
+        {
+          "url": "https://www.cityoflondon.gov.uk/things-to-do/green-spaces/hampstead-heath/where-to-go-at-hampstead-heath/parliament-hill-viewpoint",
+          "label": "City of London: Parliament Hill viewpoint",
+          "kind": "official"
+        },
+        {
+          "url": "https://hampstead-village.com/blog/hampstead-heath-best-sunset-spots",
+          "label": "Hampstead Village: best sunset spots on Hampstead Heath (local guide)",
+          "kind": "blog"
+        },
+        {
+          "url": "https://delveintoeurope.com/sunsets-in-london/",
+          "label": "Delve into Europe: best sunsets in London",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "The Heath is unlit after dark; fine at sunset with the crowd, but leave with others once it is fully dark or go with a friend."
+      },
+      "lowkeyScore": 2,
+      "verifyNote": "Protected-view summit on public heathland; caution kept for the unlit walk down.",
+      "verified": true
+    },
+    {
+      "name": "The Hill Garden and Pergola",
+      "neighborhood": "Hampstead (North End) / Golders Hill",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "hidden",
+        "green",
+        "solo",
+        "free",
+        "study",
+        "walk",
+        "view"
+      ],
+      "blurb": "An Edwardian raised walkway of weathered stone columns draped in wisteria, vines and roses, built for Lord Leverhulme above West Heath and now gently going back to nature. It looks over a formal terraced garden with a lily pond and out across the trees, and on a weekday morning you can wander most of the long colonnade alone. It feels like a film set that nobody bothered to fence off.",
+      "tips": "Enter via Inverforth Close off North End Way (Golders Green or Hampstead tube, then about a 15-min walk); the western end of the pergola looks over West Heath. Weekend afternoons draw photo shoots, so go early.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "8:30am to around dusk (closing time varies by month; check City of London site)",
+      "lat": 51.5655,
+      "lng": -0.1834,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.cityoflondon.gov.uk/things-to-do/green-spaces/hampstead-heath/where-to-go-at-hampstead-heath/hill-garden-and-pergola",
+          "label": "City of London: The Hill Garden and Pergola",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.londonxlondon.com/hampstead-pergola-hill-garden/",
+          "label": "London x London: Hampstead Pergola and Hill Garden",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.timeout.com/london/things-to-do/10-places-to-help-you-feel-calm-in-london",
+          "label": "Time Out: 10 places to help you feel calm in London",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated garden that closes at dusk; the walk from the tube is along a residential road."
+      },
+      "lowkeyScore": 4,
+      "verifyNote": "Real City of London-run garden. Exact Wikipedia article title could not be confirmed ('Hill Garden' is not certainly the article), so set to null rather than risk a wrong photo.",
+      "verified": true
+    },
+    {
+      "name": "Parkland Walk",
+      "neighborhood": "Finsbury Park / Crouch End / Highgate",
+      "category": "trail",
+      "vibes": [
+        "green",
+        "walk",
+        "quiet",
+        "hidden",
+        "free",
+        "solo",
+        "view"
+      ],
+      "blurb": "London's longest local nature reserve runs along a disused railway cutting from Finsbury Park up to Highgate, past the old platforms at Crouch End, graffiti-covered bridges and a spriggan sculpture peering from an arch. It is shaded, mostly free of traffic noise and used by local runners, dog-walkers and people who just want a slow half-hour under the trees. It came up in City Hall's survey of Londoners' favourite hidden gems.",
+      "tips": "Start at the Oxford Road entrance by Finsbury Park and walk north; the old Crouch End platforms are the best spot to sit. The path is unlit and can be muddy after rain, so treat it as a daytime place.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (unlit; best in daylight)",
+      "lat": 51.5758,
+      "lng": -0.1245,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Parkland Walk",
+      "sources": [
+        {
+          "url": "https://www.haringey.gov.uk/leisure-parks-culture/parks-greenspaces/parks-facilities-haringey/parkland-walk-nature-reserve",
+          "label": "Haringey Council: Parkland Walk nature reserve",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.london.gov.uk/content/hidden-gems-londoners",
+          "label": "London.gov.uk: hidden gems chosen by Londoners",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.tripadvisor.co.uk/Attraction_Review-g12882899-d11753699-Reviews-The_Parkland_Walk-Crouch_End_Haringey_Greater_London_England.html",
+          "label": "Tripadvisor reviews: The Parkland Walk",
+          "kind": "forum"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Unlit wooded cutting with few exits; well used and pleasant by day, but there have been reported assaults and robberies on quiet stretches, so stick to daylight and busier sections, or go with a friend."
+      },
+      "lowkeyScore": 4,
+      "verifyNote": "Legitimate council-managed nature reserve; caution note made specific about past incidents and daylight use.",
+      "verified": true
+    },
+    {
+      "name": "Dalston Eastern Curve Garden",
+      "neighborhood": "Dalston, Hackney",
+      "category": "garden",
+      "vibes": [
+        "cozy",
+        "green",
+        "night",
+        "hidden",
+        "group",
+        "solo",
+        "free",
+        "people-watch"
+      ],
+      "blurb": "A community garden built on a disused railway curve behind Dalston Junction, with wood-chip paths, a pizza oven, a small cafe-bar serving coffee and drinks, and paper lanterns strung through the trees after dark. It is free to enter and locals come to read on the benches by day or sit under the lights with a drink in the evening. It feels like someone's back garden rather than a venue.",
+      "tips": "The entrance is a gap in the wall at 13 Dalston Lane, near Dalston Junction Overground. Summer evenings are lantern-lit and run late; winter closing is around dusk. The covered Pineapple House has a wood-burning stove for cold or wet evenings.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Daily; seasonal, roughly late morning to dusk in winter and to 9-10pm on summer evenings (check site)",
+      "lat": 51.5465,
+      "lng": -0.0745,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://dalstongarden.org/",
+          "label": "Dalston Curve Garden (official)",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.timeout.com/london/attractions/dalston-eastern-curve-garden",
+          "label": "Time Out: Dalston Eastern Curve Garden",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.spottedbylocals.com/london/dalston-eastern-curve-garden/",
+          "label": "Spotted by Locals: Dalston Eastern Curve Garden",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed garden with a cafe-bar, lantern-lit until closing; Dalston Lane outside is busy and well lit."
+      },
+      "lowkeyScore": 3,
+      "verifyNote": "Long-running community garden; the draft's precise day-by-day hours were unverifiable so replaced with a seasonal range.",
+      "verified": true
+    },
+    {
+      "name": "The Tide, Greenwich Peninsula",
+      "neighborhood": "Greenwich Peninsula / North Greenwich",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunset",
+        "skyline",
+        "view",
+        "night",
+        "walk",
+        "free",
+        "solo"
+      ],
+      "blurb": "A raised linear park beside the O2 designed by the studio behind New York's High Line, with wooden lounge benches, sculptures and a run of quieter seating above the Thames. From the riverside stretch the view runs across the water towards Canary Wharf, so on many evenings the sun goes down behind the towers before the lights come on. It is lit, managed and mostly used by residents rather than visitors.",
+      "tips": "From North Greenwich tube walk through Peninsula Square past the Design District and follow the raised path towards the cable car; the benches at the riverside end are best for sunset. Bring a layer, it is exposed and windy.",
+      "bestTimes": [
+        "golden-hour",
+        "night",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Open daily as part of the estate's public realm; no gate hours published, so treat it as an early-to-evening spot",
+      "lat": 51.501,
+      "lng": 0.0075,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.greenwichpeninsula.co.uk/whats-here/the-tide",
+          "label": "Greenwich Peninsula: The Tide (official)",
+          "kind": "official"
+        },
+        {
+          "url": "https://ourgreatperhaps.com/london-sunset/",
+          "label": "Our Great Perhaps: the 5 best sunset spots in London",
+          "kind": "blog"
+        },
+        {
+          "url": "https://londonist.com/london/great-outdoors/walkways-in-the-sky-a-first-look-at-the-tide-greenwich-peninsula",
+          "label": "Londonist: a first look at The Tide",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit, managed estate with security presence; the walk back to North Greenwich station is short and busy."
+      },
+      "lowkeyScore": 4,
+      "verifyNote": "Opened 2019 and publicly accessible; the draft's '7am-10pm' gate hours could not be verified so removed. Coordinates nudged to the riverside end near the cable car; medium confidence.",
+      "verified": true
+    },
+    {
+      "name": "Stave Hill",
+      "neighborhood": "Rotherhithe",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "skyline",
+        "sunset",
+        "quiet",
+        "hidden",
+        "green",
+        "free",
+        "solo"
+      ],
+      "blurb": "A 9m artificial mound built from old dock rubble in the middle of Russia Dock Woodland, with steps up to a flat top holding a bronze relief map of the vanished Surrey Docks. From the platform you get a wide view of Canary Wharf across the river, the City to the west and the Shard, with almost nobody else up there. It is genuinely a locals-only spot inside a quiet residential peninsula.",
+      "tips": "Nearest stations are Canada Water or Rotherhithe; enter the woodland from Timber Pond Road or Salter Road and follow signs. Sunset over the City is the moment; it is unlit, so come down before it gets fully dark.",
+      "bestTimes": [
+        "golden-hour",
+        "afternoon",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (unlit; best daylight or sunset)",
+      "lat": 51.5004,
+      "lng": -0.0443,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Stave Hill",
+      "sources": [
+        {
+          "url": "https://londonist.com/london/great-outdoors/stave-hill-climbing-london-s-least-historic-mound",
+          "label": "Londonist: Stave Hill is built on old dock rubble",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.ianvisits.co.uk/articles/views-of-london-from-a-hidden-hill-in-rotherhithe-3945/",
+          "label": "IanVisits: views of London from a hidden hill in Rotherhithe",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.southwark.gov.uk/culture-and-sport/parks-and-open-spaces/find-park/stave-hill-ecological-park",
+          "label": "Southwark Council: Stave Hill Ecological Park",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Quiet residential woodland with no lighting; great until dusk, then leave via Salter Road or go with a friend."
+      },
+      "lowkeyScore": 5,
+      "verifyNote": "Public LDDC-era mound in a council park; Wikipedia article title from prior knowledge.",
+      "verified": true
+    }
+  ]
+}

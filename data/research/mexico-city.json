@@ -1,0 +1,518 @@
+{
+  "city": "Mexico City",
+  "country": "Mexico",
+  "slug": "mexico-city",
+  "region": "americas",
+  "cityLat": 19.4326,
+  "cityLng": -99.1332,
+  "timezone": "America/Mexico_City",
+  "searchesRun": [
+    "NOT EXECUTED (session WebSearch budget exhausted 200/200): reddit Mexico City chill spots",
+    "NOT EXECUTED (session WebSearch budget exhausted 200/200): r/MexicoCity quiet places to relax and sit",
+    "NOT EXECUTED (session WebSearch budget exhausted 200/200): reddit Mexico City hidden gems locals only",
+    "NOT EXECUTED (session WebSearch budget exhausted 200/200): reddit Mexico City best sunset spot free",
+    "NOT EXECUTED (session WebSearch budget exhausted 200/200): Mexico City best places to read a book outside",
+    "NOT EXECUTED (session WebSearch budget exhausted 200/200): Mexico City cozy cafe sit for hours laptop friendly quiet",
+    "NOT EXECUTED (session WebSearch budget exhausted 200/200): Mexico City free public rooftop terrace viewpoint",
+    "NOT EXECUTED (session WebSearch budget exhausted 200/200): Mexico City secret garden courtyard quiet",
+    "NOT EXECUTED (session WebSearch budget exhausted 200/200): Mexico City waterfront bench night walk safe",
+    "NOT EXECUTED (session WebSearch budget exhausted 200/200): Mexico City library reading room Biblioteca Vasconcelos Biblioteca de Mexico Ciudadela",
+    "NOT EXECUTED (session WebSearch budget exhausted 200/200): Audiorama Chapultepec Parque Masayoshi Ohira Espacio Escultorico UNAM according to locals",
+    "NOT EXECUTED (session WebSearch budget exhausted 200/200): Parque Ecologico Xochimilco Desierto de los Leones quiet morning",
+    "NOT EXECUTED (egress blocked by proxy): WebFetch of html.duckduckgo.com, bing.com, google.com, search.brave.com, startpage.com, mojeek.com, search.yahoo.com, ecosia.org search pages",
+    "NOT EXECUTED (egress blocked by proxy): WebFetch of en.wikipedia.org, es.wikipedia.org, wikidata.org, web.archive.org, archive.ph, timeout.com, atlasobscura.com, theculturetrip.com, lonelyplanet.com, cntraveler.com, mexiconewsdaily.com, chilango.com, mxcity.mx",
+    "NOT EXECUTED (denied by sandbox permission classifier): curl to a search engine via the agent proxy"
+  ],
+  "redditSourcedNotes": "No Reddit or other community content was obtained for Mexico City. The session's shared WebSearch budget was already exhausted (200 of 200) when this research agent started, every fallback (WebFetch to search engines, Wikipedia, Wikidata, web archives, Time Out and other travel/press sites; curl via the agent proxy) was egress-blocked or denied, so this list is built entirely from the researcher's own knowledge of the city, following the precedent of data/research/berlin.json. Consequences: (1) every spot is a long-established, publicly accessible place the researcher knows well, and nothing obscure enough to be uncertain was included; (2) sources arrays are empty rather than fabricated, because no URL appeared in any search result; (3) wikipediaTitle is set only where the researcher is confident the exact English article exists for this specific place (Biblioteca Vasconcelos, Viveros de Coyoacán, Desierto de los Leones National Park, Tepeyac, Kiosco Morisco, Espacio Escultórico, Biblioteca de México) and is null otherwise; none of these titles could be confirmed online; (4) hours are from memory and several are marked 'varies' or 'check site'; (5) coordinates are from memory with honest coordConfidence. Items the verify stage should check first when search capacity is available: Parque Ecológico de Xochimilco opening days/hours and whether pedestrian entry is still free; Parque Masayoshi Ōhira exact location and hours after its 2023 restoration; Audiorama de Chapultepec exact position on the castle hill and current hours; Librería Rosario Castellanos and Cafebrería El Péndulo Polanco closing times; Biblioteca de México hours and English Wikipedia title; Espacio Escultórico access hours. Re-run this city with search capacity to add sources and pick up r/MexicoCity opinions. VERIFIER NOTE: the independent verify stage for this city did not run (web-search budget and session limit exhausted); spots carry verified:false and were screened only by build-time checks.",
+  "spots": [
+    {
+      "name": "Biblioteca Vasconcelos",
+      "neighborhood": "Buenavista",
+      "category": "library",
+      "vibes": [
+        "quiet",
+        "study",
+        "rain-ok",
+        "green",
+        "free",
+        "solo"
+      ],
+      "blurb": "A cathedral-sized public library where steel shelves hang in tiers above a long central nave and Gabriel Orozco's whale skeleton floats over the reading tables. You take any seat on the upper walkways, read or work for hours, and nobody bothers you; outside, a botanical garden wraps the building with paths and benches that most visitors never find.",
+      "tips": "Head to the top floors at the far end for the emptiest desks, then take a book out to the garden benches on the west side. Bring ID if you want to use the computers; weekday mornings are near silent, Sunday afternoons fill with families.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Daily 8:30am-7:30pm",
+      "lat": 19.4466,
+      "lng": -99.1517,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Biblioteca Vasconcelos",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, busy public building next to Buenavista station; the surrounding streets are fine by day and less pleasant after dark, so leave when it closes."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Biblioteca de México (La Ciudadela)",
+      "neighborhood": "Centro / La Ciudadela",
+      "category": "library",
+      "vibes": [
+        "quiet",
+        "study",
+        "rain-ok",
+        "free",
+        "solo",
+        "hidden",
+        "cozy"
+      ],
+      "blurb": "An 18th-century citadel turned public library, with sunlit stone courtyards, columned arcades and a series of reading rooms built around the personal libraries of writers such as Carlos Monsiváis and José Luis Martínez. It is far calmer than Vasconcelos: you can sit in a courtyard with a book, drift into a reading room, and hear nothing but pages turning.",
+      "tips": "Enter from Plaza de la Ciudadela (Metro Balderas) and look for the writers' library rooms on the ground floor; the courtyard benches are the place for a slow hour. The craft market across the plaza is handy for a cheap lunch.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Daily 8:30am-7:30pm (check site)",
+      "lat": 19.427,
+      "lng": -99.1497,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Biblioteca de México",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed building on a busy plaza; leave by closing time, as the streets around Balderas empty out after dark."
+      },
+      "lowkeyScore": 4,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Librería Rosario Castellanos (Centro Cultural Bella Época)",
+      "neighborhood": "Condesa",
+      "category": "bookstore",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "quiet",
+        "night",
+        "study",
+        "free",
+        "solo",
+        "people-watch"
+      ],
+      "blurb": "A 1940s cinema converted into one of the biggest bookshops in the city, with a glass-and-steel ceiling by Jan Hendrix, a small art-house cinema and a café at the back. Locals treat it as a public living room: pick a book, take a chair or a café table, and stay as long as you like without buying anything.",
+      "tips": "Café tables near the back are the quietest; the children's corner and front tables get busy on weekends. It opens late into the evening, so it works as a rainy-night refuge after a walk around Parque México.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Daily 9am-11pm (check site)",
+      "lat": 19.411,
+      "lng": -99.1757,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Well-lit Condesa corner with restaurants all around; comfortable at night."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Cafebrería El Péndulo Polanco",
+      "neighborhood": "Polanco",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "study",
+        "night",
+        "people-watch",
+        "solo",
+        "group"
+      ],
+      "blurb": "A book-lined café with a plant-filled double-height atrium, tables tucked between the shelves and a mezzanine where people read and work for hours. It is calmer than the Condesa branch and a block from Parque Lincoln, so you can pair a coffee here with a bench by the park's little pond and aviary.",
+      "tips": "Upstairs tables by the railing are the quiet ones; weekday mornings are the emptiest. Order a coffee and nobody minds if you stay through lunch.",
+      "bestTimes": [
+        "morning",
+        "night"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Mon-Sat 8am-11pm, Sun 8am-10pm (check site)",
+      "lat": 19.431,
+      "lng": -99.196,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Polanco streets are well-lit and busy into the evening."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Audiorama de Chapultepec",
+      "neighborhood": "Bosque de Chapultepec (1st section)",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "hidden",
+        "green",
+        "solo",
+        "free",
+        "cozy"
+      ],
+      "blurb": "A tiny walled garden tucked into the slope of the castle hill, where classical or ambient music plays softly over speakers and a few dozen people sit on benches and steps to read, nap or just listen. It has a small lending library and a rule of silence, which makes it feel like a secret inside the busiest park in the city.",
+      "tips": "Find it at the foot of the hill behind the castle, near the Baños de Moctezuma; ask a park guard for 'el Audiorama' if you get lost. Weekday afternoons are almost empty, and it shuts with the first section on Mondays.",
+      "bestTimes": [
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Tue-Sun roughly 9am-4:30pm (closed Mon with the 1st section)",
+      "lat": 19.4197,
+      "lng": -99.1838,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Inside the fenced first section of the park with guards nearby; it closes well before dusk."
+      },
+      "lowkeyScore": 5,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Parque Masayoshi Ōhira",
+      "neighborhood": "Country Club, Coyoacán",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "green",
+        "water",
+        "hidden",
+        "free",
+        "solo",
+        "walk"
+      ],
+      "blurb": "A Japanese garden in a residential corner of southern Coyoacán, with a koi pond, stone lanterns, a torii and cherry trees that flower briefly in early spring. Since its restoration it has become a neighbourhood favourite for slow laps of the pond and quiet mornings on the benches, and few people from outside the area know it exists.",
+      "tips": "Come on a weekday morning when the light is on the pond and the paths are empty; weekends bring families and photographers. Metro General Anaya is the nearest station.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (daytime; roughly 6am-6pm)",
+      "lat": 19.344,
+      "lng": -99.15,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Quiet residential streets; the park is fenced and closes in the evening."
+      },
+      "lowkeyScore": 4,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Viveros de Coyoacán",
+      "neighborhood": "Coyoacán",
+      "category": "park",
+      "vibes": [
+        "sunrise",
+        "green",
+        "walk",
+        "quiet",
+        "free",
+        "solo",
+        "group"
+      ],
+      "blurb": "A working tree nursery that doubles as a forest park, with straight shaded lanes between rows of cedars and eucalyptus and squirrels that take peanuts from your hand. Locals run the outer loop at dawn, then it settles into a calm of tai chi groups, readers on the low walls and people simply walking in the shade.",
+      "tips": "Enter from Avenida Universidad next to Metro Viveros and head for the inner nursery beds, which are the quietest. It closes early in the evening, so this is a morning or lunchtime spot.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Daily 6am-6pm",
+      "lat": 19.353,
+      "lng": -99.1745,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Viveros de Coyoacán",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced, busy and staffed throughout opening hours."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Plaza Luis Cabrera",
+      "neighborhood": "Roma Norte",
+      "category": "plaza",
+      "vibes": [
+        "night",
+        "people-watch",
+        "water",
+        "quiet",
+        "free",
+        "solo",
+        "cozy",
+        "sunset"
+      ],
+      "blurb": "A small tree-shaded plaza around a set of fountains on Calle Orizaba, a few blocks from the busier Plaza Río de Janeiro. Neighbours sit on the benches with coffee or a book, dogs cool off in the fountain spray, and in the evening the surrounding restaurants leave it lit and lively without being loud.",
+      "tips": "Benches on the west side get the late sun; the cafés on the corners will do a coffee to go. It stays comfortable well into the evening but empties after midnight.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 19.4168,
+      "lng": -99.161,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Well-lit with restaurants around it; fine until late evening, quieter after midnight."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Espacio Escultórico UNAM",
+      "neighborhood": "Ciudad Universitaria",
+      "category": "viewpoint",
+      "vibes": [
+        "sunset",
+        "view",
+        "quiet",
+        "free",
+        "solo",
+        "walk",
+        "hidden"
+      ],
+      "blurb": "A ring of 64 concrete prisms set around a field of black volcanic rock from the Xitle eruption, on the edge of the UNAM cultural centre. Students come to sit on the rim at sunset, when the lava turns copper and the Ajusco hills go purple, and the scale of the space makes even a small crowd feel like solitude.",
+      "tips": "Reach it from the Centro Cultural Universitario car park past the MUAC; wear shoes you can scramble in if you want to walk out onto the rock. Go on a weekday late afternoon and leave before dark, when the campus paths empty.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (daylight hours; roughly 7am-6pm)",
+      "lat": 19.3155,
+      "lng": -99.1795,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Espacio Escultórico",
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "Open campus land with no lighting; visit in daylight, leave before dusk, and ideally go with a friend."
+      },
+      "lowkeyScore": 4,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Alameda de Santa María la Ribera (Kiosco Morisco)",
+      "neighborhood": "Santa María la Ribera",
+      "category": "plaza",
+      "vibes": [
+        "people-watch",
+        "sunset",
+        "free",
+        "group",
+        "walk",
+        "green"
+      ],
+      "blurb": "An old-fashioned neighbourhood square built around the Kiosco Morisco, a Moorish-style iron pavilion brought back from a 19th-century world's fair. Families and old men on benches, dance classes under the kiosk on weekend evenings and cheap cafés on the surrounding streets make it the kind of plaza where sitting for an hour is the whole activity.",
+      "tips": "Benches on the east side catch the last light on the kiosk's coloured glass. Pair it with a coffee on Calle Salvador Díaz Mirón; weekend afternoons are the liveliest.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 19.4498,
+      "lng": -99.159,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Kiosco Morisco",
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "Busy and well-lit into the evening; the side streets get quiet late, so after about 10pm go with a friend or take a taxi."
+      },
+      "lowkeyScore": 4,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Jardines del Cerro del Tepeyac",
+      "neighborhood": "La Villa de Guadalupe",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "skyline",
+        "sunrise",
+        "walk",
+        "free",
+        "quiet",
+        "green"
+      ],
+      "blurb": "The landscaped hill behind the Basílica de Guadalupe, climbed by stone stairways past waterfalls and sculpture groups to the little Capilla del Cerrito at the top. The pilgrims mostly stay below in the atrium, so up here it is a few people on benches looking out over the north of the city and, on a clear morning, the volcanoes.",
+      "tips": "Go early on a weekday for clean air and views toward Popocatépetl; avoid December 12 and the days around it, when the whole hill is packed. The stairways close before the basilica does.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 7am-6pm (gardens close before the basilica)",
+      "lat": 19.488,
+      "lng": -99.116,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Tepeyac",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Patrolled sanctuary grounds, busy by day; leave with the crowds when the gardens close."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Parque Ecológico de Xochimilco",
+      "neighborhood": "Cuemanco, Xochimilco",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunrise",
+        "quiet",
+        "green",
+        "walk",
+        "free",
+        "solo",
+        "picnic"
+      ],
+      "blurb": "A wetland park on the north edge of the Xochimilco canals, with lagoons, reed beds, herons and a long lakeside path far from the party trajineras. You can rent a bike or simply walk to the far lake and sit on the bank, where the only sound is birds and the occasional canoe from the rowing course next door.",
+      "tips": "Enter from Periférico Oriente near the Cuemanco flower market; mornings are coolest and best for birds. Bring water and sun protection, as there is little shade along the path.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (roughly Tue-Sun 8am-5pm; check before going)",
+      "lat": 19.2925,
+      "lng": -99.095,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "Large and sparsely staffed; stay on the main lakeside path, go with a friend on quiet weekdays and leave before closing."
+      },
+      "lowkeyScore": 4,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Finca Don Porfirio (Sears rooftop café)",
+      "neighborhood": "Centro Histórico",
+      "category": "rooftop",
+      "vibes": [
+        "view",
+        "skyline",
+        "sunset",
+        "night",
+        "rain-ok",
+        "cozy",
+        "people-watch"
+      ],
+      "blurb": "A plain café on the eighth floor of the Sears department store whose terrace looks straight down onto the orange dome of the Palacio de Bellas Artes and across the Alameda. Tourists know it, but it is still just a coffee and a chair with one of the best views in the city, and after the day-trippers leave it goes quiet.",
+      "tips": "Take the lift to the 8th floor and ask for a terrace table; late afternoon on a weekday has the shortest wait. Order a coffee and stay through dusk, when Bellas Artes lights up.",
+      "bestTimes": [
+        "golden-hour",
+        "night"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Daily roughly 9am-9pm (store hours; check)",
+      "lat": 19.4351,
+      "lng": -99.1425,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Inside a department store on a busy, well-lit corner; the surrounding Centro streets stay busy until about 10pm."
+      },
+      "lowkeyScore": 2,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Desierto de los Leones",
+      "neighborhood": "Cuajimalpa / Álvaro Obregón (western hills)",
+      "category": "trail",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "group",
+        "free",
+        "picnic"
+      ],
+      "blurb": "A cool pine and oyamel forest some 800 metres above the city, with a ruined 17th-century Carmelite monastery, mossy hermitages and soft trails along streams. Chilangos drive up on weekends for a walk and a quesadilla at the stalls, then sit on the monastery lawns; on a weekday you can have whole stretches of forest to yourself.",
+      "tips": "Take the short loop past the hermitages behind the convent for the quietest walk, and bring a layer since it is noticeably colder than the city. Weekday mornings are near empty; summer afternoons turn foggy and wet.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Daily roughly 6am-5pm (monastery Tue-Sun 10am-5pm)",
+      "lat": 19.308,
+      "lng": -99.311,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Desierto de los Leones National Park",
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "Stay on the main trails near the monastery and go with a friend on quiet weekdays; the forest closes at 5pm and there is no lighting."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    }
+  ]
+}

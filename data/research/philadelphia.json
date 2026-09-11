@@ -1,0 +1,518 @@
+{
+  "city": "Philadelphia",
+  "country": "United States",
+  "slug": "philadelphia",
+  "region": "americas",
+  "cityLat": 39.9526,
+  "cityLng": -75.1652,
+  "timezone": "America/New_York",
+  "searchesRun": [
+    "reddit Philadelphia chill spots",
+    "r/philadelphia quiet places to relax and sit",
+    "reddit Philadelphia hidden gems locals only",
+    "reddit Philadelphia best sunset spot free",
+    "Philadelphia best places to read a book outside",
+    "Philadelphia cozy cafe sit for hours laptop friendly quiet",
+    "Philadelphia free public rooftop terrace viewpoint",
+    "Philadelphia secret garden courtyard quiet",
+    "Philadelphia waterfront bench night walk safe"
+  ],
+  "redditSourcedNotes": "IMPORTANT DATA-QUALITY NOTE: no web research could actually be performed for this city. All nine WebSearch queries listed in searchesRun were issued but every one was refused with \"session has used its web search budget (200 of 200 WebSearch calls)\" and returned zero results. Fallback attempts to fetch search engines (DuckDuckGo, Bing), Wikipedia, official park/venue sites (delawareriverwaterfront.com, freelibrary.org, bartramsgarden.org, schuylkillbanks.org, therailpark.org, woodlandsphila.org, fow.org, ciragreen.com) and press (Time Out, Visit Philly, Philadelphia Magazine) via WebFetch and curl were all blocked by the network egress proxy (EGRESS_BLOCKED / CONNECT 403). Consequently: (1) no reddit-derived or community-sourced content was read; (2) every sources[] array is intentionally left empty rather than fabricated, per the no-fabrication rule; (3) all spot descriptions, hours, coordinates and wikipediaTitle values come solely from the researcher's prior knowledge (cutoff mid-2026) and are unverified -- coordConfidence is set conservatively and hours should be re-checked before publishing. Recommend re-running this city with CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION raised so sources can be attached and details verified. VERIFIER NOTE: the independent verify stage for this city did not run (web-search budget and session limit exhausted); spots carry verified:false and were screened only by build-time checks.",
+  "spots": [
+    {
+      "name": "Race Street Pier",
+      "neighborhood": "Old City / Delaware River Waterfront",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunrise",
+        "view",
+        "walk",
+        "free",
+        "solo",
+        "skyline",
+        "night"
+      ],
+      "blurb": "A former shipping pier rebuilt as a slim, two-level park that juts into the Delaware directly under the Ben Franklin Bridge. Locals come for the wide stone steps and lawn on the upper tier, where you sit with the bridge overhead, Camden across the water and almost no foot traffic on a weekday morning. The sound is mostly river and bridge hum, which makes it a good place to think.",
+      "tips": "Sunrise comes up over Camden straight in front of you; go early, before the free morning yoga sessions fill the deck in summer. The upper tier's steps facing the bridge are the best seat; bring a cushion because the concrete gets cold.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "7am-11pm",
+      "lat": 39.9535,
+      "lng": -75.138,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Race Street Pier",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit and patrolled until closing; the Columbus Blvd crossing is the only awkward part after dark."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Cherry Street Pier",
+      "neighborhood": "Old City / Delaware River Waterfront",
+      "category": "indoor",
+      "vibes": [
+        "rain-ok",
+        "water",
+        "cozy",
+        "people-watch",
+        "night",
+        "free",
+        "solo",
+        "study"
+      ],
+      "blurb": "A century-old covered pier shed turned into a public living room: long communal tables, artist studios in shipping containers, string lights, and an open garden at the river end framing the Ben Franklin Bridge. You can sit for hours with a book or laptop, nobody expects you to buy anything, and rain on the roof only makes it better. It is the rare Philly waterfront spot that works in winter.",
+      "tips": "The picnic tables at the far (river) end are the quietest; weekend markets and events make it busy, so go on a weekday afternoon or evening. Free wifi and heaters in the cold months.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "varies (check site); roughly noon-10pm",
+      "lat": 39.9522,
+      "lng": -75.1393,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Cherry Street Pier",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, lit and busy into the evening."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Schuylkill Banks Boardwalk",
+      "neighborhood": "Center City West / Fitler Square",
+      "category": "waterfront",
+      "vibes": [
+        "sunset",
+        "skyline",
+        "water",
+        "walk",
+        "night",
+        "free",
+        "people-watch"
+      ],
+      "blurb": "A half-mile boardwalk cantilevered over the Schuylkill from Locust Street down to the South Street bridge, with benches and overlooks facing the full Center City skyline. At golden hour the towers go orange behind you and the river goes still; after dark the path is lit and full of joggers and couples, so it feels social rather than lonely. It is the classic Philly spot for sitting and staring at the skyline for free.",
+      "tips": "The overlook bump-outs mid-boardwalk have the best benches; the trail gets crowded with runners between 5 and 7pm, so aim for later in the evening or an early weekend morning. Enter from the ramp at Locust Street or the South Street bridge stairs.",
+      "bestTimes": [
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (lit path)",
+      "lat": 39.9445,
+      "lng": -75.1812,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Well-lit and populated until late; stick to the boardwalk and the Center City side after midnight."
+      },
+      "lowkeyScore": 2,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Bartram's Garden",
+      "neighborhood": "Southwest Philadelphia / Kingsessing",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "water",
+        "sunset",
+        "skyline",
+        "picnic",
+        "solo",
+        "hidden",
+        "free"
+      ],
+      "blurb": "The oldest surviving botanical garden in North America, 50 acres of old trees, meadow and tidal riverbank on the lower Schuylkill, and most of the city forgets it exists. Walk past the 18th-century stone house down to the river dock or the meadow and you get a view back to the skyline with nobody around but herons. It is free, quiet, and genuinely feels like leaving the city without leaving it.",
+      "tips": "The meadow benches and the boat dock at the bottom of the hill are the sunset seats; the trolley (Route 36) drops you at the gate. Gates close at dusk, so start walking back before the light is fully gone.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "dawn-dusk (grounds free; check site)",
+      "lat": 39.9329,
+      "lng": -75.2129,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Bartram's Garden",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Big and sparsely visited; leave before dusk when the gates close."
+      },
+      "lowkeyScore": 4,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Fairmount Water Works Esplanade",
+      "neighborhood": "Fairmount / Art Museum",
+      "category": "viewpoint",
+      "vibes": [
+        "water",
+        "night",
+        "view",
+        "walk",
+        "free",
+        "people-watch",
+        "sunset"
+      ],
+      "blurb": "The riverside terrace of the old neoclassical waterworks tucked behind the Art Museum, at the base of the dam. From the railing you look straight down Boathouse Row, which is outlined in lights after dark, and across the rushing water of the dam. Tourists stay up on the museum steps; the esplanade below is mostly rowers, dog walkers and people who just want to sit by moving water.",
+      "tips": "The benches on the river side of the pavilion are the ones you want; the Boathouse Row lights come on at dusk, so arrive at golden hour and stay. The cafe inside is open only some hours and the terrace is free regardless.",
+      "bestTimes": [
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (outdoor esplanade)",
+      "lat": 39.966,
+      "lng": -75.1838,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Fairmount Water Works",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit and steadily trafficked by joggers; use the Kelly Drive path rather than the dark azalea garden after 10pm."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Belmont Plateau",
+      "neighborhood": "West Fairmount Park",
+      "category": "viewpoint",
+      "vibes": [
+        "skyline",
+        "sunrise",
+        "sunset",
+        "view",
+        "picnic",
+        "green",
+        "free",
+        "group"
+      ],
+      "blurb": "A broad grassy hilltop in West Fairmount Park with the most complete skyline view in the city, the towers lined up across a foreground of nothing but treetops. Locals bring a blanket, a coffee and no plan; on weekday evenings it is you, a few dog walkers and a cross-country team doing laps. It is the place to watch the city light up from a safe distance.",
+      "tips": "Sit near the top of the slope facing east for sunrise, or on the west edge to watch the sun drop behind the trees while the skyline turns gold. Drive or bike in via Belmont Mansion Drive; there is no shade, so bring a hat in summer.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "dawn-dusk",
+      "lat": 39.993,
+      "lng": -75.209,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Belmont Plateau",
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "Quiet and unlit after dark; best at sunrise or sunset, and go with a friend if you stay past dusk."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Parkway Central Library",
+      "neighborhood": "Logan Square / Benjamin Franklin Parkway",
+      "category": "library",
+      "vibes": [
+        "study",
+        "rain-ok",
+        "quiet",
+        "cozy",
+        "free",
+        "solo",
+        "view"
+      ],
+      "blurb": "The Free Library's grand 1927 main branch: marble halls, a huge silent reading room with green lamps, and a public rooftop terrace with an unobstructed view down the Parkway to City Hall. You can read, write or just stare out a tall window for an entire rainy afternoon without spending a cent. The rooftop terrace is one of the very few free elevated viewpoints in the city.",
+      "tips": "Take the elevator up to the rooftop Skyline Terrace on a clear day (seasonal, weather-dependent); for quiet, the upstairs reading rooms are emptier than the ground-floor spaces. Bring ID if you want a library card for the wifi.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "varies (check site); typically Mon-Sat from 9am",
+      "lat": 39.9594,
+      "lng": -75.171,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Parkway Central Library",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building with security."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "The Woodlands",
+      "neighborhood": "West Philadelphia / University City",
+      "category": "park",
+      "vibes": [
+        "quiet",
+        "green",
+        "walk",
+        "solo",
+        "hidden",
+        "picnic",
+        "free"
+      ],
+      "blurb": "A 54-acre Victorian cemetery and 18th-century estate on a bend of the Schuylkill, with huge old trees, winding paths and a lawn in front of the Hamilton mansion where people read, sketch and nap. It is one of the calmest places in West Philly precisely because it is a cemetery; the neighborhood treats it as a park. Nobody bothers you here.",
+      "tips": "Enter through the gate on Woodland Ave at 40th Street (steps from the trolley portal); the mansion lawn and the benches along the river-facing ridge are the best sit spots. Grounds close at dusk and picnicking is fine if you keep it respectful.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "dawn-dusk",
+      "lat": 39.9478,
+      "lng": -75.2033,
+      "coordConfidence": "high",
+      "wikipediaTitle": "The Woodlands (Philadelphia)",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Gated, quiet and closed after dusk."
+      },
+      "lowkeyScore": 4,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Awbury Arboretum",
+      "neighborhood": "Germantown / East Germantown",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "green",
+        "hidden",
+        "walk",
+        "solo",
+        "picnic",
+        "free"
+      ],
+      "blurb": "A 55-acre free arboretum laid out as an English landscape garden around a Quaker family's old summer estate: meadows, a pond, mature specimen trees and long lawns with almost nobody on them. It is a neighborhood secret even within Germantown, the kind of place where you can lie in the grass for an hour and see three people. No admission, no crowds, no noise.",
+      "tips": "Come in via the Francis Cope House driveway off Washington Lane; the pond and the big meadow behind it are the quietest corners. Wear shoes you do not mind getting muddy after rain.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "dawn-dusk",
+      "lat": 40.0408,
+      "lng": -75.161,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Awbury Arboretum",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Daytime spot; it is unlit and empties out toward dusk."
+      },
+      "lowkeyScore": 5,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "The Rail Park",
+      "neighborhood": "Callowhill / Chinatown North",
+      "category": "park",
+      "vibes": [
+        "skyline",
+        "walk",
+        "night",
+        "free",
+        "people-watch",
+        "hidden",
+        "view"
+      ],
+      "blurb": "A quarter-mile stretch of the old Reading Viaduct rebuilt as an elevated park, with oversized porch swings, benches and native plantings three stories above the street. It looks straight at the Center City towers over a jumble of old warehouses and is small enough that it never feels like an attraction. Locals drift up after work to swing and watch the skyline go dark.",
+      "tips": "Enter at Broad and Noble or Callowhill at 13th; the swings at the far end are the prize, so go on a weeknight. It is fully lit but closes at 10pm.",
+      "bestTimes": [
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "7am-10pm",
+      "lat": 39.9603,
+      "lng": -75.1585,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Rail Park",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit until the 10pm close; the surrounding blocks are quiet at night, so head back toward Broad Street afterward."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Penn Treaty Park",
+      "neighborhood": "Fishtown",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunrise",
+        "picnic",
+        "free",
+        "walk",
+        "group",
+        "green"
+      ],
+      "blurb": "A riverside lawn at the foot of Fishtown where the Delaware opens up wide, with benches along the water and a clear view of the Ben Franklin Bridge downriver. Locals bring dogs and coffee in the morning and folding chairs in the evening; it is the neighborhood's front porch rather than a destination. On a still morning you can watch the sun come up over the river with only a few regulars around.",
+      "tips": "The benches on the southern half of the seawall face the bridge and the sunrise; the eastern lawn edge is best for a picnic. Beach Street and Delaware Ave are easy to reach from the Girard El stop.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "dawn-dusk",
+      "lat": 39.968,
+      "lng": -75.1268,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Penn Treaty Park",
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "Fine in daylight and early evening; the park is quiet and only partly lit after dark, so go with a friend late."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Cira Green",
+      "neighborhood": "University City",
+      "category": "rooftop",
+      "vibes": [
+        "skyline",
+        "sunset",
+        "view",
+        "free",
+        "night",
+        "group",
+        "picnic"
+      ],
+      "blurb": "A public park built on the roof of a 12-story parking garage between the Cira Centre South towers, with a big lawn, benches and a sloped edge that looks straight across the river at the Center City skyline. It is free and open to anyone, but most people never notice the elevator in the garage lobby, so the crowd stays thin. Sunset up here is the best free elevated view in the city.",
+      "tips": "Enter through the garage lobby at 129 S 30th St and take the elevator to the top; the western lawn edge catches the sunset, the eastern railing gets the skyline lights. There is a seasonal bar but you can just sit.",
+      "bestTimes": [
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "7am-10pm (check site)",
+      "lat": 39.9536,
+      "lng": -75.1828,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit, staffed by building security, and closes at 10pm."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Uncle Bobbie's Coffee & Books",
+      "neighborhood": "Germantown",
+      "category": "bookstore",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "study",
+        "solo",
+        "people-watch"
+      ],
+      "blurb": "A neighborhood bookshop-cafe on Germantown Avenue with worn couches, a wall of Black literature and history, and the kind of regulars who nod at you on the way in. Buy a coffee and you can settle in for hours with a book or a laptop; the staff do not hover and the room hums rather than roars. On a rainy afternoon it is one of the warmest rooms in the city.",
+      "tips": "The couches by the front window go first, so mid-morning on a weekday is the sweet spot; evenings often host readings. Take the Chestnut Hill West line or the 23 bus.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "varies (check site); roughly 8am-6pm",
+      "lat": 40.0339,
+      "lng": -75.1735,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Uncle Bobbie's Coffee & Books",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Busy commercial stretch of Germantown Ave during opening hours."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Kaskey Memorial Park (the BioPond)",
+      "neighborhood": "University City / Penn campus",
+      "category": "garden",
+      "vibes": [
+        "hidden",
+        "quiet",
+        "green",
+        "water",
+        "solo",
+        "study",
+        "free"
+      ],
+      "blurb": "A tiny walled garden hidden behind the biology labs on Penn's campus, known to students as the BioPond: a koi pond, greenhouse, benches and dense plantings enclosed on all sides by brick buildings. Even at midday it is almost silent, and it is open to anyone who finds the gate. It is the definition of a courtyard you can disappear into with a book.",
+      "tips": "Find the entrance off Hamilton Walk behind Leidy Labs near 38th Street; the benches by the pond are the quietest. It fills up a little at lunch during term, so late afternoon is best.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "dawn-dusk",
+      "lat": 39.9494,
+      "lng": -75.1993,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Enclosed within campus with Penn security nearby; daytime spot."
+      },
+      "lowkeyScore": 5,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    }
+  ]
+}

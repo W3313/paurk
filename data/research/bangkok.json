@@ -1,0 +1,370 @@
+{
+  "city": "Bangkok",
+  "country": "Thailand",
+  "slug": "bangkok",
+  "region": "asia-pacific",
+  "cityLat": 13.7563,
+  "cityLng": 100.5018,
+  "timezone": "Asia/Bangkok",
+  "searchesRun": [
+    "Chao Phraya Sky Park (site:en.wikipedia.org)",
+    "Bangkok City Library Ratchadamnoen (site:en.wikipedia.org)",
+    "Wat Prayurawongsawat (site:en.wikipedia.org)",
+    "Wachirabenchathat Park Suan Rot Fai (site:en.wikipedia.org)",
+    "Khlong Ong Ang canal (site:en.wikipedia.org)"
+  ],
+  "redditSourcedNotes": "Nothing in this file is reddit-derived: the research stage's search budget was exhausted before any reddit/forum query returned results, so the draft came from the researcher's prior knowledge. The verify stage had a 5-search budget and spent it on the Wikipedia titles with the most doubt, all restricted to en.wikipedia.org; those searches confirmed the articles for Chao Phraya Sky Park, Bangkok City Library, Wat Prayurawongsawat (corrected from 'Wat Prayurawongsawat Worawihan'), Wachirabenchathat Park and Khlong Ong Ang, and incidentally surfaced the Neilson Hays Library article. The remaining titles (Benjakitti Park, Lumphini Park, Bang Kachao, Phra Sumen Fort, Bangkok Art and Culture Centre, Saranrom Park, Talat Noi) are well-established articles kept from knowledge, not search-confirmed. Hours, the Neilson Hays day-pass price and Open House's current status were reviewed from knowledge only and are flagged in the relevant verifyNote. The only sources attached are Wikipedia URLs that actually appeared in the verify searches; no reddit, press or official URLs were seen, so none are cited.",
+  "spots": [
+    {
+      "name": "Benjakitti Forest Park",
+      "neighborhood": "Khlong Toei / Asok",
+      "category": "park",
+      "vibes": ["green", "water", "skyline", "sunset", "sunrise", "night", "walk", "free", "solo", "group"],
+      "blurb": "A former tobacco factory site turned into more than 100 acres of constructed wetland, with an elevated boardwalk snaking above reeds and ponds while the Asok and Sathorn towers rise behind them. Despite its size it rarely feels crowded: joggers keep to the outer loop, while the boardwalk railings and the grassy banks on the forest side are where people sit and watch herons and monitor lizards. The skywalk is lit after dark, so it also works for a late-evening decompression walk.",
+      "tips": "Enter from MRT Queen Sirikit National Convention Centre for the lake side, or walk the skybridge from Benjasiri Park / Asok to land straight on the forest side. Bring water; the boardwalk has little shade at midday, so aim for the last hour before sunset.",
+      "bestTimes": ["golden-hour", "night", "morning"],
+      "indoor": false,
+      "free": true,
+      "hours": "5am-9pm",
+      "lat": 13.7288,
+      "lng": 100.5563,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Benjakitti Park",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Main paths and the skywalk are lit until closing; the park is patrolled and busy with joggers in the evening."
+      },
+      "lowkeyScore": 2,
+      "verified": true,
+      "verifyNote": "Major BMA park, opened in its expanded forest form in 2022; reviewed from knowledge. Wikipedia title kept from knowledge, not search-confirmed (budget spent on higher-doubt titles). MRT exit number removed from tips as unverified."
+    },
+    {
+      "name": "Lumphini Park",
+      "neighborhood": "Silom / Lumphini",
+      "category": "park",
+      "vibes": ["green", "water", "sunrise", "walk", "people-watch", "picnic", "free", "solo", "skyline"],
+      "blurb": "Bangkok's original central park: about 140 acres of lawns, a boating lake and huge rain trees hemmed in by Silom and Wireless Road. It is famous, but at 6am it belongs to tai chi groups, sword-dance retirees and monitor lizards sunning on the lake edge, and by mid-afternoon the far corners are nearly empty. The benches along the north shore of the lake give you the skyline doubled in the water.",
+      "tips": "Come at sunrise via MRT Silom or Lumphini; avoid 6pm when the aerobics loudspeakers start near the Rama VI statue. The quietest benches are in the north-east corner away from the main gates; bring a mat if you want to lie on the grass.",
+      "bestTimes": ["morning", "golden-hour"],
+      "indoor": false,
+      "free": true,
+      "hours": "4:30am-9pm",
+      "lat": 13.731,
+      "lng": 100.5412,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Lumphini Park",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Busy, patrolled and lit along the main loop until 9pm."
+      },
+      "lowkeyScore": 1,
+      "verified": true,
+      "verifyNote": "Bangkok's best-known park; reviewed from knowledge. Wikipedia title kept from knowledge, not search-confirmed. 'Chinese pavilion' landmark removed from tips as unverified."
+    },
+    {
+      "name": "Wachirabenchathat Park (Suan Rot Fai)",
+      "neighborhood": "Chatuchak",
+      "category": "park",
+      "vibes": ["green", "water", "quiet", "walk", "picnic", "free", "group"],
+      "blurb": "The old State Railway golf course north of Chatuchak market, now a loose, rambling park of roughly 150 acres with a botanical garden, a butterfly park and lotus-covered lakes. It is bigger and shaggier than Lumphini and used mostly by locals cycling loops or picnicking under the trees, so on a weekday it feels like a countryside outing without leaving the BTS line. The adjoining Queen Sirikit Park has quieter formal gardens if you want stillness.",
+      "tips": "From BTS Mo Chit / MRT Chatuchak Park walk north through Chatuchak Park; bicycles rent cheaply near the entrance. Weekend mornings fill with families, so go on a weekday and head for the ponds on the northern side.",
+      "bestTimes": ["morning", "golden-hour"],
+      "indoor": false,
+      "free": true,
+      "hours": "4:30am-9pm",
+      "lat": 13.812,
+      "lng": 100.554,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Wachirabenchathat Park",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Wachirabenchathat_Park", "label": "Wikipedia: Wachirabenchathat Park", "kind": "other" }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Family park; main paths are lit until 9pm but the outer loops get dark, so stay near the entrances after sunset."
+      },
+      "lowkeyScore": 3,
+      "verified": true,
+      "verifyNote": "Wikipedia title confirmed by search (former SRT golf course, 375 rai / 148 acres, butterfly park, borders Queen Sirikit Park and Chatuchak Park). Hours from knowledge."
+    },
+    {
+      "name": "Bang Krachao - Sri Nakhon Khuean Khan Park",
+      "neighborhood": "Bang Krachao (Phra Pradaeng)",
+      "category": "trail",
+      "vibes": ["green", "quiet", "water", "walk", "hidden", "free", "solo"],
+      "blurb": "Cross the river from Khlong Toei on a long-tail ferry and you are in the 'green lung', a loop of mangroves, nipa palm and stilt houses that feels an hour from the city. The public park at its heart has a lake, a bird-watching tower and shaded paths where the only sounds are birds and bicycle chains. Locals come to cycle the raised concrete lanes or just sit by the water with a book.",
+      "tips": "Take the ferry from the pier behind Wat Khlong Toei Nok (a few baht per person); bicycles rent near the landing. Go early before the heat and bring mosquito repellent.",
+      "bestTimes": ["morning", "golden-hour"],
+      "indoor": false,
+      "free": true,
+      "hours": "6am-7pm",
+      "lat": 13.684,
+      "lng": 100.566,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Bang Kachao",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Daytime spot; the lanes are unlit, so leave before dusk and mind the narrow elevated paths if cycling."
+      },
+      "lowkeyScore": 4,
+      "verified": true,
+      "verifyNote": "Well-known public park inside the Bang Kachao green area; reviewed from knowledge. Wikipedia title is the article for the Bang Kachao area the spot is named after (kept from knowledge, not search-confirmed); a park-specific article was not checked. Park hours from knowledge."
+    },
+    {
+      "name": "Santichaiprakan Park (Phra Sumen Fort)",
+      "neighborhood": "Banglamphu",
+      "category": "waterfront",
+      "vibes": ["water", "sunset", "night", "people-watch", "free", "walk", "view"],
+      "blurb": "A pocket riverside park wrapped around the white octagonal Phra Sumen Fort at the end of Phra Athit Road. It faces upstream toward the Rama VIII cable bridge, so you get the sunset over Thonburi and later the bridge lit against the dark river. Locals come for evening aerobics, students sprawl on the grass and the river breeze cuts the heat.",
+      "tips": "Take the Chao Phraya Express boat to Phra Athit pier and walk two minutes; the low wall along the river is the best seat. Phra Athit Road behind the park has cheap cafes if you want a coffee to carry over.",
+      "bestTimes": ["golden-hour", "night"],
+      "indoor": false,
+      "free": true,
+      "hours": "5am-9pm",
+      "lat": 13.7645,
+      "lng": 100.4953,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Phra Sumen Fort",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Well-lit and busy with locals in the evening; Khao San is a few streets away, so late foot traffic is constant."
+      },
+      "lowkeyScore": 3,
+      "verified": true,
+      "verifyNote": "Public BMA park around a registered historic fort; reviewed from knowledge. Wikipedia title kept from knowledge, not search-confirmed."
+    },
+    {
+      "name": "Chao Phraya Sky Park",
+      "neighborhood": "Phra Nakhon / Thonburi (Memorial Bridge)",
+      "category": "viewpoint",
+      "vibes": ["view", "water", "sunset", "skyline", "walk", "free", "night"],
+      "blurb": "A narrow, 280-metre garden bridge built on the never-finished Lavalin Skytrain viaduct sandwiched between the two halves of Phra Pokklao Bridge, so you stand in the middle of the river with nothing but planters and railings around you. Upstream, Wat Arun's spire and the old-town roofs line up; downstream the towers of Sathorn catch the last light. It is small, oddly hushed given the traffic on either side, and almost nobody lingers.",
+      "tips": "Enter from the Phra Nakhon side by Pak Khlong Talat flower market or from the Thonburi side near Wat Prayoon; there is a lift at each end. Arrive an hour before sunset and pair it with a slow wander through the flower market afterwards.",
+      "bestTimes": ["golden-hour", "night"],
+      "indoor": false,
+      "free": true,
+      "hours": "5am-8pm",
+      "lat": 13.7412,
+      "lng": 100.4972,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Chao Phraya Sky Park",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chao_Phraya_Sky_Park", "label": "Wikipedia: Chao Phraya Sky Park", "kind": "other" },
+        { "url": "https://en.wikipedia.org/wiki/Phra_Pok_Klao_Bridge", "label": "Wikipedia: Phra Pok Klao Bridge", "kind": "other" }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit and staffed until closing, with 2-3 m railings; traffic noise from the road bridge but no safety concerns."
+      },
+      "lowkeyScore": 3,
+      "verified": true,
+      "verifyNote": "Wikipedia title confirmed by search (opened June 2020, ~280 m long, 8.5 m wide, high railings, lifts). Blurb reworded to avoid 'abandoned' framing: it is a finished public park on a viaduct that was never used. Hours from knowledge."
+    },
+    {
+      "name": "Bangkok City Library",
+      "neighborhood": "Ratchadamnoen / Old Town",
+      "category": "library",
+      "vibes": ["quiet", "study", "rain-ok", "cozy", "free", "solo"],
+      "blurb": "A free public library in a restored Art Deco building by architect Chitsen Aphaiwong on Ratchadamnoen Klang, at the Khok Wua intersection a short walk from the Democracy Monument. Four floors of reading rooms, a Bangkok history section and long tables under high ceilings, all air-conditioned and rarely more than a third full on weekdays. It is the closest thing the old town has to a silent, no-purchase-required place to think.",
+      "tips": "Bring ID or a passport to register at the desk on your first visit; laptops are welcome and outlets are plentiful on the upper floors. Closed Mondays; it is busiest with students on weekend afternoons.",
+      "bestTimes": ["morning", "afternoon"],
+      "indoor": true,
+      "free": true,
+      "hours": "Tue-Sat 8am-9pm, Sun 9am-8pm (closed Mon)",
+      "lat": 13.7568,
+      "lng": 100.4992,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Bangkok City Library",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Bangkok_City_Library", "label": "Wikipedia: Bangkok City Library", "kind": "other" }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Indoor, staffed public building."
+      },
+      "lowkeyScore": 4,
+      "verified": true,
+      "verifyNote": "Wikipedia title confirmed by search (opened April 2017, four floors, Khok Wua intersection on Ratchadamnoen Klang, building by Chitsen Aphaiwong). Hours and registration procedure from knowledge; check before relying on the Sunday schedule."
+    },
+    {
+      "name": "Neilson Hays Library",
+      "neighborhood": "Bang Rak (Surawong)",
+      "category": "library",
+      "vibes": ["cozy", "quiet", "study", "rain-ok", "green", "solo"],
+      "blurb": "A 1922 neoclassical library on Surawong Road, with a domed rotunda, teak shelves of English-language books and a shaded garden cafe behind it. It is a members' library, but day visitors can pay a small entrance fee and settle into an armchair for the afternoon. Cool, hushed and slow, it feels a century removed from the traffic outside.",
+      "tips": "Closed Mondays; the day pass is roughly 100 baht and the garden cafe is the place to sit with a book once you have browsed. Check the library's site for weekend events, which can fill the rotunda.",
+      "bestTimes": ["morning", "afternoon"],
+      "indoor": true,
+      "free": false,
+      "hours": "Tue-Sun 9:30am-5pm (closed Mon)",
+      "lat": 13.7268,
+      "lng": 100.5245,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Neilson Hays Library",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Neilson_Hays_Library", "label": "Wikipedia: Neilson Hays Library", "kind": "other" }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Indoor and staffed, in a busy commercial district."
+      },
+      "lowkeyScore": 4,
+      "verified": true,
+      "verifyNote": "Wikipedia article surfaced in the Bangkok City Library search, confirming the title. Day-pass price and hours from knowledge only; confirm on the library's site before visiting."
+    },
+    {
+      "name": "Bangkok Art and Culture Centre",
+      "neighborhood": "Pathum Wan (Siam)",
+      "category": "museum",
+      "vibes": ["rain-ok", "quiet", "study", "cozy", "free", "people-watch", "solo"],
+      "blurb": "A free, spiralling white-atrium art centre at the Pathumwan intersection, connected directly to BTS National Stadium. The upper gallery floors are hushed and cool, and the mezzanine levels hold small independent cafes, an art library and benches where people read or sketch for hours. It is the easiest place in central Bangkok to disappear indoors on a rainy afternoon without spending anything.",
+      "tips": "Closed Mondays; enter via the skywalk from BTS National Stadium. The art library and the benches beside the rotating exhibitions on the upper floors are the quietest, and weekday mornings are nearly empty.",
+      "bestTimes": ["afternoon", "morning"],
+      "indoor": true,
+      "free": true,
+      "hours": "Tue-Sun 10am-8pm (closed Mon)",
+      "lat": 13.7465,
+      "lng": 100.53,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Bangkok Art and Culture Centre",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Indoor, staffed public building."
+      },
+      "lowkeyScore": 3,
+      "verified": true,
+      "verifyNote": "Major public art centre; reviewed from knowledge. Wikipedia title kept from knowledge, not search-confirmed. Hours from knowledge."
+    },
+    {
+      "name": "Khlong Ong Ang Canal Walk",
+      "neighborhood": "Chinatown edge / Sampheng",
+      "category": "waterfront",
+      "vibes": ["water", "night", "walk", "people-watch", "free", "group"],
+      "blurb": "A stretch of the old city moat between the old town and Chinatown, restored by the city in 2020 into a lantern-lit promenade with murals, low steps down to the water and a handful of noodle carts. On weekend evenings it can become a gentle walking street with kayaks on the canal; on weeknights it is nearly empty and you can sit on the steps and watch the lights ripple. It is the calmest stretch of water within walking distance of Yaowarat.",
+      "tips": "Enter at the Saphan Han bridge end or from Charoen Krung; MRT Sam Yot is a five-minute walk. Weekday nights are the quietest; the weekend walking-street market runs intermittently, so do not count on it.",
+      "bestTimes": ["night", "golden-hour"],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (promenade); weekend walking street evenings only when running",
+      "lat": 13.7445,
+      "lng": 100.502,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Khlong Ong Ang",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Khlong_Ong_Ang", "label": "Wikipedia: Khlong Ong Ang", "kind": "other" },
+        { "url": "https://en.wikipedia.org/wiki/Saphan_Han", "label": "Wikipedia: Saphan Han", "kind": "other" }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit along its length and busy on weekend evenings; on quiet weeknights stick to the main promenade."
+      },
+      "lowkeyScore": 3,
+      "verified": true,
+      "verifyNote": "Wikipedia title confirmed by search (canal forms the eastern edge of Rattanakosin Island; BMA restoration in 2020). 'Once-derelict' wording dropped; the walking-street schedule is hedged because its regularity was not verified."
+    },
+    {
+      "name": "Saranrom Park",
+      "neighborhood": "Phra Nakhon (Grand Palace)",
+      "category": "park",
+      "vibes": ["green", "quiet", "hidden", "free", "walk", "people-watch"],
+      "blurb": "A small 19th-century royal garden turned public park just east of the Grand Palace walls, with gazebos, a fish pond, a European-style fountain and a memorial to Queen Sunanda. Tour groups walk straight past it, so the company is office workers on lunch break and neighbourhood elders in the shade. Ten minutes on a bench here resets you after the crowds at Wat Pho.",
+      "tips": "Enter from Sanam Chai Road or from the Saranrom Road side near Wat Ratchapradit; MRT Sanam Chai is the closest station. Go early or late afternoon for shade; the gazebos by the pond are the best seats.",
+      "bestTimes": ["morning", "afternoon"],
+      "indoor": false,
+      "free": true,
+      "hours": "5am-9pm",
+      "lat": 13.75,
+      "lng": 100.4962,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Saranrom Park",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit and gated, next to government offices; quiet after dark, so best before 8pm."
+      },
+      "lowkeyScore": 4,
+      "verified": true,
+      "verifyNote": "Public BMA park beside the former Saranrom Palace; reviewed from knowledge. Wikipedia title kept from knowledge, not search-confirmed. Entry tip corrected from 'Charoen Krung side' to Saranrom Road."
+    },
+    {
+      "name": "Wat Prayoon Turtle Garden (Khao Mo)",
+      "neighborhood": "Thonburi (Kudi Chin)",
+      "category": "garden",
+      "vibes": ["quiet", "hidden", "water", "green", "free", "solo", "cozy"],
+      "blurb": "Beside the white chedi of Wat Prayoon, a walled garden encloses an artificial rock hill studded with miniature shrines and stupas, ringed by a moat full of turtles; locals know the temple as Wat Khao Tao, the turtle-mountain temple. Elderly visitors feed the turtles, monks pass through, and the only noise is temple bells and the river ferries beyond the wall. It has been a place of quiet inside the monastery for more than 180 years.",
+      "tips": "Reach it from the Thonburi end of Memorial Bridge or Chao Phraya Sky Park; dress modestly as it is temple ground. Afterwards wander the lanes of Kudi Chin to Santa Cruz Church and the small Baan Kudichin museum cafe.",
+      "bestTimes": ["morning", "afternoon"],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 8am-6pm (temple grounds)",
+      "lat": 13.7395,
+      "lng": 100.496,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Wat Prayurawongsawat",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Wat_Prayurawongsawat", "label": "Wikipedia: Wat Prayurawongsawat", "kind": "other" },
+        { "url": "https://en.wikipedia.org/wiki/Khao_mor", "label": "Wikipedia: Khao mor (rock-garden tradition)", "kind": "other" }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Temple grounds; daytime only."
+      },
+      "lowkeyScore": 4,
+      "verified": true,
+      "verifyNote": "Wikipedia title corrected to the article's actual title 'Wat Prayurawongsawat' (search-confirmed; article describes the Khao Mor rock garden with its turtle pond, nicknamed Wat Khao Tao). Garden hours are approximate."
+    },
+    {
+      "name": "Talat Noi Riverside Lanes",
+      "neighborhood": "Talat Noi (Bang Rak)",
+      "category": "other",
+      "vibes": ["hidden", "water", "sunset", "walk", "people-watch", "cozy", "free"],
+      "blurb": "A knot of old Chinese-Thai lanes squeezed between Chinatown and the river, where mechanic yards, shrines and a 200-year-old courtyard mansion share alleys narrow enough to touch both walls. A few small piers and riverside cafes open onto the Chao Phraya facing Khlong San, and at golden hour the water and the ferries are all you can see. People come to wander slowly and sit, not to shop.",
+      "tips": "Start from the Chao Phraya Express boat at Marine Department or Ratchawong pier; the lanes are easiest to explore on foot from mid-afternoon into sunset. Bring cash for the tiny cafes and look for the So Heng Tai mansion courtyard.",
+      "bestTimes": ["golden-hour", "afternoon"],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (cafes roughly 10am-6pm)",
+      "lat": 13.7352,
+      "lng": 100.513,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Talat Noi",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Residential lanes, quiet and generally safe; they get dim after 9pm, so evening visits are best before then."
+      },
+      "lowkeyScore": 4,
+      "verified": true,
+      "verifyNote": "Public streets and riverside lanes in a well-known heritage neighbourhood; reviewed from knowledge. Wikipedia title is the article about this exact neighbourhood (kept from knowledge, not search-confirmed)."
+    },
+    {
+      "name": "Open House at Central Embassy",
+      "neighborhood": "Ploenchit",
+      "category": "bookstore",
+      "vibes": ["rain-ok", "cozy", "study", "quiet", "people-watch", "solo"],
+      "blurb": "The top floor of the Central Embassy mall is a bookshop-and-lounge space with long communal tables, armchairs and skylit seating where you can sit for hours without being moved on. Cafes and restaurants ring the edges but there is no pressure to order, and the air-conditioning and soft carpet make it a default rainy-day retreat for office workers and students. Not hidden, but reliably calm.",
+      "tips": "Take BTS Ploenchit and the skywalk into Central Embassy, then the escalators to the top floor. Lunchtime and weekend afternoons fill up; mornings and after 7pm are quietest, and many tables have outlets.",
+      "bestTimes": ["morning", "night"],
+      "indoor": true,
+      "free": true,
+      "hours": "10am-10pm",
+      "lat": 13.7437,
+      "lng": 100.5465,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Indoor mall floor with security; open until 10pm."
+      },
+      "lowkeyScore": 3,
+      "verified": true,
+      "verifyNote": "Well-known 6th-floor venue open since 2017; current operating status was not search-checked (budget spent on Wikipedia titles), so confirm it is still running before relying on it. No Wikipedia article for Open House itself; the Central Embassy mall article is not used because it is not about this space."
+    }
+  ]
+}

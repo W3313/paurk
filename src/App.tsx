@@ -1,25 +1,184 @@
-import { useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { cities, cityBySlug, spotsByCity } from './data'
+import { actions, useStore } from './store'
+import { useNow } from './hooks/useNow'
+import { useCityNow } from './hooks/useCityNow'
+import { useOnlineWatcher } from './hooks/useOnline'
+import { sunInfo } from './lib/time'
+import { guessCity } from './lib/phase'
+import { fetchWeather } from './lib/weather'
+import { getGlobe } from './globe/handle'
+import type { GlobeMarker } from './globe/GlobeEngine'
 import { GlobeView } from './components/GlobeView'
-import type { GlobeMarker, GlobeTheme } from './globe/GlobeEngine'
-import { cities } from './data'
+import { Header } from './components/Header'
+import { SkyText } from './components/SkyText'
+import { CityColumn } from './components/CityColumn'
+import { StonesPage } from './components/StonesPage'
+import { CityDialog } from './components/CityDialog'
+import { AboutDialog } from './components/AboutDialog'
+import { HorizonClock } from './components/HorizonClock'
+import { Sheet, scrollSheetToPeek } from './components/Sheet'
+import { MarginNote } from './components/MarginNote'
+import { PlateCaption } from './components/PlateCaption'
+import { PhaseLine } from './components/SkyText'
+import { formatClock } from './lib/time'
+import { phaseLine } from './lib/phase'
 
-const theme: GlobeTheme = {
-  oceanDay: '#101826', oceanNight: '#070a10', rim: '#3a4a6a',
-  dotDay: '#c9d3e6', dotNight: '#e9c46a', atmosphere: '#7aa2ff',
-  marker: '#e9c46a', markerActive: '#ffffff', user: '#7ee0c3',
+function useMedia(q: string) {
+  const [m, setM] = useState(() => matchMedia(q).matches)
+  useEffect(() => { const mq = matchMedia(q); const on = () => setM(mq.matches); mq.addEventListener('change', on); return () => mq.removeEventListener('change', on) }, [q])
+  return m
 }
 
 export default function App() {
-  const [selected, setSelected] = useState<string | null>(null)
-  const markers = useMemo<GlobeMarker[]>(() => cities.map((c) => ({ id: c.slug, lat: c.lat, lng: c.lng, label: c.name, kind: 'city', weight: c.spotCount })), [])
-  const fly = useMemo(() => {
-    const c = cities.find((x) => x.slug === selected)
-    return c ? { lat: c.lat, lng: c.lng, zoom: 1.6, key: c.slug } : null
-  }, [selected])
+  const mode = useStore((s) => s.mode)
+  const citySlug = useStore((s) => s.citySlug)
+  const spotId = useStore((s) => s.spotId)
+  const userPos = useStore((s) => s.userPos)
+  const savedIds = useStore((s) => s.savedIds)
+  const still = useStore((s) => s.still)
+  const theme = useStore((s) => s.theme)
+  const sheetProgress = useStore((s) => s.sheetProgress)
+  const accuracy = useStore((s) => s.userAccuracyM)
+  const mobile = useMedia('(max-width: 899px)')
+  const live = useNow()
+  const [cityOpen, setCityOpen] = useState(false)
+  const [aboutOpen, setAboutOpen] = useState(false)
+  const [scrolled, setScrolled] = useState(false)
+  useOnlineWatcher()
+
+  const city = citySlug ? cityBySlug.get(citySlug) ?? null : null
+  const guess = useMemo(() => guessCity(cities, live), [live])
+  const skyPlace = guess ?? cities[0] ?? null
+  const skyPos = userPos ?? skyPlace
+  const skyTz = userPos ? Intl.DateTimeFormat().resolvedOptions().timeZone : (skyPlace?.timezone ?? 'UTC')
+  const cityNow = useCityNow(city, city?.timezone ?? 'UTC')
+  const skySun = useMemo(() => (skyPos ? sunInfo(live, skyPos) : null), [live, skyPos])
+  const contextSun = city ? cityNow.sun : skySun
+  const inCity = mode === 'city' || mode === 'spot'
+
+  // Globe markers: every city (disc filled when it holds stones) + the user ring.
+  const markers = useMemo<GlobeMarker[]>(() => {
+    const m: GlobeMarker[] = cities.map((c) => ({ id: c.slug, lat: c.lat, lng: c.lng, label: c.name, kind: 'city', filled: savedIds.some((id) => id.startsWith(`${c.slug}/`)) }))
+    if (userPos) m.push({ id: 'user', lat: userPos.lat, lng: userPos.lng, label: 'you', kind: 'user', approx: (accuracy ?? 0) > 2000 })
+    return m
+  }, [savedIds, userPos, accuracy])
+
+  // Flights follow the selected city; the sky releases the camera.
+  const flown = useRef<string | null>(null)
+  useEffect(() => {
+    const g = getGlobe()
+    if (!g) return
+    if (citySlug && city && inCity) {
+      if (flown.current !== citySlug) { flown.current = citySlug; g.select(citySlug, false); void g.flyTo(city.lat, city.lng, 1.45, 1800) }
+      g.autoRotate = false
+    } else if (mode === 'sky') {
+      if (flown.current !== null) { flown.current = null; g.select(null, false); void g.release() }
+      g.autoRotate = true
+    }
+  }, [citySlug, city, inCity, mode])
+  // Once the engine exists: face the place we know about, or land straight on a deep-linked city.
+  const globeReady = useStore((s) => s.globeReady)
+  useEffect(() => {
+    const g = getGlobe()
+    if (!globeReady || !g) return
+    if (citySlug && city && inCity) { if (flown.current !== citySlug) { flown.current = citySlug; g.select(citySlug, false); void g.flyTo(city.lat, city.lng, 1.45, 0) } }
+    else if (skyPos) g.lookAt(skyPos.lat, skyPos.lng)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [globeReady])
+
+  const onSelect = useCallback((id: string | null) => {
+    if (id) { if (id !== 'user') actions.openCity(id) }
+    else if (inCity) actions.sky()
+  }, [inCity])
+
+  // Weather for the origin (user) or the city centre, once per 20 minutes.
+  useEffect(() => {
+    const pos = userPos ?? city
+    if (!pos) return
+    const key = userPos ? 'user' : city!.slug
+    const w = useStore.length ? null : null
+    void w
+    const current = (window as unknown as { __tcWeather?: Record<string, number> }).__tcWeather ?? {}
+    if (current[key] && Date.now() - current[key] < 20 * 60000) return
+    current[key] = Date.now()
+    ;(window as unknown as { __tcWeather?: Record<string, number> }).__tcWeather = current
+    void fetchWeather(pos).then((wx) => { if (wx) actions.setWeather({ ...wx, key }) })
+  }, [userPos, city])
+
+  // Notes on arrival.
+  useEffect(() => {
+    if (city && mode === 'city') {
+      const n = spotsByCity.get(city.slug)?.length ?? 0
+      actions.note(`${n} places · tap a row to open it`)
+    }
+  }, [city, mode])
+  useEffect(() => { if (mode === 'about') { setAboutOpen(true) } }, [mode])
+  useEffect(() => {
+    if (!mobile) return
+    document.body.classList.toggle('is-locked', inCity || mode === 'stones')
+    return () => document.body.classList.remove('is-locked')
+  }, [mobile, inCity, mode])
+
+  // Keyboard: Escape steps back; "a" toggles ambient.
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return
+      if (e.key === 'Escape') { if (document.documentElement.dataset.ambient !== undefined) actions.setAmbient(false); else if (mode === 'spot') actions.backToList(); else if (mode === 'city' || mode === 'stones') actions.sky() }
+      else if (e.key === 'a' && !e.metaKey && !e.ctrlKey) actions.setAmbient(document.documentElement.dataset.ambient === undefined)
+      else if (document.documentElement.dataset.ambient !== undefined) actions.setAmbient(false)
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [mode])
+
+  const seat: [number, number] = mode === 'sky' ? [0.5, 0.5] : mobile ? [0.5, 0.4] : [0.42, 0.45]
+  const paperweight = mobile && (inCity || mode === 'stones') && sheetProgress >= 0.9
+  const sunDate = city && cityNow.preview ? cityNow.now : null
+  const originIsReal = !!userPos && !!city && (accuracy === null || accuracy < 50000)
+  const origin = originIsReal ? userPos : null
+
+  const column = mode === 'stones' ? <StonesPage /> : city && cityNow.sun ? (
+    <CityColumn city={city} now={cityNow.now} live={cityNow.live} sun={cityNow.sun} preview={cityNow.preview} origin={origin} originIsReal={originIsReal} mobile={mobile} spotId={mode === 'spot' ? spotId : null} />
+  ) : null
+
   return (
-    <div className="tc-app">
-      <GlobeView markers={markers} theme={theme} selectedId={selected} flyTarget={fly} onSelect={setSelected} />
-      <div className="tc-debug">{selected ?? 'TrueChiller (scaffold)'} · {cities.length} cities</div>
-    </div>
+    <>
+      <div className="horizon" aria-hidden="true" />
+      <HorizonClock sun={contextSun} mobile={mobile} />
+      <div className="app" data-mode={mode}>
+        <Header onChooseCity={() => setCityOpen(true)} onAbout={() => setAboutOpen(true)} scrolled={scrolled} />
+        <main className={mode === 'sky' ? 'sky' : 'city'}>
+          <div className={`stage${paperweight ? ' paperweight' : ''}`} onClick={paperweight ? scrollSheetToPeek : undefined} role={paperweight ? 'button' : undefined} aria-label={paperweight ? 'Back to the globe' : undefined}>
+            <div className="globe-shadow" aria-hidden="true" />
+            <GlobeView markers={markers} selectedId={citySlug} seat={seat} still={still} sunDate={sunDate} pushBack={mobile ? sheetProgress : 0} paused={paperweight} autoRotate={mode === 'sky'} themeKey={theme} onSelect={onSelect} />
+            <div className="veil" aria-hidden="true" style={{ opacity: mode === 'sky' ? 1 : 0 }} />
+          </div>
+          {mobile && city && mode === 'city' && cityNow.sun && (
+            <div className="stage-caption" aria-hidden="true">
+              <PlateCaption parts={[city.name.toLowerCase(), `${spotsByCity.get(city.slug)?.length ?? 0} places`, formatClock(cityNow.now, city.timezone)]} />
+              <PhaseLine text={phaseLine(cityNow.now, cityNow.sun, city.timezone, { preview: cityNow.preview })} />
+            </div>
+          )}
+          {mode === 'sky' ? (
+            <SkyText now={live} sun={skySun} place={skyPlace} userPos={userPos} timeZone={skyTz} onChooseCity={() => setCityOpen(true)} onAbout={() => setAboutOpen(true)} />
+          ) : mobile ? (
+            <Sheet fullOnMount={mode === 'spot'} bare={mode === 'spot'} sticky={mode === 'spot' ? null : <p className="city-name" style={{ fontSize: 'var(--t-display-s)' }}>{mode === 'stones' ? 'stones' : city?.name}</p>}>
+              {column}
+              <p className="only-mobile" style={{ paddingTop: 24 }}><button type="button" className="word word--quiet word--small" onClick={() => setAboutOpen(true)}>about</button>{' '}<button type="button" className="word word--quiet word--small" onClick={() => actions.sky()}>← sky</button></p>
+            </Sheet>
+          ) : (
+            <aside className="column" aria-label={mode === 'stones' ? 'Saved spots' : city?.name} onScroll={(e) => setScrolled(e.currentTarget.scrollTop > 4)}>
+              {mode === 'stones' && <p><button type="button" className="word word--quiet" onClick={() => actions.sky()}>← sky</button></p>}
+              {column}
+            </aside>
+          )}
+        </main>
+        {mode !== 'sky' && <div className="vh"><MarginNote /></div>}
+      </div>
+      <CityDialog open={cityOpen} onClose={() => setCityOpen(false)} current={citySlug} now={live}
+        onPick={(slug) => { setCityOpen(false); const g = getGlobe(); if (g) g.select(slug); else actions.openCity(slug) }} />
+      <AboutDialog open={aboutOpen} onClose={() => { setAboutOpen(false); if (mode === 'about') actions.sky() }} />
+    </>
   )
 }

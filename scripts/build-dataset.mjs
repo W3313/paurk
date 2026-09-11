@@ -50,6 +50,7 @@ for (const file of files) {
     if (lat === null || lng === null) { cityDropped.push(`${name}: missing coordinates`); dropped++; continue }
     const dist = km(cLat, cLng, lat, lng)
     if (dist > MAX_KM_FROM_CENTRE) { cityDropped.push(`${name}: ${dist.toFixed(0)} km from city centre`); dropped++; continue }
+    if (raw.verified === false && /\b(abandon|derelict|trespass|no trespassing|climb the fence|hop the fence|active rail|freight line|squat)/i.test(`${raw.blurb} ${raw.tips} ${raw.safety?.note}`)) { cityDropped.push(`${name}: unreviewed and safety keywords present`); dropped++; continue }
     const category = CATEGORIES.has(raw.category) ? raw.category : 'other'
     const vibes = [...new Set((raw.vibes ?? []).filter((v) => VIBES.has(v)))]
     const bestTimes = [...new Set((raw.bestTimes ?? []).filter((v) => TIMES.has(v)))]
@@ -86,10 +87,12 @@ for (const file of files) {
       sources,
       safety: { level, note: str(raw.safety?.note, 240) },
       lowkeyScore: Math.min(5, Math.max(1, Math.round(num(raw.lowkeyScore) ?? 3))),
+      verified: raw.verified !== false,
     })
   }
-  cities.push({ slug, name: str(city.city, 60), country: str(city.country, 60), region: str(city.region, 30) || 'other', lat: +cLat.toFixed(4), lng: +cLng.toFixed(4), timezone: str(city.timezone, 40) || 'UTC', spotCount: kept })
-  report.push(`- **${city.city}** (${slug}): ${kept} spots kept, ${cautions} caution, ${wiki} with Wikipedia photo title, ${reddit} with reddit-sourced link${cityDropped.length ? `; dropped: ${cityDropped.join('; ')}` : ''}`)
+  const unverified = (city.spots ?? []).filter((s) => s.verified === false).length
+  cities.push({ slug, name: str(city.city, 60), country: str(city.country, 60), region: str(city.region, 30) || 'other', lat: +cLat.toFixed(4), lng: +cLng.toFixed(4), timezone: str(city.timezone, 40) || 'UTC', spotCount: kept, verified: unverified === 0 })
+  report.push(`- **${city.city}** (${slug}): ${kept} spots kept${unverified ? ` (${unverified} not independently reviewed)` : ''}, ${cautions} caution, ${wiki} with Wikipedia photo title, ${reddit} with reddit-sourced link${cityDropped.length ? `; dropped: ${cityDropped.join('; ')}` : ''}`)
   if (city.redditSourcedNotes) report.push(`  - notes: ${str(city.redditSourcedNotes, 500)}`)
 }
 

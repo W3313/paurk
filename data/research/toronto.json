@@ -1,0 +1,519 @@
+{
+  "city": "Toronto",
+  "country": "Canada",
+  "slug": "toronto",
+  "region": "americas",
+  "cityLat": 43.6532,
+  "cityLng": -79.3832,
+  "timezone": "America/Toronto",
+  "searchesRun": [
+    "reddit Toronto chill spots",
+    "r/askTO quiet places to relax and sit",
+    "reddit Toronto hidden gems locals only",
+    "reddit Toronto best sunset spot free",
+    "Toronto best places to read a book outside"
+  ],
+  "redditSourcedNotes": "RESEARCH NOT PERFORMED - NEEDS RE-RUN. The five queries listed in searchesRun were issued but the session's WebSearch budget was already exhausted (200/200 calls) so none returned results; the remaining required queries were not attempted. WebFetch fallbacks (DuckDuckGo, Bing, Google, Brave, blogTO, Time Out, toronto.ca, tpl.ca, Wikipedia) were all blocked by the egress proxy. No reddit- or locals-sourced pages were read. Every spot below comes from the researcher's prior knowledge only; sources arrays are intentionally empty rather than fabricated, and hours / Wikipedia titles / coordinates are unverified. The verify stage should confirm each place, or the orchestrator should re-run this city with CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION raised. VERIFIER NOTE: the independent verify stage for this city did not run (web-search budget and session limit exhausted); spots carry verified:false and were screened only by build-time checks.",
+  "spots": [
+    {
+      "name": "Trillium Park",
+      "neighborhood": "Ontario Place / Harbourfront West",
+      "category": "park",
+      "vibes": [
+        "sunset",
+        "view",
+        "skyline",
+        "water",
+        "walk",
+        "night",
+        "free",
+        "solo",
+        "group"
+      ],
+      "blurb": "A 7.5-acre park built on former Ontario Place parking lots, with rock outcrops, a pebble cove and the William G. Davis Trail curving along the lake. Locals bring a blanket to the east-facing rocks to watch the CN Tower and skyline turn gold, then stay as the lights come on. It is big and spread out enough that it rarely feels crowded.",
+      "tips": "Enter from the Martin Goodman Trail at the foot of Remembrance Drive by the Ontario Place east gate; the slab benches on the rock ridge face the skyline. It is exposed and windy, so bring a layer.",
+      "bestTimes": [
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 43.6293,
+      "lng": -79.4108,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Trillium Park",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Trail is lit and regularly walked; the outer rocks get dark and quiet after 11pm, so stay near the trail late."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Toronto Music Garden",
+      "neighborhood": "Harbourfront",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "green",
+        "water",
+        "study",
+        "solo",
+        "walk",
+        "free"
+      ],
+      "blurb": "A small lakeside garden designed with cellist Yo-Yo Ma, each section tracing a movement of Bach's first cello suite: a winding Prelude path, a wildflower meadow, a grass amphitheatre inside the Sarabande ring. It sits a few blocks west of the busy Harbourfront strip, so you get boats and gulls without the crowds. Good for reading on the stone steps.",
+      "tips": "The steps of the Sarabande amphitheatre are the quietest seat. Free summer concerts run Thursday evenings and Sunday afternoons if you want a gentle soundtrack; otherwise weekday mornings are near-empty.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 43.6363,
+      "lng": -79.3947,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Toronto Music Garden",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "On a well-lit, busy waterfront promenade; fine solo at any hour."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Chester Hill Lookout",
+      "neighborhood": "Playter Estates (Danforth)",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "skyline",
+        "sunset",
+        "night",
+        "hidden",
+        "quiet",
+        "free",
+        "solo"
+      ],
+      "blurb": "A residential dead-end above the Don Valley where the street simply stops at a railing and the whole downtown skyline opens up beyond the Prince Edward Viaduct. No sign, no crowd, a couple of benches and whoever else knows. Sunset drops behind the towers and then the city lights come on.",
+      "tips": "Walk north from Broadview station, turn left on Chester Hill Rd and go to the very end at Cambridge Ave. Only two or three benches, so bring something to sit on; it is a quiet street, keep it mellow.",
+      "bestTimes": [
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 43.6786,
+      "lng": -79.3603,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Residential street with streetlights and a steady trickle of visitors at night; keep noise down for the neighbours."
+      },
+      "lowkeyScore": 5,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Riverdale Park East",
+      "neighborhood": "Riverdale",
+      "category": "park",
+      "vibes": [
+        "sunset",
+        "skyline",
+        "view",
+        "green",
+        "picnic",
+        "people-watch",
+        "group",
+        "free"
+      ],
+      "blurb": "A broad grassy hill sloping west from Broadview Avenue toward the Don Valley, with the full downtown skyline laid out across it. It is the East End's default sunset spot: people sit on the slope in loose clusters, dogs run below and nobody is in a hurry. Big enough to find your own patch even on a warm evening.",
+      "tips": "Sit near the top of the slope by the Montcrest Blvd entrance for the cleanest view. Rooster Coffee across Broadview has a window bench facing the park if the weather turns.",
+      "bestTimes": [
+        "golden-hour",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 43.6696,
+      "lng": -79.355,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Riverdale Park (Toronto)",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Popular, open hill; the Broadview edge is lit while the lower fields are dark after 10pm, so stay near the top late."
+      },
+      "lowkeyScore": 2,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Allan Gardens Conservatory",
+      "neighborhood": "Garden District",
+      "category": "garden",
+      "vibes": [
+        "rain-ok",
+        "cozy",
+        "green",
+        "quiet",
+        "free",
+        "solo",
+        "study"
+      ],
+      "blurb": "A cluster of Victorian glasshouses under a 1910 cast-iron dome, kept warm and green year-round with palms, cacti, a small koi pond and seasonal flower shows. Admission is free and weekdays stay quiet, so it doubles as a humid winter reading room. Benches sit among the tropical plantings.",
+      "tips": "Best on weekday mornings; the cool house at the west end is the quietest. Enter from the Carlton St side and head straight for the glasshouses.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Daily 10am-5pm",
+      "lat": 43.6615,
+      "lng": -79.3733,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Allan Gardens",
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "The conservatory is staffed and calm; the surrounding park sees drug use and encampments, so visit in daylight and go straight to the glasshouse."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Toronto Reference Library",
+      "neighborhood": "Yorkville",
+      "category": "library",
+      "vibes": [
+        "study",
+        "quiet",
+        "rain-ok",
+        "cozy",
+        "free",
+        "solo"
+      ],
+      "blurb": "Raymond Moriyama's 1977 library, a five-storey terraced atrium with hanging plants, glass elevators and a fountain, ringed by open reading floors. Hundreds of seats, free Wi-Fi, nothing to buy, and a hush that survives being a block from Bloor-Yonge. Locals treat the upper floors as a free study hall on rainy days.",
+      "tips": "Head to the 4th or 5th floor along the atrium railing for the best seats; the cafe in the lobby handles coffee. Weekends fill up after about 1pm.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Fri 9am-8:30pm, Sat 9am-5pm, Sun 1:30-5pm",
+      "lat": 43.6718,
+      "lng": -79.3868,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Toronto Reference Library",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building in a busy area; no concerns."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Aga Khan Park",
+      "neighborhood": "Don Mills",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "green",
+        "water",
+        "hidden",
+        "free",
+        "solo",
+        "walk"
+      ],
+      "blurb": "Formal gardens between the Aga Khan Museum and the Ismaili Centre: five long reflecting pools, clipped serviceberry trees and stone benches, all free to enter. The geometry does something calming; you hear water and wind and not much else. Far fewer visitors than the museum itself.",
+      "tips": "Go on a weekday afternoon; the benches at the far end of the pools are the emptiest. The museum cafe next door is the rain plan.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Daily, dawn-dusk",
+      "lat": 43.7254,
+      "lng": -79.3325,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Aga Khan Park",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed grounds that close at dusk; no concerns."
+      },
+      "lowkeyScore": 4,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Rosetta McClain Gardens",
+      "neighborhood": "Birch Cliff (Scarborough)",
+      "category": "garden",
+      "vibes": [
+        "sunrise",
+        "view",
+        "water",
+        "green",
+        "quiet",
+        "hidden",
+        "free",
+        "solo"
+      ],
+      "blurb": "A formal garden on top of the Scarborough Bluffs, with a raised rose garden, scented plantings, a fountain and a lookout railing high above Lake Ontario. Wedding photos happen on weekends, but weekday mornings it is mostly retirees, birders and people who came to sit. Sunrise over the lake is the reason to come early.",
+      "tips": "Enter off Kingston Road at Glen Everest Rd; the lookout benches along the south fence face the water. Bring your own coffee, nothing sells it nearby.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "dawn-dusk",
+      "lat": 43.704,
+      "lng": -79.256,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Rosetta McClain Gardens",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Closes at dusk; stay behind the bluff-edge fences, the edge erodes."
+      },
+      "lowkeyScore": 4,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Humber Bay Park East",
+      "neighborhood": "Humber Bay Shores (Etobicoke)",
+      "category": "waterfront",
+      "vibes": [
+        "sunrise",
+        "skyline",
+        "view",
+        "water",
+        "walk",
+        "free",
+        "solo"
+      ],
+      "blurb": "A man-made headland at the mouth of the Humber where the whole downtown skyline sits across the bay, close enough to read but far enough to feel separate. Paths loop past the Air India memorial, a butterfly habitat and rocky shore, and in winter the sun rises almost directly behind the CN Tower. Mostly dog-walkers and anglers.",
+      "tips": "Arrive via the Martin Goodman Trail at Park Lawn Rd and walk to the easternmost point for the unobstructed skyline. The Humber Bay Arch Bridge is a ten-minute walk east.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 43.6195,
+      "lng": -79.4775,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Humber Bay Park",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit near the Park Lawn entrance and along the Martin Goodman Trail; the outer points are dark after sunset, so keep night walks to the trail."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Philosopher's Walk",
+      "neighborhood": "University of Toronto / The Annex",
+      "category": "trail",
+      "vibes": [
+        "quiet",
+        "green",
+        "walk",
+        "study",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "A leafy ravine path on the U of T campus running from Bloor Street beside the ROM south to Hoskin Avenue, following a buried creek. Benches under old trees, music drifting out of the Faculty of Music, and students who mostly pass through rather than linger. It is the university's unofficial reading spot.",
+      "tips": "Enter through the Alexandra Gates at Bloor and Queen's Park; the benches on the Trinity College side are the quietest. Best on weekday afternoons; it gets dim once the sun drops.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 43.6672,
+      "lng": -79.3955,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Philosopher's Walk (Toronto)",
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "Lit but dim and empty after dark, with campus emergency phones along the path; best before sunset or with a friend."
+      },
+      "lowkeyScore": 4,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Toronto City Hall Podium Green Roof",
+      "neighborhood": "Downtown Core",
+      "category": "rooftop",
+      "vibes": [
+        "view",
+        "hidden",
+        "quiet",
+        "free",
+        "people-watch",
+        "solo",
+        "skyline"
+      ],
+      "blurb": "A public rooftop garden on top of City Hall's podium, reached by the ramps from Nathan Phillips Square. Sedum beds, benches and a view straight down onto the square, the rink in winter, and the curved towers overhead, and almost nobody goes up. It is the easiest free rooftop in the city.",
+      "tips": "Take the ramp from the square's east side or the elevator in the rotunda; it is open in daylight hours and occasionally closed for events. The north edge by the towers is the sheltered corner.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (daylight hours, seasonal; check city site)",
+      "lat": 43.6535,
+      "lng": -79.3841,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Toronto City Hall",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Monitored public space above a busy square; closes at night."
+      },
+      "lowkeyScore": 4,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Boxcar Social Harbourfront",
+      "neighborhood": "Harbourfront",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "water",
+        "view",
+        "rain-ok",
+        "people-watch",
+        "night",
+        "sunset",
+        "solo",
+        "group"
+      ],
+      "blurb": "A coffee bar by day and a wine bar by night inside Harbourfront Centre, with a wide waterfront terrace facing the ferry lanes and the island. Order a pour-over, take a window seat or the patio, and watch boats for as long as you like. One of the few independent sit-down spots on Queens Quay.",
+      "tips": "Mornings are quiet and laptop-friendly; the patio fills at golden hour and some summer weekends have DJs. In winter the rink is right outside.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "varies (check site)",
+      "lat": 43.6387,
+      "lng": -79.3832,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Inside a busy cultural centre on a lit promenade; no concerns."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Cherry Beach",
+      "neighborhood": "Port Lands",
+      "category": "beach",
+      "vibes": [
+        "water",
+        "sunrise",
+        "sunset",
+        "quiet",
+        "walk",
+        "picnic",
+        "free",
+        "group",
+        "solo"
+      ],
+      "blurb": "A sandy beach at the foot of Cherry Street in the Port Lands, with cottonwoods, an off-leash dog area and views west to the skyline and east toward the Leslie Street Spit. Less crowded and less polished than the Beaches, mostly locals, swimmers and paddlers. Sunrise over the lake is unobstructed.",
+      "tips": "The east end near the sailing club is the calmest; bring everything you need, there are few vendors. On weekends continue along the Martin Goodman Trail into Tommy Thompson Park.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 43.6365,
+      "lng": -79.3445,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Cherry Beach",
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "No lighting on the sand and the road in is quiet; go before dusk, or stick to the lit Martin Goodman Trail with a friend."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Sugar Beach",
+      "neighborhood": "East Bayfront",
+      "category": "beach",
+      "vibes": [
+        "water",
+        "quiet",
+        "people-watch",
+        "night",
+        "free",
+        "solo",
+        "sunset"
+      ],
+      "blurb": "A small urban beach of white sand, pink umbrellas and Muskoka chairs at the foot of Jarvis, facing the Redpath sugar refinery across a slip. No swimming; the point is to sit, watch lakers unload and let the city noise fall away. Locals use it for lunch breaks and late-night sits.",
+      "tips": "Chairs go fast on sunny lunch hours; evenings are quieter. The promenade east past Sherbourne Common is well lit for a night walk.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 43.6437,
+      "lng": -79.3625,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Sugar Beach",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Well lit on a busy waterfront promenade; the sugar plant hums through the night."
+      },
+      "lowkeyScore": 2,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    }
+  ]
+}

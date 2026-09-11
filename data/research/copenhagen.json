@@ -1,0 +1,578 @@
+{
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "slug": "copenhagen",
+  "region": "europe-africa",
+  "cityLat": 55.6761,
+  "cityLng": 12.5683,
+  "timezone": "Europe/Copenhagen",
+  "searchesRun": [
+    "Islands Brygge Harbour Bath wikipedia",
+    "Ofelia Plads Copenhagen wikipedia",
+    "Kalvebod Bølge wikipedia",
+    "Cisternerne Frederiksberg Søndermarken wikipedia",
+    "Konditaget Lüders Nordhavn rooftop opening hours"
+  ],
+  "redditSourcedNotes": "Researcher stage ran no searches (budget exhausted); all 14 draft spots came from prior knowledge. Review stage had a hard cap of 5 WebSearch calls and spent them on the most doubtful Wikipedia titles and on Konditaget Lüders (public access). Outcomes: Ofelia Plads, Cisternerne and Frederiksberg Gardens confirmed as exact en.wikipedia.org articles; \"Islands Brygge Harbour Bath\" set to null (only the district article Islands Brygge and the collective Copenhagen Harbour Baths article exist); \"Kalvebod Bølge\" set to null (only da.wikipedia and Commons found); Konditaget Lüders confirmed as a freely accessible public roof at Helsinkigade 30, no English article found. The other six titles (Kastellet, Assistens Cemetery, Amager Strandpark, Black Diamond, Royal Library Garden, Utterslev Mose) are kept on high confidence from knowledge and are flagged as not URL-confirmed in verifyNote. No reddit or \"according to locals\" content was read for this city; source URLs are attached only where they appeared in one of the five search results, all other sources arrays remain empty rather than invented. Hours are from knowledge and should be treated as approximate. Safety screen: all 14 spots are legitimate public places (parks, quays, a library, a museum, two cafes); none involve trespassing, derelict, industrial or rail land; Utterslev Mose carries caution for unlit paths after dark. Edits: fixed the Kastellet entrance gate (Kongeporten, not Norgesporten, from Churchillparken), refined Ofelia Plads coordinates from a map result, and trimmed overclaiming phrases in four blurbs.",
+  "spots": [
+    {
+      "verified": true,
+      "verifyNote": "Well-known public citadel; fixed tip (Churchillparken entrance is Kongeporten, not Norgesporten). Wikipedia title kept on high confidence from knowledge only (search budget spent elsewhere), not URL-confirmed.",
+      "name": "Kastellet",
+      "neighborhood": "Østerbro / Indre By",
+      "category": "park",
+      "vibes": [
+        "quiet",
+        "green",
+        "walk",
+        "view",
+        "water",
+        "free",
+        "solo",
+        "sunset"
+      ],
+      "blurb": "A star-shaped 17th-century citadel whose grassy ramparts are still a working military site you can wander freely. Locals jog the outer bastions, sit under the windmill and watch the harbour and Langelinie from the eastern wall, a few hundred metres from the Little Mermaid crowds but a world apart. It stays calm even in high season because most visitors never climb up onto the ramparts.",
+      "tips": "Enter through Kongeporten (the King's Gate) from Churchillparken, or Norgesporten from the Langelinie side, and walk the top of the ramparts anticlockwise to the windmill; the eastern bastions catch the last light over the water. Gates close at 10pm and bikes are not allowed on the ramparts.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "6am-10pm",
+      "lat": 55.691,
+      "lng": 12.5935,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Kastellet, Copenhagen",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit paths, guards on site and gates locked at 10pm; keep off the grass slopes when wet."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "verified": true,
+      "verifyNote": "Well-known public cemetery-park; trimmed \"most beloved\" claim. Wikipedia title kept on high confidence from knowledge only (search budget spent elsewhere), not URL-confirmed.",
+      "name": "Assistens Kirkegård",
+      "neighborhood": "Nørrebro",
+      "category": "park",
+      "vibes": [
+        "quiet",
+        "green",
+        "solo",
+        "picnic",
+        "walk",
+        "free"
+      ],
+      "blurb": "Copenhagen's best-known cemetery doubles as Nørrebro's park: lime-tree avenues, yellow walls and lawns where students read and sunbathe a few rows from Hans Christian Andersen and Kierkegaard. The city has long treated it as a place for the living, so sitting with a book or a coffee from nearby Jægersborggade is entirely normal. The walls cut the traffic noise from Nørrebrogade to almost nothing.",
+      "tips": "Enter from Kapelvej or Nørrebrogade and head for the northern, less monumental sections for the quietest grass; alcohol and loud music are not allowed and it locks at night. Bring a blanket, since the benches along the main avenue fill first on sunny days.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "7am-10pm (Apr-Sep), 7am-7pm (Oct-Mar)",
+      "lat": 55.6905,
+      "lng": 12.553,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Assistens Cemetery (Copenhagen)",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Gated, well used and closed overnight; fine solo in daylight."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "verified": true,
+      "verifyNote": "Wikipedia title confirmed: en.wikipedia.org/wiki/Frederiksberg_Gardens appeared in search results.",
+      "name": "Frederiksberg Have",
+      "neighborhood": "Frederiksberg",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "water",
+        "quiet",
+        "picnic",
+        "walk",
+        "solo",
+        "group",
+        "free"
+      ],
+      "blurb": "An English-style romantic garden of winding canals, willow-hung banks and a Chinese pavilion, with Frederiksberg Palace on the hill above. It is large enough that the back paths by the zoo's elephant enclosure (visible through the fence) and the canal islands stay quiet even on a busy Sunday. Locals treat the lawns as an outdoor living room, and the canal islands are the place to lie down with a book.",
+      "tips": "Come in through the Roskildevej gate rather than Frederiksberg Runddel to skip the crowds, and follow the canal towards the Chinese pavilion for the quietest benches; the kiosks near Runddel are the only refreshments inside. Søndermarken across the road is wilder and open all night if you want more solitude.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "6am-dusk (to 10pm in summer)",
+      "lat": 55.6745,
+      "lng": 12.525,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Frederiksberg Gardens",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Gated park that closes at dusk; well used by families and joggers."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "verified": true,
+      "verifyNote": "Existence and public access confirmed via search (municipality and VisitCopenhagen pages). No English article named \"Islands Brygge Harbour Bath\"; only the district article and the collective Copenhagen Harbour Baths article exist, so title set to null.",
+      "name": "Islands Brygge Havnepark",
+      "neighborhood": "Islands Brygge",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunset",
+        "group",
+        "people-watch",
+        "picnic",
+        "night",
+        "free",
+        "skyline"
+      ],
+      "blurb": "A long strip of grass and harbour steps on the Amager side of the inner harbour, facing west across the water towards Kalvebod Brygge and the sunset. In summer it is where the city lies on the lawn after work, swims at the free harbour bath and stays past dark; out of season it becomes a quiet promenade with the same view. Nothing costs anything and nobody minds if you just sit and watch the boats.",
+      "tips": "The northern end near Langebro is the busiest; walk south past the harbour bath towards Havnevigen for quieter steps. Bring your own drinks and a towel, and note the harbour bath is lifeguarded only in season.",
+      "bestTimes": [
+        "golden-hour",
+        "night",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (harbour bath open seasonally)",
+      "lat": 55.6688,
+      "lng": 12.5765,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.visitcopenhagen.com/copenhagen/planning/islands-brygge-harbour-bath-gdk482346",
+          "label": "VisitCopenhagen: Islands Brygge Harbour Bath",
+          "kind": "official"
+        },
+        {
+          "url": "https://international.kk.dk/live/culture-and-leisure/copenhagen-culture-and-activities/outdoor-swimming/islands-brygge-havnebad",
+          "label": "City of Copenhagen: Islands Brygge Havnebad",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit promenade, busy on summer evenings; stay back from the unfenced edges and only swim inside the marked bath."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "verified": true,
+      "verifyNote": "Existence confirmed via search (opened 2013, between Langebro and Bernstorffsgade). Only Danish Wikipedia and Commons pages found, no en.wikipedia article, so title set to null.",
+      "name": "Kalvebod Bølge",
+      "neighborhood": "Vesterbro / Kalvebod Brygge",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunrise",
+        "quiet",
+        "solo",
+        "walk",
+        "night",
+        "skyline",
+        "free"
+      ],
+      "blurb": "A wave-shaped wooden boardwalk that swoops out over the harbour in front of the office blocks on Kalvebod Brygge, between Langebro and Bernstorffsgade. Because it faces east towards Islands Brygge it gets the first sun of the day, and on weekday mornings you often have the whole thing to yourself with the water lapping under the planks. Sit on the crest of a wave with your feet over the edge and watch the kayakers and harbour buses go by.",
+      "tips": "Approach from Langebro or the Bryghusbroen bridge; the waves nearest Langebro are the highest and have the best view. Wear something warm outside summer since the wind comes straight up the harbour.",
+      "bestTimes": [
+        "morning",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 55.6672,
+      "lng": 12.572,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.visitcopenhagen.com/copenhagen/planning/kalvebod-bolge-gdk723272",
+          "label": "VisitCopenhagen: Kalvebod Bølge",
+          "kind": "official"
+        },
+        {
+          "url": "https://dac.dk/viden/arkitektur/kalvebod-boelge/",
+          "label": "Danish Architecture Center: Kalvebod Bølge",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit and visible from the promenade at night; the deck is slippery when wet and has no railings, so keep back from the edge in the dark."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "verified": true,
+      "verifyNote": "Search confirmed a freely accessible public roof 24 m up at Helsinkigade 30; specific opening hours were not in results, so hours left as varies. No English Wikipedia article found.",
+      "name": "Konditaget Lüders",
+      "neighborhood": "Nordhavn",
+      "category": "rooftop",
+      "vibes": [
+        "view",
+        "skyline",
+        "sunset",
+        "water",
+        "free",
+        "walk",
+        "group",
+        "hidden"
+      ],
+      "blurb": "A free public rooftop on top of a red-brick parking garage in the new Nordhavn district, reached by an outdoor staircase, with a running track, playground and benches 24 metres up. It looks out over the harbour, the Sandkaj swimming zone and back towards the city, and at sunset the whole red rubber roof glows. Most visitors never come this far north, so it stays the locals' evening hangout.",
+      "tips": "Take the metro to Orientkaj and follow Helsinkigade to number 30, where the stairs climb the harbour side of the building; pair it with a sit on the Sandkaj boardwalk below. Check current opening hours since the roof is occasionally closed for maintenance.",
+      "bestTimes": [
+        "golden-hour",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (check site)",
+      "lat": 55.7068,
+      "lng": 12.5988,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.visitcopenhagen.com/copenhagen/planning/konditaget-luders-gdk1091081",
+          "label": "VisitCopenhagen: Konditaget Lüders",
+          "kind": "official"
+        },
+        {
+          "url": "https://dac.dk/en/magazine/places/konditaget-luders-a-roof-just-for-fun-239",
+          "label": "Danish Architecture Center: Konditaget Lüders",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.lonelyplanet.com/points-of-interest/konditaget-lueders/1582264",
+          "label": "Lonely Planet: Konditaget Lüders",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced roof with high railings; lit in the evening and busy with runners."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "verified": true,
+      "verifyNote": "Well-known public beach park. Wikipedia title kept on high confidence from knowledge only (search budget spent elsewhere), not URL-confirmed.",
+      "name": "Amager Strandpark",
+      "neighborhood": "Amager Øst",
+      "category": "beach",
+      "vibes": [
+        "sunrise",
+        "water",
+        "walk",
+        "quiet",
+        "stargaze",
+        "solo",
+        "free",
+        "picnic"
+      ],
+      "blurb": "A 4.6 km artificial beach island and lagoon on the Øresund coast, fifteen minutes from the centre by metro. Sunrise here comes straight out of the sea beside the Øresund Bridge and the Swedish coast, and on weekday mornings it is you, a few winter bathers and the cormorants. Out of season the dunes and the lagoon side are as empty and quiet as anywhere in the city.",
+      "tips": "Get off at Amager Strand or Femøren and cross to the outer beach for the open sea; the lagoon side is calmer and warmer for sitting. Bring a windbreaker and a thermos, and go before 8am in summer to beat the crowds.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 55.6555,
+      "lng": 12.644,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Amager Strandpark",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit promenade and busy in summer; the beach itself is unlit after dark, so stay near the promenade at night."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "verified": true,
+      "verifyNote": "Well-known public library; trimmed \"the calmest\" to \"one of the calmest\". Hours from knowledge. Wikipedia title kept on high confidence from knowledge only (search budget spent elsewhere), not URL-confirmed.",
+      "name": "Den Sorte Diamant (Royal Library)",
+      "neighborhood": "Slotsholmen",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "water",
+        "view",
+        "cozy",
+        "solo",
+        "free"
+      ],
+      "blurb": "The Royal Library's black granite extension on the harbour, with a soaring atrium that looks straight out over the water through a wall of glass. Anyone can walk in, take a seat on the atrium balconies or in the reading rooms and stay all day with a laptop or a book; a library card is only needed to borrow. On a rainy afternoon it is one of the calmest indoor spaces in the city centre.",
+      "tips": "The first-floor balconies over the atrium have the best harbour view and are the quietest; the reading rooms are silent, so take calls outside. There is a café by the entrance, and the harbour-front benches outside face the sunrise.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Fri 8am-9pm, Sat 9am-7pm, closed Sun (check site)",
+      "lat": 55.6733,
+      "lng": 12.5821,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Black Diamond (library)",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building; bag checks at the reading rooms."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "verified": true,
+      "verifyNote": "Well-known public garden on Slotsholmen. Wikipedia title kept on high confidence from knowledge only (search budget spent elsewhere), not URL-confirmed.",
+      "name": "Bibliotekshaven (Royal Library Garden)",
+      "neighborhood": "Slotsholmen",
+      "category": "garden",
+      "vibes": [
+        "hidden",
+        "quiet",
+        "green",
+        "water",
+        "solo",
+        "free",
+        "study"
+      ],
+      "blurb": "A walled garden tucked between Christiansborg, the old Royal Library and the Danish Jewish Museum, laid out over what was once a naval harbour. There is a long pond with a fountain, benches under the trees and almost no through traffic, so office workers and students come here with lunch and a book while tourists stream past on the other side of the wall. It is the kind of place you find once and keep to yourself.",
+      "tips": "Enter through the archways from Rigsdagsgården or Proviantpassagen; the benches at the far end from the fountain get the afternoon sun. It closes at dusk in winter.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (roughly 6am-10pm summer, to dusk in winter)",
+      "lat": 55.6745,
+      "lng": 12.58,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Royal Library Garden",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Enclosed, calm and overlooked by the parliament buildings; closed at night."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "verified": true,
+      "verifyNote": "Wikipedia title confirmed: en.wikipedia.org/wiki/Ofelia_Plads. Coordinates refined from a map result (Kvæsthusbroen 17).",
+      "name": "Ofelia Plads",
+      "neighborhood": "Indre By (Kvæsthusbroen)",
+      "category": "plaza",
+      "vibes": [
+        "water",
+        "sunrise",
+        "night",
+        "view",
+        "people-watch",
+        "skyline",
+        "free",
+        "walk"
+      ],
+      "blurb": "A wooden pier plaza that juts into the harbour next to the Royal Playhouse, with wide steps down to the water and the Opera lit up across the channel. It is a hundred metres from Nyhavn but feels like a different city: locals sit on the steps with takeaway coffee, swimmers use the ladders, and at night the deck stays lit and populated by theatregoers. Facing east, it is also one of the easiest sunrise spots in the centre.",
+      "tips": "Sit on the lower harbour steps on the Opera side; the Playhouse foyer café is open to the public if it rains. Summer evenings bring outdoor events, so check what is on if you want it quiet.",
+      "bestTimes": [
+        "morning",
+        "night",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 55.6816,
+      "lng": 12.5955,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Ofelia Plads",
+      "sources": [
+        {
+          "url": "https://www.visitcopenhagen.com/copenhagen/planning/ofelia-plads-gdk1082368",
+          "label": "VisitCopenhagen: Ofelia Plads",
+          "kind": "official"
+        },
+        {
+          "url": "https://dac.dk/en/magazine/places/ofelia-plads-293",
+          "label": "Danish Architecture Center: Ofelia Plads",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Well lit and busy until late; the water edge is unfenced, so take care on the lower steps."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "verified": true,
+      "verifyNote": "Long-established café at Fiolstræde 10-12, reviewed from knowledge only (no search budget left); hours approximate. Trimmed \"the city's default\" claim.",
+      "name": "Paludan Bogcafé",
+      "neighborhood": "Indre By (Latin Quarter)",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "study",
+        "people-watch",
+        "solo",
+        "quiet"
+      ],
+      "blurb": "A book café in an old bookshop on Fiolstræde, all high shelves, mismatched lamps and long tables where university students camp for hours over cheap coffee and big plates. Nobody hurries you, and the back rooms are where you go to read or work when the front fills up. It is a classic rainy-afternoon refuge for anyone with a laptop or a paperback.",
+      "tips": "Head for the back rooms or upstairs for quiet; order at the counter and grab a table before noon on weekdays. The weekend brunch rush is the only time it is not calm.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly 9am-10pm daily (check site)",
+      "lat": 55.6797,
+      "lng": 12.5732,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Busy central pedestrian street; open late with staff on site."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "verified": true,
+      "verifyNote": "Large public nature park; caution kept for unlit paths after dark. Trimmed \"darker than anywhere else\" claim. Wikipedia title kept on high confidence from knowledge only (search budget spent elsewhere), not URL-confirmed.",
+      "name": "Utterslev Mose",
+      "neighborhood": "Brønshøj / Bispebjerg",
+      "category": "park",
+      "vibes": [
+        "quiet",
+        "water",
+        "green",
+        "sunset",
+        "stargaze",
+        "walk",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "A chain of reedy lakes and meadows along the north-western edge of the city, ringed by a flat gravel path and full of grebes, herons and swans. It is far enough from the centre that almost only neighbours use it, and the western lakes give a wide, low horizon for sunsets and darker skies than most of the city. Take the 5C bus or a bike and you can have a whole lakeshore bench to yourself.",
+      "tips": "Start from the southern edge near Bispebjerg Hospital or from Brønshøj and follow the path west for the quietest shores; benches on the northern bank of the west lake face the sunset. Paths are unlit, so bring a light if you stay for the stars.",
+      "bestTimes": [
+        "golden-hour",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 55.7145,
+      "lng": 12.512,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Utterslev Mose",
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "Unlit paths and few people after dark; go by day or at golden hour, or with a friend and a light if you stay for stargazing."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "verified": true,
+      "verifyNote": "Wikipedia title confirmed: en.wikipedia.org/wiki/Cisternerne. Annual single-artist exhibition format confirmed by the museum site; hours from knowledge.",
+      "name": "Cisternerne",
+      "neighborhood": "Frederiksberg (Søndermarken)",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "cozy",
+        "hidden",
+        "solo"
+      ],
+      "blurb": "A former underground drinking-water reservoir beneath Søndermarken park, now an art space run by the Frederiksberg Museums that stays cool, dark and dripping whatever the weather outside. Each year one artist or architect takes over the whole vaulted space, usually with sound, light or water, and the result is closer to a meditation than a gallery visit. Coming back up into the park's beech trees afterwards is part of the experience.",
+      "tips": "Wear shoes that can get wet and bring a layer, it is cold and very humid down there; the entrance is the grassy mound on the north side of Søndermarken opposite Frederiksberg Palace. Weekday afternoons are almost empty.",
+      "bestTimes": [
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Tue-Sun 11am-6pm, closed Mon (check site)",
+      "lat": 55.671,
+      "lng": 12.523,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Cisternerne",
+      "sources": [
+        {
+          "url": "https://frederiksbergmuseerne.dk/en/cisternerne/",
+          "label": "Frederiksberg Museums: Cisternerne",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.visitcopenhagen.com/copenhagen/planning/cisternerne-gdk414124",
+          "label": "VisitCopenhagen: Cisternerne",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed venue; floors are wet and dim, so mind your step."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "verified": true,
+      "verifyNote": "Long-running café at Refshalevej 141, reviewed from knowledge only (no search budget left); removed unverified \"card only\" detail.",
+      "name": "La Banchina",
+      "neighborhood": "Refshaleøen",
+      "category": "cafe",
+      "vibes": [
+        "water",
+        "sunset",
+        "cozy",
+        "group",
+        "solo",
+        "walk",
+        "hidden"
+      ],
+      "blurb": "A tiny wooden café in a former fishermen's hut on the Refshaleøen shore, with a jetty, a sauna and a ladder into the harbour. You buy a coffee or a glass of wine, take it out onto the pier and watch the sun go down over the water behind Kastellet and the city spires. It is a small trek by bike or harbour bus, which is exactly why it stays low-key.",
+      "tips": "Take the harbour bus to Refshaleøen or cycle out along Refshalevej; the jetty benches face west, so arrive an hour before sunset. Small menu, and swimming from the pier is at your own risk.",
+      "bestTimes": [
+        "golden-hour",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "varies (check site)",
+      "lat": 55.6905,
+      "lng": 12.6088,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed café in a former shipyard district now used for culture and food; the road back is dark after closing, so cycle with lights."
+      },
+      "lowkeyScore": 3
+    }
+  ]
+}

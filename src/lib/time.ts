@@ -12,6 +12,8 @@ export interface SunInfo {
   minutesToGolden: number | null
   minutesToSunset: number | null
   minutesToSunrise: number | null
+  /** Minutes until the end of dusk ("dark"), null if unknown or already dark. */
+  minutesToDark: number | null
   /** 0 at solar midnight .. 1 at solar noon, smooth. Drives the theme. */
   daylight: number
   polar: boolean
@@ -54,6 +56,7 @@ export function sunInfo(now: Date, pos: LatLng): SunInfo {
   return {
     period,
     sunrise, sunset, goldenStart,
+    minutesToDark: dusk && now < dusk ? minutesBetween(now, dusk) : null,
     minutesToGolden: period === 'golden' ? 0 : nextGolden ? minutesBetween(now, nextGolden) : null,
     minutesToSunset: nextSunset ? minutesBetween(now, nextSunset) : null,
     minutesToSunrise: nextSunrise ? minutesBetween(now, nextSunrise) : null,
@@ -64,9 +67,9 @@ export function sunInfo(now: Date, pos: LatLng): SunInfo {
 
 export function formatClock(date: Date, timeZone?: string): string {
   try {
-    return new Intl.DateTimeFormat(undefined, { hour: 'numeric', minute: '2-digit', timeZone }).format(date)
+    return new Intl.DateTimeFormat('en-GB', { hour: '2-digit', minute: '2-digit', hourCycle: 'h23', timeZone }).format(date)
   } catch {
-    return new Intl.DateTimeFormat(undefined, { hour: 'numeric', minute: '2-digit' }).format(date)
+    return new Intl.DateTimeFormat('en-GB', { hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).format(date)
   }
 }
 
@@ -97,4 +100,37 @@ export const PERIOD_LABEL: Record<Period, string> = {
   afternoon: 'afternoon',
   golden: 'golden hour',
   dusk: 'blue hour',
+}
+
+/** Minutes since local midnight in a zone. */
+export function localMinutes(date: Date, timeZone: string): number {
+  return Math.round(localHour(date, timeZone) * 60)
+}
+
+/** The instant that is `minutes` past local midnight on `base`'s local date in `timeZone`. */
+export function instantAtLocalMinutes(base: Date, timeZone: string, minutes: number): Date {
+  const cur = localMinutes(base, timeZone)
+  return new Date(base.getTime() + (minutes - cur) * 60000)
+}
+
+/** Local weekday index (0 = Sunday) in a zone. */
+export function localWeekday(date: Date, timeZone: string): number {
+  try {
+    const wd = new Intl.DateTimeFormat('en-US', { weekday: 'short', timeZone }).format(date)
+    return ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].indexOf(wd)
+  } catch {
+    return date.getDay()
+  }
+}
+
+/** UTC offset in minutes for a zone at an instant. */
+export function tzOffsetMinutes(date: Date, timeZone: string): number {
+  try {
+    const parts = new Intl.DateTimeFormat('en-US', { timeZone, hour12: false, year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit' }).formatToParts(date)
+    const get = (t: string) => Number(parts.find((p) => p.type === t)?.value ?? 0)
+    const asUTC = Date.UTC(get('year'), get('month') - 1, get('day'), get('hour') % 24, get('minute'), get('second'))
+    return Math.round((asUTC - date.getTime()) / 60000)
+  } catch {
+    return -date.getTimezoneOffset()
+  }
 }

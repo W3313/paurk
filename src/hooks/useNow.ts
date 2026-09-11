@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react'
-import { useStore } from '../store'
 
-/** Current time, ticking once a minute (or the user's time override). */
+/** The live clock, ticking on the minute. */
 export function useNow(): Date {
-  const override = useStore((s) => s.timeOverride)
   const [now, setNow] = useState(() => new Date())
   useEffect(() => {
-    const id = window.setInterval(() => setNow(new Date()), 30000)
-    return () => window.clearInterval(id)
+    let id = 0
+    const arm = () => { id = window.setTimeout(() => { setNow(new Date()); arm() }, 60000 - (Date.now() % 60000) + 50) }
+    arm()
+    return () => window.clearTimeout(id)
   }, [])
-  return override ?? now
+  return now
 }

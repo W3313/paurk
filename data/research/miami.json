@@ -1,0 +1,514 @@
+{
+  "city": "Miami",
+  "country": "United States",
+  "slug": "miami",
+  "region": "americas",
+  "cityLat": 25.7617,
+  "cityLng": -80.1918,
+  "timezone": "America/New_York",
+  "searchesRun": [
+    "reddit Miami chill spots",
+    "r/Miami quiet places to relax and sit",
+    "reddit Miami hidden gems locals only",
+    "reddit Miami best sunset spot free",
+    "Miami best places to read a book outside"
+  ],
+  "redditSourcedNotes": "RESEARCH LIMITATION - READ BEFORE VERIFYING: the session's WebSearch budget (200/200) was already exhausted before this task started, so all five queries listed in searchesRun were issued but returned no results, and the remaining required queries were not attempted. Fallback fetches (DuckDuckGo, Bing, Wikipedia, Wikimedia API, reddit, miamidade.gov, miamigov.com, miamibeachfl.gov, mdpls.org, pamm.org, fairchildgarden.org, booksandbooks.com, timeout.com) were all blocked by the network egress proxy. No page summarising reddit or local opinion was read. To avoid fabricating citations, every spot's sources array is intentionally empty; the spots, hours, coordinates and Wikipedia titles come from the researcher's prior knowledge of Miami and should be re-verified by the verify stage (hours and wikipediaTitle values in particular). No spot has a reddit-sourced link. VERIFIER NOTE: the independent verify stage for this city did not run (web-search budget and session limit exhausted); spots carry verified:false and were screened only by build-time checks.",
+  "spots": [
+    {
+      "name": "South Pointe Park",
+      "neighborhood": "South of Fifth, Miami Beach",
+      "category": "park",
+      "vibes": [
+        "sunrise",
+        "water",
+        "view",
+        "walk",
+        "people-watch",
+        "free",
+        "night",
+        "skyline"
+      ],
+      "blurb": "Seventeen acres of lawn and dune at the very tip of Miami Beach, where Government Cut meets the Atlantic. Locals come at dawn to sit on the low wall along the cut and watch cruise ships and pilot boats slide past, then wander the serpentine path out to the pier. Even on a busy afternoon the wide lawns swallow the crowd, and the concrete benches facing the water stay quiet.",
+      "tips": "Enter from Washington Ave; the calmest benches are along the cut-side seawall rather than the pier. Sunrise is the sweet spot - by mid-morning on weekends the lawn fills with families and dogs.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "sunrise-10pm",
+      "lat": 25.7648,
+      "lng": -80.1345,
+      "coordConfidence": "high",
+      "wikipediaTitle": "South Pointe Park",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Well lit and patrolled until closing; steady foot traffic from the South of Fifth condos in the evening."
+      },
+      "lowkeyScore": 2,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Alice Wainwright Park",
+      "neighborhood": "Brickell / Coconut Grove border",
+      "category": "park",
+      "vibes": [
+        "quiet",
+        "water",
+        "green",
+        "hidden",
+        "solo",
+        "free",
+        "view"
+      ],
+      "blurb": "A small bayfront park tucked off Brickell Avenue that most people drive straight past on their way to Vizcaya. A remnant of the coastal hardwood hammock sits on a limestone ridge, and a handful of benches face Biscayne Bay across a low seawall with the Key Biscayne skyline in the distance. It is the kind of place where you can read for an hour and see three other people.",
+      "tips": "Park on the small lot off Brickell Ave near SE 32nd Rd and walk through the trees to the water; bring bug spray in summer. The bayfront benches are best in the morning before the sun swings west.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "sunrise-sunset",
+      "lat": 25.7463,
+      "lng": -80.2036,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "Closes at sunset and the shoreline path is unlit, so plan to leave before dark; fine and quiet during the day."
+      },
+      "lowkeyScore": 5,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "David T. Kennedy Park",
+      "neighborhood": "Coconut Grove",
+      "category": "waterfront",
+      "vibes": [
+        "sunset",
+        "water",
+        "green",
+        "walk",
+        "picnic",
+        "group",
+        "free",
+        "people-watch"
+      ],
+      "blurb": "The Grove's everyday bayfront park: a big shady lawn, a loop path, a dog run and a strip of seawall looking out over the sailboats moored off Dinner Key. Regulars bring folding chairs and a coffee from the cart and sit facing the water as the sun drops behind the marina. It is busy enough to feel safe and loose enough that nobody bothers you.",
+      "tips": "The quietest stretch is the far south end of the seawall, past the dog park. Arrive 30 minutes before sunset for a spot on the wall; weekday evenings are calmer than weekends.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "sunrise-sunset",
+      "lat": 25.7351,
+      "lng": -80.2365,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Popular with joggers and dog walkers until dusk; the park closes at sunset."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "The Kampong",
+      "neighborhood": "Coconut Grove",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "green",
+        "water",
+        "hidden",
+        "solo",
+        "walk"
+      ],
+      "blurb": "David Fairchild's former estate on the bay, now a nine-acre tropical botanic garden that most Miamians have never visited. Paths wind under old mango, baobab and rare fruit trees down to a small cove on Biscayne Bay, and the place is so quiet you hear the wind in the palms. Pay the modest admission, take the self-guided map, and find a bench near the water.",
+      "tips": "Reserve a self-guided visit online in advance; entrance is on Douglas Road and parking is limited. Go on a weekday morning for near-total solitude, and bring water - there is no cafe.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "Mon-Sat 9am-4pm (reserve online)",
+      "lat": 25.7183,
+      "lng": -80.2467,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "The Kampong",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed garden with controlled entry; closes mid-afternoon."
+      },
+      "lowkeyScore": 5,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Matheson Hammock Park",
+      "neighborhood": "Coral Gables",
+      "category": "beach",
+      "vibes": [
+        "sunrise",
+        "water",
+        "view",
+        "skyline",
+        "green",
+        "walk",
+        "picnic",
+        "group"
+      ],
+      "blurb": "A county park on Old Cutler Road whose man-made atoll pool - a ring of sand around a calm saltwater lagoon - looks straight across Biscayne Bay to the downtown skyline. Early mornings belong to swimmers and a few people sitting on the seawall watching the sun come up over Key Biscayne. Mangrove trails and a shaded picnic area behind the beach give you somewhere to retreat when the sand heats up.",
+      "tips": "Pedestrians and cyclists enter free; cars pay a per-vehicle fee at the gate. The best sunrise seat is the seawall at the east edge of the atoll pool; weekends after 11am get loud with families.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "sunrise-sunset",
+      "lat": 25.679,
+      "lng": -80.2572,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Matheson Hammock Park",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Gated county park with lifeguards at the atoll pool during the day; closes at sunset."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Books & Books Coral Gables",
+      "neighborhood": "Coral Gables",
+      "category": "bookstore",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "study",
+        "solo",
+        "people-watch",
+        "night"
+      ],
+      "blurb": "Miami's flagship independent bookstore fills a 1920s Mediterranean building on Aragon Avenue, with a leafy interior courtyard cafe that is the best long-sit in the city. Regulars claim a courtyard table with a coffee and a stack of new releases for the afternoon, and nobody hurries them along. Evening readings draw a crowd, but the back rooms stay hushed.",
+      "tips": "Courtyard tables are shaded and fine even in summer; the indoor rooms are the move on rainy afternoons. Metered street parking on Aragon or the Miracle Mile garages; evenings after 6pm are calmest at the cafe.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "daily 9am-9pm (check site)",
+      "lat": 25.7512,
+      "lng": -80.2603,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Books & Books",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Central Coral Gables with foot traffic and lit streets into the evening."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Miami-Dade Main Library",
+      "neighborhood": "Downtown",
+      "category": "library",
+      "vibes": [
+        "quiet",
+        "rain-ok",
+        "study",
+        "solo",
+        "free",
+        "cozy"
+      ],
+      "blurb": "Philip Johnson's Mediterranean-revival cultural center on Flagler Street hides one of the calmest rooms downtown: the main library's upper reading floors, with long tables, tall windows and a serious Florida history collection. Outside, the raised plaza shared with HistoryMiami has fountains and shaded arcades where office workers eat lunch. It is free, air-conditioned and rarely crowded.",
+      "tips": "Take the ramp up from Flagler St to the plaza; the quietest tables are on the second floor away from the computer banks. Closed Sundays and hours vary by day, so check before a long session.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Sat from 9:30am, closed Sun (check site)",
+      "lat": 25.7746,
+      "lng": -80.1957,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building; the plaza is busiest and most comfortable during weekday working hours."
+      },
+      "lowkeyScore": 4,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Maurice A. Ferré Park",
+      "neighborhood": "Downtown / Museum Park",
+      "category": "park",
+      "vibes": [
+        "sunrise",
+        "water",
+        "skyline",
+        "walk",
+        "picnic",
+        "free",
+        "night",
+        "view"
+      ],
+      "blurb": "The bayfront lawn between the Perez Art Museum and the Frost Science museum, looking out over the port, the MacArthur Causeway and the cruise ships. Locals jog the bayside path at dawn and sit on the seawall steps with a coffee while the sun comes up over Miami Beach. The museum's shaded hanging-garden veranda is open to anyone without a ticket and is the best breezy bench in downtown on a hot afternoon.",
+      "tips": "Park at the museum garage or take the Metromover to Museum Park station. Sunrise from the seawall steps is the highlight; on hot afternoons retreat to the PAMM veranda under the hanging plants.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "sunrise-11pm (check site)",
+      "lat": 25.7852,
+      "lng": -80.1873,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Maurice A. Ferré Park",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit paths and museum security presence; after 10pm stay on the museum side rather than the north end near the causeway."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Miami Circle Park",
+      "neighborhood": "Brickell",
+      "category": "plaza",
+      "vibes": [
+        "water",
+        "night",
+        "skyline",
+        "quiet",
+        "free",
+        "walk",
+        "view",
+        "hidden"
+      ],
+      "blurb": "A small grassy point at the mouth of the Miami River where a 2,000-year-old Tequesta ring of postholes was found under a demolished apartment block. Today it is an unfenced lawn with a few benches and an interpretive marker, sitting under the Brickell Avenue bridge with water on two sides and the downtown towers lit up across the river. Hardly anyone knows it is a public park, so it stays empty even as Brickell roars a block away.",
+      "tips": "Enter from the Brickell Ave sidewalk just south of the bridge, next to the hotel driveway. Best after dark when the skyline lights up and the bridge traffic noise fades; there is no shade at midday.",
+      "bestTimes": [
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (unfenced)",
+      "lat": 25.7697,
+      "lng": -80.1888,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Miami Circle",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Well lit by the bridge and hotel, with steady Brickell foot traffic nearby into the night."
+      },
+      "lowkeyScore": 4,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "The Underline Brickell Backyard",
+      "neighborhood": "Brickell",
+      "category": "trail",
+      "vibes": [
+        "night",
+        "walk",
+        "green",
+        "free",
+        "people-watch",
+        "group",
+        "solo"
+      ],
+      "blurb": "The first stretch of the linear park built under the Metrorail tracks, running from the Miami River south through Brickell. It is a string of outdoor rooms - a shaded lawn with hammocks, a gym, a butterfly garden, an oolite-lined seating area - all lit at night and threaded by a bike path. Come with a coffee to sit in a hammock and watch the trains hum overhead while Brickell goes about its business.",
+      "tips": "Start at the River Room by SW 1st Ave and the Miami River and walk south; the hammocks by the lawn near SW 8th St are the prize. Evenings are pleasant and populated; midday in summer is brutally hot under the tracks.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (lit)",
+      "lat": 25.7662,
+      "lng": -80.1937,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "The Underline",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit and busy with joggers and cyclists through the evening; regular Metrorail and city presence."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Miami Beach Botanical Garden",
+      "neighborhood": "Mid-Beach / Convention Center",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "green",
+        "hidden",
+        "solo",
+        "free",
+        "cozy",
+        "study"
+      ],
+      "blurb": "A free three-acre garden squeezed between the convention center and the Holocaust Memorial, with a Japanese garden, a small pond, native plantings and a lot of benches in the shade. Most beachgoers never notice it, so on a weekday it is close to silent except for birds. It is the closest thing Miami Beach has to a secret courtyard.",
+      "tips": "Enter on Convention Center Drive across from the Holocaust Memorial; there is a small parking lot and the Miami Beach trolley stops nearby. Closed Mondays, and it is sometimes rented for events on weekend evenings, so check before a long visit.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Tue-Sun 9am-5pm",
+      "lat": 25.7952,
+      "lng": -80.135,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Miami Beach Botanical Garden",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Gated and staffed garden; closes at 5pm."
+      },
+      "lowkeyScore": 4,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Morningside Park",
+      "neighborhood": "Upper East Side / Morningside",
+      "category": "waterfront",
+      "vibes": [
+        "sunrise",
+        "water",
+        "quiet",
+        "green",
+        "free",
+        "solo",
+        "walk",
+        "view"
+      ],
+      "blurb": "A neighborhood bayfront park at the end of the historic Morningside streets, with a seawall path, a kayak launch, tennis courts and a long row of benches looking east across the bay to the causeway islands. It serves the surrounding houses rather than tourists, so mornings are mostly dog walkers and a few people watching the sunrise with coffee. There is a lot of tree shade and almost no noise.",
+      "tips": "Drive in through the Morningside gate on NE 55th Terrace; visitors are allowed but say you are heading to the park. The east-facing benches on the seawall are ideal at sunrise, and the kayak launch area is the quietest corner.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "sunrise-sunset",
+      "lat": 25.8255,
+      "lng": -80.1775,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Inside a gated residential area with a park attendant during the day; closes at sunset."
+      },
+      "lowkeyScore": 4,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Greynolds Park",
+      "neighborhood": "North Miami Beach",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "water",
+        "walk",
+        "picnic",
+        "free",
+        "view",
+        "hidden"
+      ],
+      "blurb": "A 1930s Civilian Conservation Corps park along the Oleta River, with coral-rock buildings, a lagoon full of wading birds, mangrove trails and an observation mound you can climb for a view over the treetops. It feels older and wilder than any other park this close to the city, and on weekdays you can have the boardwalk almost to yourself. Bring a book and sit by the lagoon at dusk when the herons and ibis fly in to roost.",
+      "tips": "Enter from West Dixie Highway; entry is free on weekdays and there is a per-car fee on weekends and holidays. The rookery boardwalk at the lagoon is best in late afternoon; wear closed shoes and bring bug spray in summer.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "sunrise-sunset",
+      "lat": 25.9235,
+      "lng": -80.164,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Greynolds Park",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Gated county park with rangers; closes at sunset."
+      },
+      "lowkeyScore": 4,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    },
+    {
+      "name": "Vice City Bean",
+      "neighborhood": "Arts & Entertainment District / Edgewater",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "study",
+        "solo",
+        "quiet"
+      ],
+      "blurb": "A neighborhood coffee shop on North Miami Avenue with big windows, communal tables, plenty of outlets and a staff that does not mind if you camp with a laptop through the afternoon. The crowd is mostly people who live in the nearby high-rises rather than the Wynwood parade, so it is calmer than the cafes ten blocks north. Good pour-overs, a small food menu and a steady hum rather than noise.",
+      "tips": "Weekday mornings after the 9am rush are the quietest for a long work session; the window counter is the best solo seat. Street parking is metered on N Miami Ave.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "7am-7pm (check site)",
+      "lat": 25.7913,
+      "lng": -80.1937,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Busy daytime street; the cafe closes in the early evening."
+      },
+      "lowkeyScore": 3,
+      "verified": false,
+      "verifyNote": "not independently reviewed"
+    }
+  ]
+}

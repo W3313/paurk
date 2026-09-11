@@ -31,6 +31,8 @@ export interface Spot {
   sources: Source[]
   safety: { level: 'ok' | 'caution'; note: string }
   lowkeyScore: number
+  /** false when the independent review stage did not run for this spot */
+  verified: boolean
 }
 
 export interface City {
@@ -42,6 +44,7 @@ export interface City {
   lng: number
   timezone: string
   spotCount: number
+  verified: boolean
 }
 
 export interface Dataset { cities: City[]; spots: Spot[] }

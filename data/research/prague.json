@@ -1,0 +1,737 @@
+{
+  "city": "Prague",
+  "country": "Czech Republic",
+  "slug": "prague",
+  "region": "europe-africa",
+  "cityLat": 50.0755,
+  "cityLng": 14.4378,
+  "timezone": "Europe/Prague",
+  "searchesRun": [
+    "reddit Prague chill spots",
+    "r/Prague quiet places to relax and sit",
+    "reddit Prague hidden gems locals only",
+    "reddit Prague best sunset spot free",
+    "Prague best places to read a book outside",
+    "Prague cozy cafe sit for hours laptop friendly quiet",
+    "Prague free public rooftop terrace viewpoint",
+    "Prague secret garden courtyard quiet",
+    "Prague waterfront bench night walk safe",
+    "github code search: \"Letná\" Prague sunset extension:md",
+    "github code search: \"r/Prague\" extension:md",
+    "github code search: \"Riegrovy sady\" Prague extension:md",
+    "github code search: \"Náplavka\" Prague extension:md",
+    "github repo search: prague guide in:name,description,readme",
+    "github repo search: prague hidden gems OR \"prague travel\" OR \"things to do in prague\" in:readme",
+    "github code search: \"Vojanovy sady\" Prague extension:md",
+    "github code search: \"Havlíčkovy sady\" OR \"Grébovka\" Prague extension:md",
+    "github code search: Vyšehrad Prague quiet OR peaceful OR sunset extension:md",
+    "github code search: Prague cafe laptop quiet \"Vinohrady\" OR \"Karlín\" OR \"Žižkov\" extension:md",
+    "github code search: Prague library \"reading room\" OR \"Klementinum\" OR \"NTK\" OR \"Municipal Library\" extension:md",
+    "github code search: \"Střelecký ostrov\" OR \"Střelecký Island\" Prague extension:md",
+    "github code search: \"Divoká Šárka\" OR \"Prokopské údolí\" OR \"Prokopské Valley\" Prague extension:md",
+    "github code search: \"Parukářka\" OR \"Vítkov\" Prague view extension:md",
+    "github code search: Prague kavárna cozy OR quiet OR \"sit for hours\" extension:md",
+    "github code search: \"Františkánská zahrada\" OR \"Franciscan Garden\" OR \"Vrtbovská\" Prague extension:md",
+    "github code search: Grebovka Prague park extension:md",
+    "github code search: Vitkov Prague statue view park extension:md",
+    "github code search: \"Novy Svet\" OR \"Nový Svět\" Prague quiet OR street OR Brahe extension:md",
+    "github code search: \"Divoka Sarka\" OR \"Sarka valley\" Prague extension:md",
+    "github code search: \"Municipal Library\" Prague \"Marianske\" OR \"Mariánské\" OR \"book tower\" OR Idiom extension:md",
+    "verify: Dobrá Trafika Újezd 37 Praha kavárna",
+    "verify: Wallenstein Garden Prague wikipedia",
+    "verify: Nový Svět Hradčany Prague street wikipedia",
+    "verify: Vítkov hill Prague Žižka statue wikipedia",
+    "verify (en.wikipedia.org only): Prague Střelecký ostrov Havlíčkovy sady Riegrovy sady Stromovka Letná Park Divoká Šárka Municipal Library of Prague"
+  ],
+  "redditSourcedNotes": "No Reddit content was obtained for Prague: the research stage's reddit-first searches returned nothing because the WebSearch budget was exhausted, and reddit.com is egress-blocked in this environment, so no spot carries a reddit source and nothing here is attributed to redditors. Every spot is instead grounded in community-written Prague guides hosted on GitHub (a long-time resident's recommendations post, an expat's 2026 guide, a former resident's travel blog, a personal travel knowledge base, a student magazine's cafe list, a Spanish magazine piece on locals' alternative spots, a family trip diary, a conference about-the-city page and a 2026 walking guide). VERIFY STAGE: all nine of those files were re-fetched from raw.githubusercontent.com at the cited commits and grep-confirmed to mention the spot they are attached to (the jan-safar guide's content lives in guide.md, where the #letna and #novy-svet anchors were confirmed). Five verify searches were spent: Dobrá Trafika's existence (confirmed, listings updated 2026), and Wikipedia titles for Wallenstein Garden (no own article; 'Wallenstein Palace' covers the complex), Nový Svět (Czech article only, so null), Vítkov ('National Monument at Vítkov') and an en.wikipedia-only sweep that confirmed 'Střelecký Island', 'Stromovka' and 'Letná Park' but not Riegrovy sady or Havlíčkovy sady (set to null). Titles for Vyšehrad, Divoká Šárka and Municipal Library of Prague are kept from reviewer knowledge because the budget ran out; en.wikipedia.org and prague.eu are proxy-blocked so direct checks were impossible. Old-pattern prague.eu '/en/object/places/...' URLs and the markets URL were dropped because they never appeared in a search result; official pages that did surface (prague.eu Vítkov and Nový Svět, VisitCzechia Wallenstein, Praha 1 district page for Dobrá Trafika) were added. All coordinates are within a few km of the centre and were sanity-checked against reviewer knowledge; no spot was dropped for safety, the two 'caution' spots are legitimate public parkland with specific after-dark or terrain notes.",
+  "spots": [
+    {
+      "name": "Střelecký ostrov (north tip)",
+      "neighborhood": "Vltava islands / Malá Strana side",
+      "category": "waterfront",
+      "vibes": [
+        "quiet",
+        "sunset",
+        "water",
+        "green",
+        "picnic",
+        "solo",
+        "free",
+        "view",
+        "hidden"
+      ],
+      "blurb": "A slim wooded island under the Legions Bridge that most visitors walk straight over without noticing the stairs down. Sit on the gravel and grass at the northern point and you get the Charles Bridge, the Castle and the water traffic framed in front of you, with only ducks, nutria and a few locals with cans for company. A resident's guide calls it the place to watch the Charles Bridge at sunset; a magazine piece describes it as an oasis that is less popular than Kampa and much calmer, ideal for a picnic with farmers-market food from Náplavka.",
+      "tips": "Take the staircase down from the middle of most Legií (Legions Bridge) and walk north to the tip; the low wall and benches on the north shore face the Charles Bridge. Bring something to sit on, and skip feeding the nutria.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 50.0816,
+      "lng": 14.4104,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Střelecký Island",
+      "sources": [
+        {
+          "url": "https://github.com/alex-thorne/blog/blob/e835d640a08f81f897c0baa0cfec36fc56d81caf/blog/_posts/2025-06-07-pragueguide.md",
+          "label": "alex-thorne: Prague recommendations from a long-time resident (Střelecký Island sunset)",
+          "kind": "blog"
+        },
+        {
+          "url": "https://github.com/etheriamagazine/hugo-modules/blob/f9b9a095608e3a39c86f7da6a0cffa87cb06e91f/sky-theme/dev_content/posts/2024/08/lugares-alternativos-de-praga.md",
+          "label": "Etheria Magazine: alternative Prague spots (Střelecký island picnic, quieter than Kampa)",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Public park with lamp-lit paths and people around until late in summer; the island is small and exits are on the bridge."
+      },
+      "lowkeyScore": 4,
+      "verified": true,
+      "verifyNote": "Wikipedia title corrected to the English article 'Střelecký Island' (search-confirmed en.wikipedia URL). GitHub-hosted sources re-fetched from raw.githubusercontent.com at the cited commits and confirmed to mention this spot."
+    },
+    {
+      "name": "Letná Park – Metronome terrace",
+      "neighborhood": "Letná / Holešovice (Prague 7)",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "skyline",
+        "sunset",
+        "sunrise",
+        "night",
+        "people-watch",
+        "group",
+        "free",
+        "walk"
+      ],
+      "blurb": "The plateau around the giant metronome sits on a ledge above the river with the whole string of Vltava bridges lined up below it. Locals come up with a beer from the kiosk and sit on the wall or the steps, skaters use the plinth, and on summer weekend nights it turns into an easy open-air hangout. A Spanish magazine calls it one of the best and least crowded lookouts in the city; a resident's walking guide says the park is glorious at sunset and has a beer garden under the chestnut trees a few minutes east.",
+      "tips": "Climb the zigzag stairs from the Čechův most end of Pařížská, or walk in from the Letná beer garden side to avoid the steps. Sit on the low stone wall just below the metronome for the bridges view; the plateau is lit and busy at night, so it works as a late spot too.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 50.0949,
+      "lng": 14.4164,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Letná Park",
+      "sources": [
+        {
+          "url": "https://jan-safar.github.io/prague-pnt-guide/#letna",
+          "label": "jan-safar: Prague walking guide (Letná Park at sunset, beer garden)",
+          "kind": "blog"
+        },
+        {
+          "url": "https://github.com/etheriamagazine/hugo-modules/blob/f9b9a095608e3a39c86f7da6a0cffa87cb06e91f/sky-theme/dev_content/posts/2024/08/lugares-alternativos-de-praga.md",
+          "label": "Etheria Magazine: the Metronome lookout, one of the least crowded viewpoints",
+          "kind": "press"
+        },
+        {
+          "url": "https://github.com/silviuaavram/silviuaavram/blob/2831f2bcada9c77700aab4b95ded34848d70f363/blog/travel/2023-12-24-prague-2023/index.md",
+          "label": "silviuaavram: Prague 2023 (Letná metronome as a summer meeting place)",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Well lit and populated into the night; the stairs down to the river are steep but lit."
+      },
+      "lowkeyScore": 2,
+      "verified": true,
+      "verifyNote": "Wikipedia title 'Letná Park' search-confirmed. jan-safar guide.md fetched and the #letna anchor confirmed; blurb wording adjusted to match its actual text. GitHub-hosted sources re-fetched from raw.githubusercontent.com at the cited commits and confirmed to mention this spot."
+    },
+    {
+      "name": "Riegrovy sady sunset slope",
+      "neighborhood": "Vinohrady (Prague 2)",
+      "category": "park",
+      "vibes": [
+        "sunset",
+        "view",
+        "green",
+        "picnic",
+        "people-watch",
+        "group",
+        "free",
+        "skyline"
+      ],
+      "blurb": "A hilly neighbourhood park where the big west-facing lawn drops away toward the Old Town, so the Castle and St Vitus sit right on the horizon as the sun goes down behind them. Locals bring blankets, dogs and takeaway beer and simply lie on the grass; the beer garden in the middle handles the noisier crowd, leaving the slope surprisingly relaxed. Travel notes describe it as a dog-walkers' park with a good sunset view, and a family trip diary singles out sunset here as a highlight.",
+      "tips": "Enter from Polská or Italská streets and head for the open lawn west of the beer garden; the top of the slope gets you the full Castle silhouette. Weekend summer evenings fill up, so arrive 40 minutes before sunset or come on a weekday.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 50.0803,
+      "lng": 14.4368,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://github.com/HariSekhon/Knowledge-Base/blob/7d925ab2e127b2329ffd18c6b88f52ed7d8d6ce0/travel/czechia.md",
+          "label": "HariSekhon Knowledge-Base: Czechia notes (Riegrovy Sady sunset view)",
+          "kind": "blog"
+        },
+        {
+          "url": "https://github.com/weirdfishes/weirdfishes.github.io/blob/aca277f39eb0b339ed822a7f81bf25e0fa969da4/_posts/2025-06-23-prague.md",
+          "label": "weirdfishes: Prague trip diary (sunset at Riegrovy Sady)",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Busy and lit along the main paths; the lawn itself is dark after the sun sets."
+      },
+      "lowkeyScore": 3,
+      "verified": true,
+      "verifyNote": "Wikipedia title set to null: a search restricted to en.wikipedia.org surfaced Riegrovy sady only inside the 'Vinohrady' district article, and the search budget ran out before a dedicated article could be confirmed. Old-pattern prague.eu URL dropped (not seen in any search result). GitHub-hosted sources re-fetched from raw.githubusercontent.com at the cited commits and confirmed to mention this spot."
+    },
+    {
+      "name": "Vyšehrad ramparts",
+      "neighborhood": "Vyšehrad (Prague 2)",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "water",
+        "sunset",
+        "quiet",
+        "walk",
+        "picnic",
+        "free",
+        "night",
+        "green"
+      ],
+      "blurb": "The old fortress on the rock south of the centre is a huge grassy park inside brick walls, with a cemetery, a basilica and long rampart walks that look up the river to the Castle and down to the concrete southern suburbs. It is a genuine local decompress zone: people read on the walls, picnic among the statues and walk the perimeter at dusk. A resident's guide recommends it for a view of Prague from a direction you will not otherwise see and for its picnic-friendly park, and another blog pairs it with a stroll up from Náplavka.",
+      "tips": "Come up from Výtoň along the river path or from Vyšehrad metro through the Tábor Gate; the western ramparts by the basilica are the sunset side. Pubs inside the walls close around 10pm, so bring your own drink for a late sit.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (grounds); basilica/cemetery daytime",
+      "lat": 50.064,
+      "lng": 14.418,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Vyšehrad",
+      "sources": [
+        {
+          "url": "https://github.com/alex-thorne/blog/blob/e835d640a08f81f897c0baa0cfec36fc56d81caf/blog/_posts/2025-06-07-pragueguide.md",
+          "label": "alex-thorne: Prague recommendations (Vyšehrad view and picnic park)",
+          "kind": "blog"
+        },
+        {
+          "url": "https://github.com/silviuaavram/silviuaavram/blob/2831f2bcada9c77700aab4b95ded34848d70f363/blog/travel/2023-12-24-prague-2023/index.md",
+          "label": "silviuaavram: Prague 2023 (Vyšehrad views up- and downriver)",
+          "kind": "blog"
+        },
+        {
+          "url": "https://github.com/fabriziomartini/czechrepublic/blob/0b9bd5d0aaa19b12eb4dc301d01521d44feea8f4/prague.md",
+          "label": "fabriziomartini: Prague guide 2026 (Vyšehrad flagged for sunsets)",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Main paths are lit and there are usually dog walkers and couples until late; corners of the park are dim after dark."
+      },
+      "lowkeyScore": 3,
+      "verified": true,
+      "verifyNote": "Wikipedia title 'Vyšehrad' kept from reviewer knowledge (well-established article about this fortress); search budget was exhausted before it could be re-checked. GitHub-hosted sources re-fetched from raw.githubusercontent.com at the cited commits and confirmed to mention this spot."
+    },
+    {
+      "name": "Náplavka (Rašínovo nábřeží)",
+      "neighborhood": "Nové Město / Podskalí (Prague 2)",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunset",
+        "night",
+        "people-watch",
+        "group",
+        "free",
+        "walk",
+        "view"
+      ],
+      "blurb": "The lower embankment between the Dancing House and Výtoň is where the city sits on the edge of the Vltava: legs dangling over the water, backs against the old stone wall, swans drifting past the moored boat-bars. A former resident says one of his favourite pastimes was simply grabbing a drink and sitting on the bank, and an expat guide says to go for sunset or whenever the weather is nice. It is lively rather than silent, but the long wall means you can usually find a stretch to yourself, and it stays populated well into the night.",
+      "tips": "Walk down the ramps near Palackého most or Výtoň; the section south of the Podskalí customs house is the calmer end. Saturday mornings bring the farmers market (roughly 8am-2pm) so come early for coffee, or after dark for the quietest water-watching.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h; farmers market Sat mornings",
+      "lat": 50.0722,
+      "lng": 14.414,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://github.com/silviuaavram/silviuaavram/blob/2831f2bcada9c77700aab4b95ded34848d70f363/blog/travel/2023-12-24-prague-2023/index.md",
+          "label": "silviuaavram: Prague 2023 (sitting on the Náplavka bank with a drink)",
+          "kind": "blog"
+        },
+        {
+          "url": "https://github.com/fabriziomartini/czechrepublic/blob/0b9bd5d0aaa19b12eb4dc301d01521d44feea8f4/prague.md",
+          "label": "fabriziomartini: Prague guide 2026 (Náplavka for sunset)",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit and busy until late, especially in summer; the edge to the water is unfenced, so keep back from it after drinks."
+      },
+      "lowkeyScore": 3,
+      "verified": true,
+      "verifyNote": "Dropped the prague.eu markets URL: it did not appear in any search result or in any of the fetched source pages. No dedicated English Wikipedia article known for the embankment. GitHub-hosted sources re-fetched from raw.githubusercontent.com at the cited commits and confirmed to mention this spot."
+    },
+    {
+      "name": "Wallenstein Garden (Valdštejnská zahrada)",
+      "neighborhood": "Malá Strana (Prague 1)",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "green",
+        "solo",
+        "free",
+        "hidden",
+        "cozy"
+      ],
+      "blurb": "A walled Baroque garden behind the Senate that feels sealed off from the tourist flow ten metres away: clipped hedges, a long pool with huge carp, free-roaming peacocks and a strange dripstone grotto wall you can stare into for a long time. Entry is free and a resident's guide describes the gardens as secluded, with summer concerts in the little amphitheatre; a former resident tells visitors not to miss them. The benches along the pool are a reliable place to read for an hour in the middle of the old city.",
+      "tips": "Enter from the small gate on Letenská street or straight from the Malostranská metro courtyard. Open only April to October; weekday mornings right after opening are near-empty.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Apr-Oct Mon-Fri 7:30am-6pm, Sat-Sun 10am-6pm (later in high summer); closed Nov-Mar",
+      "lat": 50.0902,
+      "lng": 14.4062,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Wallenstein Palace",
+      "sources": [
+        {
+          "url": "https://github.com/alex-thorne/blog/blob/e835d640a08f81f897c0baa0cfec36fc56d81caf/blog/_posts/2025-06-07-pragueguide.md",
+          "label": "alex-thorne: Prague recommendations (secluded Wallenstein gardens, free entry)",
+          "kind": "blog"
+        },
+        {
+          "url": "https://prague.eu/en/objevujte/wallenstein-garden-valdstejnska-zahrada/",
+          "label": "Prague City Tourism: Wallenstein Garden",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.visitczechia.com/en-us/things-to-do/places/nature/botanical-gardens-and-parks/c-prague-the-garden-of-the-wallenstein-palace-in-p",
+          "label": "VisitCzechia: the garden of the Wallenstein Palace",
+          "kind": "official"
+        },
+        {
+          "url": "https://github.com/silviuaavram/silviuaavram/blob/2831f2bcada9c77700aab4b95ded34848d70f363/blog/travel/2023-12-24-prague-2023/index.md",
+          "label": "silviuaavram: Prague 2023 (Waldstein gardens open to the public)",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated garden with staff; closes at 6pm."
+      },
+      "lowkeyScore": 3,
+      "verified": true,
+      "verifyNote": "No standalone English article for the garden; search confirmed en.wikipedia.org/wiki/Wallenstein_Palace, which covers the palace-and-garden complex, so that title is used for the photo. prague.eu URL was cited verbatim in the resident's guide; VisitCzechia page surfaced in search. GitHub-hosted sources re-fetched from raw.githubusercontent.com at the cited commits and confirmed to mention this spot."
+    },
+    {
+      "name": "Nový Svět lane",
+      "neighborhood": "Hradčany (Prague 1)",
+      "category": "plaza",
+      "vibes": [
+        "quiet",
+        "walk",
+        "hidden",
+        "solo",
+        "free",
+        "cozy"
+      ],
+      "blurb": "A crooked little lane of low cottages tucked below the north side of the Castle, where the crowds simply do not go. There are no sights to tick off, just old-style lamps, a couple of tiny cafes and stone steps to sit on; the whole point is the hush a few minutes from Hradčanské náměstí. A magazine feature calls it a labyrinth of alleys that goes unnoticed and is striking for the calm it transmits, and a walking guide notes that Tycho Brahe's house stands on the street.",
+      "tips": "Walk down Kanovnická from Hradčanské náměstí or up from the Brusnice valley; the bench-lined bend by the Church of St John Nepomuk is the best pause. Keep voices low, people live here.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 50.0916,
+      "lng": 14.3914,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://github.com/etheriamagazine/hugo-modules/blob/f9b9a095608e3a39c86f7da6a0cffa87cb06e91f/sky-theme/dev_content/posts/2024/08/lugares-alternativos-de-praga.md",
+          "label": "Etheria Magazine: Nový Svět, the calm quarter below the Castle",
+          "kind": "press"
+        },
+        {
+          "url": "https://jan-safar.github.io/prague-pnt-guide/#novy-svet",
+          "label": "jan-safar: Prague walking guide (Nový Svět, Tycho Brahe's house)",
+          "kind": "blog"
+        },
+        {
+          "url": "https://prague.eu/en/objevujte/novy-svet-new-world/",
+          "label": "Prague City Tourism: Nový Svět (New World)",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Residential lane, lit but very quiet after dark."
+      },
+      "lowkeyScore": 4,
+      "verified": true,
+      "verifyNote": "Search found only the Czech Wikipedia article and Wikidata for the street, no en.wikipedia URL, so the title stays null. Official prague.eu page surfaced in search and was added. GitHub-hosted sources re-fetched from raw.githubusercontent.com at the cited commits and confirmed to mention this spot."
+    },
+    {
+      "name": "Stromovka (Královská obora)",
+      "neighborhood": "Bubeneč / Holešovice (Prague 7)",
+      "category": "park",
+      "vibes": [
+        "green",
+        "walk",
+        "quiet",
+        "picnic",
+        "solo",
+        "free",
+        "water"
+      ],
+      "blurb": "Prague's biggest central park, a former royal game reserve of old plane trees, ponds and wide meadows north of Letná. It is where the neighbourhood runs, naps on the grass and pushes prams, and it is large enough that you can usually find an empty bench by the water. A resident's guide calls it a wonderful very large park with casual bistros inside, and a walking guide suggests a morning loop through it, with the Planetarium on its eastern edge.",
+      "tips": "Enter from Výstaviště or from the Letná side by the Planetarium; the ponds in the western half are the calmest stretch. Grab a coffee at the bistro by the pond and keep walking west toward the Šlechtova villa lawns.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 50.1063,
+      "lng": 14.4185,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Stromovka",
+      "sources": [
+        {
+          "url": "https://github.com/alex-thorne/blog/blob/e835d640a08f81f897c0baa0cfec36fc56d81caf/blog/_posts/2025-06-07-pragueguide.md",
+          "label": "alex-thorne: Prague recommendations (Stromovka, Bistro No.2 hangout)",
+          "kind": "blog"
+        },
+        {
+          "url": "https://jan-safar.github.io/prague-pnt-guide/",
+          "label": "jan-safar: Prague walking guide (morning loop through Stromovka)",
+          "kind": "blog"
+        },
+        {
+          "url": "https://github.com/fabriziomartini/czechrepublic/blob/0b9bd5d0aaa19b12eb4dc301d01521d44feea8f4/prague.md",
+          "label": "fabriziomartini: Prague guide 2026 (Stromovka beautiful to walk around)",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Main avenues are lit; interior paths are dark after dusk, so stick to the lit routes at night."
+      },
+      "lowkeyScore": 3,
+      "verified": true,
+      "verifyNote": "Wikipedia title 'Stromovka' search-confirmed. GitHub-hosted sources re-fetched from raw.githubusercontent.com at the cited commits and confirmed to mention this spot."
+    },
+    {
+      "name": "Havlíčkovy sady (Grébovka) vineyard terraces",
+      "neighborhood": "Vinohrady / Vršovice (Prague 2)",
+      "category": "garden",
+      "vibes": [
+        "view",
+        "sunset",
+        "green",
+        "quiet",
+        "solo",
+        "picnic",
+        "free",
+        "hidden"
+      ],
+      "blurb": "A romantic 19th-century park on a south-facing slope with a working vineyard, a grotto and a wooden gazebo perched over the vines. Locals treat it as their living room: reading on the terraces, watching the afternoon light move across Vršovice, buying a glass at the little vineyard pavilion if they feel like it. A former resident lists it among the best parks in Prague, and it turns up in an expat guide simply as Grebovka Park.",
+      "tips": "Enter from Rybalkova or the top gate on Havlíčkova; walk down through the vineyard to the Viniční altán gazebo for the golden-hour view. The park is gated and closes at night, so it is a daytime and dusk spot.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 6am-10pm (gated, seasonal)",
+      "lat": 50.0688,
+      "lng": 14.4432,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://github.com/silviuaavram/silviuaavram/blob/2831f2bcada9c77700aab4b95ded34848d70f363/blog/travel/2023-12-24-prague-2023/index.md",
+          "label": "silviuaavram: Prague 2023 (Havlíčkovy sady among the best parks)",
+          "kind": "blog"
+        },
+        {
+          "url": "https://github.com/fabriziomartini/czechrepublic/blob/0b9bd5d0aaa19b12eb4dc301d01521d44feea8f4/prague.md",
+          "label": "fabriziomartini: Prague guide 2026 (Grebovka Park)",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated park with daytime hours; gates close in the evening."
+      },
+      "lowkeyScore": 4,
+      "verified": true,
+      "verifyNote": "Wikipedia title set to null: the en.wikipedia-restricted search returned the park only as a mention inside the 'Vinohrady' article and the budget ran out before a dedicated article could be confirmed. GitHub-hosted sources re-fetched from raw.githubusercontent.com at the cited commits and confirmed to mention this spot."
+    },
+    {
+      "name": "Vítkov Hill plateau",
+      "neighborhood": "Žižkov (Prague 3)",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "skyline",
+        "sunset",
+        "quiet",
+        "walk",
+        "free",
+        "hidden",
+        "night"
+      ],
+      "blurb": "A long wooded ridge between Žižkov and Karlín with the giant equestrian Žižka statue and the National Monument at its western end. The stone platform in front of the statue looks straight over the rooftops of the Old Town to the Castle, yet even on a fine evening you might share it with a handful of locals and a few skateboarders. An expat guide flags it for its nice views and a conference guide describes trails along the ridge overlooking the city up to the statue.",
+      "tips": "Walk up from Husitská street or along the ridge path from Ohrada; the terrace in front of the statue faces west for sunset. There is nowhere to buy anything up top, so carry water.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (park); monument varies",
+      "lat": 50.0883,
+      "lng": 14.4497,
+      "coordConfidence": "high",
+      "wikipediaTitle": "National Monument at Vítkov",
+      "sources": [
+        {
+          "url": "https://prague.eu/en/objevujte/vitkov/",
+          "label": "Prague City Tourism: Vítkov",
+          "kind": "official"
+        },
+        {
+          "url": "https://github.com/fabriziomartini/czechrepublic/blob/0b9bd5d0aaa19b12eb4dc301d01521d44feea8f4/prague.md",
+          "label": "fabriziomartini: Prague guide 2026 (Vítkov monument, nice views)",
+          "kind": "blog"
+        },
+        {
+          "url": "https://github.com/3dvconf/3dvconf.github.io/blob/2204d3cb3a60fca61bbeb95c59d06ab62d81aced/2022/about-city.md",
+          "label": "3DV 2022 conference: about Prague (Vítkov trails overlooking the city)",
+          "kind": "other"
+        },
+        {
+          "url": "https://english.radio.cz/bronze-giant-prague-75-years-jan-zizka-statue-vitkov-hill-8856842",
+          "label": "Radio Prague International: 75 years of the Žižka statue on Vítkov Hill",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "The plateau by the statue is lit at night, but the wooded access paths are dim and empty; go with a friend after dark or use the lit road from Husitská."
+      },
+      "lowkeyScore": 4,
+      "verified": true,
+      "verifyNote": "Search confirmed en.wikipedia.org/wiki/National_Monument_at_Vítkov, the memorial and statue on this exact plateau, so that title is used. Old-pattern prague.eu URL replaced with the current official page seen in search. GitHub-hosted sources re-fetched from raw.githubusercontent.com at the cited commits and confirmed to mention this spot."
+    },
+    {
+      "name": "Divoká Šárka",
+      "neighborhood": "Liboc / Vokovice (Prague 6)",
+      "category": "trail",
+      "vibes": [
+        "green",
+        "walk",
+        "quiet",
+        "water",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "A rocky wooded gorge and nature reserve inside the city limits, twenty minutes by tram from Dejvická, where a stream runs between cliffs and the trail opens onto meadows and the Džbán reservoir. It is where locals go when they want to feel out of the city without leaving it: a slow loop walk, a sit by the creek, a swim in summer. An expat guide lists it simply for hiking and trails, and a conference guide describes nice short trails and outdoor pools.",
+      "tips": "Take tram 20 or 26 to the Divoká Šárka terminus and follow the marked path into the gorge below the Dívčí skok rocks; the meadows beyond are best for lying in the grass. Wear proper shoes and stay on the marked trails, the gorge path is rocky and muddy after rain.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 50.0985,
+      "lng": 14.3235,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Divoká Šárka",
+      "sources": [
+        {
+          "url": "https://github.com/fabriziomartini/czechrepublic/blob/0b9bd5d0aaa19b12eb4dc301d01521d44feea8f4/prague.md",
+          "label": "fabriziomartini: Prague guide 2026 (Divoká Šárka hiking and trails)",
+          "kind": "blog"
+        },
+        {
+          "url": "https://github.com/3dvconf/3dvconf.github.io/blob/2204d3cb3a60fca61bbeb95c59d06ab62d81aced/2022/about-city.md",
+          "label": "3DV 2022 conference: about Prague (Divoká Šárka short trails)",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Unlit nature reserve with uneven rock paths; a daylight spot, so plan to be back at the tram before dark."
+      },
+      "lowkeyScore": 4,
+      "verified": true,
+      "verifyNote": "Wikipedia title 'Divoká Šárka' kept from reviewer knowledge (established article about this nature reserve); search budget exhausted before re-check. Blurb and tips reworded to keep people on the valley trail rather than on the rocks. Old-pattern prague.eu URL dropped. GitHub-hosted sources re-fetched from raw.githubusercontent.com at the cited commits and confirmed to mention this spot."
+    },
+    {
+      "name": "Vnitroblock",
+      "neighborhood": "Holešovice (Prague 7)",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "study",
+        "solo",
+        "group",
+        "people-watch"
+      ],
+      "blurb": "A converted factory hall in the back streets of Holešovice with a plant-filled cafe, big shared tables, a sneaker shop, dance studios and a tiny basement cinema. Nobody minds if you nurse one coffee for an afternoon; the hall is high and open enough that it feels airy rather than crowded, even on a rainy day. A magazine feature describes it as a place to work in a relaxed atmosphere at communal tables, and it shows up on an expat's short list of Prague coffee spots.",
+      "tips": "Enter from Tusarova 31; the mezzanine tables at the back are quietest and have sockets. Weekend brunch is the busy period, weekday afternoons are easy.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly 9am-10pm daily (check site)",
+      "lat": 50.1032,
+      "lng": 14.447,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://github.com/etheriamagazine/hugo-modules/blob/f9b9a095608e3a39c86f7da6a0cffa87cb06e91f/sky-theme/dev_content/posts/2024/08/lugares-alternativos-de-praga.md",
+          "label": "Etheria Magazine: Vnitroblock, work and coffee in a converted industrial space",
+          "kind": "press"
+        },
+        {
+          "url": "https://github.com/fabriziomartini/czechrepublic/blob/0b9bd5d0aaa19b12eb4dc301d01521d44feea8f4/prague.md",
+          "label": "fabriziomartini: Prague guide 2026 (Vnitroblock coffee)",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Indoor venue on a quiet street; well lit and staffed until closing."
+      },
+      "lowkeyScore": 3,
+      "verified": true,
+      "verifyNote": "Long-running venue at Tusarova 31 kept from reviewer knowledge; no search spent on it. Hours are approximate. GitHub-hosted sources re-fetched from raw.githubusercontent.com at the cited commits and confirmed to mention this spot."
+    },
+    {
+      "name": "Municipal Library of Prague – central reading rooms",
+      "neighborhood": "Staré Město (Prague 1)",
+      "category": "library",
+      "vibes": [
+        "quiet",
+        "study",
+        "rain-ok",
+        "solo",
+        "free",
+        "cozy"
+      ],
+      "blurb": "The 1920s central library on Mariánské náměstí, two minutes from Old Town Square, is the calmest free room in the tourist core. Past the famous tower of books in the lobby are tall, hushed reading rooms with green lamps where you can sit with your own book or laptop for as long as it is open; you can generally read and work without a card, and only borrowing needs registration. A former resident lists it among the landmarks right next to the Astronomical Clock, and it is the natural rain-day retreat when the square outside is heaving.",
+      "tips": "Go in through the main doors on Mariánské náměstí and head up to the reading rooms on the upper floors; bring headphones and something to read. Note the odd hours: it opens at 1pm on Mondays and Saturdays and is closed Sundays.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon 1pm-8pm, Tue-Fri 9am-8pm, Sat 1pm-6pm (check site)",
+      "lat": 50.0873,
+      "lng": 14.4181,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Municipal Library of Prague",
+      "sources": [
+        {
+          "url": "https://github.com/silviuaavram/silviuaavram/blob/2831f2bcada9c77700aab4b95ded34848d70f363/blog/travel/2023-12-24-prague-2023/index.md",
+          "label": "silviuaavram: Prague 2023 (Municipal Library by Old Town Square)",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building in the city centre."
+      },
+      "lowkeyScore": 3,
+      "verified": true,
+      "verifyNote": "Wikipedia title kept from reviewer knowledge (established article about this library system and its central building); search budget exhausted before re-check. Card claim softened. GitHub-hosted sources re-fetched from raw.githubusercontent.com at the cited commits and confirmed to mention this spot."
+    },
+    {
+      "name": "Dobrá Trafika (Újezd)",
+      "neighborhood": "Malá Strana / Újezd (Prague 1)",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "solo",
+        "study",
+        "night",
+        "people-watch"
+      ],
+      "blurb": "A small newsagent-cafe hybrid at the foot of Petřín where the front room sells magazines, postcards and tea tins and the back rooms are worn sofas, board games and shelves of books you are welcome to pull down. Students from the nearby schools and locals sit for hours over a pot of tea; the music is good and nobody hurries you. A student magazine describes it as a comfortable cafe with probably the greatest variety of teas and coffees, board games and books to borrow while you are there, and the district website notes its shaded terrace and basement events room.",
+      "tips": "It is at Újezd 37, a few steps from the Petřín funicular stop; the back room is the quiet one. Pair it with a walk up through the Petřín orchards before or after.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly 8am-11pm (varies by day; check site)",
+      "lat": 50.0814,
+      "lng": 14.4048,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://github.com/Oracle-Mag/oracle-mag/blob/826a389a1859a0a29fd72c9e3cef4047d0bd0da0/_posts/2022-01-22-cafe-restaurant-recommendations.md",
+          "label": "Oracle Mag: top cafes of Prague (Dobrá Trafika, teas, books and board games)",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.praha1.cz/kavarna-dobra-trafika/",
+          "label": "Praha 1 district: Kavárna Dobrá trafika (Újezd 37)",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Busy tram street outside, cafe lit and staffed until closing."
+      },
+      "lowkeyScore": 4,
+      "verified": true,
+      "verifyNote": "Existence confirmed by search (Praha 1 district page, Yelp listing updated May 2026, Tripadvisor); hours updated from those listings. GitHub-hosted sources re-fetched from raw.githubusercontent.com at the cited commits and confirmed to mention this spot."
+    }
+  ]
+}

@@ -6,7 +6,7 @@ import type { Spot } from '../types'
 const base: Spot = {
   id: 'x/a', city: 'x', name: 'A', neighborhood: '', category: 'park', vibes: ['quiet'], blurb: '', tips: '',
   bestTimes: ['afternoon'], indoor: false, free: true, hours: '24h', lat: 0, lng: 0, coordConfidence: 'high',
-  wikipediaTitle: null, sources: [], safety: { level: 'ok', note: '' }, lowkeyScore: 3,
+  wikipediaTitle: null, sources: [], safety: { level: 'ok', note: '' }, lowkeyScore: 3, verified: true,
 }
 const park = { ...base }
 const cafe: Spot = { ...base, id: 'x/b', name: 'B', category: 'cafe', indoor: true, vibes: ['cozy', 'rain-ok'], lat: 0.01, lng: 0.01 }
@@ -17,7 +17,7 @@ describe('rankSpots', () => {
   it('floats rain-proof spots up in the rain', () => {
     const r = rankSpots([park, cafe, pier], { period: 'afternoon', raining: true, vibes: [], origin: null })
     expect(r[0].spot.id).toBe('x/b')
-    expect(r[0].reasons).toContain('rain-proof')
+    expect(r[0].reasons).toContain('rain')
   })
   it('prefers golden-hour spots at golden hour', () => {
     const r = rankSpots([park, cafe, pier], { period: 'golden', raining: false, vibes: [], origin: null })
