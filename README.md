@@ -67,3 +67,9 @@ never a red triangle. Night-time picks penalise caution spots and list them unde
 
 Vite 8 · React 19 · TypeScript · three.js · d3-geo / topojson / world-atlas · SunCalc · vitest · Playwright (QA)
 · Google Fonts (Cormorant Garamond, Zen Kaku Gothic New, DM Mono). No backend, no map tiles, no keys.
+
+## Screens
+
+| Sky | City | Spot (phone) |
+| --- | --- | --- |
+| ![The sky: the porcelain globe resting in the horizon light](docs/screens/desktop-sky.png) | ![A city: globe seated left, ranked list right](docs/screens/desktop-city.png) | ![A spot on a phone: poster, name, right-now line](docs/screens/phone-spot.png) |
