@@ -6,11 +6,10 @@ import { dailyPick } from '../lib/rank'
 import { actions } from '../store'
 import { PlateCaption } from './PlateCaption'
 import { MarginNote } from './MarginNote'
-import { AroundYou } from './AroundYou'
 import { WorldNow } from './WorldNow'
 import { getGlobe } from '../globe/handle'
 
-interface Props { now: Date; sun: SunInfo | null; place: City | null; userPos: LatLng | null; onChooseCity: () => void; onAbout: () => void }
+interface Props { now: Date; sun: SunInfo | null; place: City | null; userPos: LatLng | null; onSearch: () => void; onAbout: () => void }
 
 export function PhaseLine({ text, className = '' }: { text: string; className?: string }) {
   const words = text.split(' ')
@@ -18,7 +17,7 @@ export function PhaseLine({ text, className = '' }: { text: string; className?: 
 }
 
 /** The Sky's text stack under the globe (spec §3.2). */
-export function SkyText({ now, sun, place, userPos, onChooseCity, onAbout }: Props) {
+export function SkyText({ now, sun, place, userPos, onSearch, onAbout }: Props) {
   const [seed, setSeed] = useState(0)
   const pick = useMemo(() => {
     if (!place) return null
@@ -28,9 +27,8 @@ export function SkyText({ now, sun, place, userPos, onChooseCity, onAbout }: Pro
   return (
     <div className="sky-text">
       <PlateCaption parts={[`${cities.length} cities`]} bare />
-      <MarginNote fallback={userPos ? 'tap a city, or the list below' : 'drag the globe, or choose a city'} />
-      <AroundYou onChooseCity={onChooseCity} />
-      <WorldNow now={now} onMore={() => onChooseCity()} />
+      <MarginNote fallback={userPos ? 'tap a city, or the list below' : 'drag the globe, or search'} />
+      <WorldNow now={now} onMore={() => onSearch()} />
       {place && pick && (
         <p className="serendipity">today in {place.name}: <a className="word word--small" href={`#/s/${pick.id}`} onClick={(e) => { e.preventDefault(); getGlobe()?.select(place.slug, false); actions.openSpot(pick.id) }}>{pick.name}</a> · <button type="button" className="word word--quiet word--small" onClick={() => setSeed((s) => s + 1)}>another</button></p>
       )}

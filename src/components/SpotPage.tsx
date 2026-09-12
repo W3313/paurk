@@ -60,7 +60,7 @@ export function SpotPage({ spot, city, now, sun, origin, originIsReal, mobile }:
       {mobile && (
         <div className="spot-bar">
           <button type="button" className="word word--quiet" onClick={() => actions.backToList()}>← list</button>
-          <button type="button" className="word" aria-pressed={saved} onClick={() => actions.toggleSaved(spot.id)}><span className="stone" aria-hidden="true" />{saved ? 'saved' : 'save'}</button>
+          <button type="button" className="word" aria-pressed={saved} onClick={() => actions.toggleSaved(spot.id)}><span className="save-dot" aria-hidden="true" />{saved ? 'saved' : 'save'}</button>
         </div>
       )}
       <SpotImage spot={spot} cityName={city.name} />
@@ -91,7 +91,7 @@ export function SpotPage({ spot, city, now, sun, origin, originIsReal, mobile }:
       )}
       {originIsReal && <p className="small">{formatDistance(km, units)} from you</p>}
       <div className="words" style={{ gap: '10px 28px', paddingTop: 8 }}>
-        <button type="button" className="word" aria-pressed={saved} onClick={() => actions.toggleSaved(spot.id)}><span className="stone" aria-hidden="true" />{saved ? 'saved' : 'save'}</button>
+        <button type="button" className="word" aria-pressed={saved} onClick={() => actions.toggleSaved(spot.id)}><span className="save-dot" aria-hidden="true" />{saved ? 'saved' : 'save'}</button>
         <ShareWord title={`${spot.name} — Paurk`} />
         <button type="button" className="word" onClick={() => setBreathe(true)}>breathe here</button>
       </div>

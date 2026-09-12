@@ -4,6 +4,8 @@ import { actions, useStore } from '../store'
 /** The app's one voice: hint, toast and live region (spec §6.13). One line per 1.2 s, duplicates dropped. */
 export function MarginNote({ fallback, className = '' }: { fallback?: string; className?: string }) {
   const queue = useStore((s) => s.notes)
+  // Exactly one live region at a time: the find panel takes over while it is open.
+  const findOpen = useStore((s) => s.findOpen)
   const [line, setLine] = useState<string | null>(null)
   const [key, setKey] = useState(0)
   const busyUntil = useRef(0)
@@ -32,7 +34,7 @@ export function MarginNote({ fallback, className = '' }: { fallback?: string; cl
 
   const text = line ?? fallback ?? ''
   return (
-    <p className={`note ${className}`} role="status" aria-live="polite" aria-atomic="true">
+    <p className={`note ${className}`} role="status" aria-live={findOpen ? 'off' : 'polite'} aria-atomic="true">
       {text && <span className="line" key={key}>{text}</span>}
     </p>
   )

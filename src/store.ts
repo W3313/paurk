@@ -1,7 +1,7 @@
 import { useSyncExternalStore } from 'react'
 import type { LatLng, Vibe } from './types'
 
-export type Mode = 'sky' | 'city' | 'spot' | 'stones' | 'about'
+export type Mode = 'sky' | 'city' | 'spot' | 'saved' | 'about'
 export type Theme = 'paper' | 'slate' | 'auto'
 
 export interface Weather {
@@ -38,6 +38,8 @@ export interface State {
   heading: number | null
   online: boolean
   visitedCities: string[]
+  /** The find panel owns the one live region while it is open, so the margin note must go quiet. */
+  findOpen: boolean
 }
 
 const SAVED_KEY = 'paurk.saved.v1'
@@ -90,6 +92,7 @@ let state: State = {
   heading: null,
   online: typeof navigator === 'undefined' ? true : navigator.onLine,
   visitedCities: [],
+  findOpen: false,
 }
 
 const listeners = new Set<() => void>()
@@ -105,6 +108,7 @@ export function useStore<T>(sel: (s: State) => T): T {
 }
 
 export const actions = {
+  setFindOpen(findOpen: boolean) { setState({ findOpen }) },
   openCity(slug: string) {
     setState((s) => ({ mode: 'city', citySlug: slug, spotId: null, previewMinutes: s.citySlug === slug ? s.previewMinutes : null, pinnedMinutes: s.citySlug === slug ? s.pinnedMinutes : null, visitedCities: s.visitedCities[s.visitedCities.length - 1] === slug ? s.visitedCities : [...s.visitedCities, slug].slice(-6) }))
   },
@@ -120,7 +124,7 @@ export const actions = {
       const savedIds = s.savedIds.includes(id) ? s.savedIds.filter((x) => x !== id) : [...s.savedIds, id]
       saveLS(SAVED_KEY, savedIds)
       const n = savedIds.length
-      return { savedIds, notes: [...s.notes, s.savedIds.includes(id) ? `let go · ${n} ${n === 1 ? 'stone' : 'stones'}` : `saved · ${n} ${n === 1 ? 'stone' : 'stones'}`] }
+      return { savedIds, notes: [...s.notes, s.savedIds.includes(id) ? `let go · ${n} saved` : `saved · ${n} in all`] }
     })
   },
   setUnits(units: 'metric' | 'imperial') { saveLS(UNITS_KEY, units); setState({ units }) },

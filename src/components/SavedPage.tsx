@@ -8,8 +8,8 @@ import { distanceKm } from '../lib/geo'
 import { parseHours } from '../lib/hours'
 import { SpotRow } from './SpotRow'
 
-/** Saved spots grouped by city, headed by a pebble row (spec §6.14). */
-export function StonesPage() {
+/** Saved spots grouped by city, headed by a row of dots, one per save (spec §6.14). */
+export function SavedPage() {
   const ids = useStore((s) => s.savedIds)
   const origin = useStore((s) => s.userPos)
   const accuracy = useStore((s) => s.userAccuracyM)
@@ -19,14 +19,14 @@ export function StonesPage() {
     for (const id of ids) { const c = id.split('/')[0]; m.set(c, [...(m.get(c) ?? []), id]) }
     return [...m.entries()]
   }, [ids])
-  if (!ids.length) return <p className="empty">No stones yet. Save a spot and it will rest here.</p>
+  if (!ids.length) return <p className="empty">Nothing saved yet. Save a spot and it will wait here.</p>
   return (
     <div className="column-head" style={{ gap: 'var(--s-4)' }}>
       <p aria-hidden="true" style={{ display: 'flex', gap: 4, flexWrap: 'wrap' }}>
         {ids.slice(0, 40).map((id) => <span key={id} style={{ width: 10, height: 7, borderRadius: '50%', background: 'var(--ink)', display: 'inline-block' }} />)}
         {ids.length > 40 && <span className="mono">+{ids.length - 40}</span>}
       </p>
-      <p className="small">{ids.length} {ids.length === 1 ? 'stone' : 'stones'} in {groups.length} {groups.length === 1 ? 'city' : 'cities'}</p>
+      <p className="small">{ids.length} saved in {groups.length} {groups.length === 1 ? 'city' : 'cities'}</p>
       {groups.map(([slug, sids]) => {
         const city = cityBySlug.get(slug)
         if (!city) return null

@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { cities, cityBySlug, spotsByCity } from './data'
 import { actions, useStore, type Weather } from './store'
 import { distanceKm } from './lib/geo'
-import { nearestCity } from './components/AroundYou'
+import { nearestCity } from './lib/locate'
 import { useNow } from './hooks/useNow'
 import { useCityNow } from './hooks/useCityNow'
 import { useOnlineWatcher } from './hooks/useOnline'
@@ -15,8 +15,8 @@ import { GlobeView } from './components/GlobeView'
 import { Header } from './components/Header'
 import { SkyText } from './components/SkyText'
 import { CityColumn } from './components/CityColumn'
-import { StonesPage } from './components/StonesPage'
-import { CityDialog } from './components/CityDialog'
+import { SavedPage } from './components/SavedPage'
+import { Find } from './components/Find'
 import { AboutDialog } from './components/AboutDialog'
 import { HorizonClock } from './components/HorizonClock'
 import { Sheet, scrollSheetToPeek } from './components/Sheet'
@@ -44,7 +44,7 @@ export default function App() {
   const accuracy = useStore((s) => s.userAccuracyM)
   const mobile = useMedia('(max-width: 899px)')
   const live = useNow()
-  const [cityOpen, setCityOpen] = useState(false)
+  const [findOpen, setFindOpen] = useState(false)
   const [aboutOpen, setAboutOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
   useOnlineWatcher()
@@ -58,7 +58,7 @@ export default function App() {
   const contextSun = city ? cityNow.sun : skySun
   const inCity = mode === 'city' || mode === 'spot'
 
-  // Globe markers: every city (disc filled when it holds stones) + the user ring.
+  // Globe markers: every city (disc filled when it holds saved spots) + the user ring.
   const markers = useMemo<GlobeMarker[]>(() => {
     const m: GlobeMarker[] = cities.map((c) => ({ id: c.slug, lat: c.lat, lng: c.lng, label: c.name, kind: 'city', filled: savedIds.some((id) => id.startsWith(`${c.slug}/`)) }))
     if (userPos) m.push({ id: 'user', lat: userPos.lat, lng: userPos.lng, label: 'you', kind: 'user', approx: (accuracy ?? 0) > 2000 })
@@ -121,7 +121,7 @@ export default function App() {
     const title =
       mode === 'spot' && spot && city ? `${spot.name}, ${city.name} · Paurk`
       : mode === 'city' && city ? `${city.name} · Paurk`
-      : mode === 'stones' ? 'Stones · Paurk'
+      : mode === 'saved' ? 'Saved · Paurk'
       : 'Paurk · somewhere to breathe, wherever, whenever'
     document.title = title
   }, [mode, city, spotId])
@@ -136,16 +136,17 @@ export default function App() {
   useEffect(() => { if (mode === 'about') { setAboutOpen(true) } }, [mode])
   useEffect(() => {
     if (!mobile) return
-    document.body.classList.toggle('is-locked', inCity || mode === 'stones')
+    document.body.classList.toggle('is-locked', inCity || mode === 'saved')
     return () => document.body.classList.remove('is-locked')
   }, [mobile, inCity, mode])
 
-  // Keyboard: Escape steps back; "a" toggles ambient.
+  // Keyboard: "/" opens find; Escape steps back; "a" toggles ambient.
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return
       if (document.querySelector('dialog[open]')) return
-      if (e.key === 'Escape') { if (document.documentElement.dataset.ambient !== undefined) actions.setAmbient(false); else if (mode === 'spot') actions.backToList(); else if (mode === 'city' || mode === 'stones') actions.sky() }
+      if (e.key === '/' && !e.metaKey && !e.ctrlKey && !e.altKey) { e.preventDefault(); setFindOpen(true) }
+      else if (e.key === 'Escape') { if (document.documentElement.dataset.ambient !== undefined) actions.setAmbient(false); else if (mode === 'spot') actions.backToList(); else if (mode === 'city' || mode === 'saved') actions.sky() }
       else if (e.key === 'a' && !e.metaKey && !e.ctrlKey) actions.setAmbient(document.documentElement.dataset.ambient === undefined)
       else if (document.documentElement.dataset.ambient !== undefined) actions.setAmbient(false)
     }
@@ -154,12 +155,12 @@ export default function App() {
   }, [mode])
 
   const seat: [number, number] = mode === 'sky' ? [0.5, 0.5] : mobile ? [0.5, 0.4] : [0.42, 0.45]
-  const paperweight = mobile && (inCity || mode === 'stones') && sheetProgress >= 0.9
+  const paperweight = mobile && (inCity || mode === 'saved') && sheetProgress >= 0.9
   const sunDate = city && cityNow.preview ? cityNow.now : null
   const originIsReal = !!userPos && !!city && distanceKm(userPos, city) <= 80 && (accuracy === null || accuracy < 50000)
   const origin = originIsReal ? userPos : null
 
-  const column = mode === 'stones' ? <StonesPage /> : city && cityNow.sun ? (
+  const column = mode === 'saved' ? <SavedPage /> : city && cityNow.sun ? (
     <CityColumn city={city} now={cityNow.now} live={cityNow.live} sun={cityNow.sun} preview={cityNow.preview} origin={origin} originIsReal={originIsReal} mobile={mobile} spotId={mode === 'spot' ? spotId : null} />
   ) : null
 
@@ -168,7 +169,7 @@ export default function App() {
       <div className="horizon" aria-hidden="true" />
       <HorizonClock sun={contextSun} mobile={mobile} />
       <div className="app" data-mode={mode}>
-        <Header onChooseCity={() => setCityOpen(true)} onAbout={() => setAboutOpen(true)} scrolled={scrolled} />
+        <Header onSearch={() => setFindOpen(true)} onAbout={() => setAboutOpen(true)} scrolled={scrolled} />
         <main className={mode === 'sky' ? 'sky' : 'city'}>
           <div className={`stage${paperweight ? ' paperweight' : ''}`} onClick={paperweight ? scrollSheetToPeek : undefined} role={paperweight ? 'button' : undefined} aria-label={paperweight ? 'Back to the globe' : undefined}>
             <div className="globe-shadow" aria-hidden="true" />
@@ -181,23 +182,22 @@ export default function App() {
             </div>
           )}
           {mode === 'sky' ? (
-            <SkyText now={live} sun={skySun} place={skyPlace} userPos={userPos} onChooseCity={() => setCityOpen(true)} onAbout={() => setAboutOpen(true)} />
+            <SkyText now={live} sun={skySun} place={skyPlace} userPos={userPos} onSearch={() => setFindOpen(true)} onAbout={() => setAboutOpen(true)} />
           ) : mobile ? (
-            <Sheet fullOnMount={mode === 'spot'} bare={mode === 'spot'} sticky={mode === 'spot' ? null : <p className="city-name" style={{ fontSize: 'var(--t-display-s)' }}>{mode === 'stones' ? 'stones' : city?.name}</p>}>
+            <Sheet fullOnMount={mode === 'spot'} bare={mode === 'spot'} sticky={mode === 'spot' ? null : <p className="city-name" style={{ fontSize: 'var(--t-display-s)' }}>{mode === 'saved' ? 'saved' : city?.name}</p>}>
               {column}
               <p className="only-mobile" style={{ paddingTop: 24 }}><button type="button" className="word word--quiet word--small" onClick={() => setAboutOpen(true)}>about</button>{' '}<button type="button" className="word word--quiet word--small" onClick={() => actions.sky()}>← sky</button></p>
             </Sheet>
           ) : (
-            <aside className="column" aria-label={mode === 'stones' ? 'Saved spots' : city?.name} onScroll={(e) => setScrolled(e.currentTarget.scrollTop > 4)}>
-              {mode === 'stones' && <p><button type="button" className="word word--quiet" onClick={() => actions.sky()}>← sky</button></p>}
+            <aside className="column" aria-label={mode === 'saved' ? 'Saved spots' : city?.name} onScroll={(e) => setScrolled(e.currentTarget.scrollTop > 4)}>
+              {mode === 'saved' && <p><button type="button" className="word word--quiet" onClick={() => actions.sky()}>← sky</button></p>}
               {column}
             </aside>
           )}
         </main>
-        {(mode === 'spot' || mode === 'stones') && <div className="vh"><MarginNote /></div>}
+        {(mode === 'spot' || mode === 'saved') && <div className="vh"><MarginNote /></div>}
       </div>
-      <CityDialog open={cityOpen} onClose={() => setCityOpen(false)} current={citySlug} now={live}
-        onPick={(slug) => { setCityOpen(false); const g = getGlobe(); if (g) g.select(slug); else actions.openCity(slug) }} />
+      <Find open={findOpen} onClose={() => setFindOpen(false)} now={live} />
       <AboutDialog open={aboutOpen} onClose={() => { setAboutOpen(false); if (mode === 'about') actions.sky() }} />
     </>
   )

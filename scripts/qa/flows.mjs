@@ -36,21 +36,21 @@ for (const [label, vp, mobile] of [['desktop', { width: 1440, height: 900 }, fal
   await save.click()
   await page.waitForTimeout(300)
   check(`${label}: saved`, (await save.getAttribute('aria-pressed')) === 'true', await save.textContent())
-  check(`${label}: stones count in header`, /stones\s*·\s*1/.test((await page.locator('header nav').textContent()) ?? ''))
-  // 4. stones page lists it
-  await page.locator('header a.word', { hasText: 'stones' }).click()
+  check(`${label}: saved count in header`, /saved\s*·\s*1/.test((await page.locator('header nav').textContent()) ?? ''))
+  // 4. saved page lists it
+  await page.locator('header a.word', { hasText: 'saved' }).click()
   await page.waitForTimeout(800)
-  check(`${label}: stones page has a row`, (await page.locator('a.row').count()) >= 1)
-  // 5. choose a city dialog: type and pick
-  await page.locator('header button.word', { hasText: 'choose a city' }).click()
+  check(`${label}: saved page has a row`, (await page.locator('a.row').count()) >= 1)
+  // 5. find: type and pick
+  await page.locator('header button.word', { hasText: 'find somewhere' }).click()
   await page.waitForTimeout(300)
   await page.locator('input.search').fill('tok')
   await page.waitForTimeout(300)
-  const tokyo = page.locator('dialog[open] button.word', { hasText: 'Tokyo' }).first()
-  check(`${label}: dialog filters`, (await tokyo.count()) === 1)
+  const tokyo = page.locator('dialog[open] [role=option]', { hasText: 'Tokyo' }).first()
+  check(`${label}: find filters`, (await tokyo.count()) === 1)
   await tokyo.click()
   await page.waitForTimeout(2300)
-  check(`${label}: dialog pick opens Tokyo`, (await page.evaluate(() => location.hash)) === '#/c/tokyo', await page.evaluate(() => location.hash))
+  check(`${label}: find opens Tokyo`, (await page.evaluate(() => location.hash)) === '#/c/tokyo', await page.evaluate(() => location.hash))
   // 6. sun-rule preview changes the phase line
   const before = await page.locator('.phase').first().textContent()
   await page.locator('input[type=range]').first().focus()

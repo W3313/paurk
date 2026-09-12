@@ -1,5 +1,5 @@
 import type { City } from '../types'
-import { formatClock, formatCountdown, PERIOD_LABEL, tzOffsetMinutes, type Period, type SunInfo } from './time'
+import { formatClock, formatCountdown, PERIOD_LABEL, sunInfo, tzOffsetMinutes, type Period, type SunInfo } from './time'
 import type { Weather } from '../store'
 
 export const HORIZON_TOKEN: Record<Period, string> = {
@@ -95,4 +95,27 @@ export function guessCity(cities: City[], now = new Date()): City | null {
 export const WORLD_ORDER: Period[] = ['golden', 'dusk', 'night', 'dawn', 'morning', 'midday', 'afternoon']
 export const WORLD_LABEL: Record<Period, string> = {
   golden: 'golden hour now', dusk: 'dusk', night: 'night', dawn: 'dawn', morning: 'morning', midday: 'midday', afternoon: 'afternoon',
+}
+
+export interface WorldEntry { city: City; sun: SunInfo; next: string | null; minutes: number | null }
+export interface World { list: WorldEntry[]; byCity: Map<string, WorldEntry> }
+
+let worldKey = -1
+let worldVal: World | null = null
+
+/**
+ * Every city's sun for the current minute, computed once and shared. Both the sky list and the find
+ * panel need it, and the find panel re-renders on every keystroke — without this, typing would
+ * recompute 43 solar positions per letter.
+ */
+export function worldNow(list: City[], now: Date): World {
+  const key = Math.floor(now.getTime() / 60000)
+  if (worldVal && key === worldKey) return worldVal
+  const entries = list.map((city) => {
+    const sun = sunInfo(now, city)
+    return { city, sun, next: nextEvent(sun), minutes: nextEventMinutes(sun) }
+  })
+  worldKey = key
+  worldVal = { list: entries, byCity: new Map(entries.map((e) => [e.city.slug, e])) }
+  return worldVal
 }

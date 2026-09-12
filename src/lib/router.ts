@@ -4,7 +4,7 @@ import type { Vibe } from '../types'
 
 const VIBES = new Set<string>(['quiet','sunset','sunrise','night','view','water','green','cozy','rain-ok','solo','group','free','people-watch','study','stargaze','picnic','walk','skyline','hidden'])
 
-/** Hash routes: #/ · #/c/<city> · #/s/<city>/<spot> · #/stones · #/about, plus ?v=quiet,free and ?t=HHMM */
+/** Hash routes: #/ · #/c/<city> · #/s/<city>/<spot> · #/saved · #/about, plus ?v=quiet,free and ?t=HHMM */
 export function parseHash(hash: string): Partial<State> | null {
   const raw = hash.replace(/^#\/?/, '')
   const [pathPart, query = ''] = raw.split('?')
@@ -19,7 +19,8 @@ export function parseHash(hash: string): Partial<State> | null {
   const base: Partial<State> = { vibes, pinnedMinutes, previewMinutes: pinnedMinutes }
   const [kind, a, b] = pathPart.split('/')
   if (!pathPart) return { ...base, mode: 'sky', citySlug: null, spotId: null }
-  if (kind === 'stones' || kind === 'saved') return { ...base, mode: 'stones' }
+  // #/stones is the old name for this route; keep parsing it so shared links survive.
+  if (kind === 'saved' || kind === 'stones') return { ...base, mode: 'saved' }
   if (kind === 'about') return { ...base, mode: 'about' }
   if (kind === 'c' && a && cityBySlug.has(a)) return { ...base, mode: 'city', citySlug: a, spotId: null }
   if (kind === 's' && a && b) {
@@ -33,7 +34,7 @@ export function hashFor(s: State = getState()): string {
   let path = '#/'
   if (s.mode === 'spot' && s.spotId) path = `#/s/${s.spotId}`
   else if (s.mode === 'city' && s.citySlug) path = `#/c/${s.citySlug}`
-  else if (s.mode === 'stones') path = '#/stones'
+  else if (s.mode === 'saved') path = '#/saved'
   else if (s.mode === 'about') path = '#/about'
   const q = new URLSearchParams()
   if (s.vibes.length) q.set('v', s.vibes.join(','))

@@ -1,13 +1,11 @@
 import { useMemo } from 'react'
 import { cities } from '../data'
-import { sunInfo, type Period } from '../lib/time'
-import { nextEvent, nextEventMinutes, WORLD_LABEL, WORLD_ORDER } from '../lib/phase'
+import type { Period } from '../lib/time'
+import { WORLD_LABEL, WORLD_ORDER, worldNow, type WorldEntry } from '../lib/phase'
 import { actions } from '../store'
 import { getGlobe } from '../globe/handle'
-import type { City } from '../types'
 
 interface Props { now: Date; onMore: (period: Period | null) => void }
-interface Entry { city: City; next: string | null; minutes: number | null }
 
 const PER_GROUP = 4
 
@@ -18,11 +16,9 @@ const PER_GROUP = 4
  */
 export function WorldNow({ now, onMore }: Props) {
   const groups = useMemo(() => {
-    const byPeriod = new Map<Period, Entry[]>()
-    for (const c of cities) {
-      const sun = sunInfo(now, c)
-      const entry = { city: c, next: nextEvent(sun), minutes: nextEventMinutes(sun) }
-      byPeriod.set(sun.period, [...(byPeriod.get(sun.period) ?? []), entry])
+    const byPeriod = new Map<Period, WorldEntry[]>()
+    for (const e of worldNow(cities, now).list) {
+      byPeriod.set(e.sun.period, [...(byPeriod.get(e.sun.period) ?? []), e])
     }
     return WORLD_ORDER.filter((p) => byPeriod.has(p)).map((p) => ({
       period: p,

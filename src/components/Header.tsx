@@ -1,8 +1,8 @@
 import { actions, useStore } from '../store'
 
-interface Props { onChooseCity: () => void; onAbout: () => void; scrolled?: boolean }
+interface Props { onSearch: () => void; onAbout: () => void; scrolled?: boolean }
 
-export function Header({ onChooseCity, onAbout, scrolled }: Props) {
+export function Header({ onSearch, onAbout, scrolled }: Props) {
   const saved = useStore((s) => s.savedIds.length)
   const mode = useStore((s) => s.mode)
   return (
@@ -11,9 +11,10 @@ export function Header({ onChooseCity, onAbout, scrolled }: Props) {
         {mode === 'sky' ? <h1 className="wordmark" style={{ display: 'inline' }}>Paurk</h1> : 'Paurk'}
       </a>
       <nav className="words" aria-label="Main">
-        <button type="button" className="word word--quiet" onClick={onChooseCity}>choose a city</button>
-        <a className={`word word--quiet${mode === 'stones' ? ' is-on' : ''}`} href="#/stones" onClick={(e) => { e.preventDefault(); actions.setMode('stones') }}>
-          stones{saved > 0 && <span className="mono"> · {saved}</span>}
+        <button type="button" className="word word--quiet find-trigger" onClick={onSearch}
+          aria-haspopup="dialog">find somewhere</button>
+        <a className={`word word--quiet${mode === 'saved' ? ' is-on' : ''}`} href="#/saved" onClick={(e) => { e.preventDefault(); actions.setMode('saved') }}>
+          saved{saved > 0 && <span className="mono"> · {saved}</span>}
         </a>
         <button type="button" className="word word--quiet only-desktop" onClick={onAbout}>about</button>
       </nav>

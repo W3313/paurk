@@ -23,7 +23,7 @@ export function AboutDialog({ open, onClose }: Props) {
         <p className="display" style={{ fontSize: 'var(--t-display-m)', fontStyle: 'italic', color: 'var(--ink-2)' }}>Paurk</p>
         <p>Somewhere to breathe, wherever, whenever. {spots.length} low-key places in {cities.length} cities, gathered from what locals recommend online and checked one by one.</p>
         <p>We only list public places. Caution notes are about lighting and company after dark, not about crime statistics. Check hours locally; things change.</p>
-        <p>Your location is looked at once, on this device, only when you ask. Nothing leaves it. Saved stones live in this browser.</p>
+        <p>Your location is looked at once, on this device, only when you ask. Nothing leaves it. Saved spots live in this browser.</p>
         <p className="small">Photographs come from Wikimedia Commons under their own licences; when there is none, a poster is drawn from the spot's notes. Sun times are computed here; weather, when shown, is from Open-Meteo.</p>
         <div className="words" style={{ gap: '10px 24px' }}>
           <button type="button" className="word" aria-pressed={still} onClick={() => actions.setStill(!still)}>{still ? 'still · on' : 'still'}</button>
