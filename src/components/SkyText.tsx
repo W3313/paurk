@@ -1,17 +1,16 @@
 import { useMemo, useState } from 'react'
 import { cities, spotsByCity } from '../data'
 import type { City, LatLng } from '../types'
-import { formatCountdown, type SunInfo } from '../lib/time'
-import { phaseLine } from '../lib/phase'
+import type { SunInfo } from '../lib/time'
 import { dailyPick } from '../lib/rank'
-import { actions, useStore } from '../store'
+import { actions } from '../store'
 import { PlateCaption } from './PlateCaption'
 import { MarginNote } from './MarginNote'
 import { AroundYou } from './AroundYou'
 import { WorldNow } from './WorldNow'
 import { getGlobe } from '../globe/handle'
 
-interface Props { now: Date; sun: SunInfo | null; place: City | null; userPos: LatLng | null; timeZone: string; onChooseCity: () => void; onAbout: () => void }
+interface Props { now: Date; sun: SunInfo | null; place: City | null; userPos: LatLng | null; onChooseCity: () => void; onAbout: () => void }
 
 export function PhaseLine({ text, className = '' }: { text: string; className?: string }) {
   const words = text.split(' ')
@@ -19,21 +18,16 @@ export function PhaseLine({ text, className = '' }: { text: string; className?: 
 }
 
 /** The Sky's text stack under the globe (spec §3.2). */
-export function SkyText({ now, sun, place, userPos, timeZone, onChooseCity, onAbout }: Props) {
-  const online = useStore((s) => s.online)
-  const weather = useStore((s) => s.weather)
+export function SkyText({ now, sun, place, userPos, onChooseCity, onAbout }: Props) {
   const [seed, setSeed] = useState(0)
   const pick = useMemo(() => {
     if (!place) return null
     const list = (spotsByCity.get(place.slug) ?? []).filter((s) => s.lowkeyScore >= 4 && (sun?.period !== 'night' || s.safety.level === 'ok'))
     return dailyPick(list.length ? list : spotsByCity.get(place.slug) ?? [], now, seed)
   }, [place, now, seed, sun])
-  const goldenSoon = sun && sun.minutesToGolden !== null && sun.minutesToGolden > 0 && sun.minutesToGolden <= 90
   return (
     <div className="sky-text">
       <PlateCaption parts={[`${cities.length} cities`]} bare />
-      {goldenSoon && sun && <p className="golden-num display-num" aria-label={`golden hour in ${formatCountdown(sun.minutesToGolden!)}`}>{formatCountdown(sun.minutesToGolden!)}</p>}
-      {sun && <PhaseLine text={phaseLine(now, sun, timeZone, { offline: !online, weather })} />}
       <MarginNote fallback={userPos ? 'tap a city, or the list below' : 'drag the globe, or choose a city'} />
       <AroundYou onChooseCity={onChooseCity} />
       <WorldNow now={now} onMore={() => onChooseCity()} />

@@ -198,8 +198,6 @@ html[data-still] .globe-wrap.is-breathing-in { animation: none; }
 .phase .w { display: inline-block; animation: word-in var(--d-micro) var(--e-settle) both; animation-delay: calc(var(--i) * 80ms); }
 @keyframes word-in { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
 html[data-still] .phase .w { animation: none; }
-.golden-num { font-family: var(--font-display); font-weight: 400; font-size: 44px; line-height: 1; color: var(--accent); font-variant-numeric: lining-nums tabular-nums; }
-@media (min-width: 900px) { .golden-num { font-size: var(--t-display-xl); } }
 .serendipity { font-size: var(--t-small); color: var(--ink-2); }
 @media (min-width: 900px) {
   .sky .stage { width: min(64vh, 48vw); margin-top: calc(44vh - var(--header-h) - min(64vh, 48vw) / 2); }
@@ -207,9 +205,11 @@ html[data-still] .phase .w { animation: none; }
 
 /* ---------- world now ---------- */
 .worldnow { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--s-2); text-align: left; width: 100%; min-width: 0; }
-.worldnow-row { display: grid; grid-template-columns: 9.5em 1fr; gap: var(--s-3); align-items: baseline; }
+.worldnow-group { display: grid; gap: 2px; padding-bottom: var(--s-3); }
 .worldnow-label { font-size: var(--t-small); color: var(--ink-2); }
-.worldnow-cities { display: flex; flex-wrap: wrap; gap: 2px 14px; }
+.worldnow-list { display: grid; gap: 0; }
+.worldnow-city { display: flex; align-items: baseline; justify-content: space-between; gap: var(--s-4); }
+.worldnow-next { color: var(--ink-2); white-space: nowrap; font-size: var(--t-mono-s); }
 
 /* ---------- margin note ---------- */
 .note { font-size: var(--t-small); line-height: 1.5; color: var(--ink-2); min-height: 1.5em; max-width: 60ch; }
@@ -336,8 +336,12 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 70%, transparent); }
 .search:focus { outline: none; border-bottom-color: var(--ink); }
 .search::placeholder { color: var(--ink-2); opacity: 1; }
 .region-head { font-size: var(--t-small); color: var(--ink-2); padding-top: var(--s-3); }
-.city-row { display: flex; justify-content: space-between; align-items: center; gap: var(--s-3); padding: 2px 0; }
-.city-row .mono { color: var(--ink-2); }
+.city-row { display: flex; justify-content: space-between; align-items: baseline; gap: var(--s-3); padding: 2px 0; }
+.city-row .mono { color: var(--ink-2); text-align: right; }
+/* The countdown sits inline where there is room, and drops to its own right-aligned line where there is not. */
+.city-left { white-space: nowrap; }
+.city-left::before { content: ' · '; }
+@media (max-width: 560px) { .city-left { display: block; } .city-left::before { content: none; } }
 .current-dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--ink); margin-right: 8px; }
 .dialog-close { position: absolute; top: var(--s-3); right: var(--gutter); }
 .about p { max-width: 60ch; }

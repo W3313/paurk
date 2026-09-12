@@ -53,7 +53,6 @@ export default function App() {
   const guess = useMemo(() => guessCity(cities, live), [live])
   const skyPlace = guess ?? cities[0] ?? null
   const skyPos = userPos ?? skyPlace
-  const skyTz = userPos ? Intl.DateTimeFormat().resolvedOptions().timeZone : (skyPlace?.timezone ?? 'UTC')
   const cityNow = useCityNow(city, city?.timezone ?? 'UTC')
   const skySun = useMemo(() => (skyPos ? sunInfo(live, skyPos) : null), [live, skyPos])
   const contextSun = city ? cityNow.sun : skySun
@@ -182,7 +181,7 @@ export default function App() {
             </div>
           )}
           {mode === 'sky' ? (
-            <SkyText now={live} sun={skySun} place={skyPlace} userPos={userPos} timeZone={skyTz} onChooseCity={() => setCityOpen(true)} onAbout={() => setAboutOpen(true)} />
+            <SkyText now={live} sun={skySun} place={skyPlace} userPos={userPos} onChooseCity={() => setCityOpen(true)} onAbout={() => setAboutOpen(true)} />
           ) : mobile ? (
             <Sheet fullOnMount={mode === 'spot'} bare={mode === 'spot'} sticky={mode === 'spot' ? null : <p className="city-name" style={{ fontSize: 'var(--t-display-s)' }}>{mode === 'stones' ? 'stones' : city?.name}</p>}>
               {column}

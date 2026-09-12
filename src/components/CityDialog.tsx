@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { cities } from '../data'
-import { formatClock, PERIOD_LABEL, sunInfo, tzOffsetMinutes } from '../lib/time'
+import { formatClock, formatCountdown, PERIOD_LABEL, sunInfo, tzOffsetMinutes, type SunInfo } from '../lib/time'
 import { guessCity } from '../lib/phase'
 import type { City } from '../types'
 
@@ -8,6 +8,13 @@ interface Props { open: boolean; onClose: () => void; onPick: (slug: string) => 
 
 const REGION_LABEL: Record<string, string> = { americas: 'the americas', 'europe-africa': 'europe and africa', 'asia-pacific': 'asia and the pacific', other: 'elsewhere' }
 const fold = (s: string) => s.toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '')
+
+/** How long the light lasts there, for rows where the sun is still up. Silent at night, where it would
+ *  only ever count down to a sunset a day away. */
+function daylightLeft(sun: SunInfo): string | null {
+  if (sun.minutesToSunset === null || sun.period === 'night' || sun.period === 'dusk') return null
+  return `sunset in ${formatCountdown(sun.minutesToSunset)}`
+}
 
 /** Native dialog: type a city, or pick from the regions (spec §6.4). The no-WebGL and no-location path. */
 export function CityDialog({ open, onClose, onPick, current, now }: Props) {
@@ -48,10 +55,11 @@ export function CityDialog({ open, onClose, onPick, current, now }: Props) {
             <ul>
               {cs.map((c) => {
                 const s = sunInfo(now, c)
+                const left = daylightLeft(s)
                 return (
                   <li className="city-row" key={c.slug}>
                     <span>{c.slug === current && <><span className="current-dot" aria-hidden="true" /><span className="vh">current: </span></>}<button type="button" className="word" onClick={() => onPick(c.slug)}>{c.name}</button></span>
-                    <span className="mono">{formatClock(now, c.timezone)} · {PERIOD_LABEL[s.period]}</span>
+                    <span className="mono">{formatClock(now, c.timezone)} · {PERIOD_LABEL[s.period]}{left && <span className="city-left">{left}</span>}</span>
                   </li>
                 )
               })}

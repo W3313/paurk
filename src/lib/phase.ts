@@ -52,13 +52,24 @@ export function phaseLine(now: Date, sun: SunInfo, timeZone: string, opts: Phase
   return parts.join(' · ')
 }
 
-export function nextEvent(sun: SunInfo): string | null {
+/** Minutes until whatever `nextEvent` names there, so lists can be ordered by what happens soonest. */
+export function nextEventMinutes(sun: SunInfo): number | null {
   switch (sun.period) {
-    case 'night': case 'dawn': return sun.minutesToSunrise !== null ? `sunrise in ${formatCountdown(sun.minutesToSunrise)}` : null
-    case 'dusk': return sun.minutesToDark !== null ? `dark in ${formatCountdown(sun.minutesToDark)}` : null
-    case 'golden': return sun.minutesToSunset !== null ? `sunset in ${formatCountdown(sun.minutesToSunset)}` : null
-    default: return sun.minutesToGolden !== null ? `golden hour in ${formatCountdown(sun.minutesToGolden)}` : null
+    case 'night': case 'dawn': return sun.minutesToSunrise
+    case 'dusk': return sun.minutesToDark
+    case 'golden': return sun.minutesToSunset
+    default: return sun.minutesToGolden
   }
+}
+
+const NEXT_LABEL: Record<Period, string> = {
+  night: 'sunrise', dawn: 'sunrise', dusk: 'dark', golden: 'sunset',
+  morning: 'golden hour', midday: 'golden hour', afternoon: 'golden hour',
+}
+
+export function nextEvent(sun: SunInfo): string | null {
+  const minutes = nextEventMinutes(sun)
+  return minutes === null ? null : `${NEXT_LABEL[sun.period]} in ${formatCountdown(minutes)}`
 }
 
 /** Suggested vibes per period (accent dot in the vibe row). */

@@ -1,7 +1,7 @@
 import type { City, LatLng, Spot } from '../types'
 import { becauseLine, type Context, type Ranked } from '../lib/rank'
 import { bearingDeg, compassLabel, distanceKm, formatDistance, walkingTime } from '../lib/geo'
-import { formatClock, type SunInfo } from '../lib/time'
+import { formatClock, formatCountdown, type SunInfo } from '../lib/time'
 import { actions, useStore } from '../store'
 import { getGlobe } from '../globe/handle'
 
@@ -40,6 +40,11 @@ export function SpotRow({ ranked, city, now, sun, ctx, origin, originIsReal, ind
     if (ranked.hours.status === 'open') good = true
   } else status.push('see hours')
   status.push(originIsReal ? walkingTime(km) : `~${walk} min from centre`)
+  // How much light is left, on every row: the same clock for the whole city, but it is the number
+  // that decides whether this particular walk is worth starting.
+  if (sun.minutesToSunset !== null && sun.period !== 'night' && sun.period !== 'dusk' && sun.minutesToSunset < 24 * 60) {
+    status.push(`sunset in ${formatCountdown(sun.minutesToSunset)}`)
+  }
   if ((s.vibes.includes('sunset') || s.bestTimes.includes('golden-hour')) && sun.sunset && sun.period !== 'night') {
     const arriveMin = Math.round((sun.sunset.getTime() - now.getTime()) / 60000) - walk
     if (arriveMin > 0 && arriveMin < 240) { status.push(`arrive ${arriveMin} min before sunset`); good = good || ranked.hours?.status !== 'closed' }

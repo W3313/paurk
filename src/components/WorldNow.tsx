@@ -1,44 +1,60 @@
 import { useMemo } from 'react'
 import { cities } from '../data'
 import { sunInfo, type Period } from '../lib/time'
-import { WORLD_LABEL, WORLD_ORDER } from '../lib/phase'
+import { nextEvent, nextEventMinutes, WORLD_LABEL, WORLD_ORDER } from '../lib/phase'
 import { actions } from '../store'
 import { getGlobe } from '../globe/handle'
 import type { City } from '../types'
 
 interface Props { now: Date; onMore: (period: Period | null) => void }
+interface Entry { city: City; next: string | null; minutes: number | null }
 
-/** Sky only: cities grouped by what is happening there right now, as tappable words (spec §6.3). */
+const PER_GROUP = 4
+
+/**
+ * Sky only: cities grouped by what is happening there right now, each carrying its own countdown to
+ * whatever comes next there (sunset while the sun is still up, sunrise once it is down). The landing
+ * page used to show one such countdown for one guessed city, which was only ever right for one place.
+ */
 export function WorldNow({ now, onMore }: Props) {
   const groups = useMemo(() => {
-    const byPeriod = new Map<Period, City[]>()
+    const byPeriod = new Map<Period, Entry[]>()
     for (const c of cities) {
-      const p = sunInfo(now, c).period
-      byPeriod.set(p, [...(byPeriod.get(p) ?? []), c])
+      const sun = sunInfo(now, c)
+      const entry = { city: c, next: nextEvent(sun), minutes: nextEventMinutes(sun) }
+      byPeriod.set(sun.period, [...(byPeriod.get(sun.period) ?? []), entry])
     }
-    return WORLD_ORDER.filter((p) => byPeriod.has(p)).map((p) => ({ period: p, cities: byPeriod.get(p)!.sort((a, b) => a.lng - b.lng) }))
+    return WORLD_ORDER.filter((p) => byPeriod.has(p)).map((p) => ({
+      period: p,
+      // Soonest first, so the city about to lose its light leads the group and the countdowns read down.
+      entries: byPeriod.get(p)!.sort((a, b) => (a.minutes ?? Infinity) - (b.minutes ?? Infinity)),
+    }))
   }, [now])
-  const shown = groups.slice(0, 3)
+
   return (
     <div className="worldnow" aria-label="Now in the world">
-      {shown.map((g) => (
-        <div className="worldnow-row" key={g.period}>
-          <span className="worldnow-label">{WORLD_LABEL[g.period]}</span>
-          <span className="worldnow-cities">
-            {g.cities.slice(0, 4).map((c) => (
-              <a key={c.slug} className="word" href={`#/c/${c.slug}`}
-                onClick={(e) => { e.preventDefault(); const g = getGlobe(); if (g) g.select(c.slug); else actions.openCity(c.slug) }}
-                onPointerEnter={() => getGlobe()?.setHot(c.slug)} onPointerLeave={() => getGlobe()?.setHot(null)}
-                onFocus={() => getGlobe()?.setHot(c.slug)} onBlur={() => getGlobe()?.setHot(null)}>{c.name}</a>
+      {groups.slice(0, 3).map((g) => (
+        <div className="worldnow-group" key={g.period}>
+          <p className="worldnow-label">{WORLD_LABEL[g.period]}</p>
+          <ul className="worldnow-list">
+            {g.entries.slice(0, PER_GROUP).map(({ city, next }) => (
+              <li className="worldnow-city" key={city.slug}>
+                <a className="word" href={`#/c/${city.slug}`}
+                  onClick={(e) => { e.preventDefault(); const globe = getGlobe(); if (globe) globe.select(city.slug); else actions.openCity(city.slug) }}
+                  onPointerEnter={() => getGlobe()?.setHot(city.slug)} onPointerLeave={() => getGlobe()?.setHot(null)}
+                  onFocus={() => getGlobe()?.setHot(city.slug)} onBlur={() => getGlobe()?.setHot(null)}>{city.name}</a>
+                {next && <span className="worldnow-next mono">{next}</span>}
+              </li>
             ))}
-            {g.cities.length > 4 && <button type="button" className="word word--quiet" onClick={() => onMore(g.period)}>+{g.cities.length - 4}</button>}
-          </span>
+            {g.entries.length > PER_GROUP && (
+              <li className="worldnow-city">
+                <button type="button" className="word word--quiet" onClick={() => onMore(g.period)}>{g.entries.length - PER_GROUP} more</button>
+              </li>
+            )}
+          </ul>
         </div>
       ))}
-      <div className="worldnow-row">
-        <span className="worldnow-label" />
-        <span className="worldnow-cities"><button type="button" className="word word--quiet" onClick={() => { actions.setMode('sky'); onMore(null) }}>all {cities.length}</button></span>
-      </div>
+      <p><button type="button" className="word word--quiet" onClick={() => { actions.setMode('sky'); onMore(null) }}>all {cities.length} cities</button></p>
     </div>
   )
 }
