@@ -8,6 +8,8 @@ interface Props {
   markers: GlobeMarker[]
   selectedId: string | null
   seat: [number, number]
+  /** Fraction of the shorter viewport side the sphere spans. */
+  fit: number
   still: boolean
   sunDate: Date | null
   pushBack: number
@@ -27,7 +29,7 @@ export function readGlobeTheme(): GlobeTheme {
 }
 
 /** Mounts the three.js engine lazily (after first paint) and keeps it in sync with the app. */
-export function GlobeView({ markers, selectedId, seat, still, sunDate, pushBack, paused, autoRotate, themeKey, onSelect, onHover }: Props) {
+export function GlobeView({ markers, selectedId, seat, fit, still, sunDate, pushBack, paused, autoRotate, themeKey, onSelect, onHover }: Props) {
   const host = useRef<HTMLDivElement>(null)
   const labels = useRef<HTMLDivElement>(null)
   const engine = useRef<GlobeEngine | null>(null)
@@ -67,6 +69,7 @@ export function GlobeView({ markers, selectedId, seat, still, sunDate, pushBack,
   useEffect(() => { engine.current?.setMarkers(markers) }, [markers, ready])
   useEffect(() => { engine.current?.setTheme(readGlobeTheme()) }, [themeKey, ready])
   useEffect(() => { engine.current?.setSeat(seat[0], seat[1]) }, [seat, ready])
+  useEffect(() => { engine.current?.setFit(fit) }, [fit, ready])
   useEffect(() => { engine.current?.setStill(still) }, [still, ready])
   useEffect(() => { engine.current?.setSunDate(sunDate) }, [sunDate, ready])
   useEffect(() => { engine.current?.setPushBack(pushBack) }, [pushBack, ready])

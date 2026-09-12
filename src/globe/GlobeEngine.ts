@@ -159,6 +159,14 @@ export class GlobeEngine {
   private pitch = 0.21
   private zoom = SKY_ZOOM
   private fitDist = 3.4
+  /** Fraction of the shorter viewport side the sphere should span. Lets the canvas be full-bleed
+   *  (so zooming never reveals its edge) while the sphere keeps a deliberate size on the page. */
+  private fit = 1
+  private fitTarget = 1
+  private seatFrom: [number, number] | null = null
+  private seatTo: [number, number] | null = null
+  private seatT0 = 0
+  private seatDur = 0
   private velYaw = 0
   private velPitch = 0
   private anim: { t0: number; dur: number; from: [number, number, number]; to: [number, number, number]; ease: (t: number) => number; done?: (arrived: boolean) => void } | null = null
@@ -455,10 +463,29 @@ export class GlobeEngine {
   }
 
   /** Where the sphere's centre sits in the container (fractions), via camera view offset. */
-  setSeat(fx: number, fy: number) {
-    if (fx === this.seat[0] && fy === this.seat[1]) return
-    this.seat = [fx, fy]
-    this.applySeat()
+  setSeat(fx: number, fy: number, duration = 720) {
+    const to = this.seatTo ?? this.seat
+    if (Math.abs(fx - to[0]) < 1e-4 && Math.abs(fy - to[1]) < 1e-4) return
+    if (this.still || duration <= 0) {
+      this.seatTo = this.seatFrom = null
+      this.seat = [fx, fy]
+      this.applySeat()
+      this.wake()
+      return
+    }
+    this.seatFrom = [this.seat[0], this.seat[1]]
+    this.seatTo = [fx, fy]
+    this.seatT0 = performance.now()
+    this.seatDur = duration
+    this.wake()
+  }
+
+  /** How much of the shorter side the sphere spans, eased rather than snapped. */
+  setFit(f: number) {
+    const v = clamp(f, 0.2, 1)
+    if (Math.abs(v - this.fitTarget) < 1e-3) return
+    this.fitTarget = v
+    if (this.still) { this.fit = v; this.computeFit() }
     this.wake()
   }
   private applySeat() {
@@ -817,15 +844,19 @@ export class GlobeEngine {
   }
 
   // ---------- loop ----------
+  private computeFit() {
+    const vHalf = THREE.MathUtils.degToRad(this.camera.fov / 2)
+    const hHalf = Math.atan(Math.tan(vHalf) * this.camera.aspect)
+    this.fitDist = 1.12 / (Math.sin(Math.min(vHalf, hHalf)) * this.fit)
+  }
+
   private resize() {
     const { clientWidth: w, clientHeight: h } = this.opts.container
     if (!w || !h) return
     this.renderer.setSize(w, h, false)
     this.camera.aspect = w / h
     this.camera.updateProjectionMatrix()
-    const vHalf = THREE.MathUtils.degToRad(this.camera.fov / 2)
-    const hHalf = Math.atan(Math.tan(vHalf) * this.camera.aspect)
-    this.fitDist = 1.12 / Math.sin(Math.min(vHalf, hHalf))
+    this.computeFit()
     this.applySeat()
     this.dotMat.uniforms.uDPR.value = this.renderer.getPixelRatio()
     this.wake()
@@ -854,6 +885,21 @@ export class GlobeEngine {
     this.haloMat.uniforms.uHalo.value = 0.1 - 0.03 * breath
     if (this.revealT0 !== null && !this.still) this.dotMat.uniforms.uReveal.value = clamp((now - this.revealT0) / 1400, 0, 1)
     if (now - this.lastSun > 60000) { this.lastSun = now; this.updateSun() }
+
+    if (this.seatTo && this.seatFrom) {
+      const k = clamp((now - this.seatT0) / this.seatDur, 0, 1)
+      const e = quintic(k)
+      const [f0, f1] = this.seatFrom, [t0, t1] = this.seatTo
+      this.seat = [f0 + (t0 - f0) * e, f1 + (t1 - f1) * e]
+      this.applySeat()
+      if (k >= 1) { this.seatTo = this.seatFrom = null } else this.wake()
+    }
+    if (Math.abs(this.fit - this.fitTarget) > 5e-4) {
+      // Exponential ease, framerate-corrected, so the sphere grows and shrinks without a step.
+      this.fit += (this.fitTarget - this.fit) * (1 - Math.pow(0.0025, dt))
+      this.computeFit()
+      this.wake()
+    }
 
     if (this.anim) {
       const k = Math.min(1, (now - this.anim.t0) / this.anim.dur)

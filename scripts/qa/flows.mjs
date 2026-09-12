@@ -14,8 +14,8 @@ for (const [label, vp, mobile] of [['desktop', { width: 1440, height: 900 }, fal
   page.on('console', (m) => { if (m.type() === 'error' && !/ERR_|Failed to load|net::/.test(m.text())) errors.push(`[${label}] console: ${m.text().slice(0, 200)}`) })
   await page.goto(base + '#/', { waitUntil: 'networkidle' })
   await page.waitForTimeout(1500)
-  // 1. a city word in "now in the world" flies to the city
-  const cityWord = page.locator('.worldnow a.word').first()
+  // 1. a city word in the sky list flies to the city (the left column on desktop, the stack on phones)
+  const cityWord = page.locator('.citymenu a.word, .worldnow a.word').first()
   const cityName = (await cityWord.textContent())?.trim()
   await cityWord.click()
   await page.waitForTimeout(2300)

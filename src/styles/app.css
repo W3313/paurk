@@ -171,7 +171,12 @@ button { font: inherit; color: inherit; }
 @media (min-width: 900px) { .only-desktop { display: inline-flex !important; } .only-mobile { display: none !important; } }
 
 /* ---------- globe stage ---------- */
-.stage { position: relative; }
+/*
+ * The canvas is the page, not a box on it: fixed and full-bleed, so zooming the sphere can never
+ * reach an edge and reveal the square it used to live in. Size and position come from the engine's
+ * fit and seat instead of from the element's dimensions.
+ */
+.stage { position: fixed; inset: var(--header-h) 0 0 0; z-index: var(--z-canvas); }
 .globe-wrap { position: relative; z-index: var(--z-canvas); width: 100%; height: 100%; transition: transform var(--d-panel) var(--e-settle), opacity 300ms; transform-origin: top left; }
 .globe-wrap.is-crossfade { opacity: .2; }
 .globe-wrap.is-breathing-in { animation: breathe-in 1600ms var(--e-settle) both; }
@@ -179,7 +184,13 @@ button { font: inherit; color: inherit; }
 html[data-still] .globe-wrap.is-breathing-in { animation: none; }
 .paurk-globe-canvas { display: block; width: 100% !important; height: 100% !important; outline: none; }
 .paurk-globe-canvas:focus-visible { outline: 2px solid var(--ink); outline-offset: -2px; border-radius: 2px; }
-.globe-shadow { position: absolute; z-index: var(--z-shadow); left: 11%; width: 78%; height: 14%; pointer-events: none;
+/* Glued to the sphere by the same seat and radius the engine uses, so it travels with it. */
+.globe-shadow { position: absolute; z-index: var(--z-shadow); pointer-events: none;
+  left: calc(var(--seat-x, .5) * 100% - var(--globe-r, 150px) * 0.95);
+  top: calc(var(--seat-y, .5) * 100% + var(--globe-r, 150px) * 0.88);
+  width: calc(var(--globe-r, 150px) * 1.9); height: calc(var(--globe-r, 150px) * 0.34);
+  transition: left var(--d-panel) var(--e-settle), top var(--d-panel) var(--e-settle),
+    width var(--d-panel) var(--e-settle), height var(--d-panel) var(--e-settle);
   background: radial-gradient(ellipse at 50% 50%, var(--globe-shadow), transparent 70%); }
 .paurk-globe-labels { position: absolute; inset: 0; z-index: var(--z-labels); pointer-events: none; overflow: hidden; }
 .paurk-label { position: absolute; left: 0; top: 0; margin: -14px 0 0 12px; padding: 4px 6px; background: none; border: 0; border-radius: var(--r-well);
@@ -189,18 +200,26 @@ html[data-still] .globe-wrap.is-breathing-in { animation: none; }
 .paurk-label--user { font-family: var(--font-mono); font-style: normal; font-size: var(--t-mono); color: var(--accent-ink); }
 
 /* ---------- sky ---------- */
-.sky { display: grid; grid-template-rows: auto auto; justify-items: center; }
-.sky .stage { width: min(100vw, 62vh); aspect-ratio: 1; margin-top: calc(40vh - var(--header-h) - min(100vw, 62vh) / 2); }
-.sky .globe-shadow { bottom: 2%; }
+.sky { display: grid; justify-items: center; }
+/* Clear the sphere: its centre and radius are the same numbers the engine is using. */
+.sky-text { margin-top: calc(var(--seat-y, .36) * (100dvh - var(--header-h)) + var(--globe-r, 150px) + var(--s-8)); position: relative; z-index: var(--z-column); }
 .sky-text { width: min(100% - 2 * var(--gutter), 380px); text-align: center; display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--s-3); justify-items: center; padding-bottom: var(--s-16); min-width: 0; }
 .plate { font-family: var(--font-mono); font-size: 12px; color: var(--ink-2); letter-spacing: .02em; text-transform: lowercase; }
 .phase { font-family: var(--font-display); font-weight: 300; font-size: var(--t-display-s); line-height: 1.2; }
 .phase .w { display: inline-block; animation: word-in var(--d-micro) var(--e-settle) both; animation-delay: calc(var(--i) * 80ms); }
 @keyframes word-in { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
 html[data-still] .phase .w { animation: none; }
-@media (min-width: 900px) {
-  .sky .stage { width: min(64vh, 48vw); margin-top: calc(44vh - var(--header-h) - min(64vh, 48vw) / 2); }
-}
+
+
+/* ---------- the city menu (sky's left column) ---------- */
+.citymenu { display: grid; gap: var(--s-5); padding: 0 var(--gutter); align-content: start; }
+.citymenu-head { color: var(--ink-2); font-family: var(--font-mono); font-size: 12px; letter-spacing: .02em; }
+.citymenu-group { display: grid; gap: 2px; }
+.citymenu-list { display: grid; gap: 0; }
+.citymenu-city { display: flex; align-items: center; justify-content: space-between; gap: var(--s-4); min-height: 44px; }
+.citymenu-city .word { margin-block: 0; text-decoration: none; }
+.citymenu-city .word.is-here { color: var(--accent); }
+.citymenu-next { color: var(--ink-2); white-space: nowrap; font-size: var(--t-mono-s); }
 
 /* ---------- world now ---------- */
 .worldnow { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--s-2); text-align: left; width: 100%; min-width: 0; }
@@ -232,15 +251,34 @@ html[data-still] .note .line { animation: none; }
 html[data-still] .city-name.is-writing { animation: none; }
 .rule { border: 0; border-top: 1px solid var(--hairline); margin: 0; }
 
+/* ---------- the shell: two columns that trade places over one globe ---------- */
 @media (min-width: 900px) {
-  .city { display: grid; grid-template-columns: 1fr var(--column); min-height: calc(100dvh - var(--header-h)); }
-  .city .stage { position: sticky; top: var(--header-h); height: calc(100dvh - var(--header-h)); }
-  .city .globe-shadow { top: 68%; }
-  .column { height: calc(100dvh - var(--header-h)); overflow-y: auto; overscroll-behavior: contain; padding-top: var(--s-6); }
+  .shell { position: relative; min-height: calc(100dvh - var(--header-h)); }
+  /*
+   * Both sides stay mounted and slide, so going between the sky and a city is one movement rather
+   * than a blink: the spot column leaves to the right as the city column arrives from the left, and
+   * the sphere eases across to the middle of whatever space is left.
+   */
+  .side {
+    position: fixed; top: var(--header-h); bottom: 0; width: var(--column); z-index: var(--z-column);
+    overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin;
+    padding: var(--s-6) 0 var(--s-16);
+    background: color-mix(in srgb, var(--bg) 86%, transparent);
+    backdrop-filter: blur(16px) saturate(.85); -webkit-backdrop-filter: blur(16px) saturate(.85);
+    transition: transform var(--d-panel) var(--e-settle), opacity calc(var(--d-panel) * .6) var(--e-settle);
+    will-change: transform;
+  }
+  .side--cities { left: 0; border-right: 1px solid var(--hairline); transform: translateX(-100%); opacity: 0; pointer-events: none; }
+  .side--spots { right: 0; border-left: 1px solid var(--hairline); transform: translateX(100%); opacity: 0; pointer-events: none; }
+  .shell[data-sky] .side--cities,
+  .shell:not([data-sky]) .side--spots { transform: none; opacity: 1; pointer-events: auto; }
+  /* The arriving column waits for the leaving one to clear, which is what makes it read as a swap. */
+  .shell[data-sky] .side--cities { transition-delay: 120ms; }
+  .shell:not([data-sky]) .side--spots { transition-delay: 120ms; }
+  .side .column { height: auto; overflow: visible; padding-top: 0; }
 }
+html[data-still] .side { transition: none !important; }
 @media (max-width: 899px) {
-  .city .stage { height: 38vh; transition: height var(--d-panel) var(--e-settle); }
-  .city .globe-shadow { top: 74%; }
   .sheet { position: fixed; inset: 0; z-index: var(--z-column); overflow-y: auto; scroll-snap-type: y mandatory; overscroll-behavior: contain; pointer-events: none; scrollbar-width: none; }
   html[data-still] .sheet { scroll-behavior: auto; }
   .sheet::-webkit-scrollbar { display: none; }
@@ -248,7 +286,7 @@ html[data-still] .city-name.is-writing { animation: none; }
   .panel { scroll-snap-align: start; pointer-events: auto; min-height: 100dvh; background: linear-gradient(to bottom, var(--horizon) 0, var(--bg) 120px), var(--bg); position: relative; }
   .panel::before { content: ""; position: absolute; top: 12px; left: 50%; width: 32px; height: 3px; margin-left: -16px; background: var(--hairline); }
   .panel .column { padding-top: var(--s-8); }
-  .panel-sticky { position: sticky; top: 0; z-index: var(--z-sticky); background: color-mix(in srgb, var(--bg) 92%, transparent); padding: var(--s-3) var(--gutter); margin: 0 calc(-1 * var(--gutter)); }
+  .panel-sticky { position: sticky; top: 0; z-index: var(--z-sticky); background: color-mix(in srgb, var(--bg) 92%, transparent); padding: var(--s-3) var(--gutter); }
   .paperweight { position: fixed !important; top: calc(var(--header-h) + 8px + env(safe-area-inset-top)); left: calc(100vw - 80px - env(safe-area-inset-right)); width: 100vw; height: 38vh !important; transform: scale(0.16); transform-origin: top left; z-index: var(--z-paperweight) !important; cursor: pointer; }
   .paperweight .globe-shadow { display: none; }
   .paperweight .globe-wrap { pointer-events: none; }
@@ -257,7 +295,8 @@ html[data-still] .city-name.is-writing { animation: none; }
 
 /* mobile city: caption block between the globe and the sheet */
 .stage-caption { display: none; }
-@media (max-width: 899px) { .stage-caption { display: grid; gap: var(--s-2); justify-items: center; text-align: center; padding: var(--s-4) var(--gutter) 0; } }
+/* Clears the sphere, which the city flight zooms past the size --globe-r reports. */
+@media (max-width: 899px) { .stage-caption { display: grid; gap: var(--s-2); justify-items: center; text-align: center; padding: var(--s-4) var(--gutter) 0; margin-top: 42dvh; position: relative; z-index: var(--z-column); } }
 
 /* ---------- rows ---------- */
 .rows { display: grid; }

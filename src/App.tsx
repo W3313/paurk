@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { cities, cityBySlug, spotsByCity } from './data'
-import { actions, useStore, type Weather } from './store'
+import { actions, useStore, type Mode, type Weather } from './store'
 import { distanceKm } from './lib/geo'
 import { nearestCity } from './lib/locate'
 import { useNow } from './hooks/useNow'
@@ -14,6 +14,7 @@ import type { GlobeMarker } from './globe/GlobeEngine'
 import { GlobeView } from './components/GlobeView'
 import { Header } from './components/Header'
 import { SkyText } from './components/SkyText'
+import { CityMenu } from './components/CityMenu'
 import { CityColumn } from './components/CityColumn'
 import { SavedPage } from './components/SavedPage'
 import { Find } from './components/Find'
@@ -25,6 +26,42 @@ import { PlateCaption } from './components/PlateCaption'
 import { PhaseLine } from './components/SkyText'
 import { formatClock } from './lib/time'
 import { phaseLine } from './lib/phase'
+
+/** Viewport in pixels, kept fresh, because the globe's seat and size are computed from it. */
+function useViewport() {
+  const [v, setV] = useState(() => ({ w: window.innerWidth, h: window.innerHeight }))
+  useEffect(() => {
+    const on = () => setV({ w: window.innerWidth, h: window.innerHeight })
+    window.addEventListener('resize', on)
+    return () => window.removeEventListener('resize', on)
+  }, [])
+  return v
+}
+
+const headerPx = () => parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--header-h')) || 56
+const columnPx = () => parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--column')) || 400
+
+/**
+ * Where the sphere sits and how big it is. The canvas is the whole page, so the sphere's size is a
+ * deliberate fraction rather than whatever the container happened to be — which is what stops a zoom
+ * from ever reaching the canvas edge and showing a square.
+ */
+function globeFrame(mode: Mode, mobile: boolean, v: { w: number; h: number }) {
+  const canvasH = Math.max(1, v.h - headerPx())
+  const short = Math.min(v.w, canvasH)
+  if (mobile) {
+    // Sky puts the globe above the list. Elsewhere it sits higher and smaller, because selecting a
+    // city flies the camera in by about half again and nothing clips it back any more.
+    const target = mode === 'sky' ? short * 0.9 : short * 0.52
+    return { seat: [0.5, mode === 'sky' ? 0.3 : 0.2] as [number, number], fit: target / short, radius: target / 2 }
+  }
+  const col = columnPx()
+  // One panel or the other owns a column; the sphere is centred in whatever is left.
+  const free = Math.max(240, v.w - col)
+  const target = Math.min(free, canvasH) * 0.84
+  const x = mode === 'sky' ? 0.5 + col / (2 * v.w) : 0.5 - col / (2 * v.w)
+  return { seat: [x, 0.5] as [number, number], fit: target / short, radius: target / 2 }
+}
 
 function useMedia(q: string) {
   const [m, setM] = useState(() => matchMedia(q).matches)
@@ -43,6 +80,7 @@ export default function App() {
   const sheetProgress = useStore((s) => s.sheetProgress)
   const accuracy = useStore((s) => s.userAccuracyM)
   const mobile = useMedia('(max-width: 899px)')
+  const viewport = useViewport()
   const live = useNow()
   const [findOpen, setFindOpen] = useState(false)
   const [aboutOpen, setAboutOpen] = useState(false)
@@ -154,7 +192,7 @@ export default function App() {
     return () => window.removeEventListener('keydown', onKey)
   }, [mode])
 
-  const seat: [number, number] = mode === 'sky' ? [0.5, 0.5] : mobile ? [0.5, 0.4] : [0.42, 0.45]
+  const { seat, fit, radius } = globeFrame(mode, mobile, viewport)
   const paperweight = mobile && (inCity || mode === 'saved') && sheetProgress >= 0.9
   const sunDate = city && cityNow.preview ? cityNow.now : null
   const originIsReal = !!userPos && !!city && distanceKm(userPos, city) <= 80 && (accuracy === null || accuracy < 50000)
@@ -170,10 +208,11 @@ export default function App() {
       <HorizonClock sun={contextSun} mobile={mobile} />
       <div className="app" data-mode={mode}>
         <Header onSearch={() => setFindOpen(true)} onAbout={() => setAboutOpen(true)} scrolled={scrolled} />
-        <main className={mode === 'sky' ? 'sky' : 'city'}>
+        <main className={mobile ? (mode === 'sky' ? 'sky' : 'city') : 'shell'} data-sky={mode === 'sky' ? '' : undefined}
+          style={{ '--seat-x': seat[0], '--seat-y': seat[1], '--globe-r': `${Math.round(radius)}px` } as React.CSSProperties}>
           <div className={`stage${paperweight ? ' paperweight' : ''}`} onClick={paperweight ? scrollSheetToPeek : undefined} role={paperweight ? 'button' : undefined} aria-label={paperweight ? 'Back to the globe' : undefined}>
             <div className="globe-shadow" aria-hidden="true" />
-            <GlobeView markers={markers} selectedId={citySlug} seat={seat} still={still} sunDate={sunDate} pushBack={mobile ? sheetProgress : 0} paused={paperweight} autoRotate={mode === 'sky'} themeKey={theme} onSelect={onSelect} />
+            <GlobeView markers={markers} selectedId={citySlug} seat={seat} fit={fit} still={still} sunDate={sunDate} pushBack={mobile ? sheetProgress : 0} paused={paperweight} autoRotate={mode === 'sky'} themeKey={theme} onSelect={onSelect} />
           </div>
           {mobile && city && mode === 'city' && cityNow.sun && (
             <div className="stage-caption" aria-hidden="true">
@@ -181,18 +220,30 @@ export default function App() {
               <PhaseLine text={phaseLine(cityNow.now, cityNow.sun, city.timezone, { preview: cityNow.preview })} />
             </div>
           )}
-          {mode === 'sky' ? (
-            <SkyText now={live} userPos={userPos} onSearch={() => setFindOpen(true)} onAbout={() => setAboutOpen(true)} />
-          ) : mobile ? (
-            <Sheet fullOnMount={mode === 'spot'} bare={mode === 'spot'} sticky={mode === 'spot' ? null : <p className="city-name" style={{ fontSize: 'var(--t-display-s)' }}>{mode === 'saved' ? 'saved' : city?.name}</p>}>
-              {column}
-              <p className="only-mobile" style={{ paddingTop: 24 }}><button type="button" className="word word--quiet word--small" onClick={() => setAboutOpen(true)}>about</button>{' '}<button type="button" className="word word--quiet word--small" onClick={() => actions.sky()}>← sky</button></p>
-            </Sheet>
+          {mobile ? (
+            mode === 'sky' ? (
+              <SkyText now={live} userPos={userPos} onSearch={() => setFindOpen(true)} onAbout={() => setAboutOpen(true)} />
+            ) : (
+              <Sheet fullOnMount={mode === 'spot'} bare={mode === 'spot'} sticky={mode === 'spot' ? null : <p className="city-name" style={{ fontSize: 'var(--t-display-s)' }}>{mode === 'saved' ? 'saved' : city?.name}</p>}>
+                {column}
+                <p className="only-mobile" style={{ paddingTop: 24 }}><button type="button" className="word word--quiet word--small" onClick={() => setAboutOpen(true)}>about</button>{' '}<button type="button" className="word word--quiet word--small" onClick={() => actions.sky()}>← sky</button></p>
+              </Sheet>
+            )
           ) : (
-            <aside className="column" aria-label={mode === 'saved' ? 'Saved spots' : city?.name} onScroll={(e) => setScrolled(e.currentTarget.scrollTop > 4)}>
-              {mode === 'saved' && <p><button type="button" className="word word--quiet" onClick={() => actions.sky()}>← sky</button></p>}
-              {column}
-            </aside>
+            <>
+              {/* Both panels stay mounted so each can slide rather than blink. */}
+              <aside className="side side--cities" aria-label="All cities" {...(mode === 'sky' ? {} : { inert: true })}>
+                <CityMenu now={live} current={citySlug} />
+              </aside>
+              <aside className="side side--spots" aria-label={mode === 'saved' ? 'Saved spots' : city?.name ?? 'Places'}
+                {...(mode === 'sky' ? { inert: true } : {})}
+                onScroll={(e) => setScrolled(e.currentTarget.scrollTop > 4)}>
+                <div className="column">
+                  {mode === 'saved' && <p><button type="button" className="word word--quiet" onClick={() => actions.sky()}>← sky</button></p>}
+                  {column}
+                </div>
+              </aside>
+            </>
           )}
         </main>
         {(mode === 'spot' || mode === 'saved') && <div className="vh"><MarginNote /></div>}
