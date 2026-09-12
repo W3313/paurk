@@ -17,10 +17,10 @@ export function AboutDialog({ open, onClose }: Props) {
   }, [open])
   const slate = theme === 'slate' || (theme === 'auto' && matchMedia('(prefers-color-scheme: dark)').matches)
   return (
-    <dialog ref={ref} onClose={onClose} aria-label="About TrueChiller" onClick={(e) => { if (e.target === e.currentTarget) onClose() }}>
+    <dialog ref={ref} onClose={onClose} aria-label="About Paurk" onClick={(e) => { if (e.target === e.currentTarget) onClose() }}>
       <div className="dialog dialog--about about">
         <button type="button" className="word word--quiet dialog-close" onClick={onClose}>close</button>
-        <p className="display" style={{ fontSize: 'var(--t-display-m)', fontStyle: 'italic', color: 'var(--ink-2)' }}>TrueChiller</p>
+        <p className="display" style={{ fontSize: 'var(--t-display-m)', fontStyle: 'italic', color: 'var(--ink-2)' }}>Paurk</p>
         <p>Somewhere to breathe, wherever, whenever. {spots.length} low-key places in {cities.length} cities, gathered from what locals recommend online and checked one by one.</p>
         <p>We only list public places. Caution notes are about lighting and company after dark, not about crime statistics. Check hours locally; things change.</p>
         <p>Your location is looked at once, on this device, only when you ask. Nothing leaves it. Saved stones live in this browser.</p>

@@ -7,8 +7,8 @@ export function Header({ onChooseCity, onAbout, scrolled }: Props) {
   const mode = useStore((s) => s.mode)
   return (
     <header className={`header${scrolled ? ' is-scrolled' : ''}`}>
-      <a className="wordmark" href="#/" onClick={(e) => { e.preventDefault(); actions.sky() }} aria-label="TrueChiller, back to the sky">
-        {mode === 'sky' ? <h1 className="wordmark" style={{ display: 'inline' }}>TrueChiller</h1> : 'TrueChiller'}
+      <a className="wordmark" href="#/" onClick={(e) => { e.preventDefault(); actions.sky() }} aria-label="Paurk, back to the sky">
+        {mode === 'sky' ? <h1 className="wordmark" style={{ display: 'inline' }}>Paurk</h1> : 'Paurk'}
       </a>
       <nav className="words" aria-label="Main">
         <button type="button" className="word word--quiet" onClick={onChooseCity}>choose a city</button>

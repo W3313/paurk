@@ -40,11 +40,11 @@ export interface State {
   visitedCities: string[]
 }
 
-const SAVED_KEY = 'tc.saved.v1'
-const UNITS_KEY = 'tc.units.v1'
-const THEME_KEY = 'tc.theme.v1'
-const STILL_KEY = 'tc.still.v1'
-export const GEO_DENIED_KEY = 'tc.geo.denied'
+const SAVED_KEY = 'paurk.saved.v1'
+const UNITS_KEY = 'paurk.units.v1'
+const THEME_KEY = 'paurk.theme.v1'
+const STILL_KEY = 'paurk.still.v1'
+export const GEO_DENIED_KEY = 'paurk.geo.denied'
 
 export function loadLS<T>(key: string, fallback: T, valid?: (v: unknown) => v is T): T {
   try {

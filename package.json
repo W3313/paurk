@@ -1,9 +1,9 @@
 {
-  "name": "truechiller",
+  "name": "paurk",
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "TrueChiller — all the low-key chill spots around you, on a globe. Chill wherever, whenever.",
+  "description": "Paurk — all the low-key chill spots around you, on a globe. Chill wherever, whenever.",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

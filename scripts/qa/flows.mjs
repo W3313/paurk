@@ -73,7 +73,7 @@ for (const [label, vp, mobile] of [['desktop', { width: 1440, height: 900 }, fal
     await page.keyboard.press('Escape')
   }
   // 9. keyboard on globe: page down cycles focus, enter opens
-  await page.locator('canvas.tc-globe-canvas').focus()
+  await page.locator('canvas.paurk-globe-canvas').focus()
   await page.keyboard.press('PageDown')
   await page.waitForTimeout(600)
   await page.keyboard.press('Enter')

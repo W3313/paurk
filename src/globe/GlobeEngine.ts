@@ -210,7 +210,7 @@ export class GlobeEngine {
     this.renderer.setPixelRatio(Math.min(dpr, this.lite ? 1.5 : 2))
     this.renderer.setClearColor(0x000000, 0)
     const el = this.renderer.domElement
-    el.classList.add('tc-globe-canvas')
+    el.classList.add('paurk-globe-canvas')
     opts.container.appendChild(el)
 
     this.camera = new THREE.PerspectiveCamera(28, 1, 0.1, 100)
@@ -316,12 +316,12 @@ export class GlobeEngine {
     for (const m of markers.filter((x) => x.kind === 'city')) {
       const opt = document.createElement('span')
       opt.setAttribute('role', 'option')
-      opt.id = `tc-city-${m.id}`
+      opt.id = `paurk-city-${m.id}`
       opt.setAttribute('aria-selected', 'false')
       opt.textContent = m.label
       this.listbox.appendChild(opt)
     }
-    this.listbox.id = 'tc-globe-cities'
+    this.listbox.id = 'paurk-globe-cities'
     this.opts.container.appendChild(this.listbox)
     this.renderer.domElement.setAttribute('aria-owns', this.listbox.id)
     this.rings?.geometry.dispose(); this.discs?.geometry.dispose()
@@ -345,7 +345,7 @@ export class GlobeEngine {
         this.heat[i] = prevHeat.get(this.markers[i].id) ?? 0
         const el = document.createElement('button')
         el.type = 'button'
-        el.className = 'tc-label'
+        el.className = 'paurk-label'
         el.dataset.id = this.markers[i].id
         el.textContent = this.markers[i].label
         el.tabIndex = -1
@@ -363,7 +363,7 @@ export class GlobeEngine {
       this.userRing.visible = true
       const el = document.createElement('button')
       el.type = 'button'
-      el.className = 'tc-label tc-label--user'
+      el.className = 'paurk-label paurk-label--user'
       el.dataset.id = user.id
       el.textContent = user.approx ? 'you, approx.' : 'you'
       el.tabIndex = -1
@@ -372,7 +372,7 @@ export class GlobeEngine {
       this.labelEls.set(user.id, el)
     } else this.userRing.visible = false
     this.userPos = user ? new THREE.Vector3(...latLngToVec3(user.lat, user.lng, 1)) : null
-    if (this.focused >= 0 && this.focused < this.markers.length) this.listbox.querySelector(`#${CSS.escape(`tc-city-${this.markers[this.focused].id}`)}`)?.setAttribute('aria-selected', 'true')
+    if (this.focused >= 0 && this.focused < this.markers.length) this.listbox.querySelector(`#${CSS.escape(`paurk-city-${this.markers[this.focused].id}`)}`)?.setAttribute('aria-selected', 'true')
     else if (this.focused >= this.markers.length) this.setFocusIndex(-1)
     this.wake()
   }
@@ -732,7 +732,7 @@ export class GlobeEngine {
     const el = this.renderer.domElement
     if (this.listbox) for (const opt of this.listbox.children) opt.setAttribute('aria-selected', 'false')
     if (i >= 0) {
-      const id = `tc-city-${this.markers[i].id}`
+      const id = `paurk-city-${this.markers[i].id}`
       el.setAttribute('aria-activedescendant', id)
       this.listbox?.querySelector(`#${CSS.escape(id)}`)?.setAttribute('aria-selected', 'true')
       this.opts.onFocusMarker?.(this.markers[i].id)

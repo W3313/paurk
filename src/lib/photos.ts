@@ -12,7 +12,7 @@ export interface Photo {
   credit: string
 }
 
-const CACHE_KEY = 'tc.photos.v1'
+const CACHE_KEY = 'paurk.photos.v1'
 const TTL = 7 * 86400000
 type CacheEntry = { t: number; p: Photo | null }
 let mem: Record<string, CacheEntry> | null = null
