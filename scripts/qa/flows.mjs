@@ -42,7 +42,7 @@ for (const [label, vp, mobile] of [['desktop', { width: 1440, height: 900 }, fal
   await page.waitForTimeout(800)
   check(`${label}: saved page has a row`, (await page.locator('a.row').count()) >= 1)
   // 5. find: type and pick
-  await page.locator('header button.word', { hasText: 'find somewhere' }).click()
+  await page.locator('header button.find-trigger').click()
   await page.waitForTimeout(300)
   await page.locator('input.search').fill('tok')
   await page.waitForTimeout(300)

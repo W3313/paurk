@@ -90,7 +90,7 @@ for (const [name, vp, mob] of [['desktop', { width: 1280, height: 900 }, false],
   const q = await b.newPage({ viewport: vp, colorScheme: 'dark', isMobile: mob, hasTouch: mob })
   q.on('pageerror', (e) => errs.push(e.message))
   await q.goto(base, { waitUntil: 'networkidle' }); await q.waitForTimeout(1500)
-  await q.locator('header button.word', { hasText: 'find somewhere' }).click(); await q.waitForTimeout(500)
+  await q.locator('header button.find-trigger').click(); await q.waitForTimeout(500)
   for (const [state, fill] of [['standing', ''], ['results', 'park'], ['browse', '']]) {
     await q.locator('input.search').fill(fill)
     if (state === 'browse') await q.locator('dialog[open] [role=option]', { hasText: /all \d+ cities/ }).click()

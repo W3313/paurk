@@ -50,7 +50,7 @@ export function WorldNow({ now, onMore }: Props) {
           </ul>
         </div>
       ))}
-      <p><button type="button" className="word word--quiet" onClick={() => { actions.setMode('sky'); onMore(null) }}>all {cities.length} cities</button></p>
+      <p className="worldnow-city"><button type="button" className="word word--quiet" onClick={() => { actions.setMode('sky'); onMore(null) }}>all {cities.length} cities</button></p>
     </div>
   )
 }

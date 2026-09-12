@@ -208,7 +208,13 @@ html[data-still] .phase .w { animation: none; }
 .worldnow-group { display: grid; gap: 2px; padding-bottom: var(--s-3); }
 .worldnow-label { font-size: var(--t-small); color: var(--ink-2); }
 .worldnow-list { display: grid; gap: 0; }
-.worldnow-city { display: flex; align-items: baseline; justify-content: space-between; gap: var(--s-4); }
+/*
+ * A `.word` paints a 44px box but pulls 10px of it back with a negative margin, so in a zero-gap
+ * list each row's hover box bled over the name above it. Here the row IS the 44px target: drop the
+ * vertical pull so the painted box and the row are the same height and nothing overlaps.
+ */
+.worldnow-city { display: flex; align-items: center; justify-content: space-between; gap: var(--s-4); min-height: 44px; }
+.worldnow-city .word { margin-block: 0; text-decoration: none; }
 .worldnow-next { color: var(--ink-2); white-space: nowrap; font-size: var(--t-mono-s); }
 
 /* ---------- margin note ---------- */
@@ -430,10 +436,9 @@ html[data-still] .sheet, html[data-still] .column { scroll-behavior: auto; }
   /* The longest name in the dataset is 77 characters. Clamp the paint, not the text: a screen
      reader still reads the whole thing. */
   display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2; overflow: hidden;
-  text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .25em;
-  text-decoration-color: color-mix(in srgb, var(--ink) 55%, transparent);
 }
-.find-row[aria-selected="true"] .find-name { text-decoration-color: var(--ink); }
+/* The row is the target and the highlight says which one is active, so the name is left plain. */
+.find-row[aria-selected="true"] .find-name { color: var(--ink); }
 .find-when { grid-column: 2; grid-row: 1; font-size: var(--t-mono-s); color: var(--ink-2); white-space: nowrap; text-align: right; }
 .find-sub {
   grid-column: 1; grid-row: 2; min-width: 0; display: flex;
@@ -454,3 +459,7 @@ html[data-still] .sheet, html[data-still] .column { scroll-behavior: auto; }
   .find-row[aria-selected="true"] { outline: 2px solid Highlight; outline-offset: -2px; }
 }
 html[data-still] .find-row { transition: none !important; }
+
+/* The one icon in the app: a search mark in place of a header word, on its own 44px square. */
+.find-trigger { text-decoration: none; padding: 10px; justify-content: center; }
+.find-trigger svg { display: block; }
