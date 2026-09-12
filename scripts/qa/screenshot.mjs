@@ -22,7 +22,7 @@ for (const [name, vp, mobile] of [['desktop', { width: 1440, height: 900 }, fals
     await page.waitForTimeout(2600)
     await page.screenshot({ path: `${outDir}/${name}-${slug}.png` })
     if (mobile) {
-      const bad = await page.$$eval('a, button, [role=button], input', (els) => els.filter((el) => { const r = el.getBoundingClientRect(); const cs = getComputedStyle(el); return r.width > 0 && r.height > 0 && cs.visibility !== 'hidden' && (r.width < 44 || r.height < 44) && !el.closest('.tc-globe-labels') }).map((el) => `${el.tagName.toLowerCase()}.${[...el.classList].join('.')} "${(el.textContent || el.getAttribute('aria-label') || '').trim().slice(0, 30)}" ${Math.round(el.getBoundingClientRect().width)}x${Math.round(el.getBoundingClientRect().height)}`))
+      const bad = await page.$$eval('a, button, [role=button], input', (els) => els.filter((el) => { const r = el.getBoundingClientRect(); const cs = getComputedStyle(el); return r.width > 0 && r.height > 0 && cs.visibility !== 'hidden' && (r.width < 44 || r.height < 44) && !el.closest('.paurk-globe-labels') }).map((el) => `${el.tagName.toLowerCase()}.${[...el.classList].join('.')} "${(el.textContent || el.getAttribute('aria-label') || '').trim().slice(0, 30)}" ${Math.round(el.getBoundingClientRect().width)}x${Math.round(el.getBoundingClientRect().height)}`))
       for (const b of bad) small.push(`[${r}] ${b}`)
     }
   }

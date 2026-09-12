@@ -16,7 +16,7 @@ export class ErrorBoundary extends Component<Props, State> {
   }
 
   componentDidCatch(error: Error, info: ErrorInfo) {
-    console.error('TrueChiller crashed:', error, info.componentStack)
+    console.error('Paurk crashed:', error, info.componentStack)
   }
 
   private backToSky = () => {
@@ -26,8 +26,8 @@ export class ErrorBoundary extends Component<Props, State> {
 
   private reset = () => {
     try {
-      localStorage.removeItem('tc.photos.v1')
-      localStorage.removeItem('tc.saved.v1')
+      localStorage.removeItem('paurk.photos.v1')
+      localStorage.removeItem('paurk.saved.v1')
     } catch {
       /* storage unavailable */
     }

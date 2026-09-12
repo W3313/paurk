@@ -1,4 +1,4 @@
-# TrueChiller — plan
+# Paurk — plan
 
 > All the low-key ("lwk") chill spots around you, on a globe. Chill wherever, whenever.
 

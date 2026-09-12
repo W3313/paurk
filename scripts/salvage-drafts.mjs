@@ -3,7 +3,7 @@
 import { readFileSync, readdirSync, existsSync, writeFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 
-const base = '/root/.claude/projects/-home-user-TrueChiller/9ffbcae7-6db4-5daa-ab54-b0b68957fb57/subagents/workflows'
+const base = '/root/.claude/projects/-home-user-Paurk/9ffbcae7-6db4-5daa-ab54-b0b68957fb57/subagents/workflows'
 const out = resolve('data/research')
 const regionOf = { 'wf_afa15f94-f94': 'americas', 'wf_85d6c8fe-ed0': 'europe-africa', 'wf_9a6e68ce-ae6': 'asia-pacific' }
 let written = 0, skipped = 0

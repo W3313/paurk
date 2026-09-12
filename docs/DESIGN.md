@@ -1,4 +1,4 @@
-# TrueChiller — Final design spec ("Exhale")
+# Paurk — Final design spec ("Exhale")
 
 > Somewhere to breathe, wherever, whenever.
 
@@ -13,11 +13,11 @@ is described, it is the behaviour. Existing modules referenced by name (`src/lib
 
 ## 1. Concept & name
 
-**Name:** TrueChiller
+**Name:** Paurk
 **Tagline:** *Somewhere to breathe, wherever, whenever.*
 **Working title of the visual language:** Exhale.
 
-**Concept.** TrueChiller is a breathing exercise you can hold in your hand. One sheet of warm paper, one ink,
+**Concept.** Paurk is a breathing exercise you can hold in your hand. One sheet of warm paper, one ink,
 one seal-red mark, and a matte porcelain globe that inhales and exhales on an eight-second cycle. Every screen
 has exactly one thing to look at — the globe, the list, or the photo — and everything else is a whisper of
 text. There are no cards, no borders, no pills, no badges, no icons without words. Time of day is not a dark
@@ -248,7 +248,7 @@ Four durations, two easings. Nothing else is allowed.
 
 ### 2.8 Reduced motion
 
-`prefers-reduced-motion: reduce` **or** the "still" toggle (`localStorage tc.still.v1 = "1"`) sets
+`prefers-reduced-motion: reduce` **or** the "still" toggle (`localStorage paurk.still.v1 = "1"`) sets
 `html[data-still]`, which:
 - removes breath (sphere scale, halo, `--breath` frozen at 0), auto-rotation, ripple, dot-size oscillation,
   drag inertia (drag still rotates 1:1), row staggers, the first-breath sequence;
@@ -427,7 +427,7 @@ over 4s on a 6s cycle sampled from the shared clock; off under still.
 positions with `Vector3.project(camera)`; the nearest within 28px (44px on `pointer: coarse`) among front-facing
 markers (`dot(N, camDir) > 0.05`) wins. Markers below the veil line (§4.7) are ignored on the Sky screen.
 
-**Labels**: HTML `<button class="tc-label">` elements in the existing `labelLayer`, positioned each frame with
+**Labels**: HTML `<button class="paurk-label">` elements in the existing `labelLayer`, positioned each frame with
 `transform: translate3d()` from the projection (not React state). Cormorant italic 22px, ink; fade 600ms.
 - Fine pointer: one label — the hovered city, or the selected one.
 - Coarse pointer: up to six labels — the front-facing cities nearest the screen centre, opacity
@@ -582,7 +582,7 @@ variant.
 ### 5.8 Stone (save)
 Saving is an ink drop: the hollow 6px ring next to the word `save` fills from its centre over 240ms and the word
 becomes `saved`; the pebble row on Stones gains one ellipse; the city's marker disc fills. *Implementation:* SVG
-circle `r` 0→3 with `fill: var(--accent)`; `aria-pressed`; localStorage `tc.saved.v1` (existing). No overshoot.
+circle `r` 0→3 with `fill: var(--accent)`; `aria-pressed`; localStorage `paurk.saved.v1` (existing). No overshoot.
 
 ---
 
@@ -591,7 +591,7 @@ circle `r` 0→3 with `fill: var(--accent)`; `aria-pressed`; localStorage `tc.sa
 All components live in `src/components/`. Names given are file names.
 
 ### 6.1 Header / wordmark (`Header.tsx`)
-`<header>` 64px desktop / 56px mobile, paper, no rule. Left: `TrueChiller` in Cormorant italic 300, 28px desktop /
+`<header>` 64px desktop / 56px mobile, paper, no rule. Left: `Paurk` in Cormorant italic 300, 28px desktop /
 24px mobile, `--ink-2`; it is a `.word--quiet` linking to `#/`. Right: `.word--quiet`s `choose a city`
 (opens the dialog; permanent on every screen), `stones · 3` (count in mono; hidden count when 0 → just `stones`),
 `about` (desktop only; on mobile lives in the Sky footer and sheet footer). On Sky the header is transparent
@@ -662,7 +662,7 @@ ticks; the range still works.
 - > 80km: line + `open Porto` · `choose another`; ring stays on the globe.
 - Refused/failed: §3.4. Distances then come from the city centre; the row header says `distances from the centre`;
   no needles, no loupe.
-- Position lives in memory only; unit choice in `tc.units.v1`; the denial flag in `tc.geo.denied`.
+- Position lives in memory only; unit choice in `paurk.units.v1`; the denial flag in `tc.geo.denied`.
 
 ### 6.7 Vibe filter control (`VibeRow.tsx`)
 A row of `.word`s, one per vibe present in the city (dataset order), 13px ink-2 when off, ink + 2px accent
@@ -802,7 +802,7 @@ dial to the city's next morning. Preview prefix: `if it were 21:30 · …`. Offl
 - `--horizon` changes only through the 60s transition (400ms while scrubbing). `--horizon-h` transitions over 60s too.
 - The **paper never inverts by time**. Slate is applied only at load (`prefers-color-scheme: dark`) or by the
   `lights down` word; after sunset a margin-note line offers it once per session: `it is dark in Lisbon — lights down?`
-  with a `.word`. A change made by the user is stored in `tc.theme.v1` (`paper` | `slate` | `auto`).
+  with a `.word`. A change made by the user is stored in `paurk.theme.v1` (`paper` | `slate` | `auto`).
 - The golden numeral (56px Cormorant 400, tabular) appears under the globe (desktop) / above the actions (mobile)
   when golden hour is 0–90 min away, ticking per minute; `aria-live` announcements only every five minutes.
 
@@ -862,7 +862,7 @@ dial to the city's next morning. Preview prefix: `if it were 21:30 · …`. Offl
 person would say ("14 min walk", "about 2 km"). No exclamation marks. No emoji. No "discover", "explore", "vibe
 check", "hidden gem". The word "chill" appears only in the app name. The screen never tells you how to feel.
 
-**Wordmark:** `TrueChiller` (only capitalised word in the app besides proper nouns).
+**Wordmark:** `Paurk` (only capitalised word in the app besides proper nouns).
 
 **Headline / phase-line examples**
 - `18:42 · golden hour in 41 min`
@@ -919,7 +919,7 @@ check", "hidden gem". The word "chill" appears only in the app name. The screen 
 `← sky` · `← Lisbon` · `← list` · `close` · `continue` · `not now`.
 
 **About sheet (full text)**
-> TrueChiller lists low-key public places to sit, walk or read — parks, waterfronts, viewpoints, quiet cafés,
+> Paurk lists low-key public places to sit, walk or read — parks, waterfronts, viewpoints, quiet cafés,
 > libraries, gardens. Picks change with the light: sunset spots before sunset, lit places after dark, indoor
 > places in the rain. We only list public places. Caution notes are about lighting and company after dark, not
 > about crime statistics. Check hours locally; things change. Photos come from Wikipedia and its contributors.

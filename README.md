@@ -1,4 +1,4 @@
-# TrueChiller
+# Paurk
 
 > Somewhere to breathe, wherever, whenever.
 
@@ -35,7 +35,7 @@ their own preview URL.
 | Node version | pinned to 22 by `.node-version` |
 
 Leave `VITE_BASE` unset: the site is served from the root of a domain, and `base` already defaults to `/`. Set it
-only when serving from a sub-path (`VITE_BASE=/truechiller/ npm run build` for a GitHub Pages project site).
+only when serving from a sub-path (`VITE_BASE=/paurk/ npm run build` for a GitHub Pages project site).
 
 Routing is hash-based, so there are no deep-link 404s and no catch-all redirect rule is needed. `vite.config.ts`
 emits `dist/_headers` on every build from the same policy it injects as a meta tag, so the Content-Security-Policy,

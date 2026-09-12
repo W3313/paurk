@@ -92,7 +92,7 @@ export function SpotPage({ spot, city, now, sun, origin, originIsReal, mobile }:
       {originIsReal && <p className="small">{formatDistance(km, units)} from you</p>}
       <div className="words" style={{ gap: '10px 28px', paddingTop: 8 }}>
         <button type="button" className="word" aria-pressed={saved} onClick={() => actions.toggleSaved(spot.id)}><span className="stone" aria-hidden="true" />{saved ? 'saved' : 'save'}</button>
-        <ShareWord title={`${spot.name} — TrueChiller`} />
+        <ShareWord title={`${spot.name} — Paurk`} />
         <button type="button" className="word" onClick={() => setBreathe(true)}>breathe here</button>
       </div>
       <BreatheOverlay name={spot.name} open={breathe} onClose={() => setBreathe(false)} still={still} />

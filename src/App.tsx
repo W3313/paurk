@@ -120,10 +120,10 @@ export default function App() {
   useEffect(() => {
     const spot = spotId ? spotsByCity.get(spotId.split('/')[0])?.find((x) => x.id === spotId) : null
     const title =
-      mode === 'spot' && spot && city ? `${spot.name}, ${city.name} · TrueChiller`
-      : mode === 'city' && city ? `${city.name} · TrueChiller`
-      : mode === 'stones' ? 'Stones · TrueChiller'
-      : 'TrueChiller · somewhere to breathe, wherever, whenever'
+      mode === 'spot' && spot && city ? `${spot.name}, ${city.name} · Paurk`
+      : mode === 'city' && city ? `${city.name} · Paurk`
+      : mode === 'stones' ? 'Stones · Paurk'
+      : 'Paurk · somewhere to breathe, wherever, whenever'
     document.title = title
   }, [mode, city, spotId])
 

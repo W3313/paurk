@@ -76,7 +76,7 @@ export function GlobeView({ markers, selectedId, seat, still, sunDate, pushBack,
   if (fallback) return <Globe2D markers={markers} dotsUrl={dotsUrl} onSelect={(id) => onSelect(id)} selected={selectedId} />
   return (
     <div className={`globe-wrap${ready && !still ? ' is-breathing-in' : ''}`} ref={host}>
-      <div className="tc-globe-labels" ref={labels} aria-hidden="true" />
+      <div className="paurk-globe-labels" ref={labels} aria-hidden="true" />
     </div>
   )
 }
