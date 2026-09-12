@@ -1,5 +1,21 @@
+import { readFileSync } from 'node:fs'
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+
+/**
+ * The counts in the page's own copy come from the dataset, not from a number someone typed. Adding a
+ * city used to leave the meta description quietly claiming the old total.
+ */
+function datasetCounts() {
+  try {
+    const d = JSON.parse(readFileSync(new URL('./src/data/spots.json', import.meta.url), 'utf8')) as {
+      cities: unknown[]; spots: unknown[]
+    }
+    return { cities: String(d.cities.length), spots: String(d.spots.length) }
+  } catch {
+    return { cities: '', spots: '' }
+  }
+}
 
 // One source of truth for the policy: injected into the built HTML as a meta tag (so it travels with
 // the files on any static host) and emitted as a real `_headers` file for Cloudflare Pages.
@@ -51,7 +67,11 @@ export default defineConfig(({ command }) => ({
       transformIndexHtml: (html: string) => {
         // Absolute URLs are required for social cards; set VITE_SITE_URL once the domain is known.
         const site = (process.env.VITE_SITE_URL ?? 'https://paurk.com').replace(/\/$/, '')
-        const withSite = html.replaceAll('%SITE_URL%', site)
+        const n = datasetCounts()
+        const withSite = html
+          .replaceAll('%SITE_URL%', site)
+          .replaceAll('%CITY_COUNT%', n.cities)
+          .replaceAll('%SPOT_COUNT%', n.spots)
         return command === 'build'
           ? withSite.replace('<meta charset="UTF-8" />', `<meta charset="UTF-8" />\n    <meta http-equiv="Content-Security-Policy" content="${CSP}" />`)
           : withSite

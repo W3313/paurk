@@ -16,7 +16,8 @@
     "find": "node scripts/qa/find.mjs",
     "geo": "node scripts/qa/geo.mjs",
     "vibes": "node scripts/qa/vibes.mjs",
-    "qa": "node scripts/qa/flows.mjs && node scripts/qa/find.mjs && node scripts/qa/geo.mjs && node scripts/qa/vibes.mjs"
+    "city": "node scripts/qa/city.mjs",
+    "qa": "node scripts/qa/flows.mjs && node scripts/qa/find.mjs && node scripts/qa/geo.mjs && node scripts/qa/vibes.mjs && node scripts/qa/city.mjs"
   },
   "dependencies": {
     "d3-geo": "^3.1.1",

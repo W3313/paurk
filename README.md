@@ -3,7 +3,7 @@
 > Somewhere to breathe, wherever, whenever.
 
 All the low-key ("lwk") chill spots around you, on a globe. A static web app: a matte porcelain globe on warm
-paper shows 43 cities; pick one (or say *around me*) and get a ranked list of quiet parks, waterfronts,
+paper shows 44 cities; pick one (or say *around me*) and get a ranked list of quiet parks, waterfronts,
 viewpoints, gardens, cafés, libraries and public rooftops for **right now**: the time of day, the sun, the
 weather and your distance all change the order and the words.
 
@@ -63,7 +63,7 @@ To deploy by hand instead of connecting Git: `npm run build && npx wrangler page
 | **Whenever** | Sunrise, sunset and golden hour are computed on the device (SunCalc) per city. The horizon light on the page and the sphere follow the phase of day; a *sun-rule* dial lets you scrub the day (and pin a time into the link) to see what the picks would be at 21:30. |
 | **Ranking** | "Right now" scoring: period of day × weather (Open-Meteo, keyless, optional) × your chosen vibes × distance × hours confidence. Every top pick explains itself in one line starting with *because*. At night, spots with a caution note sink below *better in daylight*. |
 | **Spot page** | A deterministic *Sumi poster* is painted first; a photograph from the spot's Wikipedia article loads over it when one exists (fetched in your browser from Wikipedia's public API, with a Commons attribution link). Blurb, tip, best times, hours (*open now* only when the hours are unambiguous, otherwise *see hours*), *take care* note, sources, save, share, *breathe here*. |
-| **Find** | One combobox over all 43 cities and all 590 places, opened from the header or with `/`. Ranks names, neighbourhoods, categories and vibes in tiers; every row carries that place's local clock, its period of day, and a countdown to what happens next there. Before you type a letter it already offers what the light is doing elsewhere, where you have been lately, and the whole city list. |
+| **Find** | One combobox over all 44 cities and all 604 places, opened from the header or with `/`. Ranks names, neighbourhoods, categories and vibes in tiers; every row carries that place's local clock, its period of day, and a countdown to what happens next there. Before you type a letter it already offers what the light is doing elsewhere, where you have been lately, and the whole city list. |
 | **Saved** | Saved spots (localStorage) grouped by city; the globe fills the disc of cities that hold them. |
 | **Access** | Every control is an underlined word with a 44 px hit box (checked by `npm run shots`); native dialogs; one polite live region; reduced-motion (*still*) mode; paper and slate themes; 4.5:1 text contrast under every horizon colour. |
 
@@ -79,7 +79,7 @@ The brief asked for research through Reddit. Reddit is not reachable from the en
    substacks), and those are the sources cited. **No URL is cited unless it appeared in a search result.**
 2. **One skeptical verify agent per city** confirmed each place exists and is public, applied the safety policy,
    sanity-checked coordinates against the city centre, confirmed the Wikipedia title that drives the photo, and
-   wrote the file. All 43 cities went through this stage (590 spots; 383 with a confirmed photo title; 104 with
+   wrote the file. All 44 cities went through this stage (604 spots; 389 with a confirmed photo title; 112 with
    a caution note). Each file records which checks were made by live search and which from reviewer knowledge.
 3. `scripts/build-dataset.mjs` validates, de-duplicates and drops anything more than 80 km from its city.
 

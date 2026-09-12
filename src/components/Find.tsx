@@ -50,7 +50,7 @@ const whenOf = (now: Date, city: City, sun: SunInfo) => `${formatClock(now, city
 /**
  * The one way in besides the globe: a combobox over every city and every place, with a standing list
  * that is already useful before a letter is typed. It replaces the old modal city picker, so it also
- * carries the no-WebGL path — all 43 cities are reachable here without typing and without a globe.
+ * carries the no-WebGL path — all 44 cities are reachable here without typing and without a globe.
  */
 export function Find({ open, onClose, now }: Props) {
   const ref = useRef<HTMLDialogElement>(null)
@@ -257,7 +257,7 @@ export function Find({ open, onClose, now }: Props) {
     // Ask for the whole ranked list, not a capped head of it, and take the split from there. A cap
     // here would starve one kind whenever the other happens to outscore it: "o" fills its first fifty
     // hits with places whose second word starts in O, and every city named Toronto falls off the end.
-    // Scoring 43 cities and 590 places takes well under a millisecond, so there is nothing to save.
+    // Scoring 44 cities and 604 places takes well under a millisecond, so there is nothing to save.
     const hits = search(q, cities.length + spots.length, citySlug)
     const cs = hits.filter((h) => h.kind === 'city')
     const ss = hits.filter((h) => h.kind === 'spot')

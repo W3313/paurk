@@ -106,7 +106,7 @@ let worldVal: World | null = null
 /**
  * Every city's sun for the current minute, computed once and shared. Both the sky list and the find
  * panel need it, and the find panel re-renders on every keystroke — without this, typing would
- * recompute 43 solar positions per letter.
+ * recompute 44 solar positions per letter.
  */
 export function worldNow(list: City[], now: Date): World {
   const key = Math.floor(now.getTime() / 60000)
