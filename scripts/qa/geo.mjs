@@ -4,7 +4,7 @@ const base = process.argv[2] ?? 'http://127.0.0.1:4173/'
 const exe = '/opt/pw-browsers/chromium-1194/chrome-linux/chrome'
 const b = await chromium.launch({ executablePath: exe, args: ['--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader'] })
 let failed = 0
-const ok = (n, c, extra='') => { if (!c) failed++; console.log(`${c ? 'ok  ' : 'FAIL'} ${n}${extra ? ' ' + extra : ''}`) }
+const ok = (n, c, extra = '') => { if (!c) failed++; console.log(`${c ? 'ok  ' : 'FAIL'} ${n}${!c && extra ? ' — ' + extra : ''}`) }
 
 async function run(name, geo, grant) {
   const ctx = await b.newContext({ viewport: { width: 1280, height: 900 }, colorScheme: 'dark',

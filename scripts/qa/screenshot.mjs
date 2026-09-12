@@ -5,7 +5,7 @@ import { chromium } from 'playwright'
 import { mkdirSync } from 'node:fs'
 
 const [,, url = 'http://127.0.0.1:4173/', outDir = 'qa-shots', ...routes] = process.argv
-const ROUTES = routes.length ? routes : ['#/', '#/c/lisbon', '#/s/lisbon/miradouro-de-santa-catarina', '#/stones']
+const ROUTES = routes.length ? routes : ['#/', '#/c/lisbon', '#/s/lisbon/miradouro-de-santa-catarina', '#/saved']
 mkdirSync(outDir, { recursive: true })
 const exe = '/opt/pw-browsers/chromium-1194/chrome-linux/chrome'
 const browser = await chromium.launch({ executablePath: exe, args: ['--use-gl=angle', '--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist'] })
@@ -22,7 +22,7 @@ for (const [name, vp, mobile] of [['desktop', { width: 1440, height: 900 }, fals
     await page.waitForTimeout(2600)
     await page.screenshot({ path: `${outDir}/${name}-${slug}.png` })
     if (mobile) {
-      const bad = await page.$$eval('a, button, [role=button], input', (els) => els.filter((el) => { const r = el.getBoundingClientRect(); const cs = getComputedStyle(el); return r.width > 0 && r.height > 0 && cs.visibility !== 'hidden' && (r.width < 44 || r.height < 44) && !el.closest('.paurk-globe-labels') }).map((el) => `${el.tagName.toLowerCase()}.${[...el.classList].join('.')} "${(el.textContent || el.getAttribute('aria-label') || '').trim().slice(0, 30)}" ${Math.round(el.getBoundingClientRect().width)}x${Math.round(el.getBoundingClientRect().height)}`))
+      const bad = await page.$$eval('a, button, [role=button], [role=option], input', (els) => els.filter((el) => { const r = el.getBoundingClientRect(); const cs = getComputedStyle(el); return r.width > 0 && r.height > 0 && cs.visibility !== 'hidden' && (r.width < 44 || r.height < 44) && !el.closest('.paurk-globe-labels') && !el.closest('.vh') }).map((el) => `${el.tagName.toLowerCase()}.${[...el.classList].join('.')} "${(el.textContent || el.getAttribute('aria-label') || '').trim().slice(0, 30)}" ${Math.round(el.getBoundingClientRect().width)}x${Math.round(el.getBoundingClientRect().height)}`))
       for (const b of bad) small.push(`[${r}] ${b}`)
     }
   }

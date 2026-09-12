@@ -59,6 +59,21 @@ describe('search', () => {
     expect(search('library', 10).some((h) => h.kind === 'spot' && h.spot.category === 'library')).toBe(true)
   })
 
+  it('ranks both kinds when asked for the whole list', () => {
+    // The panel asks for everything and splits by kind itself, because any cap starves whichever kind
+    // the other happens to outscore: "o" would otherwise return fifty places and no city.
+    for (const q of ['a', 'o', 'lo']) {
+      const hits = search(q, 10000)
+      expect(hits.filter((h) => h.kind === 'city').length).toBeGreaterThan(0)
+      expect(hits.filter((h) => h.kind === 'spot').length).toBeGreaterThanOrEqual(8)
+    }
+  })
+
+  it('a capped search can return one kind only, which is why the panel does not cap', () => {
+    const capped = search('o', 24)
+    expect(capped.every((h) => h.kind === 'spot')).toBe(true)
+  })
+
   it('builds a route for each hit', () => {
     for (const h of search('tokyo', 5)) expect(hitHash(h)).toMatch(/^#\/(c|s)\//)
   })

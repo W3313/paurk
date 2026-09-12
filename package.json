@@ -12,7 +12,10 @@
     "test": "vitest run",
     "build:data": "node scripts/build-dataset.mjs && node scripts/build-globe-dots.mjs",
     "shots": "node scripts/qa/screenshot.mjs",
-    "flows": "node scripts/qa/flows.mjs"
+    "flows": "node scripts/qa/flows.mjs",
+    "find": "node scripts/qa/find.mjs",
+    "geo": "node scripts/qa/geo.mjs",
+    "qa": "node scripts/qa/flows.mjs && node scripts/qa/find.mjs && node scripts/qa/geo.mjs"
   },
   "dependencies": {
     "d3-geo": "^3.1.1",

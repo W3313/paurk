@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
-import { cities, cityBySlug, spotById, spotsByCity } from '../data'
+import { cities, cityBySlug, spotById, spots, spotsByCity } from '../data'
 import { actions, useStore } from '../store'
 import { formatClock, PERIOD_LABEL, sunInfo, tzOffsetMinutes, type SunInfo } from '../lib/time'
 import { guessCity, worldNow } from '../lib/phase'
@@ -33,6 +33,8 @@ const REGION_LABEL: Record<string, string> = {
   americas: 'the americas', 'europe-africa': 'europe and africa', 'asia-pacific': 'asia and the pacific', other: 'elsewhere',
 }
 const CONSENT = 'We look at your location once, on this device. Nothing leaves it.'
+/** Result rows shown at once, before the standing `all N cities` row. */
+const MAX_ROWS = 8
 const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1)
 
 /** The word that actually matched, when it was not the name: a category, or one of the spot's vibes. */
@@ -252,11 +254,15 @@ export function Find({ open, onClose, now }: Props) {
   // ---- results -----------------------------------------------------------------------------------
 
   const results = useMemo((): Group[] => {
-    const hits = search(q, 24, citySlug)
+    // Ask for the whole ranked list, not a capped head of it, and take the split from there. A cap
+    // here would starve one kind whenever the other happens to outscore it: "o" fills its first fifty
+    // hits with places whose second word starts in O, and every city named Toronto falls off the end.
+    // Scoring 43 cities and 590 places takes well under a millisecond, so there is nothing to save.
+    const hits = search(q, cities.length + spots.length, citySlug)
     const cs = hits.filter((h) => h.kind === 'city')
     const ss = hits.filter((h) => h.kind === 'spot')
-    const nCities = Math.min(cs.length, ss.length ? 4 : 8)
-    const nSpots = Math.min(ss.length, 8 - nCities)
+    const nCities = Math.min(cs.length, ss.length ? 4 : MAX_ROWS)
+    const nSpots = Math.min(ss.length, MAX_ROWS - nCities)
     const groups: Group[] = []
     if (nCities) {
       const rows = cs.slice(0, nCities).flatMap((h) => (h.kind === 'city' ? [cityRow(h.city)] : []))
@@ -291,7 +297,8 @@ export function Find({ open, onClose, now }: Props) {
   const activeIndex = rows.findIndex((r) => r.key === activeKey)
   const active = activeIndex >= 0 ? rows[activeIndex] : null
 
-  useEffect(() => { if (open) getGlobe()?.setHot(active?.citySlug ?? null) }, [open, active])
+  const activeCity = active?.citySlug ?? null
+  useEffect(() => { if (open) getGlobe()?.setHot(activeCity) }, [open, activeCity])
 
   useEffect(() => {
     if (!activeKey || !listRef.current) return

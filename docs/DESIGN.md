@@ -24,7 +24,7 @@ text. There are no cards, no borders, no pills, no badges, no icons without word
 mode but a *horizon light*: a slow band of colour that rises from the bottom of the page and is caught on the
 underside of the globe, shifting imperceptibly from rose (dawn) through apricot (golden hour) to slate (night).
 The globe does not float in space: on the home screen it *rests in that light*, its lower limb dissolving into
-the horizon like a moon just risen from paper, and it lifts clear only when you choose a city. Motion is limited
+the horizon like a moon just risen from paper, and it lifts clear only when you open a city. Motion is limited
 to fading, drifting and breathing; nothing bounces, nothing is faster than a breath.
 
 **The one bolder decision (answering "it needs one bolder, more specific visual decision"):** the globe is
@@ -39,7 +39,7 @@ printed plate caption and the travelled route keep it from reading as a wellness
 
 | Critique | Resolution in this spec |
 | --- | --- |
-| **Affordance: bare words, no nav, no search box; a first-time user sees a ball and does not know what is tappable.** | (a) A hard typographic rule: *every actionable word is underlined* (1px ink underline, offset 0.25em) and set in Zen Kaku 500; *no passive text is ever underlined*. Underline = tappable, always. (b) The **margin note** (§6.13): a single, always-present caption line under the phase line that narrates state and, in context, says what you can do ("drag the globe, or choose a city", "tap a row to open it"). It is not a one-time hint; it is the app's voice. (c) The **"now in the world" list** (§6.3) under the globe on the Sky screen lists city names as tappable words grouped by what is happening there — so on touch, where hover labels do not exist, every city is reachable as text without opening a dialog. (d) The choose-a-city dialog is opened by a permanent word in the header on every screen. |
+| **Affordance: bare words, no nav, no search box; a first-time user sees a ball and does not know what is tappable.** | (a) A hard typographic rule: *every actionable word is underlined* (1px ink underline, offset 0.25em) and set in Zen Kaku 500; *no passive text is ever underlined*. Underline = tappable, always. (b) The **margin note** (§6.13): a single, always-present caption line under the phase line that narrates state and, in context, says what you can do ("drag the globe, or search", "tap a row to open it"). It is not a one-time hint; it is the app's voice. (c) The **"now in the world" list** (§6.3) under the globe on the Sky screen lists city names as tappable words grouped by what is happening there — so on touch, where hover labels do not exist, every city is reachable as text without opening the find panel. (d) The find panel (§6.4) is opened by a permanent word in the header on every screen, or by `/`. |
 | **44px targets are "a matter of padding discipline that nobody will police".** | One `.word` class (§2.6) gives every actionable word a 44×44 minimum hit box through padding + negative margin, and `scripts/qa/screenshot.mjs` gains a check that fails the build when any `a, button, [role=button], input` has a bounding box under 44×44 on the 390px run. Policed by CI, not by people. |
 | **On touch, exactly one label at a time appears on hover, so city names are invisible until you tap.** | On coarse pointers the globe shows **up to six labels** for the front-facing cities nearest the screen centre (fading by `dot(normal, view)`), plus the "now in the world" list. On fine pointers, hover shows one label as before. Keyboard shows the focused one. |
 | **Uniqueness "good rather than great": warm paper + Cormorant + one accent is the quiet-luxury trope.** | The risen-moon composition, the printed plate caption, the dotted session route, leader lines from list rows to markers, and the terminator that is *honest* (real sub-solar point, scrubbable) — all specific to this product, none of them decoration. |
@@ -214,7 +214,7 @@ Every action is a word. This class is the only way to make one:
 .word:hover, .word:focus-visible { background: var(--well); text-decoration-color: var(--ink); }
 .word:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
 .word[aria-pressed="true"] { text-decoration-color: var(--accent); text-decoration-thickness: 2px; }
-.word--quiet { font-weight: 400; color: var(--ink-2); } /* header words: about, stones */
+.word--quiet { font-weight: 400; color: var(--ink-2); } /* header words: about, saved */
 ```
 
 Passive text never has `text-decoration: underline`. Sources in the detail page are `.word`s too (they are links).
@@ -284,12 +284,12 @@ At 900–1023px the column is 400px with 32px padding; at ≥1024px it is 460px 
 text measure.
 
 - **Header** (spans both columns, 64px tall, 40px side padding): left, the wordmark; right, three `.word--quiet`s:
-  `choose a city` · `stones · 3` · `about`. The header is `position: sticky; top: 0` over paper at 85% with
+  `find somewhere` · `saved · 3` · `about`. The header is `position: sticky; top: 0` over paper at 85% with
   `backdrop-filter: blur(12px) saturate(.8)` only when the column scrolls under it.
 - **Sky (`#/`)**: the column is absent (`grid-template-columns: 1fr`). The globe canvas is a square of
   `min(64vh, 48vw)` centred horizontally, its centre at 44% of viewport height. Under it, centred, a text stack
   380px wide: the plate caption (mono 12px, ink-2), the phase line (Cormorant 22), the margin note (13px ink-2),
-  the two action words `around me` · `choose a city`, then the "now in the world" list (§6.3), then the
+  then the "now in the world" list (§6.3), then the
   serendipity line ("today in Lisbon: Jardim do Torel"). The horizon band is 45vh tall (60vh at night) and the
   sphere's lower limb dissolves into it via the veil (§4.7).
 - **City (`#/c/…`)**: two columns. The globe remains in the left column, camera re-seated with
@@ -305,7 +305,7 @@ text measure.
 
 ### 3.3 Mobile (< 900px; designed at 390×844 first)
 
-- **Top row** 56px: wordmark left; `choose a city` and `stones · 3` right (`about` moves into the sheet footer
+- **Top row** 56px: wordmark left; `find somewhere` and `saved · 3` right (`about` moves into the sheet footer
   and the Sky footer). Safe-area padding: `padding-top: env(safe-area-inset-top)`.
 - **Sky**: the canvas is a 1:1 square of width `min(100vw, 62vh)`, centred, with its centre at 40% of viewport
   height; the plate caption, phase line, margin note and the two action words sit in the lower third *over* the
@@ -336,14 +336,14 @@ text measure.
 | State | What the user sees |
 | --- | --- |
 | **Loading** | Paper, wordmark, the empty canvas wrapper (contact shadow already painted). Land dots resolve in random order over 1.4s (`uReveal`), the sphere scales .96→1 over 1.6s, the plate caption fades in, then the phase line word by word. Three.js is lazy-loaded after first paint; the header words and the "now in the world" list are usable before the globe exists. |
-| **Idle (Sky)** | Globe breathing, auto-rotating, resting in the horizon light. Margin note: "drag the globe, or choose a city" (first visit) / the day's serendipity line (later visits). |
+| **Idle (Sky)** | Globe breathing, auto-rotating, resting in the horizon light. Margin note: "drag the globe, or search" (first visit) / the day's serendipity line (later visits). |
 | **City selected** | Flight (1.8s), ripple, name writes itself, rows settle. Margin note: "8 places · 3 good right now". |
 | **Spot selected** | Poster paints instantly; photo crossfades when accepted. Globe shows the bearing tick from the city centre. |
 | **Around you (granted)** | User ring on the globe, meridian faces the camera, nearest city within 80km selected; compass row; loupe; needles on rows. |
 | **Around you (> 80km)** | "The nearest city we know is Porto, 312 km away." with `open Porto` · `choose another`; the user ring stays. |
 | **No permission / failed** | Margin note: "No location — that is fine." The choose-a-city dialog opens with focus in the type-ahead, the timezone guess at the top. Rows show "distances from the centre" once; no needles, no bearings. `try again` word remains under the globe. Denial is remembered (`localStorage tc.geo.denied=1`); the prompt is never re-triggered automatically. |
 | **Unsupported / insecure context** | `around me` is not rendered. |
-| **Stones (empty)** | "No stones yet. Save a spot and it will rest here." |
+| **Saved (empty)** | "Nothing saved yet. Save a spot and it will wait here." |
 | **Empty filter result** | "Nothing matches quiet + water here right now — loosen a word." The vibe row shows the counts so the user sees which word to drop. |
 | **No photo** | The Sumi poster stays; caption "no photograph · poster drawn from the spot's notes". Not an error state. |
 | **Offline** | Phase line suffix "· offline"; weather clause absent; photos from cache or poster; everything else identical. |
@@ -592,8 +592,8 @@ All components live in `src/components/`. Names given are file names.
 
 ### 6.1 Header / wordmark (`Header.tsx`)
 `<header>` 64px desktop / 56px mobile, paper, no rule. Left: `Paurk` in Cormorant italic 300, 28px desktop /
-24px mobile, `--ink-2`; it is a `.word--quiet` linking to `#/`. Right: `.word--quiet`s `choose a city`
-(opens the dialog; permanent on every screen), `stones · 3` (count in mono; hidden count when 0 → just `stones`),
+24px mobile, `--ink-2`; it is a `.word--quiet` linking to `#/`. Right: `.word--quiet`s `find somewhere`
+(opens the find panel; permanent on every screen, also bound to `/`), `saved · 3` (count in mono; hidden count when 0 → just `saved`),
 `about` (desktop only; on mobile lives in the Sky footer and sheet footer). On Sky the header is transparent
 over paper; when the column scrolls beneath it, it becomes paper at 85% with blur.
 
@@ -614,17 +614,46 @@ opens the dialog scrolled to that group). Groups shown in this order when non-em
 `dusk`, `evening`, `night`, `dawn`, `morning`, `midday`, `afternoon`; max three groups on the Sky (the rest under
 `all 35` → dialog). Hover/focus drives marker heat and the leader line. This is the touch user's map of the globe.
 
-### 6.4 City switcher (`CityDialog.tsx`)
-Native `<dialog>`, full-screen on mobile, 480px wide on desktop, paper, no border, `::backdrop` paper at 70%.
-Top: a `<input type=search>` with placeholder `type a city` — 22px Cormorant, hairline underline only, autofocus;
-filters as you type (prefix and substring, diacritic-insensitive). Below: a two-level `<ul>`:
-- first, **`guess: Tokyo (from your clock)`** — the city whose IANA timezone equals `Intl.DateTimeFormat().resolvedOptions().timeZone`
-  (or the same UTC offset, nearest by longitude), offered as a `.word` `open Tokyo`; never applied automatically;
-- then regions in the dataset's order, each city as a row: name (`.word`, 16px) · local time and phase in mono
-  (`03:12 · night`, ink-2); the current city marked with a 6px filled ink disc and "current" in visually hidden text.
-Ordering inside a region: exact IANA match first, same UTC offset next, then alphabetical. Keyboard: arrows move,
-Enter opens, Escape closes; focus trapped by the native dialog. On close, focus returns to the opener.
-This dialog is the no-WebGL and the no-geolocation path.
+### 6.4 Find (`Find.tsx`)
+The one way in besides the globe, opened by the permanent header word `find somewhere` or by `/` from anywhere.
+A native `<dialog>`: full-screen under 900px, and at 900px and up **the app's own right column** — `var(--column)`
+wide, full height, pinned right, one hairline on its left edge, `::backdrop` paper at 70% so the globe stays
+visible and its markers heat as you arrow down the list. Three grid rows — the head words, the field, the listbox —
+so the panel never changes height and only the list scrolls.
+
+The field is `.search` (22px Cormorant, hairline underline only, no box, no icon), placeholder
+`a city, a park, a street`, `role="combobox"` with `aria-controls`, `aria-autocomplete="list"` and
+`aria-activedescendant`. It autofocuses on a fine pointer only: on a phone the soft keyboard would bury the
+standing list, which is the point of having one.
+
+**Ranking** (`lib/search.ts`) scores each field in tiers — exact 100, prefix 70, word-start 45, substring 20 —
+over city name and country, and over spot name, neighbourhood, category and vibes. Cities carry +8 so a city
+outranks its own spots; the city on screen carries +12 so a local match wins. Ties break on lowkey score then
+alphabetically, deliberately without consulting the clock: a time-based tiebreak would reshuffle the list under
+an idle finger every minute.
+
+**Row anatomy**, one shape for all four variants: the name (underlined — the row is the action, so no interactive
+element is nested inside an `option`), the local clock and period in mono on the right (`03:12 · night`), a sub
+line, and a tail. City rows put their countdown in the tail (`sunset in 41 min`); spot rows put an ochre
+`caution after dark` there when the spot is flagged and its city is dark, because safety is never hidden by a
+filter and a search is a filter (§6.11). The word that caused a match — a category, a vibe — is printed in the sub
+with the accent underline, and is the one part that never truncates.
+
+**Before a letter is typed** the list is already useful, in this order: a three-row light block (`good right now`
+in the home city, or `awake somewhere else` when it is night there), `lately` from visited cities and saved spots,
+then two loose options with no heading — the home city with its provenance printed (`from your clock` /
+`nearest to you`, never applied automatically) and `around me` carrying §6.6's consent sentence *as its sub line*,
+before the browser is ever asked — and last, `all 43 cities`, which switches the body to the region-grouped list.
+The first row of the light block is pre-selected, so `/` then Enter can never fire a geolocation prompt.
+
+**Keyboard**, handled on the dialog element rather than the input so a keyboard on a touch device works: arrows
+move and wrap, Home/End jump (End then Enter is the one-keypress route to the full city list), PageUp/PageDown
+move five, Enter opens, Escape closes in one press. A printable key pressed while the pane holds focus moves
+focus to the field and is not swallowed. The active row is marked by a 2px ink rule down its left edge plus the
+well and a full-ink underline — never colour alone.
+
+This panel is the no-WebGL and the no-geolocation path: every city is reachable here without a globe and without
+typing a letter.
 
 ### 6.5 "Whenever" time module (`SunRule.tsx`)
 Desktop: a 380px-wide figure, 44px tall. A 1px hairline at y=28; hourly ticks (2px tall, `--hairline`), 6-hourly
@@ -645,14 +674,20 @@ via `mask-image`.
 Polar edge case (`sunInfo.polar`): the figure prints "the sun doesn't set today" / "doesn't rise today" instead of
 ticks; the range still works.
 
-### 6.6 "Around you" module (`AroundYou.tsx`, `Compass.tsx`)
-- Under the globe on Sky: the `.word` `around me`. First tap shows one line beneath it — "We look at your
-  location once, on this device. Nothing leaves it." — with `continue` · `not now`. Only `continue` calls
-  `getCurrentPosition` (`enableHighAccuracy: false, timeout: 8000, maximumAge: 300000`). Never asked at launch.
-- Success: ring on the globe, slerp, nearest city within 80km selected; the city header becomes
+### 6.6 "Around you" (`lib/locate.ts`, inside `Find.tsx`)
+- `around me` is a row in the find panel (§6.4). Its sub line *is* the consent sentence — "We look at your
+  location once, on this device. Nothing leaves it." — printed before activation, so the explanation precedes the
+  prompt without a second tap. Activating it calls `getCurrentPosition`
+  (`enableHighAccuracy: false, timeout: 8000, maximumAge: 300000`). Never asked at launch. Once refused on this
+  device the row reads `try again`.
+- Success within 80 km: ring on the globe, slerp, nearest city selected, panel closed; the city header becomes
   `around you · Lisbon · 18:42 · golden hour in 41 min`; the **compass row**: `you are 2.1 km east of the centre ·
   point the needles` (the last three words are a `.word` requesting heading on iOS; absent where not needed);
   accuracy > 2km appends `· approximate`.
+- Further than 80 km: the panel stays open, prints `The nearest city we know is Porto, 312 km away.` and re-sorts
+  the full city list by distance under one heading, `nearest to you`.
+- Refused: the panel stays open, prints `no location — that is fine`, and falls back to the full city list.
+
 - **Loupe** (desktop column and sheet header, 200px): an inline SVG circle of hairline rings from
   `lib/radar.layoutRadar(origin, spots)` (rings labelled in mono, e.g. `1 km · 2 km · 5 km`), the user as a
   4px ink cross at the centre, spots as 5px ink discs at bearing/√distance (accent for the currently
@@ -737,13 +772,13 @@ photo). `<p role="status" aria-live="polite" aria-atomic="true">`, Zen Kaku 300 
 Each new line enters with `clip-path: inset(0 100% 0 0) → inset(0 0 0 0)` over 320ms (DOM text is complete
 immediately; no typewriter). A queue delivers at most one line per 1.2s; identical consecutive lines are dropped;
 phase-change lines at most once per five minutes. It carries: hints in context, geolocation outcomes, `link copied`,
-`saved · 4 stones`, filter counts, `offline`, and the time-preview notice. There is no other toast.
+`saved · 4 in all`, filter counts, `offline`, and the time-preview notice. There is no other toast.
 
 ### 6.14 Saved list (`StonesPage.tsx`)
 Headed by a **pebble row**: one 10×7px ink ellipse per stone (max 40, then `+n`), `aria-hidden`, with the visible
-text `4 stones in 2 cities`. Then the list grouped by city (city name Cormorant 28 as group heading, each a
+text `4 saved in 2 cities`. Then the list grouped by city (city name Cormorant 28 as group heading, each a
 `.word` to `#/c/…`), rows per §6.8 with the city's *current* phase driving the reason lines. Empty state: the one
-line in §3.4. On the globe, cities with stones show the filled disc.
+line in §3.4. On the globe, cities with saved spots show the filled disc.
 
 ### 6.15 Share (`ShareWord.tsx`)
 The `.word` `share` copies `location.origin + location.pathname + '#/s/<city>/<spot>'` (plus `?t=` if pinned)
@@ -817,7 +852,7 @@ dial to the city's next morning. Preview prefix: `if it were 21:30 · …`. Offl
 | P0 | "Now in the world" list | §6.3; per-city period every minute; the touch-first map of the globe. |
 | P0 | Margin note | §6.13; the only toast/announcer. |
 | P0 | Hours confidence | §6.10; `open now` only when sure, else `see hours`. |
-| P0 | Around-you fallbacks | §6.6; choose a city / timezone guess / remembered denial; `approximate` labelling. |
+| P0 | Around-you fallbacks | §6.6; the find panel / timezone guess / remembered denial; `approximate` labelling. |
 | P0 | Sumi poster | §6.12; deterministic SVG, always painted first. |
 | P0 | Arrive before sunset / leave by | §7.3; 80 m/min; shown in moss when actionable. |
 | P1 | Compass loupe | §6.6; `lib/radar.layoutRadar`; heading rotation; only with a real origin. |
@@ -825,7 +860,7 @@ dial to the city's next morning. Preview prefix: `if it were 21:30 · …`. Offl
 | P1 | One stone a day (serendipity) | `dailyPick` (existing) filtered to `lowkeyScore ≥ 4` and no caution at night; `another` advances the seed by 1; line under the globe: `today in Lisbon: Jardim do Torel`. |
 | P1 | Route line | §4.5; last five hops. |
 | P1 | Leader lines | §5.6; desktop only. |
-| P1 | Offline stones | Hand-written service worker: precache `index.html`, JS/CSS chunks, `globe-dots.bin`, `spots.json`, Google Fonts CSS + woff2; Wikipedia thumbnails cache-on-fetch, stale-while-revalidate, 60-entry cap; `· offline` suffix from `navigator.onLine` + events. |
+| P1 | Offline saved | Hand-written service worker: precache `index.html`, JS/CSS chunks, `globe-dots.bin`, `spots.json`, Google Fonts CSS + woff2; Wikipedia thumbnails cache-on-fetch, stale-while-revalidate, 60-entry cap; `· offline` suffix from `navigator.onLine` + events. |
 | P1 | Lights down / ambient | Keyboard `a` or About word: hides all but canvas, phase line and plate caption; slate tokens; `navigator.wakeLock` when available; exits on any key/tap; persists nothing except the theme choice if the user also picks it in About. |
 | P2 | Postcard | Canvas 2D 1080×1350: paper, photo (`crossorigin`) or poster via SVG `Image`, phase line, name, a 160px d3-geo dot globe, deep link in mono; `toBlob → navigator.share({files})` else `<a download>`; tainted canvas → poster. Fonts via `document.fonts.ready`. |
 | P2 | Good-window sentence | Intersect bestTimes × today's hours (high confidence) × hourly rain probability < 40% (Open-Meteo hourly) → `good 16:00–19:30 today` on the detail page. |
@@ -875,11 +910,11 @@ check", "hidden gem". The word "chill" appears only in the app name. The screen 
 - `14:20 · afternoon · raining, indoor picks first`
 
 **Margin-note lines**
-- first visit: `drag the globe, or choose a city`
+- first visit: `drag the globe, or search`
 - city: `12 places · 3 good right now · tap a row to open it`
 - filters: `7 places match quiet + free` / `nothing matches quiet + water right now — loosen a word`
 - geolocation: `looking once…` → `you are 2.1 km east of the centre` / `no location — that is fine`
-- save: `saved · 4 stones` / `let go · 3 stones`
+- save: `saved · 4 in all` / `let go · 3 saved`
 - share: `link copied`
 - preview: `showing 21:30 · back to now in 10 s` · `pinned to 21:30`
 - offline: `offline · showing what we have`
@@ -896,7 +931,7 @@ check", "hidden gem". The word "chill" appears only in the app name. The screen 
 `caution after dark` · `approximate` · `from the centre` · `offline`.
 
 **Empty states (one line each)**
-- Stones: `No stones yet. Save a spot and it will rest here.`
+- Saved: `Nothing saved yet. Save a spot and it will wait here.`
 - Filter: `Nothing matches quiet + water here right now — loosen a word.`
 - Photo: `no photograph · poster drawn from the spot's notes`
 - Around you, far: `The nearest city we know is Porto, 312 km away.`
@@ -913,7 +948,7 @@ check", "hidden gem". The word "chill" appears only in the app name. The screen 
   statistics. Check hours locally; things change.`
 - Geolocation preface: `We look at your location once, on this device. Nothing leaves it.`
 
-**Actions (always `.word`s, always lowercase)**: `around me` · `choose a city` · `stones` · `about` · `save` ·
+**Actions (always `.word`s, always lowercase)**: `find somewhere` · `around me` · `saved` · `about` · `save` ·
 `saved` · `share` · `copied` · `breathe here` · `see original` · `point the needles` · `try again` · `open Porto` ·
 `choose another` · `now` · `pin` · `another` · `show more` · `show less` · `lights down` · `still` · `km` / `mi` ·
 `← sky` · `← Lisbon` · `← list` · `close` · `continue` · `not now`.
@@ -923,6 +958,6 @@ check", "hidden gem". The word "chill" appears only in the app name. The screen 
 > libraries, gardens. Picks change with the light: sunset spots before sunset, lit places after dark, indoor
 > places in the rain. We only list public places. Caution notes are about lighting and company after dark, not
 > about crime statistics. Check hours locally; things change. Photos come from Wikipedia and its contributors.
-> Your saved stones stay in this browser. Your location is looked at once and never stored.
+> Your saved spots stay in this browser. Your location is looked at once and never stored.
 >
 > `still` (no motion) · `lights down` · `km` / `mi`
