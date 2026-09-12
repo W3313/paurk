@@ -174,7 +174,6 @@ export default function App() {
           <div className={`stage${paperweight ? ' paperweight' : ''}`} onClick={paperweight ? scrollSheetToPeek : undefined} role={paperweight ? 'button' : undefined} aria-label={paperweight ? 'Back to the globe' : undefined}>
             <div className="globe-shadow" aria-hidden="true" />
             <GlobeView markers={markers} selectedId={citySlug} seat={seat} still={still} sunDate={sunDate} pushBack={mobile ? sheetProgress : 0} paused={paperweight} autoRotate={mode === 'sky'} themeKey={theme} onSelect={onSelect} />
-            <div className="veil" aria-hidden="true" style={{ opacity: mode === 'sky' ? 1 : 0 }} />
           </div>
           {mobile && city && mode === 'city' && cityNow.sun && (
             <div className="stage-caption" aria-hidden="true">

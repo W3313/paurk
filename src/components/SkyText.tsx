@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import { cities, spotsByCity } from '../data'
 import type { City, LatLng } from '../types'
-import { formatClock, formatCountdown, type SunInfo } from '../lib/time'
+import { formatCountdown, type SunInfo } from '../lib/time'
 import { phaseLine } from '../lib/phase'
 import { dailyPick } from '../lib/rank'
 import { actions, useStore } from '../store'
@@ -31,7 +31,7 @@ export function SkyText({ now, sun, place, userPos, timeZone, onChooseCity, onAb
   const goldenSoon = sun && sun.minutesToGolden !== null && sun.minutesToGolden > 0 && sun.minutesToGolden <= 90
   return (
     <div className="sky-text">
-      <PlateCaption parts={['the world', `${cities.length} cities`, place ? `${formatClock(now, timeZone)} in ${place.name}` : formatClock(now, timeZone)]} />
+      <PlateCaption parts={[`${cities.length} cities`]} bare />
       {goldenSoon && sun && <p className="golden-num display-num" aria-label={`golden hour in ${formatCountdown(sun.minutesToGolden!)}`}>{formatCountdown(sun.minutesToGolden!)}</p>}
       {sun && <PhaseLine text={phaseLine(now, sun, timeZone, { offline: !online, weather })} />}
       <MarginNote fallback={userPos ? 'tap a city, or the list below' : 'drag the globe, or choose a city'} />
