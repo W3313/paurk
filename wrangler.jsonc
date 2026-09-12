@@ -1,0 +1,18 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "paurk",
+  "compatibility_date": "2026-09-12",
+
+  // Paurk is a static site: no server code, no bindings. Workers serves `dist` directly.
+  // `npm run build` fills that directory; see README for the Cloudflare settings.
+  "assets": {
+    "directory": "./dist",
+    // Routing is hash-based, so every real page is "/". Anything else that is not a file
+    // falls back to the app rather than a bare 404.
+    "not_found_handling": "single-page-application"
+  },
+
+  "observability": {
+    "enabled": true
+  }
+}
