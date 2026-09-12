@@ -3,8 +3,9 @@ import { cities } from '../data'
 import { worldNow, type WorldEntry } from '../lib/phase'
 import { actions } from '../store'
 import { getGlobe } from '../globe/handle'
+import { MarginNote } from './MarginNote'
 
-interface Props { now: Date; current: string | null }
+interface Props { now: Date; current: string | null; live: boolean }
 
 type Band = 'golden' | 'night' | 'day'
 const BAND_LABEL: Record<Band, string> = { golden: 'golden hour', night: 'night', day: 'day' }
@@ -21,7 +22,7 @@ function bandOf(e: WorldEntry): Band {
  * what happens there soonest. It is the counterpart of the spot column on the city screen — one slides
  * out as the other slides in, and the globe crosses between them.
  */
-export function CityMenu({ now, current }: Props) {
+export function CityMenu({ now, current, live }: Props) {
   const groups = useMemo(() => {
     const byBand = new Map<Band, WorldEntry[]>()
     for (const e of worldNow(cities, now).list) {
@@ -39,6 +40,8 @@ export function CityMenu({ now, current }: Props) {
   return (
     <nav className="citymenu" aria-label="All cities">
       <p className="small citymenu-head">{cities.length} cities</p>
+      {/* Only while this column is the one on screen: two mounted notes would race for the queue. */}
+      {live && <MarginNote fallback="drag the globe, or pick a city" />}
       {groups.map((g) => (
         <div className="citymenu-group" key={g.band}>
           <p className="region-head">{BAND_LABEL[g.band]}</p>

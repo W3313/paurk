@@ -214,6 +214,7 @@ html[data-still] .phase .w { animation: none; }
 /* ---------- the city menu (sky's left column) ---------- */
 .citymenu { display: grid; gap: var(--s-5); padding: 0 var(--gutter); align-content: start; }
 .citymenu-head { color: var(--ink-2); font-family: var(--font-mono); font-size: 12px; letter-spacing: .02em; }
+.citymenu > .note { margin-top: calc(-1 * var(--s-4)); }
 .citymenu-group { display: grid; gap: 2px; }
 .citymenu-list { display: grid; gap: 0; }
 .citymenu-city { display: flex; align-items: center; justify-content: space-between; gap: var(--s-4); min-height: 44px; }

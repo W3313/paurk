@@ -286,10 +286,8 @@ text measure.
 - **Header** (spans both columns, 64px tall, 40px side padding): left, the wordmark; right, three `.word--quiet`s:
   a search mark · a bookmark mark with its count · `about`. The header is `position: sticky; top: 0` over paper at 85% with
   `backdrop-filter: blur(12px) saturate(.8)` only when the column scrolls under it.
-- **Sky (`#/`)**: the column is absent (`grid-template-columns: 1fr`). The globe canvas is a square of
-  `min(64vh, 48vw)` centred horizontally, its centre at 44% of viewport height. Under it, centred, a text stack
-  380px wide: the plate caption (mono 12px, ink-2), the margin note (13px ink-2), then the "now in the world"
-  list (§6.3). The horizon band is 45vh tall (60vh at night) and the
+- **Sky (`#/`)**: the city column (§6.3) owns the left `var(--column)`; the sphere is centred in what is left.
+  The horizon band is 45vh tall (60vh at night) and the
   sphere's lower limb dissolves into it via the veil (§4.7).
 - **City (`#/c/…`)**: two columns. The globe remains in the left column, camera re-seated with
   `camera.setViewOffset` so the city lands at 42% x / 45% y of the *left column*; the veil fades out over 600ms.
@@ -604,17 +602,50 @@ One mono line, 12px, `--ink-2`, centred under the globe (desktop) / under the ca
 `plate · the world · 35 cities · 18:42 in lisbon` on Sky; `plate · lisbon · 12 places · 18:42 · golden hour`
 on City. Purely printed; not interactive. It is the thing that makes the globe an object on a page.
 
-### 6.3 "Now in the world" (`WorldNow.tsx`) — Sky only
-Cities grouped by what is happening there right now (SunCalc per city, recomputed each minute), as text:
+### 6.3 The sky's city lists (`CityMenu.tsx` desktop, `WorldNow.tsx` phones)
+Cities grouped by what the light is doing there right now (SunCalc per city, recomputed once a minute and shared
+through `phase.worldNow`), each carrying its own countdown to whatever comes next there — sunset while the sun is
+up, dark at dusk, sunrise once it is down. Within a group the soonest event leads, so the city about to lose its
+light is at the top and the numbers read down in order.
+
+**Desktop (`CityMenu`)** is the sky's left column: all 43 cities at once in three bands — `golden hour`, `night`
+(night and dusk), `day` (everything else) — the current city in accent with `aria-current="page"`. Names are set
+plain, not underlined: the row is the target and carries the affordance (§1.1). Hover and focus drive marker heat
+on the globe.
+
+**Phones (`WorldNow`)** cannot hold 43 rows above the fold, so it shows the three most interesting period groups,
+four cities each, then `n more` and `all 43 cities`, all of which open the find panel (§6.4).
+
 ```
-golden hour now   Lisbon · Dakar · Casablanca
-evening           Reykjavík · London · Paris · Berlin  +6
-morning           Tokyo · Seoul · Sydney
+golden hour                    night
+Melbourne    sunset in 2 min   Sydney         dark in 3 min
+Tokyo       sunset in 47 min   Buenos Aires  sunrise in 1h 51m
 ```
-Group label in Zen Kaku 300 13px ink-2, city names as `.word`s (16px), max 4 per group then `+n` (a `.word` that
-opens the dialog scrolled to that group). Groups shown in this order when non-empty: `golden hour now`,
-`dusk`, `evening`, `night`, `dawn`, `morning`, `midday`, `afternoon`; max three groups on the Sky (the rest under
-`all 35` → dialog). Hover/focus drives marker heat and the leader line. This is the touch user's map of the globe.
+
+### 6.3b The shell (`App.tsx`, `CityMenu.tsx`)
+One canvas, two columns that trade places over it.
+
+**The canvas is the page.** `.stage` is `position: fixed; inset: var(--header-h) 0 0 0` at every width. It used
+to be a square element, which meant zooming the sphere eventually reached its edge and revealed the box. The
+sphere's size now comes from `GlobeEngine.setFit(f)` — the fraction of the shorter viewport side it should span —
+so it is a deliberate size on a canvas with no findable edge. `App.globeFrame()` computes `fit`, `seat` and the
+sphere's pixel radius from the mode and the viewport; the radius is published as `--globe-r` and the seat as
+`--seat-x` / `--seat-y` on `<main>`, which is how the ground shadow stays glued to a sphere that moves.
+
+**The two columns.** `.side--cities` (the sky) is pinned left, `.side--spots` (a city, a spot, saved) is pinned
+right; both are `var(--column)` wide, both stay mounted, and each slides on `transform` with `--d-panel` and
+`--e-settle`. The arriving one carries a 120ms delay so the leaving one clears first, which is what makes it read
+as a swap rather than a cross-fade. The hidden one is `inert`, so it is out of the tab order and out of the
+accessibility tree — which is also why `CityMenu` renders its margin note only while it is the live column: two
+mounted notes would race for the same queue.
+
+**The sphere travels.** `setSeat(x, y, duration)` eases with a quintic rather than jumping, and `setFit` eases
+exponentially, so opening a city is one movement: the column leaves, the sphere crosses, the new column arrives.
+`data-still` snaps all three.
+
+**Phones** keep the sheet (§3.3). There the sphere sits higher and smaller on a city screen, because the flight
+zooms in by about half again and nothing clips it back any more; the sky stack and the city caption clear it by
+calculation from `--seat-y` and `--globe-r` rather than by following it in the flow.
 
 ### 6.4 Find (`Find.tsx`)
 The one way in besides the globe, opened by the permanent search mark in the header or by `/` from anywhere.

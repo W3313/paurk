@@ -233,7 +233,7 @@ export default function App() {
             <>
               {/* Both panels stay mounted so each can slide rather than blink. */}
               <aside className="side side--cities" aria-label="All cities" {...(mode === 'sky' ? {} : { inert: true })}>
-                <CityMenu now={live} current={citySlug} />
+                <CityMenu now={live} current={citySlug} live={mode === 'sky'} />
               </aside>
               <aside className="side side--spots" aria-label={mode === 'saved' ? 'Saved spots' : city?.name ?? 'Places'}
                 {...(mode === 'sky' ? { inert: true } : {})}

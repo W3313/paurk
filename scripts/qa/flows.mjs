@@ -21,6 +21,11 @@ for (const [label, vp, mobile] of [['desktop', { width: 1440, height: 900 }, fal
   await page.waitForTimeout(2300)
   check(`${label}: city word opens city`, (await page.locator('.app').getAttribute('data-mode')) === 'city', `(${cityName})`)
   check(`${label}: hash is city route`, /^#\/c\//.test(await page.evaluate(() => location.hash)), await page.evaluate(() => location.hash))
+  // Exactly one voice: a second mounted margin note would race the first for the same queue.
+  const live = await page.evaluate(() => [...document.querySelectorAll('[role=status]')]
+    .filter((e) => e.getAttribute('aria-live') !== 'off')
+    .filter((e) => e.getClientRects().length > 0 && !e.closest('[inert]') && !e.closest('dialog:not([open])')).length)
+  check(`${label}: one live region`, live === 1, String(live))
   // 2. vibe filter toggles and margin note updates
   const vibe = page.locator('.vibe').first()
   await vibe.click()
