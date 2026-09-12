@@ -207,7 +207,7 @@ export default function App() {
       <div className="horizon" aria-hidden="true" />
       <HorizonClock sun={contextSun} mobile={mobile} />
       <div className="app" data-mode={mode}>
-        <Header onSearch={() => setFindOpen(true)} onAbout={() => setAboutOpen(true)} scrolled={scrolled} />
+        <Header onSearch={() => setFindOpen(true)} onAbout={() => setAboutOpen(true)} scrolled={scrolled || (mobile && sheetProgress > 0.05)} />
         <main className={mobile ? (mode === 'sky' ? 'sky' : 'city') : 'shell'} data-sky={mode === 'sky' ? '' : undefined}
           style={{ '--seat-x': seat[0], '--seat-y': seat[1], '--globe-r': `${Math.round(radius)}px` } as React.CSSProperties}>
           <div className={`stage${paperweight ? ' paperweight' : ''}`} onClick={paperweight ? scrollSheetToPeek : undefined} role={paperweight ? 'button' : undefined} aria-label={paperweight ? 'Back to the globe' : undefined}>

@@ -39,7 +39,9 @@ export function SpotRow({ ranked, city, now, sun, ctx, origin, originIsReal, ind
     status.push(ranked.hours.status === 'open' ? 'open now' : 'closed now')
     if (ranked.hours.status === 'open') good = true
   } else status.push('see hours')
-  status.push(originIsReal ? walkingTime(km) : `~${walk} min from centre`)
+  // Only a real distance earns a place here. Minutes from the city centre measured nothing the
+  // reader asked about: they were not near the centre, and the spot is not where they are.
+  if (originIsReal) status.push(walkingTime(km))
   // How much light is left, on every row: the same clock for the whole city, but it is the number
   // that decides whether this particular walk is worth starting.
   if (sun.minutesToSunset !== null && sun.period !== 'night' && sun.period !== 'dusk' && sun.minutesToSunset < 24 * 60) {
@@ -55,15 +57,16 @@ export function SpotRow({ ranked, city, now, sun, ctx, origin, originIsReal, ind
         onClick={(e) => { e.preventDefault(); actions.openSpot(s.id) }}
         onPointerEnter={() => onHot?.(s.id)} onPointerLeave={() => onHot?.(null)} onFocus={() => onHot?.(s.id)} onBlur={() => onHot?.(null)}>
         <span className="row-name">{s.name}</span>
+        {/* The cell stays even when empty: the row is a grid, and dropping it reshuffles every child. */}
         <span className="row-right" aria-hidden="true">
-          {originIsReal ? (
+          {originIsReal && (
             <>
               {formatDistance(km, units)}
               <svg className="needle" width="12" height="12" viewBox="0 0 12 12" style={{ transform: `rotate(${bearing - (heading ?? 0)}deg)` }}><line x1="6" y1="11" x2="6" y2="1" /><line x1="6" y1="1" x2="4" y2="3.5" /><line x1="6" y1="1" x2="8" y2="3.5" /></svg>
             </>
-          ) : `~${walk} min from centre`}
+          )}
         </span>
-        <span className="vh">{originIsReal ? `${compassLabel(bearing).replace('N', 'north').replace('S', 'south').replace('E', 'east').replace('W', 'west').toLowerCase()}, ${formatDistance(km, units)}, ${walk} min walk` : `about ${walk} minutes from the centre`}</span>
+        {originIsReal && <span className="vh">{`${compassLabel(bearing).replace('N', 'north').replace('S', 'south').replace('E', 'east').replace('W', 'west').toLowerCase()}, ${formatDistance(km, units)}, ${walk} min walk`}</span>}
         <span className="row-meta">
           <span>{[s.neighborhood, s.category, s.indoor ? 'indoor' : 'outdoor'].filter(Boolean).join(' · ')}</span>
         </span>

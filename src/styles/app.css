@@ -287,7 +287,8 @@ html[data-still] .side { transition: none !important; }
   .panel { scroll-snap-align: start; pointer-events: auto; min-height: 100dvh; background: linear-gradient(to bottom, var(--horizon) 0, var(--bg) 120px), var(--bg); position: relative; }
   .panel::before { content: ""; position: absolute; top: 12px; left: 50%; width: 32px; height: 3px; margin-left: -16px; background: var(--hairline); }
   .panel .column { padding-top: var(--s-8); }
-  .panel-sticky { position: sticky; top: 0; z-index: var(--z-sticky); background: color-mix(in srgb, var(--bg) 92%, transparent); padding: var(--s-3) var(--gutter); }
+  /* Opaque: at 92% the page's own city heading ghosted through and the title read twice. */
+  .panel-sticky { position: sticky; top: var(--header-h); z-index: var(--z-sticky); background: var(--bg); border-bottom: 1px solid var(--hairline); padding: var(--s-3) var(--gutter); }
   .paperweight { position: fixed !important; top: calc(var(--header-h) + 8px + env(safe-area-inset-top)); left: calc(100vw - 80px - env(safe-area-inset-right)); width: 100vw; height: 38vh !important; transform: scale(0.16); transform-origin: top left; z-index: var(--z-paperweight) !important; cursor: pointer; }
   .paperweight .globe-shadow { display: none; }
   .paperweight .globe-wrap { pointer-events: none; }
@@ -327,11 +328,30 @@ html[data-still] .row.is-settling { animation: none; }
 .empty { color: var(--ink-2); padding: var(--s-5) 0; }
 
 /* ---------- vibe row ---------- */
+/*
+ * Nineteen vibe words laid out flat filled the head of the column and pushed the list below the
+ * fold, so they live behind one word now. The panel animates on grid-template-rows, which gives a
+ * real height transition without measuring anything.
+ */
+.vibes-wrap { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--s-2); min-width: 0; }
+.vibes-head { gap: 6px var(--s-3); }
+.vibe .count { font-family: var(--font-mono); font-size: var(--t-mono-s); color: var(--ink-2); }
+.vibes-caret { width: 7px; height: 7px; border-right: 1px solid currentColor; border-bottom: 1px solid currentColor;
+  transform: translateY(-2px) rotate(45deg); transition: transform var(--d-micro) var(--e-settle); }
+.vibes-trigger.is-open .vibes-caret { transform: translateY(1px) rotate(-135deg); }
+.vibes-on { color: var(--ink-2); }
+.vibes-trigger[aria-expanded="true"] { color: var(--ink); }
+.vibes-panel { display: grid; grid-template-columns: minmax(0, 1fr); grid-template-rows: 0fr; min-width: 0; transition: grid-template-rows var(--d-micro) var(--e-settle); }
+.vibes-panel.is-open { grid-template-rows: 1fr; }
+.vibes-clip { overflow: hidden; min-height: 0; min-width: 0; }
+html[data-still] .vibes-panel, html[data-still] .vibes-caret { transition: none !important; }
+
 .vibes { display: flex; flex-wrap: wrap; gap: 2px 14px; align-items: center; }
 .vibe { font-size: var(--t-small); font-weight: 400; color: var(--ink-2); min-height: 44px; }
 .vibe .count { font-family: var(--font-mono); font-size: var(--t-mono-s); color: var(--ink-2); }
 .vibe.is-suggested::before { content: "·"; color: var(--accent); margin-right: 2px; }
-@media (max-width: 899px) { .vibes { flex-wrap: nowrap; overflow-x: auto; scroll-snap-type: x proximity; scrollbar-width: none; mask-image: linear-gradient(to right, transparent, #000 12px, #000 calc(100% - 24px), transparent); padding-right: 24px; } .vibes::-webkit-scrollbar { display: none; } .vibe { scroll-snap-align: start; white-space: nowrap; } }
+/* Phones used to swipe this row sideways; inside the panel it simply wraps, like everywhere else. */
+@media (max-width: 899px) { .vibe { white-space: nowrap; } }
 
 /* ---------- spot page ---------- */
 .spot { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--s-5); min-width: 0; }

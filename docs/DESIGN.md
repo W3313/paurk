@@ -294,7 +294,7 @@ text measure.
   The right column scrolls independently (`overflow-y: auto; height: calc(100dvh - 64px)`) and holds, top to
   bottom with 20px air between blocks: `← sky` word, city name (Cormorant 34) with the country in ink-2 13px on the
   next line, the phase line for the city's timezone, the sun-rule time dial (§6.5), the compass row (only when
-  geolocated), the vibe row, the margin note (column instance), and the ranked list.
+  geolocated), the vibes trigger (§6.7), the margin note (column instance), and the ranked list.
 - **Spot**: replaces the list *inside the same column* (the header of the column becomes `← Lisbon`); scroll
   position of the list is kept in the store and restored on return. The globe drops the bearing tick (§4.5).
 - **Stones (`#/saved`)**: the same column layout, list grouped by city with a pebble row at the top.
@@ -316,7 +316,7 @@ text measure.
     spacers, `auto` on the panel, so touches above the panel fall through to the canvas.
   - The panel's top 120px is `background: linear-gradient(to bottom, var(--horizon) 0, var(--bg) 120px)` so the
     list appears to rise out of the evening. A 32×3px hairline handle sits 12px from the top. The header (city
-    name, phase line, vibe row, time dial ribbon) is `position: sticky; top: 0` inside the panel over paper at 92%.
+    name, phase line, vibes trigger, time dial ribbon) is `position: sticky; top: var(--header-h)` inside the panel, opaque.
   - `sheetProgress` (0 at peek, 1 at full) is derived from `scrollTop / (fullTop - peekTop)` on a passive scroll
     listener and written to the store at most once per frame. GlobeEngine lerps camera distance 2.2 → 2.6 from
     it. At progress ≥ 0.9 the canvas wrapper becomes the **paperweight** (§4.8): 64px, top-right, above the sheet,
@@ -338,10 +338,10 @@ text measure.
 | **Spot selected** | Poster paints instantly; photo crossfades when accepted. Globe shows the bearing tick from the city centre. |
 | **Around you (granted)** | User ring on the globe, meridian faces the camera, nearest city within 80km selected; compass row; loupe; needles on rows. |
 | **Around you (> 80km)** | "The nearest city we know is Porto, 312 km away." with `open Porto` · `choose another`; the user ring stays. |
-| **No permission / failed** | Margin note: "No location — that is fine." The choose-a-city dialog opens with focus in the type-ahead, the timezone guess at the top. Rows show "distances from the centre" once; no needles, no bearings. `try again` word remains under the globe. Denial is remembered (`localStorage tc.geo.denied=1`); the prompt is never re-triggered automatically. |
+| **No permission / failed** | Margin note: "No location — that is fine." The find panel (§6.4) stays open and falls back to the full city list. Rows carry no distance, no needles, no bearings: a walk time from a centre the reader is not standing in measures nothing they asked about. The `around me` row reads `try again`. Denial is remembered (`localStorage paurk.geo.denied=1`); the prompt is never re-triggered automatically. |
 | **Unsupported / insecure context** | `around me` is not rendered. |
 | **Saved (empty)** | "Nothing saved yet. Save a spot and it will wait here." |
-| **Empty filter result** | "Nothing matches quiet + water here right now — loosen a word." The vibe row shows the counts so the user sees which word to drop. |
+| **Empty filter result** | "Nothing matches quiet + water here right now — loosen a word." The open panel shows each word's count so the user sees which to drop. |
 | **No photo** | The Sumi poster stays; caption "no photograph · poster drawn from the spot's notes". Not an error state. |
 | **Offline** | Phase line suffix "· offline"; weather clause absent; photos from cache or poster; everything else identical. |
 | **No WebGL** | 2D canvas orthographic globe (§4.10); everything else identical. |
@@ -728,17 +728,26 @@ ticks; the range still works.
   (1200ms ease). `aria-hidden`; the same information is in the rows' text.
 - Rows show distance (chosen unit) + needle + walk time at 80 m/min; the accessible text reads `north-east, 1.2 km, 14 min walk`.
 - > 80km: line + `open Porto` · `choose another`; ring stays on the globe.
-- Refused/failed: §3.4. Distances then come from the city centre; the row header says `distances from the centre`;
+- Refused/failed: §3.4. Rows then carry no distance at all, rather than an invented one from the city centre;
   no needles, no loupe.
 - Position lives in memory only; unit choice in `paurk.units.v1`; the denial flag in `tc.geo.denied`.
 
 ### 6.7 Vibe filter control (`VibeRow.tsx`)
-A row of `.word`s, one per vibe present in the city (dataset order), 13px ink-2 when off, ink + 2px accent
-underline when on (`aria-pressed`), each followed by its live match count in mono 11px (`quiet 4`). Phase-suggested
-vibes (§7.2) carry a small accent dot before the word (`· sunset`) — a suggestion, not a selection. Filtering is
-AND; default is none engaged. Zero matches → the empty line (§3.4) and the counts show which word to loosen.
-Filters never hide caution spots. State mirrored to `?v=` and announced through the margin note ("7 places match").
-Mobile: horizontal scroll with `scroll-snap-type: x proximity` and the edge `mask-image`.
+Behind one word. Nineteen chips laid out flat filled the head of the column and pushed the list below the fold, so
+`vibes` is a disclosure: a `.word` with a small caret, `aria-expanded`, and the panel beneath it. The panel animates
+on `grid-template-rows: 0fr → 1fr`, which gives a real height transition with nothing measured; its contents are
+`inert` while closed. Escape closes it and stops there — the app reads a bare Escape on a city screen as "back to
+the sky", so the handler calls `stopPropagation`.
+
+**What is on is printed, never merely counted.** Beside the trigger sit the active words (`quiet + free`) and
+`loosen all`. A closed panel must not be the only thing standing between the reader and a list that has quietly
+been filtered.
+
+Inside: one `.word` per vibe present in the city (dataset order), 13px ink-2 when off, ink + 2px accent underline
+when on (`aria-pressed`), each followed by its live match count in mono 11px (`quiet 4`). Phase-suggested vibes
+(§7.2) carry a small accent dot before the word (`· sunset`) — a suggestion, not a selection. Filtering is AND;
+default is none engaged. Zero matches → the empty line (§3.4) and the counts show which word to loosen. Filters
+never hide caution spots. State mirrored to `?v=` and announced through the margin note ("7 places match").
 
 ### 6.8 Spot list item (`SpotRow.tsx`)
 A row of text separated by 1px hairlines, 20px air above and below, no chevron, whole row is one `<a>` to the spot
@@ -750,7 +759,7 @@ quiet · sunset · free                                 caution   (vibe words in
 because it is golden hour and this faces west                   (top three only: Zen Kaku 300 15px ink-2, from rank reasons)
 open now · 14 min walk · arrive 19 min before sunset            (status line, moss when favourable; 'see hours' when unsure)
 ```
-Without an origin the right column shows the walk time from the centre (`~22 min from centre`). At night the
+Without an origin the right column is empty — the cell stays, because the row is a grid. At night the
 caution word reads `caution after dark`. Visually hidden text: `low-key 4 of 5`, `caution: <note>`.
 
 ### 6.9 Spot detail (`SpotPage.tsx`)
@@ -960,7 +969,7 @@ check", "hidden gem". The word "chill" appears only in the app name. The screen 
 - `because you asked for quiet and free`
 
 **Status words**: `open now` · `closed now` · `see hours` · `free` · `paid` · `indoor` · `outdoor` · `caution` ·
-`caution after dark` · `approximate` · `from the centre` · `offline`.
+`caution after dark` · `approximate` · `offline`.
 
 **Empty states (one line each)**
 - Saved: `Nothing saved yet. Save a spot and it will wait here.`

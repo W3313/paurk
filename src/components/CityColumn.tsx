@@ -73,7 +73,6 @@ export function CityColumn({ city, now, live, sun, preview, origin, originIsReal
       {originIsReal && origin && far <= 80 && <Loupe origin={origin} spots={spots} hotId={hot} />}
       <VibeRow spots={spots} suggested={SUGGESTED[sun.period]} />
       <MarginNote fallback={`${spots.length} places · ${good} good right now · tap a row to open it${unreviewed ? ` · ${unreviewed} not yet reviewed` : ''}`} />
-      {!originIsReal && <p className="small">distances from the centre</p>}
       <SpotList city={city} spots={spots} now={now} sun={sun} origin={origin} originIsReal={originIsReal} onHot={setHot} />
       <p className="small">{previewMinutes === null ? '' : `sun-rule at ${String(Math.floor(previewMinutes / 60)).padStart(2, '0')}:${String(previewMinutes % 60).padStart(2, '0')} · now is ${String(Math.floor(localMinutes(live, city.timezone) / 60)).padStart(2, '0')}:${String(localMinutes(live, city.timezone) % 60).padStart(2, '0')}`}</p>
     </>

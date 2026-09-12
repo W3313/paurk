@@ -45,7 +45,7 @@ export function SpotPage({ spot, city, now, sun, origin, originIsReal, mobile }:
   let good = false
   if (hours.confidence === 'high') { nowLine.push(hours.status === 'open' ? 'open now' : 'closed now'); good = hours.status === 'open' }
   if (sun.period === 'golden' && sun.minutesToSunset !== null) nowLine.push(`sunset in ${formatCountdown(sun.minutesToSunset)}`)
-  nowLine.push(originIsReal ? walkingTime(km) : `~${walk} min from centre`)
+  if (originIsReal) nowLine.push(walkingTime(km))
   if (sunsetSpot && sun.sunset && sun.period !== 'night') {
     const arriveMin = Math.round((sun.sunset.getTime() - now.getTime()) / 60000) - walk
     if (arriveMin > 0) {
