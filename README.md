@@ -79,7 +79,7 @@ The brief asked for research through Reddit. Reddit is not reachable from the en
    substacks), and those are the sources cited. **No URL is cited unless it appeared in a search result.**
 2. **One skeptical verify agent per city** confirmed each place exists and is public, applied the safety policy,
    sanity-checked coordinates against the city centre, confirmed the Wikipedia title that drives the photo, and
-   wrote the file. All 44 cities went through this stage (604 spots; 389 with a confirmed photo title; 112 with
+   wrote the file. All 44 cities went through this stage (604 spots; 393 with a confirmed photo title; 112 with
    a caution note). Each file records which checks were made by live search and which from reviewer knowledge.
 3. `scripts/build-dataset.mjs` validates, de-duplicates and drops anything more than 80 km from its city.
 
