@@ -182,7 +182,7 @@ export default function App() {
             </div>
           )}
           {mode === 'sky' ? (
-            <SkyText now={live} sun={skySun} place={skyPlace} userPos={userPos} onSearch={() => setFindOpen(true)} onAbout={() => setAboutOpen(true)} />
+            <SkyText now={live} userPos={userPos} onSearch={() => setFindOpen(true)} onAbout={() => setAboutOpen(true)} />
           ) : mobile ? (
             <Sheet fullOnMount={mode === 'spot'} bare={mode === 'spot'} sticky={mode === 'spot' ? null : <p className="city-name" style={{ fontSize: 'var(--t-display-s)' }}>{mode === 'saved' ? 'saved' : city?.name}</p>}>
               {column}

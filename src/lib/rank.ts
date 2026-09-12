@@ -120,10 +120,3 @@ export function becauseLine(r: Ranked, ctx: Context, units: 'metric' | 'imperial
     case 'open': return 'because it is open right now'
   }
 }
-
-/** Deterministic daily pick: the same spot for everyone in a city on a given day; `offset` = "another". */
-export function dailyPick(list: Spot[], date: Date, offset = 0): Spot | null {
-  if (!list.length) return null
-  const day = Math.floor((date.getTime() - date.getTimezoneOffset() * 60000) / 86400000)
-  return list[(Math.abs(day * 2654435761) + offset) % list.length]
-}

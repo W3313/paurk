@@ -288,9 +288,8 @@ text measure.
   `backdrop-filter: blur(12px) saturate(.8)` only when the column scrolls under it.
 - **Sky (`#/`)**: the column is absent (`grid-template-columns: 1fr`). The globe canvas is a square of
   `min(64vh, 48vw)` centred horizontally, its centre at 44% of viewport height. Under it, centred, a text stack
-  380px wide: the plate caption (mono 12px, ink-2), the phase line (Cormorant 22), the margin note (13px ink-2),
-  then the "now in the world" list (§6.3), then the
-  serendipity line ("today in Lisbon: Jardim do Torel"). The horizon band is 45vh tall (60vh at night) and the
+  380px wide: the plate caption (mono 12px, ink-2), the margin note (13px ink-2), then the "now in the world"
+  list (§6.3). The horizon band is 45vh tall (60vh at night) and the
   sphere's lower limb dissolves into it via the veil (§4.7).
 - **City (`#/c/…`)**: two columns. The globe remains in the left column, camera re-seated with
   `camera.setViewOffset` so the city lands at 42% x / 45% y of the *left column*; the veil fades out over 600ms.
@@ -336,7 +335,7 @@ text measure.
 | State | What the user sees |
 | --- | --- |
 | **Loading** | Paper, wordmark, the empty canvas wrapper (contact shadow already painted). Land dots resolve in random order over 1.4s (`uReveal`), the sphere scales .96→1 over 1.6s, the plate caption fades in, then the phase line word by word. Three.js is lazy-loaded after first paint; the header words and the "now in the world" list are usable before the globe exists. |
-| **Idle (Sky)** | Globe breathing, auto-rotating, resting in the horizon light. Margin note: "drag the globe, or search" (first visit) / the day's serendipity line (later visits). |
+| **Idle (Sky)** | Globe breathing, auto-rotating, resting in the horizon light. Margin note: "drag the globe, or search". |
 | **City selected** | Flight (1.8s), ripple, name writes itself, rows settle. Margin note: "8 places · 3 good right now". |
 | **Spot selected** | Poster paints instantly; photo crossfades when accepted. Globe shows the bearing tick from the city centre. |
 | **Around you (granted)** | User ring on the globe, meridian faces the camera, nearest city within 80km selected; compass row; loupe; needles on rows. |
@@ -860,7 +859,6 @@ dial to the city's next morning. Preview prefix: `if it were 21:30 · …`. Offl
 | P0 | Arrive before sunset / leave by | §7.3; 80 m/min; shown in moss when actionable. |
 | P1 | Compass loupe | §6.6; `lib/radar.layoutRadar`; heading rotation; only with a real origin. |
 | P1 | Breathe here | §6.17; 60s, shared clock. |
-| P1 | One stone a day (serendipity) | `dailyPick` (existing) filtered to `lowkeyScore ≥ 4` and no caution at night; `another` advances the seed by 1; line under the globe: `today in Lisbon: Jardim do Torel`. |
 | P1 | Route line | §4.5; last five hops. |
 | P1 | Leader lines | §5.6; desktop only. |
 | P1 | Offline saved | Hand-written service worker: precache `index.html`, JS/CSS chunks, `globe-dots.bin`, `spots.json`, Google Fonts CSS + woff2; Wikipedia thumbnails cache-on-fetch, stale-while-revalidate, 60-entry cap; `· offline` suffix from `navigator.onLine` + events. |
