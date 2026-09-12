@@ -36,9 +36,9 @@ for (const [label, vp, mobile] of [['desktop', { width: 1440, height: 900 }, fal
   await save.click()
   await page.waitForTimeout(300)
   check(`${label}: saved`, (await save.getAttribute('aria-pressed')) === 'true', await save.textContent())
-  check(`${label}: saved count in header`, /saved\s*·\s*1/.test((await page.locator('header nav').textContent()) ?? ''))
+  check(`${label}: saved count in header`, /Saved, 1 spot/.test((await page.locator('header a.saved-trigger').getAttribute('aria-label')) ?? ''))
   // 4. saved page lists it
-  await page.locator('header a.word', { hasText: 'saved' }).click()
+  await page.locator('header a.saved-trigger').click()
   await page.waitForTimeout(800)
   check(`${label}: saved page has a row`, (await page.locator('a.row').count()) >= 1)
   // 5. find: type and pick

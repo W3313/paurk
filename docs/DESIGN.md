@@ -39,7 +39,7 @@ printed plate caption and the travelled route keep it from reading as a wellness
 
 | Critique | Resolution in this spec |
 | --- | --- |
-| **Affordance: bare words, no nav, no search box; a first-time user sees a ball and does not know what is tappable.** | (a) A hard typographic rule: *every actionable word is underlined* (1px ink underline, offset 0.25em) and set in Zen Kaku 500; *no passive text is ever underlined*. Underline = tappable, always. **One exception**: names inside a list of results — the world list (§6.3) and the find rows (§6.4) — are left plain, because a column of underlined proper nouns reads as ruled paper rather than as a set of choices. There the *row* is the target and carries the affordance itself: a well on hover and focus, and in find an ink rule down its left edge when active. (b) The **margin note** (§6.13): a single, always-present caption line under the phase line that narrates state and, in context, says what you can do ("drag the globe, or search", "tap a row to open it"). It is not a one-time hint; it is the app's voice. (c) The **"now in the world" list** (§6.3) under the globe on the Sky screen lists city names as tappable words grouped by what is happening there — so on touch, where hover labels do not exist, every city is reachable as text without opening the find panel. (d) The find panel (§6.4) is opened by a permanent word in the header on every screen, or by `/`. |
+| **Affordance: bare words, no nav, no search box; a first-time user sees a ball and does not know what is tappable.** | (a) A hard typographic rule: *every actionable word is underlined* (1px ink underline, offset 0.25em) and set in Zen Kaku 500; *no passive text is ever underlined*. Underline = tappable, always. **Two exceptions**. (i) The header's two **marks** — search and bookmark (§6.1) — are glyphs, not words; a mark is never underlined, and shows state by filling rather than by a coloured rule. (ii) Names inside a list of results — the world list (§6.3) and the find rows (§6.4) — are left plain, because a column of underlined proper nouns reads as ruled paper rather than as a set of choices. There the *row* is the target and carries the affordance itself: a well on hover and focus, and in find an ink rule down its left edge when active. (b) The **margin note** (§6.13): a single, always-present caption line under the phase line that narrates state and, in context, says what you can do ("drag the globe, or search", "tap a row to open it"). It is not a one-time hint; it is the app's voice. (c) The **"now in the world" list** (§6.3) under the globe on the Sky screen lists city names as tappable words grouped by what is happening there — so on touch, where hover labels do not exist, every city is reachable as text without opening the find panel. (d) The find panel (§6.4) is opened by a permanent word in the header on every screen, or by `/`. |
 | **44px targets are "a matter of padding discipline that nobody will police".** | One `.word` class (§2.6) gives every actionable word a 44×44 minimum hit box through padding + negative margin, and `scripts/qa/screenshot.mjs` gains a check that fails the build when any `a, button, [role=button], input` has a bounding box under 44×44 on the 390px run. Policed by CI, not by people. |
 | **On touch, exactly one label at a time appears on hover, so city names are invisible until you tap.** | On coarse pointers the globe shows **up to six labels** for the front-facing cities nearest the screen centre (fading by `dot(normal, view)`), plus the "now in the world" list. On fine pointers, hover shows one label as before. Keyboard shows the focused one. |
 | **Uniqueness "good rather than great": warm paper + Cormorant + one accent is the quiet-luxury trope.** | The risen-moon composition, the printed plate caption, the dotted session route, leader lines from list rows to markers, and the terminator that is *honest* (real sub-solar point, scrubbable) — all specific to this product, none of them decoration. |
@@ -284,7 +284,7 @@ At 900–1023px the column is 400px with 32px padding; at ≥1024px it is 460px 
 text measure.
 
 - **Header** (spans both columns, 64px tall, 40px side padding): left, the wordmark; right, three `.word--quiet`s:
-  a search mark · `saved · 3` · `about`. The header is `position: sticky; top: 0` over paper at 85% with
+  a search mark · a bookmark mark with its count · `about`. The header is `position: sticky; top: 0` over paper at 85% with
   `backdrop-filter: blur(12px) saturate(.8)` only when the column scrolls under it.
 - **Sky (`#/`)**: the column is absent (`grid-template-columns: 1fr`). The globe canvas is a square of
   `min(64vh, 48vw)` centred horizontally, its centre at 44% of viewport height. Under it, centred, a text stack
@@ -305,7 +305,7 @@ text measure.
 
 ### 3.3 Mobile (< 900px; designed at 390×844 first)
 
-- **Top row** 56px: wordmark left; the search mark and `saved · 3` right (`about` moves into the sheet footer
+- **Top row** 56px: wordmark left; the search mark and the bookmark mark right (`about` moves into the sheet footer
   and the Sky footer). Safe-area padding: `padding-top: env(safe-area-inset-top)`.
 - **Sky**: the canvas is a 1:1 square of width `min(100vw, 62vh)`, centred, with its centre at 40% of viewport
   height; the plate caption, phase line, margin note and the two action words sit in the lower third *over* the
@@ -594,7 +594,9 @@ All components live in `src/components/`. Names given are file names.
 `<header>` 64px desktop / 56px mobile, paper, no rule. Left: `Paurk` in Cormorant italic 300, 28px desktop /
 24px mobile, `--ink-2`; it is a `.word--quiet` linking to `#/`. Right: `.word--quiet`s a 44px search mark
 (the app's one icon; opens the find panel, permanent on every screen, also bound to `/`, labelled
-`Find a city or a place` for assistive tech), `saved · 3` (count in mono; hidden count when 0 → just `saved`),
+`Find a city or a place` for assistive tech), a bookmark mark carrying the count in mono beside it (no count at 0), labelled `Saved, 3 spots`; on the saved
+screen the bookmark fills with the accent and takes `aria-current="page"`, because there is no text under a mark
+to rule,
 `about` (desktop only; on mobile lives in the Sky footer and sheet footer). On Sky the header is transparent
 over paper; when the column scrolls beneath it, it becomes paper at 85% with blur.
 

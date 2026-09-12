@@ -460,6 +460,13 @@ html[data-still] .sheet, html[data-still] .column { scroll-behavior: auto; }
 }
 html[data-still] .find-row { transition: none !important; }
 
-/* The one icon in the app: a search mark in place of a header word, on its own 44px square. */
-.find-trigger { text-decoration: none; padding: 10px; justify-content: center; }
-.find-trigger svg { display: block; }
+/*
+ * The app's two marks, in place of header words: each on its own 44px target, never underlined, the
+ * glyph doing the work a word used to. `is-here` fills the bookmark rather than colouring a rule,
+ * since there is no text under a mark to rule.
+ */
+.mark { text-decoration: none; padding: 10px 8px; justify-content: center; gap: 5px; }
+.mark svg { display: block; }
+.mark .mono { font-size: var(--t-mono-s); color: var(--ink-2); }
+.saved-trigger.is-here svg { fill: var(--accent); stroke: var(--accent); }
+.saved-trigger.is-here .mono { color: var(--accent); }
