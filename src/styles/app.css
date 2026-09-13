@@ -75,7 +75,7 @@
   --s-1: 4px; --s-2: 8px; --s-3: 12px; --s-4: 16px; --s-5: 20px; --s-6: 24px; --s-8: 32px; --s-10: 40px; --s-12: 48px; --s-16: 64px;
   --gutter: 16px; --column: 460px; --header-h: 56px;
   --r-well: 6px; --r-photo: 4px; --r-dial: 999px;
-  --z-horizon: 0; --z-shadow: 1; --z-canvas: 2; --z-labels: 4; --z-column: 5; --z-sticky: 6; --z-paperweight: 7; --z-note: 8;
+  --z-horizon: 0; --z-shadow: 1; --z-canvas: 2; --z-labels: 4; --z-column: 5; --z-sticky: 6; --z-note: 8;
   --d-micro: 240ms; --d-panel: 600ms; --d-flight: 1800ms; --d-light: 60s;
   --e-settle: cubic-bezier(.2, .8, .2, 1);
 }
@@ -280,19 +280,32 @@ html[data-still] .city-name.is-writing { animation: none; }
 }
 html[data-still] .side { transition: none !important; }
 @media (max-width: 899px) {
-  .sheet { position: fixed; inset: 0; z-index: var(--z-column); overflow-y: auto; scroll-snap-type: y mandatory; overscroll-behavior: contain; pointer-events: none; scrollbar-width: none; }
+  /*
+   * A plain scroller, and — the whole point — one that the finger can reach. This used to be
+   * pointer-events: none with none again on the spacers, so the top 72dvh of a city screen was a hole
+   * through to a canvas whose touchAction the engine pins at 'none': a downward drag spun the globe and
+   * never scrolled, which left the toggle in the sticky bar as the only way to the list. Mandatory snap
+   * went with it, because it sprang every partial drag on the paper back to a detent.
+   */
+  .sheet { position: fixed; inset: 0; z-index: var(--z-column); overflow-y: auto; overscroll-behavior: contain; scrollbar-width: none; }
   html[data-still] .sheet { scroll-behavior: auto; }
   .sheet::-webkit-scrollbar { display: none; }
-  .sheet-spacer { scroll-snap-align: start; pointer-events: none; }
-  .panel { scroll-snap-align: start; pointer-events: auto; min-height: 100dvh; background: linear-gradient(to bottom, var(--horizon) 0, var(--bg) 120px), var(--bg); position: relative; }
+  .sheet:focus { outline: none; }
+  .sheet:focus-visible { outline: 2px solid var(--ink); outline-offset: -4px; }
+  /* One transparent run-up instead of three detents. 72dvh is exactly the 27+39+6 they summed to, so the
+     screen a city opens on is composed as it always was — only now you can pull it. */
+  .sheet-lead { height: 72dvh; }
+  /*
+   * min-height is 100%, not 100dvh: .sheet is fixed to the large viewport and is this panel's containing
+   * block, so 100dvh (the small viewport) would leave the scroll range short of the lead on iOS and
+   * sheetProgress would never reach 1 — the globe would render forever behind opaque paper.
+   */
+  .panel { min-height: 100%; background: linear-gradient(to bottom, var(--horizon) 0, var(--bg) 120px), var(--bg); position: relative; }
   .panel::before { content: ""; position: absolute; top: 12px; left: 50%; width: 32px; height: 3px; margin-left: -16px; background: var(--hairline); }
   .panel .column { padding-top: var(--s-8); }
   /* Opaque: at 92% the page's own city heading ghosted through and the title read twice. */
-  .panel-sticky { position: sticky; top: var(--header-h); z-index: var(--z-sticky); background: var(--bg); border-bottom: 1px solid var(--hairline); padding: var(--s-3) var(--gutter); }
-  .paperweight { position: fixed !important; top: calc(var(--header-h) + 8px + env(safe-area-inset-top)); left: calc(100vw - 80px - env(safe-area-inset-right)); width: 100vw; height: 38vh !important; transform: scale(0.16); transform-origin: top left; z-index: var(--z-paperweight) !important; cursor: pointer; }
-  .paperweight .globe-shadow { display: none; }
-  .paperweight .globe-wrap { pointer-events: none; }
-  .paperweight .paurk-globe-canvas { outline: 2px solid var(--hairline); outline-offset: 0; }
+  .panel-sticky { position: sticky; top: var(--header-h); z-index: var(--z-sticky); background: var(--bg); border-bottom: 1px solid var(--hairline); padding: var(--s-3) var(--gutter);
+    display: flex; align-items: center; justify-content: space-between; gap: var(--s-4); }
 }
 
 /* mobile city: caption block between the globe and the sheet */

@@ -681,8 +681,13 @@ export class GlobeEngine {
     this.wake()
   }
   /** Sheet progress on mobile eases the city away (2.2 → 2.6 in the spec's units). */
+  /**
+   * Not gated on the flight. `anim` tweens yaw, pitch and zoom; push-back is an independent input read
+   * straight off this field each frame. Refusing writes while a city flight ran meant every scroll during
+   * those 1800ms was dropped and the whole accumulated value landed in one frame afterwards — a camera
+   * pop, and now that the sheet scrolls under the finger, "tap a city then pull" is the common gesture.
+   */
   setPushBack(p: number) {
-    if (this.anim) return
     this.pushBack = clamp(p, 0, 1)
     this.wake()
   }

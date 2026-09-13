@@ -43,7 +43,7 @@ printed plate caption and the travelled route keep it from reading as a wellness
 | **44px targets are "a matter of padding discipline that nobody will police".** | One `.word` class (§2.6) gives every actionable word a 44×44 minimum hit box through padding + negative margin, and `scripts/qa/screenshot.mjs` gains a check that fails the build when any `a, button, [role=button], input` has a bounding box under 44×44 on the 390px run. Policed by CI, not by people. |
 | **On touch, exactly one label at a time appears on hover, so city names are invisible until you tap.** | On coarse pointers the globe shows **up to six labels** for the front-facing cities nearest the screen centre (fading by `dot(normal, view)`), plus the "now in the world" list. On fine pointers, hover shows one label as before. Keyboard shows the focused one. |
 | **Uniqueness "good rather than great": warm paper + Cormorant + one accent is the quiet-luxury trope.** | The risen-moon composition, the printed plate caption, the dotted session route, leader lines from list rows to markers, and the terminator that is *honest* (real sub-solar point, scrubbable) — all specific to this product, none of them decoration. |
-| **Pointer-event sheet instead of native scroll-snap.** | The mobile sheet is now a **native vertical scroll container with `scroll-snap-type: y mandatory`** and transparent spacer blocks as detents (§3.3). No gesture code. |
+| **Pointer-event sheet instead of native scroll-snap.** | The mobile sheet is a **plain native vertical scroll container** with one transparent lead block (§3.3). No gesture code. Snap and the three detents were removed once it turned out the lead was `pointer-events: none`, so the only scrollable surface was below the fold and a `show more` word was the only way to reach the list. |
 | **A pale page on OLED at 2am.** | Night raises the slate horizon band to 60vh; the dark token set exists and is applied *only* at load from `prefers-color-scheme` or by the "lights down" word — never flipped mid-session (§7.4). Tested at 2am, in the dark, in the QA checklist. |
 | **`@property <color>` transition needs Firefox 128+.** | Feature-detect `CSS.registerProperty`; fallback lerps `--horizon` in JS at 2fps (§2.7). |
 | **Cormorant vanishes below 20px.** | Hard floor: Cormorant is never set below 20px; the 15px reason line moves to Zen Kaku 300 italic-less (Zen Kaku has no italic; use weight 300 + ink-2). |
@@ -189,7 +189,6 @@ Text column measure: 380px (desktop column), 100% − gutters (mobile).
 --z-labels:      4   projected city labels + leader-line svg + route/tick overlays
 --z-column:      5   desktop right column / mobile sheet
 --z-sticky:      6   sheet header, mobile spot bar
---z-paperweight: 7   the shrunk globe wrapper at half/full sheet detent
 --z-note:        8   margin note (aria-live)
 --z-dialog:      (native <dialog> top layer)
 --z-breathe:     9   breathe-here overlay (a <dialog> too)
@@ -309,21 +308,33 @@ text measure.
   horizon band (35vh, 55vh at night). The "now in the world" list is below, in normal flow, page-scrollable.
 - **City**: the canvas animates to a **38vh** tall square-cropped wrapper at the top (wrapper `height` transition
   600ms, camera dolly on the same curve) and the **sheet** rises out of the horizon.
-  - The sheet is a native scroller: `.sheet { position: fixed; inset: 0; overflow-y: auto; scroll-snap-type: y mandatory; overscroll-behavior: contain; }`
-    Inside: three transparent spacer blocks, each `scroll-snap-align: start`, with heights that put the paper
-    panel's top edge at **82% (peek)**, **45% (half)** and **6% (full)** of `100dvh`; the panel itself is the
-    fourth snap child (`scroll-snap-align: start`) and its content scrolls in flow. `pointer-events: none` on the
-    spacers, `auto` on the panel, so touches above the panel fall through to the canvas.
+  - The sheet is a plain native scroller: `.sheet { position: fixed; inset: 0; overflow-y: auto; overscroll-behavior: contain; }`
+    — no snap, and crucially **no `pointer-events: none`**. Inside: one transparent `.sheet-lead` of `72dvh`,
+    then the panel, whose content scrolls in flow. The lead is the scroll surface, which is the whole point: a
+    drag anywhere on the city screen, the sphere included, scrolls the list into view.
+    The sphere is therefore not touch-draggable on a phone city screen — it is a backdrop showing one selected
+    city there, and reaching the list matters more. It stays fully draggable on the sky screen, which has no sheet.
+    This was `pointer-events: none` on both the sheet and the spacers, with `scroll-snap-type: y mandatory` and
+    three detent spacers. The top 72dvh was then a hole through to a canvas whose `touchAction` the engine pins
+    at `none`, so a downward drag spun the globe and never scrolled; the only scrollable surface was the strip of
+    paper below the fold, and mandatory snap sprang any partial drag on it back to a detent. Hence the toggle.
   - The panel's top 120px is `background: linear-gradient(to bottom, var(--horizon) 0, var(--bg) 120px)` so the
     list appears to rise out of the evening. A 32×3px hairline handle sits 12px from the top. The header (city
     name, phase line, vibes trigger, time dial ribbon) is `position: sticky; top: var(--header-h)` inside the panel, opaque.
-  - `sheetProgress` (0 at peek, 1 at full) is derived from `scrollTop / (fullTop - peekTop)` on a passive scroll
-    listener and written to the store at most once per frame. GlobeEngine lerps camera distance 2.2 → 2.6 from
-    it. At progress ≥ 0.9 the canvas wrapper becomes the **paperweight** (§4.8): 64px, top-right, above the sheet,
-    tappable; a tap scrolls the sheet back to peek (`scrollTo({top: peekTop, behavior: 'smooth'})`).
-  - `touch-action`: the canvas has `touch-action: none` only while `sheetProgress < 0.1`; otherwise the wrapper
-    sets `touch-action: pan-y` so scrolling the list never spins the globe.
-  - Keyboard: a `show more` / `show less` word in the sticky header moves between detents.
+  - `sheetProgress` is `clamp(scrollTop / panel.offsetTop, 0, 1)` on a passive scroll listener, written to the
+    store at most once per frame: 0 with the globe composed, 1 the moment the paper's top edge meets the top of
+    the viewport. The denominator is measured rather than hardcoded (`.sheet` is fixed, so it is the panel's
+    offsetParent and `offsetTop` is exactly the lead), re-measured by a `ResizeObserver` on rotation. It drives
+    the camera push-back, and `.panel { min-height: 100% }` — not `100dvh`, which is the small viewport and would
+    leave the scroll range short of the lead on iOS — guarantees it can actually reach 1.
+  - The globe leaves by occlusion, not by a fade: the paper is opaque and covers it. At `sheetProgress ≥ 0.98`
+    the stage is marked `inert` (the canvas is `tabIndex=0` with `role="application"`, so it would otherwise sit
+    in the tab order behind paper) and the engine pauses. Focus is handed to the sheet first, since `inert` drops
+    a focused descendant to `<body>`.
+  - Keyboard and screen reader: the sheet is `tabIndex={0}`, `role="region"` with the city as its accessible
+    name, so it is focusable and arrow-scrollable. An `↑ globe` word appears in the sticky header past
+    `sheetProgress > 0.5` and returns you — the one thing the old paperweight thumbnail genuinely provided,
+    now reachable without a pointer.
 - **Spot**: the sheet is scrolled to full; a 48px sticky bar with `← list` and `save` over paper at 85% with
   `backdrop-filter: blur(12px) saturate(.8)`; photo 3:2 full-bleed within 16px gutters.
 - Body text 16px, minimum 13px (mono 11px for attribution only); every tap target ≥ 44px via `.word`.
@@ -510,21 +521,21 @@ graphite (paper in slate). `uHalo = 0.10 - 0.03 * breath`. It is a pencil edge f
 limb reads as sunk into the light. Its opacity is 1 on Sky and 0 elsewhere (600ms). Markers behind the veil's
 opaque part are not pickable.
 
-### 4.8 Paperweight (mobile, half/full sheet)
+### 4.8 The globe's exit on mobile
 
-At `sheetProgress ≥ 0.9` the canvas wrapper transitions (600ms, transform only) to
-`translate(calc(100vw - 80px - env(safe-area-inset-right)), calc(8px + env(safe-area-inset-top))) scale(0.16)`
-with `transform-origin: top left`, `z-index: var(--z-paperweight)`, `pointer-events: auto`, `role="button"`,
-`aria-label="Back to the globe"`. The engine renders one frame at the new size and then pauses. Tapping it scrolls
-the sheet to peek and the wrapper returns. Between 0.45 and 0.9 progress the wrapper scales linearly 1 → 0.85 and
-drifts up-right by up to 12px (cheap, compositor-only).
+Removed: the **paperweight**, a `scale(0.16)` copy of the stage pinned to the top-right corner past
+`sheetProgress ≥ 0.9`. It was the only rule in the app that transformed the stage or drew a box around the sphere
+(`outline: 2px solid var(--hairline)`), and at that scale the sphere's own 22px city label was crammed inside the
+outline — the whole thing read as a rendering glitch sitting on top of the sticky header's own word. The globe now
+simply goes behind the paper (§3.3): opaque occlusion, honest at every intermediate position, and nothing left to
+collide with. `↑ globe` in the sticky bar replaces the tap target it provided.
 
 ### 4.9 Performance budget and tiers
 
 Targets: 60fps during drag/flight on desktop, ≥30fps on a 2020 mid-range phone; ≤ 16ms per frame on desktop,
 ≤ 32ms on mobile. Render on demand: full-rate loop only during drag, inertia, flight or dial scrub; otherwise a
 30fps throttled loop for breath/rotation; stopped entirely on `visibilitychange: hidden`, when the
-`IntersectionObserver` reports the canvas < 5% visible, at the paperweight detent, and under still when nothing
+`IntersectionObserver` reports the canvas < 5% visible, when the paper covers it (`sheetProgress ≥ 0.98`), and under still when nothing
 is animating (a single frame is rendered on `uSun`/`uHorizon` change).
 
 | Tier | Trigger | Settings |
@@ -541,7 +552,7 @@ canvas box (with the contact shadow) so nothing shifts.
 If `WebGLRenderingContext` is missing or context creation fails: draw the same dots (every 3rd) once with
 `d3-geo geoOrthographic` onto a 2D canvas (porcelain disc, graphite dots, terminator as the same wide gradient
 drawn radially), re-rendered at 20fps during arrow-key/drag rotation; city markers are absolutely positioned
-`.word` buttons. The route line, veil and paperweight behave identically (they are DOM). Breath is omitted.
+`.word` buttons. The route line and veil behave identically (they are DOM). Breath is omitted.
 
 ---
 
@@ -568,7 +579,7 @@ Under still: the name and rows appear with a 300ms fade.
 
 ### 5.4 Sheet from the horizon (mobile)
 The list rises out of the horizon light; pulling it up gently pushes the city away. *Implementation:* §3.3
-(native scroll-snap; `sheetProgress` → camera distance 2.2→2.6 and wrapper scale). The panel's top gradient uses
+(one plain scroller, one lead block; `sheetProgress` → camera push-back). The panel's top gradient uses
 `var(--horizon)` so the evening itself brings you the list.
 
 ### 5.5 Compass whisper (around me)
@@ -944,7 +955,7 @@ dial to the city's next morning. Preview prefix: `if it were 21:30 · …`. Offl
 - [ ] One `aria-live=polite` region (margin note), throttled 1 line / 1.2s; phase changes ≤ 1 / 5 min; the golden numeral does not announce per tick.
 - [ ] Images: `alt` = spot name + Wikipedia title; posters `role=img` with label; `see original` available.
 - [ ] `prefers-reduced-motion` and the `still` toggle per §2.8; `prefers-color-scheme` respected at load; `forced-colors: active` keeps underlines and outlines (no colour-only state).
-- [ ] Sheet detents reachable by keyboard (`show more`/`show less`); native scroll so screen readers see one document.
+- [ ] Sheet focusable and arrow-scrollable (`role="region"`, the city as its name), `↑ globe` reachable by keyboard; native scroll so screen readers see one document.
 - [ ] Layout in `rem`, `min()`, `dvh`; tested at 200% zoom and 320px effective width; no horizontal scroll of the body.
 - [ ] Safety copy honest and specific; caution never colour-only (word + ring + position in the list).
 - [ ] Geolocation: never at launch; explanation before prompt; denial remembered; position never persisted.
@@ -1012,7 +1023,7 @@ check", "hidden gem". The word "chill" appears only in the app name. The screen 
 
 **Actions (always `.word`s, always lowercase)**: `around me` · `saved` · `about` · `save` ·
 `saved` · `share` · `copied` · `breathe here` · `see original` · `point the needles` · `try again` · `open Porto` ·
-`choose another` · `now` · `pin` · `another` · `show more` · `show less` · `lights down` · `still` · `km` / `mi` ·
+`choose another` · `now` · `pin` · `another` · `↑ globe` · `lights down` · `still` · `km` / `mi` ·
 `← sky` · `← Lisbon` · `← list` · `close` · `continue` · `not now`.
 
 **About sheet (full text)**

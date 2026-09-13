@@ -20,7 +20,7 @@ import { SavedPage } from './components/SavedPage'
 import { Find } from './components/Find'
 import { AboutDialog } from './components/AboutDialog'
 import { HorizonClock } from './components/HorizonClock'
-import { Sheet, scrollSheetToPeek } from './components/Sheet'
+import { Sheet } from './components/Sheet'
 import { MarginNote } from './components/MarginNote'
 import { PlateCaption } from './components/PlateCaption'
 import { PhaseLine } from './components/SkyText'
@@ -85,6 +85,7 @@ export default function App() {
   const [findOpen, setFindOpen] = useState(false)
   const [aboutOpen, setAboutOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
+  const stageRef = useRef<HTMLDivElement>(null)
   useOnlineWatcher()
 
   const city = citySlug ? cityBySlug.get(citySlug) ?? null : null
@@ -193,7 +194,18 @@ export default function App() {
   }, [mode])
 
   const { seat, fit, radius } = globeFrame(mode, mobile, viewport)
-  const paperweight = mobile && (inCity || mode === 'saved') && sheetProgress >= 0.9
+  // The paper is opaque and reaches the top of the sheet, so once the run-up is spent the canvas is
+  // fully behind it: stop rendering, and take a focusable role="application" widget out of the tab order.
+  const covered = mobile && (inCity || mode === 'saved') && sheetProgress >= 0.98
+  // inert drops focus to <body> if it lands on a focused descendant, and the canvas is one. Hand focus
+  // to the sheet instead, so the tab order carries on from where the reader is.
+  useEffect(() => {
+    if (!covered) return
+    const el = stageRef.current
+    if (el && document.activeElement instanceof HTMLElement && el.contains(document.activeElement)) {
+      document.querySelector<HTMLElement>('[data-sheet]')?.focus({ preventScroll: true })
+    }
+  }, [covered])
   const sunDate = city && cityNow.preview ? cityNow.now : null
   const originIsReal = !!userPos && !!city && distanceKm(userPos, city) <= 80 && (accuracy === null || accuracy < 50000)
   const origin = originIsReal ? userPos : null
@@ -210,9 +222,9 @@ export default function App() {
         <Header onSearch={() => setFindOpen(true)} onAbout={() => setAboutOpen(true)} scrolled={scrolled || (mobile && sheetProgress > 0.05)} />
         <main className={mobile ? (mode === 'sky' ? 'sky' : 'city') : 'shell'} data-sky={mode === 'sky' ? '' : undefined}
           style={{ '--seat-x': seat[0], '--seat-y': seat[1], '--globe-r': `${Math.round(radius)}px` } as React.CSSProperties}>
-          <div className={`stage${paperweight ? ' paperweight' : ''}`} onClick={paperweight ? scrollSheetToPeek : undefined} role={paperweight ? 'button' : undefined} aria-label={paperweight ? 'Back to the globe' : undefined}>
+          <div className="stage" ref={stageRef} {...(covered ? { inert: true } : {})}>
             <div className="globe-shadow" aria-hidden="true" />
-            <GlobeView markers={markers} selectedId={citySlug} seat={seat} fit={fit} still={still} sunDate={sunDate} pushBack={mobile ? sheetProgress : 0} paused={paperweight} autoRotate={mode === 'sky'} themeKey={theme} onSelect={onSelect} />
+            <GlobeView markers={markers} selectedId={citySlug} seat={seat} fit={fit} still={still} sunDate={sunDate} pushBack={mobile ? sheetProgress : 0} paused={covered} autoRotate={mode === 'sky'} themeKey={theme} onSelect={onSelect} />
           </div>
           {mobile && city && mode === 'city' && cityNow.sun && (
             <div className="stage-caption" aria-hidden="true">
@@ -224,7 +236,7 @@ export default function App() {
             mode === 'sky' ? (
               <SkyText now={live} userPos={userPos} onSearch={() => setFindOpen(true)} onAbout={() => setAboutOpen(true)} />
             ) : (
-              <Sheet fullOnMount={mode === 'spot'} bare={mode === 'spot'} sticky={mode === 'spot' ? null : <p className="city-name" style={{ fontSize: 'var(--t-display-s)' }}>{mode === 'saved' ? 'saved' : city?.name}</p>}>
+              <Sheet fullOnMount={mode === 'spot'} bare={mode === 'spot'} label={mode === 'saved' ? 'Saved spots' : city?.name ?? 'Place'} sticky={mode === 'spot' ? null : <p className="city-name" style={{ fontSize: 'var(--t-display-s)' }}>{mode === 'saved' ? 'saved' : city?.name}</p>}>
                 {column}
                 <p className="only-mobile" style={{ paddingTop: 24 }}><button type="button" className="word word--quiet word--small" onClick={() => setAboutOpen(true)}>about</button>{' '}<button type="button" className="word word--quiet word--small" onClick={() => actions.sky()}>← sky</button></p>
               </Sheet>
