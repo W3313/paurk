@@ -49,11 +49,13 @@ const MIN_ZOOM = 0.8
 /**
  * How far in the sphere can be pushed. The old 2.2 was as far as one lattice of 23,015 dots could be
  * magnified before the land read as a scatter; the fine lattice (§4.2) carries the range from there.
- * 6 is where that one runs out in turn — measured by rendering it: at 6x Britain and its coastline
- * still read, by 8x the same view is a loose field of dots with no land in it. The camera is not the
- * limit (MIN_DIST is met around 5x and the lens takes over from there); the dot count is.
+ * With the dots alone 6 was the limit — by 8x the land was a loose field with no shore in it. The line
+ * layers carry it the rest of the way: they are vector, so they stay sharp at any magnification, and
+ * past 6 they are what draws the land while the dots are only texture. 12 is where the 50m line data's
+ * own vertices start to show as straight runs, measured by rendering it. The camera is not the limit —
+ * MIN_DIST is met around 5x and the lens takes over, verified stable out to 14x.
  */
-const MAX_ZOOM = 6
+const MAX_ZOOM = 12
 const SKY_ZOOM = 1
 /** Where a city flight settles, and the size markers stop growing at. */
 const CITY_ZOOM = 1.45
@@ -71,6 +73,16 @@ const MIN_DIST = 1.35
  */
 const FINE_LO = 1.5
 const FINE_HI = 1.9
+type LineKind = 'borders' | 'coast'
+const LINE_KINDS: LineKind[] = ['borders', 'coast']
+/**
+ * The zoom band each line layer comes up over. Borders start below the 1.45 a city flight settles at,
+ * so opening a city shows the country it is in; on the resting sky, where the whole Earth is about 450
+ * pixels across, country outlines are sub-pixel and would only add noise to the matrix — checked by
+ * rendering them there, not assumed. Coastlines wait until the dots have thinned past describing a
+ * shore, which is also what defers their much larger file to the people who actually go that deep.
+ */
+const LINE_BAND: Record<LineKind, [number, number]> = { borders: [1.2, 1.8], coast: [4, 6] }
 const DOT_BASE = 2.4 * 3.2
 /** Points in each lattice; the fine one is public/globe-dots-fine.bin. */
 const COARSE_DOTS = 23015
@@ -121,6 +133,24 @@ void main() {
   gl_PointSize = min(8.0 * uDPR, uBase * uDPR * (1.0 + breathe) / max(0.3, -mv.z));
   vAlpha = uFade * smoothstep(aReveal - 0.08, aReveal, uReveal) * mix(0.32, 0.6, smoothstep(-0.55, 0.55, dot(N, uSun)));
   gl_Position = projectionMatrix * mv;
+}`
+const LINE_VERT = /* glsl */ `
+uniform vec3 uSun; uniform vec3 uCamDir;
+varying float vFacing; varying float vLit;
+void main() {
+  vec3 N = normalize(position);
+  vFacing = dot(normalize(mat3(modelMatrix) * N), uCamDir);
+  vLit = mix(0.32, 0.6, smoothstep(-0.55, 0.55, dot(N, uSun)));
+  gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+}`
+const LINE_FRAG = /* glsl */ `
+uniform vec3 uLand; uniform float uFade;
+varying float vFacing; varying float vLit;
+void main() {
+  // Lines sit just above the sphere, so without this the far side shows through the near one.
+  if (vFacing < 0.02) discard;
+  gl_FragColor = vec4(uLand, uFade * vLit);
+  #include <colorspace_fragment>
 }`
 const DOT_FRAG = /* glsl */ `
 uniform vec3 uLand;
@@ -179,6 +209,14 @@ export class GlobeEngine {
    */
   private fine: THREE.Points | null = null
   private fineWanted = false
+  /**
+   * The two line layers, each a THREE.LineSegments fetched the first time the zoom reaches it. Borders
+   * come up early and cheaply; coastlines only once the dot matrix has thinned past describing a shore,
+   * which is also where they earn their much larger file.
+   */
+  private lines: Partial<Record<LineKind, THREE.LineSegments>> = {}
+  private lineMats!: Record<LineKind, THREE.ShaderMaterial>
+  private lineWanted = new Set<LineKind>()
   private markerZoom = SKY_ZOOM
   private rings: THREE.InstancedMesh | null = null
   private discs: THREE.InstancedMesh | null = null
@@ -298,6 +336,15 @@ export class GlobeEngine {
       transparent: true, depthTest: true, depthWrite: false,
     })
 
+    const lineMat = () => new THREE.ShaderMaterial({
+      vertexShader: LINE_VERT,
+      fragmentShader: LINE_FRAG,
+      // Sun, camera direction and ink are the dots' own uniform objects, shared by reference.
+      uniforms: { uSun: this.dotMat.uniforms.uSun, uCamDir: this.dotMat.uniforms.uCamDir, uLand: this.dotMat.uniforms.uLand, uFade: { value: 0 } },
+      transparent: true, depthTest: true, depthWrite: false,
+    })
+    this.lineMats = { borders: lineMat(), coast: lineMat() }
+
     this.haloMat = new THREE.ShaderMaterial({
       vertexShader: HALO_VERT, fragmentShader: HALO_FRAG,
       uniforms: { uColor: { value: col(th.halo) }, uHalo: { value: 0.1 } },
@@ -364,6 +411,36 @@ export class GlobeEngine {
       console.warn('globe dots failed to load', e)
     }
     this.opts.onReady?.()
+  }
+
+  /**
+   * Fetches the country borders, once. Same file shape as the dots, so the same loader: consecutive
+   * Int16 lat/lng pairs, each pair of pairs one segment.
+   */
+  private async loadLines(kind: LineKind) {
+    if (this.lineWanted.has(kind)) return
+    this.lineWanted.add(kind)
+    try {
+      const data = await loadDots(this.opts.dotsUrl.replace(/globe-dots\.bin$/, `globe-${kind === 'coast' ? 'coast' : 'borders'}.bin`))
+      if (this.disposed) return
+      const n = Math.floor(data.length / 2)
+      const pos = new Float32Array(n * 3)
+      for (let i = 0; i < n; i++) {
+        // Just clear of the dots' 1.003 so a border never disappears inside the matrix it crosses.
+        const [x, y, z] = latLngToVec3(data[i * 2] / 100, data[i * 2 + 1] / 100, 1.004)
+        pos[i * 3] = x; pos[i * 3 + 1] = y; pos[i * 3 + 2] = z
+      }
+      const geo = new THREE.BufferGeometry()
+      geo.setAttribute('position', new THREE.BufferAttribute(pos, 3))
+      const seg = new THREE.LineSegments(geo, this.lineMats[kind])
+      seg.renderOrder = 2
+      seg.visible = false
+      this.lines[kind] = seg
+      this.globe.add(seg)
+      this.wake()
+    } catch (e) {
+      console.warn(`globe ${kind} failed to load`, e)
+    }
   }
 
   /**
@@ -1015,6 +1092,21 @@ export class GlobeEngine {
     // Which lattice is on. Below FINE_LO only the coarse one draws and the fine file is never asked
     // for; across the band they cross over; above it only the fine one draws.
     if (this.zoom >= FINE_LO) void this.loadFine()
+    /*
+     * The globe resolves from a matrix into a map as you go in. Borders come up first — on the resting
+     * sky forty-odd outlines would be noise, but once you are inside a continent they are what says
+     * which country this is. Coastlines come up last, where the dots have thinned past being able to
+     * describe a shore and something has to hold the land's edge.
+     */
+    for (const kind of LINE_KINDS) {
+      const [lo, hi] = LINE_BAND[kind]
+      if (this.zoom >= lo) void this.loadLines(kind)
+      const seg = this.lines[kind]
+      const f = seg ? clamp((this.zoom - lo) / (hi - lo), 0, 1) : 0
+      const mat = this.lineMats[kind]
+      if (mat.uniforms.uFade.value !== f) mat.uniforms.uFade.value = f
+      if (seg) seg.visible = f > 0
+    }
     const fade = this.fine ? clamp((this.zoom - FINE_LO) / (FINE_HI - FINE_LO), 0, 1) : 0
     if (this.dotMat.uniforms.uFade.value !== 1 - fade) this.dotMat.uniforms.uFade.value = 1 - fade
     if (this.fineMat.uniforms.uFade.value !== fade) this.fineMat.uniforms.uFade.value = fade

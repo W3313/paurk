@@ -387,7 +387,9 @@ gl_FragColor = vec4(c, 1.0);
 `uSun` is the unit vector of the sub-solar point (`lib/geo.subsolar`) for the *displayed* instant (now, or the
 time-dial preview), refreshed every 60s or on dial input. `uHorizon` mirrors `--horizon` (read from
 `getComputedStyle` once per second; the 60s CSS transition therefore also drives the sphere). No specular, no
-textures, no fills, no outlines, no graticule.
+textures, no fills, no graticule. Outlines were originally excluded too; country borders and coastlines were
+added later, on request, and earn the exception by being staged behind zoom (§4.2a) so the resting globe is
+unchanged.
 
 ### 4.2 Land
 
@@ -434,6 +436,36 @@ Fragment: `if (vFacing < 0.02) discard;` then a soft disc `smoothstep(0.5, 0.35,
 colour `uLand` (graphite / paper in slate), alpha `vAlpha * disc`. Sizes are in device pixels via `uDPR`, capped
 at 8px; test at DPR 1/2/3 (Safari). If Points prove inconsistent, the fallback is an `InstancedMesh` of
 `CircleGeometry(0.0035, 6)` with the same attributes (23k instances is fine).
+
+### 4.2a Lines: borders and coastlines
+
+The globe resolves from a matrix into a map as it is zoomed. Two `THREE.LineSegments` layers, built by
+`scripts/build-globe-borders.mjs` from world-atlas `countries-50m`:
+
+| file | source | segments | gzipped | comes up over |
+| --- | --- | --- | --- | --- |
+| `public/globe-borders.bin` | `topojson.mesh(…, (a, b) => a !== b)` | 19,252 | 37 KB | zoom 1.2 → 1.8 |
+| `public/globe-coast.bin` | `topojson.mesh(…, (a, b) => a === b)` | 59,418 | 126 KB | zoom 4 → 6 |
+
+The mesh filters matter: `a !== b` returns only the arcs two countries share, so every border is one line rather
+than two stacked outlines, and `a === b` returns the arcs belonging to a single polygon, which is every coastline
+and lake shore. Same file shape as the dots — delta-encoded Int16 (lat×100, lng×100), gzipped — so they share the
+loader; consecutive pairs form one segment, which is what `LineSegments` wants and means no line-length table has
+to be stored. An interior vertex appears twice and the repeat is a delta of zero, which compresses to nothing.
+Long source segments are split at 3°: a straight line in lat/lng is a chord that dips about θ²/8 below the sphere,
+and the lines sit at radius 1.004, so anything under 10° never breaks the surface — measured, 0.5° and 3° produce
+the same file to within 2 KB.
+
+They share the dots' `uSun`, `uCamDir` and `uLand` uniform objects by reference, carry the same
+`if (vFacing < 0.02) discard` so the far side does not show through the near one, and the same
+`mix(0.32, 0.6, …)` day/night weighting, so a border on the night side is as quiet as the dots around it.
+
+**Why they are staged, and why not at rest.** On the resting sky the whole Earth is about 450px across and country
+outlines are sub-pixel: rendered there, they add noise to the matrix and no information, so the band starts at 1.2
+— below the 1.45 a city flight settles at, so opening a city does show the country it is in. Coastlines wait until
+4, where the dot matrix has thinned past being able to describe a shore and something else has to hold the land's
+edge; that is also what keeps their 126 KB off everyone who never zooms. First paint still costs one 12.5 KB
+lattice and nothing else, which `scripts/qa/globe.mjs` asserts.
 
 ### 4.3 Markers (cities)
 
@@ -492,13 +524,14 @@ graphite (paper in slate). `uHalo = 0.10 - 0.03 * breath`. It is a pencil edge f
   pitch clamped ±70°; inertia damped ×0.94 per frame. **Soft detent**: when `|v| < 0.002 rad/frame` and a city's
   normal is within 6° of the screen centre, slerp onto it over 400ms and show its label (do *not* select; selection
   is a tap/Enter).
-- Wheel / pinch: zoom clamped 0.8–6.0 (a wheel notch is `exp(±0.28)` at most, `+`/`-` step 1.3), eased at 240ms.
+- Wheel / pinch: zoom clamped 0.8–12.0 (a wheel notch is `exp(±0.28)` at most, `+`/`-` step 1.3), eased at 240ms.
   Distance is `fitDist / zoom` — measured against the base 28° lens, never the live one, or the floor below closes
   a feedback loop and the fov oscillates every frame — floored at 1.35 so the camera cannot cross the surface and
   leave every dot back-facing. Below the floor, met around 5x, the remaining zoom narrows the fov instead; apparent
-  size is continuous across it, so nothing jumps. 6 is where the fine lattice runs out, measured by rendering it:
-  at 6x Britain and its coastline still read, by 8x the same view is a loose field of dots. City markers grow with
-  the sphere up to the 1.45 a flight settles at and hold that size past it, or one ring swallows the view.
+  size is continuous across it, so nothing jumps. Past 6 the dots alone give out — at 8x the view is a loose field
+  with no shore in it — and the line layers (§4.2a) carry the rest, being vector and so sharp at any magnification.
+  12 is where the 50m line data's own vertices start to show as straight runs. City markers grow with the sphere up
+  to the 1.45 a flight settles at and hold that size past it, or one ring swallows the view.
 - Hover (fine pointer): screen-space nearest within 28px → heat 1, label.
 - Click / tap / Enter on a marker: select city (flight). Selecting by the globe never triggers a geolocation prompt.
 - Keyboard (`tabindex=0`, `role="application"`, `aria-roledescription="globe"`, `aria-label="World globe, 35 cities"`):

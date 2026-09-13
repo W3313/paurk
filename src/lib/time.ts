@@ -80,7 +80,8 @@ export function formatClock(date: Date, timeZone?: string): string {
 }
 
 export function formatCountdown(minutes: number): string {
-  if (minutes <= 0) return 'now'
+  // Every caller says "<something> in ${this}", so 'now' read as "sunset in now".
+  if (minutes <= 0) return '0m'
   if (minutes < 60) return `${minutes} min`
   const h = Math.floor(minutes / 60), m = minutes % 60
   return m ? `${h}h ${m}m` : `${h}h`

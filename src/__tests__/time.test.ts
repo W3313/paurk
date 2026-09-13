@@ -21,7 +21,9 @@ describe('sunInfo', () => {
     expect(['morning', 'midday', 'afternoon']).toContain(info.period)
   })
   it('formats countdowns', () => {
-    expect(formatCountdown(0)).toBe('now')
+    // Reads inside "sunset in ${…}", so it must be a duration at zero, not the word now.
+    expect(formatCountdown(0)).toBe('0m')
+    expect(formatCountdown(-3)).toBe('0m')
     expect(formatCountdown(45)).toBe('45 min')
     expect(formatCountdown(125)).toBe('2h 5m')
   })
