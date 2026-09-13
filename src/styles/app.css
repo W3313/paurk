@@ -306,6 +306,10 @@ html[data-still] .globe-wrap.is-breathing-in { animation: none; }
 @media (max-width: 899px) {
   .sky-text { width: 100%; padding-inline: var(--gutter); background: linear-gradient(to bottom, transparent 0, var(--bg) 96px), var(--bg); }
   .sky-text > .plate { padding-top: var(--s-6); }
+  /* Rises as the sheet falls, so returning to the sky is one movement rather than a swap. */
+  .sky-text { animation: sky-in 340ms var(--e-settle) both; }
+  @keyframes sky-in { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+  html[data-still] .sky-text { animation: none; }
 }
 .plate { font-family: var(--font-mono); font-size: 12px; color: var(--ink-2); letter-spacing: .02em; text-transform: lowercase; }
 .phase { font-family: var(--font-display); font-weight: 300; font-size: var(--t-display-s); line-height: 1.2; }
@@ -393,6 +397,11 @@ html[data-still] .side { transition: none !important; }
   .sheet { position: fixed; inset: 0; z-index: var(--z-column); overflow-y: auto; overscroll-behavior: contain; scrollbar-width: none; }
   html[data-still] .sheet { scroll-behavior: auto; }
   .sheet::-webkit-scrollbar { display: none; }
+  /* The paper falls away once the pull has committed, and the mode changes behind it — see Sheet.tsx.
+     Dropped rather than faded alone, so it reads as the sheet going back down where it came from. */
+  .sheet.is-leaving { transform: translateY(42dvh); opacity: 0; pointer-events: none;
+    transition: transform 300ms var(--e-settle), opacity 260ms linear; }
+  html[data-still] .sheet.is-leaving { transition: none; }
   .sheet:focus { outline: none; }
   .sheet:focus-visible { outline: 2px solid var(--ink); outline-offset: -4px; }
   /* One transparent run-up instead of three detents. 72dvh is exactly the 27+39+6 they summed to, so the

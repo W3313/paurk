@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect, useRef, type ReactNode } from 'react'
+import { useEffect, useLayoutEffect, useRef, useState, type ReactNode } from 'react'
 import { actions, useStore } from '../store'
 import { getGlobe } from '../globe/handle'
 
@@ -29,6 +29,13 @@ interface Props {
  * there is no pointer stream left to read a pull out of — and because momentum, rubber-banding and the
  * interrupted half-pull all come free when the browser is the one doing the scrolling.
  */
+/**
+ * When the mode changes behind the falling paper. Shorter than the 300ms fall on purpose: traced at
+ * 390x844, the panel's top edge clears the 844 fold by about 130ms, so cutting at 170 is invisible and
+ * lets the sky start arriving while the paper is still on its way down rather than after it.
+ */
+const LEAVE_MS = 170
+
 export function Sheet({ children, sticky, fullOnMount, bare = false, label, onPullBack, backWord }: Props) {
   const ref = useRef<HTMLDivElement>(null)
   const panel = useRef<HTMLElement>(null)
@@ -41,6 +48,8 @@ export function Sheet({ children, sticky, fullOnMount, bare = false, label, onPu
   const armed = useRef(false)
   /** Whether a finger is down, which is what separates a deliberate pull from momentum passing through. */
   const held = useRef(false)
+  /** Set between the pull committing and the mode actually changing, so the paper can leave rather than vanish. */
+  const [leaving, setLeaving] = useState(false)
   const smooth = () => (document.documentElement.dataset.still !== undefined ? 'auto' : 'smooth') as ScrollBehavior
 
   // Before paint, not after: the sheet has to open already scrolled past the pull-back zone, or the
@@ -88,8 +97,16 @@ export function Sheet({ children, sticky, fullOnMount, bare = false, label, onPu
       if (!held.current) return
       held.current = false
       if (!armed.current) return
-      if (el.scrollTop <= back.current * 0.4) { armed.current = false; onPullBack() }
-      else if (el.scrollTop < back.current) el.scrollTo({ top: back.current, behavior: smooth() })
+      if (el.scrollTop <= back.current * 0.4) {
+        armed.current = false
+        /*
+         * The paper is still on screen at the commit line — measured at 390x844, its top edge is at y=722
+         * of 844 — and unmounting it there deleted it between one frame and the next. Let it fall out
+         * first and change mode when it has gone, so the only thing left to swap is off screen anyway.
+         */
+        if (document.documentElement.dataset.still !== undefined) onPullBack()
+        else { setLeaving(true); window.setTimeout(onPullBack, LEAVE_MS) }
+      } else if (el.scrollTop < back.current) el.scrollTo({ top: back.current, behavior: smooth() })
     }
     measure(); write()
     el.addEventListener('scroll', onScroll, { passive: true })
@@ -156,7 +173,7 @@ export function Sheet({ children, sticky, fullOnMount, bare = false, label, onPu
   }
 
   return (
-    <div className="sheet" ref={ref} data-sheet tabIndex={0} role="region" aria-label={label}>
+    <div className={`sheet${leaving ? ' is-leaving' : ''}`} ref={ref} data-sheet tabIndex={0} role="region" aria-label={label}>
       <div className="sheet-exit" ref={exit} aria-hidden="true" {...sky}>
         {/* Only once the pull is underway, so the resting screen stays as quiet as it was. */}
         <span className="sheet-back mono">{backWord}</span>
