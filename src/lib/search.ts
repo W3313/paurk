@@ -30,7 +30,7 @@ function fieldScore(field: string, q: string): number {
   return f.includes(q) ? 20 : 0
 }
 
-/** The best-scoring field, and which one it was. */
+/** The best-scoring field for one word, and which one it was. */
 function pick(q: string, fields: [Via, string | null | undefined][]): { score: number; via: Via } {
   let score = 0, via: Via = 'name'
   for (const [v, f] of fields) {
@@ -39,6 +39,27 @@ function pick(q: string, fields: [Via, string | null | undefined][]): { score: n
     if (s > score) { score = s; via = v }
   }
   return { score, via }
+}
+
+/**
+ * Every word has to find a home somewhere, and the scores add up.
+ *
+ * The query used to be folded into a single needle and matched as one substring against one field at a
+ * time, so the most ordinary shape of query was a dead end: "lisbon park", "tokyo garden", "quiet cafe"
+ * and "library tokyo" all returned nothing, while "central park" survived only by happening to be
+ * contiguous inside three names. Requiring every word and summing the best each one finds means a record
+ * has to answer the whole query, and "lisbon park" starts meaning Lisbon's parks. A one-word query sums a
+ * single term, so the tiers behave exactly as they did — "park" still puts Park Güell above Sarphatipark.
+ */
+function scoreTokens(tokens: string[], per: (t: string) => { score: number; via: Via }): { score: number; via: Via } | null {
+  let total = 0, best = 0, via: Via = 'name'
+  for (const t of tokens) {
+    const r = per(t)
+    if (!r.score) return null
+    total += r.score
+    if (r.score > best) { best = r.score; via = r.via }
+  }
+  return { score: total, via }
 }
 
 const citySlugToCity = new Map(cities.map((c) => [c.slug, c]))
@@ -50,27 +71,30 @@ const citySlugToCity = new Map(cities.map((c) => [c.slug, c]))
  * consulting the clock: a time-based tiebreak would reshuffle the list under an idle finger.
  */
 export function search(q: string, limit = 12, nearCity?: string | null): Hit[] {
-  const needle = fold(q.trim())
-  if (!needle) return []
+  const tokens = fold(q.trim()).split(/\s+/).filter(Boolean)
+  if (!tokens.length) return []
   const hits: Hit[] = []
   for (const city of cities) {
-    const { score, via } = pick(needle, [['name', city.name], ['country', city.country]])
-    if (score) hits.push({ kind: 'city', city, score: score + 8, via })
+    const r = scoreTokens(tokens, (t) => pick(t, [['name', city.name], ['country', city.country]]))
+    if (r) hits.push({ kind: 'city', city, score: r.score + 8, via: r.via })
   }
   for (const spot of spots) {
     const city = citySlugToCity.get(spot.city)
     if (!city) continue
-    // A spot is reachable through its city name too, but weakly: "tokyo" should list Tokyo first and
-    // its parks under it, not bury the city under twenty of its own entries.
-    const own = pick(needle, [['name', spot.name], ['area', spot.neighborhood]])
-    const viaCity = fieldScore(city.name, needle) ? 12 : 0
-    const viaKind = fieldScore(spot.category, needle) ? 15 : 0
-    const viaVibe = spot.vibes.some((v) => fold(v) === needle) ? 15 : 0
-    let score = own.score, via = own.via
-    if (viaCity > score) { score = viaCity; via = 'city' }
-    if (viaKind > score) { score = viaKind; via = 'kind' }
-    if (viaVibe > score) { score = viaVibe; via = 'vibe' }
-    if (score) hits.push({ kind: 'spot', spot, city, score: score + (nearCity && spot.city === nearCity ? 12 : 0), via })
+    const r = scoreTokens(tokens, (t) => {
+      // A spot is reachable through its city name too, but weakly: "tokyo" should list Tokyo first and
+      // its parks under it, not bury the city under twenty of its own entries.
+      const own = pick(t, [['name', spot.name], ['area', spot.neighborhood]])
+      const viaCity = fieldScore(city.name, t) ? 12 : 0
+      const viaKind = fieldScore(spot.category, t) ? 15 : 0
+      const viaVibe = spot.vibes.some((v) => fold(v) === t) ? 15 : 0
+      let score = own.score, via = own.via
+      if (viaCity > score) { score = viaCity; via = 'city' }
+      if (viaKind > score) { score = viaKind; via = 'kind' }
+      if (viaVibe > score) { score = viaVibe; via = 'vibe' }
+      return { score, via }
+    })
+    if (r) hits.push({ kind: 'spot', spot, city, score: r.score + (nearCity && spot.city === nearCity ? 12 : 0), via: r.via })
   }
   const name = (h: Hit) => (h.kind === 'city' ? h.city.name : h.spot.name)
   const lowkey = (h: Hit) => (h.kind === 'spot' ? h.spot.lowkeyScore : 0)

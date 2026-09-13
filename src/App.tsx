@@ -178,6 +178,15 @@ export default function App() {
     document.body.classList.toggle('is-locked', inCity || mode === 'saved')
     return () => document.body.classList.remove('is-locked')
   }, [mobile, inCity, mode])
+  // The sky is the one screen that scrolls the document itself rather than a panel, so nothing was
+  // feeding `scrolled` there and the header never went opaque — it printed "44 cities" through itself.
+  useEffect(() => {
+    if (!mobile || mode !== 'sky') return
+    const onScroll = () => setScrolled(window.scrollY > 4)
+    onScroll()
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [mobile, mode])
 
   // Keyboard: "/" opens find; Escape steps back; "a" toggles ambient.
   useEffect(() => {

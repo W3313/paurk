@@ -33,9 +33,10 @@
 
     <link rel="preload" href="/fonts/zen-kaku-300-latin.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="/fonts/zen-kaku-500-latin.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+    <!-- All three families are self-hosted (src/styles/app.css, scripts/fetch-fonts.mjs). Nothing on the
+         render path comes from another origin, so a blocked or slow font CDN cannot hold the page blank. -->
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/cormorant-300-latin.woff2" crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/zen-kaku-300-latin.woff2" crossorigin />
   </head>
   <body>
     <div id="root"></div>

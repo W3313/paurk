@@ -36,7 +36,8 @@ export function SpotPage({ spot, city, now, sun, origin, originIsReal, mobile }:
   const hours = useMemo(() => parseHours(spot.hours, now, city.timezone, { sunrise: sun.sunrise, sunset: sun.sunset }), [spot.hours, now, city.timezone, sun])
   const from = origin ?? city
   const km = distanceKm(from, spot)
-  const walk = walkMinutes(km)
+  /** Null unless we know where the reader is — see the note in SpotRow. */
+  const walk = originIsReal ? walkMinutes(km) : null
   const night = sun.period === 'night' || sun.period === 'dusk'
   const currentTime = sun.period === 'golden' ? 'golden-hour' : sun.period === 'night' || sun.period === 'dusk' ? 'night' : sun.period === 'dawn' || sun.period === 'morning' ? 'morning' : 'afternoon'
   const sunsetSpot = spot.vibes.includes('sunset') || spot.bestTimes.includes('golden-hour')
@@ -47,9 +48,12 @@ export function SpotPage({ spot, city, now, sun, origin, originIsReal, mobile }:
   if (sun.period === 'golden' && sun.minutesToSunset !== null) nowLine.push(`sunset in ${formatCountdown(sun.minutesToSunset)}`)
   if (originIsReal) nowLine.push(walkingTime(km))
   if (sunsetSpot && sun.sunset && sun.period !== 'night') {
-    const arriveMin = Math.round((sun.sunset.getTime() - now.getTime()) / 60000) - walk
-    if (arriveMin > 0) {
-      const lb = leaveBy(sun, walk, city.timezone, now)
+    const arriveMin = walk === null ? null : Math.round((sun.sunset.getTime() - now.getTime()) / 60000) - walk
+    if (arriveMin === null) {
+      // Without a location there is no journey to time, only the light, which is a real city-wide fact.
+      good = good || hours.status !== 'closed'
+    } else if (arriveMin > 0) {
+      const lb = leaveBy(sun, walk!, city.timezone, now)
       if (lb) nowLine.push(`leave by ${lb}`)
       good = good || hours.status !== 'closed'
     } else if (sun.period !== 'golden') nowLine.push(`too far for tonight — sunset ${formatClock(sun.sunset, city.timezone)} tomorrow`)
@@ -60,7 +64,6 @@ export function SpotPage({ spot, city, now, sun, origin, originIsReal, mobile }:
       {mobile && (
         <div className="spot-bar">
           <button type="button" className="word word--quiet" onClick={() => actions.backToList()}>← list</button>
-          <button type="button" className="word" aria-pressed={saved} onClick={() => actions.toggleSaved(spot.id)}><span className="save-dot" aria-hidden="true" />{saved ? 'saved' : 'save'}</button>
         </div>
       )}
       <SpotImage spot={spot} cityName={city.name} />
@@ -79,6 +82,15 @@ export function SpotPage({ spot, city, now, sun, origin, originIsReal, mobile }:
         <p><span className="mono">{spot.hours}</span>{' · '}<span className={hours.status === 'open' ? 'moss' : 'ink2'}>{hours.confidence === 'high' ? (hours.status === 'open' ? 'open now' : 'closed now') : 'see hours'}</span></p>
       </section>
       {!night && care}
+      {/* A page backed by four official links and one backed by nothing used to look identical: the whole
+          section was hidden when there were none. 354 of 604 spots carry no source, and eight cities carry
+          none at all, so silence there was the commonest case and the least honest. */}
+      {(detail ? detail.sources.length === 0 : spot.sourceCount === 0) && (
+        <section className="section">
+          <h3 className="h3">sources</h3>
+          <p className="small">none · written from the reviewer's knowledge and not checked against a source</p>
+        </section>
+      )}
       {(detail ? detail.sources.length > 0 : spot.sourceCount > 0) && (
         <section className="section">
           <h3 className="h3">sources</h3>

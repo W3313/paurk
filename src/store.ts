@@ -43,6 +43,7 @@ export interface State {
 }
 
 const SAVED_KEY = 'paurk.saved.v1'
+const LATELY_KEY = 'paurk.lately.v1'
 const UNITS_KEY = 'paurk.units.v1'
 const THEME_KEY = 'paurk.theme.v1'
 const STILL_KEY = 'paurk.still.v1'
@@ -91,7 +92,7 @@ let state: State = {
   listScroll: {},
   heading: null,
   online: typeof navigator === 'undefined' ? true : navigator.onLine,
-  visitedCities: [],
+  visitedCities: loadLS<string[]>(LATELY_KEY, []),
   findOpen: false,
 }
 
@@ -107,12 +108,30 @@ export function useStore<T>(sel: (s: State) => T): T {
   return useSyncExternalStore(subscribe, () => sel(state), () => sel(state))
 }
 
+/** Keeps the last few cities you opened, and writes them through so Find's `lately` survives a reload. */
+function rememberCity(list: string[], slug: string): string[] {
+  const next = [...list.filter((x) => x !== slug), slug].slice(-6)
+  saveLS(LATELY_KEY, next)
+  return next
+}
+
 export const actions = {
   setFindOpen(findOpen: boolean) { setState({ findOpen }) },
   openCity(slug: string) {
-    setState((s) => ({ mode: 'city', citySlug: slug, spotId: null, previewMinutes: s.citySlug === slug ? s.previewMinutes : null, pinnedMinutes: s.citySlug === slug ? s.pinnedMinutes : null, visitedCities: s.visitedCities[s.visitedCities.length - 1] === slug ? s.visitedCities : [...s.visitedCities, slug].slice(-6) }))
+    setState((s) => ({ mode: 'city', citySlug: slug, spotId: null, previewMinutes: s.citySlug === slug ? s.previewMinutes : null, pinnedMinutes: s.citySlug === slug ? s.pinnedMinutes : null, visitedCities: s.visitedCities[s.visitedCities.length - 1] === slug ? s.visitedCities : rememberCity(s.visitedCities, slug) }))
   },
-  openSpot(id: string) { setState({ mode: 'spot', spotId: id, citySlug: id.split('/')[0] }) },
+  openSpot(id: string) {
+    // The same slug guard openCity carries. Without it, opening a Tokyo spot straight from Find while a
+    // time was pinned in Amsterdam left that time pinned, so Tokyo was ranked and coloured for an hour
+    // the reader had chosen somewhere else entirely.
+    const slug = id.split('/')[0]
+    setState((s) => ({
+      mode: 'spot', spotId: id, citySlug: slug,
+      previewMinutes: s.citySlug === slug ? s.previewMinutes : null,
+      pinnedMinutes: s.citySlug === slug ? s.pinnedMinutes : null,
+      visitedCities: s.visitedCities[s.visitedCities.length - 1] === slug ? s.visitedCities : rememberCity(s.visitedCities, slug),
+    }))
+  },
   backToList() { setState((s) => ({ mode: s.citySlug ? 'city' : 'sky', spotId: null })) },
   sky() { setState({ mode: 'sky', spotId: null, citySlug: null, previewMinutes: null, pinnedMinutes: null }) },
   setMode(mode: Mode) { setState({ mode }) },
@@ -133,7 +152,9 @@ export const actions = {
     setState({ userPos: pos, geoStatus, userAccuracyM: accuracyM })
   },
   setWeather(weather: Weather | null) { setState({ weather }) },
-  setPreview(previewMinutes: number | null) { setState((s) => ({ previewMinutes, pinnedMinutes: previewMinutes === null ? null : s.pinnedMinutes })) },
+  // Scrubbing away from a pin drops it. It used to survive, and the router writes ?t= from the pin alone,
+  // so a copied link could name an hour the reader had already scrubbed off.
+  setPreview(previewMinutes: number | null) { setState((s) => ({ previewMinutes, pinnedMinutes: previewMinutes === null || previewMinutes !== s.pinnedMinutes ? null : s.pinnedMinutes })) },
   pin(minutes: number | null) { setState({ pinnedMinutes: minutes, previewMinutes: minutes }) },
   setTheme(theme: Theme) { saveLS(THEME_KEY, theme); setState({ theme }) },
   setStill(still: boolean) { saveLS(STILL_KEY, still); setState({ still }) },

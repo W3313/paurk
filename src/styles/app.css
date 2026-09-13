@@ -54,6 +54,96 @@
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
+
+/*
+ * Cormorant Garamond and DM Mono, latin and latin-ext, self-hosted for the same reason as the body face
+ * above — and a sharper one. These two used to arrive through a render-blocking fonts.googleapis.com
+ * stylesheet, the only third-party resource on the render path, and where that host is unreachable (a
+ * corporate proxy, a captive portal, a blocklist) the browser waits out the timeout with nothing painted:
+ * measured on the built app at 390x844, first paint was 12596ms against 48ms with the request removed.
+ * Regenerate with scripts/fetch-fonts.mjs.
+ */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/fonts/cormorant-300-italic-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/fonts/cormorant-300-italic-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/fonts/cormorant-300-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/fonts/cormorant-300-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/cormorant-400-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/cormorant-400-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/fonts/dm-mono-300-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/fonts/dm-mono-300-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/dm-mono-400-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/dm-mono-400-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 /* Paurk — "Exhale" (docs/DESIGN.md). One paper, one ink, one seal-red mark. */
 
 /* ---------- tokens ---------- */
@@ -193,7 +283,9 @@ html[data-still] .globe-wrap.is-breathing-in { animation: none; }
     width var(--d-panel) var(--e-settle), height var(--d-panel) var(--e-settle);
   background: radial-gradient(ellipse at 50% 50%, var(--globe-shadow), transparent 70%); }
 .paurk-globe-labels { position: absolute; inset: 0; z-index: var(--z-labels); pointer-events: none; overflow: hidden; }
-.paurk-label { position: absolute; left: 0; top: 0; margin: -14px 0 0 12px; padding: 4px 6px; background: none; border: 0; border-radius: var(--r-well);
+/* Absolutely positioned, so the padding that brings it to the 44px floor §9 polices costs no layout —
+   the negative margin takes it straight back off. It measured 30px tall before. */
+.paurk-label { position: absolute; left: 0; top: 0; margin: -25px 0 0 8px; padding: 11px 10px; background: none; border: 0; border-radius: var(--r-well);
   font-family: var(--font-display); font-style: italic; font-weight: 300; font-size: 22px; line-height: 1; color: var(--ink); white-space: nowrap;
   cursor: pointer; opacity: 0; transition: opacity var(--d-panel) var(--e-settle); will-change: transform, opacity; }
 .paurk-label.is-focus { outline: 2px solid var(--ink); outline-offset: 3px; }
@@ -204,6 +296,17 @@ html[data-still] .globe-wrap.is-breathing-in { animation: none; }
 /* Clear the sphere: its centre and radius are the same numbers the engine is using. */
 .sky-text { margin-top: calc(var(--seat-y, .36) * (100dvh - var(--header-h)) + var(--globe-r, 150px) + var(--s-8)); position: relative; z-index: var(--z-column); }
 .sky-text { width: min(100% - 2 * var(--gutter), 380px); text-align: center; display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--s-3); justify-items: center; padding-bottom: var(--s-16); min-width: 0; }
+/*
+ * On a phone this block is the only thing to scroll, and .stage is fixed behind it, so with no ground of
+ * its own the city list dragged straight over a stationary sphere — measured at 390x844, seven collisions
+ * between visible globe labels and this text after a 360px scroll. It gets the same edge the city sheet
+ * rises out of: the list comes up out of the evening and occludes the globe instead of ghosting over it.
+ * Full width rather than the 380px column, or the sphere shows down both sides of the paper.
+ */
+@media (max-width: 899px) {
+  .sky-text { width: 100%; padding-inline: var(--gutter); background: linear-gradient(to bottom, transparent 0, var(--bg) 96px), var(--bg); }
+  .sky-text > .plate { padding-top: var(--s-6); }
+}
 .plate { font-family: var(--font-mono); font-size: 12px; color: var(--ink-2); letter-spacing: .02em; text-transform: lowercase; }
 .phase { font-family: var(--font-display); font-weight: 300; font-size: var(--t-display-s); line-height: 1.2; }
 .phase .w { display: inline-block; animation: word-in var(--d-micro) var(--e-settle) both; animation-delay: calc(var(--i) * 80ms); }
@@ -293,8 +396,11 @@ html[data-still] .side { transition: none !important; }
   .sheet:focus { outline: none; }
   .sheet:focus-visible { outline: 2px solid var(--ink); outline-offset: -4px; }
   /* One transparent run-up instead of three detents. 72dvh is exactly the 27+39+6 they summed to, so the
-     screen a city opens on is composed as it always was — only now you can pull it. */
-  .sheet-lead { height: 72dvh; }
+     screen a city opens on is composed as it always was — only now you can pull it.
+     pan-y hands vertical drags to the browser, which scrolls this sheet, and everything else to script,
+     which turns the globe underneath — see Sheet.tsx. Without it the sphere is not draggable on a phone
+     at all, since the lead is what the finger lands on. */
+  .sheet-lead { height: 72dvh; touch-action: pan-y; }
   /*
    * min-height is 100%, not 100dvh: .sheet is fixed to the large viewport and is this panel's containing
    * block, so 100dvh (the small viewport) would leave the scroll range short of the lead on iOS and
@@ -391,6 +497,18 @@ html[data-still] .vibes-panel, html[data-still] .vibes-caret { transition: none 
 .kind { font-family: var(--font-mono); font-size: var(--t-mono-s); color: var(--ink-2); letter-spacing: .02em; }
 .spot-bar { position: sticky; top: 0; z-index: var(--z-sticky); display: flex; justify-content: space-between; align-items: center; min-height: 48px; margin: 0 calc(-1 * var(--gutter)); padding: 0 var(--gutter);
   background: color-mix(in srgb, var(--bg) 85%, transparent); backdrop-filter: blur(12px) saturate(.8); -webkit-backdrop-filter: blur(12px) saturate(.8); }
+/*
+ * Below the header on a phone, not at the top of the viewport. This bar lives inside .sheet, which is
+ * position: fixed; inset: 0, so `top: 0` pinned it to viewport y=0 — underneath the 56px header, which is
+ * sticky at the same offset and outranks it (--z-sticky against --z-column). Hit-tested at 390x844, the
+ * centre of `← list` returned the wordmark and the centre of `save` returned the header's bookmark icon:
+ * tapping them left the spot and saved nothing. Opaque for the same reason .panel-sticky is. This has to
+ * sit after the base rule rather than in the mobile block above it, which loses on source order.
+ */
+@media (max-width: 899px) {
+  .spot-bar { top: var(--header-h); background: var(--bg); backdrop-filter: none; -webkit-backdrop-filter: none;
+    border-bottom: 1px solid var(--hairline); }
+}
 .save-dot { display: inline-block; width: 8px; height: 8px; border: 1px solid var(--ink); border-radius: 50%; position: relative; }
 .save-dot::after { content: ""; position: absolute; inset: 50%; border-radius: 50%; background: var(--accent); transition: inset var(--d-micro) var(--e-settle); }
 .word[aria-pressed="true"] .save-dot { border-color: var(--accent); }

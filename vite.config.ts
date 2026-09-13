@@ -22,8 +22,9 @@ function datasetCounts() {
 const CSP = [
   "default-src 'self'",
   "script-src 'self'",
-  "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
-  "font-src 'self' https://fonts.gstatic.com",
+  // Every font is self-hosted now, so no second origin has to be allowed for either.
+  "style-src 'self' 'unsafe-inline'",
+  "font-src 'self'",
   "img-src 'self' data: https://upload.wikimedia.org",
   "connect-src 'self' https://en.wikipedia.org https://api.open-meteo.com",
   "base-uri 'self'",

@@ -53,6 +53,11 @@ function normalise(text: string): string {
     .replace(/(?<![a-z])([ap])\.?m\b\.?/g, '$1m')
     .replace(/\b(mon|tue|wed|thu|fri|sat|sun)(?:day|sday|nesday|rsday|urday|rs|r|s)?s?\b/g, '$1')
     .replace(/\b(?:every\s*day|all\s+week|7\s+days(?:\s+a\s+week)?)\b/g, 'daily')
+    // "9am-7pm daily" means what "daily 9am-7pm" means. The grammar expects the day spec in front, so a
+    // trailing one parsed as nothing at all and the spot fell back to "see hours" — a plain parse
+    // failure with no uncertainty in it, unlike a hedged "roughly 10am-6pm", which is left alone
+    // deliberately: reading that as a definite schedule would print "open now" from a guess.
+    .replace(/^(.*?[\d\s].*?)\s+(daily|weekdays|weekends)$/g, '$2 $1')
     .replace(/\bopen\b/g, ' ')
     .replace(/\s+(?:to|through|thru)\s+/g, '-')
     .replace(/\s*-\s*/g, '-')

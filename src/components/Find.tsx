@@ -258,7 +258,11 @@ export function Find({ open, onClose, now }: Props) {
     // here would starve one kind whenever the other happens to outscore it: "o" fills its first fifty
     // hits with places whose second word starts in O, and every city named Toronto falls off the end.
     // Scoring 44 cities and 604 places takes well under a millisecond, so there is nothing to save.
-    const hits = search(q, cities.length + spots.length, citySlug)
+    // The city you are in if you are in one, otherwise the one you are nearest or the clock suggests.
+    // This was citySlug alone, which is null on the sky — so searching "quiet" from the front door
+    // returned four hundred equal-scoring hits ordered alphabetically, half of them on the night side,
+    // with the local bonus never firing.
+    const hits = search(q, cities.length + spots.length, citySlug ?? homeCity?.slug ?? null)
     const cs = hits.filter((h) => h.kind === 'city')
     const ss = hits.filter((h) => h.kind === 'spot')
     const nCities = Math.min(cs.length, ss.length ? 4 : MAX_ROWS)

@@ -103,7 +103,14 @@ export function becauseLine(r: Ranked, ctx: Context, units: 'metric' | 'imperial
   switch (code) {
     case 'golden': return s.vibes.includes('view') || s.vibes.includes('skyline') ? 'because it is golden hour and this has the view' : 'because it is golden hour and this is where it lands'
     case 'afterglow': return 'because the light is still going and this faces it'
-    case 'night': return s.indoor ? 'because it is late and this is indoors and open' : 'because it is late and this stays lit and peopled'
+    // "and open" only when the hours actually said so. It used to be unconditional for any indoor spot:
+    // swept across all 44 cities every two hours, 226 of the 246 rows that printed it were not verified
+    // open, most of them sitting directly above their own "see hours" or "closed now".
+    case 'night': return s.indoor
+      ? (r.hours?.confidence === 'high' && r.hours.status === 'open'
+        ? 'because it is late and this is indoors and open'
+        : 'because it is late and this is indoors')
+      : 'because it is late and this stays lit and peopled'
     case 'stargaze': return 'because it is dark enough here to see stars'
     case 'dawn': return 'because the day is starting and this catches first light'
     case 'morning': return 'because mornings are when this is quietest'

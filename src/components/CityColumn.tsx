@@ -55,7 +55,11 @@ export function CityColumn({ city, now, live, sun, preview, origin, originIsReal
     <>
       <div className="column-head">
         {!mobile && <p><button type="button" className="word word--quiet" onClick={() => actions.sky()}>← sky</button></p>}
-        <h2 className={`city-name${!mobile ? ' is-writing' : ''}`}>{originIsReal && far <= 80 ? <span className="small" style={{ display: 'block' }}>around you</span> : null}{city.name}</h2>
+        {/* On a phone the sheet's sticky bar is already carrying the city name a few pixels above this,
+            so printing it twice cost about 90px of the run-up to the first row. The bar is the heading
+            there; the country line stays, since the bar does not say it. */}
+        {!mobile && <h2 className={`city-name${!mobile ? ' is-writing' : ''}`}>{originIsReal && far <= 80 ? <span className="small" style={{ display: 'block' }}>around you</span> : null}{city.name}</h2>}
+        {mobile && originIsReal && far <= 80 && <p className="small">around you</p>}
         <p className="small">{city.country}</p>
         {!mobile && <PlateCaption parts={[city.name.toLowerCase(), `${spots.length} places`, formatClock(now, city.timezone)]} />}
         {!mobile && <PhaseLine text={phaseLine(now, sun, city.timezone, { preview, offline: !online, weather })} />}

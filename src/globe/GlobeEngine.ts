@@ -788,6 +788,31 @@ export class GlobeEngine {
     })
   }
 
+  /**
+   * Turn the globe from a gesture that began outside the canvas.
+   *
+   * On a phone the sheet's transparent lead lies over the sphere and owns the touch — that is what makes
+   * the spots list reachable by scrolling — so without a way in, the globe cannot be dragged there at all.
+   * The lead carries `touch-action: pan-y`, which leaves vertical panning to the browser (it scrolls the
+   * sheet, being its own ancestor) and hands everything else to script, so a sideways drag arrives here.
+   */
+  turnBy(dx: number, dy: number) {
+    this.cancelAnim()
+    const k = 0.0045 / this.zoom
+    this.yaw += dx * k
+    this.pitch = clamp(this.pitch + dy * k, -PITCH_LIMIT, PITCH_LIMIT)
+    this.velYaw = 0; this.velPitch = 0
+    this.lastInteraction = performance.now()
+    this.wake()
+  }
+
+  /** Select whatever marker is under a point, for a tap that landed on the sheet's lead. */
+  tapAt(x: number, y: number): boolean {
+    const id = this.pick(x, y)
+    if (id) this.select(id)
+    return !!id
+  }
+
   zoomBy(factor: number) {
     this.zoom = clamp(this.zoom * factor, MIN_ZOOM, MAX_ZOOM)
     this.lastInteraction = performance.now()

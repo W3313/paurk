@@ -29,7 +29,11 @@ export function SpotRow({ ranked, city, now, sun, ctx, origin, originIsReal, ind
   const s = ranked.spot
   const from = origin ?? city
   const km = distanceKm(from, s)
-  const walk = walkMinutes(km)
+  // Null unless we know where the reader is. The printed walk was already guarded, but the same number
+  // went on to set "arrive N min before sunset" unguarded — and with no location that is nothing but the
+  // spot's distance from the city centre, a point the reader has no relationship to, dressed as advice
+  // about when to leave the house.
+  const walk = originIsReal ? walkMinutes(km) : null
   const bearing = bearingDeg(from, s)
   const night = sun.period === 'night' || sun.period === 'dusk'
   const reason = becauseLine(ranked, ctx, units)
@@ -48,8 +52,8 @@ export function SpotRow({ ranked, city, now, sun, ctx, origin, originIsReal, ind
     status.push(`sunset in ${formatCountdown(sun.minutesToSunset)}`)
   }
   if ((s.vibes.includes('sunset') || s.bestTimes.includes('golden-hour')) && sun.sunset && sun.period !== 'night') {
-    const arriveMin = Math.round((sun.sunset.getTime() - now.getTime()) / 60000) - walk
-    if (arriveMin > 0 && arriveMin < 240) { status.push(`arrive ${arriveMin} min before sunset`); good = good || ranked.hours?.status !== 'closed' }
+    const arriveMin = walk === null ? null : Math.round((sun.sunset.getTime() - now.getTime()) / 60000) - walk
+    if (arriveMin !== null && arriveMin > 0 && arriveMin < 240) { status.push(`arrive ${arriveMin} min before sunset`); good = good || ranked.hours?.status !== 'closed' }
   }
   return (
     <li>
