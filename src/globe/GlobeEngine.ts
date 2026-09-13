@@ -44,9 +44,39 @@ export interface GlobeOptions {
   onFocusMarker?: (id: string | null) => void
 }
 
+const BASE_FOV = 28
 const MIN_ZOOM = 0.8
-const MAX_ZOOM = 2.2
+/**
+ * How far in the sphere can be pushed. The old 2.2 was as far as one lattice of 23,015 dots could be
+ * magnified before the land read as a scatter; the fine lattice (§4.2) carries the range from there.
+ * 6 is where that one runs out in turn — measured by rendering it: at 6x Britain and its coastline
+ * still read, by 8x the same view is a loose field of dots with no land in it. The camera is not the
+ * limit (MIN_DIST is met around 5x and the lens takes over from there); the dot count is.
+ */
+const MAX_ZOOM = 6
 const SKY_ZOOM = 1
+/** Where a city flight settles, and the size markers stop growing at. */
+const CITY_ZOOM = 1.45
+/**
+ * How close the camera may orbit. Distance is the fit distance over the zoom and the sphere has radius
+ * ~1, so a deep enough zoom walks the camera through the surface — an empty screen, since every dot is
+ * then back-facing. The tightest frame the app lays out sits about 5.1 away at rest, so this floor is
+ * met a little past 4x; below it the remaining zoom narrows the lens instead of closing the gap.
+ */
+const MIN_DIST = 1.35
+/*
+ * The zoom band the fine lattice crosses over in. It opens above CITY_ZOOM on purpose: every view the
+ * app navigates to by itself stays on the coarse lattice and looks exactly as it always did, and the
+ * finer one is the reward for deliberately pushing past a city.
+ */
+const FINE_LO = 1.5
+const FINE_HI = 1.9
+const DOT_BASE = 2.4 * 3.2
+/** Points in each lattice; the fine one is public/globe-dots-fine.bin. */
+const COARSE_DOTS = 23015
+const FINE_DOTS = 207013
+/** Dot size scales with lattice spacing, which goes as one over the square root of the count. */
+const FINE_SCALE = Math.sqrt(COARSE_DOTS / FINE_DOTS)
 const PITCH_LIMIT = (70 * Math.PI) / 180
 const BREATH_MS = 8000
 
@@ -81,7 +111,7 @@ void main() {
 }`
 const DOT_VERT = /* glsl */ `
 attribute float aPhase; attribute float aReveal;
-uniform vec3 uSun; uniform float uTime; uniform float uStill; uniform float uReveal; uniform float uBase; uniform float uDPR; uniform vec3 uCamDir;
+uniform vec3 uSun; uniform float uTime; uniform float uStill; uniform float uReveal; uniform float uBase; uniform float uDPR; uniform vec3 uCamDir; uniform float uFade;
 varying float vFacing; varying float vAlpha;
 void main() {
   vec3 N = normalize(position);
@@ -89,7 +119,7 @@ void main() {
   vFacing = dot(normalize(mat3(modelMatrix) * N), uCamDir);
   float breathe = uStill > 0.5 ? 0.0 : 0.06 * sin(uTime * 0.35 + aPhase * 6.283);
   gl_PointSize = min(8.0 * uDPR, uBase * uDPR * (1.0 + breathe) / max(0.3, -mv.z));
-  vAlpha = smoothstep(aReveal - 0.08, aReveal, uReveal) * mix(0.32, 0.6, smoothstep(-0.55, 0.55, dot(N, uSun)));
+  vAlpha = uFade * smoothstep(aReveal - 0.08, aReveal, uReveal) * mix(0.32, 0.6, smoothstep(-0.55, 0.55, dot(N, uSun)));
   gl_Position = projectionMatrix * mv;
 }`
 const DOT_FRAG = /* glsl */ `
@@ -139,8 +169,17 @@ export class GlobeEngine {
   private globe = new THREE.Group()
   private sphereMat: THREE.ShaderMaterial
   private dotMat: THREE.ShaderMaterial
+  private fineMat: THREE.ShaderMaterial
   private haloMat: THREE.ShaderMaterial
   private dots: THREE.Points | null = null
+  /**
+   * The second, nine-times denser lattice, fetched the first time the zoom reaches FINE_LO and then
+   * crossed over to. It is a proper Fibonacci lattice in its own right rather than a slice of the
+   * coarse one — see loadDots.ts for why a slice cannot work — so both levels are evenly spread.
+   */
+  private fine: THREE.Points | null = null
+  private fineWanted = false
+  private markerZoom = SKY_ZOOM
   private rings: THREE.InstancedMesh | null = null
   private discs: THREE.InstancedMesh | null = null
   private ripple: THREE.Mesh
@@ -241,8 +280,21 @@ export class GlobeEngine {
       fragmentShader: DOT_FRAG,
       uniforms: {
         uSun: { value: new THREE.Vector3(0, 0, 1) }, uTime: { value: 0 }, uStill: { value: this.still ? 1 : 0 }, uReveal: { value: this.still ? 1 : 0 },
-        uBase: { value: 2.4 * 3.2 }, uDPR: { value: this.renderer.getPixelRatio() }, uCamDir: { value: new THREE.Vector3(0, 0, 1) }, uLand: { value: col(th.land) },
+        uBase: { value: DOT_BASE }, uDPR: { value: this.renderer.getPixelRatio() }, uCamDir: { value: new THREE.Vector3(0, 0, 1) }, uLand: { value: col(th.land) },
+        uFade: { value: 1 },
       },
+      transparent: true, depthTest: true, depthWrite: false,
+    })
+    /*
+     * The fine lattice's own material. Every uniform object is shared with the coarse one by reference,
+     * so the sun, the theme, the reveal and the rest are still written in a single place; only the dot
+     * size and the cross-fade differ. The size is scaled by the ratio of the two lattices' spacings, so
+     * the dot-to-gap proportion — the thing that makes it read as a matrix — is identical in both.
+     */
+    this.fineMat = new THREE.ShaderMaterial({
+      vertexShader: DOT_VERT,
+      fragmentShader: DOT_FRAG,
+      uniforms: { ...this.dotMat.uniforms, uBase: { value: DOT_BASE * FINE_SCALE }, uFade: { value: 0 } },
       transparent: true, depthTest: true, depthWrite: false,
     })
 
@@ -282,11 +334,8 @@ export class GlobeEngine {
   }
 
   // ---------- data ----------
-  private async loadDots(url: string) {
-    try {
-      const data = await loadDots(url)
-      if (this.disposed) return
-      const stride = this.lite ? 2 : 1
+  /** Turns a decoded lat/lng file into the geometry both lattices are drawn from. */
+  private static buildDots(data: Int16Array, stride: number) {
       const n = Math.floor(data.length / 2 / stride)
       const pos = new Float32Array(n * 3), phase = new Float32Array(n), reveal = new Float32Array(n)
       for (let i = 0; i < n; i++) {
@@ -300,7 +349,14 @@ export class GlobeEngine {
       geo.setAttribute('position', new THREE.BufferAttribute(pos, 3))
       geo.setAttribute('aPhase', new THREE.BufferAttribute(phase, 1))
       geo.setAttribute('aReveal', new THREE.BufferAttribute(reveal, 1))
-      this.dots = new THREE.Points(geo, this.dotMat)
+      return geo
+  }
+
+  private async loadDots(url: string) {
+    try {
+      const data = await loadDots(url)
+      if (this.disposed) return
+      this.dots = new THREE.Points(GlobeEngine.buildDots(data, this.lite ? 2 : 1), this.dotMat)
       this.dots.renderOrder = 1
       this.globe.add(this.dots)
       this.revealT0 = performance.now()
@@ -308,6 +364,27 @@ export class GlobeEngine {
       console.warn('globe dots failed to load', e)
     }
     this.opts.onReady?.()
+  }
+
+  /**
+   * Fetches the fine lattice, once, the first time the zoom asks for it. It is 70 KB gzipped against
+   * the coarse file's 12.5 — worth spending on a deliberate zoom, not on the first frame, and never at
+   * all for the visitors who only ever look at the sky.
+   */
+  private async loadFine() {
+    if (this.fineWanted) return
+    this.fineWanted = true
+    try {
+      const data = await loadDots(this.opts.dotsUrl.replace(/\.bin$/, '-fine.bin'))
+      if (this.disposed) return
+      this.fine = new THREE.Points(GlobeEngine.buildDots(data, 1), this.fineMat)
+      this.fine.renderOrder = 1
+      this.fine.visible = false
+      this.globe.add(this.fine)
+      this.wake()
+    } catch (e) {
+      console.warn('globe fine dots failed to load', e)
+    }
   }
 
   setMarkers(markers: GlobeMarker[]) {
@@ -407,7 +484,10 @@ export class GlobeEngine {
       if (Math.abs(this.heat[i] - this.heatTarget[i]) < 0.002) this.heat[i] = this.heatTarget[i]
       if (!force && Math.abs(before - this.heat[i]) < 1e-4) continue
       changed = true
-      const s = sel ? 1.2 : 1 + 0.35 * this.heat[i]
+      // Markers are page furniture, not geography. Up to the zoom a city flight settles at they grow
+      // with the sphere exactly as before; past it they hold that size, or one ring swallows the view.
+      const zs = Math.min(1, CITY_ZOOM / this.zoom)
+      const s = (sel ? 1.2 : 1 + 0.35 * this.heat[i]) * zs
       const n = this.markerN[i]
       this.dummy.position.copy(n).multiplyScalar(1.006)
       this.dummy.lookAt(n.clone().multiplyScalar(2))
@@ -416,7 +496,7 @@ export class GlobeEngine {
       this.rings.setMatrixAt(i, this.dummy.matrix)
       this.rings.setColorAt(i, sel ? accent : ink)
       const showDisc = sel || m.filled
-      this.dummy.scale.setScalar(showDisc ? (sel ? 1.2 : 1) : 0.0001)
+      this.dummy.scale.setScalar(showDisc ? (sel ? 1.2 : 1) * zs : 0.0001)
       this.dummy.updateMatrix()
       this.discs.setMatrixAt(i, this.dummy.matrix)
       this.discs.setColorAt(i, sel ? accent : ink)
@@ -720,7 +800,7 @@ export class GlobeEngine {
     el.addEventListener('pointerleave', () => { if (!this.drag) this.setHover(null) }, { signal: sig })
     el.addEventListener('wheel', (e) => {
       e.preventDefault()
-      this.zoomBy(Math.exp(-Math.sign(e.deltaY) * Math.min(0.2, Math.abs(e.deltaY) * 0.0012)))
+      this.zoomBy(Math.exp(-Math.sign(e.deltaY) * Math.min(0.28, Math.abs(e.deltaY) * 0.0018)))
     }, { passive: false, signal: sig })
     el.addEventListener('keydown', (e) => {
       const step = (6 * Math.PI) / 180
@@ -729,8 +809,8 @@ export class GlobeEngine {
         case 'ArrowRight': this.yaw += step; break
         case 'ArrowUp': this.pitch = clamp(this.pitch - step, -PITCH_LIMIT, PITCH_LIMIT); break
         case 'ArrowDown': this.pitch = clamp(this.pitch + step, -PITCH_LIMIT, PITCH_LIMIT); break
-        case '+': case '=': this.zoomBy(1.18); break
-        case '-': case '_': this.zoomBy(0.85); break
+        case '+': case '=': this.zoomBy(1.3); break
+        case '-': case '_': this.zoomBy(1 / 1.3); break
         case 'PageDown': case ']': this.cycleFocus(1); break
         case 'PageUp': case '[': this.cycleFocus(-1); break
         case 'Enter': case ' ': if (this.focused >= 0) this.select(this.markers[this.focused].id); break
@@ -849,8 +929,14 @@ export class GlobeEngine {
   }
 
   // ---------- loop ----------
+  /**
+   * How far the camera sits to give the sphere `fit` of the frame — measured against the base lens,
+   * never the live one. Reading the live fov would close a loop: past MIN_DIST the zoom narrows the
+   * lens, a narrower lens means a larger fit distance, a larger fit distance means the floor is no
+   * longer met and the lens opens again. Measured, that oscillated by half a degree every frame.
+   */
   private computeFit() {
-    const vHalf = THREE.MathUtils.degToRad(this.camera.fov / 2)
+    const vHalf = THREE.MathUtils.degToRad(BASE_FOV / 2)
     const hHalf = Math.atan(Math.tan(vHalf) * this.camera.aspect)
     this.fitDist = 1.12 / (Math.sin(Math.min(vHalf, hHalf)) * this.fit)
   }
@@ -926,11 +1012,32 @@ export class GlobeEngine {
         this.yaw += 0.02 * dt * ease
       }
     }
+    // Which lattice is on. Below FINE_LO only the coarse one draws and the fine file is never asked
+    // for; across the band they cross over; above it only the fine one draws.
+    if (this.zoom >= FINE_LO) void this.loadFine()
+    const fade = this.fine ? clamp((this.zoom - FINE_LO) / (FINE_HI - FINE_LO), 0, 1) : 0
+    if (this.dotMat.uniforms.uFade.value !== 1 - fade) this.dotMat.uniforms.uFade.value = 1 - fade
+    if (this.fineMat.uniforms.uFade.value !== fade) this.fineMat.uniforms.uFade.value = fade
+    if (this.dots) this.dots.visible = fade < 1
+    if (this.fine) this.fine.visible = fade > 0
+
     const scale = 1 + 0.012 * breath
     this.globe.rotation.set(this.pitch, this.yaw, 0)
     this.globe.scale.setScalar(scale)
     this.globe.updateMatrixWorld()
-    const dist = (this.fitDist / this.zoom) * (1 + 0.18 * this.pushBack)
+    const wanted = (this.fitDist / this.zoom) * (1 + 0.18 * this.pushBack)
+    const dist = Math.max(MIN_DIST, wanted)
+    // Below the floor the remaining zoom becomes a longer lens instead. Apparent size is continuous
+    // across it — above, magnification is fitDist/wanted; below, the narrower lens gives exactly the
+    // same — so nothing jumps; only the perspective distortion eases and the camera stays outside.
+    const fov = wanted >= MIN_DIST
+      ? BASE_FOV
+      : THREE.MathUtils.radToDeg(2 * Math.atan(Math.tan(THREE.MathUtils.degToRad(BASE_FOV / 2)) * (wanted / MIN_DIST)))
+    if (Math.abs(this.camera.fov - fov) > 1e-4) {
+      this.camera.fov = fov
+      this.camera.updateProjectionMatrix()
+      this.applySeat()
+    }
     this.camera.position.set(0, 0, dist)
     this.camera.lookAt(0, 0, 0)
     this.camera.updateMatrixWorld()
@@ -944,6 +1051,7 @@ export class GlobeEngine {
     }
     if (this.userRing.visible) this.userMat.opacity = 0.75 + 0.25 * Math.sin((now / 3000) * 2 * Math.PI)
     for (const r of this.routes) if (r.mat.uniforms.uProgress.value < 1) r.mat.uniforms.uProgress.value = clamp((now - r.t0) / 900, 0, 1)
+    if (Math.abs(this.markerZoom - this.zoom) > 0.005) { this.markerZoom = this.zoom; this.writeInstances(true) }
     if (this.writeInstances()) this.wake()
 
     const start = performance.now()

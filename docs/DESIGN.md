@@ -391,9 +391,32 @@ textures, no fills, no outlines, no graticule.
 
 ### 4.2 Land
 
-`public/globe-dots.bin` (existing: Int16 lat/lng pairs, ~23k points; stride 2 on lite). `THREE.Points` at radius
-1.003 with attributes `position`, `aPhase` (random 0..1), `aReveal` (random 0..1). `ShaderMaterial`, `transparent`,
-`depthTest: true`, `depthWrite: false`.
+Two lattices, each a Fibonacci sphere intersected with the 50m land polygons:
+
+| file | points | gzipped | drawn |
+| --- | --- | --- | --- |
+| `public/globe-dots.bin` | 23,015 | 12.5 KB | at rest and up to zoom 1.5; stride 2 on lite |
+| `public/globe-dots-fine.bin` | 207,013 | 70 KB | from zoom 1.9 up; fetched on first crossing, never before |
+
+`THREE.Points` at radius 1.003 with attributes `position`, `aPhase` (random 0..1), `aReveal` (random 0..1).
+`ShaderMaterial`, `transparent`, `depthTest: true`, `depthWrite: false`. The two share every uniform object by
+reference except `uBase` and `uFade`, so the sun, theme and reveal are still written in one place. The fine
+lattice's `uBase` is scaled by `√(23015 / 207013)`, the ratio of the two spacings, so the dot-to-gap proportion
+that makes it read as a matrix is identical in both. Across zoom 1.5→1.9 they cross-fade on `uFade`; outside that
+band the hidden one is `visible = false`. The band opens above the 1.45 a city flight settles at on purpose, so
+every view the app navigates to by itself stays on the coarse lattice and looks exactly as it always did.
+
+**Why two files and not one with a draw range.** A previous attempt shipped one dense file and used
+`setDrawRange` as a level of detail, on the reasoning that a Fibonacci sphere is evenly spread so any prefix of it
+must be. It is not. The i-th point sits at z = 1 - 2i/N, so the array runs monotonically from pole to pole: the
+23,015 points the resting view drew spanned latitude 60.6 to 83.5 and the globe rendered as an Arctic cap with
+nothing below it. Reordering the buffer by the index's reversed bits makes a prefix a stride subsample instead,
+which does render the whole world — but not evenly. Over nearest-neighbour distances the real lattice has a
+coefficient of variation of 0.149; every stride subsample of the dense file measures 0.46 to 0.51, clumps and
+holes. Striding a Fibonacci lattice multiplies the golden angle by the stride, and golden is exactly what makes
+it even. No prefix of one spiral is a coarser version of that spiral, so each level has to be its own lattice.
+`src/__tests__/dots.test.ts` holds both halves of this as assertions: that each shipped file reaches both
+hemispheres, and that its nearest-neighbour spread stays under 0.25.
 
 Vertex:
 ```glsl
@@ -469,7 +492,13 @@ graphite (paper in slate). `uHalo = 0.10 - 0.03 * breath`. It is a pencil edge f
   pitch clamped ±70°; inertia damped ×0.94 per frame. **Soft detent**: when `|v| < 0.002 rad/frame` and a city's
   normal is within 6° of the screen centre, slerp onto it over 400ms and show its label (do *not* select; selection
   is a tap/Enter).
-- Wheel / pinch: distance clamped 2.0–3.6, eased at 240ms.
+- Wheel / pinch: zoom clamped 0.8–6.0 (a wheel notch is `exp(±0.28)` at most, `+`/`-` step 1.3), eased at 240ms.
+  Distance is `fitDist / zoom` — measured against the base 28° lens, never the live one, or the floor below closes
+  a feedback loop and the fov oscillates every frame — floored at 1.35 so the camera cannot cross the surface and
+  leave every dot back-facing. Below the floor, met around 5x, the remaining zoom narrows the fov instead; apparent
+  size is continuous across it, so nothing jumps. 6 is where the fine lattice runs out, measured by rendering it:
+  at 6x Britain and its coastline still read, by 8x the same view is a loose field of dots. City markers grow with
+  the sphere up to the 1.45 a flight settles at and hold that size past it, or one ring swallows the view.
 - Hover (fine pointer): screen-space nearest within 28px → heat 1, label.
 - Click / tap / Enter on a marker: select city (flight). Selecting by the globe never triggers a geolocation prompt.
 - Keyboard (`tabindex=0`, `role="application"`, `aria-roledescription="globe"`, `aria-label="World globe, 35 cities"`):
@@ -520,7 +549,7 @@ is animating (a single frame is rendered on `uSun`/`uHorizon` change).
 | Tier | Trigger | Settings |
 | --- | --- | --- |
 | full | default | DPR ≤ 2, 96-seg sphere, all dots, halo, ripple |
-| lite | `hardwareConcurrency ≤ 4` or `deviceMemory ≤ 4` or (`pointer: coarse` and DPR > 2) or `saveData` | DPR ≤ 1.5, 64-seg sphere, dot stride 2, halo kept, grain kept |
+| lite | `hardwareConcurrency ≤ 4` or `deviceMemory ≤ 4` or (`pointer: coarse` and DPR > 2) or `saveData` | DPR ≤ 1.5, 64-seg sphere, coarse dot stride 2, halo kept, grain kept |
 | re-evaluated | after the first 90 rendered frames, if mean frame time > 24ms → drop one tier; > 40ms on lite → stop idle rotation and breath (light still animates) |
 
 Three.js and `GlobeEngine` are loaded with a dynamic `import()` after first paint; the layout reserves the
