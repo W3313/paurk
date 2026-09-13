@@ -33,6 +33,8 @@ export interface State {
   /** margin-note lines waiting to be shown */
   notes: string[]
   globeReady: boolean
+  /** The 2D fallback is up: no WebGL, so the contact shadow has no sphere to sit under. */
+  globe2d: boolean
   sheetProgress: number
   listScroll: Record<string, number>
   heading: number | null
@@ -88,6 +90,7 @@ let state: State = {
   ambient: false,
   notes: [],
   globeReady: false,
+  globe2d: false,
   sheetProgress: 0,
   listScroll: {},
   heading: null,
@@ -162,6 +165,7 @@ export const actions = {
   note(line: string) { setState((s) => (s.notes[s.notes.length - 1] === line ? {} : { notes: [...s.notes, line] })) },
   shiftNote() { setState((s) => ({ notes: s.notes.slice(1) })) },
   globeReady() { setState({ globeReady: true }) },
+  globeFellBack() { setState({ globeReady: true, globe2d: true }) },
   setSheetProgress(sheetProgress: number) { if (Math.abs(sheetProgress - state.sheetProgress) > 0.005) setState({ sheetProgress }) },
   rememberScroll(key: string, top: number) { setState((s) => ({ listScroll: { ...s.listScroll, [key]: top } })) },
   setHeading(heading: number | null) { setState({ heading }) },

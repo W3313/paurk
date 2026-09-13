@@ -65,7 +65,8 @@ export function SpotPage({ spot, city, now, sun, origin, originIsReal }: Props) 
           same step, in the same place it sits on every other screen. */}
       <SpotImage spot={spot} cityName={city.name} />
       <h2 className="spot-name" id="spot-name" ref={nameRef} tabIndex={-1}>{spot.name}</h2>
-      <p className="small">{[spot.neighborhood, spot.category, spot.indoor ? 'indoor' : 'outdoor', spot.free ? 'free' : 'paid'].filter(Boolean).join(' · ')}{spot.coordConfidence === 'low' ? ' · location approximate' : ''}</p>
+      {/* Ten spots are filed under the category "indoor" and would otherwise read "indoor · indoor". */}
+      <p className="small">{[spot.neighborhood, spot.category, spot.category === 'indoor' ? null : spot.indoor ? 'indoor' : 'outdoor', spot.free ? 'free' : 'paid'].filter(Boolean).join(' · ')}{spot.coordConfidence === 'low' ? ' · location approximate' : ''}</p>
       <p className={good ? 'moss' : 'ink2'} style={{ fontSize: 'var(--t-small)' }}>{nowLine.join(' · ')}{originIsReal ? '' : ''}</p>
       {detail ? <p className="blurb">{detail.blurb}</p> : <p className="blurb ink2">…</p>}
       {night && care}

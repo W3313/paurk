@@ -43,6 +43,22 @@ export function Sheet({ children, sticky, bare = false, label, onBack, backWord 
     return () => actions.setSheetProgress(0)
   }, [])
 
+  /*
+   * The exit flag has to be cleared when this component is reused. Going back from a spot to its city
+   * keeps the same sheet mounted — only its contents change — so `leaving` stayed true and the city page
+   * it returned to was left translated 135px down, at opacity 0 and pointer-events: none. Invisible and
+   * dead, with the right URL. `bare` and `backWord` both change on exactly the navigations it survives.
+   */
+  useEffect(() => { setLeaving(false) }, [bare, backWord])
+
+  /*
+   * Back to the top whenever the contents change. The same scroller is reused across city -> spot ->
+   * city and city -> city, so opening a spot from halfway down a list landed past its photograph, and
+   * switching city kept the previous city's scroll position. Instant, not smooth: this is a new page,
+   * not a move within one.
+   */
+  useEffect(() => { ref.current?.scrollTo({ top: 0 }) }, [label, bare])
+
   const back = () => {
     if (leaving) return
     // Let the page go down first and change mode behind it, so nothing is deleted while it is on screen.

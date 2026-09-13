@@ -82,6 +82,7 @@ export default function App() {
   const [aboutOpen, setAboutOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
   const stageRef = useRef<HTMLDivElement>(null)
+  const mainRef = useRef<HTMLElement>(null)
   useOnlineWatcher()
 
   const city = citySlug ? cityBySlug.get(citySlug) ?? null : null
@@ -115,6 +116,7 @@ export default function App() {
   }, [citySlug, city, inCity, mode])
   // Once the engine exists: face the place we know about, or land straight on a deep-linked city.
   const globeReady = useStore((s) => s.globeReady)
+  const globe2d = useStore((s) => s.globe2d)
   useEffect(() => {
     const g = getGlobe()
     if (!globeReady || !g) return
@@ -174,6 +176,26 @@ export default function App() {
     document.body.classList.toggle('is-locked', inCity || mode === 'saved')
     return () => document.body.classList.remove('is-locked')
   }, [mobile, inCity, mode])
+  /*
+   * Where focus goes when the screen changes. Three of the four transitions used to drop it on <body>
+   * — opening a city, coming back from a spot, and returning to the sky — which restarts the next Tab at
+   * the top of the document and leaves a screen reader with no idea anything happened. The spot page
+   * already moved focus to its own heading; this does the same for the rest, onto the region that just
+   * arrived. Skipped on first paint, since nothing has changed yet and stealing focus on load is rude.
+   */
+  const firstRender = useRef(true)
+  useEffect(() => {
+    if (firstRender.current) { firstRender.current = false; return }
+    if (mode === 'spot') return // SpotPage focuses its own heading
+    // By intent, not by document order: a selector list picks the first match in the DOM, which is
+    // .side--cities — and that column is inert whenever a city is open, so the focus call did nothing
+    // and focus stayed on <body>, which is the bug this effect exists to fix.
+    const want = mode === 'sky'
+      ? (mobile ? '.sky-text' : '.side--cities')
+      : (mobile ? '[data-sheet]' : '.side--spots')
+    mainRef.current?.querySelector<HTMLElement>(want)?.focus({ preventScroll: true })
+  }, [mode, citySlug, mobile])
+
   // The sky is the one screen that scrolls the document itself rather than a panel, so nothing was
   // feeding `scrolled` there and the header never went opaque — it printed "44 cities" through itself.
   useEffect(() => {
@@ -228,10 +250,12 @@ export default function App() {
       <HorizonClock sun={contextSun} mobile={mobile} />
       <div className="app" data-mode={mode}>
         <Header onSearch={() => setFindOpen(true)} onAbout={() => setAboutOpen(true)} scrolled={scrolled || (mobile && sheetProgress > 0.05)} />
-        <main className={mobile ? (mode === 'sky' ? 'sky' : 'city') : 'shell'} data-sky={mode === 'sky' ? '' : undefined}
+        <main ref={mainRef} className={mobile ? (mode === 'sky' ? 'sky' : 'city') : 'shell'} data-sky={mode === 'sky' ? '' : undefined}
           style={{ '--seat-x': seat[0], '--seat-y': seat[1], '--globe-r': `${Math.round(radius)}px` } as React.CSSProperties}>
           <div className="stage" ref={stageRef} {...(covered ? { inert: true } : {})}>
-            <div className="globe-shadow" aria-hidden="true" />
+            {/* The contact shadow is placed from the seat and radius the WebGL sphere reports. With the 2D
+                fallback up there is no such sphere, and it painted an orphan blob below the flat canvas. */}
+            {!globe2d && <div className="globe-shadow" aria-hidden="true" />}
             <GlobeView markers={markers} selectedId={citySlug} seat={seat} fit={fit} still={still} sunDate={sunDate} pushBack={mobile ? sheetProgress : 0} paused={covered} autoRotate={mode === 'sky'} themeKey={theme} onSelect={onSelect} />
           </div>
           {mobile ? (
@@ -248,10 +272,10 @@ export default function App() {
           ) : (
             <>
               {/* Both panels stay mounted so each can slide rather than blink. */}
-              <aside className="side side--cities" aria-label="All cities" {...(mode === 'sky' ? {} : { inert: true })}>
+              <aside className="side side--cities" aria-label="All cities" tabIndex={-1} {...(mode === 'sky' ? {} : { inert: true })}>
                 <CityMenu now={live} current={citySlug} live={mode === 'sky'} />
               </aside>
-              <aside className="side side--spots" aria-label={mode === 'saved' ? 'Saved spots' : city?.name ?? 'Places'}
+              <aside className="side side--spots" aria-label={mode === 'saved' ? 'Saved spots' : city?.name ?? 'Places'} tabIndex={-1}
                 {...(mode === 'sky' ? { inert: true } : {})}
                 onScroll={(e) => setScrolled(e.currentTarget.scrollTop > 4)}>
                 <div className="column">

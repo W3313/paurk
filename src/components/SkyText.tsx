@@ -14,7 +14,7 @@ export function PhaseLine({ text, className = '' }: { text: string; className?: 
 /** The Sky's text stack under the globe (spec §3.2). */
 export function SkyText({ now, userPos, onSearch, onAbout }: Props) {
   return (
-    <div className="sky-text">
+    <div className="sky-text" tabIndex={-1}>
       {/* The places are what the app is for; the cities are how they are filed. A full text dump of this
           screen used to contain no place noun at all. */}
       <PlateCaption parts={[`${spots.length} places`, `${cities.length} cities`]} bare />

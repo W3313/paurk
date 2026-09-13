@@ -252,7 +252,9 @@ button { font: inherit; color: inherit; }
 /* ---------- header ---------- */
 .header { position: sticky; top: 0; z-index: var(--z-sticky); display: flex; align-items: center; justify-content: space-between; gap: var(--s-4);
   height: var(--header-h); padding: env(safe-area-inset-top) var(--gutter) 0; }
-.header.is-scrolled { background: color-mix(in srgb, var(--bg) 85%, transparent); backdrop-filter: blur(12px) saturate(.8); -webkit-backdrop-filter: blur(12px) saturate(.8); }
+/* Prefix first, standard last. Written the other way round the minifier dropped the unprefixed
+   property from this rule outright, shipping a frosted header only WebKit would ever draw. */
+.header.is-scrolled { background: color-mix(in srgb, var(--bg) 85%, transparent); -webkit-backdrop-filter: blur(12px) saturate(.8); backdrop-filter: blur(12px) saturate(.8); }
 .wordmark { display: inline-flex; align-items: center; min-height: 44px; font-family: var(--font-display); font-style: italic; font-weight: 300; font-size: 24px; color: var(--ink-2); text-decoration: none; }
 .wordmark:hover, .wordmark:focus-visible { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .25em; }
 .header .words { gap: 6px 22px; }
@@ -372,7 +374,7 @@ html[data-still] .city-name.is-writing { animation: none; }
     overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin;
     padding: var(--s-6) 0 var(--s-16);
     background: color-mix(in srgb, var(--bg) 86%, transparent);
-    backdrop-filter: blur(16px) saturate(.85); -webkit-backdrop-filter: blur(16px) saturate(.85);
+    -webkit-backdrop-filter: blur(16px) saturate(.85); backdrop-filter: blur(16px) saturate(.85);
     transition: transform var(--d-panel) var(--e-settle), opacity calc(var(--d-panel) * .6) var(--e-settle);
     will-change: transform;
   }
@@ -386,6 +388,7 @@ html[data-still] .city-name.is-writing { animation: none; }
   .side .column { height: auto; overflow: visible; padding-top: 0; }
 }
 html[data-still] .side { transition: none !important; }
+.side:focus, .sky-text:focus { outline: none; }
 @media (max-width: 899px) {
   /*
    * The city page: the list, full screen, over an opaque ground. It has been a three-detent sheet, then a
@@ -406,6 +409,8 @@ html[data-still] .side { transition: none !important; }
   .sheet.is-leaving { transform: translateY(16dvh); opacity: 0; pointer-events: none; animation: none;
     transition: transform 260ms var(--e-settle), opacity 220ms linear; }
   html[data-still] .sheet, html[data-still] .sheet.is-leaving { animation: none; transition: none; }
+  /* Focus lands here on a screen change so the tab order carries on from the new screen; it is not a
+     control, so it takes the ring only when someone actually tabs to it. */
   .sheet:focus { outline: none; }
   .sheet:focus-visible { outline: 2px solid var(--ink); outline-offset: -4px; }
   .panel { min-height: 100%; background: linear-gradient(to bottom, var(--horizon) 0, var(--bg) 120px), var(--bg); position: relative; }
@@ -467,7 +472,15 @@ html[data-still] .row.is-settling { animation: none; }
 .vibes-clip { overflow: hidden; min-height: 0; min-width: 0; }
 html[data-still] .vibes-panel, html[data-still] .vibes-caret { transition: none !important; }
 
-.vibes { display: flex; flex-wrap: wrap; gap: 2px 14px; align-items: center; }
+/*
+ * Row gap 20, not 2. A `.word` paints a 44px target but pulls 10px back off each edge with a negative
+ * margin, so its box overlaps its neighbours by 20px — fine in a single row, but in this wrapping one it
+ * meant the bottom of every word sat on top of the word below and took its taps. Measured before: 13
+ * steals among 18 words, every one of them a word on the next line. 24px of flow plus a 20px gap is a
+ * 44px pitch, so each box owns exactly its own target. The same fix the city list and the world list
+ * needed, in the one place that wraps.
+ */
+.vibes { display: flex; flex-wrap: wrap; gap: 20px 14px; align-items: center; }
 .vibe { font-size: var(--t-small); font-weight: 400; color: var(--ink-2); min-height: 44px; }
 .vibe .count { font-family: var(--font-mono); font-size: var(--t-mono-s); color: var(--ink-2); }
 .vibe.is-suggested::before { content: "·"; color: var(--accent); margin-right: 2px; }
@@ -498,7 +511,7 @@ html[data-still] .vibes-panel, html[data-still] .vibes-caret { transition: none 
 .sources li { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; }
 .kind { font-family: var(--font-mono); font-size: var(--t-mono-s); color: var(--ink-2); letter-spacing: .02em; }
 .spot-bar { position: sticky; top: 0; z-index: var(--z-sticky); display: flex; justify-content: space-between; align-items: center; min-height: 48px; margin: 0 calc(-1 * var(--gutter)); padding: 0 var(--gutter);
-  background: color-mix(in srgb, var(--bg) 85%, transparent); backdrop-filter: blur(12px) saturate(.8); -webkit-backdrop-filter: blur(12px) saturate(.8); }
+  background: color-mix(in srgb, var(--bg) 85%, transparent); -webkit-backdrop-filter: blur(12px) saturate(.8); backdrop-filter: blur(12px) saturate(.8); }
 /*
  * Below the header on a phone, not at the top of the viewport. This bar lives inside .sheet, which is
  * position: fixed; inset: 0, so `top: 0` pinned it to viewport y=0 — underneath the 56px header, which is
@@ -511,7 +524,7 @@ html[data-still] .vibes-panel, html[data-still] .vibes-caret { transition: none 
   /* Same reasoning as .panel-sticky: the scroller starts below the header, so 0 is already clear of it.
      It was `top: 0` in a scroller pinned to the viewport top, which put it *under* the header — hit
      tested at 390x844, the centre of `← list` returned the wordmark and `save` the bookmark icon. */
-  .spot-bar { top: 0; background: var(--bg); backdrop-filter: none; -webkit-backdrop-filter: none;
+  .spot-bar { top: 0; background: var(--bg); -webkit-backdrop-filter: none; backdrop-filter: none;
     border-bottom: 1px solid var(--hairline); }
 }
 .save-dot { display: inline-block; width: 8px; height: 8px; border: 1px solid var(--ink); border-radius: 50%; position: relative; }

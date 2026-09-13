@@ -57,7 +57,12 @@ export function SpotRow({ ranked, city, now, sun, ctx, origin, originIsReal, ind
   }
   return (
     <li>
-      <a className={`row${index < 12 ? ' is-settling' : ''}`} style={{ '--i': index } as React.CSSProperties} href={`#/s/${s.id}`}
+      {/* Named for the place, not for everything in the row. The whole row is one link — name, area,
+          category, vibes, the reason line and the status all sit inside it — so without this its
+          accessible name ran to 170-190 characters and a reader met fourteen of them in a row. The text
+          stays where it is and is still browsable; only the name it announces is the place. */}
+      <a aria-label={`${s.name}, ${s.neighborhood ?? city.name}`}
+        className={`row${index < 12 ? ' is-settling' : ''}`} style={{ '--i': index } as React.CSSProperties} href={`#/s/${s.id}`}
         onClick={(e) => { e.preventDefault(); actions.openSpot(s.id) }}
         onPointerEnter={() => onHot?.(s.id)} onPointerLeave={() => onHot?.(null)} onFocus={() => onHot?.(s.id)} onBlur={() => onHot?.(null)}>
         <span className="row-name">{s.name}</span>
@@ -72,7 +77,8 @@ export function SpotRow({ ranked, city, now, sun, ctx, origin, originIsReal, ind
         </span>
         {originIsReal && <span className="vh">{`${compassLabel(bearing).replace('N', 'north').replace('S', 'south').replace('E', 'east').replace('W', 'west').toLowerCase()}, ${formatDistance(km, units)}, ${walk} min walk`}</span>}
         <span className="row-meta">
-          <span>{[s.neighborhood, s.category, s.indoor ? 'indoor' : 'outdoor'].filter(Boolean).join(' · ')}</span>
+          {/* Ten spots are filed under the category "indoor" and would otherwise read "indoor · indoor". */}
+          <span>{[s.neighborhood, s.category, s.category === 'indoor' ? null : s.indoor ? 'indoor' : 'outdoor'].filter(Boolean).join(' · ')}</span>
         </span>
         <span className="row-right">
           <span className="meter" aria-hidden="true">{[1, 2, 3, 4, 5].map((n) => <i key={n} className={n <= s.lowkeyScore ? 'on' : ''} />)}</span>

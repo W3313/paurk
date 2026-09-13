@@ -52,7 +52,10 @@ export function Globe2D({ markers, dotsUrl, onSelect, selected }: Props) {
       {markers.filter((m) => m.kind === 'city').map((m) => {
         const p = proj([m.lng, m.lat])
         if (!p) return null
-        return <button key={m.id} type="button" className={`word word--small${m.id === selected ? ' is-on' : ''}`} style={{ position: 'absolute', left: p[0], top: p[1], transform: 'translate(-50%,-50%)', color: css?.getPropertyValue('--ink') }} onClick={() => onSelect(m.id)}>{getState().mode === 'sky' || m.id === selected ? m.label : '·'}</button>
+        // The dot is what it looks like; the label is what it is called. Without the aria-label a reader
+        // met forty-four buttons named "·" on any screen but the sky.
+        const dotted = !(getState().mode === 'sky' || m.id === selected)
+        return <button key={m.id} type="button" aria-label={dotted ? m.label : undefined} className={`word word--small${m.id === selected ? ' is-on' : ''}`} style={{ position: 'absolute', left: p[0], top: p[1], transform: 'translate(-50%,-50%)', color: css?.getPropertyValue('--ink') }} onClick={() => onSelect(m.id)}>{dotted ? '·' : m.label}</button>
       })}
     </div>
   )

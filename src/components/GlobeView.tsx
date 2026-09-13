@@ -58,7 +58,7 @@ export function GlobeView({ markers, selectedId, seat, fit, still, sunDate, push
       } catch (e) {
         console.warn('globe: falling back to 2D', e)
         setFallback(true)
-        actions.globeReady()
+        actions.globeFellBack()
       }
     }
     const id = window.setTimeout(start, 0)

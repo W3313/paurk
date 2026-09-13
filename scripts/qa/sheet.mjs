@@ -71,6 +71,16 @@ ok('and it is reachable', sb && sb.reachable, JSON.stringify(sb))
 await p.evaluate(() => [...document.querySelectorAll('.panel-sticky button')].find((x) => x.textContent.trim().startsWith('←')).click())
 await p.waitForTimeout(1200)
 ok('it goes back to the list, not out to the globe', (await p.evaluate(() => location.hash)).includes('lisbon'), await p.evaluate(() => location.hash))
+// The sheet survives spot -> city, so its exit flag has to be cleared when it is reused. It was not:
+// the city page came back translated 135px down at opacity 0 with pointer-events none — the right URL
+// and nothing on screen.
+ok('and the city page it returns to is alive', await p.evaluate(() => {
+  const el = document.querySelector('[data-sheet]')
+  if (!el) return false
+  const cs = getComputedStyle(el)
+  return !el.classList.contains('is-leaving') && cs.opacity === '1' && cs.pointerEvents !== 'none'
+    && (cs.transform === 'none' || cs.transform === 'matrix(1, 0, 0, 1, 0, 0)')
+}), await p.evaluate(() => { const e = document.querySelector('[data-sheet]'); const c = e && getComputedStyle(e); return JSON.stringify({ cls: e?.className, op: c?.opacity, tf: c?.transform }) }))
 
 await p.goto(base + '#/saved', { waitUntil: 'networkidle' }); await p.waitForTimeout(2400)
 ok('saved is the same page with the same way back', await p.evaluate(() => {
