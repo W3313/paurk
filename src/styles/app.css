@@ -415,6 +415,15 @@ html[data-still] .side { transition: none !important; }
   .sheet:focus-visible { outline: 2px solid var(--ink); outline-offset: -4px; }
   .panel { min-height: 100%; background: linear-gradient(to bottom, var(--horizon) 0, var(--bg) 120px), var(--bg); position: relative; }
   .panel .column { padding-top: var(--s-5); }
+  /*
+   * Sideways, the column head — country, plate, phase line, sun rule, vibes, count — filled the whole
+   * 390px and the first spot row landed at y=399, so a city opened with no place on screen at all.
+   * Nothing is removed; the rhythm is tightened until a row clears the fold.
+   */
+  @media (max-height: 520px) and (orientation: landscape) {
+    .panel .column { padding-top: var(--s-2); gap: var(--s-3); }
+    .panel-sticky { padding-block: 2px; }
+  }
   /* Opaque: at 92% the page's own city heading ghosted through and the title read twice. */
   /* The scroller already starts below the header, so this sticks at its own top. */
   .panel-sticky { position: sticky; top: 0; z-index: var(--z-sticky); background: var(--bg); border-bottom: 1px solid var(--hairline); padding: var(--s-2) var(--gutter);
@@ -495,6 +504,14 @@ html[data-still] .vibes-panel, html[data-still] .vibes-caret { transition: none 
    cropped top and bottom — taking its printed caption with it. Real photographs keep 3:2; only the
    drawn ones ask for the shape they were drawn in. */
 .photo:not(.has-photo) { aspect-ratio: 4 / 3; }
+/*
+ * A phone held sideways. The frame is full-width, so at 844x390 the 4:3 poster came out 796x597 — one
+ * and a half screens of picture before a word of the place. Capped by height and centred, keeping the
+ * ratio, rather than cropped further: cropping is what took the caption off in the first place.
+ */
+@media (max-height: 520px) and (orientation: landscape) {
+  .photo { max-width: calc(58svh * 4 / 3); margin-inline: auto; }
+}
 .photo svg, .photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
 .photo img { opacity: 0; transition: opacity 900ms var(--e-settle); filter: saturate(.6) contrast(.95); }
 .photo img.is-in { opacity: 1; }
