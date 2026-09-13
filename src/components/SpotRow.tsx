@@ -1,4 +1,4 @@
-import type { City, LatLng, Spot } from '../types'
+import type { City, LatLng, Spot, Vibe } from '../types'
 import { becauseLine, type Context, type Ranked } from '../lib/rank'
 import { bearingDeg, compassLabel, distanceKm, formatDistance, walkingTime } from '../lib/geo'
 import { formatClock, formatCountdown, type SunInfo } from '../lib/time'
@@ -15,6 +15,8 @@ interface Props {
   originIsReal: boolean
   index: number
   onHot?: (id: string | null) => void
+  /** Vibe frequencies across the rows on screen, so the reason line can pick what is rare here. */
+  common?: ReadonlyMap<Vibe, number>
 }
 
 const WALK_M_PER_MIN = 80
@@ -22,7 +24,7 @@ const WALK_M_PER_MIN = 80
 export function walkMinutes(km: number) { return Math.round((km * 1000) / WALK_M_PER_MIN) }
 
 /** A text row separated by hairlines (spec §6.8). */
-export function SpotRow({ ranked, city, now, sun, ctx, origin, originIsReal, index, onHot }: Props) {
+export function SpotRow({ ranked, city, now, sun, ctx, origin, originIsReal, index, onHot, common }: Props) {
   const units = useStore((s) => s.units)
   const heading = useStore((s) => s.heading)
   const vibes = useStore((s) => s.vibes)
@@ -36,7 +38,7 @@ export function SpotRow({ ranked, city, now, sun, ctx, origin, originIsReal, ind
   const walk = originIsReal ? walkMinutes(km) : null
   const bearing = bearingDeg(from, s)
   const night = sun.period === 'night' || sun.period === 'dusk'
-  const reason = becauseLine(ranked, ctx, units)
+  const reason = becauseLine(ranked, ctx, units, common)
   const status: string[] = []
   let good = false
   if (ranked.hours?.confidence === 'high') {

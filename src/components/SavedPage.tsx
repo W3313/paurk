@@ -3,7 +3,7 @@ import { cityBySlug, spotById } from '../data'
 import { actions, useStore } from '../store'
 import { useNow } from '../hooks/useNow'
 import { sunInfo } from '../lib/time'
-import { rankSpots, type Context } from '../lib/rank'
+import { rankSpots, type Context, vibeCounts } from '../lib/rank'
 import { distanceKm } from '../lib/geo'
 import { parseHours } from '../lib/hours'
 import { SpotRow } from './SpotRow'
@@ -36,11 +36,12 @@ export function SavedPage() {
         const from = near ? origin : null
         const ctx: Context = { period: sun.period, raining: false, vibes: [], origin: from, hours: (s) => parseHours(s.hours, now, city.timezone, { sunrise: sun.sunrise, sunset: sun.sunset }) }
         const ranked = rankSpots(sids.map((id) => spotById.get(id)!).filter(Boolean), ctx)
+        const common = vibeCounts(ranked)
         return (
           <section key={slug} className="section">
             <h2 className="display" style={{ fontSize: 'var(--t-display-m)' }}><a className="word word--display" href={`#/c/${slug}`} onClick={(e) => { e.preventDefault(); actions.openCity(slug) }}>{city.name}</a></h2>
             <ul className="rows" role="list">
-              {ranked.map((r, i) => <SpotRow key={r.spot.id} ranked={r} city={city} now={now} sun={sun} ctx={ctx} origin={from} originIsReal={near} index={i} />)}
+              {ranked.map((r, i) => <SpotRow key={r.spot.id} ranked={r} city={city} now={now} sun={sun} ctx={ctx} origin={from} originIsReal={near} index={i} common={common} />)}
             </ul>
           </section>
         )

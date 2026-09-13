@@ -67,7 +67,11 @@ export function SpotPage({ spot, city, now, sun, origin, originIsReal }: Props) 
       <h2 className="spot-name" id="spot-name" ref={nameRef} tabIndex={-1}>{spot.name}</h2>
       {/* Ten spots are filed under the category "indoor" and would otherwise read "indoor · indoor". */}
       <p className="small">{[spot.neighborhood, spot.category, spot.category === 'indoor' ? null : spot.indoor ? 'indoor' : 'outdoor', spot.free ? 'free' : 'paid'].filter(Boolean).join(' · ')}{spot.coordConfidence === 'low' ? ' · location approximate' : ''}</p>
-      <p className={good ? 'moss' : 'ink2'} style={{ fontSize: 'var(--t-small)' }}>{nowLine.join(' · ')}{originIsReal ? '' : ''}</p>
+      {/* Empty whenever nothing about the hour applies to this spot — at night, for most of them. An
+          empty paragraph is still a flex child and still took its 20px of the column. */}
+      {nowLine.length > 0 && (
+        <p className={good ? 'moss' : 'ink2'} style={{ fontSize: 'var(--t-small)' }}>{nowLine.join(' · ')}</p>
+      )}
       {detail ? <p className="blurb">{detail.blurb}</p> : <p className="blurb ink2">…</p>}
       {night && care}
       {detail?.tips && <p className="pull">{detail.tips}</p>}

@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { cities, cityBySlug, spotsByCity } from './data'
 import { actions, useStore, type Mode, type Weather } from './store'
 import { distanceKm } from './lib/geo'
+import { pickVerb } from './lib/pointer'
 import { nearestCity } from './lib/locate'
 import { useNow } from './hooks/useNow'
 import { useCityNow } from './hooks/useCityNow'
@@ -169,7 +170,7 @@ export default function App() {
   useEffect(() => {
     if (city && mode === 'city') {
       const n = spotsByCity.get(city.slug)?.length ?? 0
-      actions.note(`${n} places · tap a row to open it`)
+      actions.note(`${n} places · ${pickVerb()} a row to open it`)
     }
   }, [city, mode])
   useEffect(() => { if (mode === 'about') { setAboutOpen(true) } }, [mode])

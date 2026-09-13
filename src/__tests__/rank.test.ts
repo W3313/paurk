@@ -1,7 +1,8 @@
 import { describe, expect, it } from 'vitest'
-import { rankSpots } from '../lib/rank'
+import { becauseLine, rankSpots, vibeCounts } from '../lib/rank'
 import { layoutRadar } from '../lib/radar'
-import type { Spot } from '../types'
+import type { Spot, Vibe } from '../types'
+import dataset from '../data/spots.json'
 
 const base: Spot = {
   id: 'x/a', city: 'x', name: 'A', neighborhood: '', category: 'park', vibes: ['quiet'],
@@ -57,5 +58,56 @@ describe('night weights', () => {
     expect(b.reasons).toContain('night')
     expect(b.reasons).not.toContain('stargaze')
     expect(b.score).toBeCloseTo(1.8 + 3)
+  })
+})
+
+describe('becauseLine', () => {
+  const ctx = { period: 'night' as const, raining: false, vibes: [], origin: null }
+  const line = (s: Spot, c = ctx, common?: Map<Vibe, number>) => becauseLine(rankSpots([s], c)[0], c, 'metric', common)
+
+  it('names the spot, not just the hour', () => {
+    expect(line(pier)).toBe('because it is late and this has the view')
+    const water: Spot = { ...pier, id: 'x/w', vibes: ['water', 'night'] }
+    expect(line(water)).toBe('because it is late and this is on the water')
+  })
+
+  it('keeps verified-open ahead of anything the vibes could say', () => {
+    const bar: Spot = { ...base, id: 'x/i', indoor: true, vibes: ['cozy', 'night'], bestTimes: ['night'] }
+    const open = { ...ctx, hours: () => ({ status: 'open' as const, confidence: 'high' as const }) }
+    expect(line(bar, open)).toBe('because it is late and this is indoors and open')
+    expect(line(bar)).toBe('because it is late and this is somewhere to settle into')
+  })
+
+  /*
+   * The lead clause is the city's clock, so it is the same for every row; if the tail is fixed per
+   * period too, a list prints one sentence thirteen times. Counting what the rows on screen share lets
+   * the tail reach past the trait they have in common — every place in Dubai is on the water.
+   */
+  it('reaches past the trait the whole list shares', () => {
+    const a: Spot = { ...base, id: 'x/1', vibes: ['water', 'skyline', 'night'], bestTimes: ['night'] }
+    const b: Spot = { ...base, id: 'x/2', vibes: ['water', 'cozy', 'night'], bestTimes: ['night'] }
+    const ranked = rankSpots([a, b], ctx)
+    const common = vibeCounts(ranked)
+    const lines = ranked.map((r) => becauseLine(r, ctx, 'metric', common))
+    expect(new Set(lines).size).toBe(2)
+    expect(lines.every((l) => l?.includes('on the water'))).toBe(false)
+  })
+
+  it('never prints one sentence down a whole real city list', () => {
+    const byCity = new Map<string, Spot[]>()
+    for (const s of dataset.spots as unknown as Spot[]) byCity.set(s.city, [...(byCity.get(s.city) ?? []), s])
+    const flat: string[] = []
+    for (const period of ['night', 'golden', 'morning', 'afternoon', 'midday'] as const) {
+      const c = { period, raining: false, vibes: [], origin: null }
+      for (const [, list] of byCity) {
+        if (list.length < 5) continue
+        const ranked = rankSpots(list, c)
+        const common = vibeCounts(ranked)
+        const said = ranked.map((r) => becauseLine(r, c, 'metric', common)).filter(Boolean) as string[]
+        if (said.length >= 5) flat.push(`${new Set(said).size}/${said.length}`)
+        expect(said.length < 5 || new Set(said).size).not.toBe(1)
+      }
+    }
+    expect(flat.length).toBeGreaterThan(100)
   })
 })

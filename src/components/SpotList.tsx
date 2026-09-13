@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import type { City, LatLng, Spot } from '../types'
-import { rankSpots, type Context } from '../lib/rank'
+import { rankSpots, vibeCounts, type Context } from '../lib/rank'
 import type { SunInfo } from '../lib/time'
 import { parseHours } from '../lib/hours'
 import { useStore } from '../store'
@@ -38,6 +38,7 @@ export function SpotList({ city, spots, now, sun, origin, originIsReal, onHot }:
   const ranked = useMemo(() => rankSpots(filtered, ctx), [filtered, ctx])
   if (!spots.length) return <p className="empty">Nothing here yet.</p>
   if (!ranked.length) return <p className="empty">Nothing matches {vibes.join(' + ')} here right now — loosen a word.</p>
+  const common = vibeCounts(ranked)
   const night = sun.period === 'night'
   const main = night ? ranked.filter((r) => r.spot.safety.level !== 'caution') : ranked
   const later = night ? ranked.filter((r) => r.spot.safety.level === 'caution') : []
@@ -45,13 +46,13 @@ export function SpotList({ city, spots, now, sun, origin, originIsReal, onHot }:
   return (
     <>
       <ul className="rows" role="list">
-        {main.map((r) => <SpotRow key={r.spot.id} ranked={r} city={city} now={now} sun={sun} ctx={ctx} origin={origin} originIsReal={originIsReal} index={i++} onHot={onHot} />)}
+        {main.map((r) => <SpotRow key={r.spot.id} ranked={r} city={city} now={now} sun={sun} ctx={ctx} origin={origin} originIsReal={originIsReal} index={i++} onHot={onHot} common={common} />)}
       </ul>
       {later.length > 0 && (
         <>
           <h3 className="group-head">better in daylight · {later.length}</h3>
           <ul className="rows" role="list">
-            {later.map((r) => <SpotRow key={r.spot.id} ranked={r} city={city} now={now} sun={sun} ctx={ctx} origin={origin} originIsReal={originIsReal} index={i++} onHot={onHot} />)}
+            {later.map((r) => <SpotRow key={r.spot.id} ranked={r} city={city} now={now} sun={sun} ctx={ctx} origin={origin} originIsReal={originIsReal} index={i++} onHot={onHot} common={common} />)}
           </ul>
         </>
       )}

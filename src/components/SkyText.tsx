@@ -1,4 +1,5 @@
 import { cities, spots } from '../data'
+import { pickVerb } from '../lib/pointer'
 import type { LatLng } from '../types'
 import { PlateCaption } from './PlateCaption'
 import { MarginNote } from './MarginNote'
@@ -18,7 +19,7 @@ export function SkyText({ now, userPos, onAll, onAbout }: Props) {
       {/* The places are what the app is for; the cities are how they are filed. A full text dump of this
           screen used to contain no place noun at all. */}
       <PlateCaption parts={[`${spots.length} places`, `${cities.length} cities`]} bare />
-      <MarginNote fallback={userPos ? 'tap a city, or the list below' : 'drag the globe, or search'} />
+      <MarginNote fallback={userPos ? `${pickVerb()} a city, or the list below` : 'drag the globe, or search'} />
       <WorldNow now={now} onAll={onAll} />
       <p className="only-mobile"><button type="button" className="word word--quiet word--small" onClick={onAbout}>about</button></p>
     </div>
