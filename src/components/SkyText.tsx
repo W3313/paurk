@@ -4,7 +4,7 @@ import { PlateCaption } from './PlateCaption'
 import { MarginNote } from './MarginNote'
 import { WorldNow } from './WorldNow'
 
-interface Props { now: Date; userPos: LatLng | null; onSearch: () => void; onAbout: () => void }
+interface Props { now: Date; userPos: LatLng | null; onAll: () => void; onAbout: () => void }
 
 export function PhaseLine({ text, className = '' }: { text: string; className?: string }) {
   const words = text.split(' ')
@@ -12,14 +12,14 @@ export function PhaseLine({ text, className = '' }: { text: string; className?: 
 }
 
 /** The Sky's text stack under the globe (spec §3.2). */
-export function SkyText({ now, userPos, onSearch, onAbout }: Props) {
+export function SkyText({ now, userPos, onAll, onAbout }: Props) {
   return (
     <div className="sky-text" tabIndex={-1}>
       {/* The places are what the app is for; the cities are how they are filed. A full text dump of this
           screen used to contain no place noun at all. */}
       <PlateCaption parts={[`${spots.length} places`, `${cities.length} cities`]} bare />
       <MarginNote fallback={userPos ? 'tap a city, or the list below' : 'drag the globe, or search'} />
-      <WorldNow now={now} onMore={() => onSearch()} />
+      <WorldNow now={now} onAll={onAll} />
       <p className="only-mobile"><button type="button" className="word word--quiet word--small" onClick={onAbout}>about</button></p>
     </div>
   )

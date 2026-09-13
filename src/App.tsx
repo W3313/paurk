@@ -79,6 +79,8 @@ export default function App() {
   const viewport = useViewport()
   const live = useNow()
   const [findOpen, setFindOpen] = useState(false)
+  /** Whether Find was opened by "all 44 cities", which asks for the browse body rather than the default. */
+  const [findBrowse, setFindBrowse] = useState(false)
   const [aboutOpen, setAboutOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
   const stageRef = useRef<HTMLDivElement>(null)
@@ -249,7 +251,7 @@ export default function App() {
       <div className="horizon" aria-hidden="true" />
       <HorizonClock sun={contextSun} mobile={mobile} />
       <div className="app" data-mode={mode}>
-        <Header onSearch={() => setFindOpen(true)} onAbout={() => setAboutOpen(true)} scrolled={scrolled || (mobile && sheetProgress > 0.05)} />
+        <Header onSearch={() => { setFindBrowse(false); setFindOpen(true) }} onAbout={() => setAboutOpen(true)} scrolled={scrolled || (mobile && sheetProgress > 0.05)} />
         <main ref={mainRef} className={mobile ? (mode === 'sky' ? 'sky' : 'city') : 'shell'} data-sky={mode === 'sky' ? '' : undefined}
           style={{ '--seat-x': seat[0], '--seat-y': seat[1], '--globe-r': `${Math.round(radius)}px` } as React.CSSProperties}>
           <div className="stage" ref={stageRef} {...(covered ? { inert: true } : {})}>
@@ -260,7 +262,7 @@ export default function App() {
           </div>
           {mobile ? (
             mode === 'sky' ? (
-              <SkyText now={live} userPos={userPos} onSearch={() => setFindOpen(true)} onAbout={() => setAboutOpen(true)} />
+              <SkyText now={live} userPos={userPos} onAll={() => { setFindBrowse(true); setFindOpen(true) }} onAbout={() => setAboutOpen(true)} />
             ) : (
               <Sheet bare={mode === 'spot'} label={mode === 'saved' ? 'Saved spots' : city?.name ?? 'Place'}
                 onBack={goBack} backWord={mode === 'spot' && city ? `← ${city.name}` : '← globe'}
@@ -288,7 +290,7 @@ export default function App() {
         </main>
         {(mode === 'spot' || mode === 'saved') && <div className="vh"><MarginNote /></div>}
       </div>
-      <Find open={findOpen} onClose={() => setFindOpen(false)} now={live} />
+      <Find open={findOpen} startInBrowse={findBrowse} onClose={() => setFindOpen(false)} now={live} />
       <AboutDialog open={aboutOpen} onClose={() => { setAboutOpen(false); if (mode === 'about') actions.sky() }} />
     </>
   )

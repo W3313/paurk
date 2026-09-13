@@ -11,7 +11,7 @@ import { geoAvailable, geoDenied, locateOnce, nearestCity } from '../lib/locate'
 import { getGlobe } from '../globe/handle'
 import type { City, LatLng, Spot } from '../types'
 
-interface Props { open: boolean; onClose: () => void; now: Date }
+interface Props { open: boolean; onClose: () => void; now: Date; startInBrowse?: boolean }
 
 interface Row {
   key: string
@@ -52,7 +52,7 @@ const whenOf = (now: Date, city: City, sun: SunInfo) => `${formatClock(now, city
  * that is already useful before a letter is typed. It replaces the old modal city picker, so it also
  * carries the no-WebGL path — all 44 cities are reachable here without typing and without a globe.
  */
-export function Find({ open, onClose, now }: Props) {
+export function Find({ open, onClose, now, startInBrowse = false }: Props) {
   const ref = useRef<HTMLDialogElement>(null)
   const inputRef = useRef<HTMLInputElement>(null)
   const listRef = useRef<HTMLDivElement>(null)
@@ -324,7 +324,8 @@ export function Find({ open, onClose, now }: Props) {
     const d = ref.current
     if (!d) return
     if (open && !d.open) {
-      setQ(''); setBody('standing'); setNote(null); setNearestFirst(null); setStatus('')
+      // `browse` is the region-grouped list of every city, which is what "all 44 cities" names.
+      setQ(''); setBody(startInBrowse ? 'browse' : 'standing'); setNote(null); setNearestFirst(null); setStatus('')
       d.showModal()
       // A soft keyboard on open would bury the standing list, which is the point of having one.
       const fine = matchMedia('(hover: hover) and (pointer: fine)').matches
