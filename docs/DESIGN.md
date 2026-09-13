@@ -308,12 +308,27 @@ text measure.
   horizon band (35vh, 55vh at night). The "now in the world" list is below, in normal flow, page-scrollable.
 - **City**: the canvas animates to a **38vh** tall square-cropped wrapper at the top (wrapper `height` transition
   600ms, camera dolly on the same curve) and the **sheet** rises out of the horizon.
+  - Above the run-up sits a second transparent block, `.sheet-exit` (22dvh), which is the way out. The sheet
+    opens scrolled past it — set in a layout effect, before paint — so the composed screen is exactly as it
+    was, and dragging the list all the way down scrolls into it and off the top, which returns you to the
+    sky (to the city, from a spot page). The decision is taken on `touchend`, not on scroll position: a
+    flick from deep in the list carries a long way under momentum, and committing on position turned every
+    such flick into an exit. Released past the 40% line it commits; short of it the sheet settles back to
+    the composed screen. `--pull` (0 at rest, 1 fully pulled) is written to the **root** element on each
+    scroll frame — not to `.sheet`, since the city's caption lives in `<main>`, a sibling, and a custom
+    property only inherits downward — and fades the caption out while a `↓ sky` word fades in. It is done
+    with the scroller rather than a gesture recogniser because the run-up already spends
+    `touch-action: pan-y` on letting the browser own vertical drags, leaving no pointer stream to read a
+    pull from, and because momentum, rubber-banding and the interrupted half-pull all come free.
   - The sheet is a plain native scroller: `.sheet { position: fixed; inset: 0; overflow-y: auto; overscroll-behavior: contain; }`
     — no snap, and crucially **no `pointer-events: none`**. Inside: one transparent `.sheet-lead` of `72dvh`,
     then the panel, whose content scrolls in flow. The lead is the scroll surface, which is the whole point: a
     drag anywhere on the city screen, the sphere included, scrolls the list into view.
-    The sphere is therefore not touch-draggable on a phone city screen — it is a backdrop showing one selected
-    city there, and reaching the list matters more. It stays fully draggable on the sky screen, which has no sheet.
+    The sphere is still draggable, though: both transparent blocks carry `touch-action: pan-y`, which leaves
+    vertical panning to the browser — they are inside the scroller, so it scrolls the sheet — and hands
+    everything else to script, so a sideways drag or a pinch reaches `GlobeEngine.turnBy` / `zoomBy` and a
+    tap that moved under 8px reaches `tapAt`. This is what §3.3 originally asked for with `touch-action:
+    pan-y`; it could not work on the canvas, which is a fixed sibling of the sheet with nothing to scroll.
     This was `pointer-events: none` on both the sheet and the spacers, with `scroll-snap-type: y mandatory` and
     three detent spacers. The top 72dvh was then a hole through to a canvas whose `touchAction` the engine pins
     at `none`, so a downward drag spun the globe and never scrolled; the only scrollable surface was the strip of

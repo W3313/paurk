@@ -219,6 +219,9 @@ export default function App() {
   const originIsReal = !!userPos && !!city && distanceKm(userPos, city) <= 80 && (accuracy === null || accuracy < 50000)
   const origin = originIsReal ? userPos : null
 
+  // Pulling the sheet off the top goes back one step, the same step ← list and ← sky take.
+  const pullBack = useCallback(() => { if (mode === 'spot') actions.backToList(); else actions.sky() }, [mode])
+
   const column = mode === 'saved' ? <SavedPage /> : city && cityNow.sun ? (
     <CityColumn city={city} now={cityNow.now} live={cityNow.live} sun={cityNow.sun} preview={cityNow.preview} origin={origin} originIsReal={originIsReal} mobile={mobile} spotId={mode === 'spot' ? spotId : null} />
   ) : null
@@ -245,7 +248,8 @@ export default function App() {
             mode === 'sky' ? (
               <SkyText now={live} userPos={userPos} onSearch={() => setFindOpen(true)} onAbout={() => setAboutOpen(true)} />
             ) : (
-              <Sheet fullOnMount={mode === 'spot'} bare={mode === 'spot'} label={mode === 'saved' ? 'Saved spots' : city?.name ?? 'Place'} sticky={mode === 'spot' ? null : <p className="city-name" style={{ fontSize: 'var(--t-display-s)' }}>{mode === 'saved' ? 'saved' : city?.name}</p>}>
+              <Sheet fullOnMount={mode === 'spot'} bare={mode === 'spot'} label={mode === 'saved' ? 'Saved spots' : city?.name ?? 'Place'}
+                onPullBack={pullBack} backWord={mode === 'spot' && city ? `↓ ${city.name}` : '↓ sky'} sticky={mode === 'spot' ? null : <p className="city-name" style={{ fontSize: 'var(--t-display-s)' }}>{mode === 'saved' ? 'saved' : city?.name}</p>}>
                 {column}
                 <p className="only-mobile" style={{ paddingTop: 24 }}><button type="button" className="word word--quiet word--small" onClick={() => setAboutOpen(true)}>about</button>{' '}<button type="button" className="word word--quiet word--small" onClick={() => actions.sky()}>← sky</button></p>
               </Sheet>

@@ -22,6 +22,7 @@ const S = () => p.evaluate(() => {
   const row = document.querySelector('.rows a.row')?.getBoundingClientRect()
   return {
     top: Math.round(el.scrollTop), max: Math.round(el.scrollHeight - el.clientHeight), lead: pan.offsetTop,
+    rest: document.querySelector('.sheet-exit')?.offsetHeight ?? 0,
     rowIn: row ? row.top >= 0 && row.bottom <= window.innerHeight : false,
   }
 })
@@ -69,8 +70,9 @@ const back = await p.evaluate(() => {
 ok('↑ globe is offered, at 44px', !!back && back.h >= 44 && back.w >= 44, JSON.stringify(back))
 if (back) {
   await p.evaluate(() => [...document.querySelectorAll('.panel-sticky button')].find((x) => x.textContent.includes('globe')).click())
-  const home = await until((s) => s.top === 0)
-  ok('↑ globe returns to the globe', home.top === 0, `scrollTop ${home.top}`)
+  // Back to the composed screen, not to the top of the scroller — the top is the pull-back exit.
+  const home = await until((s) => s.top === s.rest)
+  ok('↑ globe returns to the globe', home.top === home.rest, `scrollTop ${home.top}, rest ${home.rest}`)
   // The button unmounts under its own press; without focusing the sheet first, focus falls to <body>.
   ok('focus stays in the sheet', await p.evaluate(() => document.activeElement?.hasAttribute('data-sheet') === true),
     await p.evaluate(() => document.activeElement?.tagName ?? '?'))
@@ -79,6 +81,32 @@ if (back) {
 // A spot page opens with the paper already up, and saved gets the same sheet.
 await p.goto(base + '#/saved', { waitUntil: 'networkidle' }); await p.waitForTimeout(2600)
 ok('saved scrolls the same way', await p.evaluate(() => { const el = document.querySelector('[data-sheet]'); if (!el) return false; el.scrollTop = 300; return el.scrollTop === 300 }))
+
+// The way out: pulled all the way down and released, the city is left; released short of it, it is not.
+await p.goto(base + '#/c/berkeley', { waitUntil: 'networkidle' }); await p.waitForTimeout(3000)
+const swipe = async (from, to) => {
+  await p.evaluate(async ({ from, to }) => {
+    const el = document.querySelector('[data-sheet]')
+    const T = (y) => new Touch({ identifier: 7, target: el, clientX: 195, clientY: y })
+    el.dispatchEvent(new TouchEvent('touchstart', { bubbles: true, touches: [T(600)], changedTouches: [T(600)] }))
+    for (let i = 1; i <= 12; i++) {
+      el.scrollTop = from + (to - from) * (i / 12)
+      el.dispatchEvent(new TouchEvent('touchmove', { bubbles: true, touches: [T(600 + i * 10)], changedTouches: [T(600 + i * 10)] }))
+      await new Promise((r) => setTimeout(r, 16))
+    }
+    el.dispatchEvent(new TouchEvent('touchend', { bubbles: true, touches: [], changedTouches: [T(600)] }))
+  }, { from, to })
+  await p.waitForTimeout(800)
+}
+const rest = await p.evaluate(() => document.querySelector('.sheet-exit').offsetHeight)
+await swipe(rest, Math.round(rest * 0.7))
+ok('a pull released short of the line stays in the city', (await p.evaluate(() => location.hash)).includes('berkeley'))
+await p.evaluate(() => { document.querySelector('[data-sheet]').scrollTop = 900 })
+await swipe(900, 300)
+ok('a flick released down the page does not exit', (await p.evaluate(() => location.hash)).includes('berkeley'))
+await p.evaluate(() => { const el = document.querySelector('[data-sheet]'); el.scrollTop = document.querySelector('.sheet-exit').offsetHeight })
+await swipe(rest, 0)
+ok('pulling all the way down returns to the sky', ['#/', ''].includes(await p.evaluate(() => location.hash)), await p.evaluate(() => location.hash))
 
 ok('no page errors', errs.length === 0, errs.join(' | '))
 console.log(errs.length ? `page errors: ${errs.join(' | ')}` : 'no page errors')
