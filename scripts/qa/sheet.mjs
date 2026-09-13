@@ -1,10 +1,11 @@
-// The mobile sheet: the spots list must be reachable by scrolling, with nothing to tap first.
+// The mobile city page: the list is the screen, the scroll means one thing, and there is one way back.
 //
-// This guards a bug that was invisible to every other check. The sheet was `pointer-events: none` with
-// none again on its spacers, so the top 72dvh of a city screen was a hole through to the globe canvas —
-// which pins `touchAction` at 'none' — and a downward drag spun the sphere instead of scrolling. The
-// list sat below the fold with no way to reach it but a `show more` word in the sticky header. Nothing
-// was broken in a way a DOM assertion would catch; it needed a gesture that starts where a thumb starts.
+// This file has outlived three designs, each of which broke in a way no DOM assertion caught.
+// Detents with a `show more` word, because the run-up was `pointer-events: none` and a drag over it
+// reached the globe instead of scrolling. Then a long transparent run-up, which made the list reachable
+// but spent most of the scroll on empty travel. Then a pull-past-the-top exit on the same scroller,
+// which asked the scroll position to mean two things at once. What is checked here is the property all
+// three failed: a thumb landing where a thumb lands does the one obvious thing.
 import { chromium } from 'playwright'
 const exe = '/opt/pw-browsers/chromium-1194/chrome-linux/chrome'
 const base = process.argv[2] ?? 'http://127.0.0.1:4173/'
@@ -13,100 +14,69 @@ const p = await b.newPage({ viewport: { width: 390, height: 844 }, deviceScaleFa
 const errs = []; p.on('pageerror', (e) => errs.push(e.message))
 let failed = 0
 const ok = (n, c, x = '') => { if (!c) failed++; console.log(`${c ? 'ok  ' : 'FAIL'} ${n}${!c && x !== '' ? ' — ' + x : ''}`) }
-
-await p.goto(base + '#/c/berkeley', { waitUntil: 'networkidle' })
-await p.waitForTimeout(3200)
-
-const S = () => p.evaluate(() => {
-  const el = document.querySelector('[data-sheet]'), pan = document.querySelector('.panel')
-  const row = document.querySelector('.rows a.row')?.getBoundingClientRect()
-  return {
-    top: Math.round(el.scrollTop), max: Math.round(el.scrollHeight - el.clientHeight), lead: pan.offsetTop,
-    rest: document.querySelector('.sheet-exit')?.offsetHeight ?? 0,
-    rowIn: row ? row.top >= 0 && row.bottom <= window.innerHeight : false,
-  }
-})
-/** Poll rather than wait a fixed span: a smooth scroll takes over a second against a software renderer. */
-const until = async (pred) => {
-  let s = await S()
-  for (let i = 0; i < 60 && !pred(s); i++) { await p.waitForTimeout(100); s = await S() }
-  return s
-}
-
-const open = await S()
-ok('the paperweight thumbnail is gone', await p.evaluate(() => document.querySelectorAll('.paperweight').length === 0))
-ok('nothing to tap to see the list', await p.evaluate(() => !/show (more|less)/.test(document.body.innerText)))
-ok('one lead block, no detent spacers', await p.evaluate(() => document.querySelectorAll('.sheet-lead').length === 1 && document.querySelectorAll('.sheet-spacer').length === 0))
-ok('snap is off', await p.evaluate(() => getComputedStyle(document.querySelector('[data-sheet]')).scrollSnapType === 'none'))
-// min-height: 100%, not 100dvh — otherwise the range falls short of the lead and progress never reaches 1.
-ok('the scroll range covers the lead', open.max >= open.lead, `max ${open.max} < lead ${open.lead}`)
-ok('the sheet is what the finger lands on, not the canvas', await p.evaluate(() => {
-  const el = document.elementFromPoint(window.innerWidth / 2, 200)
-  return !!el && !el.classList.contains('paurk-globe-canvas')
-}), await p.evaluate(() => document.elementFromPoint(window.innerWidth / 2, 200)?.className))
-
-// The gesture itself, started high on the sphere where the old build did nothing at all.
-await p.mouse.move(195, 200)
-await p.mouse.wheel(0, 260)
-const moved = await until((s) => s.top > 200)
-ok('a drag starting on the sphere scrolls the sheet', moved.top > 200, `scrollTop ${moved.top}`)
-await p.waitForTimeout(700)
-const held = await S()
-ok('it stays where the finger left it', Math.abs(held.top - moved.top) < 4, `${moved.top} -> ${held.top}`)
-
-await p.mouse.wheel(0, 500)
-const listed = await until((s) => s.rowIn)
-ok('scrolling on reaches the first spot row', listed.rowIn)
-
-await p.evaluate(() => { document.querySelector('[data-sheet]').scrollTop = document.querySelector('.panel').offsetTop })
-await p.waitForTimeout(600)
-ok('the stage goes inert once the paper covers it', await p.evaluate(() => document.querySelector('.stage').hasAttribute('inert')))
-const back = await p.evaluate(() => {
-  const el = [...document.querySelectorAll('.panel-sticky button')].find((x) => x.textContent.includes('globe'))
+const backWord = () => p.evaluate(() => {
+  const el = [...document.querySelectorAll('.panel-sticky button')].find((x) => x.textContent.trim().startsWith('←'))
   if (!el) return null
   const r = el.getBoundingClientRect()
-  return { w: Math.round(r.width), h: Math.round(r.height) }
+  const hit = document.elementFromPoint(r.x + r.width / 2, r.y + r.height / 2)
+  return { text: el.textContent.trim(), y: Math.round(r.y), w: Math.round(r.width), h: Math.round(r.height),
+    reachable: hit === el || el.contains(hit), count: document.querySelectorAll('.panel-sticky button, .spot-bar button').length }
 })
-ok('↑ globe is offered, at 44px', !!back && back.h >= 44 && back.w >= 44, JSON.stringify(back))
-if (back) {
-  await p.evaluate(() => [...document.querySelectorAll('.panel-sticky button')].find((x) => x.textContent.includes('globe')).click())
-  // Back to the composed screen, not to the top of the scroller — the top is the pull-back exit.
-  const home = await until((s) => s.top === s.rest)
-  ok('↑ globe returns to the globe', home.top === home.rest, `scrollTop ${home.top}, rest ${home.rest}`)
-  // The button unmounts under its own press; without focusing the sheet first, focus falls to <body>.
-  ok('focus stays in the sheet', await p.evaluate(() => document.activeElement?.hasAttribute('data-sheet') === true),
-    await p.evaluate(() => document.activeElement?.tagName ?? '?'))
-}
+const state = () => p.evaluate(() => {
+  const el = document.querySelector('[data-sheet]'), bar = document.querySelector('.panel-sticky')
+  const col = document.querySelector('.panel .column'), row = document.querySelector('.rows a.row')
+  const r = row?.getBoundingClientRect()
+  return { hash: location.hash, top: el ? Math.round(el.scrollTop) : null,
+    barBottom: bar ? Math.round(bar.getBoundingClientRect().bottom) : null,
+    colTop: col ? Math.round(col.getBoundingClientRect().top) : null,
+    firstRow: r ? Math.round(r.top) : null }
+})
 
-// A spot page opens with the paper already up, and saved gets the same sheet.
-await p.goto(base + '#/saved', { waitUntil: 'networkidle' }); await p.waitForTimeout(2600)
-ok('saved scrolls the same way', await p.evaluate(() => { const el = document.querySelector('[data-sheet]'); if (!el) return false; el.scrollTop = 300; return el.scrollTop === 300 }))
+await p.goto(base + '#/c/berkeley', { waitUntil: 'networkidle' })
+await p.waitForTimeout(3000)
+const open = await state()
+ok('the list opens at the top, with nothing to scroll past', open.top === 0, `scrollTop ${open.top}`)
+ok('the first spot row is on screen straight away', open.firstRow !== null && open.firstRow < 844, `firstRow ${open.firstRow}`)
+// The scroller starts below the header; at inset 0 the sticky bar offset down onto the column's own lines.
+ok('the sticky bar does not sit on the column', open.colTop >= open.barBottom, `col ${open.colTop} < bar ${open.barBottom}`)
+ok('the light is on the page, not left behind the globe', await p.evaluate(() => !!document.querySelector('.phase')?.textContent?.trim()))
+ok('nothing to tap to see the list', await p.evaluate(() => !/show (more|less)/.test(document.body.innerText)))
+ok('the old run-up and pull-back zones are gone', await p.evaluate(() =>
+  !document.querySelector('.sheet-lead') && !document.querySelector('.sheet-exit')))
 
-// The way out: pulled all the way down and released, the city is left; released short of it, it is not.
-await p.goto(base + '#/c/berkeley', { waitUntil: 'networkidle' }); await p.waitForTimeout(3000)
-const swipe = async (from, to) => {
-  await p.evaluate(async ({ from, to }) => {
-    const el = document.querySelector('[data-sheet]')
-    const T = (y) => new Touch({ identifier: 7, target: el, clientX: 195, clientY: y })
-    el.dispatchEvent(new TouchEvent('touchstart', { bubbles: true, touches: [T(600)], changedTouches: [T(600)] }))
-    for (let i = 1; i <= 12; i++) {
-      el.scrollTop = from + (to - from) * (i / 12)
-      el.dispatchEvent(new TouchEvent('touchmove', { bubbles: true, touches: [T(600 + i * 10)], changedTouches: [T(600 + i * 10)] }))
-      await new Promise((r) => setTimeout(r, 16))
-    }
-    el.dispatchEvent(new TouchEvent('touchend', { bubbles: true, touches: [], changedTouches: [T(600)] }))
-  }, { from, to })
-  await p.waitForTimeout(800)
-}
-const rest = await p.evaluate(() => document.querySelector('.sheet-exit').offsetHeight)
-await swipe(rest, Math.round(rest * 0.7))
-ok('a pull released short of the line stays in the city', (await p.evaluate(() => location.hash)).includes('berkeley'))
-await p.evaluate(() => { document.querySelector('[data-sheet]').scrollTop = 900 })
-await swipe(900, 300)
-ok('a flick released down the page does not exit', (await p.evaluate(() => location.hash)).includes('berkeley'))
-await p.evaluate(() => { const el = document.querySelector('[data-sheet]'); el.scrollTop = document.querySelector('.sheet-exit').offsetHeight })
-await swipe(rest, 0)
-ok('pulling all the way down returns to the sky', ['#/', ''].includes(await p.evaluate(() => location.hash)), await p.evaluate(() => location.hash))
+const bw = await backWord()
+ok('one back word, from the start', bw && bw.text === '← globe' && bw.count === 1, JSON.stringify(bw))
+ok('it is reachable and 44px', bw && bw.reachable && bw.h >= 44 && bw.w >= 44, JSON.stringify(bw))
+
+// Scroll carries one meaning: down goes down the list, and back to the top stays put.
+await p.mouse.move(195, 500); await p.mouse.wheel(0, 600); await p.waitForTimeout(700)
+const down = await state()
+ok('scrolling scrolls the list and nothing else', down.top > 400 && down.hash === open.hash, JSON.stringify(down))
+await p.mouse.wheel(0, -1800); await p.waitForTimeout(900)
+const up = await state()
+ok('scrolling back to the very top stays in the city', up.top === 0 && up.hash === open.hash, JSON.stringify(up))
+
+await p.evaluate(() => [...document.querySelectorAll('.panel-sticky button')].find((x) => x.textContent.trim().startsWith('←')).click())
+await p.waitForTimeout(1500)
+ok('← globe returns to the globe', await p.evaluate(() =>
+  ['#/', ''].includes(location.hash) && !!document.querySelector('.sky-text') && !document.querySelector('[data-sheet]')),
+  await p.evaluate(() => location.hash))
+
+// A spot page is the same shape, one step further in.
+await p.goto(base + '#/c/lisbon', { waitUntil: 'networkidle' }); await p.waitForTimeout(2600)
+await p.evaluate(() => document.querySelector('.rows a.row')?.click()); await p.waitForTimeout(1600)
+const sb = await backWord()
+ok('a spot page carries one back word, to its city', sb && sb.text.startsWith('← ') && sb.text !== '← globe' && sb.count === 1, JSON.stringify(sb))
+ok('and it is reachable', sb && sb.reachable, JSON.stringify(sb))
+await p.evaluate(() => [...document.querySelectorAll('.panel-sticky button')].find((x) => x.textContent.trim().startsWith('←')).click())
+await p.waitForTimeout(1200)
+ok('it goes back to the list, not out to the globe', (await p.evaluate(() => location.hash)).includes('lisbon'), await p.evaluate(() => location.hash))
+
+await p.goto(base + '#/saved', { waitUntil: 'networkidle' }); await p.waitForTimeout(2400)
+ok('saved is the same page with the same way back', await p.evaluate(() => {
+  const el = [...document.querySelectorAll('.panel-sticky button')].find((x) => x.textContent.trim().startsWith('←'))
+  return !!document.querySelector('[data-sheet]') && !!el
+}))
 
 ok('no page errors', errs.length === 0, errs.join(' | '))
 console.log(errs.length ? `page errors: ${errs.join(' | ')}` : 'no page errors')

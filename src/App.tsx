@@ -22,10 +22,6 @@ import { AboutDialog } from './components/AboutDialog'
 import { HorizonClock } from './components/HorizonClock'
 import { Sheet } from './components/Sheet'
 import { MarginNote } from './components/MarginNote'
-import { PlateCaption } from './components/PlateCaption'
-import { PhaseLine } from './components/SkyText'
-import { formatClock } from './lib/time'
-import { phaseLine } from './lib/phase'
 
 /** Viewport in pixels, kept fresh, because the globe's seat and size are computed from it. */
 function useViewport() {
@@ -219,8 +215,8 @@ export default function App() {
   const originIsReal = !!userPos && !!city && distanceKm(userPos, city) <= 80 && (accuracy === null || accuracy < 50000)
   const origin = originIsReal ? userPos : null
 
-  // Pulling the sheet off the top goes back one step, the same step ← list and ← sky take.
-  const pullBack = useCallback(() => { if (mode === 'spot') actions.backToList(); else actions.sky() }, [mode])
+  // One step back: a spot returns to its city's list, anything else to the globe.
+  const goBack = useCallback(() => { if (mode === 'spot') actions.backToList(); else actions.sky() }, [mode])
 
   const column = mode === 'saved' ? <SavedPage /> : city && cityNow.sun ? (
     <CityColumn city={city} now={cityNow.now} live={cityNow.live} sun={cityNow.sun} preview={cityNow.preview} origin={origin} originIsReal={originIsReal} mobile={mobile} spotId={mode === 'spot' ? spotId : null} />
@@ -238,20 +234,15 @@ export default function App() {
             <div className="globe-shadow" aria-hidden="true" />
             <GlobeView markers={markers} selectedId={citySlug} seat={seat} fit={fit} still={still} sunDate={sunDate} pushBack={mobile ? sheetProgress : 0} paused={covered} autoRotate={mode === 'sky'} themeKey={theme} onSelect={onSelect} />
           </div>
-          {mobile && city && mode === 'city' && cityNow.sun && (
-            <div className="stage-caption" aria-hidden="true">
-              <PlateCaption parts={[city.name.toLowerCase(), `${spotsByCity.get(city.slug)?.length ?? 0} places`, formatClock(cityNow.now, city.timezone)]} />
-              <PhaseLine text={phaseLine(cityNow.now, cityNow.sun, city.timezone, { preview: cityNow.preview })} />
-            </div>
-          )}
           {mobile ? (
             mode === 'sky' ? (
               <SkyText now={live} userPos={userPos} onSearch={() => setFindOpen(true)} onAbout={() => setAboutOpen(true)} />
             ) : (
-              <Sheet fullOnMount={mode === 'spot'} bare={mode === 'spot'} label={mode === 'saved' ? 'Saved spots' : city?.name ?? 'Place'}
-                onPullBack={pullBack} backWord={mode === 'spot' && city ? `↓ ${city.name}` : '↓ sky'} sticky={mode === 'spot' ? null : <p className="city-name" style={{ fontSize: 'var(--t-display-s)' }}>{mode === 'saved' ? 'saved' : city?.name}</p>}>
+              <Sheet bare={mode === 'spot'} label={mode === 'saved' ? 'Saved spots' : city?.name ?? 'Place'}
+                onBack={goBack} backWord={mode === 'spot' && city ? `← ${city.name}` : '← globe'}
+                sticky={<p className="city-name" style={{ fontSize: 'var(--t-display-s)' }}>{mode === 'saved' ? 'saved' : city?.name}</p>}>
                 {column}
-                <p className="only-mobile" style={{ paddingTop: 24 }}><button type="button" className="word word--quiet word--small" onClick={() => setAboutOpen(true)}>about</button>{' '}<button type="button" className="word word--quiet word--small" onClick={() => actions.sky()}>← sky</button></p>
+                <p className="only-mobile" style={{ paddingTop: 24 }}><button type="button" className="word word--quiet word--small" onClick={() => setAboutOpen(true)}>about</button></p>
               </Sheet>
             )
           ) : (

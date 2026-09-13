@@ -11,11 +11,11 @@ import { formatClock, formatCountdown, type SunInfo } from '../lib/time'
 import { parseHours } from '../lib/hours'
 import { walkMinutes, leaveBy, focusGlobeTick } from './SpotRow'
 
-interface Props { spot: Spot; city: City; now: Date; sun: SunInfo; origin: LatLng | null; originIsReal: boolean; mobile: boolean }
+interface Props { spot: Spot; city: City; now: Date; sun: SunInfo; origin: LatLng | null; originIsReal: boolean }
 
 const TIME_WORDS: Record<string, string> = { morning: 'morning', afternoon: 'afternoon', 'golden-hour': 'golden hour', night: 'night' }
 
-export function SpotPage({ spot, city, now, sun, origin, originIsReal, mobile }: Props) {
+export function SpotPage({ spot, city, now, sun, origin, originIsReal }: Props) {
   const saved = useStore((s) => s.savedIds.includes(spot.id))
   const units = useStore((s) => s.units)
   const still = useStore((s) => s.still)
@@ -61,11 +61,8 @@ export function SpotPage({ spot, city, now, sun, origin, originIsReal, mobile }:
   const care = <TakeCare spot={spot} night={night} />
   return (
     <article className="spot" aria-labelledby="spot-name">
-      {mobile && (
-        <div className="spot-bar">
-          <button type="button" className="word word--quiet" onClick={() => actions.backToList()}>← list</button>
-        </div>
-      )}
+      {/* No bar of its own on a phone any more: the page's own sticky bar carries `← <city>`, which is the
+          same step, in the same place it sits on every other screen. */}
       <SpotImage spot={spot} cityName={city.name} />
       <h2 className="spot-name" id="spot-name" ref={nameRef} tabIndex={-1}>{spot.name}</h2>
       <p className="small">{[spot.neighborhood, spot.category, spot.indoor ? 'indoor' : 'outdoor', spot.free ? 'free' : 'paid'].filter(Boolean).join(' · ')}{spot.coordConfidence === 'low' ? ' · location approximate' : ''}</p>

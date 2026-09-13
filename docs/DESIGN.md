@@ -306,6 +306,39 @@ text measure.
 - **Sky**: the canvas is a 1:1 square of width `min(100vw, 62vh)`, centred, with its centre at 40% of viewport
   height; the plate caption, phase line, margin note and the two action words sit in the lower third *over* the
   horizon band (35vh, 55vh at night). The "now in the world" list is below, in normal flow, page-scrollable.
+- **City**: tapping a city brings its list up over the globe as a full-screen page, and it stays up.
+  - `.sheet` is `position: fixed; inset: var(--header-h) 0 0 0; overflow-y: auto` over an opaque `var(--bg)`
+    — below the header, not behind it, or the sticky bar offsets down by the same 56px to clear the header
+    and lands on the column's own first lines. The panel's top 120px keep the
+    `linear-gradient(to bottom, var(--horizon) 0, var(--bg) 120px)`, so the list still rises out of the
+    evening; it simply rises all the way. Entrance `sheet-up` 380ms (12dvh + fade), exit the same in
+    reverse at 260ms with the mode changing behind it, so nothing is deleted while it is on screen.
+  - The sticky bar carries `← globe` first and the city name after it, in the same place on every screen.
+    From a spot page it says `← <city>` and takes that step instead; the spot page has no bar of its own.
+  - `sheetProgress` is 1 for as long as the page is up, which is what pauses the engine and marks the
+    stage `inert` — the globe is behind an opaque page and has nothing to draw.
+  - The plate caption and phase line live in the column (`CityColumn`), not in a `.stage-caption` block
+    between globe and sheet: with the list full screen that block would never be seen, and the phase line
+    is the app's premise.
+  - **Three designs preceded this, and each failed the same way — by asking the scroll position to carry
+    more meaning than a scroll position can.** Three scroll-snap detents with a `show more` word, where
+    the run-up was `pointer-events: none` so a drag over it reached the globe and the word was the only
+    way to the list. Then one 72dvh transparent run-up, which made the list reachable by scrolling but
+    spent most of the scroll on empty travel over the sphere. Then a pull-past-the-top exit on that same
+    scroller, where the scroll meant both "how much list can I see" and "am I leaving", with an invisible
+    threshold on a gesture nobody had a reason to try. The scroll means one thing now.
+- **Spot**: replaces the list *inside the same column* (the header of the column becomes `← Lisbon`); scroll
+  position of the list is kept in the store and restored on return. The globe drops the bearing tick (§4.5).
+- **Stones (`#/saved`)**: the same column layout, list grouped by city with a pebble row at the top.
+- **About**: a 420px-wide native `<dialog>` in the top layer; paper, no border, hairline top rule.
+
+### 3.3 Mobile (< 900px; designed at 390×844 first)
+
+- **Top row** 56px: wordmark left; the search mark and the bookmark mark right (`about` moves into the sheet footer
+  and the Sky footer). Safe-area padding: `padding-top: env(safe-area-inset-top)`.
+- **Sky**: the canvas is a 1:1 square of width `min(100vw, 62vh)`, centred, with its centre at 40% of viewport
+  height; the plate caption, phase line, margin note and the two action words sit in the lower third *over* the
+  horizon band (35vh, 55vh at night). The "now in the world" list is below, in normal flow, page-scrollable.
 - **City**: the canvas animates to a **38vh** tall square-cropped wrapper at the top (wrapper `height` transition
   600ms, camera dolly on the same curve) and the **sheet** rises out of the horizon.
   - Above the run-up sits a second transparent block, `.sheet-exit` (22dvh), which is the way out. The sheet

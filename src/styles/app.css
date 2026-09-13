@@ -388,58 +388,38 @@ html[data-still] .city-name.is-writing { animation: none; }
 html[data-still] .side { transition: none !important; }
 @media (max-width: 899px) {
   /*
-   * A plain scroller, and — the whole point — one that the finger can reach. This used to be
-   * pointer-events: none with none again on the spacers, so the top 72dvh of a city screen was a hole
-   * through to a canvas whose touchAction the engine pins at 'none': a downward drag spun the globe and
-   * never scrolled, which left the toggle in the sticky bar as the only way to the list. Mandatory snap
-   * went with it, because it sprang every partial drag on the paper back to a detent.
+   * The city page: the list, full screen, over an opaque ground. It has been a three-detent sheet, then a
+   * long transparent run-up, then a run-up with a pull-past-the-top exit; each asked the scroll position
+   * to carry more meaning than a scroll position can. It carries one now — how far down the list you are.
    */
-  .sheet { position: fixed; inset: 0; z-index: var(--z-column); overflow-y: auto; overscroll-behavior: contain; scrollbar-width: none; }
+  /* Below the header, not behind it. At inset 0 the panel's first 56px sat under the header and the
+     sticky bar, offset by the same 56 to clear it, landed on top of the column's own first lines. */
+  .sheet { position: fixed; inset: var(--header-h) 0 0 0; z-index: var(--z-column); overflow-y: auto;
+    overscroll-behavior: contain; scrollbar-width: none; background: var(--bg); }
   html[data-still] .sheet { scroll-behavior: auto; }
   .sheet::-webkit-scrollbar { display: none; }
-  /* The paper falls away once the pull has committed, and the mode changes behind it — see Sheet.tsx.
-     Dropped rather than faded alone, so it reads as the sheet going back down where it came from. */
-  .sheet.is-leaving { transform: translateY(42dvh); opacity: 0; pointer-events: none;
-    transition: transform 300ms var(--e-settle), opacity 260ms linear; }
-  html[data-still] .sheet.is-leaving { transition: none; }
+  /* Rises out of the horizon on the way in, goes back down on the way out — the motion the old sheet was
+     built around, kept, but as the app's own transition rather than something the reader has to perform.
+     The mode changes behind the exit (Sheet.tsx), so nothing is ever deleted while it is on screen. */
+  .sheet { animation: sheet-up 380ms var(--e-settle) both; }
+  @keyframes sheet-up { from { transform: translateY(12dvh); opacity: 0; } to { transform: none; opacity: 1; } }
+  .sheet.is-leaving { transform: translateY(16dvh); opacity: 0; pointer-events: none; animation: none;
+    transition: transform 260ms var(--e-settle), opacity 220ms linear; }
+  html[data-still] .sheet, html[data-still] .sheet.is-leaving { animation: none; transition: none; }
   .sheet:focus { outline: none; }
   .sheet:focus-visible { outline: 2px solid var(--ink); outline-offset: -4px; }
-  /* One transparent run-up instead of three detents. 72dvh is exactly the 27+39+6 they summed to, so the
-     screen a city opens on is composed as it always was — only now you can pull it.
-     pan-y hands vertical drags to the browser, which scrolls this sheet, and everything else to script,
-     which turns the globe underneath — see Sheet.tsx. Without it the sphere is not draggable on a phone
-     at all, since the lead is what the finger lands on. */
-  .sheet-lead { height: 72dvh; touch-action: pan-y; display: grid; align-items: end; justify-items: center; padding-bottom: var(--s-3); }
-  /*
-   * The way out. The sheet opens scrolled past this, so it costs the composed screen nothing; pulling the
-   * list all the way down scrolls into it and off the top, and the city is left. The word only surfaces
-   * once the pull is underway — at rest this is empty transparent space over the globe.
-   */
-  .sheet-exit { height: 22dvh; touch-action: pan-y; }
-  /* Rides at the foot of the run-up, a hairline above the paper, and comes in as the list settles back
-     to the composed screen rather than waiting for the pull — pointer-events off so it never takes a
-     drag away from the globe underneath it. */
-  .sheet-back { color: var(--ink-2); pointer-events: none; opacity: var(--near, 0); transition: opacity 160ms linear; }
-  html[data-still] .sheet-back { transition: none; }
-  /* The city's caption gives way as the globe is pulled back to. */
-  .city .stage-caption { opacity: calc(1 - var(--pull, 0) * 1.4); }
-  /*
-   * min-height is 100%, not 100dvh: .sheet is fixed to the large viewport and is this panel's containing
-   * block, so 100dvh (the small viewport) would leave the scroll range short of the lead on iOS and
-   * sheetProgress would never reach 1 — the globe would render forever behind opaque paper.
-   */
   .panel { min-height: 100%; background: linear-gradient(to bottom, var(--horizon) 0, var(--bg) 120px), var(--bg); position: relative; }
-  .panel::before { content: ""; position: absolute; top: 12px; left: 50%; width: 32px; height: 3px; margin-left: -16px; background: var(--hairline); }
-  .panel .column { padding-top: var(--s-8); }
+  .panel .column { padding-top: var(--s-5); }
   /* Opaque: at 92% the page's own city heading ghosted through and the title read twice. */
-  .panel-sticky { position: sticky; top: var(--header-h); z-index: var(--z-sticky); background: var(--bg); border-bottom: 1px solid var(--hairline); padding: var(--s-3) var(--gutter);
-    display: flex; align-items: center; justify-content: space-between; gap: var(--s-4); }
+  /* The scroller already starts below the header, so this sticks at its own top. */
+  .panel-sticky { position: sticky; top: 0; z-index: var(--z-sticky); background: var(--bg); border-bottom: 1px solid var(--hairline); padding: var(--s-2) var(--gutter);
+    display: flex; align-items: center; justify-content: flex-start; gap: var(--s-4); }
+  /* The one way back, first in the bar and in the same place on every screen. */
+  .back-word { flex: none; }
+  .panel-sticky .city-name { margin-left: auto; color: var(--ink-2); }
 }
 
-/* mobile city: caption block between the globe and the sheet */
-.stage-caption { display: none; }
-/* Clears the sphere, which the city flight zooms past the size --globe-r reports. */
-@media (max-width: 899px) { .stage-caption { display: grid; gap: var(--s-2); justify-items: center; text-align: center; padding: var(--s-4) var(--gutter) 0; margin-top: 42dvh; position: relative; z-index: var(--z-column); } }
+
 
 /* ---------- rows ---------- */
 .rows { display: grid; }
@@ -528,7 +508,10 @@ html[data-still] .vibes-panel, html[data-still] .vibes-caret { transition: none 
  * sit after the base rule rather than in the mobile block above it, which loses on source order.
  */
 @media (max-width: 899px) {
-  .spot-bar { top: var(--header-h); background: var(--bg); backdrop-filter: none; -webkit-backdrop-filter: none;
+  /* Same reasoning as .panel-sticky: the scroller starts below the header, so 0 is already clear of it.
+     It was `top: 0` in a scroller pinned to the viewport top, which put it *under* the header — hit
+     tested at 390x844, the centre of `← list` returned the wordmark and `save` the bookmark icon. */
+  .spot-bar { top: 0; background: var(--bg); backdrop-filter: none; -webkit-backdrop-filter: none;
     border-bottom: 1px solid var(--hairline); }
 }
 .save-dot { display: inline-block; width: 8px; height: 8px; border: 1px solid var(--ink); border-radius: 50%; position: relative; }

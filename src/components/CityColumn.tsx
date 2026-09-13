@@ -47,7 +47,7 @@ export function CityColumn({ city, now, live, sun, preview, origin, originIsReal
     return (
       <div className="column-head" style={{ gap: 'var(--s-5)' }}>
         {!mobile && <p><button type="button" className="word word--quiet" onClick={() => actions.backToList()}>← {city.name}</button></p>}
-        <SpotPage spot={spot} city={city} now={now} sun={sun} origin={origin} originIsReal={originIsReal} mobile={mobile} />
+        <SpotPage spot={spot} city={city} now={now} sun={sun} origin={origin} originIsReal={originIsReal} />
       </div>
     )
   }
@@ -61,8 +61,11 @@ export function CityColumn({ city, now, live, sun, preview, origin, originIsReal
         {!mobile && <h2 className={`city-name${!mobile ? ' is-writing' : ''}`}>{originIsReal && far <= 80 ? <span className="small" style={{ display: 'block' }}>around you</span> : null}{city.name}</h2>}
         {mobile && originIsReal && far <= 80 && <p className="small">around you</p>}
         <p className="small">{city.country}</p>
-        {!mobile && <PlateCaption parts={[city.name.toLowerCase(), `${spots.length} places`, formatClock(now, city.timezone)]} />}
-        {!mobile && <PhaseLine text={phaseLine(now, sun, city.timezone, { preview, offline: !online, weather })} />}
+        {/* On phones these used to sit between the globe and the sheet; the list is the whole screen now,
+            so they come with it — the phase line is the app's premise and cannot be the thing that is
+            left behind the paper. */}
+        <PlateCaption parts={[city.name.toLowerCase(), `${spots.length} places`, formatClock(now, city.timezone)]} />
+        <PhaseLine text={phaseLine(now, sun, city.timezone, { preview, offline: !online, weather })} />
         {preview && <p className="small">showing {formatClock(now, city.timezone)} · <button type="button" className="word word--small" onClick={() => actions.setPreview(null)}>back to now</button></p>}
       </div>
       <SunRule cityName={city.name} timeZone={city.timezone} lat={city.lat} lng={city.lng} now={live}
