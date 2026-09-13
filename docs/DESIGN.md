@@ -391,25 +391,9 @@ textures, no fills, no outlines, no graticule.
 
 ### 4.2 Land
 
-`public/globe-dots.bin` (Int16 lat/lng pairs, 207,013 points; 828 KB raw, 70 KB gzipped). `THREE.Points` at radius
+`public/globe-dots.bin` (existing: Int16 lat/lng pairs, ~23k points; stride 2 on lite). `THREE.Points` at radius
 1.003 with attributes `position`, `aPhase` (random 0..1), `aReveal` (random 0..1). `ShaderMaterial`, `transparent`,
 `depthTest: true`, `depthWrite: false`.
-
-The file holds nine times the density the resting view wants, and the extra is spent on zoom rather than on the
-first frame. Points are sampled off a Fibonacci sphere, so **any prefix of the array is still evenly spread over
-the globe** — `setDrawRange(0, n)` is therefore a level of detail control on its own. The count drawn tracks the
-area the sphere covers on screen, which is the square of the zoom:
-
-```
-drawn = clamp(round(23015 * zoom²), 23015, 207013)    // 23,015 at rest — the density §4.2 was tuned against
-uZoom = min(zoom, √(207013 / 23015)) = min(zoom, 3)   // density stops growing once the file is exhausted
-```
-
-Dividing the point size by `uZoom` as well as the depth keeps each dot the same size on screen: the depth term
-alone would inflate the whole matrix as the camera closed in, where what is wanted is the gaps filling with new
-dots. Spacing therefore holds exactly out to 3x and widens gently past it — a third wider at the 4x ceiling
-(§4.6), which still reads as land. Every device loads the whole file; the low-end tier used to take every other
-point, which stopped being worth it once the draw range capped the resting cost anyway.
 
 Vertex:
 ```glsl
@@ -418,7 +402,7 @@ vec4 mv = modelViewMatrix * vec4(position, 1.0);
 float facing = dot(normalize((modelMatrix * vec4(N, 0.0)).xyz), uCamDir);
 vFacing = facing;                                              // back-face discard in fragment
 float breathe = uStill > 0.5 ? 0.0 : 0.06 * sin(uTime * 0.35 + aPhase * 6.283);
-gl_PointSize = min(8.0 * uDPR, uBase * uDPR * (1.0 + breathe) / (max(0.3, -mv.z) * uZoom)); // uBase ≈ 2.4 * 3.2
+gl_PointSize = min(8.0 * uDPR, uBase * uDPR * (1.0 + breathe) / -mv.z);   // uBase ≈ 2.4 * 3.2
 vAlpha = smoothstep(aReveal - 0.08, aReveal, uReveal)
        * mix(0.32, 0.6, smoothstep(-0.55, 0.55, dot(N, uSun)));
 gl_Position = projectionMatrix * mv;
@@ -426,8 +410,7 @@ gl_Position = projectionMatrix * mv;
 Fragment: `if (vFacing < 0.02) discard;` then a soft disc `smoothstep(0.5, 0.35, length(gl_PointCoord - 0.5))`,
 colour `uLand` (graphite / paper in slate), alpha `vAlpha * disc`. Sizes are in device pixels via `uDPR`, capped
 at 8px; test at DPR 1/2/3 (Safari). If Points prove inconsistent, the fallback is an `InstancedMesh` of
-`CircleGeometry(0.0035, 6)` with the same attributes (23k instances is fine — an instanced fallback would keep
-the resting count and give up the zoom detail).
+`CircleGeometry(0.0035, 6)` with the same attributes (23k instances is fine).
 
 ### 4.3 Markers (cities)
 
@@ -486,11 +469,7 @@ graphite (paper in slate). `uHalo = 0.10 - 0.03 * breath`. It is a pencil edge f
   pitch clamped ±70°; inertia damped ×0.94 per frame. **Soft detent**: when `|v| < 0.002 rad/frame` and a city's
   normal is within 6° of the screen centre, slerp onto it over 400ms and show its label (do *not* select; selection
   is a tap/Enter).
-- Wheel / pinch: zoom clamped 0.8–4.0 (a wheel notch is `exp(±0.28)` at most, `+`/`-` step 1.3), eased at 240ms.
-  Distance is `fitDist / zoom`, floored at 1.35 so the camera cannot cross the surface and leave every dot
-  back-facing; below the floor the remaining zoom narrows the fov instead, which is the same apparent size with
-  less perspective distortion. City markers grow with the sphere up to the 1.45 a city flight settles at and hold
-  that size past it, or one ring swallows the view.
+- Wheel / pinch: distance clamped 2.0–3.6, eased at 240ms.
 - Hover (fine pointer): screen-space nearest within 28px → heat 1, label.
 - Click / tap / Enter on a marker: select city (flight). Selecting by the globe never triggers a geolocation prompt.
 - Keyboard (`tabindex=0`, `role="application"`, `aria-roledescription="globe"`, `aria-label="World globe, 35 cities"`):
@@ -541,7 +520,7 @@ is animating (a single frame is rendered on `uSun`/`uHorizon` change).
 | Tier | Trigger | Settings |
 | --- | --- | --- |
 | full | default | DPR ≤ 2, 96-seg sphere, all dots, halo, ripple |
-| lite | `hardwareConcurrency ≤ 4` or `deviceMemory ≤ 4` or (`pointer: coarse` and DPR > 2) or `saveData` | DPR ≤ 1.5, 64-seg sphere, full dot file (the draw range already holds the resting cost), halo kept, grain kept |
+| lite | `hardwareConcurrency ≤ 4` or `deviceMemory ≤ 4` or (`pointer: coarse` and DPR > 2) or `saveData` | DPR ≤ 1.5, 64-seg sphere, dot stride 2, halo kept, grain kept |
 | re-evaluated | after the first 90 rendered frames, if mean frame time > 24ms → drop one tier; > 40ms on lite → stop idle rotation and breath (light still animates) |
 
 Three.js and `GlobeEngine` are loaded with a dynamic `import()` after first paint; the layout reserves the

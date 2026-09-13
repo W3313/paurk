@@ -44,28 +44,9 @@ export interface GlobeOptions {
   onFocusMarker?: (id: string | null) => void
 }
 
-/** Land points drawn at rest — the density docs/DESIGN.md §4.2 was tuned against. */
-const DOTS_AT_SKY = 23015
-const BASE_FOV = 28
-/**
- * How close the camera may orbit. Distance is the fit distance over the zoom, and the sphere has
- * radius ~1, so a deep enough zoom walks the camera through the surface — which renders as an empty
- * screen, since every dot is then back-facing. The tightest frame the app lays out sits about 5.1
- * away at rest, so the crossing is somewhere past 5x and this floor is met a little past 4x. Below
- * it the remaining zoom narrows the lens instead of closing the gap.
- */
-const MIN_DIST = 1.35
 const MIN_ZOOM = 0.8
-/*
- * How far in the sphere can be pushed. The ceiling is the dot map's own resolution rather than the
- * camera: globe-dots.bin holds 9x the resting density, so the matrix keeps its exact spacing out to
- * 3x and past that thins gradually — at 4x the gaps are a third wider than at rest, which still
- * reads as land. Raised from 2.2 alongside a denser file, which moved that threshold out with it.
- */
-const MAX_ZOOM = 4
+const MAX_ZOOM = 2.2
 const SKY_ZOOM = 1
-/** Where a city flight settles, and the size markers stop growing at. */
-const CITY_ZOOM = 1.45
 const PITCH_LIMIT = (70 * Math.PI) / 180
 const BREATH_MS = 8000
 
@@ -100,16 +81,14 @@ void main() {
 }`
 const DOT_VERT = /* glsl */ `
 attribute float aPhase; attribute float aReveal;
-uniform vec3 uSun; uniform float uTime; uniform float uStill; uniform float uReveal; uniform float uBase; uniform float uDPR; uniform float uZoom; uniform vec3 uCamDir;
+uniform vec3 uSun; uniform float uTime; uniform float uStill; uniform float uReveal; uniform float uBase; uniform float uDPR; uniform vec3 uCamDir;
 varying float vFacing; varying float vAlpha;
 void main() {
   vec3 N = normalize(position);
   vec4 mv = modelViewMatrix * vec4(position, 1.0);
   vFacing = dot(normalize(mat3(modelMatrix) * N), uCamDir);
   float breathe = uStill > 0.5 ? 0.0 : 0.06 * sin(uTime * 0.35 + aPhase * 6.283);
-  // Divided by the zoom as well as the depth: the draw range grows with zoom, so the dots stay the
-  // same size on screen and the gaps between them fill in instead of the whole matrix inflating.
-  gl_PointSize = min(8.0 * uDPR, uBase * uDPR * (1.0 + breathe) / (max(0.3, -mv.z) * uZoom));
+  gl_PointSize = min(8.0 * uDPR, uBase * uDPR * (1.0 + breathe) / max(0.3, -mv.z));
   vAlpha = smoothstep(aReveal - 0.08, aReveal, uReveal) * mix(0.32, 0.6, smoothstep(-0.55, 0.55, dot(N, uSun)));
   gl_Position = projectionMatrix * mv;
 }`
@@ -162,20 +141,6 @@ export class GlobeEngine {
   private dotMat: THREE.ShaderMaterial
   private haloMat: THREE.ShaderMaterial
   private dots: THREE.Points | null = null
-  /**
-   * The dot file is denser than the sky needs. Points are kept in Fibonacci order, so any prefix is
-   * still spread evenly over the land: the sky draws the first DOTS_AT_SKY of them and zooming in
-   * extends the range, which is what adds coastline detail instead of magnifying the same grid.
-   */
-  private dotTotal = 0
-  private dotDrawn = 0
-  /**
-   * The zoom at which the file runs out of points to add — sqrt(total / DOTS_AT_SKY). Below it, more
-   * dots arrive as fast as the sphere grows and the matrix holds its look; above it the spacing
-   * widens like it always did, so the dots must start growing again or the land disappears.
-   */
-  private dotZoomCap = 1
-  private markerZoom = SKY_ZOOM
   private rings: THREE.InstancedMesh | null = null
   private discs: THREE.InstancedMesh | null = null
   private ripple: THREE.Mesh
@@ -256,7 +221,7 @@ export class GlobeEngine {
     el.classList.add('paurk-globe-canvas')
     opts.container.appendChild(el)
 
-    this.camera = new THREE.PerspectiveCamera(BASE_FOV, 1, 0.1, 100)
+    this.camera = new THREE.PerspectiveCamera(28, 1, 0.1, 100)
     this.scene.add(this.globe)
     const th = opts.theme
     const col = (c: string) => new THREE.Color(c)
@@ -276,7 +241,7 @@ export class GlobeEngine {
       fragmentShader: DOT_FRAG,
       uniforms: {
         uSun: { value: new THREE.Vector3(0, 0, 1) }, uTime: { value: 0 }, uStill: { value: this.still ? 1 : 0 }, uReveal: { value: this.still ? 1 : 0 },
-        uBase: { value: 2.4 * 3.2 }, uDPR: { value: this.renderer.getPixelRatio() }, uZoom: { value: SKY_ZOOM }, uCamDir: { value: new THREE.Vector3(0, 0, 1) }, uLand: { value: col(th.land) },
+        uBase: { value: 2.4 * 3.2 }, uDPR: { value: this.renderer.getPixelRatio() }, uCamDir: { value: new THREE.Vector3(0, 0, 1) }, uLand: { value: col(th.land) },
       },
       transparent: true, depthTest: true, depthWrite: false,
     })
@@ -321,14 +286,12 @@ export class GlobeEngine {
     try {
       const data = await loadDots(url)
       if (this.disposed) return
-      // Every point, on every device. Low-end machines used to take every other one, which was worth
-      // it when the whole file was drawn each frame; now the draw range holds the resting view at
-      // DOTS_AT_SKY whatever the file's length, so the only thing a stride still costs is the depth
-      // the phone can zoom to before the land thins out.
-      const n = Math.floor(data.length / 2)
+      const stride = this.lite ? 2 : 1
+      const n = Math.floor(data.length / 2 / stride)
       const pos = new Float32Array(n * 3), phase = new Float32Array(n), reveal = new Float32Array(n)
       for (let i = 0; i < n; i++) {
-        const [x, y, z] = latLngToVec3(data[i * 2] / 100, data[i * 2 + 1] / 100, 1.003)
+        const j = i * stride
+        const [x, y, z] = latLngToVec3(data[j * 2] / 100, data[j * 2 + 1] / 100, 1.003)
         pos[i * 3] = x; pos[i * 3 + 1] = y; pos[i * 3 + 2] = z
         phase[i] = ((i * 2654435761) % 1000) / 1000
         reveal[i] = ((i * 40503) % 1000) / 1000
@@ -337,10 +300,6 @@ export class GlobeEngine {
       geo.setAttribute('position', new THREE.BufferAttribute(pos, 3))
       geo.setAttribute('aPhase', new THREE.BufferAttribute(phase, 1))
       geo.setAttribute('aReveal', new THREE.BufferAttribute(reveal, 1))
-      this.dotTotal = n
-      this.dotZoomCap = Math.max(1, Math.sqrt(n / DOTS_AT_SKY))
-      this.dotDrawn = Math.min(n, DOTS_AT_SKY)
-      geo.setDrawRange(0, this.dotDrawn)
       this.dots = new THREE.Points(geo, this.dotMat)
       this.dots.renderOrder = 1
       this.globe.add(this.dots)
@@ -448,10 +407,7 @@ export class GlobeEngine {
       if (Math.abs(this.heat[i] - this.heatTarget[i]) < 0.002) this.heat[i] = this.heatTarget[i]
       if (!force && Math.abs(before - this.heat[i]) < 1e-4) continue
       changed = true
-      // Markers are page furniture, not geography. Up to the zoom a city flight settles at they grow
-      // with the sphere exactly as before; past it they hold that size, or one ring swallows the view.
-      const zs = Math.min(1, CITY_ZOOM / this.zoom)
-      const s = (sel ? 1.2 : 1 + 0.35 * this.heat[i]) * zs
+      const s = sel ? 1.2 : 1 + 0.35 * this.heat[i]
       const n = this.markerN[i]
       this.dummy.position.copy(n).multiplyScalar(1.006)
       this.dummy.lookAt(n.clone().multiplyScalar(2))
@@ -460,7 +416,7 @@ export class GlobeEngine {
       this.rings.setMatrixAt(i, this.dummy.matrix)
       this.rings.setColorAt(i, sel ? accent : ink)
       const showDisc = sel || m.filled
-      this.dummy.scale.setScalar(showDisc ? (sel ? 1.2 : 1) * zs : 0.0001)
+      this.dummy.scale.setScalar(showDisc ? (sel ? 1.2 : 1) : 0.0001)
       this.dummy.updateMatrix()
       this.discs.setMatrixAt(i, this.dummy.matrix)
       this.discs.setColorAt(i, sel ? accent : ink)
@@ -764,7 +720,7 @@ export class GlobeEngine {
     el.addEventListener('pointerleave', () => { if (!this.drag) this.setHover(null) }, { signal: sig })
     el.addEventListener('wheel', (e) => {
       e.preventDefault()
-      this.zoomBy(Math.exp(-Math.sign(e.deltaY) * Math.min(0.28, Math.abs(e.deltaY) * 0.0018)))
+      this.zoomBy(Math.exp(-Math.sign(e.deltaY) * Math.min(0.2, Math.abs(e.deltaY) * 0.0012)))
     }, { passive: false, signal: sig })
     el.addEventListener('keydown', (e) => {
       const step = (6 * Math.PI) / 180
@@ -773,8 +729,8 @@ export class GlobeEngine {
         case 'ArrowRight': this.yaw += step; break
         case 'ArrowUp': this.pitch = clamp(this.pitch - step, -PITCH_LIMIT, PITCH_LIMIT); break
         case 'ArrowDown': this.pitch = clamp(this.pitch + step, -PITCH_LIMIT, PITCH_LIMIT); break
-        case '+': case '=': this.zoomBy(1.3); break
-        case '-': case '_': this.zoomBy(1 / 1.3); break
+        case '+': case '=': this.zoomBy(1.18); break
+        case '-': case '_': this.zoomBy(0.85); break
         case 'PageDown': case ']': this.cycleFocus(1); break
         case 'PageUp': case '[': this.cycleFocus(-1); break
         case 'Enter': case ' ': if (this.focused >= 0) this.select(this.markers[this.focused].id); break
@@ -893,14 +849,8 @@ export class GlobeEngine {
   }
 
   // ---------- loop ----------
-  /**
-   * How far the camera sits to give the sphere `fit` of the frame — measured against the base lens,
-   * never the live one. Reading the live fov would close a loop: past MIN_DIST the zoom narrows the
-   * lens, a narrower lens means a larger fit distance, a larger fit distance means the floor is no
-   * longer met and the lens opens again. That oscillated by half a degree, every frame.
-   */
   private computeFit() {
-    const vHalf = THREE.MathUtils.degToRad(BASE_FOV / 2)
+    const vHalf = THREE.MathUtils.degToRad(this.camera.fov / 2)
     const hHalf = Math.atan(Math.tan(vHalf) * this.camera.aspect)
     this.fitDist = 1.12 / (Math.sin(Math.min(vHalf, hHalf)) * this.fit)
   }
@@ -976,32 +926,11 @@ export class GlobeEngine {
         this.yaw += 0.02 * dt * ease
       }
     }
-    const dotZoom = Math.min(this.zoom, this.dotZoomCap)
-    if (this.dotMat.uniforms.uZoom.value !== dotZoom) this.dotMat.uniforms.uZoom.value = dotZoom
-    if (this.dots && this.dotTotal) {
-      // Points needed scales with the area the sphere covers, which is the square of the zoom.
-      const want = clamp(Math.round(DOTS_AT_SKY * this.zoom * this.zoom), Math.min(DOTS_AT_SKY, this.dotTotal), this.dotTotal)
-      if (want !== this.dotDrawn) { this.dotDrawn = want; this.dots.geometry.setDrawRange(0, want) }
-    }
-
     const scale = 1 + 0.012 * breath
     this.globe.rotation.set(this.pitch, this.yaw, 0)
     this.globe.scale.setScalar(scale)
     this.globe.updateMatrixWorld()
-    const wanted = (this.fitDist / this.zoom) * (1 + 0.18 * this.pushBack)
-    const dist = Math.max(MIN_DIST, wanted)
-    // Below the floor the remaining zoom becomes a longer lens instead. Apparent size is continuous
-    // across the floor — above it magnification is fitDist/wanted, below it the narrower lens gives
-    // exactly the same — so the only thing that changes is less perspective distortion, and the
-    // camera never crosses the surface.
-    const fov = wanted >= MIN_DIST
-      ? BASE_FOV
-      : THREE.MathUtils.radToDeg(2 * Math.atan(Math.tan(THREE.MathUtils.degToRad(BASE_FOV / 2)) * (wanted / MIN_DIST)))
-    if (Math.abs(this.camera.fov - fov) > 1e-4) {
-      this.camera.fov = fov
-      this.camera.updateProjectionMatrix()
-      this.applySeat()
-    }
+    const dist = (this.fitDist / this.zoom) * (1 + 0.18 * this.pushBack)
     this.camera.position.set(0, 0, dist)
     this.camera.lookAt(0, 0, 0)
     this.camera.updateMatrixWorld()
@@ -1015,7 +944,6 @@ export class GlobeEngine {
     }
     if (this.userRing.visible) this.userMat.opacity = 0.75 + 0.25 * Math.sin((now / 3000) * 2 * Math.PI)
     for (const r of this.routes) if (r.mat.uniforms.uProgress.value < 1) r.mat.uniforms.uProgress.value = clamp((now - r.t0) / 900, 0, 1)
-    if (Math.abs(this.markerZoom - this.zoom) > 0.005) { this.markerZoom = this.zoom; this.writeInstances(true) }
     if (this.writeInstances()) this.wake()
 
     const start = performance.now()
