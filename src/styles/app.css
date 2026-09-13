@@ -409,14 +409,17 @@ html[data-still] .side { transition: none !important; }
      pan-y hands vertical drags to the browser, which scrolls this sheet, and everything else to script,
      which turns the globe underneath — see Sheet.tsx. Without it the sphere is not draggable on a phone
      at all, since the lead is what the finger lands on. */
-  .sheet-lead { height: 72dvh; touch-action: pan-y; }
+  .sheet-lead { height: 72dvh; touch-action: pan-y; display: grid; align-items: end; justify-items: center; padding-bottom: var(--s-3); }
   /*
    * The way out. The sheet opens scrolled past this, so it costs the composed screen nothing; pulling the
    * list all the way down scrolls into it and off the top, and the city is left. The word only surfaces
    * once the pull is underway — at rest this is empty transparent space over the globe.
    */
-  .sheet-exit { height: 22dvh; touch-action: pan-y; display: grid; align-items: end; justify-items: center; padding-bottom: var(--s-4); }
-  .sheet-back { color: var(--ink-2); opacity: calc(var(--pull, 0) * 1.6); transition: opacity 120ms linear; }
+  .sheet-exit { height: 22dvh; touch-action: pan-y; }
+  /* Rides at the foot of the run-up, a hairline above the paper, and comes in as the list settles back
+     to the composed screen rather than waiting for the pull — pointer-events off so it never takes a
+     drag away from the globe underneath it. */
+  .sheet-back { color: var(--ink-2); pointer-events: none; opacity: var(--near, 0); transition: opacity 160ms linear; }
   html[data-still] .sheet-back { transition: none; }
   /* The city's caption gives way as the globe is pulled back to. */
   .city .stage-caption { opacity: calc(1 - var(--pull, 0) * 1.4); }

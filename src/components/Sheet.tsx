@@ -83,6 +83,12 @@ export function Sheet({ children, sticky, fullOnMount, bare = false, label, onPu
       // every scroll frame and React has no business re-rendering the sheet for it.
       const p = Math.max(0, Math.min(1, -past / back.current))
       document.documentElement.style.setProperty('--pull', String(p))
+      // How close the list is to the composed screen, coming back up: 1 at rest and through the whole
+      // pull, 0 once a third of the run-up has been scrolled into the list. It is what brings the way-out
+      // word in, so the word is already there as the list settles rather than only once the pull is
+      // underway — by then whoever did not know the gesture exists has no reason to be looking.
+      const near = Math.max(0, Math.min(1, 1 - (past / run.current) / 0.35))
+      document.documentElement.style.setProperty('--near', String(near))
     }
     const onScroll = () => { cancelAnimationFrame(raf); raf = requestAnimationFrame(write) }
     /*
@@ -122,6 +128,7 @@ export function Sheet({ children, sticky, fullOnMount, bare = false, label, onPu
       el.removeEventListener('touchcancel', up)
       ro.disconnect(); cancelAnimationFrame(raf)
       document.documentElement.style.removeProperty('--pull')
+      document.documentElement.style.removeProperty('--near')
     }
   }, [onPullBack])
 
@@ -174,11 +181,11 @@ export function Sheet({ children, sticky, fullOnMount, bare = false, label, onPu
 
   return (
     <div className={`sheet${leaving ? ' is-leaving' : ''}`} ref={ref} data-sheet tabIndex={0} role="region" aria-label={label}>
-      <div className="sheet-exit" ref={exit} aria-hidden="true" {...sky}>
-        {/* Only once the pull is underway, so the resting screen stays as quiet as it was. */}
+      <div className="sheet-exit" ref={exit} aria-hidden="true" {...sky} />
+      <div className="sheet-lead" aria-hidden="true" {...sky}>
+        {/* At the foot of the run-up, so it rides just above the paper's edge and travels with it. */}
         <span className="sheet-back mono">{backWord}</span>
       </div>
-      <div className="sheet-lead" aria-hidden="true" {...sky} />
       <section className="panel" ref={panel} aria-label="Details">
         {!bare && (
           <div className="panel-sticky">

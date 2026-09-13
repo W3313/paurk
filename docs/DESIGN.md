@@ -316,7 +316,11 @@ text measure.
     such flick into an exit. Released past the 40% line it commits; short of it the sheet settles back to
     the composed screen. `--pull` (0 at rest, 1 fully pulled) is written to the **root** element on each
     scroll frame — not to `.sheet`, since the city's caption lives in `<main>`, a sibling, and a custom
-    property only inherits downward — and fades the caption out while a `↓ sky` word fades in. It is done
+    property only inherits downward — and fades the caption out. The `↓ sky` word itself rides at the foot
+    of the run-up, a hairline above the paper's edge so it travels with the list, and is brought in by a
+    second variable `--near` (1 at rest and through the whole pull, 0 once a third of the run-up has been
+    scrolled into the list) — so it is already there as the list settles rather than appearing only once
+    the pull is underway, by which point whoever did not know the gesture exists is not looking for it. It is done
     with the scroller rather than a gesture recogniser because the run-up already spends
     `touch-action: pan-y` on letting the browser own vertical drags, leaving no pointer stream to read a
     pull from, and because momentum, rubber-banding and the interrupted half-pull all come free.
