@@ -268,8 +268,8 @@
         }
       ],
       "safety": {
-        "level": "caution",
-        "note": "Staffed building with security inside; the surrounding East Village blocks can feel rough after dark, so use the Park Blvd entrance and plan your ride home before closing."
+        "level": "ok",
+        "note": "Staffed building with security inside, but it closes at 8pm on weeknights and earlier at weekends, after dark for much of the year, and empties out all at once. Use the main Park Blvd entrance and have your ride or transit home sorted before closing."
       },
       "lowkeyScore": 3,
       "reviewed": true,

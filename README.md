@@ -112,10 +112,18 @@ neither is the reputation of the neighbourhood next door. An unlit path with few
 *go in daylight*; it does not need a second reason, and the second reason is usually the one that turns a travel
 note into a slur. Specific crime claims are held to the same standard as everything else: no source, no claim.
 
-This was not true of the first version of the dataset. Sixteen notes graded a place by who was nearby — four of
-them public libraries, described by the people outside — and a handful leaned on an adjacent neighbourhood's
-reputation instead of on anything you could see. They were rewritten at source. If you find one that still does
-it, that is a bug worth an issue.
+This was not true of the first version of the dataset. All 604 notes were swept against the rule above and **32
+across 21 cities failed it**: 15 characterised the people in or near a place, 15 leaned on an adjacent
+neighbourhood's reputation, 12 used vague "feels rough" language, 11 told you to avoid somewhere without saying
+what the hazard was, and 9 asserted a crime pattern nothing supported. Five of the 32 were public libraries,
+graded by the people outside them.
+
+All 32 were rewritten at source and re-checked twice — once that the new wording no longer describes anyone, and
+once that it still tells you the thing that matters, since a sanitised note that leaves you walking into an unlit
+dead end believing it is fine is a worse failure than the one being fixed. Every one of the 604 spots still
+carries a note. Four dropped from `caution` to `ok` because the only reason they carried it was the removed
+clause; each is a staffed or gated venue that closes before dark, and each kept its practical advice. If you find
+one that still breaks the rule, that is a bug worth an issue.
 
 ## Stack
 

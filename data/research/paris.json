@@ -114,7 +114,7 @@
         { "url": "https://www.tripadvisor.com/ShowUserReviews-g187147-d549374-r260810201-Square_du_Vert_Galant-Paris_Ile_de_France.html", "label": "Tripadvisor review - Paris sunset at Square du Vert-Galant", "kind": "forum" },
         { "url": "https://www.tripadvisor.com/Attraction_Review-g187147-d549374-Reviews-Square_du_Vert_Galant-Paris_Ile_de_France.html", "label": "Tripadvisor - Square du Vert-Galant reviews (evening picnics, late-night note)", "kind": "forum" }
       ],
-      "safety": { "level": "caution", "note": "Lively and friendly until around midnight in summer; later it gets rowdier and the stairs from the Pont Neuf are dim, so go with a friend if late or stick to the early evening." },
+      "safety": { "level": "caution", "note": "Ungated and open all night, but it sits several metres below the bridge and the dim stairs from the Pont Neuf are the only way in or out; the stone edge drops straight into the Seine with no railing. Best in the early evening while people are still around, and go with someone if you stay late." },
       "lowkeyScore": 3,
       "reviewed": true,
       "verifyNote": "Ungated public garden open 24h; caution kept for late-night rowdiness on the dim stairs. Wikipedia title from prior knowledge (live check blocked)."
@@ -139,7 +139,7 @@
         { "url": "https://parisjetaime.com/eng/culture/bassin-de-la-villette-p1242", "label": "Paris je t'aime - Bassin de la Villette: a stroll along the water's edge", "kind": "official" },
         { "url": "https://www.parisinsidersguide.com/19th-arrondissement-paris.html", "label": "Paris Insiders Guide - 19th arrondissement (night notes)", "kind": "blog" }
       ],
-      "safety": { "level": "caution", "note": "Quays are lit and busy until late; the Stalingrad/Jaurès end and the streets north-west towards Jardins d'Éole get rougher after midnight, so stay on the populated stretch and leave via metro Jaurès or Laumière." },
+      "safety": { "level": "caution", "note": "Lit and populated along the cafe-barge stretch until late; once those close the quays empty out and the granite steps run straight down into the water. Stay on the lit stretch after midnight and leave from metro Jaurès or Laumière at either end of the basin." },
       "lowkeyScore": 3,
       "reviewed": true,
       "verifyNote": "Legitimate, populated public quays; raised to caution because the Stalingrad end and streets north-west have a documented after-dark drug scene. Wikipedia title from prior knowledge (live check blocked)."
@@ -289,7 +289,7 @@
         { "url": "https://www.timeout.com/paris/en/bars-pubs/la-recyclerie", "label": "Time Out Paris - La Recyclerie", "kind": "press" },
         { "url": "https://www.urbansider.com/bars-cafes/la-recyclerie/", "label": "Urbansider - La REcyclerie", "kind": "blog" }
       ],
-      "safety": { "level": "caution", "note": "Busy venue with the metro at the door, but the Porte de Clignancourt and flea-market streets around it are quiet and a bit rough after dark; go straight to the metro when leaving late." },
+      "safety": { "level": "caution", "note": "Staffed venue with metro Porte de Clignancourt directly outside, but it serves until around 2am Fri-Sat, long after the flea-market shops and stalls around it have shut and those streets have emptied out. Head straight for the metro entrance when you leave late." },
       "lowkeyScore": 3,
       "reviewed": true,
       "verifyNote": "Established licensed venue at 83 boulevard Ornano on a disused (not active) rail cutting; set to caution for the Porte de Clignancourt surroundings at night. Hours hedged because they could not be re-checked live."

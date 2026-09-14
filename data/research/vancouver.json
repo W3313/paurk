@@ -184,7 +184,7 @@
       "coordConfidence": "high",
       "wikipediaTitle": "Dr. Sun Yat-Sen Classical Chinese Garden",
       "sources": [],
-      "safety": { "level": "caution", "note": "Chinatown borders the Downtown Eastside; the park is calm by day and gates lock at dusk. After dark keep to the lit blocks of Pender and Keefer." },
+      "safety": { "level": "ok", "note": "Gated daytime park — it locks at dusk, so plan to be out before then. The narrow side streets around it are dim once the shops close; walk out along the lit blocks of Pender or Keefer." },
       "lowkeyScore": 4,
       "reviewed": true,
       "verifyNote": "Not searched (budget); the free park adjoins the ticketed garden and is a legitimate Park Board space. Wikipedia title is the article for the whole garden complex (which covers the adjacent public park), kept from prior knowledge, not search-confirmed."
@@ -209,7 +209,7 @@
         { "url": "https://vancouverparkguide.ca/2022/01/24/42-crab-park/", "label": "Vancouver Park Guide: CRAB Park", "kind": "blog" },
         { "url": "https://placesthatmatter.ca/location/crab-park-the-great-fire/", "label": "Vancouver Heritage Foundation: CRAB Park", "kind": "other" }
       ],
-      "safety": { "level": "caution", "note": "On the Downtown Eastside waterfront and has hosted encampments in recent years; friendly and well used by day. Go with a friend and stick to the lit Waterfront Rd approach after dark." },
+      "safety": { "level": "caution", "note": "The rail yard cuts the park off from the street grid, so the Main St overpass from Waterfront Rd is the only way in or out, and it empties out in the evening. Open until 10pm; after dark go with a friend and come and go by the lit overpass." },
       "lowkeyScore": 4,
       "reviewed": true,
       "verifyNote": "Existence and history confirmed via search (Scout, Vancouver Park Guide, Heritage Foundation). No en.wikipedia.org result surfaced, so wikipediaTitle set to null."

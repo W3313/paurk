@@ -13,7 +13,7 @@
     "Waterloo Park Austin Texas wikipedia",
     "Secret Beach Roy Guerrero Park Austin safety encampment swimming"
   ],
-  "redditSourcedNotes": "Nothing here is reddit-sourced. The researcher's nine reddit/local queries never executed (search budget exhausted upstream), so the draft came from prior knowledge with empty sources. The verify stage had a budget of 5 searches, all spent: they confirmed the Umlauf Wikipedia article (en.wikipedia.org/wiki/Umlauf_Sculpture_Garden_and_Museum), returned NO English Wikipedia article URL for the Butler Trail, Mayfield Park or Waterloo Park (titles set to null rather than guessed), and surfaced official/press pages for those spots plus Secret Beach, which are attached as sources. Wikipedia titles for Mount Bonnell, Austin Central Library and Elisabet Ney Museum are kept on reviewer knowledge (high confidence) and could not be re-searched. Pennybacker Bridge Overlook was dropped on safety grounds (unfenced cliff edge, informal steep path, highway-shoulder crossing). Secret Beach is kept as a daylight-only caution spot: search results confirm swimming is prohibited because Longhorn Dam releases raise the river quickly, and note trash/glass from nearby encampments. Hours for cafes, museums and the library are best-effort and flagged to check.",
+  "redditSourcedNotes": "Nothing here is reddit-sourced. The researcher's nine reddit/local queries never executed (search budget exhausted upstream), so the draft came from prior knowledge with empty sources. The verify stage had a budget of 5 searches, all spent: they confirmed the Umlauf Wikipedia article (en.wikipedia.org/wiki/Umlauf_Sculpture_Garden_and_Museum), returned NO English Wikipedia article URL for the Butler Trail, Mayfield Park or Waterloo Park (titles set to null rather than guessed), and surfaced official/press pages for those spots plus Secret Beach, which are attached as sources. Wikipedia titles for Mount Bonnell, Austin Central Library and Elisabet Ney Museum are kept on reviewer knowledge (high confidence) and could not be re-searched. Pennybacker Bridge Overlook was dropped on safety grounds (unfenced cliff edge, informal steep path, highway-shoulder crossing). Secret Beach is kept as a daylight-only caution spot: search results confirm swimming is prohibited because Longhorn Dam releases raise the river quickly, and note trash and broken glass on the sand. Hours for cafes, museums and the library are best-effort and flagged to check.",
   "spots": [
     {
       "name": "Mount Bonnell (Covert Park)",
@@ -183,7 +183,7 @@
       ],
       "safety": {
         "level": "caution",
-        "note": "The boardwalk itself is lit and steadily used, but the wider trail has had isolated assaults reported on its quieter, unlit stretches after dark in recent years. Late in the evening stay on the lit boardwalk near other walkers, and skip the unlit trail segments beyond Lakeshore Park."
+        "note": "The boardwalk is lit and steadily used, but it runs on piers over the water with no way off between ramps, and the trail past Lakeshore Park is unlit with few exits. Late in the evening stay on the lit boardwalk within sight of other walkers, and turn back at Lakeshore Park rather than carrying on into the dark stretches."
       },
       "lowkeyScore": 3,
       "reviewed": true,
@@ -307,11 +307,11 @@
       ],
       "safety": {
         "level": "caution",
-        "note": "Unlit, unsigned wooded trail with no staff, and Longhorn Dam releases can raise the river quickly; swimming is prohibited. Visit in daylight with a friend, stay on the sand, and expect some trash and glass from nearby encampments."
+        "note": "Unlit, unsigned dirt trail through the woods with no staff and no lifeguard, and Longhorn Dam releases can raise the river fast; swimming is prohibited. Go in daylight with a friend, wear closed shoes for the mud and broken glass, and stay on the sand."
       },
       "lowkeyScore": 4,
       "reviewed": true,
-      "verifyNote": "Existence confirmed by search; sources confirm swimming is illegal here due to dam releases and note encampment debris, so the blurb and tips were rewritten and the spot is daylight-only caution. 'solo' vibe removed."
+      "verifyNote": "Existence confirmed by search; sources confirm swimming is illegal here due to dam releases, and note trash and broken glass on the sand, so the blurb and tips were rewritten and the spot is daylight-only caution. 'solo' vibe removed."
     },
     {
       "name": "Mozart's Coffee Roasters",

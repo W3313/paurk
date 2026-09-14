@@ -127,7 +127,7 @@
         { "url": "https://www.foundsf.org/index.php?title=Pier_7", "label": "FoundSF: Pier 7", "kind": "blog" },
         { "url": "https://www.pierfishing.com/pier-7-san-francisco/", "label": "Pier Fishing in California: Pier 7 - San Francisco", "kind": "blog" }
       ],
-      "safety": { "level": "ok", "note": "Well-lit and steadily trafficked along the Embarcadero; usual big-city awareness late at night." },
+      "safety": { "level": "ok", "note": "Lamp-lit the whole way out and railed on both edges, with the Embarcadero promenade lit behind it. It is an 840-foot dead end over deep, cold water, so at night the far end is a long walk back with only one way off." },
       "lowkeyScore": 3,
       "reviewed": true,
       "verifyNote": "Search confirmed the pier (dedicated 1990, public fishing pier). No dedicated Wikipedia article exists, only 'List of piers in San Francisco', so title stays null."
@@ -176,7 +176,7 @@
         { "url": "https://sfciviccenter.org/venue/main-branch-of-the-san-francisco-public-library/", "label": "SF Civic Center CBD: Main Branch of the San Francisco Public Library", "kind": "official" },
         { "url": "https://www.timeout.com/san-francisco/things-to-do/san-francisco-main-library", "label": "Time Out: San Francisco Main Library", "kind": "press" }
       ],
-      "safety": { "level": "caution", "note": "The blocks around Civic Center Plaza and the Tenderloin edge have visible drug use and can feel rough, especially after dark. Use the Larkin or Grove St entrances and the Civic Center BART/Muni station beneath the plaza; inside, security staffs every entrance and it is calm." },
+      "safety": { "level": "caution", "note": "Inside is calm, with security at every entrance. The library closes at 6pm most days and 8pm at the latest, and the plaza out front is wide open and empties once the civic buildings shut, so use the Larkin or Grove St entrances and the Civic Center BART/Muni station directly beneath it rather than walking to a stop further off." },
       "lowkeyScore": 3,
       "reviewed": true,
       "verifyNote": "Search confirmed the dedicated Wikipedia article 'Main Library (San Francisco)'. Raised to caution for the surrounding blocks; hours are best recollection."
