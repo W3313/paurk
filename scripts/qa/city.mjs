@@ -1,7 +1,6 @@
 // Berkeley, the 44th city: route, row count, a caution in the list, search, and a spot page.
 import { chromium } from 'playwright'
-const out = '/tmp/claude-0/-home-user-TrueChiller/9ffbcae7-6db4-5daa-ab54-b0b68957fb57/scratchpad'
-const exe = '/opt/pw-browsers/chromium-1194/chrome-linux/chrome'
+import { executablePath as exe } from './chromium.mjs'
 const b = await chromium.launch({ executablePath: exe, args: ['--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader'] })
 const p = await b.newPage({ viewport: { width: 1440, height: 980 }, colorScheme: 'dark' })
 const errs = []; p.on('pageerror', (e) => errs.push(e.message))

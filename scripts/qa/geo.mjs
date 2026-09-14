@@ -1,7 +1,7 @@
 // around me: the three outcomes (near a city, far from all of them, refused).
 import { chromium } from 'playwright'
 const base = process.argv[2] ?? 'http://127.0.0.1:4173/'
-const exe = '/opt/pw-browsers/chromium-1194/chrome-linux/chrome'
+import { executablePath as exe } from './chromium.mjs'
 const b = await chromium.launch({ executablePath: exe, args: ['--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader'] })
 let failed = 0
 const ok = (n, c, extra = '') => { if (!c) failed++; console.log(`${c ? 'ok  ' : 'FAIL'} ${n}${!c && extra ? ' — ' + extra : ''}`) }

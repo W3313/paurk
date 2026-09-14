@@ -1,8 +1,9 @@
 // Rasterises public/icon.svg into the PNG sizes the web manifest asks for.
 import { chromium } from 'playwright'
+import { executablePath as exe } from './chromium.mjs'
 import { readFileSync } from 'node:fs'
 const svg = readFileSync('public/icon.svg', 'utf8')
-const browser = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' })
+const browser = await chromium.launch({ executablePath: exe })
 for (const size of [180, 192, 512]) {
   const ctx = await browser.newContext({ viewport: { width: size, height: size }, deviceScaleFactor: 1 })
   const page = await ctx.newPage()

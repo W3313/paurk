@@ -19,8 +19,19 @@ npm run build      # typecheck + production build to dist/
 npm run preview    # serve dist/ on :4173
 npm test           # vitest unit tests (geo, sun times, ranking, hours parser, poster, photos)
 npm run shots      # headless Chromium screenshots + 44px tap-target check (needs `vite preview` running)
+npm run qa         # 118 browser checks: flows, search, geolocation, vibes, the city page, the sheet, the globe
 npm run build:data # regenerate src/data/spots.json and public/globe-dots.bin from data/research and world-atlas
 ```
+
+Anything that drives a browser (`shots`, `qa`, `scripts/qa/*`) needs Chromium and a running `npm run
+preview` on :4173. If you have not got a browser yet:
+
+```bash
+npx playwright install chromium
+```
+
+`scripts/qa/chromium.mjs` prefers a browser already on the box and otherwise lets Playwright resolve its
+own; set `PAURK_CHROMIUM=/path/to/chrome` to point the checks somewhere specific.
 
 ## Deploy
 

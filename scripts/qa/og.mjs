@@ -3,11 +3,12 @@
 // Usage: node scripts/qa/og.mjs [url] [outFile]   (needs `vite preview` running)
 import { readFileSync } from 'node:fs'
 import { chromium } from 'playwright'
+import { executablePath as exe } from './chromium.mjs'
 
 const url = process.argv[2] ?? 'http://127.0.0.1:4173/'
 const out = process.argv[3] ?? 'public/og.jpg'
 
-const browser = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome', args: ['--use-gl=angle', '--use-angle=swiftshader', '--enable-unsafe-swiftshader'] })
+const browser = await chromium.launch({ executablePath: exe, args: ['--use-gl=angle', '--use-angle=swiftshader', '--enable-unsafe-swiftshader'] })
 const ctx = await browser.newContext({ viewport: { width: 1200, height: 630 }, deviceScaleFactor: 2 })
 const page = await ctx.newPage()
 await page.goto(url, { waitUntil: 'networkidle' })

@@ -1,7 +1,7 @@
 // Vibe filtering behind one word, and no invented distance-from-centre on any row.
 import { chromium } from 'playwright'
 const out = process.env.QA_OUT ?? '/tmp'
-const exe = '/opt/pw-browsers/chromium-1194/chrome-linux/chrome'
+import { executablePath as exe } from './chromium.mjs'
 const b = await chromium.launch({ executablePath: exe, args: ['--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader'] })
 const p = await b.newPage({ viewport: { width: 1440, height: 980 }, colorScheme: 'dark' })
 const errs = []; p.on('pageerror', (e) => errs.push(e.message))

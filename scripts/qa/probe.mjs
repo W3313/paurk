@@ -1,7 +1,8 @@
 // Finds what forces horizontal overflow on a phone-sized mobile viewport.
 import { chromium } from 'playwright'
+import { executablePath as exe } from './chromium.mjs'
 const route = process.argv[2] ?? '#/c/lisbon'
-const browser = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome', args: ['--use-gl=angle', '--use-angle=swiftshader', '--enable-unsafe-swiftshader'] })
+const browser = await chromium.launch({ executablePath: exe, args: ['--use-gl=angle', '--use-angle=swiftshader', '--enable-unsafe-swiftshader'] })
 const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, hasTouch: true, isMobile: true })
 const page = await ctx.newPage()
 await page.goto('http://127.0.0.1:4173/' + route, { waitUntil: 'networkidle' })

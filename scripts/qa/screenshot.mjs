@@ -7,7 +7,7 @@ import { mkdirSync } from 'node:fs'
 const [,, url = 'http://127.0.0.1:4173/', outDir = 'qa-shots', ...routes] = process.argv
 const ROUTES = routes.length ? routes : ['#/', '#/c/lisbon', '#/s/lisbon/miradouro-de-santa-catarina', '#/saved']
 mkdirSync(outDir, { recursive: true })
-const exe = '/opt/pw-browsers/chromium-1194/chrome-linux/chrome'
+import { executablePath as exe } from './chromium.mjs'
 const browser = await chromium.launch({ executablePath: exe, args: ['--use-gl=angle', '--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist'] })
 const errors = []
 const small = []

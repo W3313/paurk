@@ -7,7 +7,7 @@
 // which asked the scroll position to mean two things at once. What is checked here is the property all
 // three failed: a thumb landing where a thumb lands does the one obvious thing.
 import { chromium } from 'playwright'
-const exe = '/opt/pw-browsers/chromium-1194/chrome-linux/chrome'
+import { executablePath as exe } from './chromium.mjs'
 const base = process.argv[2] ?? 'http://127.0.0.1:4173/'
 const b = await chromium.launch({ executablePath: exe, args: ['--use-gl=angle', '--use-angle=swiftshader', '--enable-unsafe-swiftshader'] })
 const p = await b.newPage({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true, colorScheme: 'dark' })
