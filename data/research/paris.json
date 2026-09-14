@@ -66,7 +66,7 @@
       ],
       "safety": { "level": "ok", "note": "Quiet residential streets; the staircases are lit but empty after dark, so treat it as a sunset spot rather than a late-night one." },
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real public micro-neighbourhood; the rue Georges-Lardennois viewpoint and coordinates match prior knowledge. No confirmed English Wikipedia article, so the title stays null (live check blocked)."
     },
     {
@@ -91,7 +91,7 @@
       ],
       "safety": { "level": "ok", "note": "Busy and sociable at sunset; the park locks at closing time, so leave with the crowd rather than lingering on the empty streets above." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known public park and viewpoint; seasonal closing times follow the standard Paris park schedule. Wikipedia title from prior knowledge (live check blocked)."
     },
     {
@@ -116,7 +116,7 @@
       ],
       "safety": { "level": "caution", "note": "Lively and friendly until around midnight in summer; later it gets rowdier and the stairs from the Pont Neuf are dim, so go with a friend if late or stick to the early evening." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Ungated public garden open 24h; caution kept for late-night rowdiness on the dim stairs. Wikipedia title from prior knowledge (live check blocked)."
     },
     {
@@ -141,7 +141,7 @@
       ],
       "safety": { "level": "caution", "note": "Quays are lit and busy until late; the Stalingrad/Jaurès end and the streets north-west towards Jardins d'Éole get rougher after midnight, so stay on the populated stretch and leave via metro Jaurès or Laumière." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Legitimate, populated public quays; raised to caution because the Stalingrad end and streets north-west have a documented after-dark drug scene. Wikipedia title from prior knowledge (live check blocked)."
     },
     {
@@ -166,7 +166,7 @@
       ],
       "safety": { "level": "ok", "note": "Staffed public building with security at the entrance; no concerns." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Free 9th-floor terrace is long established; weekend closing corrected to 7pm from prior knowledge. Wikipedia title kept in the URL form the researcher saw; it resolves (possibly via redirect) to the institute's article."
     },
     {
@@ -191,7 +191,7 @@
       ],
       "safety": { "level": "ok", "note": "Staffed, security-checked public library in a central district; no concerns." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Free-access reading room since the 2022 Richelieu reopening; '1932' and the desk count were softened. No dedicated English Wikipedia article confirmed, so title left null."
     },
     {
@@ -216,7 +216,7 @@
       ],
       "safety": { "level": "ok", "note": "Gated public garden that locks at closing; family-friendly and calm during opening hours." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-documented public Roman arena and garden. Wikipedia title from prior knowledge and the percent-decoded URL the researcher recorded."
     },
     {
@@ -241,7 +241,7 @@
       ],
       "safety": { "level": "ok", "note": "Gated square in a busy central neighbourhood, locked outside opening hours." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real city garden at 8 rue Payenne; the hôtel name was corrected to Le Peletier de Saint-Fargeau. No confirmed English Wikipedia article, so title left null."
     },
     {
@@ -266,7 +266,7 @@
       ],
       "safety": { "level": "ok", "note": "Guarded campus grounds with residents around; gates close at night." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Campus park is publicly accessible in daytime and well documented. Wikipedia title from prior knowledge (live check blocked)."
     },
     {
@@ -291,7 +291,7 @@
       ],
       "safety": { "level": "caution", "note": "Busy venue with the metro at the door, but the Porte de Clignancourt and flea-market streets around it are quiet and a bit rough after dark; go straight to the metro when leaving late." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Established licensed venue at 83 boulevard Ornano on a disused (not active) rail cutting; set to caution for the Porte de Clignancourt surroundings at night. Hours hedged because they could not be re-checked live."
     },
     {
@@ -316,7 +316,7 @@
       ],
       "safety": { "level": "ok", "note": "Gated and closed after dark; well used by runners and walkers in daylight." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Public city park on a converted (not active) rail viaduct; 'decades before New York' softened. Wikipedia title from prior knowledge (live check blocked)."
     },
     {
@@ -341,7 +341,7 @@
       ],
       "safety": { "level": "ok", "note": "Staffed museum garden, closed outside opening hours." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Free Paris Musées site at 16 rue Chaptal. The February 2026 reopening rests on a single Dec 2025 article and could not be re-checked live; confirm current hours on parismusees.paris.fr. Wikipedia title from prior knowledge."
     },
     {
@@ -366,7 +366,7 @@
       ],
       "safety": { "level": "ok", "note": "Lit and busy until the bar-boats close; after that it thins out, and the ramps every few hundred metres are the exits back to street level." },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Public riverside promenade; extent corrected to Musée d'Orsay to Pont de l'Alma. The 'Parc Rives-de-Seine' Wikipedia title was never confirmed by a search result, so it is set to null."
     }
   ]

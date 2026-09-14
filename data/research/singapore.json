@@ -47,7 +47,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Well-lit, staffed and busy into the late evening; fine solo." },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known PUB-run dam with a public green roof; reviewed from knowledge, live checks blocked. Transit tip updated for Gardens by the Bay MRT (opened 2022). Wikipedia title from prior knowledge, not search-confirmed."
     },
     {
@@ -68,7 +68,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Part of a staffed arts centre; well-lit and populated until late." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real public roof terrace on the Esplanade; blurb corrected (it sits above the mall beside the domes, not on the concert-hall dome). Hours from memory, so left as check-site. Wikipedia title is the arts centre's article, of which the terrace is part; from prior knowledge, not search-confirmed."
     },
     {
@@ -89,7 +89,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Staffed public library inside a busy arts centre." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real NLB branch on level 3 of the Esplanade (opened 2002); hours match NLB's usual 11am-9pm for this branch but could not be re-checked. Wikipedia title (NLB branch article) from prior knowledge with moderate confidence, not search-confirmed; a miss degrades to no photo."
     },
     {
@@ -110,7 +110,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Staffed library inside a busy mall." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real NLB branch at orchardgateway (reopened 2014); name changed to NLB's own styling. Hours from memory. Wikipedia title (NLB branch article) from prior knowledge with moderate confidence, not search-confirmed; a miss degrades to no photo."
     },
     {
@@ -131,7 +131,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Staffed public building in a busy district; open until 9pm." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-documented national library at 100 Victoria Street. Reference-library floor range corrected (starts at level 7, extends above 11). Added a hedge on floor closures since the lower-floor public library has had renovation phases. Wikipedia title from prior knowledge, not search-confirmed."
     },
     {
@@ -152,7 +152,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Shophouse street with restaurants; lit and busy in the evening." },
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real, long-running Chinese-language bookshop (草根书室) at 25 Bukit Pasoh Road, taken over by a group of writers in 2014. Current operating status and hours could not be re-checked, so the tip tells readers to confirm before going. No Wikipedia article known."
     },
     {
@@ -173,7 +173,7 @@
       "sources": [],
       "safety": { "level": "caution", "note": "Quiet and dimly lit after dark with few passers-by; visit in daylight or go with a friend in the evening." },
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real NParks park on Pearl's Hill. Blurb corrected: the pond is a landscaped park pond, not a converted reservoir; the 1904 service reservoir beside it is still in use and fenced. Housing redevelopment around the hill was announced in 2023, so some approaches may be hoarded. Wikipedia title is the hill's article, which covers the park; from prior knowledge, not search-confirmed."
     },
     {
@@ -194,7 +194,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "The promenade is lit and used by joggers into the evening; the forest trail is closed after dark." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-documented NParks nature reserve and coastal park; hours split (24h promenade, 7am-7pm reserve trails) matches NParks practice. Wikipedia title from prior knowledge, not search-confirmed."
     },
     {
@@ -215,7 +215,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Main paths and Henderson Waves are lit until 7am; the summit terrace is dim and quiet late at night, so head down with a friend after 10pm." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real NParks park and terrace garden on the Southern Ridges. Removed 'colonial-era' (the Terrace Garden dates from the 1970s, not the colonial period). Wikipedia title from prior knowledge with moderate confidence, not search-confirmed."
     },
     {
@@ -236,7 +236,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "The Changi Village end is lit with anglers and campers around all night; the far east end is darker, so stay near the village side late." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-documented 24h NParks beach park; bus routes 2, 29 and 59 do serve Changi Village. Stargazing claim softened for Singapore's light pollution. Wikipedia title from prior knowledge, not search-confirmed."
     },
     {
@@ -257,7 +257,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "No lighting; leave before the 7pm gate closure. Sandflies and mosquitoes are common." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real NParks island park (Pulau Serangoon), opened 2015, gated 7am-7pm. Removed the feral cow: the island's lone Brahman bull died in 2016. Wikipedia title from prior knowledge, not search-confirmed."
     },
     {
@@ -278,7 +278,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Lit and used by families and anglers into the night; fine solo." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real NParks park with a 400m jetty on the Johor Strait; coordinates are within a few hundred metres of the jetty but could not be pinned, kept medium. No English Wikipedia article confidently known, so title set to null."
     },
     {
@@ -299,7 +299,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Well-lit main paths; the wetland boardwalks are quiet after dark." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-documented national garden; Lakeside Garden opened 2019 and Rasau Walk is real. Wikipedia title from prior knowledge, not search-confirmed."
     },
     {
@@ -320,7 +320,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Lit paths and steady foot traffic into the night; the river steps get slippery after rain." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-documented NParks park (Kallang River naturalised 2012). Wikipedia title uses the article's en dash; from prior knowledge, not search-confirmed."
     }
   ]

@@ -33,7 +33,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Loop path is only partly lit; busy with joggers and dog walkers until dusk, quiet after." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget); well-known public park. Wikipedia title kept from prior knowledge, not search-confirmed."
     },
     {
@@ -56,7 +56,7 @@
       ],
       "safety": { "level": "caution", "note": "Unlit and very quiet after 10pm. Fine for stargazing with a friend and a headlamp; otherwise leave by dusk." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title confirmed via search (article describes the West Point Grey beaches)."
     },
     {
@@ -81,7 +81,7 @@
       ],
       "safety": { "level": "caution", "note": "Stanley Park trails and roads are unlit after dark; return along the seawall with a friend or leave at dusk." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence and Wikipedia title confirmed via search."
     },
     {
@@ -102,7 +102,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Summit plaza and parking area are lit and used by locals well into the evening; the lower garden paths are not lit." },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget); major public park. Wikipedia title kept from prior knowledge, not search-confirmed."
     },
     {
@@ -123,7 +123,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Staffed indoor space in a lit, busy part of the park." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget); long-running Park Board attraction. Wikipedia title kept from prior knowledge, not search-confirmed; admission price is approximate."
     },
     {
@@ -144,7 +144,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Fenced campus garden, open daytime only." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget); established UBC Botanical Garden site. Wikipedia title kept from prior knowledge, not search-confirmed."
     },
     {
@@ -165,7 +165,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Staffed public building in the busy downtown core; surrounding blocks quiet down after closing." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget); the rooftop garden opened to the public in 2018. Wikipedia title 'Library Square' (the Safdie complex containing the Central Branch) kept from prior knowledge, not search-confirmed."
     },
     {
@@ -186,7 +186,7 @@
       "sources": [],
       "safety": { "level": "caution", "note": "Chinatown borders the Downtown Eastside; the park is calm by day and gates lock at dusk. After dark keep to the lit blocks of Pender and Keefer." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget); the free park adjoins the ticketed garden and is a legitimate Park Board space. Wikipedia title is the article for the whole garden complex (which covers the adjacent public park), kept from prior knowledge, not search-confirmed."
     },
     {
@@ -211,7 +211,7 @@
       ],
       "safety": { "level": "caution", "note": "On the Downtown Eastside waterfront and has hosted encampments in recent years; friendly and well used by day. Go with a friend and stick to the lit Waterfront Rd approach after dark." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence and history confirmed via search (Scout, Vancouver Park Guide, Heritage Foundation). No en.wikipedia.org result surfaced, so wikipediaTitle set to null."
     },
     {
@@ -234,7 +234,7 @@
       ],
       "safety": { "level": "ok", "note": "Seawall is well lit and busy until late; the island itself has no lights, so move to the plaza benches after dark." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia article 'Hinge Park' confirmed via search; it describes both Hinge Park and the connected Habitat Island, so it was used as the photo title."
     },
     {
@@ -255,7 +255,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Lit, busy waterfront with SeaBus service until after midnight." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget); well-known transit hub and public pier. Wikipedia title kept from prior knowledge, not search-confirmed."
     },
     {
@@ -280,7 +280,7 @@
       ],
       "safety": { "level": "ok", "note": "Busy, well-lit stretch of Commercial Drive; the cafe closes at 6pm." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Confirmed open at 1276 Commercial Dr via search; listed hours are 7am-6pm daily, so the draft's 'open late / night' claims, vibes and best times were removed. Coordinates nudged to the Charles St corner."
     },
     {
@@ -306,7 +306,7 @@
       ],
       "safety": { "level": "ok", "note": "Staffed shop on a busy Chinatown block; the area quiets after dark." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Confirmed open at 229 E Georgia St via search; hidden room is a rare-books room behind a Murphy-door bookcase, blurb adjusted accordingly. Hours unverified."
     },
     {
@@ -329,7 +329,7 @@
       ],
       "safety": { "level": "ok", "note": "Public park reached by a road overpass over the rail line; well used by dog walkers and swimmers in daylight, dim after dark." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title confirmed via search (article describes the Hastings-Sunrise waterfront park, pool and off-leash area)."
     }
   ]

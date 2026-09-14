@@ -33,7 +33,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Lit and patrolled until closing; use the signalled crossing on Columbus Blvd after dark." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real DRWC-run public pier park. Wikipedia title kept from reviewer knowledge, not search-confirmed (search budget spent elsewhere)."
     },
     {
@@ -54,7 +54,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Staffed, lit and busy into the evening." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real, publicly accessible DRWC venue. Wikipedia search (en.wikipedia.org only) returned no dedicated article, so title set to null."
     },
     {
@@ -75,7 +75,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Well-lit and populated until late; stick to the boardwalk and the Center City side after midnight." },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence and 2014 boardwalk confirmed via the Schuylkill River Trail Wikipedia article; no article specific to the boardwalk itself (the trail article covers 130 miles), so title left null."
     },
     {
@@ -96,7 +96,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Big and sparsely visited; leave before dusk when the gates close, and walk to and from the trolley stop along Lindbergh Blvd in daylight." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known National Historic Landmark, free public grounds. Wikipedia title kept from reviewer knowledge, not search-confirmed."
     },
     {
@@ -117,7 +117,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Lit and steadily trafficked by joggers; use the Kelly Drive path rather than the unlit azalea garden after 10pm." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "National Historic Landmark with public outdoor terrace. Wikipedia title kept from reviewer knowledge, not search-confirmed. Removed the 'cafe' mention, which is not reliably operating."
     },
     {
@@ -138,7 +138,7 @@
       "sources": [],
       "safety": { "level": "caution", "note": "Large, unlit and empty after dark with no transit nearby; go for sunrise or sunset, bring a friend if you stay past dusk, and have a ride arranged." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real public hilltop in Fairmount Park (referenced in the Fairmount Park Wikipedia article as a cross-country course). No dedicated article found, so title set to null; Belmont Mansion article is a different place."
     },
     {
@@ -159,7 +159,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Staffed public building with security." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Main branch of the Free Library of Philadelphia, public. Wikipedia title kept from reviewer knowledge, not search-confirmed."
     },
     {
@@ -180,7 +180,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Gated, quiet and closed after dusk." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Active nonprofit-run historic cemetery and National Historic Landmark that explicitly welcomes park use. Wikipedia title kept from reviewer knowledge, not search-confirmed."
     },
     {
@@ -201,7 +201,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Daytime spot; it is unlit and empties out toward dusk." },
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real free public arboretum. Wikipedia title kept from reviewer knowledge, not search-confirmed. Coordinates nudged toward the Washington Lane entrance."
     },
     {
@@ -222,7 +222,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Lit until the 10pm close; the surrounding blocks are quiet at night, so head back toward Broad Street afterward." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Completed Phase 1 of a city-owned public park on a decommissioned viaduct (opened 2018), not active rail land. Wikipedia title kept from reviewer knowledge, not search-confirmed."
     },
     {
@@ -243,7 +243,7 @@
       "sources": [],
       "safety": { "level": "caution", "note": "Fine in daylight and early evening; the park is only partly lit and empties after dark, so go with a friend late and walk back via Delaware Ave rather than the side streets." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real city park. Wikipedia title kept from reviewer knowledge, not search-confirmed."
     },
     {
@@ -264,7 +264,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Lit, monitored by building security, railed edges, and closes at 10pm." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real Brandywine Realty public rooftop park (opened 2015). No dedicated Wikipedia article (covered only within Cira Centre South), so title left null. Trimmed 'best view' overclaim."
     },
     {
@@ -285,7 +285,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Busy commercial stretch of Germantown Ave during opening hours." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real bookstore-cafe at 5445 Germantown Ave (opened 2017). Wikipedia search returned no article, so title set to null."
     },
     {
@@ -306,7 +306,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Enclosed within campus with Penn security nearby; daytime spot." },
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real Penn campus garden (James G. Kaskey Memorial Park), open to the public. Wikipedia search returned no dedicated article, so title left null."
     }
   ]

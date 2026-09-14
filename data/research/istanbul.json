@@ -33,7 +33,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Busy, well-lit promenade until well after midnight; the rocky shore below the path is unlit, so keep to the paths after dark." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known public shoreline park; verified from reviewer knowledge, no search spent. No exact-place English Wikipedia article (the Moda article covers the neighbourhood), so title left null."
     },
     {
@@ -58,7 +58,7 @@
       ],
       "safety": { "level": "ok", "note": "Main paths are lit and there is a marina next door; the tip of the peninsula is dim late at night, so keep to the inner path after 11pm." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence, free entry and 24h access confirmed by search. Only a Turkish Wikipedia article exists; the English 'Fenerbahçe, Kadıköy' article is the neighbourhood, so title left null."
     },
     {
@@ -83,7 +83,7 @@
       ],
       "safety": { "level": "ok", "note": "Staffed, enclosed site with security; the surrounding streets are busy residential Kadıköy." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Confirmed by search; the English Wikipedia article for this exact site is 'Hasanpaşa Gasworks' (en.wikipedia.org/wiki/Hasanpaşa_Gasworks), which is the museum's former name."
     },
     {
@@ -104,7 +104,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Gated park with staff at the entrances; paths are hilly and dim toward closing, so aim to leave before dark." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Major public park; verified from reviewer knowledge, no search spent. 'Yıldız Park' kept as the English Wikipedia title on high confidence, not search-confirmed this session."
     },
     {
@@ -125,7 +125,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Busy, well-lit neighbourhood street; open late with plenty of foot traffic." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Established bookshop-cafe on Süleyman Seba Caddesi in Akaretler; verified from reviewer knowledge, no search spent. Hours unconfirmed."
     },
     {
@@ -146,7 +146,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Gated, staffed park; paths are lit near the pavilions but dim on the upper trails after dark." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Major public park; verified from reviewer knowledge, no search spent. 'Emirgan Park' kept as the English Wikipedia title on high confidence, not search-confirmed this session."
     },
     {
@@ -167,7 +167,7 @@
       "sources": [],
       "safety": { "level": "caution", "note": "No lighting and patchy phone signal off the main loop; go in daylight, stick to marked trails and take a friend if you head deep into the forest." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Legitimate, managed public forest; caution kept for the unlit, remote trails. Verified from reviewer knowledge, no search spent. 'Belgrad Forest' kept as the English Wikipedia title on high confidence."
     },
     {
@@ -188,7 +188,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Busy, well-lit promenade until late; tea sellers and families around most of the night." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known public promenade; verified from reviewer knowledge, no search spent. The English 'Salacak' article is the neighbourhood, not the promenade, so title left null."
     },
     {
@@ -209,7 +209,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Staffed public building on a busy, lit waterfront; Üsküdar pier and transport are two minutes away." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Üsküdar Municipality's Nevmekan Sahil library-cafe; verified from reviewer knowledge, no search spent. Exact hours unconfirmed; no English Wikipedia article known."
     },
     {
@@ -234,7 +234,7 @@
       ],
       "safety": { "level": "ok", "note": "Lit paths and regular visitors until late; the hillside streets down to Kuzguncuk are quiet after midnight, so walk down with a friend or take a taxi." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence in Kuzguncuk/Üsküdar and the bridge-facing terraces confirmed by search. Coordinates re-estimated to the hilltop next to Nakkaştepe cemetery but not confirmed by a map source, so left at low confidence; blurb rewritten to match what the sources describe (cafes, playground, picnic areas rather than an amphitheatre)."
     },
     {
@@ -255,7 +255,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Calm residential lane near the sea walls; well-frequented by day, quiet but fine in the evening." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Mosque courtyard with tea garden and craft shops, publicly open; verified from reviewer knowledge, no search spent. 'Little Hagia Sophia' kept as the English Wikipedia title on high confidence (article covers the mosque and its complex)."
     },
     {
@@ -276,7 +276,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Well-lit and visited until late evening; the surrounding student streets thin out after 11pm." },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Famous landmark, but the outer terrace is a genuine free sit-and-look spot; verified from reviewer knowledge, no search spent. 'Süleymaniye Mosque' kept as the English Wikipedia title on high confidence."
     },
     {
@@ -301,7 +301,7 @@
       ],
       "safety": { "level": "ok", "note": "Staffed 24h with security at the door; Taksim Square and the metro are a short, lit walk away." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence, location on Mete Caddesi and 24/7 service confirmed by search (official site, 2016 press). The search surfaced only a Wikidata item and the Turkish Wikipedia article, not an en.wikipedia.org URL, so the 'Atatürk Library' title was set to null per the strict photo rule."
     },
     {
@@ -326,7 +326,7 @@
       ],
       "safety": { "level": "ok", "note": "24h staffed site with security; the surrounding streets are quiet late, so take a taxi or bus after midnight." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Confirmed by search: en.wikipedia.org/wiki/Rami_Library exists for this exact library (opened 13 January 2023 in Rami Barracks, 4,200 seats)."
     }
   ]

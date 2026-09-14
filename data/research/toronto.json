@@ -40,7 +40,7 @@
       ],
       "safety": {"level": "ok", "note": "Trail is lit and regularly walked; the outer rocks get dark and quiet after 11pm, so stay near the trail late."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence and Wikipedia title confirmed by search (en.wikipedia.org/wiki/Trillium_Park; opened 2017 on former Ontario Place parking lot). Coordinates match the east end of Ontario Place."
     },
     {
@@ -61,7 +61,7 @@
       "sources": [],
       "safety": {"level": "ok", "note": "On a well-lit, busy waterfront promenade; fine solo at any hour."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Verified from knowledge (search budget spent): City of Toronto park at 479 Queens Quay W, opened 1999; Wikipedia article 'Toronto Music Garden' is long-established. Not searched this pass."
     },
     {
@@ -82,7 +82,7 @@
       "sources": [],
       "safety": {"level": "ok", "note": "Residential street with streetlights, a fixed railing at the drop and a steady trickle of visitors at night; keep noise down for the neighbours."},
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Verified from knowledge (search budget spent): a well-documented public street-end lookout at the west end of Chester Hill Rd with a permanent railing; widely covered by Toronto press and blogs. No Wikipedia article known, left null."
     },
     {
@@ -103,7 +103,7 @@
       "sources": [],
       "safety": {"level": "ok", "note": "Popular, open hill; the Broadview edge is lit while the lower fields are dark after 10pm, so stay near the top late."},
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Verified from knowledge (search budget spent): major City of Toronto park east of the Don Valley; the Wikipedia article covering both halves is 'Riverdale Park (Toronto)'. Not searched this pass."
     },
     {
@@ -124,7 +124,7 @@
       "sources": [],
       "safety": {"level": "caution", "note": "The conservatory is staffed and calm; the surrounding park sees drug use and encampments, so visit in daylight and go straight to the glasshouse."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Verified from knowledge (search budget spent): City-run conservatory at Carlton and Jarvis, free entry; Wikipedia article 'Allan Gardens' covers the park and conservatory. Caution level kept for the surrounding park."
     },
     {
@@ -145,7 +145,7 @@
       "sources": [],
       "safety": {"level": "ok", "note": "Staffed public building in a busy area; no concerns."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Verified from knowledge (search budget spent): 789 Yonge St, flagship of Toronto Public Library; Wikipedia article 'Toronto Reference Library'. Hours from memory, marked check."
     },
     {
@@ -168,7 +168,7 @@
       ],
       "safety": {"level": "ok", "note": "Staffed grounds that close at dusk; no concerns."},
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence, Don Mills location and Wikipedia title confirmed by search (en.wikipedia.org/wiki/Aga_Khan_Park; inaugurated 2015 on Wynford Dr). Coordinates match the museum site."
     },
     {
@@ -189,7 +189,7 @@
       "sources": [],
       "safety": {"level": "ok", "note": "Closes at dusk; stay behind the bluff-edge fences, the edge erodes."},
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Verified from knowledge (search budget spent): City of Toronto garden at 5 Glen Everest Rd with a fenced bluff-top lookout; Wikipedia article 'Rosetta McClain Gardens'. Kept because the viewpoint is railed and maintained."
     },
     {
@@ -210,7 +210,7 @@
       "sources": [],
       "safety": {"level": "ok", "note": "Lit near the Park Lawn entrance and along the Martin Goodman Trail; the outer points are dark after sunset, so keep night walks to the trail."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Verified from knowledge (search budget spent): City of Toronto lakefill park at the foot of Park Lawn Rd; the Wikipedia article 'Humber Bay Park' covers both the East and West halves. Not searched this pass."
     },
     {
@@ -233,7 +233,7 @@
       ],
       "safety": {"level": "caution", "note": "Lit but dim and empty after dark, with campus emergency phones along the path; best before sunset or with a friend."},
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence and Wikipedia title confirmed by search (en.wikipedia.org/wiki/Philosopher's_Walk_(Toronto); a plain 'Philosopher's Walk' article also exists and refers elsewhere, so the disambiguated title is required)."
     },
     {
@@ -254,7 +254,7 @@
       "sources": [],
       "safety": {"level": "ok", "note": "Monitored public space above a busy square with full parapets; closes at night."},
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Verified from knowledge (search budget spent): the podium green roof opened to the public in 2010 as part of the Nathan Phillips Square revitalization and is part of City Hall, so the 'Toronto City Hall' article is the right photo source. Not searched this pass."
     },
     {
@@ -275,7 +275,7 @@
       "sources": [],
       "safety": {"level": "ok", "note": "Inside a busy cultural centre on a lit promenade; no concerns."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Verified from knowledge (search budget spent): Boxcar Social's Harbourfront location is at 235 Queens Quay W inside Harbourfront Centre. Kept as a daytime cafe; evening wine-bar hours noted in tips. No Wikipedia article, left null."
     },
     {
@@ -298,7 +298,7 @@
       ],
       "safety": {"level": "caution", "note": "No lighting on the sand and the road in is quiet; go before dusk, or stick to the lit Martin Goodman Trail with a friend."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence and Wikipedia title confirmed by search (en.wikipedia.org/wiki/Cherry_Beach; City beach at the foot of Cherry St, regularly Blue Flag certified). It is a maintained public park, not active industrial land, so kept with caution for the unlit approach after dark."
     },
     {
@@ -321,7 +321,7 @@
       ],
       "safety": {"level": "ok", "note": "Well lit on a busy waterfront promenade; the sugar plant hums through the night."},
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence and Wikipedia title confirmed by search (en.wikipedia.org/wiki/Sugar_Beach is the Toronto East Bayfront park, opened 2010, Claude Cormier design)."
     }
   ]

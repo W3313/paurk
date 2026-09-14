@@ -66,7 +66,7 @@
       ],
       "safety": { "level": "ok", "note": "Staffed, gated reserve; closes before dusk." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-documented reserve. 'Three minutes from Meguro Station' corrected to about ten minutes. Wikipedia title from prior knowledge (live check blocked)."
     },
     {
@@ -91,7 +91,7 @@
       ],
       "safety": { "level": "caution", "note": "No lighting and some uneven, unfenced sections along the stream; stick to daylight hours and the marked path." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real public ward-managed ravine. The March 2026 reopening rests on the researcher's 2026 sources and matches the ward's announced spring-2026 timeline; hours changed from '24h' to daylight-only since the path is unlit. No confident English Wikipedia title, left null."
     },
     {
@@ -116,7 +116,7 @@
       ],
       "safety": { "level": "ok", "note": "Open public park with regular joggers; some stretches are dimly lit late at night, so stay on the brighter market-side sections after 11pm." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real Koto ward park around Toyosu Market. 'Bench every hundred metres' overclaim trimmed. Coordinates place the south-west tip; kept medium. No English Wikipedia article, left null."
     },
     {
@@ -141,7 +141,7 @@
       ],
       "safety": { "level": "ok", "note": "Managed municipal park with staff; closes at 9pm." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real Meguro ward rooftop park (opened 2013). 'Hardly any tourists' softened. Wikipedia title retained: the researcher ran a title search and it matches the reviewer's recollection of the article; live re-check blocked."
     },
     {
@@ -166,7 +166,7 @@
       ],
       "safety": { "level": "ok", "note": "Staffed public building in a quiet residential park." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real metropolitan library; 'free day pass' claim removed since entry needs no registration. Wikipedia title is the library system's article, which covers this building (prior knowledge, live check blocked)."
     },
     {
@@ -191,7 +191,7 @@
       ],
       "safety": { "level": "ok", "note": "Residential shopping street, lit and populated into the evening." },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real, well-known staircase. Neighborhood tightened to Nishi-Nippori, Arakawa (the steps themselves are on the Arakawa side). Researcher's Wikipedia search found no English article; left null."
     },
     {
@@ -216,7 +216,7 @@
       ],
       "safety": { "level": "ok", "note": "Staffed shopping complex rooftop, well lit until closing." },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real public roof garden on JP Tower/KITTE; hours match the operator's published times. The only related Wikipedia article is for the JP Tower building, not the garden, so left null."
     },
     {
@@ -241,7 +241,7 @@
       ],
       "safety": { "level": "ok", "note": "Staffed cafe next to a station on a lit street." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real, long-running reading cafe (the original fuzkue, opened 2014). 'Closest thing Tokyo has to...' overclaim trimmed; hours flagged check-site. Coordinates raised to high since the shop is within a minute of Hatsudai Station. No Wikipedia article."
     },
     {
@@ -266,7 +266,7 @@
       ],
       "safety": { "level": "ok", "note": "Lit promenade with regular foot traffic; stairs back up to street level every few hundred metres." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real metropolitan river terrace; Sumida River Walk hours (7am-10pm) match the operator. Coordinates sit on the Taito bank by Komagata Bridge, raised to high. No Wikipedia article for the terrace itself."
     },
     {
@@ -291,7 +291,7 @@
       ],
       "safety": { "level": "ok", "note": "Staffed, gated garden; closes before dusk." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-documented metropolitan garden. 'picnic' vibe removed (paid stroll garden, not a picnic lawn). Wikipedia title from prior knowledge; the researcher also ran a title search."
     },
     {
@@ -316,7 +316,7 @@
       ],
       "safety": { "level": "ok", "note": "Staffed university building on a busy campus." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real, publicly open university library (opened 2021). Group-size wording simplified. Wikipedia title from prior knowledge (live check blocked); coordinates are the main campus, kept medium."
     },
     {
@@ -341,7 +341,7 @@
       ],
       "safety": { "level": "ok", "note": "Waterfall plaza and cafe side are well lit and busy with commuters and joggers into the night; the quieter western corners can feel empty late, so stay on the lit side after 10pm." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real ward park; the Wikipedia URL appeared in the researcher's results, so the title is confirmed. Unsupported 'patrolled by the ward' wording removed from the safety note."
     },
     {
@@ -366,7 +366,7 @@
       ],
       "safety": { "level": "ok", "note": "Staffed public building above a busy station." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real free lobby run by Setagaya ward. Draft '10am-8pm' conflicts with the long-published 9:30am-11pm schedule, so hours are given as a range with a check-site flag. Wikipedia title is the building's article (prior knowledge, live check blocked)."
     }
   ]

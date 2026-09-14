@@ -96,7 +96,7 @@
       },
       "lowkeyScore": 3,
       "verifyNote": "Well-documented public City garden; 'Wren church' corrected to medieval church with Wren tower. Wikipedia title from prior knowledge (live check blocked).",
-      "verified": true
+      "reviewed": true
     },
     {
       "name": "Postman's Park",
@@ -146,7 +146,7 @@
       },
       "lowkeyScore": 3,
       "verifyNote": "Well-known City garden; Wikipedia article is a long-standing featured article (prior knowledge).",
-      "verified": true
+      "reviewed": true
     },
     {
       "name": "The Garden at 120",
@@ -198,7 +198,7 @@
       },
       "lowkeyScore": 3,
       "verifyNote": "Real free roof garden (opened 2019). 'Largest' claim softened; hours flagged as check-site since seasonal times could not be re-verified. No confident Wikipedia article title, left null.",
-      "verified": true
+      "reviewed": true
     },
     {
       "name": "Cloister Garden, Museum of the Order of St John",
@@ -249,7 +249,7 @@
       },
       "lowkeyScore": 5,
       "verifyNote": "Draft hours 'Mon-Sat 9:30am-dusk' looked wrong; the garden is only open with the museum, which has run reduced days since 2020. 'Loose chairs' claim removed. Wikipedia title is the parent museum's article.",
-      "verified": true
+      "reviewed": true
     },
     {
       "name": "Wellcome Collection Reading Room",
@@ -299,7 +299,7 @@
       },
       "lowkeyScore": 4,
       "verifyNote": "Real free space inside a major museum; Wikipedia title is the museum's article (prior knowledge).",
-      "verified": true
+      "reviewed": true
     },
     {
       "name": "Brown Hart Gardens",
@@ -344,7 +344,7 @@
       },
       "lowkeyScore": 4,
       "verifyNote": "Real Grosvenor-managed public garden; hours are approximate and seasonal.",
-      "verified": true
+      "reviewed": true
     },
     {
       "name": "Royal Festival Hall foyers and riverside terrace",
@@ -397,7 +397,7 @@
       },
       "lowkeyScore": 2,
       "verifyNote": "Open-foyer policy dates from 1983; landmark with an obvious Wikipedia article (prior knowledge).",
-      "verified": true
+      "reviewed": true
     },
     {
       "name": "Parliament Hill viewpoint",
@@ -450,7 +450,7 @@
       },
       "lowkeyScore": 2,
       "verifyNote": "Protected-view summit on public heathland; caution kept for the unlit walk down.",
-      "verified": true
+      "reviewed": true
     },
     {
       "name": "The Hill Garden and Pergola",
@@ -503,7 +503,7 @@
       },
       "lowkeyScore": 4,
       "verifyNote": "Real City of London-run garden. Exact Wikipedia article title could not be confirmed ('Hill Garden' is not certainly the article), so set to null rather than risk a wrong photo.",
-      "verified": true
+      "reviewed": true
     },
     {
       "name": "Parkland Walk",
@@ -555,7 +555,7 @@
       },
       "lowkeyScore": 4,
       "verifyNote": "Legitimate council-managed nature reserve; caution note made specific about past incidents and daylight use.",
-      "verified": true
+      "reviewed": true
     },
     {
       "name": "Dalston Eastern Curve Garden",
@@ -608,7 +608,7 @@
       },
       "lowkeyScore": 3,
       "verifyNote": "Long-running community garden; the draft's precise day-by-day hours were unverifiable so replaced with a seasonal range.",
-      "verified": true
+      "reviewed": true
     },
     {
       "name": "The Tide, Greenwich Peninsula",
@@ -661,7 +661,7 @@
       },
       "lowkeyScore": 4,
       "verifyNote": "Opened 2019 and publicly accessible; the draft's '7am-10pm' gate hours could not be verified so removed. Coordinates nudged to the riverside end near the cable car; medium confidence.",
-      "verified": true
+      "reviewed": true
     },
     {
       "name": "Stave Hill",
@@ -714,7 +714,7 @@
       },
       "lowkeyScore": 5,
       "verifyNote": "Public LDDC-era mound in a council park; Wikipedia article title from prior knowledge.",
-      "verified": true
+      "reviewed": true
     }
   ]
 }

@@ -36,7 +36,7 @@
         "note": "Main paths and the skywalk are lit until closing; the park is patrolled and busy with joggers in the evening."
       },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Major BMA park, opened in its expanded forest form in 2022; reviewed from knowledge. Wikipedia title kept from knowledge, not search-confirmed (budget spent on higher-doubt titles). MRT exit number removed from tips as unverified."
     },
     {
@@ -60,7 +60,7 @@
         "note": "Busy, patrolled and lit along the main loop until 9pm."
       },
       "lowkeyScore": 1,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Bangkok's best-known park; reviewed from knowledge. Wikipedia title kept from knowledge, not search-confirmed. 'Chinese pavilion' landmark removed from tips as unverified."
     },
     {
@@ -86,7 +86,7 @@
         "note": "Family park; main paths are lit until 9pm but the outer loops get dark, so stay near the entrances after sunset."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title confirmed by search (former SRT golf course, 375 rai / 148 acres, butterfly park, borders Queen Sirikit Park and Chatuchak Park). Hours from knowledge."
     },
     {
@@ -110,7 +110,7 @@
         "note": "Daytime spot; the lanes are unlit, so leave before dusk and mind the narrow elevated paths if cycling."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known public park inside the Bang Kachao green area; reviewed from knowledge. Wikipedia title is the article for the Bang Kachao area the spot is named after (kept from knowledge, not search-confirmed); a park-specific article was not checked. Park hours from knowledge."
     },
     {
@@ -134,7 +134,7 @@
         "note": "Well-lit and busy with locals in the evening; Khao San is a few streets away, so late foot traffic is constant."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Public BMA park around a registered historic fort; reviewed from knowledge. Wikipedia title kept from knowledge, not search-confirmed."
     },
     {
@@ -161,7 +161,7 @@
         "note": "Lit and staffed until closing, with 2-3 m railings; traffic noise from the road bridge but no safety concerns."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title confirmed by search (opened June 2020, ~280 m long, 8.5 m wide, high railings, lifts). Blurb reworded to avoid 'abandoned' framing: it is a finished public park on a viaduct that was never used. Hours from knowledge."
     },
     {
@@ -187,7 +187,7 @@
         "note": "Indoor, staffed public building."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title confirmed by search (opened April 2017, four floors, Khok Wua intersection on Ratchadamnoen Klang, building by Chitsen Aphaiwong). Hours and registration procedure from knowledge; check before relying on the Sunday schedule."
     },
     {
@@ -213,7 +213,7 @@
         "note": "Indoor and staffed, in a busy commercial district."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia article surfaced in the Bangkok City Library search, confirming the title. Day-pass price and hours from knowledge only; confirm on the library's site before visiting."
     },
     {
@@ -237,7 +237,7 @@
         "note": "Indoor, staffed public building."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Major public art centre; reviewed from knowledge. Wikipedia title kept from knowledge, not search-confirmed. Hours from knowledge."
     },
     {
@@ -264,7 +264,7 @@
         "note": "Lit along its length and busy on weekend evenings; on quiet weeknights stick to the main promenade."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title confirmed by search (canal forms the eastern edge of Rattanakosin Island; BMA restoration in 2020). 'Once-derelict' wording dropped; the walking-street schedule is hedged because its regularity was not verified."
     },
     {
@@ -288,7 +288,7 @@
         "note": "Lit and gated, next to government offices; quiet after dark, so best before 8pm."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Public BMA park beside the former Saranrom Palace; reviewed from knowledge. Wikipedia title kept from knowledge, not search-confirmed. Entry tip corrected from 'Charoen Krung side' to Saranrom Road."
     },
     {
@@ -315,7 +315,7 @@
         "note": "Temple grounds; daytime only."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title corrected to the article's actual title 'Wat Prayurawongsawat' (search-confirmed; article describes the Khao Mor rock garden with its turtle pond, nicknamed Wat Khao Tao). Garden hours are approximate."
     },
     {
@@ -339,7 +339,7 @@
         "note": "Residential lanes, quiet and generally safe; they get dim after 9pm, so evening visits are best before then."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Public streets and riverside lanes in a well-known heritage neighbourhood; reviewed from knowledge. Wikipedia title is the article about this exact neighbourhood (kept from knowledge, not search-confirmed)."
     },
     {
@@ -363,7 +363,7 @@
         "note": "Indoor mall floor with security; open until 10pm."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known 6th-floor venue open since 2017; current operating status was not search-checked (budget spent on Wikipedia titles), so confirm it is still running before relying on it. No Wikipedia article for Open House itself; the Central Embassy mall article is not used because it is not about this space."
     }
   ]

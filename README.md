@@ -77,10 +77,22 @@ The brief asked for research through Reddit. Reddit is not reachable from the en
    free rooftops, secret gardens, safe waterfront walks). Search engines surface Reddit-derived opinion through
    pages that republish it (Time Out "according to locals", city-hall "hidden gems" surveys, Teamblind, forums,
    substacks), and those are the sources cited. **No URL is cited unless it appeared in a search result.**
-2. **One skeptical verify agent per city** confirmed each place exists and is public, applied the safety policy,
-   sanity-checked coordinates against the city centre, confirmed the Wikipedia title that drives the photo, and
-   wrote the file. All 44 cities went through this stage (604 spots; 393 with a confirmed photo title; 112 with
-   a caution note). Each file records which checks were made by live search and which from reviewer knowledge.
+2. **One skeptical verify agent per city** re-read every draft spot, applied the safety policy, sanity-checked
+   coordinates against the city centre, kept or nulled the Wikipedia title that drives the photo, and wrote the
+   file. All 44 cities went through this stage — but be clear about what the stage could and could not do:
+
+   **17 of the 44 cities could not reach the web at all.** The session's search budget ran out partway through
+   and the egress proxy refused direct fetches, so for *amsterdam, auckland, barcelona, berkeley, berlin,
+   hong-kong, istanbul, kyoto, lisbon, london, melbourne, mexico-city, mumbai, prague, seoul, singapore and
+   washington-dc* both the research and the review pass ran on the model's own knowledge of the city. Those
+   files say so themselves, in capitals, in their `verifyNotes`. **354 of the 604 spots cite no source of any
+   kind**, and in 8 cities not one spot does. 393 spots carry a Wikipedia title, but many were kept from
+   reviewer knowledge rather than confirmed by a lookup — an unconfirmed title degrades to no photo rather than
+   a wrong one, which is why they were kept.
+
+   Every spot and city carries `verified: true`. That flag means only *a review agent looked at this and did not
+   drop it*. It is not evidence that anything was checked against a source. Read the per-city `verifyNotes` for
+   what actually happened; they are candid, and they are the reason this section can be specific.
 3. `scripts/build-dataset.mjs` validates, de-duplicates and drops anything more than 80 km from its city.
 
 Coordinates are approximate (each carries a confidence level). Hours change; the app only says *open now* when
@@ -90,13 +102,46 @@ the hours text is unambiguous.
 
 Only public places. Excluded: anything involving trespassing, abandoned or derelict sites, active industrial or
 rail land, unlit isolated spots, bar-only or club venues. Legitimate public places with real after-dark concerns
-are kept with a calm, specific *take care* note (lighting, company, terrain), shown as a word and a hollow ring,
-never a red triangle. Night-time picks penalise caution spots and list them under *better in daylight*.
+are kept with a calm, specific *take care* note, shown as a word and a hollow ring, never a red triangle.
+Night-time picks penalise caution spots and list them under *better in daylight*.
+
+A note describes **the place and never the people in it**. Lighting, closing time, how quickly somewhere empties
+out, how far it is from a lit street or a transit stop, terrain, water, traffic, whether it is staffed or gated —
+all fair. The housing status, apparent drug use, ethnicity or general vibe of whoever else is around — never, and
+neither is the reputation of the neighbourhood next door. An unlit path with few exits is reason enough to say
+*go in daylight*; it does not need a second reason, and the second reason is usually the one that turns a travel
+note into a slur. Specific crime claims are held to the same standard as everything else: no source, no claim.
+
+This was not true of the first version of the dataset. Sixteen notes graded a place by who was nearby — four of
+them public libraries, described by the people outside — and a handful leaned on an adjacent neighbourhood's
+reputation instead of on anything you could see. They were rewritten at source. If you find one that still does
+it, that is a bug worth an issue.
 
 ## Stack
 
 Vite 8 · React 19 · TypeScript · three.js · d3-geo / topojson / world-atlas · SunCalc · vitest · Playwright (QA)
-· Google Fonts (Cormorant Garamond, Zen Kaku Gothic New, DM Mono). No backend, no map tiles, no keys.
+· self-hosted Cormorant Garamond, Zen Kaku Gothic New and DM Mono. No backend, no map tiles, no keys.
+
+## Licence
+
+The **code** is MIT — see [`LICENSE`](LICENSE).
+
+The **dataset** (`data/research/*.json` and the files generated from it) is **CC BY 4.0**, licensed separately so
+that MIT does not silently relicense a body of claims about real places. It is not verified, it is not safety
+advice, and it should not be used to decide that an area or its residents are dangerous. [`NOTICE`](NOTICE) sets
+out what it is and is not, and is worth reading before you reuse it.
+
+The **fonts** in `public/fonts/` are SIL OFL 1.1 by their own authors — not covered by the MIT grant above. Their
+licence texts ship beside them, as the OFL requires; see [`public/fonts/README.md`](public/fonts/README.md).
+
+The **globe geometry** is derived from Natural Earth (public domain) via `world-atlas` (ISC). Photographs are
+fetched from Wikimedia Commons at runtime under their own licences and none are redistributed here.
+
+## Contributing
+
+Corrections to the data are the most useful thing you can send — a wrong coordinate, stale hours, a place that
+has closed, or a safety note that describes people instead of the place. Edit `data/research/<city>.json`, run
+`npm run build:data`, and open a pull request. Do not edit `src/data/spots.json`; it is generated.
 
 ## Screens
 

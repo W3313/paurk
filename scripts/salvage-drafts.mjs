@@ -1,5 +1,5 @@
 // Salvages stage-1 research drafts from workflow journals for cities whose verify stage never ran.
-// Writes data/research/<slug>.json with verified:false so the build can treat them honestly.
+// Writes data/research/<slug>.json with reviewed:false so the build can treat them honestly.
 import { readFileSync, readdirSync, existsSync, writeFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 
@@ -30,12 +30,12 @@ for (const dir of readdirSync(base)) {
     const doc = {
       city: r.city, country: r.country, slug: r.slug, region,
       cityLat: r.cityLat, cityLng: r.cityLng, timezone: r.timezone,
-      searchesRun: r.searchesRun, redditSourcedNotes: `${r.redditSourcedNotes ?? ''} VERIFIER NOTE: the independent verify stage for this city did not run (web-search budget and session limit exhausted); spots carry verified:false and were screened only by build-time checks.`,
-      spots: r.spots.map((s) => ({ ...s, verified: false, verifyNote: 'not independently reviewed' })),
+      searchesRun: r.searchesRun, redditSourcedNotes: `${r.redditSourcedNotes ?? ''} VERIFIER NOTE: the independent verify stage for this city did not run (web-search budget and session limit exhausted); spots carry reviewed:false and were screened only by build-time checks.`,
+      spots: r.spots.map((s) => ({ ...s, reviewed: false, verifyNote: 'not independently reviewed' })),
     }
     writeFileSync(file, JSON.stringify(doc, null, 2))
     written++
     console.log(`salvaged ${r.slug}: ${r.spots.length} spots`)
   }
 }
-console.log(`written ${written}, skipped (already verified) ${skipped}`)
+console.log(`written ${written}, skipped (already reviewed) ${skipped}`)

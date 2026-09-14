@@ -55,7 +55,7 @@
         "note": "Well-kept municipal garden on a busy cultural hillside; quiet but not deserted, and it closes at dusk."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real, long-established municipal garden, kept from reviewer knowledge; no search possible. Fixed the Font del Gat position (mid-slope, not the top) and the entrance description."
     },
     {
@@ -88,7 +88,7 @@
         "note": "Ticketed, staffed garden with limited entry; very calm."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known historic garden; Wikipedia title kept because the reviewer is highly confident of the exact English article name, though no search confirmation was possible this session. Softened the visitor-cap and price wording."
     },
     {
@@ -122,7 +122,7 @@
         "note": "Busy, well-known public viewpoint at golden hour; keep phones and bags close in the crowd. Night access is closed by the city, so plan the walk down before closing."
       },
       "lowkeyScore": 1,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real, heavily visited public viewpoint (MUHBA site). Wikipedia title set to null: the exact English article title could not be confirmed this session (may be Turó de la Rovira). Gated closing times unverified; kept as check current times."
     },
     {
@@ -158,7 +158,7 @@
         "note": "No lighting after dark and few people once the runners leave; walk it in daylight, be back at the funicular before nightfall and carry water in summer."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real, popular public trail in Collserola park; kept with caution for the unlit hillside. Coordinates nudged to the funicular stop."
     },
     {
@@ -192,7 +192,7 @@
         "note": "Unlit, unrailed breakwater: use it in daylight, skip it in rough seas or strong onshore wind, and stay on the lit promenade after dark."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real breakwater at the seaward end of Carrer de Bac de Roda; kept but raised to caution because it is an unrailed rock structure with no lighting. Trimmed the claim that visitors never reach these beaches."
     },
     {
@@ -226,7 +226,7 @@
         "note": "Residential square with terraces open late; well lit and populated in the evening."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real, well-known Gràcia square (church of Sant Joan); kept from reviewer knowledge."
     },
     {
@@ -260,7 +260,7 @@
         "note": "Central and lit at night; as in all the Gothic Quarter lanes, keep phones and bags close."
       },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real, famous square; Wikipedia title kept because the reviewer is highly confident of the exact English article name, though no search confirmation was possible this session."
     },
     {
@@ -294,7 +294,7 @@
         "note": "Quiet residential square with terraces open into the evening; well lit."
       },
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real historic square of the former town of Les Corts; kept from reviewer knowledge. Trimmed the nobody-knows-it claim."
     },
     {
@@ -330,7 +330,7 @@
         "note": "Municipal park in a quiet residential area; gates close at dusk."
       },
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real gated municipal hill park; kept from reviewer knowledge. Removed the unverified picnic-tables detail."
     },
     {
@@ -364,7 +364,7 @@
         "note": "Fenced municipal garden, calm and family-friendly."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real municipal garden around the palace; Wikipedia title (palace article, which sits in these gardens) kept because the reviewer is highly confident of the exact English article name; no search confirmation was possible this session."
     },
     {
@@ -397,7 +397,7 @@
         "note": "Central, staffed bookshop in the Eixample."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Long-running bookshop-cafe at Pau Claris 85; kept from reviewer knowledge, hours unverified and marked check site."
     },
     {
@@ -430,7 +430,7 @@
         "note": "Busy, friendly neighbourhood cafe on a lively street."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known cafe at Carrer del Parlament 39; kept from reviewer knowledge. Removed the plugs claim; hours unverified and marked check site."
     },
     {
@@ -464,7 +464,7 @@
         "note": "Staffed public library, open into the evening on weekdays."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real municipal library (opened 2005); kept from reviewer knowledge, hours unverified."
     },
     {
@@ -496,7 +496,7 @@
         "note": "Staffed cultural centre in a busy neighbourhood."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real cultural centre (El Born CCM); Wikipedia title set to null because the exact English article title could not be confirmed this session (may be El Born Centre de Cultura i Memòria). Trimmed unverified bench and cafe-location details."
     }
   ]

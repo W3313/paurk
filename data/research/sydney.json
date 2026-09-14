@@ -47,7 +47,7 @@
       ],
       "safety": { "level": "ok", "note": "Unlit and empty after dark, so treat it as a daytime spot; the Lavender Bay foreshore and Luna Park next door stay busy into the evening." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence and free public access confirmed by search (official site, Destination NSW, Time Out). No en.wikipedia URL surfaced in the search, so wikipediaTitle set to null per the confirmation rule. Blurb softened (derelict removed) and tip added to keep visitors off the adjacent rail corridor."
     },
     {
@@ -68,7 +68,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Staffed and secure; the surrounding Macquarie Street precinct is well lit and busy." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget spent elsewhere). Well-known public library; Wikipedia title kept from reviewer knowledge, conservatively. Hours unverified."
     },
     {
@@ -89,7 +89,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Well-lit foreshore paths with plenty of joggers and walkers well into the evening." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget spent elsewhere). Major public headland park opened 2015; Wikipedia title kept from reviewer knowledge, conservatively. Unverifiable 'regular patrols' claim removed from the safety note."
     },
     {
@@ -110,7 +110,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Quiet residential streets with streetlights; the lawn itself is dark after sunset, though there are usually a few locals watching the skyline. The reserve sits inland of the Dover Heights cliffs, not on them." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched. Known Waverley Council reserve on Military Road, inland from the coastal cliffs; coordinates plausible. Kept null title."
     },
     {
@@ -131,7 +131,7 @@
       "sources": [],
       "safety": { "level": "caution", "note": "Bush tracks are unlit; come at dawn or in daylight and leave before dark. The lookout is fine early with joggers about, and the amphitheatre and mast area are fenced and paved." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched. National park headland with a formal, railed lookout; Wikipedia title kept from reviewer knowledge, conservatively. Gate hours made non-specific."
     },
     {
@@ -155,7 +155,7 @@
       ],
       "safety": { "level": "ok", "note": "Lit paths, apartments overlooking the lawn and a ferry wharf next door; usually a few people around until late." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search confirmed the reserve (24/7, facilities) and the en.wikipedia.org/wiki/Blues_Point article about this headland at the tip of McMahons Point. Coordinates matched a map result; confidence raised to high."
     },
     {
@@ -176,7 +176,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "On a busy main street; treat the sunken level as a daytime spot since it empties out and is dim after dark." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched. Heritage-listed City of Sydney park; Wikipedia title kept from reviewer knowledge, conservatively. Hours unverified."
     },
     {
@@ -197,7 +197,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Busy, well-lit street a short walk from the beach." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched. Long-running Hall Street bookshop cafe known to the reviewer; current hours and trading status unverified, so hours kept vague."
     },
     {
@@ -222,7 +222,7 @@
       ],
       "safety": { "level": "ok", "note": "Staffed public building on Marrickville Road, a short walk from the station." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search confirmed the library (council page, cafe, courtyard gardens, former hospital site) but returned no Wikipedia article, so title stays null. Hours unverified."
     },
     {
@@ -243,7 +243,7 @@
       "sources": [],
       "safety": { "level": "caution", "note": "The hills are unlit after dark; watch the sunset, then head out via the lit paths on the Sydney Park Road side near St Peters station." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched. Large City of Sydney park, well known; Wikipedia title kept from reviewer knowledge, conservatively. Blurb trimmed slightly."
     },
     {
@@ -264,7 +264,7 @@
       "sources": [],
       "safety": { "level": "caution", "note": "Fine at dawn with joggers around; after dark the Domain paths are dim and quiet, so go with company or stick to the lit Art Gallery Road end." },
       "lowkeyScore": 1,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched. Famous landmark; Wikipedia title kept from reviewer knowledge, conservatively."
     },
     {
@@ -285,7 +285,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Well-lit, busy strip of cafes with buses running along it until late." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched. Long-running Glebe Point Road bookshop cafe known to the reviewer; current hours and trading status unverified."
     },
     {
@@ -312,7 +312,7 @@
       ],
       "safety": { "level": "caution", "note": "Unlit bush tracks and unfenced rock ledges; visit in daylight or for sunset, keep to the marked track and leave before full dark." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search confirmed the reserve (public nature reserve on Balls Head Drive, Waverton, North Sydney Council) and the en.wikipedia.org/wiki/Balls_Head_Reserve article. Gate hours made non-specific."
     },
     {
@@ -338,7 +338,7 @@
       ],
       "safety": { "level": "ok", "note": "No lifeguards and the rocks get slippery when wet; swim only in calm conditions and keep it to daylight since there is no lighting at night." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search confirmed the bay between Clovelly and Coogee, the underwater trail and the en.wikipedia.org/wiki/Gordon's_Bay_(Australia) article; title added. Coordinates matched a map result; confidence raised to high. Access tip made generic (coastal walk) rather than naming a specific street stair."
     }
   ]

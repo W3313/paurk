@@ -33,7 +33,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Enclosed OPW park with staff on site; daytime only as the gates are locked at closing." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known OPW garden; Wikipedia title kept on reviewer knowledge (not searched)."
     },
     {
@@ -58,7 +58,7 @@
       ],
       "safety": { "level": "ok", "note": "Walled council park overlooked by houses; gates lock at dusk." },
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Confirmed as a Dublin City Council park; Wikipedia title confirmed from search result URL."
     },
     {
@@ -79,7 +79,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Staffed public museum inside the Dublin Castle grounds." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known national museum; Wikipedia title kept on reviewer knowledge (not searched)."
     },
     {
@@ -100,7 +100,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Staffed national library with security at the door." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known institution; Wikipedia title kept on reviewer knowledge (not searched)."
     },
     {
@@ -121,7 +121,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Towpath is lit and busy till late in summer; Portobello harbour can get rowdy and littered on warm nights, so head east of Leeson Street bridge for quiet and keep back from the unfenced water edge after dark." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Public canal towpath; no specific Wikipedia article for this stretch, so title left null."
     },
     {
@@ -145,7 +145,7 @@
       ],
       "safety": { "level": "ok", "note": "Promenade is lit and residential; stay off the sand flats after dark and never walk far out on an incoming tide." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title confirmed from search result URL; tide hazard noted in the article, reflected in tips and note."
     },
     {
@@ -166,7 +166,7 @@
       "sources": [],
       "safety": { "level": "caution", "note": "The wall is unlit, unrailed and exposed; walk it in daylight or at sunset with time to get back before dark, and never in storms or high swell." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Long-established public walk; Wikipedia title kept on reviewer knowledge (not searched). Kept at caution for exposure."
     },
     {
@@ -187,7 +187,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Lit promenade beside a busy road and houses; joggers and walkers around until late." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Public seafront path; no dedicated Wikipedia article, title left null."
     },
     {
@@ -208,7 +208,7 @@
       "sources": [],
       "safety": { "level": "caution", "note": "Unlit and empty after dark; for stargazing stay near the causeway car park, go with a friend, and do not leave valuables in the car." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known nature reserve; Wikipedia title kept on reviewer knowledge (not searched)."
     },
     {
@@ -229,7 +229,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Staffed OPW gardens; daytime only." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known national gardens; Wikipedia title kept on reviewer knowledge (not searched)."
     },
     {
@@ -250,7 +250,7 @@
       "sources": [],
       "safety": { "level": "caution", "note": "Unlit after dark and some paths pass steep drops; leave the summit with enough light to get back to the car park or the road." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known dlr council park; Wikipedia title kept on reviewer knowledge (not searched)."
     },
     {
@@ -274,7 +274,7 @@
       ],
       "safety": { "level": "ok", "note": "City-centre shop on a main street beside Trinity College." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Confirmed open at 17 D'Olier Street with first-floor cafe; no English Wikipedia article for the shop, so title set to null."
     },
     {
@@ -299,7 +299,7 @@
       ],
       "safety": { "level": "ok", "note": "Enclosed council park overlooked by houses; daytime only as the gates lock at dusk." },
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Confirmed as a Dublin City Council park; Wikipedia article is about the ruined church inside the park, confirmed from search result URL."
     }
   ]

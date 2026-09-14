@@ -56,7 +56,7 @@
         "note": "Lit lookout on a road with steady foot and bike traffic until late; Mount Royal Park closes at midnight."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known lookout on Camillien-Houde Way; search confirmed the road reopened after June-July 2026 resurfacing and that the through-traffic closure plan was paused in Aug 2025. No dedicated English Wikipedia article, so title left null. Coordinates from knowledge."
     },
     {
@@ -80,7 +80,7 @@
         "note": "Lit terrace and paved paths with people around late; the wooded trails are dark after sunset, so take the main road or the Peel stairs down."
       },
       "lowkeyScore": 1,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence and coordinates certain. Wikipedia title 'Kondiaronk Belvedere' kept from verifier's knowledge; not confirmed by search (budget exhausted). No source URLs seen in search."
     },
     {
@@ -104,7 +104,7 @@
         "note": "Well lit around the ponds and busy until late in summer; the park closes at midnight."
       },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence and coordinates certain. Wikipedia title 'La Fontaine Park' kept from verifier's knowledge; not confirmed by search. No source URLs seen in search."
     },
     {
@@ -128,7 +128,7 @@
         "note": "Fine by day; the island empties at dusk and the garden paths are dim, so leave before dark."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real Parc Jean-Drapeau garden south-west of the Casino; coordinates moved slightly toward the canal gardens from knowledge (draft point was nearer the Cosmos bridge). No English Wikipedia article known; not searched. No source URLs seen in search."
     },
     {
@@ -152,7 +152,7 @@
         "note": "Lit and patrolled, with people around until late in summer; quieter but still lit in the off-season."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence and coordinates certain. Wikipedia title 'Montreal Clock Tower' kept from verifier's knowledge; not confirmed by search. Hours softened from '24h' to avoid overclaiming. No source URLs seen in search."
     },
     {
@@ -176,7 +176,7 @@
         "note": "Residential and calm; the main path is lit but the park is quiet after dark, so it suits mornings and evenings more than late night."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real Mercier-Hochelaga-Maisonneuve riverside park (Parc de la Promenade-Bellerive, rue Bellerive). Coordinates re-estimated from knowledge to the park's west half just north-east of the Lafontaine tunnel portal; not confirmed by search, so treat as approximate. No English Wikipedia article known. No source URLs seen in search."
     },
     {
@@ -200,7 +200,7 @@
         "note": "Paths near the entrances are lit and there are people at dusk; the far loops are dark and empty later, so stay near the Jarry/TOHU entrance after dark or leave once the spheres come on."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real park on the former Miron quarry (Saint-Michel Environmental Complex). Wikipedia title 'Frédéric-Back Park' kept from verifier's knowledge; not confirmed by search. Removed 'stargaze' vibe since the park has closing hours. No source URLs seen in search."
     },
     {
@@ -224,7 +224,7 @@
         "note": "Secure, staffed building above a busy metro; the Émilie-Gamelin plaza on the Berri side can be unsettling late at night, so exit via the de Maisonneuve doors."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence, address (475 de Maisonneuve E) and coordinates certain. Wikipedia title 'Grande Bibliothèque' kept from verifier's knowledge; not confirmed by search. Hours from knowledge, hedged. No source URLs seen in search."
     },
     {
@@ -264,7 +264,7 @@
         "note": "Staffed building in a residential area; the surrounding park is lit and quiet."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search confirmed the conservatory reopened 23 June 2022 after a seven-year restoration, free, about 10am-8pm weekdays and 10am-5pm weekends (2022 reporting; re-check). Renamed from 'Greenhouse' to the official 'Conservatory'. Wikipedia title 'Westmount Public Library' kept from verifier's knowledge; not confirmed by search."
     },
     {
@@ -304,7 +304,7 @@
         "note": "Busy, well-lit stretch of Sherbrooke Street; no concerns."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search confirmed the cafe at 1448 Sherbrooke St W with 2026 listings and an active official site. Corrected the draft: it is basement-level and does not allow laptops, so the 'study' vibe and laptop framing were removed."
     },
     {
@@ -349,7 +349,7 @@
         "note": "Paths are lit near the parking and boulevard LaSalle; further along the bank it is dark after sunset, so treat it as an evening rather than a late-night spot."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence and English Wikipedia title 'Des Rapides Park' confirmed by search (en.wikipedia.org/wiki/Des_Rapides_Park); 30 ha, heron colony, 1937 sanctuary and 1897 hydro-station ruins confirmed. Coordinates from knowledge."
     },
     {
@@ -389,7 +389,7 @@
         "note": "No lighting and few people after dark; use it by day and around golden hour. The active CP rail line along the north edge is fenced: never cross the tracks, use the street crossings."
       },
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search confirmed it is a real, publicly accessible green space in Plateau-Mont-Royal managed by Les Amis du Champ des Possibles (about 9,000 m2, former CP rail sorting land, now a designated public space, not active rail land). Only a French Wikipedia article was found, so the title stays null. Removed 'stargaze' vibe given the daytime-only caution. Coordinates from knowledge."
     },
     {
@@ -413,7 +413,7 @@
         "note": "Staffed grounds with lit terraces, on a busy road a short walk from Côte-des-Neiges metro."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence and coordinates certain. Wikipedia title 'Saint Joseph's Oratory' kept from verifier's knowledge; not confirmed by search. Hours hedged. No source URLs seen in search."
     },
     {
@@ -437,7 +437,7 @@
         "note": "Staffed park in season; trails are unlit and the park closes in the evening, so it is a daytime and golden-hour spot."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real city nature park at the north-west tip of the island; coordinates from knowledge (medium). Wikipedia title 'Cap-Saint-Jacques Nature Park' kept from verifier's knowledge; not confirmed by search. Removed the stargazing/night framing since the park has closing hours. No source URLs seen in search."
     }
   ]

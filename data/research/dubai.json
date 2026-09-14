@@ -33,7 +33,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Well-lit, patrolled and populated until late; fine for solo walkers." },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real Meraas-run public promenade on the Creek; verified from prior knowledge (search budget spent elsewhere). No dedicated Wikipedia article known, title left null."
     },
     {
@@ -54,7 +54,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Quiet heritage lanes; lit and safe, though most cafes close by 10pm." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known heritage district, publicly accessible. Wikipedia title kept from prior knowledge of the exact article name (not individually searched)."
     },
     {
@@ -75,7 +75,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Staffed public building with security." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Opened 2022, free public entry. 'More than a million books' softened to capacity. Hours from prior knowledge, marked check. Wikipedia title kept from prior knowledge (not individually searched)."
     },
     {
@@ -96,7 +96,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Staffed venue; the outdoor sculpture park is lit but quiet after the centre closes." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real free-entry art centre (Art Jameel) with adjoining public sculpture park; verified from prior knowledge. 'Nearly yours alone' softened. Wikipedia title kept from prior knowledge (not individually searched)."
     },
     {
@@ -117,7 +117,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Privately managed arts compound with security; surrounding industrial streets are dull but safe." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Established, publicly accessible arts district (not active industrial land itself). Removed an unverified 'Sat-Thu' gallery-days claim. Wikipedia title kept from prior knowledge (not individually searched)."
     },
     {
@@ -138,7 +138,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Well-lit loop with steady foot traffic into the late evening." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real Dubai Municipality park in Al Barsha 2; verified from prior knowledge. Softened an unverified claim about which lawn faces the Burj Al Arab. No Wikipedia article known."
     },
     {
@@ -159,7 +159,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Popular and patrolled; the main strip is lit at night, the far northern end is darker so stay near the track after dark." },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Major public beach; verified from prior knowledge. No dedicated English Wikipedia article known, title left null."
     },
     {
@@ -183,7 +183,7 @@
       ],
       "safety": { "level": "ok", "note": "Staffed hide, daylight hours only; access is via a roadside car park." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search confirmed free entry, three public hides and seasonal daylight hours; Fri-Sat closure comes from third-party guides and is flagged as such. Wikipedia title kept from prior knowledge (not individually searched)."
     },
     {
@@ -204,7 +204,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Continuously lit with regular foot and bike traffic; fine for solo night walks." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Public canal promenade; verified from prior knowledge. Removed an unverified 'mangrove edge' claim and an unverified 'patrolled' claim. Wikipedia title kept from prior knowledge (article covers the canal itself)."
     },
     {
@@ -228,7 +228,7 @@
       ],
       "safety": { "level": "caution", "note": "Remote desert with no lighting or shops; go with a friend after dark, stay near the lakes and cycle track, and bring water and a full tank." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search confirmed the lakes (part of Al Marmoom reserve, ~43km from centre). 'Al Qudra Lakes' on English Wikipedia is a redirect page, not an article, so wikipediaTitle set to null; the reserve and Love Lake articles are attached as sources only. Kept as caution: legitimate public site, remote and unlit."
     },
     {
@@ -249,7 +249,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Gated, staffed municipal park; lit paths until closing." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Major municipal park, AED 5 entry; verified from prior knowledge. Trimmed 'the park' overclaim and an unverified gate-side tip. Wikipedia title kept from prior knowledge (not individually searched)."
     },
     {
@@ -270,7 +270,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Gated municipal park with lifeguards during opening hours." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real municipal beach park, verified from prior knowledge. Search found no dedicated English Wikipedia article (only the Al Mamzar district article), so wikipediaTitle set to null."
     },
     {
@@ -291,7 +291,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Lit path in a residential area; quiet but overlooked by apartments." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real Nakheel-built public park on the Palm trunk (opened 2012); verified from prior knowledge. Replaced an unverified 'northern end near Shoreline' orientation tip. No Wikipedia article known."
     }
   ]

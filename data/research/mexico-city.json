@@ -41,7 +41,7 @@
         "note": "Staffed, busy public building next to Buenavista station; the surrounding streets are fine by day and quieter after dark, so leave when it closes."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known public library; not searched (budget spent on doubtful items). Wikipedia title kept from reviewer knowledge, not confirmed live. Hours from memory."
     },
     {
@@ -69,7 +69,7 @@
         "note": "Staffed building on a busy plaza; leave by closing time, as the streets around Balderas empty out after dark."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence confirmed by search (official site, CDMX venue page). Wikipedia title corrected to the confirmed English article 'Biblioteca de México José Vasconcelos'. Hours from memory."
     },
     {
@@ -93,7 +93,7 @@
         "note": "Well-lit Condesa corner with restaurants all around; comfortable at night."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known FCE bookshop on Tamaulipas; not searched. 'Stay as long as you like without buying' softened. Hours from memory."
     },
     {
@@ -117,7 +117,7 @@
         "note": "Polanco streets are well-lit and busy into the evening."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Long-running branch on Alejandro Dumas; not searched. Hours from memory."
     },
     {
@@ -141,7 +141,7 @@
         "note": "Inside the fenced first section of the park with guards nearby; it closes well before dusk."
       },
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Established park feature; not searched. Coordinates nudged toward the north foot of the castle hill by the Baños de Moctezuma; still medium confidence. Hours from memory."
     },
     {
@@ -170,7 +170,7 @@
         "note": "Quiet residential streets; the park is fenced and closes in the evening."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence and free entry confirmed by search (official CDMX page, es.wikipedia); hours reported as 8am-9pm, replacing the draft's guess. Draft's '2023 restoration' not supported (sources cite a 2014 remodel), so the date was removed and 'few outsiders know it' softened. No English Wikipedia article surfaced."
     },
     {
@@ -194,7 +194,7 @@
         "note": "Fenced, busy and staffed throughout opening hours."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known national park/nursery; not searched. Wikipedia title kept from reviewer knowledge, not confirmed live."
     },
     {
@@ -218,7 +218,7 @@
         "note": "Well-lit with restaurants around it; fine until late evening, quieter after midnight."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Established Roma Norte plaza; not searched. No English Wikipedia article known."
     },
     {
@@ -246,7 +246,7 @@
         "note": "Open campus land with no lighting; visit in daylight, leave before dusk, and ideally go with a friend."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence and public access confirmed by search (UNAM sources, Time Out). Only the Spanish Wikipedia article surfaced, so wikipediaTitle set to null. Tip encouraging scrambling onto the lava removed; it is a protected reserve."
     },
     {
@@ -275,7 +275,7 @@
         "note": "Busy and well-lit into the evening; the side streets get quiet late, so after about 10pm go with a friend or take a taxi."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Confirmed by search; Wikipedia title corrected from 'Kiosco Morisco' to the confirmed English article 'Morisco Kiosk'. Kiosk history in blurb corrected to match sources (1884 New Orleans exposition, reopened here 1910)."
     },
     {
@@ -299,7 +299,7 @@
         "note": "Patrolled sanctuary grounds, busy by day; leave with the crowds when the gardens close."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known sanctuary hill; not searched. 'Tepeyac' is the English article on the hill itself, kept from reviewer knowledge, not confirmed live."
     },
     {
@@ -327,7 +327,7 @@
         "note": "Large and sparsely staffed; stay on the main lakeside path, go with a friend on quiet weekdays and leave before closing."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence confirmed by search (SEDEMA, WWF, es.wikipedia). Only Spanish Wikipedia / Wikidata surfaced, so wikipediaTitle set to null. Opening days/hours and free pedestrian entry not confirmed; hours left as 'check'."
     },
     {
@@ -351,7 +351,7 @@
         "note": "Inside a department store on a busy, well-lit corner; the surrounding Centro streets stay busy until about 10pm."
       },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known café; not searched. Hours from memory."
     },
     {
@@ -375,7 +375,7 @@
         "note": "Stay on the main trails near the monastery and go with a friend on quiet weekdays; the forest closes at 5pm and there is no lighting."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known national park; not searched. Wikipedia title kept from reviewer knowledge, not confirmed live. Hours from memory."
     }
   ]

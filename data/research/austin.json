@@ -49,7 +49,7 @@
         "note": "Busy, well-trodden public park; stone steps are uneven, and the park closes at 10pm."
       },
       "lowkeyScore": 1,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title kept on reviewer knowledge (search budget spent). Elevation wording corrected: 775 ft is above sea level, not above the river."
     },
     {
@@ -100,7 +100,7 @@
         "note": "Quiet residential park; gardens are best visited in daylight and the trails are unlit."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence and peacock history confirmed by search; no English Wikipedia article URL surfaced, so title left null."
     },
     {
@@ -137,7 +137,7 @@
         "note": "Staffed public building with security; the surrounding Seaholm district is well lit at night."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title kept on reviewer knowledge. Coordinates nudged west to the Cesar Chavez / Shoal Creek block."
     },
     {
@@ -186,7 +186,7 @@
         "note": "The boardwalk itself is lit and steadily used, but the wider trail has had isolated assaults reported on its quieter, unlit stretches after dark in recent years. Late in the evening stay on the lit boardwalk near other walkers, and skip the unlit trail segments beyond Lakeshore Park."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Trail and boardwalk confirmed via official page; no Wikipedia article URL surfaced in search, title set to null. Safety raised to caution for the unlit trail sections after dark."
     },
     {
@@ -224,7 +224,7 @@
         "note": "Well-lit paths surrounded by apartments and restaurants; comfortable to walk alone in the evening."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Kept on reviewer knowledge; not re-searched (budget spent)."
     },
     {
@@ -259,7 +259,7 @@
         "note": "Quiet residential neighborhood; grounds are unlit after dark."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title kept on reviewer knowledge (high confidence); hours flagged to check."
     },
     {
@@ -310,7 +310,7 @@
         "note": "Unlit, unsigned wooded trail with no staff, and Longhorn Dam releases can raise the river quickly; swimming is prohibited. Visit in daylight with a friend, stay on the sand, and expect some trash and glass from nearby encampments."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence confirmed by search; sources confirm swimming is illegal here due to dam releases and note encampment debris, so the blurb and tips were rewritten and the spot is daylight-only caution. 'solo' vibe removed."
     },
     {
@@ -347,7 +347,7 @@
         "note": "Busy, staffed venue with a lit deck and parking lot late into the evening."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Kept on reviewer knowledge; not re-searched (budget spent). Hours flagged to check."
     },
     {
@@ -381,7 +381,7 @@
         "note": "Staffed and populated whenever open; North Loop Blvd is a lit commercial strip."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Kept on reviewer knowledge; 24-hour claim softened because current hours are unconfirmed."
     },
     {
@@ -419,7 +419,7 @@
         "note": "Open, lit park next to the Long Center and Palmer Events Center; steady foot traffic until closing."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Kept on reviewer knowledge; 'compass-rose' detail removed as unconfirmed."
     },
     {
@@ -464,7 +464,7 @@
         "note": "Staffed, gated garden open daytime only."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia article confirmed by search (en.wikipedia.org/wiki/Umlauf_Sculpture_Garden_and_Museum)."
     },
     {
@@ -511,7 +511,7 @@
         "note": "Lit paths and regular park staff presence; bordered by the medical district and the Capitol complex."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence, size and 2021 reopening confirmed by search; no Wikipedia article URL for the park surfaced (only 'Waterloo, Texas'), title left null."
     },
     {
@@ -547,7 +547,7 @@
         "note": "Campus is lit and patrolled by UT police around the clock."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Kept on reviewer knowledge; not re-searched (budget spent). 'koi' detail removed."
     }
   ]

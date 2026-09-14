@@ -21,8 +21,8 @@ export function AboutDialog({ open, onClose }: Props) {
       <div className="dialog dialog--about about">
         <button type="button" className="word word--quiet dialog-close" onClick={onClose}>close</button>
         <p className="display" style={{ fontSize: 'var(--t-display-m)', fontStyle: 'italic', color: 'var(--ink-2)' }}>Paurk</p>
-        <p>Somewhere to breathe, wherever, whenever. {spots.length} low-key places in {cities.length} cities, gathered from what locals recommend online and checked one by one.</p>
-        <p>We only list public places. Caution notes are about lighting and company after dark, not about crime statistics. Check hours locally; things change.</p>
+        <p>Somewhere to breathe, wherever, whenever. {spots.length} low-key places in {cities.length} cities, gathered from what locals recommend online. Every entry was read back and sanity-checked; about 250 of them cite a source, and the rest are written from a reviewer&rsquo;s own knowledge of the city.</p>
+        <p>We only list public places. A caution note describes the place &mdash; how well lit it is, when it closes, how quiet it gets after dark, what the ground and the water do &mdash; and never the people who use it. It is not a crime statistic and not safety advice. Check hours locally; things change.</p>
         <p>Your location is looked at once, on this device, only when you ask. Nothing leaves it. Saved spots live in this browser.</p>
         <p className="small">Photographs come from Wikimedia Commons under their own licences; when there is none, a poster is drawn from the spot's notes. Sun times are computed here; weather, when shown, is from Open-Meteo.</p>
         <div className="words" style={{ gap: '10px 24px' }}>

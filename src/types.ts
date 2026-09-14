@@ -31,7 +31,7 @@ export interface Spot {
   safety: { level: 'ok' | 'caution'; note: string }
   lowkeyScore: number
   /** false when the independent review stage did not run for this spot */
-  verified: boolean
+  reviewed: boolean
 }
 
 export interface City {
@@ -43,7 +43,7 @@ export interface City {
   lng: number
   timezone: string
   spotCount: number
-  verified: boolean
+  reviewed: boolean
 }
 
 /** The prose half of a spot, loaded on demand: it is two thirds of the corpus and only the spot page shows it. */

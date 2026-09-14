@@ -90,7 +90,7 @@
         "note": "Public park with lamp-lit paths and people around until late in summer; the island is small and exits are on the bridge."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title corrected to the English article 'Střelecký Island' (search-confirmed en.wikipedia URL). GitHub-hosted sources re-fetched from raw.githubusercontent.com at the cited commits and confirmed to mention this spot."
     },
     {
@@ -144,7 +144,7 @@
         "note": "Well lit and populated into the night; the stairs down to the river are steep but lit."
       },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title 'Letná Park' search-confirmed. jan-safar guide.md fetched and the #letna anchor confirmed; blurb wording adjusted to match its actual text. GitHub-hosted sources re-fetched from raw.githubusercontent.com at the cited commits and confirmed to mention this spot."
     },
     {
@@ -191,7 +191,7 @@
         "note": "Busy and lit along the main paths; the lawn itself is dark after the sun sets."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title set to null: a search restricted to en.wikipedia.org surfaced Riegrovy sady only inside the 'Vinohrady' district article, and the search budget ran out before a dedicated article could be confirmed. Old-pattern prague.eu URL dropped (not seen in any search result). GitHub-hosted sources re-fetched from raw.githubusercontent.com at the cited commits and confirmed to mention this spot."
     },
     {
@@ -245,7 +245,7 @@
         "note": "Main paths are lit and there are usually dog walkers and couples until late; corners of the park are dim after dark."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title 'Vyšehrad' kept from reviewer knowledge (well-established article about this fortress); search budget was exhausted before it could be re-checked. GitHub-hosted sources re-fetched from raw.githubusercontent.com at the cited commits and confirmed to mention this spot."
     },
     {
@@ -293,7 +293,7 @@
         "note": "Lit and busy until late, especially in summer; the edge to the water is unfenced, so keep back from it after drinks."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Dropped the prague.eu markets URL: it did not appear in any search result or in any of the fetched source pages. No dedicated English Wikipedia article known for the embankment. GitHub-hosted sources re-fetched from raw.githubusercontent.com at the cited commits and confirmed to mention this spot."
     },
     {
@@ -348,7 +348,7 @@
         "note": "Gated garden with staff; closes at 6pm."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "No standalone English article for the garden; search confirmed en.wikipedia.org/wiki/Wallenstein_Palace, which covers the palace-and-garden complex, so that title is used for the photo. prague.eu URL was cited verbatim in the resident's guide; VisitCzechia page surfaced in search. GitHub-hosted sources re-fetched from raw.githubusercontent.com at the cited commits and confirmed to mention this spot."
     },
     {
@@ -398,7 +398,7 @@
         "note": "Residential lane, lit but very quiet after dark."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search found only the Czech Wikipedia article and Wikidata for the street, no en.wikipedia URL, so the title stays null. Official prague.eu page surfaced in search and was added. GitHub-hosted sources re-fetched from raw.githubusercontent.com at the cited commits and confirmed to mention this spot."
     },
     {
@@ -449,7 +449,7 @@
         "note": "Main avenues are lit; interior paths are dark after dusk, so stick to the lit routes at night."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title 'Stromovka' search-confirmed. GitHub-hosted sources re-fetched from raw.githubusercontent.com at the cited commits and confirmed to mention this spot."
     },
     {
@@ -496,7 +496,7 @@
         "note": "Gated park with daytime hours; gates close in the evening."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title set to null: the en.wikipedia-restricted search returned the park only as a mention inside the 'Vinohrady' article and the budget ran out before a dedicated article could be confirmed. GitHub-hosted sources re-fetched from raw.githubusercontent.com at the cited commits and confirmed to mention this spot."
     },
     {
@@ -554,7 +554,7 @@
         "note": "The plateau by the statue is lit at night, but the wooded access paths are dim and empty; go with a friend after dark or use the lit road from Husitská."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search confirmed en.wikipedia.org/wiki/National_Monument_at_Vítkov, the memorial and statue on this exact plateau, so that title is used. Old-pattern prague.eu URL replaced with the current official page seen in search. GitHub-hosted sources re-fetched from raw.githubusercontent.com at the cited commits and confirmed to mention this spot."
     },
     {
@@ -600,7 +600,7 @@
         "note": "Unlit nature reserve with uneven rock paths; a daylight spot, so plan to be back at the tram before dark."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title 'Divoká Šárka' kept from reviewer knowledge (established article about this nature reserve); search budget exhausted before re-check. Blurb and tips reworded to keep people on the valley trail rather than on the rocks. Old-pattern prague.eu URL dropped. GitHub-hosted sources re-fetched from raw.githubusercontent.com at the cited commits and confirmed to mention this spot."
     },
     {
@@ -645,7 +645,7 @@
         "note": "Indoor venue on a quiet street; well lit and staffed until closing."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Long-running venue at Tusarova 31 kept from reviewer knowledge; no search spent on it. Hours are approximate. GitHub-hosted sources re-fetched from raw.githubusercontent.com at the cited commits and confirmed to mention this spot."
     },
     {
@@ -685,7 +685,7 @@
         "note": "Staffed public building in the city centre."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title kept from reviewer knowledge (established article about this library system and its central building); search budget exhausted before re-check. Card claim softened. GitHub-hosted sources re-fetched from raw.githubusercontent.com at the cited commits and confirmed to mention this spot."
     },
     {
@@ -730,7 +730,7 @@
         "note": "Busy tram street outside, cafe lit and staffed until closing."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence confirmed by search (Praha 1 district page, Yelp listing updated May 2026, Tripadvisor); hours updated from those listings. GitHub-hosted sources re-fetched from raw.githubusercontent.com at the cited commits and confirmed to mention this spot."
     }
   ]

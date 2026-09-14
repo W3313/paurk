@@ -72,7 +72,7 @@
       ],
       "safety": {"level": "ok", "note": "Privately managed public plaza with building security; well lit until closing."},
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Exists; confirmed by search. Only Wikipedia article is for the 55 Water Street tower, not the plaza, so title left null."
     },
     {
@@ -97,7 +97,7 @@
       ],
       "safety": {"level": "ok", "note": "Staffed pocket park on a busy Midtown block; gates lock at closing."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known POPS; Wikipedia article title kept from reviewer knowledge (not searched)."
     },
     {
@@ -122,7 +122,7 @@
       ],
       "safety": {"level": "ok", "note": "Staffed public library with security at the entrance."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Terrace hours and Sunday closure confirmed by search; Wikipedia title confirmed."
     },
     {
@@ -147,7 +147,7 @@
       ],
       "safety": {"level": "ok", "note": "Well lit, staffed and steadily populated into the evening."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Public rooftop park exists; Wikipedia 'Pier 57' is the Manhattan pier article (reviewer knowledge). Hours hedged."
     },
     {
@@ -172,7 +172,7 @@
       ],
       "safety": {"level": "ok", "note": "Walled church garden on a calm residential block; gates close at dusk."},
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Church garden is publicly open; Wikipedia article is for the church that owns the garden (reviewer knowledge)."
     },
     {
@@ -197,7 +197,7 @@
       ],
       "safety": {"level": "ok", "note": "Gated garden with Conservancy staff; locked at posted closing time."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Stripped tracking parameter from the Conservancy URL; Wikipedia title from reviewer knowledge."
     },
     {
@@ -222,7 +222,7 @@
       ],
       "safety": {"level": "ok", "note": "Small staffed museum on a residential block."},
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Weekend hours corrected to 2-5pm from reviewer knowledge of the museum's posted hours; neighborhood corrected (107th St is UWS/Manhattan Valley, not Morningside Heights)."
     },
     {
@@ -247,7 +247,7 @@
       ],
       "safety": {"level": "ok", "note": "Busy, well-lit avenue by Columbia; steady foot traffic late."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title 'The Hungarian Pastry Shop' confirmed by search; Fodor's literary-haunt claim confirmed in that article."
     },
     {
@@ -272,7 +272,7 @@
       ],
       "safety": {"level": "ok", "note": "Main paths near the Cloisters and the terrace are lit and used by neighbors into the evening; deeper trails are dim after dark, so stay on the main loop at night."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Coordinates place the point inside Fort Tryon Park; terrace-level precision is medium."
     },
     {
@@ -297,7 +297,7 @@
       ],
       "safety": {"level": "caution", "note": "Forest trails are unlit and empty after dark. If you stay for stars, keep to the open lawn and lit paths by the salt marsh near Indian Road and bring a friend."},
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Legitimate city park; kept as caution for unlit trails at night."
     },
     {
@@ -322,7 +322,7 @@
       ],
       "safety": {"level": "ok", "note": "Well lit, state-park patrolled and populated until the 10pm close."},
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Popular but genuinely calm late; kept."
     },
     {
@@ -345,7 +345,7 @@
       ],
       "safety": {"level": "ok", "note": "Staffed park that closes at sunset; the walk back to the subway along Broadway is busy and lit."},
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Dropped the karpo.ai 'scenario' page as an unreliable source and the blurb line that leaned on it."
     },
     {
@@ -370,7 +370,7 @@
       ],
       "safety": {"level": "ok", "note": "Lively at golden hour. Red Hook streets are quiet and transit is sparse after dark, so plan your route home before it gets late."},
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence confirmed by search (NYC Parks, Atlas Obscura); no Wikipedia article found, title left null."
     },
     {
@@ -395,7 +395,7 @@
       ],
       "safety": {"level": "ok", "note": "Busy neighborhood park with lit hilltop paths; it thins out late, so sunset and early evening are the natural windows."},
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title 'Sunset Park (Brooklyn park)' confirmed by search; 24.5-acre size and 41st-44th St bounds match. Draft's 7am-10pm hours were unsourced, replaced with the NYC Parks default and a check-signs hedge."
     }
   ]

@@ -41,7 +41,7 @@
       ],
       "safety": { "level": "ok", "note": "Well lit and patrolled until closing; steady foot traffic from the South of Fifth condos in the evening." },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence and Wikipedia title confirmed by search (miamibeachfl.gov parks directory; en.wikipedia.org/wiki/South_Pointe_Park, 17-acre park at Government Cut)."
     },
     {
@@ -65,7 +65,7 @@
       ],
       "safety": { "level": "caution", "note": "Closes at sunset and the shoreline path is unlit, so plan to leave before dark; fine and quiet during the day." },
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence and Wikipedia title confirmed by search (miami.gov parks directory, 2845 Brickell Ave; en.wikipedia.org/wiki/Alice_Wainwright_Park). Acreage corrected to 28 per the article."
     },
     {
@@ -86,7 +86,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Popular with joggers and dog walkers until dusk; the park closes at sunset." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget spent elsewhere); well-known City of Miami park at 2400 S Bayshore Dr, verified from reviewer knowledge. No Wikipedia article known, so title left null."
     },
     {
@@ -107,7 +107,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Staffed garden with controlled entry; closes mid-afternoon." },
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget); National Tropical Botanical Garden property at 4013 Douglas Rd, verified from reviewer knowledge. Wikipedia title 'The Kampong' kept on high confidence but not search-confirmed."
     },
     {
@@ -128,7 +128,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Gated county park with lifeguards at the atoll pool during the day; closes at sunset." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget); long-established Miami-Dade County park at 9610 Old Cutler Rd, verified from reviewer knowledge. Wikipedia title kept on high confidence but not search-confirmed."
     },
     {
@@ -152,7 +152,7 @@
       ],
       "safety": { "level": "ok", "note": "Central Coral Gables with foot traffic and lit streets into the evening." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence confirmed by search (official store page, 265 Aragon Ave, 1927 historic building). Search returned no English Wikipedia article for the bookstore, so wikipediaTitle set to null."
     },
     {
@@ -173,7 +173,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Staffed public building; the plaza is busiest and most comfortable during weekday working hours." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget); Main Library of the Miami-Dade Public Library System at 101 W Flagler St, verified from reviewer knowledge. The only Wikipedia article is about the library system, not this building, so title left null."
     },
     {
@@ -194,7 +194,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Lit paths and museum security presence; late at night stay on the museum side rather than the north end near the causeway." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget); the former Museum Park / Bicentennial Park, renamed in 2019, verified from reviewer knowledge. Wikipedia title kept on high confidence (article moved to the new name) but not search-confirmed."
     },
     {
@@ -215,7 +215,7 @@
       "sources": [],
       "safety": { "level": "caution", "note": "Lit by the bridge and towers but small and often empty after dark; visit in daylight or at dusk, and at night stay on the riverwalk by the bridge and tower entrance rather than the far lawn." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget); National Historic Landmark archaeological site at Brickell Point, public park managed with HistoryMiami, verified from reviewer knowledge. Wikipedia title 'Miami Circle' is the article on this site (high confidence, not search-confirmed). Downgraded to caution and removed the 24h/night framing."
     },
     {
@@ -236,7 +236,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Lit and busy with joggers and cyclists through the evening; regular Metrorail and city presence." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget); the Brickell Backyard segment of The Underline (opened 2021) verified from reviewer knowledge. Wikipedia title 'The Underline' kept on high confidence but not search-confirmed."
     },
     {
@@ -261,7 +261,7 @@
       ],
       "safety": { "level": "ok", "note": "Gated and staffed garden; closes at 5pm." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence, Wikipedia title, free admission and Tue-Sun 9-5 hours confirmed by search (en.wikipedia.org/wiki/Miami_Beach_Botanical_Garden; mbgarden.org). Size corrected from three acres to 2.6."
     },
     {
@@ -282,7 +282,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Inside a gated residential area with a park attendant during the day; closes at sunset." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget); City of Miami park at 750 NE 55th Terrace inside the gated Morningside neighborhood (public access), verified from reviewer knowledge. No confirmed Wikipedia article, title left null."
     },
     {
@@ -303,7 +303,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Gated county park with rangers; closes at sunset." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget); Miami-Dade County park at 17530 W Dixie Hwy (NRHP-listed), verified from reviewer knowledge; coordinates nudged about 1 km north to the park itself. Wikipedia title kept on high confidence but not search-confirmed."
     },
     {
@@ -328,7 +328,7 @@
       ],
       "safety": { "level": "ok", "note": "Busy daytime street; the cafe closes in the early evening." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence confirmed by search: 1657 N Miami Ave Ste C, still operating in 2026 (official locations page, recent press on a fourth location). Coordinates set from the map listing in the results."
     }
   ]

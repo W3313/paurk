@@ -16,7 +16,7 @@
   "redditSourcedNotes": "Researcher stage ran no searches (budget exhausted); all 14 draft spots came from prior knowledge. Review stage had a hard cap of 5 WebSearch calls and spent them on the most doubtful Wikipedia titles and on Konditaget Lüders (public access). Outcomes: Ofelia Plads, Cisternerne and Frederiksberg Gardens confirmed as exact en.wikipedia.org articles; \"Islands Brygge Harbour Bath\" set to null (only the district article Islands Brygge and the collective Copenhagen Harbour Baths article exist); \"Kalvebod Bølge\" set to null (only da.wikipedia and Commons found); Konditaget Lüders confirmed as a freely accessible public roof at Helsinkigade 30, no English article found. The other six titles (Kastellet, Assistens Cemetery, Amager Strandpark, Black Diamond, Royal Library Garden, Utterslev Mose) are kept on high confidence from knowledge and are flagged as not URL-confirmed in verifyNote. No reddit or \"according to locals\" content was read for this city; source URLs are attached only where they appeared in one of the five search results, all other sources arrays remain empty rather than invented. Hours are from knowledge and should be treated as approximate. Safety screen: all 14 spots are legitimate public places (parks, quays, a library, a museum, two cafes); none involve trespassing, derelict, industrial or rail land; Utterslev Mose carries caution for unlit paths after dark. Edits: fixed the Kastellet entrance gate (Kongeporten, not Norgesporten, from Churchillparken), refined Ofelia Plads coordinates from a map result, and trimmed overclaiming phrases in four blurbs.",
   "spots": [
     {
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known public citadel; fixed tip (Churchillparken entrance is Kongeporten, not Norgesporten). Wikipedia title kept on high confidence from knowledge only (search budget spent elsewhere), not URL-confirmed.",
       "name": "Kastellet",
       "neighborhood": "Østerbro / Indre By",
@@ -52,7 +52,7 @@
       "lowkeyScore": 3
     },
     {
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known public cemetery-park; trimmed \"most beloved\" claim. Wikipedia title kept on high confidence from knowledge only (search budget spent elsewhere), not URL-confirmed.",
       "name": "Assistens Kirkegård",
       "neighborhood": "Nørrebro",
@@ -86,7 +86,7 @@
       "lowkeyScore": 3
     },
     {
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title confirmed: en.wikipedia.org/wiki/Frederiksberg_Gardens appeared in search results.",
       "name": "Frederiksberg Have",
       "neighborhood": "Frederiksberg",
@@ -123,7 +123,7 @@
       "lowkeyScore": 2
     },
     {
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence and public access confirmed via search (municipality and VisitCopenhagen pages). No English article named \"Islands Brygge Harbour Bath\"; only the district article and the collective Copenhagen Harbour Baths article exist, so title set to null.",
       "name": "Islands Brygge Havnepark",
       "neighborhood": "Islands Brygge",
@@ -171,7 +171,7 @@
       "lowkeyScore": 3
     },
     {
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence confirmed via search (opened 2013, between Langebro and Bernstorffsgade). Only Danish Wikipedia and Commons pages found, no en.wikipedia article, so title set to null.",
       "name": "Kalvebod Bølge",
       "neighborhood": "Vesterbro / Kalvebod Brygge",
@@ -218,7 +218,7 @@
       "lowkeyScore": 3
     },
     {
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search confirmed a freely accessible public roof 24 m up at Helsinkigade 30; specific opening hours were not in results, so hours left as varies. No English Wikipedia article found.",
       "name": "Konditaget Lüders",
       "neighborhood": "Nordhavn",
@@ -270,7 +270,7 @@
       "lowkeyScore": 4
     },
     {
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known public beach park. Wikipedia title kept on high confidence from knowledge only (search budget spent elsewhere), not URL-confirmed.",
       "name": "Amager Strandpark",
       "neighborhood": "Amager Øst",
@@ -306,7 +306,7 @@
       "lowkeyScore": 2
     },
     {
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known public library; trimmed \"the calmest\" to \"one of the calmest\". Hours from knowledge. Wikipedia title kept on high confidence from knowledge only (search budget spent elsewhere), not URL-confirmed.",
       "name": "Den Sorte Diamant (Royal Library)",
       "neighborhood": "Slotsholmen",
@@ -342,7 +342,7 @@
       "lowkeyScore": 3
     },
     {
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known public garden on Slotsholmen. Wikipedia title kept on high confidence from knowledge only (search budget spent elsewhere), not URL-confirmed.",
       "name": "Bibliotekshaven (Royal Library Garden)",
       "neighborhood": "Slotsholmen",
@@ -377,7 +377,7 @@
       "lowkeyScore": 5
     },
     {
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title confirmed: en.wikipedia.org/wiki/Ofelia_Plads. Coordinates refined from a map result (Kvæsthusbroen 17).",
       "name": "Ofelia Plads",
       "neighborhood": "Indre By (Kvæsthusbroen)",
@@ -425,7 +425,7 @@
       "lowkeyScore": 3
     },
     {
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Long-established café at Fiolstræde 10-12, reviewed from knowledge only (no search budget left); hours approximate. Trimmed \"the city's default\" claim.",
       "name": "Paludan Bogcafé",
       "neighborhood": "Indre By (Latin Quarter)",
@@ -460,7 +460,7 @@
       "lowkeyScore": 3
     },
     {
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Large public nature park; caution kept for unlit paths after dark. Trimmed \"darker than anywhere else\" claim. Wikipedia title kept on high confidence from knowledge only (search budget spent elsewhere), not URL-confirmed.",
       "name": "Utterslev Mose",
       "neighborhood": "Brønshøj / Bispebjerg",
@@ -497,7 +497,7 @@
       "lowkeyScore": 4
     },
     {
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title confirmed: en.wikipedia.org/wiki/Cisternerne. Annual single-artist exhibition format confirmed by the museum site; hours from knowledge.",
       "name": "Cisternerne",
       "neighborhood": "Frederiksberg (Søndermarken)",
@@ -540,7 +540,7 @@
       "lowkeyScore": 4
     },
     {
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Long-running café at Refshalevej 141, reviewed from knowledge only (no search budget left); removed unverified \"card only\" detail.",
       "name": "La Banchina",
       "neighborhood": "Refshaleøen",

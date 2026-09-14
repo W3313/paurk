@@ -42,7 +42,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Residential street with steady foot traffic well into the night; well-lit." },
       "lowkeyScore": 1,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known city park; title and coordinates checked from knowledge only (search budget spent on doubtful spots)."
     },
     {
@@ -65,7 +65,7 @@
       ],
       "safety": { "level": "ok", "note": "Open and busy until closing; paths near the lot are lit but the hill is dark after 10pm." },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Title and coordinates checked from knowledge; UW green-spaces post from verify search attached as a source."
     },
     {
@@ -86,7 +86,7 @@
       "sources": [],
       "safety": { "level": "caution", "note": "Trails are unlit and the park is huge; plan to be back at the lot by dusk and stay on the marked Loop Trail (the bluff edge is fenced only in places)." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Park and article title well established; South Bluff coordinates are an estimate along the Loop Trail."
     },
     {
@@ -109,7 +109,7 @@
       ],
       "safety": { "level": "ok", "note": "Calm and family-friendly; the garden has no lighting, so treat it as a daylight spot." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Title and coordinates checked from knowledge; UW green-spaces post from verify search attached."
     },
     {
@@ -130,7 +130,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Staffed with security on site; busy downtown block, fine into the evening." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Landmark library; title and coordinates checked from knowledge only. Trimmed one hyperbolic line."
     },
     {
@@ -151,7 +151,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Quiet hospital district; fine during opening hours." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Long-established free museum; title and coordinates checked from knowledge only."
     },
     {
@@ -172,7 +172,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Busy Pike/Pine block, well-lit and active into the evening." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Title and coordinates checked from knowledge only; hours approximate."
     },
     {
@@ -196,7 +196,7 @@
       ],
       "safety": { "level": "caution", "note": "The overlook is fine at dawn and in daylight; the wooded trails below are unlit and isolated, so skip them after dark." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title confirmed by search; Seattle Parks lists it as 'Boren Park'. Blurb aligned to the article (7.2 acres, views NE over Lake Washington)."
     },
     {
@@ -217,7 +217,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "The loop is busy with walkers from dawn; interior forest trails are unlit, so stick to the shoreline at dusk." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Major city park; title and coordinates checked from knowledge only."
     },
     {
@@ -241,7 +241,7 @@
       ],
       "safety": { "level": "ok", "note": "Well-lit waterfront with park staff and steady foot traffic in the evening; closes at 10pm." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence and public access confirmed via Seattle Parks and Friends of Waterfront Park; search found no dedicated Wikipedia article, so title stays null."
     },
     {
@@ -264,7 +264,7 @@
       ],
       "safety": { "level": "ok", "note": "Open and populated until dusk; the park closes shortly after sunset." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Title and coordinates checked from knowledge; UW green-spaces post from verify search attached."
     },
     {
@@ -288,7 +288,7 @@
       ],
       "safety": { "level": "ok", "note": "Federal site with staff on hand; the grounds close at 9pm." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia article confirmed by search; title corrected to the plural 'Gardens' used by the article."
     },
     {
@@ -313,7 +313,7 @@
       ],
       "safety": { "level": "caution", "note": "Quiet residential street with streetlights but little foot traffic late; fine at dusk, go with a friend if you stay past 10pm." },
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Confirmed as a Seattle Parks property; renamed to the official name, cross street corrected from S McClellan to S Forest St, and the unverified swing removed (park has a lawn and two benches). No Wikipedia article."
     },
     {
@@ -334,7 +334,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Lit promenade with regular foot and bike traffic; summer weekend nights get loud with cruising car traffic on Alki Ave SW, so the beach side of the path is the calmer place to sit." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known city beach; title and coordinates checked from knowledge only."
     }
   ]

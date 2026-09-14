@@ -38,7 +38,7 @@
       ],
       "safety": {"level": "ok", "note": "Well used by neighborhood families and joggers; the promenade is lit but quieter after dark."},
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence and Wikipedia title confirmed by search (Massport park, en.wikipedia.org/wiki/Piers_Park)."
     },
     {
@@ -64,7 +64,7 @@
       ],
       "safety": {"level": "caution", "note": "Trails are unlit and empty after sunset; visit in daylight and leave by dusk."},
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title confirmed by search; DCR-run public reservation."
     },
     {
@@ -85,7 +85,7 @@
       "sources": [],
       "safety": {"level": "ok", "note": "Busy with walkers most of the day and a DCR-patrolled park; officially closes at dusk."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known DCR park; Wikipedia title confirmed from verifier's knowledge (search budget spent). No sources appeared in search results."
     },
     {
@@ -110,7 +110,7 @@
       ],
       "safety": {"level": "ok", "note": "Inside a staffed office building with security at the desk; only open during business hours."},
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search confirmed the deck exists and is listed as open to the public (free, ID at the desk, roughly 10am-5pm); sources differ on days, so hours are marked to confirm."
     },
     {
@@ -136,7 +136,7 @@
       ],
       "safety": {"level": "ok", "note": "Lit and overlooked by offices and hotels; quiet but not deserted in the evening."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title corrected from 'Post Office Square (Boston)' to 'Post Office Square, Boston' per search result URL."
     },
     {
@@ -157,7 +157,7 @@
       "sources": [],
       "safety": {"level": "ok", "note": "Well lit, with steady foot traffic from the hotels and restaurants; fine to linger late."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Public Harborwalk park at Fan Pier, confirmed from verifier's knowledge; the 'Fan Pier' Wikipedia article covers the development area rather than the park, so title left null."
     },
     {
@@ -178,7 +178,7 @@
       "sources": [],
       "safety": {"level": "ok", "note": "Staffed public building with security; fully accessible during opening hours."},
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Landmark public library; Wikipedia title confirmed from verifier's knowledge (search budget spent)."
     },
     {
@@ -199,7 +199,7 @@
       "sources": [],
       "safety": {"level": "ok", "note": "Lit all night with on-site security and steady foot traffic between Symphony and the Prudential Center."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Privately owned but publicly open plaza; Wikipedia title confirmed from verifier's knowledge."
     },
     {
@@ -220,7 +220,7 @@
       "sources": [],
       "safety": {"level": "ok", "note": "Busy, well-lit stretch of Newbury Street near Hynes Convention Center station."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Long-running Newbury Street bookshop-cafe at 338 Newbury St, confirmed from verifier's knowledge; no Wikipedia article known. Fixed station name (Hynes, not Massachusetts Avenue)."
     },
     {
@@ -241,7 +241,7 @@
       "sources": [],
       "safety": {"level": "ok", "note": "Open only in daylight; paths are well maintained and the hill sees steady walkers."},
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Peters Hill is a real section of the arboretum; Wikipedia title confirmed from verifier's knowledge."
     },
     {
@@ -262,7 +262,7 @@
       "sources": [],
       "safety": {"level": "ok", "note": "The loop is lit and used by runners into the evening; quieter but fine on the Parkway side after dark."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Boston Parks Emerald Necklace site; Wikipedia title confirmed from verifier's knowledge."
     },
     {
@@ -288,7 +288,7 @@
       ],
       "safety": {"level": "caution", "note": "The park is unlit and the lot gate closes at dusk, so head down as the light goes."},
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title confirmed by search; 100-acre City of Boston park on the former Gardner Street landfill, opened 2000."
     },
     {
@@ -309,7 +309,7 @@
       "sources": [],
       "safety": {"level": "ok", "note": "Gated grounds with staff on site; closes in the late afternoon in winter."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "National Historic Landmark open to visitors; Wikipedia title confirmed from verifier's knowledge."
     },
     {
@@ -330,7 +330,7 @@
       "sources": [],
       "safety": {"level": "ok", "note": "Staffed public building on a busy stretch of Broadway near Harvard."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "449 Broadway main branch; Wikipedia title confirmed from verifier's knowledge (article covers the system, centred on this building)."
     }
   ]

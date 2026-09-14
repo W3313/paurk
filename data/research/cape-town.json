@@ -35,7 +35,7 @@
       ],
       "safety": { "level": "ok", "note": "Well lit and busy into the evening; the lawns empty out after about 10pm, so stick to the walkway itself late at night." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence and access confirmed from knowledge. Search found no dedicated Wikipedia article, only the Sea Point suburb page, so wikipediaTitle set to null."
     },
     {
@@ -58,7 +58,7 @@
       ],
       "safety": { "level": "caution", "note": "Very safe while the sunset crowd is there; do not linger alone after dark and keep nothing visible in a parked car. Walk up in a group rather than solo - the footpaths on the hill have a history of muggings." },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title confirmed by search. Noon Gun viewing site reference softened since that site has been closed to public entry since around 2021; summit road remains open."
     },
     {
@@ -79,7 +79,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Fenced, staffed and secure; stay inside the garden boundary rather than wandering onto the mountain trails above alone." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget); title kept from strong prior knowledge of the article name."
     },
     {
@@ -102,7 +102,7 @@
       ],
       "safety": { "level": "ok", "note": "Fenced with security on the gates; well used by families and walkers throughout the day." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search found the article under the title 'Green Point Park'; title set accordingly. Hours adjusted to the 9am-7pm figure seen in the search result."
     },
     {
@@ -123,7 +123,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Inside the patrolled V&A precinct and well lit at night; quieter than the main Waterfront after 9pm, so stay near the canal walkway." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget); existence and location confirmed from knowledge (opened 2018 on the Amsterdam Battery site). No known dedicated Wikipedia article."
     },
     {
@@ -146,7 +146,7 @@
       ],
       "safety": { "level": "ok", "note": "Busy with locals and dogs all day; not a spot for after dark since it closes and empties at dusk." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title confirmed by search (heritage site in Oranjezicht, opened 1895, free summer Sunday concerts)."
     },
     {
@@ -167,7 +167,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "The Grand Parade area is busy and fine in daytime; keep phones and bags close on the walk to and from the station." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget); existence and Drill Hall location confirmed from knowledge. Hours unverified."
     },
     {
@@ -188,7 +188,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Busy, well-trafficked corner in daytime; after dark walk along Roeland or Buitenkant rather than the side streets." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget); well-known independent bookshop at 71 Roeland St, confirmed from knowledge. Hours unverified."
     },
     {
@@ -209,7 +209,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Quiet, well-kept residential streets in daytime; normal city awareness walking back towards the CBD." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget); long-running roastery on Hudson St, confirmed from knowledge. Hours unverified."
     },
     {
@@ -230,7 +230,7 @@
       "sources": [],
       "safety": { "level": "caution", "note": "The memorial and parking area are fine and usually have other people; avoid heading up the mountain trails above it alone, as those paths have had muggings, and go with a friend for the pre-dawn arrival." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget); title kept from strong prior knowledge. Removed the tea-garden claim since the restaurant burned in the April 2021 fire and its current status is unverified."
     },
     {
@@ -253,7 +253,7 @@
       ],
       "safety": { "level": "ok", "note": "Walled garden with a gatekeeper, closed at night; Claremont Main Road is busy and fine in daytime." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title confirmed by search (4.5 ha provincial heritage site, Moreton Bay fig 'Wedding Tree')."
     },
     {
@@ -274,7 +274,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Busy and family-friendly through sunset; leave when the light goes rather than sitting on the rocks in the dark, and do not leave valuables in the car." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget); public picnic and tidal-pool area between Clifton and Camps Bay, confirmed from knowledge. Removed unverified 'free parking' claim."
     },
     {
@@ -295,7 +295,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Daytime is relaxed with regular swimmers around; it is dark and empty at night, so treat it as a daylight spot and watch the swell on big-sea days." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget); well-known municipal tidal pool with a public subway access, confirmed from knowledge."
     },
     {
@@ -316,7 +316,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Fenced municipal park with gates that close at dusk; plenty of regulars during the day." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget); municipal park bounded by Klaassens Road and Trovato Link, placed from knowledge. Coordinates raised from low to medium confidence."
     }
   ]

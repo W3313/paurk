@@ -36,7 +36,7 @@
         "note": "Staffed NPS site with a parking lot, daytime only (closes 4pm). The 15-minute walk from Deanwood Metro is on quiet residential streets; do it in daylight or drive or bike in."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence, NPS status, hours and Wikipedia title verified from knowledge only (search budget spent elsewhere); the title is the well-known NPS unit name."
     },
     {
@@ -60,7 +60,7 @@
         "note": "Gated federal grounds with staff on site; gates close at 5pm, so plan to be out before dusk."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Verified from knowledge only; coordinates point at the Capitol Columns meadow rather than the visitor center."
     },
     {
@@ -84,7 +84,7 @@
         "note": "Enclosed, staffed grounds in a quiet residential neighborhood; daytime only."
       },
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Verified from knowledge only; the Wikipedia title is the monastery's full formal name, which is the article's title."
     },
     {
@@ -113,7 +113,7 @@
         "note": "Cathedral grounds with a security presence; the garden is unlit, so leave by dusk."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search confirmed the garden via the Cathedral, All Hallows Guild, NBM and TCLF pages. No dedicated Wikipedia article surfaced (only the parent Washington National Cathedral article), so the title stays null."
     },
     {
@@ -137,7 +137,7 @@
         "note": "Busy and pleasant until dusk, but the fountain terraces are unlit and the park empties quickly after dark, and robberies have been reported there at night. Visit in daytime, or go with friends in the evening and leave by dusk."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Verified from knowledge only; caution level kept because of a documented pattern of after-dark incidents in an otherwise legitimate, well-used park."
     },
     {
@@ -161,7 +161,7 @@
         "note": "Open residential park next to a school and Metro; no lighting on the hill, so treat it as a daytime and sunset spot."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Verified from knowledge only; corrected the school name (Wilson High was renamed Jackson-Reed in 2022)."
     },
     {
@@ -185,7 +185,7 @@
         "note": "Well-lit promenade with steady foot traffic into the late evening; the darker stretch under Key Bridge is best skipped very late at night."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Verified from knowledge only; NPS unit and Wikipedia title are well established."
     },
     {
@@ -209,7 +209,7 @@
         "note": "Very quiet and mostly unlit after dark with no Metro nearby; treat it as a sunrise, daytime or golden-hour spot and come by bike or car."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Verified from knowledge only; softened the cherry-bloom timing claim."
     },
     {
@@ -233,7 +233,7 @@
         "note": "Well-lit, busy neighborhood park with restaurants and apartments on all sides and regular security patrols."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Verified from knowledge only; the draft's specific opening hours were replaced with a check-site line because they could not be confirmed."
     },
     {
@@ -262,7 +262,7 @@
         "note": "Museum security at every entrance and a busy Metro (Gallery Place) directly outside."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search confirmed the courtyard via SAAM, NPG and Smithsonian Gardens pages. No dedicated Wikipedia article surfaced (only the donor Robert P. Kogod's biography), so the title stays null; the parent Old Patent Office Building article was not used because it is not this exact place."
     },
     {
@@ -286,7 +286,7 @@
         "note": "Staffed public building with security; the downtown block is well-lit and busy in the evening."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Verified from knowledge only; the Wikipedia article about the D.C. central library carries exactly this title."
     },
     {
@@ -310,7 +310,7 @@
         "note": "Busy, well-lit commercial strip with plenty of foot traffic into the evening."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Verified from knowledge only; nudged the coordinates east toward the 5000 block of Connecticut Ave NW (medium confidence)."
     }
   ]

@@ -45,7 +45,7 @@
         "note": "Busy and well-trodden until late, but the paths are only partly lit and the hill is quiet after midnight; go with a friend late on and stick to the main steps from Waterloo Place."
       },
       "lowkeyScore": 1,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known public hill, verified from knowledge (search budget spent elsewhere); the Wikipedia title is the dedicated article about the hill. Caution level kept for partly lit paths after dark."
     },
     {
@@ -69,7 +69,7 @@
         "note": "Unlit hill paths after dark; ideal for sunset, then head down before full night or go in a pair for stargazing."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Public hill within a local nature reserve, verified from knowledge; dedicated Wikipedia article exists under this title. Coordinates are within about 100 m of the summit."
     },
     {
@@ -97,7 +97,7 @@
         "note": "Daytime-only garden beside the kirk with volunteers usually about."
       },
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence, Duddingston Loch location and volunteer-run status confirmed by search (official site, Scotland's Gardens Scheme). The Wikipedia URL 'Dr_Neils_Garden' resolves to the Duddingston district article, not a dedicated page, so the photo title was set to null."
     },
     {
@@ -125,7 +125,7 @@
         "note": "Council-managed garden a few steps off the Royal Mile; locked overnight."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence, 137 Canongate entrance and City of Edinburgh Council ownership (gifted by the Mushroom Trust in 1978) confirmed by search. No dedicated English Wikipedia article appeared, so the title stays null."
     },
     {
@@ -149,7 +149,7 @@
         "note": "Staffed garden, closed at night."
       },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Major public garden verified from knowledge; Wikipedia title is the dedicated article. Seasonal hours are from memory and should be checked."
     },
     {
@@ -173,7 +173,7 @@
         "note": "Open park; main paths lit, residential streets on all sides."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Large council park verified from knowledge; dedicated Wikipedia article exists under this title (not re-searched, budget spent)."
     },
     {
@@ -197,7 +197,7 @@
         "note": "The walkway is unlit and wooded; a daytime and dusk spot rather than a late-night one."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Public riverside walkway and listed folly verified from knowledge; the Wikipedia title is the dedicated article on the well. Coordinates are within roughly 100 m of the well."
     },
     {
@@ -221,7 +221,7 @@
         "note": "Promenade is lit and lively into the evening; the sand itself is dark after sunset."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Public beach and promenade verified from knowledge. Wikipedia only has the district article (Portobello, Edinburgh), so the photo title stays null."
     },
     {
@@ -245,7 +245,7 @@
         "note": "Promenade is open and well used until dusk but sparsely lit after; best as a sunset walk. Observe the posted tide times if you walk out to Cramond Island."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Public esplanade verified from knowledge; no dedicated Wikipedia article (Silverknowes is a district page), title null. The Cramond Island tide warning is a genuine, regularly reported hazard, hence the caution level."
     },
     {
@@ -269,7 +269,7 @@
         "note": "Staffed museum, railed terrace, daytime only."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Free museum roof terrace verified from knowledge; the Wikipedia title is the museum's dedicated article. Blurb toned down from '360-degree' and 'most visitors never find it'."
     },
     {
@@ -296,7 +296,7 @@
         "note": "Staffed public building."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search confirmed the building (opened 1890, Carnegie-funded) and a dedicated Wikipedia article 'Central Library, Edinburgh', which replaces the researcher's null. Opening hours are from memory; check before a late visit."
     },
     {
@@ -320,7 +320,7 @@
         "note": "Staffed public library."
       },
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Established public library verified from knowledge; dedicated Wikipedia article exists under this title. Opening days have changed over the years, so hours are left as 'varies'."
     },
     {
@@ -347,7 +347,7 @@
         "note": "Staffed shop on a busy, well-lit junction."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search confirmed the shop is operating at 2 Blenheim Place, EH7 5JH, open 9am-9pm daily including Sundays (official contact page). Coordinates nudged slightly toward the address. Any Wikipedia article covers the Topping chain, not this branch, so the title stays null."
     },
     {
@@ -374,7 +374,7 @@
         "note": "Well-lit and populated evening street; ordinary late-night city awareness applies."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search confirmed the dedicated Wikipedia article 'The Shore, Leith' (a street on the Water of Leith harbour), applied as the photo title."
     }
   ]

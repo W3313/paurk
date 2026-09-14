@@ -37,7 +37,7 @@
         "note": "Busy with walkers, picnickers and dog owners until dusk; interior paths are dim after that, so stay near the pavilion side and leave before the 11pm close."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Long-established Denver park; not searched (budget spent elsewhere). Wikipedia title from verifier knowledge, not search-confirmed. Pavilion coordinates adjusted slightly."
     },
     {
@@ -61,7 +61,7 @@
         "note": "Ticketed, staffed and enclosed; closes before dark most of the year."
       },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Major, well-documented institution at 1007 York St; not searched. Wikipedia title from verifier knowledge, not search-confirmed."
     },
     {
@@ -89,7 +89,7 @@
         "note": "Well lit and populated around REI and the pedestrian bridges in the evening; the river trail beyond the park can have encampments, so stay within the park after dark and go with a friend."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence and Wikipedia article (en.wikipedia.org/wiki/Confluence_Park, about the Denver park) confirmed by search."
     },
     {
@@ -118,7 +118,7 @@
         "note": "The loop is popular into the evening but only partly lit; do the sunset and head out once it is fully dark."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Confirmed by search. Wikipedia title corrected from 'Sloan's Lake' to the actual article 'Sloan Lake (Colorado)'; lake centre is 39.7489,-105.0475 so the east-shore point is consistent."
     },
     {
@@ -142,7 +142,7 @@
         "note": "A city park with a railed stone overlook, but quiet and mostly unlit after sunset; treat it as a golden-hour spot and leave once it is dark."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real Denver Parks property (approx. 4901 Sheridan Blvd, between W 49th and 52nd); not searched. No Wikipedia article confirmed, title left null."
     },
     {
@@ -166,7 +166,7 @@
         "note": "Lively on concert nights; otherwise the hilltop empties and is unlit after dark, so come for sunset and leave with the light."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real Denver park (1200 W Florida Ave, home of Levitt Pavilion Denver); not searched. No Wikipedia article confirmed, title left null."
     },
     {
@@ -190,7 +190,7 @@
         "note": "Well used by day; the museum side is the best-lit edge of the park in the evening."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Denver's flagship park; not searched. Wikipedia title from verifier knowledge, not search-confirmed."
     },
     {
@@ -219,7 +219,7 @@
         "note": "Daytime only; gates lock at sunset and the trails are unlit."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence, free public access and Wikipedia article confirmed by search (123-acre refuge along Sand Creek). Listing address is 11255 E MLK Jr Blvd; tips adjusted to match."
     },
     {
@@ -243,7 +243,7 @@
         "note": "Refuge closes at sunset; stay on trails and keep well back from bison."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Federal refuge, well documented; not searched. Wikipedia title from verifier knowledge, not search-confirmed. About 13 km from the city centre."
     },
     {
@@ -267,7 +267,7 @@
         "note": "Unlit and tree-covered, so it is a daylight trail; stick to the sections beside the park after late afternoon."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Canal trail and Eisenhower Park (4300 E Dartmouth Ave) are established public spaces; not searched. Wikipedia title from verifier knowledge, not search-confirmed."
     },
     {
@@ -291,7 +291,7 @@
         "note": "Inside is staffed and calm; the plaza and Civic Center Park outside attract rough sleeping and drug use, so exit toward Broadway or 13th Ave and go with a friend after dark."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Central Library at 10 W 14th Ave Pkwy; not searched. Wikipedia article 'Denver Public Library' covers the system and is illustrated by this building; title from verifier knowledge, not search-confirmed."
     },
     {
@@ -319,7 +319,7 @@
         "note": "East Colfax is busy and well lit at this block; inside is calm and staffed."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search confirmed the Colfax store (2526 E Colfax) is open in 2026 with the hours above, despite the 2023 bankruptcy that closed other branches; the chain was sold to Barnes & Noble in 2024, so 'independent' removed. Wikipedia URL confirmed."
     },
     {
@@ -343,7 +343,7 @@
         "note": "Staffed and busy into the night; the surrounding LoDo streets are well lit."
       },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Landmark transit hall; not searched. Wikipedia title from verifier knowledge, not search-confirmed. Tip corrected: the Terminal Bar is in the centre of the hall, not at the north end."
     },
     {
@@ -371,7 +371,7 @@
         "note": "Quiet residential shopping street, well lit, with the Louisiana-Pearl light-rail station a few blocks away."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search confirmed it is open at 1476 S Pearl St, but current hours are 7am-4pm daily, so the draft's 'open late' claims, night vibe and night bestTime were removed."
     }
   ]

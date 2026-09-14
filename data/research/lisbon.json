@@ -45,7 +45,7 @@
         "note": "Residential hill, quiet in the evening; the funicular stops running in the evening (around 8pm), so plan the walk down."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known public garden, kept from reviewer knowledge; no search confirmation possible this session. Softened the summer 'beach' claim and the funicular closing time."
     },
     {
@@ -69,7 +69,7 @@
         "note": "Gated park, daytime only; some upper corners are secluded, so stick to the main lawns if alone."
       },
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Long-established public park, kept from reviewer knowledge. Wikipedia title from reviewer knowledge, not search-confirmed (a GitHub probe found only the Portuguese article); set to null if the English page does not resolve. Removed the peacocks claim."
     },
     {
@@ -93,7 +93,7 @@
         "note": "Gated with posted hours; lit paths, but it empties quickly after dark."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Municipal park opened 2015, kept from reviewer knowledge; no search confirmation possible this session."
     },
     {
@@ -117,7 +117,7 @@
         "note": "Lit, residential street with a kiosk open into the evening; quiet but not isolated."
       },
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Small municipal viewpoint, kept from reviewer knowledge; no search confirmation possible this session. Moved the safety claim out of tips."
     },
     {
@@ -141,7 +141,7 @@
         "note": "Busy and lit into the night, but pickpockets and persistent street hawkers work the Cais do Sodré end after dark; keep bags zipped, sit near the kiosk rather than the darker far steps late, and take a ride-hail rather than a long walk if leaving after midnight."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Central public promenade, kept from reviewer knowledge. Level set to caution because of well-known late-night petty theft and hawker hassle around Cais do Sodré."
     },
     {
@@ -165,7 +165,7 @@
         "note": "Modern, well-lit promenade with steady foot traffic; fine solo in the evening, quieter north of the tower late."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Expo 98 riverfront, kept from reviewer knowledge. Removed the 'police presence' claim. The district article 'Parque das Nações' is not about the promenade itself, so wikipediaTitle stays null."
     },
     {
@@ -189,7 +189,7 @@
         "note": "Large open park that empties after about 11pm and has unlit stretches along its length; late at night stay in the southern half by the cafes and the lit main-avenue paths, or treat it as a daytime spot."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Major municipal park, kept from reviewer knowledge. Removed 'rowing boats' and 'tennis courts' (unverified after the park's refurbishment). Level set to caution for late-night use of a large 24h park."
     },
     {
@@ -213,7 +213,7 @@
         "note": "Gated, staffed grounds; daytime only."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known free garden, kept from reviewer knowledge. The 'Calouste Gulbenkian Foundation' article is about the institution, not the garden, so wikipediaTitle stays null."
     },
     {
@@ -237,7 +237,7 @@
         "note": "Staffed public building in a busy area."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Municipal library (reopened after renovation in 2017), kept from reviewer knowledge. Removed the cafe mention and the specific closing time, both unverified."
     },
     {
@@ -267,7 +267,7 @@
         "note": "Inside a busy, lit complex with restaurants open late."
       },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Long-running bookshop in LX Factory, kept from reviewer knowledge; the one source is a GitHub README that appeared in a code-search result. Wikipedia title from reviewer knowledge, not search-confirmed; set to null if the page does not resolve."
     },
     {
@@ -291,7 +291,7 @@
         "note": "Staffed cultural centre; terraces close in the evening."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Major public cultural centre; the terraces are part of the building the article describes, so the title is kept with high confidence."
     },
     {
@@ -315,7 +315,7 @@
         "note": "Lit residential square with cafes open into the evening."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Neighbourhood square, kept from reviewer knowledge; no search confirmation possible this session."
     },
     {
@@ -339,7 +339,7 @@
         "note": "Lit promenade and Cascais-line trains until late; the sand itself is dark after sunset, so stay on the promenade if lingering."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Town beach in Oeiras (about 14 km from the centre), kept from reviewer knowledge. Softened the fishing-boats and cafe-closing claims. The 'Paço de Arcos' article is about the town, not the beach, so wikipediaTitle stays null."
     }
   ]

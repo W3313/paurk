@@ -51,7 +51,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Lit paths until closing; a family-friendly park with staff at the entrance." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known city park; details from prior knowledge, live checks blocked. Softened the 'half-ruined' framing."
     },
     {
@@ -72,7 +72,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Well-lit and populated until late; the bridge sidewalks and island paths have regular foot traffic." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real, reopened 2019; a major redevelopment was slated to begin in 2025 so partial closures are possible. Live checks blocked."
     },
     {
@@ -93,7 +93,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Lit loop path with walkers and joggers late into the evening." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-documented; live checks blocked."
     },
     {
@@ -114,7 +114,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Indoor, staffed, next to a subway station." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "City-run used-book store opened 2019 beside Jamsillaru station; hours from memory, confirm before visiting."
     },
     {
@@ -135,7 +135,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Lit paths and steady foot traffic into the evening; residential streets around it." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Fixed view directions (Dongdaemun lies south of the hill, not east). Live checks blocked."
     },
     {
@@ -156,7 +156,7 @@
       "sources": [],
       "safety": { "level": "caution", "note": "Unlit forest trail with no facilities; visit in daylight and tell someone your plan if going alone." },
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Designated scenic site with public access, not an abandoned site; kept as caution for the unlit trail. Live checks blocked."
     },
     {
@@ -177,7 +177,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Staffed public library on a quiet residential slope." },
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Jongno-gu public library opened 2014; hours from memory. Toned down the 'nobody knows it' claim."
     },
     {
@@ -198,7 +198,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Staffed public building on the city's central plaza." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-documented; live checks blocked."
     },
     {
@@ -219,7 +219,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Lit main paths; wooded sections empty out after dark, so stick to the lawns at night." },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-documented; softened the crowd claims. Live checks blocked."
     },
     {
@@ -240,7 +240,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Stairs and summit are lit and usually have a few people at night; the path down is steep, so watch your footing." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real hill and pavilion beside Eungbong station; removed the height figure (sources disagree). No confidently known English Wikipedia article."
     },
     {
@@ -261,7 +261,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Open plateau with staff on site; leave before the seasonal closing time." },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Corrected seasonal closing hours (winter closing is early evening, not 7:30pm+). Live checks blocked."
     },
     {
@@ -282,7 +282,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Well-lit and populated late; surrounded by residential streets and cafes." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-documented; live checks blocked."
     },
     {
@@ -303,7 +303,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Quiet residential lane; the teahouse is staffed and the street is well-lit." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Registered-heritage hanok (Yi Tae-jun house) run as a teahouse; hours differ between listings so hedged."
     },
     {
@@ -324,7 +324,7 @@
       "sources": [],
       "safety": { "level": "caution", "note": "Wooded boardwalk with unlit stretches after dark; finish before dusk or stay on the lit sections near the entrances." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Corrected access notes (Seodaemun-gu Office is in Yeonhui-dong; Dongnimmun is a separate entrance); set to caution for the unlit stretches."
     }
   ]

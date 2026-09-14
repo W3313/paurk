@@ -42,7 +42,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Residential hilltop reached by steep stairs; the summit path is unlit, so go before dark." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Kept on reviewer knowledge (no search spent). Wikipedia title matches the SF park article to the reviewer's knowledge but was not search-confirmed."
     },
     {
@@ -63,7 +63,7 @@
       "sources": [],
       "safety": { "level": "caution", "note": "Paths are unlit and the loop road has no railings on the downhill side. Plenty of neighbors around at dusk; after dark bring a headlamp, stay on the loop road and go with a friend." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Kept on reviewer knowledge (no search spent). Wikipedia title not search-confirmed."
     },
     {
@@ -84,7 +84,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Quiet residential stairs; unlit, so visit in daylight or at dusk." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Kept on reviewer knowledge (no search spent). Wikipedia title not search-confirmed."
     },
     {
@@ -105,7 +105,7 @@
       "sources": [],
       "safety": { "level": "caution", "note": "The bluffs are unstable and the trail is unlit: stay on the fenced Coastal Trail, finish before dark, and keep off the rocks below Sutro Baths, where sneaker waves have swept people into the water." },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "National Park Service site kept on reviewer knowledge. Raised to caution for the documented cliff and sneaker-wave hazards. Wikipedia title not search-confirmed."
     },
     {
@@ -129,7 +129,7 @@
       ],
       "safety": { "level": "ok", "note": "Well-lit and steadily trafficked along the Embarcadero; usual big-city awareness late at night." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search confirmed the pier (dedicated 1990, public fishing pier). No dedicated Wikipedia article exists, only 'List of piers in San Francisco', so title stays null."
     },
     {
@@ -154,7 +154,7 @@
       ],
       "safety": { "level": "ok", "note": "Staffed park with security on site; closes in the evening." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Hours confirmed from the TJPA. No dedicated Wikipedia article for the park (it is covered within the Salesforce Transit Center article), so title stays null."
     },
     {
@@ -178,7 +178,7 @@
       ],
       "safety": { "level": "caution", "note": "The blocks around Civic Center Plaza and the Tenderloin edge have visible drug use and can feel rough, especially after dark. Use the Larkin or Grove St entrances and the Civic Center BART/Muni station beneath the plaza; inside, security staffs every entrance and it is calm." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search confirmed the dedicated Wikipedia article 'Main Library (San Francisco)'. Raised to caution for the surrounding blocks; hours are best recollection."
     },
     {
@@ -202,7 +202,7 @@
       ],
       "safety": { "level": "ok", "note": "Broadway and Columbus are lively late; the store itself is calm and well-staffed." },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search confirmed hours are now 10am-10pm daily (draft said midnight; blurb and tips corrected) and the Wikipedia title."
     },
     {
@@ -223,7 +223,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Staffed and calm; Huntington Park across the street is a lit, well-used spot to sit afterward." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Kept on reviewer knowledge (no search spent). Wikipedia title is the exact article name to the reviewer's knowledge; hours are best recollection."
     },
     {
@@ -244,7 +244,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Quiet residential block." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Long-running cafe at 1315 18th St kept on reviewer knowledge (no search spent); hours unverified."
     },
     {
@@ -265,7 +265,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Secluded and unlit; leave before dusk." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Kept on reviewer knowledge (no search spent). Wikipedia title not search-confirmed."
     },
     {
@@ -286,7 +286,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Unlit forest trails; daylight only, and tell someone your route if going solo." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Kept on reviewer knowledge (no search spent). Wikipedia article 'Mount Sutro' covers the hill and its open space reserve; not search-confirmed."
     },
     {
@@ -310,7 +310,7 @@
       ],
       "safety": { "level": "ok", "note": "Office building with lobby security; closed weekends and holidays." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search confirmed the POPOS is active, Mon-Fri 10am-5pm with front-desk sign-in. Lowkey score trimmed from 5 to 4 because it fills at lunchtime."
     },
     {
@@ -331,7 +331,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Well-lit, with mall entrances and restaurants around it into the evening." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Kept on reviewer knowledge (no search spent). No dedicated Wikipedia article for the plaza itself; the district article does not qualify, so title stays null."
     }
   ]

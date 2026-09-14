@@ -36,7 +36,7 @@
         "note": "Staffed public garden in a busy park; the surrounding Domain is unlit after dark, so leave by closing."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real Category I heritage site; Wikipedia article 'Domain Wintergardens' confirmed by search."
     },
     {
@@ -60,7 +60,7 @@
         "note": "Well used by walkers and runners from dawn; the lawn is unlit late at night, so it is best from sunrise to dusk."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real public reserve. Wikipedia title 'Bastion Point' kept from verifier knowledge (search budget exhausted); article is about this headland."
     },
     {
@@ -84,7 +84,7 @@
         "note": "Popular at sunset, but the summit path is unlit; go down with a torch and, after about 10pm, with a friend."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real tūpuna maunga. Wikipedia title corrected from 'Takarunga / Mount Victoria' to 'Mount Victoria (Auckland)' per search result URL."
     },
     {
@@ -108,7 +108,7 @@
         "note": "Quiet residential reserve; steep grassy sides and no lighting, so leave before full dark."
       },
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real tūpuna maunga; Wikipedia article 'Ōhinerau / Mount Hobson' confirmed by search."
     },
     {
@@ -132,7 +132,7 @@
         "note": "Well-lit public space next to the ferry terminal with steady foot traffic until the last ferries."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real public space opened 2021 in the Quay Street upgrade; verified from knowledge, no search spent. No standalone Wikipedia article known."
     },
     {
@@ -156,7 +156,7 @@
         "note": "Lit promenade with restaurants nearby; quiet on weeknights, so stick to the lit waterfront path late."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real park (described in the 'Wynyard Quarter' Wikipedia article); no standalone 'Silo Park' article found, so title set to null."
     },
     {
@@ -180,7 +180,7 @@
         "note": "Staffed public building in the centre of town."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real, 44-46 Lorne Street; verified from knowledge. Ground-floor cafe claim removed as unconfirmed. Wikipedia title left null (not checked)."
     },
     {
@@ -204,7 +204,7 @@
         "note": "Daytime shop on a quiet side street; short walk from Symonds Street buses."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real shop, moved into the former St Benedict's convent in 2018; verified from knowledge. Hours unchecked."
     },
     {
@@ -228,7 +228,7 @@
         "note": "Busy arcade by day; Myers Park below is best avoided alone late at night."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "St Kevin's Arcade (183 Karangahape Rd) is real and public; Bestie is a known cafe there but its current trading status and hours were not checked. Balcony claim softened."
     },
     {
@@ -252,7 +252,7 @@
         "note": "On a well-lit, busy stretch of Ponsonby Road with buses running late."
       },
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real shop at 201 Ponsonby Road known for late weekend hours; verified from knowledge, hours unchecked."
     },
     {
@@ -276,7 +276,7 @@
         "note": "Quiet residential beach; no lighting on the sand after dark."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real public beach; verified from knowledge. The Wikipedia article 'Cheltenham, New Zealand' is about the suburb, not the beach, so title left null."
     },
     {
@@ -300,7 +300,7 @@
         "note": "Residential park with lawn and benches set back from the low cliff edge; keep to the grass side of the fence line and leave before dark as lighting is limited."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real council reserve at the end of Point Chevalier Road; verified from knowledge. It is a lawn park, not a cliff-edge hangout, so kept at 'ok' with a specific note."
     },
     {
@@ -324,7 +324,7 @@
         "note": "Vehicle gates lock at closing time and the park is unlit; leave before the gates close."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real Auckland Council regional park; Wikipedia article confirmed by search. Removed the after-hours stargazing suggestion so the listing stays within gate hours."
     },
     {
@@ -348,7 +348,7 @@
         "note": "Unlit bush path with few people on weekdays; go in daylight, ideally with a friend."
       },
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real public walkway and waterfall; verified from knowledge. Wikipedia title 'Oakley Creek' kept from verifier knowledge (search budget exhausted); the article covers this creek and its waterfall."
     }
   ]

@@ -37,7 +37,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Fenced park with gates that close at sunset; not a night spot." },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Major public park, kept from reviewer knowledge; no search confirmation possible this session. Removed 'stargaze' vibe since the field closes at dusk."
     },
     {
@@ -58,7 +58,7 @@
       "sources": [],
       "safety": { "level": "caution", "note": "Lit and busy along the street side until late, but it thins out after midnight; stay near Kottbusser Brücke or go with a friend. The bank is an unrailed canal wall, so keep back from the edge after a drink." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known public promenade; neighborhood set to Kreuzberg (Paul-Lincke-Ufer is the north bank, Neukölln is across the water). Title from reviewer knowledge."
     },
     {
@@ -79,7 +79,7 @@
       "sources": [],
       "safety": { "level": "caution", "note": "Paths are only partly lit; fine at dusk, but the summit is quiet and dim late at night, so head down once the light goes." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known public park; kept from reviewer knowledge, no search confirmation possible this session."
     },
     {
@@ -100,7 +100,7 @@
       "sources": [],
       "safety": { "level": "caution", "note": "The climb to the platform is unlit and the steps are uneven; come down before full dark or bring a torch." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Public park viewpoint with railings (not a derelict site); the bunker interior is only open on guided tours and is not part of this spot. Title from reviewer knowledge."
     },
     {
@@ -121,7 +121,7 @@
       "sources": [],
       "safety": { "level": "caution", "note": "The forest track from the S-Bahn is unlit and empty after dark; for a night visit go in a pair, carry a torch and use the Heerstrasse side." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Public hill in the Grunewald forest, distinct from the fenced Teufelsberg site; no English Wikipedia article known, title left null. Coordinates nudged toward the summit from reviewer knowledge."
     },
     {
@@ -142,7 +142,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Well used by day; the shoreline path is unlit, so plan to be back at the S-Bahn by dusk." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known lake and loop path; kept from reviewer knowledge, no search confirmation possible this session."
     },
     {
@@ -163,7 +163,7 @@
       "sources": [],
       "safety": { "level": "caution", "note": "The riverside promenade is lit and populated until late, but drug dealing has been reported around the park's S-Bahn edge after dark; stick to the waterfront and the main lit paths, and leave the Plänterwald woods for daytime." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Legitimate, busy public park; safety raised from ok to caution because of reported dealing near S Treptower Park after dark. Title from reviewer knowledge."
     },
     {
@@ -184,7 +184,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Gated garden in a residential area; closes around dusk." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known sunken garden; kept from reviewer knowledge, no search confirmation possible this session."
     },
     {
@@ -205,7 +205,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Gated grounds; closes at dusk." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real, publicly open cemetery. Exact English Wikipedia title could not be confirmed (an article probably exists under the German name), so it is set to null."
     },
     {
@@ -226,7 +226,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Inside a staffed shopping building; accessible only during mall hours." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Public terrace of a well-known building; the English article title (Bikini-Haus vs Bikini Berlin) could not be confirmed, so it is null."
     },
     {
@@ -247,7 +247,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Staffed public building." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Major public library; hours and title from reviewer knowledge, not search-confirmed this session."
     },
     {
@@ -268,7 +268,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Staffed public building; bags go in lockers." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real reading room open to pass holders. 'Berlin State Library' is the institution's article (lead photo is the other building), so title is null. Day-pass fee not verified."
     }
   ]

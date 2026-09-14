@@ -21,7 +21,7 @@ const base: Spot = {
   wikipediaTitle: null,
   sourceCount: 0,
   safety: { level: 'ok', note: '' },
-  lowkeyScore: 0.8, verified: true,
+  lowkeyScore: 0.8, reviewed: true,
 }
 const spot = (over: Partial<Spot> = {}): Spot => ({ ...base, ...over })
 const render = (s: Spot, compact = false) =>

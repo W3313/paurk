@@ -41,7 +41,7 @@
         "note": "Busy, staffed and central; Swanston Street outside is well lit with trams running late."
       },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Kept on knowledge (no search spent). Draft's Mon-Thu 9pm late opening is the pre-2020 schedule; corrected to the current daily 10am-6pm and dropped the night vibe. Wikipedia article exists (State Library of Victoria redirects to it)."
     },
     {
@@ -65,7 +65,7 @@
         "note": "Well-lit promenade ringed by apartment towers; Docklands empties out after 9pm so it feels quiet rather than unsafe."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Kept on knowledge; City of Melbourne library opened 2014 at 107 Victoria Harbour Promenade. Wikipedia title from memory, not search-confirmed (search budget spent elsewhere); hours from memory."
     },
     {
@@ -94,7 +94,7 @@
         "note": "Inside the State Library building on a lit, busy CBD block."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search-confirmed open (listings updated 2026). It now runs as a Tue-Sat bar-restaurant rather than an all-day cafe, so the 'study' vibe was removed, hours replaced with the published schedule, and the blurb reworded. Kept because it is a quiet sit-down venue with food and coffee, not bar-only."
     },
     {
@@ -118,7 +118,7 @@
         "note": "Lit and patrolled, with a steady flow of people along the river path until late; stick to the promenade rather than the darker lawns after midnight."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Kept on knowledge; well-known City of Melbourne park, coordinates check out. Wikipedia article exists under this title."
     },
     {
@@ -142,7 +142,7 @@
         "note": "Paths are lit and the gardens border busy Wellington Parade; quiet after dark, so keep to the main avenues."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Kept on knowledge; heritage-listed public gardens, coordinates check out."
     },
     {
@@ -166,7 +166,7 @@
         "note": "Gated gardens that close at sunset, with staff and walkers on the paths all day."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Kept on knowledge. Wikipedia title is the article for the whole Melbourne gardens (the Volcano sits inside them), so the photo will be of the gardens rather than the Volcano itself."
     },
     {
@@ -190,7 +190,7 @@
         "note": "Managed precinct with staff, cafes and lit courtyards until it closes at 10pm."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Kept on knowledge; National Heritage-listed public precinct, coordinates check out. Grounds hours from memory."
     },
     {
@@ -214,7 +214,7 @@
         "note": "River paths are unlit; watch the bats at dusk and leave with the crowd rather than walking the bush trails alone after dark."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Kept on knowledge; Parks Victoria-managed park with a long-running public boathouse. Caution level retained for the unlit trails."
     },
     {
@@ -238,7 +238,7 @@
         "note": "Busy well into the evening in warm weather and lit along the main paths; much quieter mid-winter."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Kept on knowledge; City of Yarra park, coordinates check out. Removed the 'cheap wine' line since the council enforces alcohol restrictions there at times."
     },
     {
@@ -262,7 +262,7 @@
         "note": "Staffed daytime site; the creek trail is fine in daylight but unlit after dark."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Kept on knowledge; long-running not-for-profit site on Roberts Street open to the public. Wikipedia title from memory, not search-confirmed (budget spent elsewhere)."
     },
     {
@@ -290,7 +290,7 @@
         "note": "Unlit hilltop after dark; stay for the sunset then head down to lit Separation Street or High Street."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search-confirmed: City of Darebin regional park opened 2002 on the former brickworks/landfill, with the Hilltop as its main feature. No English Wikipedia article was found (only Northcote Plaza), so wikipediaTitle stays null."
     },
     {
@@ -317,7 +317,7 @@
         "note": "The foreshore path is lit and used by runners, but the hill itself is dark after sunset; fine with a friend, otherwise go at golden hour."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search-confirmed as a City of Port Phillip reserve and lookout on the Elwood foreshore. The only Wikipedia hit was an ?title=Point_Ormond&redirect=no URL, i.e. most likely a redirect to the Elwood suburb article, so wikipediaTitle set to null to avoid a wrong photo."
     },
     {
@@ -346,7 +346,7 @@
         "note": "Well-lit pier and promenade with pubs and restaurants along Nelson Place; people are usually fishing on the pier well into the night."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search-confirmed: en.wikipedia.org/wiki/Gem_Pier is the article for this pier (HMAS Castlemaine berth, 145 m long), and Parks Victoria lists it as a public pier."
     },
     {
@@ -375,7 +375,7 @@
         "note": "The access ramp and steps down the bluff are unlit after dark; watch the sunset from the beach or the fenced lookout, then leave before full dark and keep to the paths rather than the cliff face."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search-confirmed: en.wikipedia.org/wiki/Half_Moon_Bay_(Victoria) is the article for this beach (Cerberus breakwater, lifesaving club, yacht club, kiosk). Renamed from 'Half Moon Bay & Red Bluff' and re-centred on the beach, pier and fenced lookout so an unrailed cliff top is not the pitch; lowkeyScore lowered to 3 as it is a well-known bayside beach."
     }
   ]

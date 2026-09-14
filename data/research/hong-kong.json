@@ -44,7 +44,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Well lit and used by joggers and dog walkers until late; the promenade stays open all night." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known LCSD park; details from prior knowledge, live checks blocked. Hours softened to flag that lawn hours are unconfirmed."
     },
     {
@@ -65,7 +65,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Well lit and busy with residents until around midnight." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real Harbourfront Commission shared space on New Praya; no dedicated Wikipedia article known, so title left null."
     },
     {
@@ -86,7 +86,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Open and well lit at night with security nearby; very quiet on weekends." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known LCSD park; details from prior knowledge, live checks blocked."
     },
     {
@@ -107,7 +107,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Indoor public building with staff on every floor." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Corrected the late-opening day from Friday to Wednesday (HKPL schedule); re-confirm against hkpl.gov.hk when web access returns."
     },
     {
@@ -128,7 +128,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Staffed site, lit and open until 11pm." },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known heritage site; details from prior knowledge, live checks blocked."
     },
     {
@@ -149,7 +149,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Small enclosed park surrounded by busy streets; fine during opening hours." },
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real LCSD park (opened 2012); Wikipedia title kept from knowledge but not search-confirmed; hours unconfirmed."
     },
     {
@@ -170,7 +170,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Staffed garden, closes at 9pm." },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known garden; details from prior knowledge, live checks blocked."
     },
     {
@@ -191,7 +191,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Managed park; quiet after 9pm but lit and patrolled." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known LCSD park; details from prior knowledge, live checks blocked."
     },
     {
@@ -212,7 +212,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Well lit with steady foot traffic until late." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real LCSD promenade; Wikipedia title kept from knowledge but not search-confirmed; removed an unverifiable sculpture reference."
     },
     {
@@ -233,7 +233,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Staffed terminal with security; last buses leave before the park closes, so plan the way back." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real LCSD rooftop park; nudged lng toward the runway tip; simplified bus directions to avoid unverifiable route numbers; Wikipedia left null (the article is about the terminal building)."
     },
     {
@@ -254,7 +254,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Lit paths with residential towers next door; quiet but not isolated after dark." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real public open space managed by Cyberport; the 'Cyberport' article is about the business park, so title left null."
     },
     {
@@ -275,7 +275,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Indoor venue on a busy street; fine at night." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Long-established venue (since 2001); current hours could not be checked, so marked approx."
     },
     {
@@ -296,7 +296,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Staffed venue with regular opening hours." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real LCSD-run art space; weekly closing day unconfirmed; exact Wikipedia article title uncertain so left null."
     },
     {
@@ -317,7 +317,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Lit promenade beside residential estates; quiet but used by joggers late." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real LCSD promenade; no dedicated Wikipedia article known, so title left null."
     }
   ]

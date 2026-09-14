@@ -88,7 +88,7 @@
       ],
       "safety": {"level": "ok", "note": "Lit and patrolled, with walkers and vendors until well past midnight; keep your phone in a front pocket in the evening crush near Chowpatty."},
       "lowkeyScore": 1,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known public promenade; Wikipedia title and coordinates confirmed from the verifier's knowledge (search budget was spent on higher-doubt spots)."
     },
     {
@@ -113,7 +113,7 @@
       ],
       "safety": {"level": "ok", "note": "A living temple precinct in a residential lane; fine in daylight and early evening, but the lanes empty out late so do not linger after 9pm."},
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Heritage tank with a well-known Wikipedia article; existence, title and coordinates confirmed from the verifier's knowledge."
     },
     {
@@ -140,7 +140,7 @@
       ],
       "safety": {"level": "ok", "note": "Fenced gardens with attendants and lighting until closing; plenty of families around."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search (Sept 2026) shows the reservoir reconstruction beneath the Hanging Gardens is still being argued over and works had not closed the garden; partial closures are possible once they start. Kamala Nehru Park across the road is unaffected. Wikipedia title from knowledge."
     },
     {
@@ -164,7 +164,7 @@
       ],
       "safety": {"level": "ok", "note": "Fenced, bordered by busy well-lit roads on all sides, and closed at night."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Part of the UNESCO-listed Victorian Gothic and Art Deco ensemble; Wikipedia title and coordinates confirmed from the verifier's knowledge."
     },
     {
@@ -190,7 +190,7 @@
       ],
       "safety": {"level": "ok", "note": "Staffed heritage building on a busy, well-lit street."},
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search confirmed: reopened 3 June 2023 after restoration (draft's '2024' corrected); reading room is members-only, ground floor and garden open to visitors, so tips and 'free' were adjusted. Wikipedia title confirmed by an en.wikipedia.org/wiki/David_Sassoon_Library result."
     },
     {
@@ -217,7 +217,7 @@
       ],
       "safety": {"level": "ok", "note": "Ground-floor shop on a busy commercial street; no concerns."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search confirmed the shop is open (2026 press) and that en.wikipedia.org/wiki/Kitab_Khana is the article about this shop, so the title was set from null. Blurb's 'thalis' claim trimmed to 'light meals'."
     },
     {
@@ -244,7 +244,7 @@
       ],
       "safety": {"level": "ok", "note": "Well-lit and busy with joggers and families until about 11pm; quieter after that, so leave with the crowd."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search confirmed the promenade but surfaced no Wikipedia article for it, so wikipediaTitle stays null. 'No hawkers' softened to 'far fewer'."
     },
     {
@@ -269,7 +269,7 @@
       ],
       "safety": {"level": "ok", "note": "Lit and busy till late; the fort terraces empty after 8pm, so stay on the promenade after dark. Stay off the sea rocks in the monsoon and at high tide, when waves do sweep people off them."},
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence and Wikipedia title from the verifier's knowledge. Draft tip that encouraged scrambling onto the tidal rocks was rewritten; drownings off the Bandstand rocks in the monsoon are a documented hazard."
     },
     {
@@ -294,7 +294,7 @@
       ],
       "safety": {"level": "ok", "note": "Generally safe and lit, with cafes open late; keep your phone secure in the evening crowd."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title 'Carter Road' (the Bandra seafront road/promenade article) kept from the verifier's knowledge; not search-confirmed because the budget went to higher-doubt spots."
     },
     {
@@ -319,7 +319,7 @@
       ],
       "safety": {"level": "ok", "note": "Inside a staffed theatre compound in a residential lane, busy until closing."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia article is about the theatre that houses the cafe (same compound), which is the correct photo subject; confirmed from the verifier's knowledge."
     },
     {
@@ -344,7 +344,7 @@
       ],
       "safety": {"level": "caution", "note": "Fine until dusk with joggers and fishing families around; the beach is unlit, so skip the isolated stretches after dark and go with a friend."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Public beach with a well-known Wikipedia article (the 2015-18 cleanup); title from the verifier's knowledge. 'No stalls, no crowds' softened; caution level kept for the unlit stretches."
     },
     {
@@ -371,7 +371,7 @@
       ],
       "safety": {"level": "caution", "note": "Leopards live in Aarey: visit in daylight, stay on the main roads and inside the garden, and leave well before dusk since the trails are unlit."},
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search confirmed the garden exists and is open (10am-6pm); coordinates corrected to the Mappls listing. 'Aarey Milk Colony' Wikipedia title dropped because it is the surrounding district, not this garden."
     },
     {
@@ -396,7 +396,7 @@
       ],
       "safety": {"level": "ok", "note": "Lit promenade beside a busy road with walkers till late; keep off the lake edge and away from the water after dark, as the lake has crocodiles."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title and the crocodile note confirmed from the verifier's knowledge; coordinates nudged onto the south-shore promenade."
     },
     {
@@ -421,7 +421,7 @@
       ],
       "safety": {"level": "ok", "note": "Use the official gate, stay on marked trails and leave by closing; leopards are present, so no wandering near dusk."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Ticketed national park with official gates; Wikipedia title and Borivali-gate coordinates from the verifier's knowledge."
     }
   ]

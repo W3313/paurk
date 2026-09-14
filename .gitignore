@@ -5,3 +5,11 @@ dist
 .vite
 tsconfig.tsbuildinfo
 qa-shots
+
+# local state and secrets — never commit these
+.wrangler/
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+.claude/settings.local.json

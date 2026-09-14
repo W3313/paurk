@@ -45,7 +45,7 @@
       ],
       "safety": { "level": "ok", "note": "Popular and well-used through the evening; the underpass is lit. The stone steps meet the water with no railing, so mind your footing when wet." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia URL confirmed by search. Removed the draft's 'swim off the rocks' line: swimming at the Point is not sanctioned by the Park District."
     },
     {
@@ -66,7 +66,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Gated garden with staff or volunteers around during open hours; closed at night." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget). National Historic Landmark with a long-standing Wikipedia article under this exact name; coordinates and seasonal hours from verifier knowledge."
     },
     {
@@ -87,7 +87,7 @@
       "sources": [],
       "safety": { "level": "caution", "note": "The sanctuary paths are unlit and empty after dark; after sunset stay by the harbor and beach house area, which is lit and busier." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget). Wikipedia article exists under this name per verifier knowledge. Dropped the 'stargaze' vibe since the safety note advises leaving the paths after dark."
     },
     {
@@ -108,7 +108,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Staffed building directly at the L station; go straight from the platform to the entrance and you are fine." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget). Well-known landmark with a Wikipedia article under this exact name; hours flagged check-site."
     },
     {
@@ -129,7 +129,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Security at the entrance, busy public building, right at the Harold Washington Library L stop." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget). Wikipedia article 'Harold Washington Library Center' is the building this room is in; hours match standard CPL main-library schedule."
     },
     {
@@ -150,7 +150,7 @@
       "sources": [],
       "safety": { "level": "caution", "note": "The pavilion and main lawn are lit and used into the evening; the far north section is quieter after dark, so stay near the pavilion or go with a friend. Stay on park paths; the adjacent rail lines are active and fenced." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget). Wikipedia article exists under this name per verifier knowledge. Park is public; note added to keep users off the active rail corridor beside it."
     },
     {
@@ -175,7 +175,7 @@
       ],
       "safety": { "level": "caution", "note": "Paths near Halsted are lit, but the hilltop and pond loop are dim after dark; go for sunset and head back down by full dark." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia URL confirmed by search (Henry C. Palmisano Park, opened 2009). Dropped 'night' from bestTimes to match the caution note."
     },
     {
@@ -200,7 +200,7 @@
       ],
       "safety": { "level": "caution", "note": "Wooded Island is isolated and unlit after dusk; visit in daylight, ideally while the museum crowd is nearby." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Renamed from 'Garden of the Phoenix (Osaka Garden)'. Search confirmed the Wikipedia article is 'Garden of the Phoenix' (renamed 2013); 'Osaka Garden' title replaced. Coordinates raised to high (north end of Wooded Island)."
     },
     {
@@ -221,7 +221,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Fenced grounds with staff at the gate during open hours; closed at night." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget). The Chicago cemetery is the primary 'Graceland Cemetery' article on English Wikipedia per verifier knowledge; hours flagged check-site."
     },
     {
@@ -242,7 +242,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Staffed, lit grounds in a quiet residential suburb." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget). Suburban but only ~22 km from the Loop and CTA-reachable; Wikipedia title matches the standard disambiguated article per verifier knowledge."
     },
     {
@@ -263,7 +263,7 @@
       "sources": [],
       "safety": { "level": "caution", "note": "Solidarity Drive and the planetarium promenade are lit and busy on warm nights; the island's interior paths are dark after sunset, so stick to the promenade for night skyline views." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget). Wikipedia article exists under this name per verifier knowledge. Dropped 'stargaze' vibe to match the caution note; added a hedged line about trail closures."
     },
     {
@@ -288,7 +288,7 @@
       ],
       "safety": { "level": "ok", "note": "Busy, well-lit stretch of Milwaukee Avenue near the Damen Blue Line stop, active late into the evening." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence confirmed by search (listings updated 2026). No English Wikipedia article surfaced, so wikipediaTitle set to null."
     },
     {
@@ -312,7 +312,7 @@
       ],
       "safety": { "level": "ok", "note": "Busy, well-lit block next to the DePaul campus and the Fullerton L stop." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence and address confirmed by search; hours taken from the 2026 listing surfaced in that search. No Wikipedia article."
     },
     {
@@ -333,7 +333,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Lit and patrolled until the 11pm closing, with steady foot traffic on warm nights." },
       "lowkeyScore": 1,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Not searched (budget). Wikipedia article 'Chicago Riverwalk' covers the whole promenade including this stretch; coordinates near Wells/Franklin raised to high."
     }
   ]

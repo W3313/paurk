@@ -54,7 +54,7 @@
         "note": "Ordinary city park; main paths are lit but the wooded edges are dark after nightfall, so treat it as a daytime and evening spot."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Reviewed from knowledge only; no search possible. Well-known public park. Fixed blurb: Flevoparkbad is a pool, not lake swimming. Wikipedia title kept on high confidence, not search-confirmed."
     },
     {
@@ -78,7 +78,7 @@
         "note": "Fenced park with gates; closed after dark."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Reviewed from knowledge only; no search possible. Well-known gated public park. Wikipedia title kept on high confidence, not search-confirmed."
     },
     {
@@ -102,7 +102,7 @@
         "note": "Shore paths are lit near the Sloterparkbad and the north-east side; the western woods are darker, so stay on the east side after sunset."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Reviewed from knowledge only; no search possible. Public lake park. Removed tram 14 (no longer serves this area). Wikipedia title kept on high confidence, not search-confirmed."
     },
     {
@@ -126,7 +126,7 @@
         "note": "Residential island with lit quays; quiet but not isolated at night."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Reviewed from knowledge only; no search possible. Renamed from 'Java-eiland west point' to the real public quay and fixed the sunrise/sunset direction. Wikipedia title set to null (exact article name not confirmed)."
     },
     {
@@ -150,7 +150,7 @@
         "note": "Well-lit residential canal with steady foot traffic into the small hours."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Reviewed from knowledge only; no search possible. Well-known canal. Wikipedia title kept on high confidence, not search-confirmed."
     },
     {
@@ -174,7 +174,7 @@
         "note": "Enclosed, supervised courtyard in the city centre; closed at night."
       },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Reviewed from knowledge only; no search possible. Removed the unverified 'no photos' rule. Wikipedia title kept on high confidence, not search-confirmed."
     },
     {
@@ -198,7 +198,7 @@
         "note": "Staffed public building next to Centraal station."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Reviewed from knowledge only; no search possible. Well-known public library. Hours hedged. Wikipedia title set to null (exact English article name not confirmed)."
     },
     {
@@ -222,7 +222,7 @@
         "note": "Supervised museum roof; closed at night."
       },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Reviewed from knowledge only; no search possible. Free roof access is well established. Hours hedged. Wikipedia title kept on high confidence, not search-confirmed."
     },
     {
@@ -246,7 +246,7 @@
         "note": "Gated, lit public grounds beside a still-active naval area; stay on the public side and note the evening closing time."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Reviewed from knowledge only; no search possible. Legitimately public grounds (not a derelict site); the remaining Navy section is fenced off. Hours unverified and hedged."
     },
     {
@@ -270,7 +270,7 @@
         "note": "Lit and populated around the wharf and ferry landing; quieter further along the quay, and the water's edge has no railing, so keep your distance in the dark."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Reviewed from knowledge only; no search possible. Redeveloped public wharf, not active industrial land. Removed the beached-submarine claim (believed removed in 2023) and the all-night ferry claim. Wikipedia title set to null (article 'NDSM' is primarily about the company, not confirmed)."
     },
     {
@@ -294,7 +294,7 @@
         "note": "Quiet residential lane; lit but very empty after dark."
       },
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Reviewed from knowledge only; no search possible. Real public street. Removed the specific lock and 'Nieuwendammerham' claims that could not be stood behind."
     },
     {
@@ -318,7 +318,7 @@
         "note": "Mostly unlit and isolated after dark; use it as a daytime and golden-hour spot and leave by dusk. The landfill beneath is fully capped and the park is an ordinary public park."
       },
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Reviewed from knowledge only; no search possible. Official public park with sports fields on remediated ground, not a derelict site. Coordinates place it between the Amsterdam-Rijnkanaal and IJburg; confidence raised to medium."
     },
     {
@@ -342,7 +342,7 @@
         "note": "Busy central cafe on a well-lit street; open late."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Reviewed from knowledge only; no search possible. Long-established grand cafe with a reading table, not a bar-only venue."
     },
     {
@@ -366,7 +366,7 @@
         "note": "Busy cafe on a main street with trams and shops; fine at any hour it is open."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Reviewed from knowledge only; no search possible. Well-known cafe in the former Ceintuur Theater. Hours hedged."
     }
   ]

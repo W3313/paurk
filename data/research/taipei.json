@@ -33,7 +33,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Inside a well-kept park two minutes from Xinbeitou MRT; no concerns." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Reviewed from knowledge only (search budget spent elsewhere). Well-known public library in Beitou Park. Wikipedia title kept on high confidence, not search-confirmed."
     },
     {
@@ -56,7 +56,7 @@
       ],
       "safety": { "level": "ok", "note": "Main paths are lit and used by cyclists until late; stay on the lit path rather than the far riverbank after midnight." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia article confirmed by search (park between Zhongshan Bridge and Dazhi Bridge, near Dazhi MRT); title kept."
     },
     {
@@ -77,7 +77,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Fenced, staffed reserve; daytime only." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Reviewed from knowledge only. Established fee-charging wetland reserve run for Taipei City; Wikipedia title kept on high confidence, not search-confirmed. Weekend closing time not verified, so hours are written loosely."
     },
     {
@@ -100,7 +100,7 @@
       ],
       "safety": { "level": "ok", "note": "Stairs are lit and there are usually other walkers even late; bring water, the climb is humid." },
       "lowkeyScore": 1,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title corrected from 'Elephant Mountain (Taipei)' to the actual article 'Xiangshan, Taipei' (confirmed by search). Famous spot kept because the off-hours framing is honest; lowkeyScore 1."
     },
     {
@@ -121,7 +121,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Open late but only lightly lit after dark; best before sunset." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Reviewed from knowledge only. Long-established free public garden run by the Taiwan Forestry Research Institute; Wikipedia title kept on high confidence, not search-confirmed. 'Somehow always' softened to 'usually'."
     },
     {
@@ -142,7 +142,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Campus is patrolled and lit along the main paths." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Reviewed from knowledge only. Real lake (醉月湖) on the public NTU campus. Directions in the tip corrected (the main library is at the far east end of the boulevard, not on the way); coordinates nudged toward the south-west of campus, still low confidence. No confirmed English Wikipedia article, so title left null."
     },
     {
@@ -163,7 +163,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Lanes are lit until closing; the riverside path below is fine at dusk." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Reviewed from knowledge only. Official, staffed Taipei Culture Foundation site, not a derelict area, so it passes the safety policy. Wikipedia title 'Treasure Hill' kept on high confidence (the English article is about this Taipei village), not search-confirmed."
     },
     {
@@ -187,7 +187,7 @@
       ],
       "safety": { "level": "ok", "note": "Staffed venue inside a busy public park; no concerns." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Confirmed by search on the operator's official page: NT$50, Tue-Sun 10am-6pm, last ticket 5:30pm, closed Mondays and major holidays. No Wikipedia article of its own; title null."
     },
     {
@@ -212,7 +212,7 @@
       ],
       "safety": { "level": "ok", "note": "Staffed and lit all night inside a patrolled park; taxis and YouBikes outside." },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "24-hour status confirmed by search (began 20 Jan 2024; 2026 review listings still describe it as 24/7). The chain has a Wikipedia article but this branch does not, so title stays null."
     },
     {
@@ -233,7 +233,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Well lit, busy with locals until late, MRT exits along its length." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Reviewed from knowledge only. Real city park (心中山線形公園) above the Tamsui-Xinyi line between Zhongshan and Shuanglian stations; coordinates sit between the two stations. No English Wikipedia article known; title null."
     },
     {
@@ -256,7 +256,7 @@
       ],
       "safety": { "level": "ok", "note": "Lit riverside path with regular cyclists into the night; the northern stretch empties after 10pm." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia article confirmed by search (wharf near No. 5 water gate, revived as a tourism spot in 2005); title added."
     },
     {
@@ -279,7 +279,7 @@
       ],
       "safety": { "level": "ok", "note": "Residential surroundings, lit loop path, locals walking until late." },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia article confirmed by search (Neihu park opened 1987, walking distance north of Wende Station); title added."
     },
     {
@@ -304,7 +304,7 @@
       ],
       "safety": { "level": "caution", "note": "Lightly lit and isolated after dark, with no shops or staff nearby; enjoy sunset and start the ride back along the lit riverside path before full night, ideally with a friend." },
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Existence confirmed by search as an official Taipei city park (Shezi Daotou Park) at the Keelung-Tamsui confluence; name updated to the city's English spelling. Coordinates estimated for the peninsula tip and left at low confidence. The 'Shezi, Taiwan' Wikipedia article is about the district, not the park, so title stays null. Caution level kept for the isolated after-dark setting."
     },
     {
@@ -325,7 +325,7 @@
       "sources": [],
       "safety": { "level": "ok", "note": "Teahouses are busy into the night; the roads are dark for walking, so use the bus or a taxi rather than walking down." },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Reviewed from knowledge only. Well-known tea district served by the Maokong Gondola; Wikipedia title 'Maokong' kept on high confidence, not search-confirmed. Gondola closing time loosened to 9-10pm since it varies by day."
     }
   ]

@@ -42,7 +42,7 @@
         "note": "The sandstone edges are unfenced in places and collapse without warning; stay on the paved path and behind the post-and-cable fences, do not climb down to the ledges, and leave before dark since the park is unlit."
       },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search only surfaced the neighborhood article 'Sunset Cliffs, San Diego', not a park article, so wikipediaTitle set to null. Blurb rewritten to point people at the fenced path and benches rather than the ledges."
     },
     {
@@ -77,7 +77,7 @@
         "note": "Residential hilltop park, fine in daylight; it is unlit after dark so leave by dusk."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia article confirmed by search. Coordinates nudged toward the 5115 Soledad Rd entrance."
     },
     {
@@ -112,7 +112,7 @@
         "note": "Quiet residential street, well used in daylight; the bridge is dim after dark, so go before sunset."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title kept on verifier's knowledge (search budget spent elsewhere); the bridge is a well-documented city landmark."
     },
     {
@@ -142,7 +142,7 @@
         "note": "Lit and populated into the evening; the main walkway is comfortable at night."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia article is about Shelter Island itself, which is the strip the park runs along; kept on verifier's knowledge. Removed unverified 'patrolled' claim."
     },
     {
@@ -172,7 +172,7 @@
         "note": "Unlit and empty after dark; come for golden hour and leave by dusk."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title kept on verifier's knowledge. Dropped the unverified acreage figure."
     },
     {
@@ -212,7 +212,7 @@
         "note": "Inside Balboa Park's busy central mesa; fine by day, and the Prado area is lit and populated in the evening."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia article confirmed by search; official park pages added as sources."
     },
     {
@@ -242,7 +242,7 @@
         "note": "Staffed museum on the busiest plaza in Balboa Park."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title kept on verifier's knowledge. Hours from memory; check before going."
     },
     {
@@ -272,7 +272,7 @@
         "note": "Staffed building with security inside; the surrounding East Village blocks can feel rough after dark, so use the Park Blvd entrance and plan your ride home before closing."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title kept on verifier's knowledge. Dropped a guessed sandiego.gov URL that was not seen in any search result."
     },
     {
@@ -302,7 +302,7 @@
         "note": "Busy commercial stretch of North Park, well lit and walkable in the evening."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real store at 3793 30th St; removed unverified title count and shop-cat claims. No Wikipedia article."
     },
     {
@@ -326,7 +326,7 @@
         "note": "Well-lit block of Adams Ave with restaurants and bars open late."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Long-running cafe at 3343 Adams Ave; kept on verifier's knowledge. No Wikipedia article."
     },
     {
@@ -366,7 +366,7 @@
         "note": "Narrow dirt path above the bluffs with no lighting and only partial fencing; walk it in daylight, stay on the trail and back from the edge, and respect any closure signs on the footbridge."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search confirmed a dedicated Wikipedia article and that the trail is open and actively maintained; coordinates moved to mid-trail."
     },
     {
@@ -396,7 +396,7 @@
         "note": "The bluff edge beyond the launch area is unfenced and crumbly; stay on the grass behind the marked launch zone, skip the steep unofficial paths down to the beach, and leave before dark."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title kept on verifier's knowledge. Safety raised from ok to caution because of the unfenced 300-foot bluff."
     },
     {
@@ -431,7 +431,7 @@
         "note": "No lighting and few people after late afternoon; visit in daylight and stay on the main trail."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "No dedicated Wikipedia article; the park is the open space along San Clemente Canyon, so that canyon article is used for the photo. Official city park page confirmed by search."
     },
     {
@@ -455,7 +455,7 @@
         "note": "Well-lit, family-oriented waterfront with shops and restaurants next door; comfortable in the evening."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real Coronado city park beside the Ferry Landing; kept on verifier's knowledge. Trimmed the 'calmest skyline view in the county' overclaim. No Wikipedia article."
     }
   ]

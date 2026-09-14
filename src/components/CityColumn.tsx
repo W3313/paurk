@@ -39,7 +39,7 @@ export function CityColumn({ city, now, live, sun, preview, origin, originIsReal
   const ranked = useMemo(() => rankSpots(spots, ctx), [spots, ctx])
   const good = ranked.filter((r) => r.reasons.length > 0 && r.hours?.status !== 'closed').length
   const spot = spotId ? spots.find((s) => s.id === spotId) ?? null : null
-  const unreviewed = spots.filter((s) => !s.verified).length
+  const unreviewed = spots.filter((s) => !s.reviewed).length
 
   const far = originIsReal && origin ? distanceKm(origin, city) : 0
   const compass = originIsReal && origin ? `you are ${formatDistance(far, units)} ${DIRS[compassLabel(bearingDeg(city, origin))]} of the centre` : null

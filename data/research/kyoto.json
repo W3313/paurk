@@ -58,7 +58,7 @@
       ],
       "safety": {"level": "ok", "note": "Populated until late; the bank is only partly lit after dark but there are usually locals around and the road above is well lit."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known public riverbank at the Kamo/Takano confluence; coordinates match the delta tip. No standalone Wikipedia article for the delta itself, so title left null."
     },
     {
@@ -83,7 +83,7 @@
       ],
       "safety": {"level": "ok", "note": "Quiet residential park; paths are unlit in places after dark, so it is best as a daytime and dusk spot."},
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real municipal park beside Kyoto International Conference Center; coordinates plausible for the pond. Wikipedia title not confirmed, left null."
     },
     {
@@ -108,7 +108,7 @@
       ],
       "safety": {"level": "caution", "note": "Fine at dusk with other walkers around, but the hill paths are unlit; after dark go with a friend and carry a light, or stick to the shrine steps."},
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real city park on Funaoka hill with Kenkun Shrine; 112 m elevation is correct. Caution kept for unlit paths after dark. Wikipedia title not confirmed, left null."
     },
     {
@@ -133,7 +133,7 @@
       ],
       "safety": {"level": "ok", "note": "Well lit, staffed station building; open until late."},
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Free rooftop garden and Skyway inside the Hara-designed station building are real and public. Wikipedia article 'Kyoto Station' is about this building."
     },
     {
@@ -158,7 +158,7 @@
       ],
       "safety": {"level": "ok", "note": "Staffed public building in the museum district."},
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Public prefectural library in Okazaki; Wikipedia URL surfaced directly in researcher results."
     },
     {
@@ -183,7 +183,7 @@
       ],
       "safety": {"level": "ok", "note": "Quiet residential streets; no concerns."},
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known sento-conversion cafe on Kuramaguchi-dori. Corrected bathhouse name from 'Fujimori' to 'Fujinomori Onsen'; hours could not be re-checked so they are given approximately."
     },
     {
@@ -208,7 +208,7 @@
       ],
       "safety": {"level": "ok", "note": "Residential neighbourhood; no concerns."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real, long-running independent bookshop near Eizan Ichijoji station (Guardian 2010 list). Draft's 10am-9pm looked outdated; hours softened and flagged to check."
     },
     {
@@ -233,7 +233,7 @@
       ],
       "safety": {"level": "caution", "note": "Rural lanes with no streetlights; ideal for dawn and dusk, but head back toward Saga-Arashiyama station before it is fully dark."},
       "lowkeyScore": 5,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real Heian-era reservoir (Hirosawa-no-ike) between Daikaku-ji and Narutaki; annual drain-and-harvest fish farming is documented. Caution kept for unlit lanes. Wikipedia title not confirmed, left null."
     },
     {
@@ -258,7 +258,7 @@
       ],
       "safety": {"level": "ok", "note": "Closes at 4pm; daytime only."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Free-entry temple grounds just east of the Philosopher's Path; 6am-4pm is the standard published time. English Wikipedia article 'Hōnen-in' is about this temple (kept from knowledge; search unavailable)."
     },
     {
@@ -283,7 +283,7 @@
       ],
       "safety": {"level": "ok", "note": "Staffed museum; daytime only."},
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "The 2020 renovation added a free rooftop terrace (Higashiyama Cube Terrace) and free garden access; museum opens 10am-6pm, closed Mon. Wikipedia article 'Kyoto Municipal Museum of Art' is about this building (kept from knowledge)."
     },
     {
@@ -308,7 +308,7 @@
       ],
       "safety": {"level": "ok", "note": "Lit main paths and a steady stream of joggers and families into the evening."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real municipal park (opened 1995 on the former JR freight yard) beside the Railway Museum and Aquarium. Wikipedia title not confirmed by search, left null."
     },
     {
@@ -333,7 +333,7 @@
       ],
       "safety": {"level": "ok", "note": "Street-lit lane with residents and diners around until late; the busier bar stretch south of Sanjo is louder and has touts, but is still a populated public street."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Public canal-side street; Ichinofunairi dock and replica takasebune boat near Kiyamachi-Nijo are a designated historic site. Wikipedia title not confirmed, left null."
     },
     {
@@ -357,7 +357,7 @@
       ],
       "safety": {"level": "ok", "note": "Open 24h; the perimeter roads are lit but interior avenues are dark at night, so it is best as a day and dusk spot."},
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "National garden managed by the Ministry of the Environment, open around the clock. Exact English Wikipedia title (Kyoto Gyoen vs Kyoto Gyoen National Garden) could not be confirmed, so set to null rather than risk a broken photo."
     },
     {
@@ -380,7 +380,7 @@
       ],
       "safety": {"level": "ok", "note": "Gated garden, daytime only."},
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Kyoto Prefectural Botanical Garden (opened 1924), 200 yen entry, 9am-5pm. English Wikipedia article 'Kyoto Botanical Garden' is about this garden (kept from knowledge)."
     }
   ]

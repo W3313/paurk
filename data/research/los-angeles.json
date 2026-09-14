@@ -101,7 +101,7 @@
         "note": "Staffed MRCA park that closes at sunset; a daytime and golden-hour spot."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real MRCA park at 100 N Toluca St. Wikipedia title kept from the researcher's result URL (not re-searched; budget). Category changed from viewpoint to park; hours set to the posted 7am-sunset."
     },
     {
@@ -154,7 +154,7 @@
         "note": "Security patrols the hall grounds; well used by nearby office workers during the day."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real public roof garden on the Walt Disney Concert Hall. No dedicated Wikipedia article, so title left null rather than pointing at the concert hall article."
     },
     {
@@ -205,7 +205,7 @@
         "note": "Staffed and secured; the surrounding blocks are busy office streets in daytime, and the library closes before dark most of the year."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Officially the Richard J. Riordan Central Library; the Wikipedia article is titled Los Angeles Central Library (from knowledge). Hours kept from the researcher's search but flagged as changeable."
     },
     {
@@ -259,7 +259,7 @@
         "note": "The lit lake loop is busy and fine through about 9pm. Later the park thins out and the side streets are quiet, and there have been occasional robberies and assaults reported around the park at night. Late on, stay on the lit loop near the boathouse and the Glendale Blvd/Sunset side, and go with company rather than solo."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real and publicly accessible. Wikipedia title from knowledge (separate article from the Echo Park district). Safety raised to caution for late-night use; hours softened because the exact posted closing was not confirmed."
     },
     {
@@ -312,7 +312,7 @@
         "note": "The drive and paths are lit and the park is open late, but the lawn empties soon after sunset; best enjoyed through dusk."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real city park at 4800 Hollywood Blvd. Wikipedia title from knowledge (separate from the Hollyhock House article). Removed the 'night' and 'sunrise' vibes since the lawn is a dusk spot."
     },
     {
@@ -359,7 +359,7 @@
         "note": "Busy, lit and staffed until 10pm. The trail down to Fern Dell is unlit after dark, so take the bus or drive if you leave late."
       },
       "lowkeyScore": 1,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Famous attraction kept as a lowkeyScore 1 stargazing spot; blurb rewritten to be honest about crowds. Hours match the observatory's published schedule."
     },
     {
@@ -411,7 +411,7 @@
         "note": "Quiet residential setting; closes at 6pm."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real garden at 275 Arlington Dr, Pasadena (about 15 km from downtown LA). Wikipedia title kept from the researcher's result URL and the verifier's knowledge."
     },
     {
@@ -467,7 +467,7 @@
         "note": "Gated and staffed during opening hours."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title 'The Japanese Garden' confirmed by search (article describes this 6.5-acre Kawana garden at the Tillman plant). Coordinates set to 6100 Woodley Ave."
     },
     {
@@ -520,7 +520,7 @@
         "note": "The bluff edge is fenced along the promenade; stay inside it, as the adjacent 'Sunken City' landslide area is closed and off-limits. The park is poorly lit past the lighthouse, so treat it as a sunrise-to-dusk spot."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Real city park at 807 Paseo del Mar, about 39 km from downtown. No park-specific Wikipedia article confirmed (the Point Fermin Lighthouse article is about the lighthouse), so title left null. Added an explicit note to stay off the closed Sunken City area next door."
     },
     {
@@ -572,7 +572,7 @@
         "note": "Busy with runners and hikers; closes at sunset."
       },
       "lowkeyScore": 2,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title confirmed by search. Coordinates tightened to the 6300 Hetzler Rd entrance/summit; acreage corrected to 57 per the article."
     },
     {
@@ -628,7 +628,7 @@
         "note": "Gated, staffed and reservation-only; daytime hours only. On-site parking is provided."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Search confirmed the gardens reopened 27 Aug 2025 with Wed-Sat 10am-4:30pm / Sun 1-4:30pm reservation-only hours; draft's afternoon-only hours and tips corrected. Wikipedia title confirmed. Unconfirmed LAist and yogananda URLs replaced with ones seen in results."
     },
     {
@@ -677,7 +677,7 @@
         "note": "Busy commercial strip; closes at 5pm."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Confirmed by search: 3708 Eagle Rock Blvd, open 7am-5pm daily, official domain habitatcoffeela.com. Dropped the 'quiet' vibe since reviews describe a laptop-filled room; replaced an unconfirmed blog source with The Infatuation review seen in results."
     },
     {
@@ -727,7 +727,7 @@
         "note": "On a busy, lit stretch of Sunset Blvd with foot traffic into the evening."
       },
       "lowkeyScore": 3,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Well-known shop at 1716 W Sunset Blvd (from knowledge; no search spent). No Wikipedia article; hours softened."
     },
     {
@@ -781,7 +781,7 @@
         "note": "Lit, patrolled county park with the sheriff's harbor station nearby; open into the evening."
       },
       "lowkeyScore": 4,
-      "verified": true,
+      "reviewed": true,
       "verifyNote": "Wikipedia title 'Chace Park' confirmed by search (article describes this 10-acre Mindanao Way park). Coordinates tightened; hours flagged as approximate."
     }
   ]
