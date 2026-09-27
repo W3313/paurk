@@ -1,0 +1,638 @@
+{
+  "city": "Havana",
+  "country": "Cuba",
+  "slug": "havana",
+  "region": "americas",
+  "cityLat": 23.1136,
+  "cityLng": -82.3666,
+  "timezone": "America/Havana",
+  "searchesRun": [
+    "Quinta de los Molinos Havana opening hours botanical park",
+    "Jardín Botánico Nacional de Cuba Havana hours entrance wikipedia",
+    "Bosque de La Habana Parque Almendares river park",
+    "Café Arcángel Havana Concordia quiet cafe still open",
+    "Cristo de La Habana Casablanca ferry Muelle de Luz viewpoint",
+    "Biblioteca Nacional José Martí Havana horario público lectores",
+    "Fusterlandia Jaimanitas Havana wikipedia visiting",
+    "Parque John Lennon Havana Vedado wikipedia",
+    "Café Arcángel Havana Concordia 57 still open 2025",
+    "Avenida de los Presidentes Havana Calle G wikipedia",
+    "Quinta de los Molinos Havana en.wikipedia.org",
+    "Torreón de Cojímar coordinates Cojímar Havana wikipedia"
+  ],
+  "redditSourcedNotes": "Twelve web searches in total (eight in the research stage, four in the review stage), all recorded above; none returned reddit threads, so nothing here is reddit-sourced. Research-stage results confirmed the exact English Wikipedia titles John Lennon Park, Christ of Havana, Metropolitan Park of Havana and National Library José Martí, plus the existence, location and hours of Quinta de los Molinos, the Jardín Botánico Nacional, the Biblioteca Nacional and Fusterlandia. Review-stage results confirmed three more titles as en.wikipedia.org URLs (Malecón, Havana; Cojímar; Museo Nacional de Bellas Artes de La Habana), found no English article for Avenida de los Presidentes (Spanish Wikipedia and Wikidata only, so its title was set to null) or for Quinta de los Molinos (still null), gave the Torreón de Cojímar coordinates (the Cojímar point was moved about 400 m north to the plaza by the tower), and re-confirmed Café Arcángel as listed at Concordia 57, 8:15am-6pm, closed Sunday, on Tripadvisor, AlaMesa, Foursquare and its own site, though none of those pages carried a date. 'Paseo del Prado, Havana' is the one title kept from knowledge alone. Metropolitan Park of Havana is used for the Bosque de La Habana entry even though the article covers the larger park. Source URLs: the Café Arcángel sources were seen again in review results; the research-stage Havana Times, LaHabana.com, Lonely Planet, Atlas Obscura, insightCuba, bnjm.cu, Facebook and Instagram URLs are as that stage reported them and were not re-fetched (Wikipedia and most other domains are blocked from this container). Paseo del Prado and Plaza del Cristo keep empty sources arrays rather than invented ones. Prices in results are still quoted in CUC, a currency abolished in 2021, so no admission prices are stated; expect small charges at Quinta de los Molinos, the botanical garden and the Bellas Artes museum. Hours are indicative: Cuba has had rolling power cuts (apagones) and staffing shortages through 2025-26, street lighting goes off with the grid, public transport is unreliable after dark, and cafés and museums shorten hours or close at short notice. Whether a foreign visitor can use the Biblioteca Nacional reading rooms without Cuban ID is not confirmed. Coordinates: John Lennon Park, Cristo de La Habana, Biblioteca Nacional, Prado, Bellas Artes and (after the review fix) Cojímar are high; the Malecón, Calle G, Quinta de los Molinos, Bosque de La Habana, Jardín Botánico entrance, Plaza del Cristo, Café Arcángel and Fusterlandia are medium, derived from street intersections or article-stated locations. All fourteen are within 15 km of the centre. Safety screen: all fourteen safety notes were read against the standard and none needed rewriting; they describe only lighting, power cuts, sea walls, stairs, terrain, closing times and transport, with one caution (Bosque de La Habana, unlit forest paths with few exits). All spots are public streets, parks, gardens, a ferry-reached viewpoint, a library, a museum and a café; Fuster's house-studio is private and the entry is confined to the public streets around it.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title confirmed: en.wikipedia.org/wiki/John_Lennon_Park appeared in results; location (Calle 17 y 6, Vedado) confirmed by the same results. Coordinates from the article's stated location.",
+      "name": "Parque John Lennon",
+      "neighborhood": "Vedado",
+      "category": "park",
+      "vibes": [
+        "quiet",
+        "green",
+        "solo",
+        "people-watch",
+        "free",
+        "night"
+      ],
+      "blurb": "A shady one-block neighbourhood square in the residential grid of Vedado, known for the bronze Lennon sitting on one of its benches but used day to day by pensioners, dog walkers and students from the nearby faculties. The big trees keep it cool at noon and the benches around the edge face inward, so it works for reading or just watching the block go about its business. Most visitors take a photo with the statue and leave within five minutes, which is why the rest of the park stays quiet.",
+      "tips": "Enter from Calle 17 between Calles 6 and 8; the benches on the Calle 8 side are furthest from the statue and the photo queue. A volunteer minds the statue's glasses, so ask before touching them. The Yellow Submarine music club on the corner gets loud after 10pm on weekends.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 23.1361,
+      "lng": -82.4061,
+      "coordConfidence": "high",
+      "wikipediaTitle": "John Lennon Park",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/John_Lennon_Park",
+          "label": "Wikipedia: John Lennon Park",
+          "kind": "other"
+        },
+        {
+          "url": "https://havanatimes.org/features/the-true-forgotten-story-of-havanas-john-lennon-park/",
+          "label": "Havana Times: history of the park",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Open, unfenced square on lit residential streets with houses on all four sides; street lighting may be off during power cuts, so bring a phone light after dark."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Written from knowledge in the research stage. Review stage: en.wikipedia.org/wiki/Malecón,_Havana appeared in a search result, so the title is now URL-confirmed. Coordinates point at the Vedado stretch near the foot of Calle 23 on an 8 km wall, medium for that exact spot.",
+      "name": "Malecón (Vedado stretch)",
+      "neighborhood": "Vedado",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunset",
+        "night",
+        "people-watch",
+        "group",
+        "solo",
+        "free",
+        "skyline"
+      ],
+      "blurb": "The city's sea wall is Havana's living room: eight kilometres of concrete ledge where people sit facing the Straits of Florida with a bottle, a guitar or nothing at all. The Vedado stretch between La Rampa (Calle 23) and Calle G is the part residents actually use in the evening, with the Hotel Nacional on the bluff behind and the fortresses across the bay to the east. Sit on the wall with your legs over the seaward side and the traffic disappears behind you.",
+      "tips": "Come an hour before sunset and stay; the wall fills after dark, especially Friday and Saturday. In winter cold fronts send waves over the wall and the road is closed, so check before sitting on the seaward side. Take a shared almendrón taxi along the Malecón or Línea to get back late.",
+      "bestTimes": [
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 23.1447,
+      "lng": -82.3865,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Malecón, Havana",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Unfenced sea wall with a drop to rocks on the seaward side; stay off it in high swell or when waves are breaking over. Busy and lit most nights, but lighting fails during power cuts and the road carries fast traffic, so cross at junctions."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, 4.8 ha botanical garden, butterfly house and Máximo Gómez museum confirmed by search; hours (Tue-Sat 9-5, Sun 9-12) from a search snippet and may have changed. Small admission charge in results was quoted in obsolete CUC. Two searches across both stages found no English Wikipedia URL (only unrelated 'Quinta' articles), so the title stays null. Coordinates from the Spanish article's location, medium.",
+      "name": "Quinta de los Molinos",
+      "neighborhood": "Vedado / Centro Habana border",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "hidden",
+        "solo",
+        "walk",
+        "study"
+      ],
+      "blurb": "A walled botanical garden at the bottom of the University hill, laid out in 1839 around the former summer house of the Spanish captains-general and later the residence of General Máximo Gómez. Inside the wall there are old royal palms, a bonsai island, a butterfly house and benches along shaded gravel paths, with the traffic of Salvador Allende and Infanta reduced to a hum. It is small enough to know in an hour and empty enough on weekday mornings to have a bench to yourself.",
+      "tips": "The entrance is on Avenida Salvador Allende (Carlos III) near Infanta; hours are roughly Tue-Sat 9am-5pm and Sunday mornings, closed Monday, with a small admission fee and occasional closures for events, so check the park's Facebook page. Pair it with the University steps two blocks uphill.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "Tue-Sat 9am-5pm, Sun 9am-12pm (check page)",
+      "lat": 23.1308,
+      "lng": -82.3828,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://havanatimes.org/features/quinta-de-los-molinos-an-urban-havana-paradise/",
+          "label": "Havana Times: Quinta de los Molinos",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.facebook.com/QuintaMolinosCuba/",
+          "label": "Quinta de los Molinos on Facebook",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Walled, staffed and gated garden that closes in the late afternoon; paths are gravel and uneven in places."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence confirmed by search as part of the Parque Metropolitano de La Habana; en.wikipedia.org/wiki/Metropolitan_Park_of_Havana appeared in results, and that article covers the whole park of which the Bosque is one section, so the title is used for the broader park. Coordinates are for the riverside below Puente Almendares, medium.",
+      "name": "Bosque de La Habana (Parque Almendares)",
+      "neighborhood": "Vedado / Nuevo Vedado",
+      "category": "trail",
+      "vibes": [
+        "green",
+        "water",
+        "quiet",
+        "walk",
+        "solo",
+        "hidden",
+        "free"
+      ],
+      "blurb": "A strip of genuine forest along the Almendares river gorge where it cuts between Vedado and Miramar, with huge jagüey and ceiba trees trailing vines down to the water. It is the only place in the city that feels like countryside, and on a weekday you can walk the riverside path for half an hour hearing nothing but birds and the river. Parque Almendares downstream has the benches, the playground and the snack bar; the Bosque upstream has the silence.",
+      "tips": "Enter from Calle 49C under the Puente Almendares, or from Avenida 47 in Nuevo Vedado, and follow the path along the river; the flat, dry stretches near the bridge are the easiest to sit on. You will see Santería offerings at the base of trees, leave them alone. There are no facilities in the forest itself, so bring water.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (unlit, daylight recommended)",
+      "lat": 23.123,
+      "lng": -82.409,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Metropolitan Park of Havana",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Metropolitan_Park_of_Havana",
+          "label": "Wikipedia: Metropolitan Park of Havana",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.lahabana.com/guide/gran-parque-metropolitano-parque-almendares/",
+          "label": "LaHabana.com guide: Parque Almendares",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Unlit riverside paths under dense tree cover, few exits and no staff; go in daylight and leave well before dusk. The riverbank is muddy and slippery after rain and the river is not for swimming."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence (500-600 ha, University of Havana, opened 1984, 25 km south) and hours (9am-4pm, Wed-Sun for residents) confirmed by search. Only Spanish Wikipedia and Wikidata appeared, so the English title is null. Coordinates are for the entrance area off Carretera del Rocío near Calabazar, medium.",
+      "name": "Jardín Botánico Nacional de Cuba",
+      "neighborhood": "Arroyo Naranjo (Calabazar)",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "picnic",
+        "solo",
+        "group"
+      ],
+      "blurb": "A 600-hectare botanical garden run by the University of Havana on the southern edge of the city, laid out by climate zone with a Japanese garden, palm collections and long grassy avenues between the trees. The distance keeps numbers low even on weekends, and once you walk away from the entrance and the tourist train you can find a bench under a canopy of palms with nobody in sight. The Japanese garden by the lake is the traditional spot to sit.",
+      "tips": "It is roughly 25 km from the centre on the Carretera del Rocío near ExpoCuba, so budget for a taxi both ways or the infrequent P-bus to Calabazar; the site is far too big to walk entirely, so ride the little train to the Japanese garden and sit there. Open roughly 9am-4pm, closed Mon-Tue for residents; bring water and sun cover.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "9am-4pm (Wed-Sun for residents; check before going)",
+      "lat": 22.988,
+      "lng": -82.347,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_bot%C3%A1nico_Nacional_de_Cuba",
+          "label": "Wikipedia (es): Jardín Botánico Nacional de Cuba",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.lonelyplanet.com/cuba/havana/outer-havana/attractions/jardin-botanico-nacional/a/poi-sig/370237/1333141",
+          "label": "Lonely Planet: Jardín Botánico Nacional",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.instagram.com/jbnuh_cuba/",
+          "label": "Jardín Botánico Nacional on Instagram",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, gated site that closes mid-afternoon; very little shade on the open avenues and no public transport after closing, so arrange the ride back before you go."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title confirmed: en.wikipedia.org/wiki/National_Library_Jos%C3%A9_Mart%C3%AD appeared in results. Reader hours (Mon-Fri 8:40am-4:45pm, alternate Saturdays) from the library's own FAQ page in results. Whether a foreign visitor can use the reading rooms without a Cuban ID is not confirmed; the ground-floor gallery is open to all.",
+      "name": "Biblioteca Nacional José Martí",
+      "neighborhood": "Plaza de la Revolución",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "cozy",
+        "solo",
+        "free"
+      ],
+      "blurb": "Cuba's national library, a 1950s tower on the east side of the Plaza de la Revolución with a general reading room on the first floor, a lending room and a ground-floor gallery of changing exhibitions. It is the calmest indoor public space in this part of the city, air-conditioned when the power allows, and locals come to read newspapers and study rather than to see anything. The plaza itself is a vast expanse of asphalt, so this is where you go when you have been out in it too long.",
+      "tips": "Enter from Avenida de la Independencia at the corner of 20 de Mayo and bring photo ID; bags are checked at the door. Reading rooms run roughly Mon-Fri 8:40am-4:45pm with alternate Saturdays, and the gallery 9am-5pm Mon-Sat. The steps outside face the Martí memorial and catch the late sun.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Fri 8:40am-4:45pm, alternate Sat 8:15am-4:15pm (check site)",
+      "lat": 23.1232,
+      "lng": -82.3836,
+      "coordConfidence": "high",
+      "wikipediaTitle": "National Library José Martí",
+      "sources": [
+        {
+          "url": "https://bnjm.cu/index.php?secc=faq",
+          "label": "Biblioteca Nacional FAQ (hours)",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/National_Library_Jos%C3%A9_Mart%C3%AD",
+          "label": "Wikipedia: National Library José Martí",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building with door security; the plaza outside is open and shadeless and mostly empty after offices close, so head back along Paseo or Rancho Boyeros rather than across it after dark."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Written from knowledge, no search spent. Small square at Teniente Rey and Villegas in the south-west corner of Habana Vieja; coordinates medium. No English Wikipedia article known for the square itself, so null. Cafés around it change names often, so none are relied on.",
+      "name": "Plaza del Cristo",
+      "neighborhood": "Habana Vieja",
+      "category": "plaza",
+      "vibes": [
+        "quiet",
+        "people-watch",
+        "green",
+        "solo",
+        "free",
+        "hidden",
+        "night"
+      ],
+      "blurb": "The one square in Old Havana that the restoration programme reached last and the tour groups still skip: a shaded, slightly worn plaza in front of the Iglesia del Santo Cristo del Buen Viaje, with benches, laurel trees and kids playing football after school. It sits on the edge of the tourist zone where Habana Vieja fades into ordinary residential streets, so you are sitting with neighbours rather than visitors. A couple of small cafés on the square do a coffee you can take to a bench.",
+      "tips": "It is at Teniente Rey (Brasil) and Villegas, three blocks south-west of Plaza Vieja and a short walk from the Capitolio. Benches under the trees on the church side are the shadiest at noon; evenings bring families out and the square stays lively until around 10pm.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 23.1362,
+      "lng": -82.3548,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Overlooked by homes and cafés on all sides and lit in the evening, subject to power cuts; pavements around it are uneven."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title confirmed: en.wikipedia.org/wiki/Christ_of_Havana appeared in results. Ferry from Muelle de Luz (San Pedro y Santa Clara) to Casablanca and the staircase up from the landing confirmed by search. Ferry fare in results was in obsolete CUC. Coordinates from the article location, high.",
+      "name": "Cristo de La Habana (Casablanca)",
+      "neighborhood": "Casablanca, Regla",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "skyline",
+        "sunset",
+        "water",
+        "quiet",
+        "walk",
+        "free",
+        "solo"
+      ],
+      "blurb": "A 20-metre marble Christ on the hill above the fishing village of Casablanca, reached by a ten-minute passenger ferry across the harbour from Old Havana and a steep climb. The terrace around the statue has low walls to sit on and the whole of Havana laid out across the water: the Malecón curving west, the Capitolio dome, the ships in the harbour. Habaneros come up here in couples at sunset; tour buses mostly go to the neighbouring fortress instead.",
+      "tips": "Take the ferry from Muelle de Luz at San Pedro and Santa Clara (bags are searched) and follow the staircase or the winding walled path up from the Casablanca landing, about 15 minutes. Ferries run roughly every 15-30 minutes but thin out in the evening, so check the last sailing back before you climb. There is a small café-restaurant near the statue with unreliable hours.",
+      "bestTimes": [
+        "golden-hour",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (ferry hours limit access)",
+      "lat": 23.1433,
+      "lng": -82.3414,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Christ of Havana",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Christ_of_Havana",
+          "label": "Wikipedia: Christ of Havana",
+          "kind": "other"
+        },
+        {
+          "url": "https://havanatimes.org/photo-feature/crossing-over-to-see-havanas-cristo-in-casablanca-photos/",
+          "label": "Havana Times: crossing to the Cristo",
+          "kind": "press"
+        },
+        {
+          "url": "https://insightcuba.com/blog/2019/05/20/ferry-across-havana-harbor-casablanca",
+          "label": "insightCuba: ferry to Casablanca",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Steep staircase with uneven steps and little lighting; climb in daylight and come down before dark, and confirm the last ferry back since the road alternative is long. The terrace walls are low with a drop on the harbour side."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Written from knowledge, no search spent in either stage. Long-established promenade between Parque Central and the Malecón; coordinates for the midpoint of the raised walkway, high for the promenade as a whole. Wikipedia title 'Paseo del Prado, Havana' kept from knowledge, not URL-confirmed.",
+      "name": "Paseo del Prado",
+      "neighborhood": "Centro Habana / Habana Vieja border",
+      "category": "plaza",
+      "vibes": [
+        "people-watch",
+        "walk",
+        "night",
+        "green",
+        "free",
+        "group",
+        "solo"
+      ],
+      "blurb": "A raised marble promenade running from the Capitolio down to the sea, shaded by laurels and lined with stone benches and bronze lions, with the traffic a level below on either side. It is where Havana promenades: schoolchildren practise on the marble at dusk, painters sell on weekends, and older residents claim the same bench every evening. Because it is a walkway rather than a square, nobody minds how long you sit.",
+      "tips": "Start at Parque Central and walk seaward; the northern half past Calle Trocadero is quieter than the Capitolio end, and the last block before the Malecón catches the sunset. Sunday afternoons bring an informal art market; weekday evenings are the calmest.",
+      "bestTimes": [
+        "golden-hour",
+        "night",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 23.1395,
+      "lng": -82.359,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Paseo del Prado, Havana",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit and well used into the late evening, with traffic lanes on both sides so cross at the marked junctions; the marble is slippery when wet. Lighting can fail during power cuts."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Written from knowledge in the research stage. Review stage search returned only the Spanish Wikipedia article, Wikidata and the LaHabana.com guide, no English article, so wikipediaTitle is set to null. Coordinates for the stretch near Calle 17 are medium, from the street grid.",
+      "name": "Avenida de los Presidentes (Calle G)",
+      "neighborhood": "Vedado",
+      "category": "park",
+      "vibes": [
+        "night",
+        "people-watch",
+        "green",
+        "group",
+        "walk",
+        "free"
+      ],
+      "blurb": "A wide, grassy central reservation running downhill from the University area to the sea, planted with trees and lined with statues of Latin American presidents and heroes. By day it is a quiet linear park where people walk dogs and sit on the low walls; by night, particularly at weekends, it becomes Vedado's open-air hangout, with groups of students and musicians spread along the lawns until the small hours. It is the place to sit outside after dark in Havana without being in a bar.",
+      "tips": "Walk it from Calle 23 down towards the Malecón; the blocks around Calles 15-19 are the busiest at night and the lower blocks near Línea the quietest. The Malecón is at the bottom if you want the sea. Bring your own drinks; the kiosks are unreliable.",
+      "bestTimes": [
+        "night",
+        "golden-hour",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 23.1405,
+      "lng": -82.3895,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.lahabana.com/guide/avenida-de-los-presidentes-calle-g/",
+          "label": "LaHabana.com guide: Avenida de los Presidentes",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Central reservation between two traffic lanes, so cross at junctions; lit and busy at night on weekends, quieter on weekdays, and street lighting goes off during power cuts."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review stage: en.wikipedia.org/wiki/Cojímar appeared in a search result, confirming the title. Torreón de Cojímar coordinates (23°10'02\"N 82°17'41\"W) came from a search snippet; the research stage's point was about 400 m south in the village, so it has been moved to the plaza beside the tower.",
+      "name": "Cojímar seafront",
+      "neighborhood": "Cojímar, Habana del Este",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "quiet",
+        "sunrise",
+        "sunset",
+        "solo",
+        "walk",
+        "free",
+        "hidden"
+      ],
+      "blurb": "The small fishing village where Hemingway kept his boat, ten kilometres east of the centre, with a stubby Spanish watchtower on the point, a bust of the writer in a little colonnaded plaza and a low sea wall where men fish at dawn. It gets a trickle of Hemingway pilgrims at lunchtime and almost nobody otherwise, and the wall by the tower faces east over open water, so sunrise is the time. The village itself is lived-in and unhurried.",
+      "tips": "Take a taxi or the P-8 or P-11 bus through the harbour tunnel and get off at Cojímar; the plaza and tower are at the end of the seafront road. Sit on the wall east of the tower for the open sea. La Terraza restaurant on the main street is the only reliable place to eat.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 23.1671,
+      "lng": -82.2947,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Cojímar",
+      "sources": [
+        {
+          "url": "https://es.wikipedia.org/wiki/Torre%C3%B3n_de_Coj%C3%ADmar",
+          "label": "Wikipedia (es): Torreón de Cojímar",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.visitarcuba.org/torreon-de-cojimar",
+          "label": "Visitar Cuba: Torreón de Cojímar",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Low, unfenced sea wall over rocks with waves breaking over it in a swell; the seafront is unlit beyond the plaza and buses back are infrequent after dark, so plan the ride home."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review stage re-searched it: Tripadvisor, AlaMesa, Foursquare, cafearcangel.com and other listings all appeared with the address Concordia 57 between Galiano and Águila and hours 8:15am-6pm, closed Sunday; a search summary described it as currently operating, but none of the pages carried a 2025-26 date, so treat it as probably open. Coordinates from the street address, medium.",
+      "name": "Café Arcángel",
+      "neighborhood": "Centro Habana",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "quiet",
+        "solo",
+        "study"
+      ],
+      "blurb": "A small private café in the ground floor of a Centro Habana apartment house, a few blocks in from the Malecón, with a handful of tables made from old sewing machines, mismatched chairs and silent Chaplin films playing on a screen. It is deliberately hushed, a rare thing in this part of town, and the espresso is the real reason people come back. The kind of place you leave a book in.",
+      "tips": "Concordia 57 between Galiano (Avenida de Italia) and Águila; look for the small sign. Roughly 8:15am-6pm, closed Sunday, but hours slip, so treat it as a daytime stop. Cash in Cuban pesos is safest; cards are unreliable.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Mon-Sat 8:15am-6pm (check page)",
+      "lat": 23.1397,
+      "lng": -82.3645,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.cafearcangel.com/",
+          "label": "Café Arcángel site",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.alamesacuba.com/en/la-habana/restaurant/cafe-arcangel/",
+          "label": "AlaMesa Cuba: Café Arcángel",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g147271-d6122036-Reviews-Cafe_Arcangel-Havana_Ciudad_de_la_Habana_Province_Cuba.html",
+          "label": "Tripadvisor: Café Arcángel",
+          "kind": "forum"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed café on a narrow residential street with broken pavements and some crumbling facades; watch your footing and it closes before dark."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Written from knowledge in the research stage. Review stage: en.wikipedia.org/wiki/Museo_Nacional_de_Bellas_Artes_de_La_Habana appeared in a search result, confirming the title. Coordinates for the Arte Cubano building on Trocadero, high. Hours from knowledge and approximate; foreigners pay a higher entry fee.",
+      "name": "Museo Nacional de Bellas Artes (Arte Cubano)",
+      "neighborhood": "Habana Vieja",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "cozy",
+        "solo",
+        "study"
+      ],
+      "blurb": "The Cuban half of the national art museum, a 1950s modernist block with three floors of Cuban painting from colonial portraits to Wifredo Lam and the post-1959 generations, arranged around an open central courtyard with palms and a fountain. It is air-conditioned, uncrowded on weekdays and has benches on every floor, so it is the natural refuge from a downpour or the midday heat. The courtyard café, when open, is one of the quieter places to sit in the old city.",
+      "tips": "Enter on Trocadero; the Arte Universal building on Parque Central is a separate ticket. Start on the top floor and work down. Roughly Tue-Sat 9am-5pm and Sun 10am-2pm, closed Monday, but confirm since hours change with staffing and power. No large bags inside.",
+      "bestTimes": [
+        "afternoon",
+        "morning"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Tue-Sat 9am-5pm, Sun 10am-2pm (check site)",
+      "lat": 23.1389,
+      "lng": -82.3572,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Museo Nacional de Bellas Artes de La Habana",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed museum with security at the door; closes late afternoon."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, free access and location (Jaimanitas, off Quinta Avenida in far-west Playa) confirmed by search. No English Wikipedia article for the site, only for the artist, so title null. Coordinates for the studio at Calle 226 and Avenida 3ra, medium. It is public street art on residential streets; the studio-house is private and entered at the artist's discretion.",
+      "name": "Fusterlandia (Jaimanitas)",
+      "neighborhood": "Jaimanitas, Playa",
+      "category": "other",
+      "vibes": [
+        "hidden",
+        "walk",
+        "people-watch",
+        "free",
+        "solo",
+        "group"
+      ],
+      "blurb": "A seaside fishing neighbourhood in the far west of the city that the ceramicist José Fuster has spent thirty years covering in mosaic: bus stops, garden walls, benches and whole houses in Gaudí-bright tiles. The public streets are free to wander and the tiled benches and low walls along Calle 226 are made for sitting. Tour groups pass through mid-morning and are gone by lunch; otherwise it is a working neighbourhood where kids play in a mosaic park.",
+      "tips": "It is about 20 km west along Quinta Avenida (Avenida 5ta), past Marina Hemingway; take a taxi, or the P-4/P-5 bus routes towards Santa Fe and walk from the main road. Go after 1pm to avoid the tour buses. Fuster's own house-studio is private; ask before entering and buy a tile if you do.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (streets); studio varies",
+      "lat": 23.0918,
+      "lng": -82.4968,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.lonelyplanet.com/points-of-interest/fusterlandia/1554872",
+          "label": "Lonely Planet: Fusterlandia",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.atlasobscura.com/places/fusterlandia",
+          "label": "Atlas Obscura: Fusterlandia",
+          "kind": "blog"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Rodr%C3%ADguez_Fuster",
+          "label": "Wikipedia: José Rodríguez Fuster (artist)",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Ordinary residential streets, quiet and unlit after dark, far from the centre with infrequent buses; visit in daylight and arrange the ride back."
+      },
+      "lowkeyScore": 3
+    }
+  ]
+}

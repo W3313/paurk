@@ -1,0 +1,649 @@
+{
+  "city": "Oslo",
+  "country": "Norway",
+  "slug": "oslo",
+  "region": "europe-africa",
+  "cityLat": 59.9139,
+  "cityLng": 10.7522,
+  "timezone": "Europe/Oslo",
+  "searchesRun": [
+    "Ekebergparken sculpture park Oslo opening hours free",
+    "Deichman Bjørvika library opening hours",
+    "Torshovdalen park Oslo",
+    "Fuglen Oslo Universitetsgata cafe opening hours",
+    "Tronsmo bokhandel Universitetsgata Oslo opening hours",
+    "Hovedøya island Oslo ferry B1 Ruter monastery ruins",
+    "Vigeland Museum Oslo opening hours",
+    "Vår Frelsers gravlund Oslo wikipedia Cemetery of Our Saviour",
+    "visitoslo.com Torshovdalen park",
+    "Deichman Bjørvika wikipedia",
+    "Sørenga sjøbad Oslo seawater pool open all year",
+    "St. Hanshaugen park Oslo view wikipedia"
+  ],
+  "redditSourcedNotes": "Two stages. RESEARCH STAGE ran eight searches (the first eight in searchesRun); every URL it attached came from one of those result sets. It confirmed Ekebergparken (24h, free, English article 'Ekebergparken Sculpture Park'), Deichman Bjørvika hours, Torshovdalen's existence and sculpture, Fuglen and Tronsmo hours and addresses, Hovedøya's B1 ferry and free ruins, Vigeland Museum hours, and 'Cemetery of Our Saviour' as the exact English article for Vår Frelsers gravlund. It did not search the Botanical Garden, Sørenga, Nedre Foss, Tjuvholmen, Sognsvann or the Opera roof; those were written from knowledge. REVIEW STAGE ran four more searches (the last four in searchesRun); direct HTTP checks of URLs and of the Wikipedia API were blocked by the network, so nothing beyond the search results could be verified. Outcomes: (1) the visitoslo.com/attraction/... URL pattern used for Ekebergparken, Torshovdalen and the Vigeland Museum is real, since the Torshovdalen one was returned verbatim, so those sources were kept; the other researcher URLs (ekebergparken.com, deichman.no, fuglen.no, tronsmobok.no, europeancoffeetrip, visitnorway.se, cemeteriesroute.eu, lifeinnorway, seaexperience, vigeland.museum.no) were not re-checked and rest on the research stage's word. (2) 'Deichman Bjørvika' as a Wikipedia title was searched and no English article at that title appeared, only 'Oslo Public Library' and a Wikidata item, so it is now null. (3) Sørenga sjøbad confirmed year-round and free via VisitOSLO; two returned URLs attached. (4) 'St. Hanshaugen Park' confirmed as an exact English article and the park added, replacing the Opera roof, which was dropped as landmark padding. Titles still held from knowledge and not URL-confirmed: 'University Botanical Garden (Oslo)', 'Sognsvann', 'Hovedøya' (research stage said it appeared in results), 'Vigeland Museum' and 'Ekebergparken Sculpture Park' (both said to have appeared). Coordinates are from map memory throughout; medium confidence is marked on Fuglen, Tronsmo, Sørenga, Nedre Foss, Torshovdalen, Tjuvholmen and Hovedøya because the street or strip is right but the exact bench or doorway is not verified, and none were corrected because no search gave a better fix. Hours for the Botanical Garden, Nedre Foss, Tjuvholmen, Sognsvann, St. Hanshaugen and Vår Frelsers gravlund are from knowledge; the rest come from 2026 search results and should still be rechecked. Hovedøya is marked free because entry is free; the ferry is an ordinary Ruter fare. No reddit or forum threads were read for this city in either stage; every 'locals use it' phrasing is general knowledge, not a quoted post. Safety review: all 14 notes were read against the standard and none characterised people or leaned on a neighbourhood's reputation; all rest on lighting, terrain, water edges, closing times or transit, so none were rewritten. The two cautions (Sognsvann, Hovedøya) are for unlit paths and, on the island, a fixed last ferry.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Confirmed via ekebergparken.com and VisitOSLO: open 24h, free, no gates; English Wikipedia article 'Ekebergparken Sculpture Park' appeared in results. Coordinates placed near the main lawn and Lund's Hus, not a single sculpture.",
+      "name": "Ekebergparken",
+      "neighborhood": "Ekeberg (Nordstrand)",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "skyline",
+        "sunset",
+        "green",
+        "walk",
+        "free",
+        "solo",
+        "quiet"
+      ],
+      "blurb": "A wooded hillside park above the east side of the harbour, scattered with some forty sculptures and laced with gravel paths that keep opening onto views of the fjord, the Opera roof and the whole city grid below. Because it is a real hill and not a fenced attraction, joggers, dog-walkers and people with a thermos outnumber tourists most of the week. Sit on the grass slope below Lund's Hus or on any of the benches along the western edge and watch the light move across the water.",
+      "tips": "Take tram 13 or 19 to Ekebergparken and walk up through the main gate; the western edge above Kongsveien has the best views and the benches west of the restaurant catch the sunset. The small museum in Lund's Hus is open Wed-Sun 11am-4pm, and the park itself never closes.",
+      "bestTimes": [
+        "golden-hour",
+        "afternoon",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (museum Wed-Sun 11am-4pm)",
+      "lat": 59.9003,
+      "lng": 10.7625,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Ekebergparken Sculpture Park",
+      "sources": [
+        {
+          "url": "https://ekebergparken.com/en/visit-us/plan-visit",
+          "label": "Ekebergparken: plan your visit",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.visitoslo.com/attraction/ekebergparken-sculpture-park",
+          "label": "VisitOSLO: Ekebergparken Sculpture Park",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Main paths are lit but the wooded side trails are not and the ground is steep in places; after dark keep to the lit paths near the tram stop and restaurant."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Hours from deichman.no and VisitOSLO (Mon-Fri 8am-10pm, Sat-Sun 10am-6pm) per the research stage. Review stage searched 'Deichman Bjørvika wikipedia': only the general 'Oslo Public Library' article and a Wikidata item surfaced, no English article at this exact title, so wikipediaTitle set to null. Coordinates are the building on Anne-Cath. Vestlys plass, just west of the Opera.",
+      "name": "Deichman Bjørvika",
+      "neighborhood": "Bjørvika",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "cozy",
+        "view",
+        "water",
+        "free",
+        "solo",
+        "night"
+      ],
+      "blurb": "Oslo's main public library, a six-storey glass and concrete building beside the Opera with a great cantilevered top floor that looks out over the fjord and the Barcode towers. Anyone can walk in, ride the escalators up and take an armchair by the window for the whole day; no card is needed unless you want to borrow. It is open until 10pm on weekdays, which makes it the city's most reliable warm, lit, free place to sit after dark.",
+      "tips": "Head to the upper floors for the quietest seats and the harbour view; the ground floor and cafe by the entrance are the busiest. Weekend hours are shorter (10am-6pm), and the reading areas fill up during exam periods.",
+      "bestTimes": [
+        "afternoon",
+        "night",
+        "morning"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Fri 8am-10pm, Sat-Sun 10am-6pm (check site)",
+      "lat": 59.9077,
+      "lng": 10.7517,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://deichman.no/in-english",
+          "label": "Deichman: information in English",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.visitoslo.com/en/product/?tlp=5450533&name=Deichman-Bjorvika--Oslo-Public-Library-Main-Branch",
+          "label": "VisitOSLO: Deichman Bjørvika",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building next to Oslo Central Station, lit and busy until closing."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched (budget spent elsewhere); written from knowledge. University of Oslo garden at Tøyen, free entry, hours approximate. Wikipedia title kept on high confidence from knowledge, not URL-confirmed.",
+      "name": "Botanisk hage (Tøyen)",
+      "neighborhood": "Tøyen",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "solo",
+        "picnic",
+        "walk",
+        "free",
+        "study",
+        "cozy"
+      ],
+      "blurb": "The University of Oslo's botanical garden on the Tøyen hill, a 200-year-old collection of old trees, a rock garden, herb beds and two Victorian-style glasshouses, all free to walk into. East-side locals use it as their neighbourhood park: students read on the lawns below the natural history museums, parents push prams around the arboretum, and the benches under the big trees are where you go to think. It sits between Tøyen and Grünerløkka but feels a long way from the traffic on either side.",
+      "tips": "Enter from Sars' gate or Monrads gate; the arboretum in the northern half and the rock garden are the quietest corners. The glasshouses have their own shorter hours, and the garden gates close in the evening, so check the current times for the season before a late visit.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 7am-9pm in summer, 7am-5pm in winter (check site)",
+      "lat": 59.9172,
+      "lng": 10.7702,
+      "coordConfidence": "high",
+      "wikipediaTitle": "University Botanical Garden (Oslo)",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Gated garden that closes in the evening; well used and overlooked by the museums."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review stage searched 'Sørenga sjøbad Oslo seawater pool open all year': VisitOSLO confirms a free public seawater pool at the tip of the Sørenga peninsula, open year-round, lifeguards in summer only. No English Wikipedia article for the bath itself (only the neighbourhood 'Sørenga'), title null. Coordinates are for the pool end of the pier from map memory, medium confidence.",
+      "name": "Sørenga sjøbad",
+      "neighborhood": "Sørenga (Bjørvika)",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunset",
+        "view",
+        "skyline",
+        "people-watch",
+        "picnic",
+        "free",
+        "night",
+        "group"
+      ],
+      "blurb": "A free seawater bath and wooden promenade at the end of the Sørenga peninsula, with a floating pool, a sandy beach and long steps facing west across the harbour to the Opera, Akershus fortress and the setting sun. In summer it is where the neighbourhood swims after work; the rest of the year it is a quiet, wide-open deck with the same view and hardly anyone on it. There is enough room that you can always find a stretch of boardwalk to yourself.",
+      "tips": "Walk south from the Opera along the harbour promenade (about 15 minutes) or take bus 60 to Sørenga; the outer steps and the grass by the sauna have the best sunset angle. Bring your own coffee, since the cafes on the peninsula keep short hours outside summer, and expect wind straight off the fjord.",
+      "bestTimes": [
+        "golden-hour",
+        "afternoon",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (lifeguards only in summer)",
+      "lat": 59.9013,
+      "lng": 10.7538,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.visitoslo.com/activity/s-renga-seawater-pool",
+          "label": "VisitOSLO: Sørenga Seawater Pool",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.visitoslo.com/en/product/?tlp=3067313&name=Sorenga-Seawater-Pool",
+          "label": "VisitOSLO: Sørenga Seawater Pool (listing)",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit promenade with unfenced water edges and no lifeguard outside summer; stay back from the edge in the dark and only swim inside the marked bath."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched; written from knowledge. Riverside park on the Akerselva between Vulkan/Mathallen and Grünerløkka, redeveloped around 2018. No English Wikipedia article for the park; the river article 'Akerselva' exists but is not this exact place, so title set to null. Coordinates medium confidence.",
+      "name": "Nedre Foss park",
+      "neighborhood": "Grünerløkka",
+      "category": "park",
+      "vibes": [
+        "water",
+        "green",
+        "quiet",
+        "walk",
+        "solo",
+        "picnic",
+        "free",
+        "people-watch"
+      ],
+      "blurb": "A sloping riverside park on the Akerselva just below the waterfall at Nedre Foss, between the old brick mill buildings and the Vulkan food hall. The river is loud enough here to drown out the street, there are steps down to the water and lawns that face the afternoon sun, and the riverside path runs north for kilometres if you want to keep walking. It is the bit of Grünerløkka locals use when Olaf Ryes plass and Birkelunden are full.",
+      "tips": "Come down the steps from Møllerveien or cross the footbridge from Vulkan; the terraces nearest the falls are the loudest and most private, the upper lawn is the sunniest. The Akerselva path continues north through Nydalen for a longer, quieter walk.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 59.9235,
+      "lng": 10.7525,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit park beside busy Vulkan, but the riverbank steps are unfenced and slippery when wet; take care near the water after rain or in the dark."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched in either stage; written from knowledge. Free public sculpture park and small beach at the western tip of Tjuvholmen beside the Astrup Fearnley Museum. The point given is effectively the museum footprint rather than the lawn at the tip, so confidence lowered to medium. The neighbourhood article 'Tjuvholmen' exists on English Wikipedia but is not this exact place, so title is null.",
+      "name": "Tjuvholmen skulpturpark",
+      "neighborhood": "Tjuvholmen (Frogner)",
+      "category": "plaza",
+      "vibes": [
+        "water",
+        "sunset",
+        "view",
+        "walk",
+        "free",
+        "solo",
+        "people-watch",
+        "skyline"
+      ],
+      "blurb": "A small grassy sculpture park and pebble beach at the very end of the Tjuvholmen peninsula, past the Astrup Fearnley Museum, where the harbour opens out to the fjord and the islands. The park itself is free, the sculptures are meant to be sat beside, and the point faces west so the sun sets straight into the water. On summer evenings people swim from the beach; in winter it is a wind-scoured place to sit alone and watch the ferries.",
+      "tips": "Walk the length of Aker Brygge and Tjuvholmen to the museum, then round it to the park; the benches on the seaward side and the rocks by the beach are the quietest. The museum cafe is a good fallback if it rains.",
+      "bestTimes": [
+        "golden-hour",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 59.9068,
+      "lng": 10.7212,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit and overlooked by apartments; the shoreline rocks and pier edges are unfenced, so keep back from the water in the dark or when wet."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, size (about 18 hectares between Torshov and Sinsen) and the Marianne Heske 'Hodet N.N.' sculpture confirmed via VisitOSLO in both stages; the exact source URL was returned again by the review search. English Wikipedia only has 'Torshovparken' (a different, smaller park) and 'Torshov', so title is null. Coordinates placed in the upper (Sinsen) half of the valley from map memory, medium confidence.",
+      "name": "Torshovdalen",
+      "neighborhood": "Torshov / Sinsen",
+      "category": "park",
+      "vibes": [
+        "view",
+        "green",
+        "sunset",
+        "quiet",
+        "picnic",
+        "walk",
+        "free",
+        "solo",
+        "skyline"
+      ],
+      "blurb": "A long, open grass valley running up from Torshov towards Sinsen, big enough that even on a sunny Sunday you can lie down with nobody within shouting distance. The upper slope, near Marianne Heske's seven-metre head sculpture, looks back south over the rooftops to the fjord, and the whole west-facing side catches the evening sun. It is a neighbourhood park through and through: dog-walkers, kids on sledges in winter, and people from the surrounding blocks with a blanket and a book.",
+      "tips": "Tram 17 or 18 to Sinsen for the top, or bus 20/30 to Torshov for the bottom; climb to the sculpture for the view and sit on the west-facing slope for the last light. There is no cafe inside, so bring what you need from Vogts gate.",
+      "bestTimes": [
+        "golden-hour",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 59.9345,
+      "lng": 10.7745,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.visitoslo.com/attraction/torshovdalen",
+          "label": "VisitOSLO: Torshovdalen",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "The main diagonal path is lit but the open slopes are not; after dark stick to the lit path between the Torshov and Sinsen ends."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched; written from knowledge. Forest lake at the end of metro line 5, ringed by a 3.3 km gravel path, open all hours. Wikipedia title 'Sognsvann' kept on high confidence from knowledge, not URL-confirmed. Coordinates are for the southern shore near the metro station.",
+      "name": "Sognsvann",
+      "neighborhood": "Nordre Aker (Nordmarka edge)",
+      "category": "trail",
+      "vibes": [
+        "water",
+        "green",
+        "quiet",
+        "walk",
+        "sunrise",
+        "stargaze",
+        "solo",
+        "free",
+        "picnic"
+      ],
+      "blurb": "A forest lake at the last stop on metro line 5, where the city ends and the Nordmarka woods begin. A flat gravel loop of about three kilometres circles the water, with benches, small beaches and rocks to sit on all the way round; Oslo people come here for a slow lap, a swim in summer or just to stare at the trees. Twenty minutes from downtown it is genuinely quiet, and on a clear night the far shore is dark enough for stars.",
+      "tips": "Take metro 5 to Sognsvann and walk two minutes down to the lake; go anticlockwise and the crowd thins out within ten minutes. The path is unlit and the woods beyond it are easy to lose your way in, so bring a headtorch if you stay past dusk, and note there is no cafe at the lake.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 59.97,
+      "lng": 10.726,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Sognsvann",
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "Unlit gravel path with no street lighting and few people after dark, and the shoreline has no railings; do the loop in daylight or bring a light and a friend if you stay for stars. The last metro leaves after midnight."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Added at review stage to replace the Opera roof, which is a major landmark rather than a low-key sitting place. Search 'St. Hanshaugen park Oslo view wikipedia' returned the exact English article 'St. Hanshaugen Park' plus VisitOSLO and Visit Norway listings. Coordinates are for the hilltop by the reservoir pool in the middle of the park, from map memory; the park is large enough that this is within it. Hours from knowledge (open city park, never gated).",
+      "name": "St. Hanshaugen",
+      "neighborhood": "St. Hanshaugen",
+      "category": "park",
+      "vibes": [
+        "view",
+        "green",
+        "sunset",
+        "quiet",
+        "picnic",
+        "walk",
+        "free",
+        "solo",
+        "skyline"
+      ],
+      "blurb": "A steep, wooded hill turned into a park in the 1850s, ten minutes' walk north of the centre, with winding paths, old trees, a pavilion and a reflecting pool over the city reservoir on the flat top. From the upper terrace you look south over the rooftops to the fjord, and the west-facing slopes get the evening sun. It is the neighbourhood's living room: people from the surrounding blocks read on the lawns, and the benches around the pool are mostly taken by someone with a coffee and nothing to do.",
+      "tips": "Bus 37 to St. Hanshaugen or walk up Ullevålsveien from the centre; climb to the pool at the top for the view and drop down the south-west slope for the last sun. There are cafes on Ullevålsveien at the bottom but nothing inside the park. Pair it with Vår Frelsers gravlund five minutes south.",
+      "bestTimes": [
+        "golden-hour",
+        "afternoon",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 59.927,
+      "lng": 10.7412,
+      "coordConfidence": "high",
+      "wikipediaTitle": "St. Hanshaugen Park",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/St._Hanshaugen_Park",
+          "label": "Wikipedia: St. Hanshaugen Park",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.visitoslo.com/en/product/?tlp=2979723&name=St-Hanshaugen",
+          "label": "VisitOSLO: St. Hanshaugen",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.visitnorway.com/listings/st-hanshaugen/13266/",
+          "label": "Visit Norway: St. Hanshaugen",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "The main paths up the hill are lit, but the side paths and grass slopes are not and the terrain is steep with stone steps that are slippery when wet or icy; after dark keep to the lit routes from Ullevålsveien and Geitmyrsveien."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Hours confirmed via fuglen.no and listings (Mon-Tue 7:30am-8pm, Wed-Thu to midnight, Fri-Sat to 1am, Sun 9am-8pm; espresso last call 7pm). Address Universitetsgata 2 confirmed. Coordinates medium: correct block, not verified to the doorway. No English Wikipedia article assumed; title null.",
+      "name": "Fuglen",
+      "neighborhood": "Sentrum (near Tullinløkka)",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "solo",
+        "people-watch",
+        "study",
+        "night"
+      ],
+      "blurb": "A cafe that has stood on the same corner since 1963, fitted out entirely with 1950s and 60s Norwegian furniture that is also for sale, so you drink your filter coffee in a teak armchair under a lamp somebody could buy. By day it is a quiet, dimly lit coffee bar where people read and work; in the evening it turns into a cocktail bar, still calm on weeknights. It is a five-minute walk from the National Theatre metro and a good place to wait out Oslo weather.",
+      "tips": "Go before 7pm for coffee (espresso stops then) and pick one of the armchairs at the back away from the counter; weekday afternoons are the quietest. Wednesday to Saturday it stays open past midnight as a bar, so daytime is when it is a cafe in the strict sense.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Mon-Tue 7:30am-8pm, Wed-Thu 7:30am-12am, Fri 7:30am-1am, Sat 9am-1am, Sun 9am-8pm (check site)",
+      "lat": 59.916,
+      "lng": 10.738,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://fuglen.no/Fuglen-Oslo-Sentrum",
+          "label": "Fuglen: Oslo Sentrum",
+          "kind": "official"
+        },
+        {
+          "url": "https://europeancoffeetrip.com/cafe/fuglen-oslo/",
+          "label": "European Coffee Trip: Fuglen Oslo",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed venue on a lit central street a short walk from Nationaltheatret station."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Hours confirmed via tronsmobok.no and listings (Mon-Wed 9am-5pm, Thu-Fri 9am-6pm, Sat 10am-4pm, closed Sun). Address Universitetsgata 12 confirmed. Coordinates medium: correct street block. No English Wikipedia article confirmed; title null.",
+      "name": "Tronsmo bokhandel",
+      "neighborhood": "Sentrum (Universitetsgata)",
+      "category": "bookstore",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "quiet",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "An independent bookshop running since 1973 on Universitetsgata, known for politics, history, art books and a basement full of comics and graphic novels. It is small, slightly cluttered and entirely unhurried; staff let you browse for as long as you like and nobody sells at you. It is not a place to sit for an hour with a laptop, but for a slow, quiet half-hour out of the rain among shelves that have been curated by the same people for decades, it is the city's best.",
+      "tips": "Two minutes from Fuglen along the same street, so pair them. Closes at 5pm early in the week and all day Sunday; Thursday and Friday evenings until 6pm are the calmest browsing times.",
+      "bestTimes": [
+        "afternoon",
+        "morning"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Wed 9am-5pm, Thu-Fri 9am-6pm, Sat 10am-4pm, closed Sun (check site)",
+      "lat": 59.9168,
+      "lng": 10.7375,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://tronsmobok.no/kontakt",
+          "label": "Tronsmo: contact and hours",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.visitnorway.se/listings/tronsmo-bokhandel/13327/",
+          "label": "Visit Norway: Tronsmo Bokhandel",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed shop on a central street; daytime hours only."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "English Wikipedia article 'Cemetery of Our Saviour' confirmed in search results as the exact article for Vår Frelsers gravlund. Location north of Hammersborg in Gamle Aker confirmed; Munch and Ibsen graves confirmed. Hours from knowledge (open to walkers all day; not a gated park in the strict sense).",
+      "name": "Vår Frelsers gravlund",
+      "neighborhood": "St. Hanshaugen / Gamle Aker",
+      "category": "park",
+      "vibes": [
+        "quiet",
+        "green",
+        "solo",
+        "walk",
+        "free",
+        "hidden",
+        "cozy"
+      ],
+      "blurb": "Oslo's most famous cemetery, laid out in 1808 on the hill below Gamle Aker church, with Ibsen, Munch and a whole honorary grove of national figures under mature trees. Locals treat its gravel avenues as a shortcut and a place to walk slowly; benches are scattered between the older sections and the sound of Ullevålsveien drops away within a few steps of the gate. It is a cemetery, so sit quietly rather than picnic, but nobody minds a book.",
+      "tips": "Enter from Akersveien or Ullevålsveien; Æreslunden, the honorary grove, is the busiest corner, so head for the northern and eastern sections for a bench to yourself. Pair it with the hilltop park at St. Hanshaugen five minutes north.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly dawn-dusk (gates generally open in daytime; check locally)",
+      "lat": 59.9218,
+      "lng": 10.7455,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Cemetery of Our Saviour",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Cemetery_of_Our_Saviour",
+          "label": "Wikipedia: Cemetery of Our Saviour",
+          "kind": "other"
+        },
+        {
+          "url": "https://cemeteriesroute.eu/poi-details.aspx?t=1247&p=11761",
+          "label": "European Cemeteries Route: Vår Frelsers gravlund",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Walled grounds with unlit paths inside; visit in daylight, which is also when it is appropriate to be there."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Confirmed via search: Ruter B1 ferry from the City Hall pier on an ordinary transit ticket, 7-minute crossing, Cistercian ruins free and always open, seasonal cafe Klosterkroa; English article 'Hovedøya' confirmed. Coordinates are for the monastery ruins area near the ferry landing. Marked free because entry is free; the ferry costs a normal Ruter fare.",
+      "name": "Hovedøya",
+      "neighborhood": "Oslofjord islands (Gamle Oslo)",
+      "category": "beach",
+      "vibes": [
+        "water",
+        "green",
+        "quiet",
+        "walk",
+        "picnic",
+        "sunset",
+        "solo",
+        "hidden",
+        "view"
+      ],
+      "blurb": "The nearest of the inner-fjord islands, seven minutes by public ferry from the City Hall pier, with the ruins of a 12th-century Cistercian monastery, a couple of small beaches and a 45-minute loop path through oak woods and meadows. Once the summer swimmers go home it is remarkably empty; in spring and autumn you can have the ruins, a bench and the view back to the city entirely to yourself. Bring a thermos and treat it as a very short trip out of town.",
+      "tips": "Take the B1 ferry from Rådhusbrygge 4 (any Ruter ticket works; Hovedøya has two landings an hour). Follow the path to the ruins, then continue to the south-western beaches for the sunset. Check the last ferry time before you settle in; Klosterkroa cafe is seasonal.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (ferries roughly 7am-11pm, fewer in winter; check Ruter)",
+      "lat": 59.8945,
+      "lng": 10.729,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Hovedøya",
+      "sources": [
+        {
+          "url": "https://www.lifeinnorway.net/island-hopping-around-oslofjord-hovedoya/",
+          "label": "Life in Norway: Hovedøya",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.seaexperience.no/blog/hovedoya-monastery-island",
+          "label": "Oslo Sea Experience: Hovedøya guide",
+          "kind": "blog"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Hoved%C3%B8ya",
+          "label": "Wikipedia: Hovedøya",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "An island with no lighting on its paths and a fixed last ferry; check the timetable, leave before dusk out of season, and stay on the marked trails, since parts of the shore are steep."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Hours confirmed via vigeland.museum.no (Tue-Sun 12-4pm Sep-May, 12-5pm Jun-Aug, closed Mon); address Nobels gate 32 confirmed; English article 'Vigeland Museum' confirmed in results. Ticketed.",
+      "name": "Vigeland-museet",
+      "neighborhood": "Frogner",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "cozy",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "Gustav Vigeland's former studio and home, a 1920s brick building just south of Frogner Park, now a museum of his plaster originals, drawings and the models for the famous sculptures up the road. While thousands file through the free sculpture park, a few dozen people a day come into the museum, and its high, calm halls and the small courtyard are as quiet as any gallery in the city. It is the place to sit with the sculptures instead of photographing them.",
+      "tips": "Tram 12 to Frogner plass, then a short walk down Nobels gate; opens at noon, so it suits a rainy afternoon. Buy a ticket at the door, leave big bags in the lockers, and go on a weekday if you want the halls nearly empty.",
+      "bestTimes": [
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Tue-Sun 12-4pm (12-5pm Jun-Aug), closed Mon (check site)",
+      "lat": 59.9243,
+      "lng": 10.7002,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Vigeland Museum",
+      "sources": [
+        {
+          "url": "https://vigeland.museum.no/en/besoksinformasjon",
+          "label": "Vigeland Museum: visitor information",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.visitoslo.com/attraction/the-vigeland-museum",
+          "label": "VisitOSLO: The Vigeland Museum",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed museum in a residential district; daytime hours only."
+      },
+      "lowkeyScore": 4
+    }
+  ]
+}

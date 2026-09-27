@@ -1,0 +1,658 @@
+{
+  "city": "Montevideo",
+  "country": "Uruguay",
+  "slug": "montevideo",
+  "region": "americas",
+  "cityLat": -34.9011,
+  "cityLng": -56.1645,
+  "timezone": "America/Montevideo",
+  "searchesRun": [
+    "Mirador Panorámico Intendencia de Montevideo piso 22 horario gratis",
+    "Café Brasilero Montevideo Ituzaingó 1447 wikipedia",
+    "Jardín Botánico de Montevideo Prado horario wikipedia",
+    "Museo Blanes Jardín Japonés Montevideo horario wikipedia",
+    "Fortaleza del Cerro Montevideo horario museo wikipedia",
+    "Parque Capurro Montevideo restaurado bahía",
+    "Museo Nacional de Artes Visuales Montevideo Parque Rodó horario wikipedia",
+    "Parque Rivera Lago Calcagno Montevideo Carrasco Norte",
+    "Más Puro Verso librería Sarandí 675 Pablo Ferrando Montevideo cerró",
+    "Molino de Pérez Malvín Rambla O'Higgins dirección Parque Baroffio centro cultural",
+    "Café Brasilero Montevideo Ituzaingó 1447 horario",
+    "\"Parque Rodó\" Montevideo park wikipedia"
+  ],
+  "redditSourcedNotes": "Two stages, twelve searches in total, none of them reddit; every 'locals use this' line comes from prior knowledge of the city. Research stage (8 searches) confirmed by real results: Mirador Panorámico (free, Soriano 1372, 22nd floor, hours reported inconsistently), Café Brasilero (open, official site cafebrasilero.uy; only es.wikipedia, so title null), Jardín Botánico (daily 7:15-18:15; es.wikipedia only, null), Jardín Japonés (en article 'Japanese Garden, Montevideo'; reopened May 2026; hours conflict), Fortaleza del Cerro (en article; museum hours 10-17 or 10-19; unsure whether the museum charges), MNAV (Tue-Sun 13-20, free, en article 'National Museum of Visual Arts (Uruguay)'), Parque Capurro and Parque Rivera (exist, restored, no en article). Review stage (4 searches, WebFetch blocked for every domain so nothing beyond result snippets was read): (1) Más Puro Verso at Sarandí 675 has CLOSED and a different bookshop now occupies the Pablo Ferrando building; I could not confirm the new shop's name, so the spot was dropped and replaced with Escaramuza in Cordón from knowledge only, sources empty. (2) Molino de Pérez confirmed at Rambla O'Higgins and Arquitecto Veltroni, facing Playa Honda, reopened 2023 as a cultural centre; coordinates moved about 700 m east and an en.wikipedia URL 'Molino de Pérez' appeared, so the title was set. (3) Café Brasilero hours returned but disagree between listings, recorded as a range. (4) The exact en.wikipedia article 'Parque Rodó' appeared and covers the park, so that title is now URL-confirmed. Still from knowledge alone, sources empty: Biblioteca Nacional (title 'National Library of Uruguay' kept on confidence, not URL-confirmed; hours and registration rules approximate), Escollera Sarandí, Playa Pocitos, Escaramuza. Coordinates for Jardín Botánico, Jardín Japonés, Capurro, Rivera, Escollera, Escaramuza and Molino de Pérez are from knowledge of the street grid rather than map results and are marked medium. Source URLs appear only where a search result listed them; I could not open any of them to check content, so a reader should treat them as pointers, not as read sources. Safety notes describe lighting, closing times, water edges and isolation only; no note characterises people or neighbourhoods, and the two caution flags (Escollera Sarandí, Fortaleza del Cerro) rest on an unlit breakwater over open water and an unlit hilltop access road.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, address (Av. 19 de Abril 1181) and hours (daily 7:15-18:15, last entry 18:00) confirmed from the Intendencia and garden sites. Only a Spanish Wikipedia article exists, so title is null. Coordinates from knowledge of the Prado, not from a map result.",
+      "name": "Jardín Botánico Prof. Atilio Lombardo",
+      "neighborhood": "Prado",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "green",
+        "solo",
+        "study",
+        "walk",
+        "free",
+        "picnic"
+      ],
+      "blurb": "The city's botanical garden, a walled 13-hectare block of the Prado laid out in 1902 with old palms, a greenhouse, a native-plant section and long gravel paths that almost nobody but neighbours and students use on weekdays. It is fenced and gated, so it stays calmer than the open Parque del Prado around it, and there are benches under the big ombú and the araucarias where you can sit with a book for an hour without being disturbed. The small free museum at the entrance is a bonus on a cool day.",
+      "tips": "Enter from Av. 19 de Abril; buses along Agraciada and Millán stop a few blocks away. The gates shut at 18:15 sharp, so this is a morning or early-afternoon place. Pair it with the Rosedal and the Jardín Japonés, both a ten-minute walk away.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "7:15am-6:15pm daily (last entry 6pm)",
+      "lat": -34.8593,
+      "lng": -56.2035,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://montevideo.gub.uy/parques-de-montevideo/jardin-botanico",
+          "label": "Intendencia de Montevideo: Jardín Botánico",
+          "kind": "official"
+        },
+        {
+          "url": "https://jardinbotanico.montevideo.gub.uy/",
+          "label": "Museo Jardín Botánico Prof. Atilio Lombardo",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced, staffed and locked at dusk; paths are flat gravel. Daylight only by design."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence and location (behind the Blanes museum, Millán 4015) confirmed; exact English article 'Japanese Garden, Montevideo' appeared in results. A May 2026 report says it reopened after a closure. Hours in results conflict (Tue-Sun 10-18 vs 12-18, Sat 9-20), so marked check site.",
+      "name": "Jardín Japonés (Museo Blanes)",
+      "neighborhood": "Prado",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "water",
+        "green",
+        "hidden",
+        "solo",
+        "cozy",
+        "free",
+        "rain-ok"
+      ],
+      "blurb": "A small Japanese garden donated in 2001, tucked behind the Museo Juan Manuel Blanes in the Prado: a pond with koi, a red bridge, a tea-house pavilion and a few stone benches under maples and pines. It is only a few hundred square metres, which is exactly why it works; it is enclosed, quiet and rarely has more than a handful of people in it. The museum itself, in a 19th-century villa with Blanes and Figari paintings, is free and gives you somewhere to sit if it rains.",
+      "tips": "Go through the museum entrance on Av. Millán and out the back; the garden has its own limited hours and closes earlier than the park around it. Weekday afternoons are almost empty. Buses on Millán stop right outside.",
+      "bestTimes": [
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (roughly Tue-Sun midday-6pm; check site)",
+      "lat": -34.8606,
+      "lng": -56.1983,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Japanese Garden, Montevideo",
+      "sources": [
+        {
+          "url": "https://montevideo.gub.uy/noticias/reabre-el-jardin-japones-0",
+          "label": "Intendencia de Montevideo: Reabre el Jardín Japonés",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.radiomontecarlo.com.uy/2026/05/13/nacionales/reabrio-el-jardin-japones/",
+          "label": "Radio Montecarlo: Reabrió el Jardín Japonés (May 2026)",
+          "kind": "press"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Japanese_Garden,_Montevideo",
+          "label": "Wikipedia: Japanese Garden, Montevideo",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed museum grounds, closed by early evening; the pond edge is unfenced, so mind small children."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known public park. Review-stage search returned the exact en.wikipedia article 'Parque Rodó' (it covers both the barrio and the park, and describes the lake with the castle library). Coordinates are for the lake area from knowledge of the park.",
+      "name": "Parque Rodó (lake and Fuente de los Atletas)",
+      "neighborhood": "Parque Rodó",
+      "category": "park",
+      "vibes": [
+        "green",
+        "water",
+        "people-watch",
+        "picnic",
+        "group",
+        "solo",
+        "walk",
+        "free",
+        "sunset"
+      ],
+      "blurb": "The city's everyday park, a few blocks in from Playa Ramírez: a small lake with pedal boats, a castle-shaped children's library, big eucalyptus and tipa trees and lawns where people spread a blanket with a thermos and mate on any sunny afternoon. It is busy on weekends, which is part of its appeal for watching the city go by, and quiet enough on weekday mornings to read under a tree. The fountain and the shaded paths on the western side, away from the funfair, are the calm corners.",
+      "tips": "Sit on the lake's western bank or the lawns towards Bulevar Artigas for shade and fewer people; the funfair side is loud. Sunday brings a big informal market along the park edge. Walk five minutes south to the rambla for the sunset.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -34.9163,
+      "lng": -56.1655,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Parque Rodó",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Parque_Rod%C3%B3",
+          "label": "Wikipedia: Parque Rodó",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Main paths are lit and the park is well used into the evening; the interior paths under the trees are dim after dark, so stay on the perimeter or by the rambla at night."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Address (Tomás Giribaldi 2283), free admission and hours (Tue-Sun 13-20) confirmed from the museum and museos.gub.uy pages; exact English article 'National Museum of Visual Arts (Uruguay)' appeared in results.",
+      "name": "Museo Nacional de Artes Visuales (MNAV)",
+      "neighborhood": "Parque Rodó",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "solo",
+        "cozy",
+        "free",
+        "green"
+      ],
+      "blurb": "Uruguay's national art museum sits in a low white building on the edge of Parque Rodó, with the country's largest collection of Uruguayan painting: Blanes, Figari, Torres García, Barradas and a rotating contemporary show. It is free, rarely crowded, and the galleries are generously sized with benches, so it works as a place to sit and think as much as to look. The park is right outside the door for afterwards.",
+      "tips": "Afternoon-only hours (opens 1pm); Sunday is the busiest day. Enter from Tomás Giribaldi at the corner of Julio Herrera y Reissig. Check the site for the current temporary exhibition.",
+      "bestTimes": [
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Tue-Sun 1pm-8pm, closed Mon",
+      "lat": -34.9143,
+      "lng": -56.1622,
+      "coordConfidence": "high",
+      "wikipediaTitle": "National Museum of Visual Arts (Uruguay)",
+      "sources": [
+        {
+          "url": "https://mnav.gub.uy/",
+          "label": "MNAV official site",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.museos.gub.uy/index.php/museos/museos-por-localidad/montevideo/item/233-museo-nacional-de-artes-visuales",
+          "label": "museos.gub.uy: Museo Nacional de Artes Visuales",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building with bag checks; the surrounding park paths are lit along the main avenues."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Confirmed via Intendencia pages: free public viewing floor on the 22nd storey of the Intendencia, entrance Soriano 1372, QR pass at the door, no booking needed. Most recent report gives Mon-Sun 10-18 (last entry 17:15); older reports give shorter hours, so marked check site. No English Wikipedia article for the mirador itself.",
+      "name": "Mirador Panorámico de la Intendencia",
+      "neighborhood": "Centro",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "skyline",
+        "rain-ok",
+        "free",
+        "solo",
+        "water",
+        "hidden"
+      ],
+      "blurb": "The city government's tower on 18 de Julio has a free public viewing floor 22 storeys up, with glass on all sides and a small cafeteria. From here the whole layout of Montevideo makes sense: the old town and port to the west, the bay and the Cerro beyond, the rambla curving east past Pocitos. Almost no visitors know it is there, and on a weekday afternoon you can take a chair by the window and sit for as long as you like.",
+      "tips": "Enter by the main door at Soriano 1372 (the back of the Intendencia), scan the QR code at reception for a free pass, and take the lift. Last entry is about 45 minutes before closing. Late afternoon gives the best light on the bay; on a clear day bring binoculars or rent theirs.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "varies (recently Mon-Sun 10am-6pm, last entry 5:15pm; check site)",
+      "lat": -34.906,
+      "lng": -56.1868,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://montevideo.gub.uy/noticias/nuevo-horario-del-mirador-panoramico",
+          "label": "Intendencia de Montevideo: Nuevo horario del Mirador Panorámico",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.descubrimontevideo.uy/mirador-panoramico",
+          "label": "Descubrí Montevideo: Mirador Panorámico",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.telenoche.com.uy/vida-y-ocio/montevideo-la-altura-estos-son-los-dias-y-horarios-visitar-gratis-el-mirador-panoramico-la-im-n5387295",
+          "label": "Telenoche: días y horarios del mirador panorámico",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed government building with security at the door; fully enclosed floor behind glass."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Long-established public national library at 18 de Julio 1790, from knowledge only (not searched); hours approximate and reading-room access rules may have changed. Wikipedia title 'National Library of Uruguay' given on knowledge, not URL-confirmed.",
+      "name": "Biblioteca Nacional de Uruguay",
+      "neighborhood": "Cordón",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "solo",
+        "free",
+        "cozy"
+      ],
+      "blurb": "The national library, a grand 1960s neoclassical block on 18 de Julio opposite the university, with a high, hushed main reading room where students and researchers work under tall windows. It is free to enter and sit; you register at the desk for reading-room access, and the building also runs small exhibitions on Uruguayan writers in its ground-floor galleries. On a wet afternoon it is the calmest room on the city's busiest avenue.",
+      "tips": "Bring ID to register for the reading room; bags may need to go in a locker. Weekday hours only, roughly office hours, so check before going. The Tristán Narvaja bookstalls are two blocks away for afterwards.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "varies (roughly Mon-Fri 9am-7pm, closed weekends; check site)",
+      "lat": -34.9052,
+      "lng": -56.178,
+      "coordConfidence": "high",
+      "wikipediaTitle": "National Library of Uruguay",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building on a busy, lit avenue with frequent buses outside."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, founding date (1877), address (Ituzaingó 1447) and current operation confirmed via official site and press; only a Spanish Wikipedia article was found, so title is null. Review-stage search returned hours that disagree between listings (Mon-Fri 9-20 / Sat 9-15 vs Instagram 8-19 / Sat 10-19), so hours are given as a range.",
+      "name": "Café Brasilero",
+      "neighborhood": "Ciudad Vieja",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "solo",
+        "quiet",
+        "people-watch",
+        "study"
+      ],
+      "blurb": "Montevideo's oldest café, open since 1877 on a quiet side street of the old town, with bentwood chairs, dark wood, bronze fittings and photographs of the writers who sat here: Onetti wrote the first lines of El pozo at one of these tables and Galeano was a regular for twenty years. It is small and nobody rushes you, so a coffee and a book can stretch to an hour on a slow weekday morning. It is also one of the few old-town places that feels like it belongs to the neighbourhood rather than the cruise-ship trade.",
+      "tips": "Go mid-morning or mid-afternoon on a weekday; lunchtime fills with office workers. Order a cortado or the Café Galeano and take a table by the window. Closed Sundays and shorter on Saturdays, so check before a weekend visit.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Mon-Fri roughly 8/9am-7/8pm, Sat 9/10am-3pm or 7pm, closed Sun (sources differ; check site)",
+      "lat": -34.9068,
+      "lng": -56.2032,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://cafebrasilero.uy/",
+          "label": "Café Brasilero official site",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.elobservador.com.uy/nota/-cafe-brasilero-catalogado-entre-los-mas-emblematicos-del-mundo-20161291050",
+          "label": "El Observador: Café Brasilero entre los más emblemáticos",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.alacarta.com.uy/cafe-brasilero/",
+          "label": "A La Carta: Café Brasilero",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed café that closes by early evening; the surrounding old-town streets are quiet once offices shut, so its own hours make it a daytime place."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Added at review stage from knowledge only (no search budget left) to replace Más Puro Verso, which a search confirmed has closed. Escaramuza is a bookshop-café in a restored house at Dr. Pablo de María 1185 in Cordón, open since 2016; I am confident it operates but hours are from memory and coordinates are for that block of Pablo de María, not a map result.",
+      "name": "Escaramuza (librería y café)",
+      "neighborhood": "Cordón",
+      "category": "bookstore",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "quiet",
+        "solo",
+        "study",
+        "hidden",
+        "green"
+      ],
+      "blurb": "A bookshop and café in a restored early-20th-century house on a quiet Cordón side street, with the books in the front rooms and a café that opens onto a small back patio under a tree. It is where the neighbourhood's readers and students settle in for an afternoon, and nobody minds a single coffee stretched over a couple of chapters. Close to the Tristán Narvaja bookstalls and a short walk from Parque Rodó, it is the natural rainy-day pair with the national library.",
+      "tips": "Order at the café counter and take a table on the patio if the weather allows; the indoor rooms are quieter on weekends. Hours are roughly daytime to evening, shorter on Sundays, so check the site. Buses along 18 de Julio and Constituyente stop a few blocks away.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "varies (check site)",
+      "lat": -34.908,
+      "lng": -56.177,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed shop and café on a lit residential street with frequent buses two blocks away on 18 de Julio; it closes in the evening, so this is a daytime and early-evening place."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Public breakwater at the foot of Sarandí street, from knowledge only (not searched). Coordinates are a point roughly midway along the pier; the tip extends further south-west. Public and walkable, but exposed.",
+      "name": "Escollera Sarandí",
+      "neighborhood": "Ciudad Vieja",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunset",
+        "view",
+        "solo",
+        "walk",
+        "free",
+        "skyline",
+        "people-watch"
+      ],
+      "blurb": "A long stone breakwater that runs out from the western tip of the old town into the Río de la Plata, where the Sarandí pedestrian street ends. Fishermen line the rail, couples sit on the blocks, and the view takes in the port, the Cerro across the bay and the sun going down into the river. It is the closest thing the centre has to a pier, and locals walk it at the end of the day for exactly that.",
+      "tips": "Walk down Sarandí past Plaza Zabala to the rambla and straight on out along the pier; sit on the harbour side out of the wind. Arrive an hour before sunset and leave with the crowd as the light goes, since the pier itself has little lighting.",
+      "bestTimes": [
+        "golden-hour",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -34.9105,
+      "lng": -56.215,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "Unfenced stone pier over open water, wet and slippery in wind or swell, with little lighting beyond the base; go before sunset, leave with the other walkers and do not walk it in the dark or in rough weather."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence and public museum confirmed; exact English article 'Fortaleza del Cerro' appeared in results. Museum hours reported as 10-17 daily by one official source and 10-19 by another, so marked check site. I am unsure whether the museum charges a small fee; the hilltop and views outside are free.",
+      "name": "Fortaleza del Cerro (Cerro de Montevideo)",
+      "neighborhood": "Cerro",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "skyline",
+        "water",
+        "sunset",
+        "quiet",
+        "free",
+        "walk",
+        "hidden"
+      ],
+      "blurb": "The 135-metre hill that gave Montevideo its name, across the bay from the centre, with the small 1809 Spanish fort and the Río de la Plata's first lighthouse on top. Almost no visitors make the trip, and the reward is the widest view in the city: the whole bay, the port cranes, the old town skyline and the coast stretching east, with the sun setting behind you over the river. The grass around the fort walls is where locals from the Cerro neighbourhood come to sit on weekend afternoons.",
+      "tips": "Take a bus to the Cerro (several lines from Ciudad Vieja and Centro run to Grecia and Carlos María Ramírez) and walk or taxi up the last stretch to the fort; there is a car park at the top. Visit during museum hours so the site is staffed, and go down before the light fades. The military museum inside is small and worth twenty minutes.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (museum roughly 10am-5pm daily; check site)",
+      "lat": -34.887,
+      "lng": -56.2545,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Fortaleza del Cerro",
+      "sources": [
+        {
+          "url": "https://www.museos.gub.uy/index.php?option=com_k2&view=item&id=154:fortaleza-general-artigas-del-cerro",
+          "label": "museos.gub.uy: Museo Fortaleza General Artigas",
+          "kind": "official"
+        },
+        {
+          "url": "https://municipioa.montevideo.gub.uy/node/169",
+          "label": "Municipio A: Fortaleza del Cerro",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Fortaleza_del_Cerro",
+          "label": "Wikipedia: Fortaleza del Cerro",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Isolated hilltop reached by a steep, sparsely lit access road, and the site is unstaffed once the museum closes; go during opening hours, ideally with someone, and arrange your way down before dusk."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known public beach and rambla, from knowledge only (not searched). No English Wikipedia article for the beach itself (only the Pocitos barrio), so null.",
+      "name": "Playa Pocitos and Rambla República del Perú",
+      "neighborhood": "Pocitos",
+      "category": "beach",
+      "vibes": [
+        "water",
+        "sunrise",
+        "sunset",
+        "walk",
+        "people-watch",
+        "night",
+        "solo",
+        "group",
+        "free"
+      ],
+      "blurb": "The city's main neighbourhood beach, a wide crescent of sand below the Pocitos apartment towers with the rambla running along the top. This is where Montevideo does its evening: people sit on the low wall with a thermos and mate, joggers pass, and the whole curve faces the sunset over the water. Out of season and on weekday mornings it is close to empty, and the sand is a fine place to sit and watch the river change colour.",
+      "tips": "Sit on the rambla wall or the steps down to the sand near Kibón at the eastern end for the sunset; the western end by Trouville is quieter. Bring a thermos of mate like everyone else. Lifeguards only in summer, and the water is river, not sea.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -34.9138,
+      "lng": -56.1492,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "The rambla is lit and busy well into the night; the sand below is unlit after dark, so stay up on the promenade at night."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, national monument status and recent restoration (lighting, amphitheatre, fountain, bay-facing edge) confirmed via Intendencia and Municipio C pages. No English Wikipedia article for the park (only the barrio and the stadium), so null. Coordinates from knowledge of the Capurro rambla, not a map result.",
+      "name": "Parque Capurro",
+      "neighborhood": "Capurro",
+      "category": "park",
+      "vibes": [
+        "hidden",
+        "water",
+        "view",
+        "green",
+        "quiet",
+        "walk",
+        "free",
+        "sunset"
+      ],
+      "blurb": "A restored belle-époque park on the north shore of the bay, built around 1900 as a bathing resort with a fountain, stone staircases and an amphitheatre, then cut off from the water by a highway in 1980 and recently brought back to life. It is a neighbourhood park in a part of the city visitors never reach, with views across the bay to the Cerro and the port, and on a weekday afternoon you will share it with a few dog walkers and skaters. The restored terraces are the place to sit.",
+      "tips": "Buses along Agraciada and Capurro stop nearby; the park is between the Capurro rambla and the highway. The upper terraces by the fountain have the bay view. Daytime visit; the park is lit but the surrounding streets are quiet in the evening.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -34.876,
+      "lng": -56.2172,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://montevideo.gub.uy/noticias/urbanismo-y-obras/parque-capurro-renovado-y-con-memoria",
+          "label": "Intendencia de Montevideo: Parque Capurro renovado y con memoria",
+          "kind": "official"
+        },
+        {
+          "url": "https://municipioc.montevideo.gub.uy/parque-capurro-como-nuevo",
+          "label": "Municipio C: Parque Capurro como nuevo",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Restored park with new lighting and a fence along the highway edge; it empties out after dark and is some distance from busy streets, so go in daylight."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence (40 ha municipal park from 1929 with a bird lake, Estadio Charrúa inside) confirmed via Intendencia and Municipio E pages. No English Wikipedia article found, so null. Coordinates are for the lake area from knowledge, not a map result.",
+      "name": "Parque Rivera",
+      "neighborhood": "Carrasco Norte / Malvín Norte",
+      "category": "park",
+      "vibes": [
+        "green",
+        "water",
+        "quiet",
+        "walk",
+        "picnic",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "A 40-hectare eucalyptus park on the eastern edge of the city, laid out in the 1920s on drained marshland around a lake that now holds more than fifty bird species. It is far enough from the tourist rambla that only people from the surrounding neighbourhoods use it: runners on the loop path, families at the weekend, and on weekdays almost nobody. The benches on the lake's edge, with herons and coots in front of you and the trees behind, are the quiet sit.",
+      "tips": "Buses along Av. Italia stop at the park; enter from Av. Italia or Av. Bolivia and walk in to the lake. Weekday mornings are the calmest. Bring a blanket rather than counting on a free bench on Sunday.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -34.8705,
+      "lng": -56.0785,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://montevideo.gub.uy/noticias/urbanismo-y-obras/parque-rivera-renovado",
+          "label": "Intendencia de Montevideo: Parque Rivera renovado",
+          "kind": "official"
+        },
+        {
+          "url": "https://municipioe.montevideo.gub.uy/node/204",
+          "label": "Municipio E: Parque Rivera",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Large park with unlit interior paths; the lake edge is unfenced. Go in daylight and keep to the main loop if you stay to dusk."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review-stage search confirmed the mill sits on the Arroyo Malvín at the corner of Rambla O'Higgins and Arquitecto Veltroni, facing Playa Honda, and that it reopened in March 2023 as a municipal cultural centre (hours Mon-Fri 10-16, Sat 14-18 in that report). Coordinates were moved about 700 m east to that corner and are from knowledge of the street grid, so medium. An en.wikipedia URL titled 'Molino de Pérez' appeared in the results.",
+      "name": "Molino de Pérez (Parque Baroffio)",
+      "neighborhood": "Malvín",
+      "category": "other",
+      "vibes": [
+        "hidden",
+        "water",
+        "green",
+        "quiet",
+        "solo",
+        "walk",
+        "free",
+        "cozy"
+      ],
+      "blurb": "A stone watermill from the late 1700s, one of the oldest buildings in the city, sitting in a small wooded park where a stream runs down to the Malvín rambla. The mill is now a neighbourhood cultural centre with occasional exhibitions and workshops, and the park around it has a footbridge, old trees and benches by the water that people from Malvín use as a quiet corner off the beach. It is a two-minute walk from Playa Malvín if you want the river as well.",
+      "tips": "Get off the bus on Rambla O'Higgins at Arquitecto Veltroni, at the eastern end of Playa Malvín where the stream comes out; the mill and park are just inland. The park is open all day; the building keeps weekday and Saturday hours that depend on what is on. Combine with a sit on the Malvín beach wall at sunset.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "park 24h; building Mon-Fri 10am-4pm, Sat 2pm-6pm (2023 report; check site)",
+      "lat": -34.8938,
+      "lng": -56.1005,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Molino de Pérez",
+      "sources": [
+        {
+          "url": "https://www.descubrimontevideo.uy/parque-baroffio-molino-de-perez",
+          "label": "Descubrí Montevideo: Parque Baroffio - Molino de Pérez",
+          "kind": "official"
+        },
+        {
+          "url": "https://mvdaudiovisual.montevideo.gub.uy/es/locaciones/parque-baroffio",
+          "label": "Montevideo Audiovisual: Parque Baroffio",
+          "kind": "official"
+        },
+        {
+          "url": "https://nomada.uy/guide/view/attractions/4573",
+          "label": "Nómada: Parque Baroffio - Molino de Pérez",
+          "kind": "blog"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Molino_de_P%C3%A9rez",
+          "label": "Wikipedia: Molino de Pérez",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Small park beside the lit rambla; the wooded interior is dim after dark, so sit there in daylight and move to the rambla wall in the evening."
+      },
+      "lowkeyScore": 5
+    }
+  ]
+}

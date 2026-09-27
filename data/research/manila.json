@@ -1,0 +1,657 @@
+{
+  "city": "Manila",
+  "country": "Philippines",
+  "slug": "manila",
+  "region": "asia-pacific",
+  "cityLat": 14.5995,
+  "cityLng": 120.9842,
+  "timezone": "Asia/Manila",
+  "searchesRun": [
+    "Arroceros Forest Park Manila opening hours entrance",
+    "Paco Park Manila entrance fee opening hours",
+    "Solidaridad Bookshop Padre Faura Ermita hours still open",
+    "Washington SyCip Park Legazpi Village Makati",
+    "Ninoy Aquino Parks and Wildlife Center entrance fee opening hours",
+    "La Mesa Ecopark entrance fee opening hours Quezon City",
+    "Cafe Adriatico Remedios Circle Malate opening hours",
+    "National Library of the Philippines visiting hours public reading room",
+    "Solidaridad Bookshop 531 Padre Faura Street Ermita location corner",
+    "Marikina River Park wikipedia Roman Garden location",
+    "\"La Mesa Ecopark\" wikipedia",
+    "\"Manila Baywalk\" wikipedia Roxas Boulevard"
+  ],
+  "redditSourcedNotes": "Two stages. RESEARCH STAGE ran eight searches on existence, hours, fees and Wikipedia titles; none returned reddit threads, so no reddit or \"according to locals\" content was read and the resident bias in the list comes from prior knowledge of Metro Manila. Confirmed there: Arroceros is free, guest-book entry, roughly 8am-5pm (one source 6am-8pm), article titled \"Arroceros Urban Forest Park\"; Paco Park 8am-5pm with a PHP 10 fee in most sources; Solidaridad still open Tue-Sat 10am-5pm after a retracted 2025 sale, article exists; Washington SyCip Park is a privately owned public park with an exact article; Ninoy Aquino Parks and Wildlife Center 7am-5pm, PHP 30 / PHP 100 foreigners; La Mesa Ecopark Tue-Sun 7am-4pm, PHP 50, possible 100-guests-a-day cap; Cafe Adriatico hours conflict across sources; National Library reading rooms Mon-Fri 8am-5pm with ID. SKEPTIC STAGE ran four more searches (all listed in searchesRun). Results: the Baywalk article is titled \"Baywalk\", not \"Manila Baywalk\", so that title was corrected; \"Marikina River Park\" and \"La Mesa Ecopark\" confirmed as exact English articles from result URLs; Solidaridad was placed near the Padre Faura / Adriatico corner and its pin moved about 150 m west. Titles still held from knowledge without URL confirmation: Paco Park, Baluarte de San Diego, National Museum of Natural History (Manila), Cultural Center of the Philippines (institution article used for the bayside promenade; its lead image is the main building), Ninoy Aquino Parks and Wildlife Center. UP Diliman Sunken Garden and Cafe Adriatico have no exact article and are null. COORDINATES: no map result was obtained in either stage; every pin is from memory, cross-checked by the skeptic against known street geometry. The Ermita / Rizal Park cluster (Paco Park, Arroceros, Baluarte de San Diego, National Museum of Natural History) is high confidence; the rest are medium; Marikina River Park stays low because the park is several kilometres long. All 14 are within 17 km of the centre. SOURCES: URLs are attached only where they appeared in a real result list in one of the two stages. The Manila Times La Mesa piece reappeared in a skeptic result; spot.ph, PhilSTAR Life, forevervacation and Manila Times pages could not be fetched from this environment (network egress blocked), so their contents were not re-read, though the URLs follow those publishers' patterns and were reported by the researcher as returned by search. Four spots keep empty sources arrays (Baluarte de San Diego, National Museum of Natural History, CCP bayside promenade, UP Academic Oval) because neither stage searched them; nothing was invented. SAFETY: all 14 notes were read against the standard; every note rests on lighting, closing time, staffing, unfenced water edges, uneven steps, traffic or flood risk, none characterises people or neighbourhoods, and none needed rewriting. Two cautions remain, both physical: Marikina River Park (documented typhoon flooding) and La Mesa Ecopark (unlit forest trails, 4pm close, thin transport outside the gate). Hours other than those listed as confirmed are from knowledge and marked check site.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Hours (8am-5pm) confirmed by search; fee reported as PHP 10 by most sources and free by some, so free set to false. Coordinates from memory (San Marcelino St at General Luna), high confidence. Wikipedia title 'Paco Park' kept from knowledge, not URL-confirmed. Some sources say closed Mondays.",
+      "name": "Paco Park",
+      "neighborhood": "Paco",
+      "category": "park",
+      "vibes": [
+        "quiet",
+        "green",
+        "hidden",
+        "solo",
+        "walk",
+        "cozy"
+      ],
+      "blurb": "A circular walled garden that was a Spanish-era cemetery, with a small domed chapel in the centre, old acacias and a raised inner wall you can walk along. The double ring of thick adobe walls cuts out most of the traffic on San Marcelino and United Nations Avenue, so it is one of the few places in central Manila where you can hear birds. Locals come to read on the benches under the trees; Rizal was briefly buried here, which most visitors only learn from the plaque.",
+      "tips": "Enter from San Marcelino Street opposite Adamson University; a small fee (about PHP 10) is charged at the gate and it closes at 5pm sharp. Weekday mornings are quietest, weekend afternoons often have wedding photo shoots at the chapel. Free classical concerts (Paco Park Presents) run on Friday evenings when scheduled.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "8am-5pm (some sources say closed Mon; check)",
+      "lat": 14.5828,
+      "lng": 120.9881,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Paco Park",
+      "sources": [
+        {
+          "url": "https://outoftownblog.com/paco-park-and-cemetery-manila-everything-you-need-to-know/",
+          "label": "Out of Town Blog: Paco Park and Cemetery",
+          "kind": "blog"
+        },
+        {
+          "url": "https://forevervacation.com/manila/paco-park",
+          "label": "ForeverVacation: Paco Park fee and hours",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated and staffed, closed by 5pm; the steps up to the wall walk are old stone and uneven, so watch your footing when wet."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, free entry and approximate hours confirmed by search (8am-5pm most sources, one says 6am-8pm). Wikipedia title confirmed as 'Arroceros Urban Forest Park' from a search result URL. Coordinates from memory (Antonio Villegas St behind the Metropolitan Theater, south bank of the Pasig), high confidence.",
+      "name": "Arroceros Forest Park",
+      "neighborhood": "Ermita (Lawton)",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "hidden",
+        "water",
+        "solo",
+        "walk",
+        "free"
+      ],
+      "blurb": "Manila's last urban forest: about two hectares of dense native trees on the south bank of the Pasig River, a few steps from the Lawton bus chaos and the Metropolitan Theater. Volunteers fought for decades to keep it from being built over, and after a 2022 renovation it has boardwalk paths, a small amphitheatre and benches where the traffic noise drops to a murmur under the canopy. It is where office workers from the city hall area go to sit for twenty minutes without being sold anything.",
+      "tips": "Entrance is on Antonio Villegas Street, five minutes on foot from LRT-1 Central Terminal; sign the guest book at the gate, no fee. Go before 10am for the coolest air and the most birds, and bring insect repellent since it is a real forest by a river.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 8am-5pm daily (check site)",
+      "lat": 14.5946,
+      "lng": 120.9826,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Arroceros Urban Forest Park",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Arroceros_Urban_Forest_Park",
+          "label": "Wikipedia: Arroceros Urban Forest Park",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.simpol.ph/manilas-last-lung-why-you-should-visit-arroceros-forest-park/",
+          "label": "Simpol.ph: Manila's last lung",
+          "kind": "blog"
+        },
+        {
+          "url": "https://offpeaktrip.com/en/guide/manila/arroceros-forest-park",
+          "label": "OffPeakTrip: hours and tickets",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated, guest-book entry and closed by evening; paths are shaded and can be slippery after rain, and the riverbank edge is unfenced in places."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Researcher did not search this; skeptic search found the English article is titled \"Baywalk\" (en.wikipedia.org/wiki/Baywalk, a 2 km promenade from the US Embassy to the CCP), so the draft title \"Manila Baywalk\" was replaced. Public seawall promenade along Roxas Boulevard, open 24h. Coordinates from memory, placed in front of Malate roughly between Pedro Gil and Remedios; medium confidence because the promenade is 2 km long.",
+      "name": "Manila Baywalk (Roxas Boulevard)",
+      "neighborhood": "Malate / Ermita",
+      "category": "waterfront",
+      "vibes": [
+        "sunset",
+        "water",
+        "people-watch",
+        "walk",
+        "night",
+        "free",
+        "group",
+        "skyline"
+      ],
+      "blurb": "The seawall promenade along Roxas Boulevard, facing due west over Manila Bay, which has the most famous sunset in the country for a reason. Residents from Malate and Ermita come down at six with takeaway coffee or a bag of fish balls, sit on the seawall and watch the sun drop behind the ships at anchor and the Bataan mountains. It is busiest at golden hour and thins out fast afterwards, leaving joggers and couples on the lit path.",
+      "tips": "Come by LRT-1 to Pedro Gil or Quirino and walk two blocks west; the stretch in front of Malate is quieter than the Rizal Park end. Arrive 30-40 minutes before sunset for a seawall seat. Do not swim; the bay is not for bathing despite the white dolomite sand strip near Rizal Park.",
+      "bestTimes": [
+        "golden-hour",
+        "night",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 14.5735,
+      "lng": 120.9805,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Baywalk",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Baywalk",
+          "label": "Wikipedia: Baywalk",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit promenade beside a busy six-lane boulevard, well used until late; the seawall drop to the water is unfenced, so keep back from the edge after dark and cross Roxas only at the signalled crossings."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched; written from knowledge. Restored bastion garden at the south-west corner of Intramuros run by the Intramuros Administration, small entry fee (about PHP 75) and roughly 8am-5pm, hours not URL-confirmed. Coordinates from memory, high confidence for the bastion itself. Wikipedia title 'Baluarte de San Diego' kept from knowledge, not URL-confirmed.",
+      "name": "Baluarte de San Diego Gardens",
+      "neighborhood": "Intramuros",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "green",
+        "hidden",
+        "view",
+        "solo",
+        "walk",
+        "picnic"
+      ],
+      "blurb": "The oldest stone fortification in Intramuros, a 16th-century circular fort whose ruined walls now enclose a sunken lawn and formal gardens at the south-west corner of the walled city. Tour groups head for Fort Santiago and San Agustin, so the gardens here stay quiet apart from the occasional wedding shoot, and you can climb the ramparts for a view over the golf course moat to Rizal Park and the bay. It is the calmest corner of the most visited district in Manila.",
+      "tips": "Enter from Santa Lucia Street near the Puerta Real gate; pay the small Intramuros Administration fee at the booth. Late afternoon puts the walls between you and the sun, and the ramparts face west for the last light. Combine with a walk along the top of the walls, which is free.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "roughly 8am-5pm (check site)",
+      "lat": 14.5871,
+      "lng": 120.9736,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Baluarte de San Diego",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Ticketed and staffed site closed by evening; the ramparts have low parapets and uneven old steps, so mind the edges, especially with children."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched; written from knowledge. Free national museum at Agrifina Circle, Tue-Sun roughly 9am-6pm, hours not URL-confirmed. Coordinates from memory for the former Agriculture/Tourism building on the east side of Rizal Park, high confidence. Wikipedia title 'National Museum of Natural History (Manila)' kept from knowledge, not URL-confirmed.",
+      "name": "National Museum of Natural History",
+      "neighborhood": "Ermita (Rizal Park)",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "cozy",
+        "solo",
+        "free",
+        "view"
+      ],
+      "blurb": "A neoclassical 1940 government building on the east side of Rizal Park gutted and rebuilt around a glass-roofed courtyard, with a white steel 'Tree of Life' column holding up the dome and a spiral ramp that climbs the atrium. Entry is free, and the courtyard benches under the dome are one of the coolest, quietest places to sit in central Manila on a hot or rainy afternoon. Upstairs galleries on Philippine reefs, forests and Lolong the crocodile are worth it but optional.",
+      "tips": "Free, no ticket needed, but bags go through a check and large bags are left at the counter. Closed Mondays. Weekday mornings after opening are near empty; school groups arrive late morning. The National Museum of Anthropology next door and Fine Arts across the park are also free.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Tue-Sun 9am-6pm, closed Mon (check site)",
+      "lat": 14.5818,
+      "lng": 120.9812,
+      "coordConfidence": "high",
+      "wikipediaTitle": "National Museum of Natural History (Manila)",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building with bag checks; the surrounding Agrifina Circle roads carry fast traffic, so use the pedestrian crossings."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Reading room hours (Mon-Fri 8am-5pm, valid ID at the guard, first come first served) confirmed by the NLP service-hours page in search results; Wikipedia title confirmed from a result URL. Coordinates from memory on T.M. Kalaw Avenue at the south edge of Rizal Park, medium confidence.",
+      "name": "National Library of the Philippines",
+      "neighborhood": "Ermita (T.M. Kalaw)",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "solo",
+        "free",
+        "cozy"
+      ],
+      "blurb": "The country's national library, a 1961 modernist block on T.M. Kalaw Avenue across from Rizal Park, whose reading rooms are open to anyone with a valid ID. It is a working research library rather than a lounge, which is exactly why it is silent: students, researchers and a few retirees, air conditioning and long tables. If you want to read or write for a few hours in central Manila without buying anything, this is the place.",
+      "tips": "Show any valid ID to the guard at the ground-floor entrance and register for a client stub; collections are for room use only. Open weekdays 8am-5pm, closed weekends and holidays. Laptops are fine; food is not. The Filipiniana reading room is the quietest.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Fri 8am-5pm, closed weekends and holidays",
+      "lat": 14.5808,
+      "lng": 120.9796,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "National Library of the Philippines",
+      "sources": [
+        {
+          "url": "https://web.nlp.gov.ph/service-hours/",
+          "label": "National Library of the Philippines: service hours",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.spot.ph/things-to-do/the-latest-things-to-do/105000/national-library-of-the-philippines-a5229-20230529",
+          "label": "Spot.ph: things to do at the National Library",
+          "kind": "press"
+        },
+        {
+          "url": "https://mb.com.ph/2024/3/5/list-10-must-visit-public-libraries-in-metro-manila",
+          "label": "Manila Bulletin: 10 public libraries in Metro Manila",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Guarded government building with ID registration at the door; closes at 5pm, and T.M. Kalaw is a busy lit avenue with LRT access at UN Avenue."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Still open confirmed by researcher search: a June 2025 sale announcement was retracted by the family (Varsitarian, PhilSTAR Life). Hours Tue-Sat 10am-5pm from a search result. Wikipedia title confirmed from a result URL. Skeptic search placed the shop on Padre Faura near Adriatico Street, so the pin was moved about 150 m west from the draft (which sat nearer Bocobo); still medium confidence, exact building not map-confirmed.",
+      "name": "Solidaridad Bookshop",
+      "neighborhood": "Ermita (Padre Faura)",
+      "category": "bookstore",
+      "vibes": [
+        "rain-ok",
+        "cozy",
+        "quiet",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "The small two-storey bookshop opened in 1965 by National Artist F. Sionil Jose on Padre Faura, still run by his family and still the best shelf of Philippine literature, history and politics in the city. It is a shop rather than a cafe, so you browse rather than camp, but nobody hurries you, and the upstairs room where writers used to gather is a quiet place to leaf through a few chapters on a wet afternoon. It survived a scare in 2025 when a sale was announced and then retracted.",
+      "tips": "Open Tue-Sat 10am-5pm only, so do not come on a Sunday or Monday; it is a short walk from LRT-1 Pedro Gil past Robinsons Place. Cash is safest. Go upstairs for the Filipiniana and the quiet.",
+      "bestTimes": [
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Tue-Sat 10am-5pm, closed Sun-Mon (check site)",
+      "lat": 14.5771,
+      "lng": 120.9845,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Solidaridad Bookshop",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Solidaridad_Bookshop",
+          "label": "Wikipedia: Solidaridad Bookshop",
+          "kind": "other"
+        },
+        {
+          "url": "https://varsitarian.net/literary/20250702/miscommunication-solidaridad-bookshop-walks-back-sale-announcement",
+          "label": "The Varsitarian: Solidaridad walks back sale announcement",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.spot.ph/arts-culture/the-latest-arts-culture/solidaridad-was-never-just-a-bookstoreheres-why-the-spot-is-a-cultural-gem-a5138-20250703-dyn",
+          "label": "Spot.ph: why Solidaridad is a cultural gem",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed shop on a busy commercial street with the LRT nearby; it closes at 5pm, so plan the walk back in daylight."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence confirmed by search (own site cafeadriaticomanila.com, 1790 Adriatico St at Remedios Circle). Hours conflict across results (site 7am-10pm, aggregators list overnight hours), so marked check site. Coordinates from memory for the Remedios Circle corner, medium confidence. No exact Wikipedia article for the cafe (only Remedios Circle), so title null.",
+      "name": "Cafe Adriatico",
+      "neighborhood": "Malate (Remedios Circle)",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "night",
+        "rain-ok",
+        "people-watch",
+        "solo",
+        "group"
+      ],
+      "blurb": "The 1979 bistro on Remedios Circle that started Malate's cafe culture, with dark wood, ceiling fans, old photographs and a menu of chocolate eh, Spanish-Filipino comfort food and coffee served until late. It has outlasted almost everything around it, and the upstairs tables by the window are a good place to nurse a drink and watch the circle. It is the after-dark option in this list for anyone who wants to sit somewhere with a roof and a little history.",
+      "tips": "Sit upstairs or at the window tables on the circle side; the ground floor is busiest at dinner. Hours have varied across sources, with the official site listing 7am-10pm daily, so check before a late visit. LRT-1 Quirino is the nearest station.",
+      "bestTimes": [
+        "night",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "varies (site lists 7am-10pm daily; check site)",
+      "lat": 14.5699,
+      "lng": 120.9878,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://cafeadriaticomanila.com/",
+          "label": "Cafe Adriatico official site",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.spot.ph/establishment/77/cafe-adriatico-premiere",
+          "label": "Spot.ph: Cafe Adriatico",
+          "kind": "press"
+        },
+        {
+          "url": "https://primer.com.ph/food/location/philippines/manila/cafe-adriatico/",
+          "label": "Philippine Primer: Cafe Adriatico",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed venue on a lit roundabout with taxis and ride-hail easy to get; if you stay late, book the ride from inside rather than waiting on the street."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched; written from knowledge. The CCP complex grounds, main-building ramp and the seawall walk behind Harbor Square are publicly accessible at no charge. Coordinates from memory for the Tanghalang Pambansa main building, medium confidence. Wikipedia title 'Cultural Center of the Philippines' is the institution article, whose lead image is this building; kept from knowledge, not URL-confirmed.",
+      "name": "CCP Complex bayside promenade",
+      "neighborhood": "Pasay (CCP Complex)",
+      "category": "plaza",
+      "vibes": [
+        "sunset",
+        "water",
+        "view",
+        "skyline",
+        "quiet",
+        "walk",
+        "free",
+        "night"
+      ],
+      "blurb": "The brutalist Cultural Center of the Philippines sits on reclaimed land with its back to Manila Bay, and the wide ramp, lawns and seawall walk behind Harbor Square are open to anyone. It faces the same sunset as the Baywalk with a fraction of the people: theatre-goers, students from the nearby schools, and skateboarders on the plaza. Sit on the seawall steps or the ramp of the main building and watch the light go orange over the yachts of the Manila Yacht Club.",
+      "tips": "Take a jeepney or bus down Roxas Boulevard to the CCP stop or walk 15 minutes from LRT-1 Vito Cruz; head around the main building to the bay side. The Harbor Square cafes behind it are a fallback if it rains. Check the CCP calendar, since big shows fill the plaza with cars.",
+      "bestTimes": [
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "grounds open roughly 6am-midnight (check site)",
+      "lat": 14.5568,
+      "lng": 120.9866,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Cultural Center of the Philippines",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit, guarded complex with security on the grounds; the seawall has no railing along parts of the bay side, so stay on the walkway after dark."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence and character confirmed by search: privately owned public park opened 2006 by Ayala Land and partners, koi pond, sculptures, bamboo maze, adjacent to Legazpi Active Park. Wikipedia title confirmed from a result URL. Hours not in results, from knowledge. Coordinates from memory for Legazpi St at Rada St, medium confidence.",
+      "name": "Washington SyCip Park",
+      "neighborhood": "Makati (Legazpi Village)",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "hidden",
+        "solo",
+        "cozy",
+        "free",
+        "walk"
+      ],
+      "blurb": "A pocket garden in the middle of Legazpi Village with a koi pond, bamboo, big shade trees and Impy Pilapil sculptures, named for the accountant who founded SGV. Office workers from the surrounding towers eat lunch here and go back to work, and for the rest of the day it is mostly quiet apart from nannies and a few readers on the benches. Legazpi Active Park next door hosts the Sunday market; this side stays calm.",
+      "tips": "Enter from Legazpi Street or Rada Street, five minutes on foot from Greenbelt; the benches by the koi pond and under the trees at the back are the shadiest. Come mid-morning or mid-afternoon on a weekday to avoid the lunch crowd. No food stalls inside, so bring a drink.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 6am-10pm (check site)",
+      "lat": 14.5548,
+      "lng": 121.0178,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Washington SyCip Park",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Washington_SyCip_Park",
+          "label": "Wikipedia: Washington SyCip Park",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g298450-d6024364-Reviews-or100-Washington_SyCip_Park-Makati_Metro_Manila_Luzon.html",
+          "label": "Tripadvisor: Washington SyCip Park reviews",
+          "kind": "forum"
+        },
+        {
+          "url": "https://imhotel.com/experience/washington-sycip-park-legazpi-active-park/",
+          "label": "I'M Hotel: Washington SyCip and Legazpi Active Park",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced, lit and patrolled by village security; quiet streets around it are well lit and busy with office traffic until evening."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched; written from knowledge. Open public university campus with a 2.2 km tree-lined loop and a sunken lawn, freely accessible. Coordinates from memory for the Sunken Garden east of Quezon Hall, medium confidence. No exact Wikipedia article for the Sunken Garden or Academic Oval, so title null (the campus article would show the wrong subject).",
+      "name": "UP Diliman Academic Oval and Sunken Garden",
+      "neighborhood": "Quezon City (Diliman)",
+      "category": "park",
+      "vibes": [
+        "green",
+        "walk",
+        "quiet",
+        "study",
+        "sunset",
+        "picnic",
+        "free",
+        "group",
+        "solo"
+      ],
+      "blurb": "The University of the Philippines' main campus is effectively Quezon City's biggest park: a 2.2 km oval lined with old acacia trees that arch over the road, and inside it the Sunken Garden, a wide bowl of lawn where students lie around, kick footballs and watch the sun set over the trees. The oval is closed to cars on Sunday mornings and busy with joggers every day at dawn and dusk. It is free, unfenced and where half of northern Metro Manila goes to think.",
+      "tips": "Take the MRT to Quezon Avenue or North Avenue and a jeepney or ride-hail to the Oblation; the Sunken Garden is down the slope east of Quezon Hall. Sunday morning is car-free and busiest; weekday late afternoons are quieter. Isaw and fishball vendors line the oval near Palma Hall after 4pm.",
+      "bestTimes": [
+        "golden-hour",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 14.6554,
+      "lng": 121.0676,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Campus with its own police and lit main roads; the inner footpaths and the Sunken Garden itself are dim after dark, so stay on the oval road at night."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Hours (daily 7am-5pm) and fees (PHP 30 adults, PHP 15 students, PHP 100 foreigners, PWD and seniors free) confirmed from Quezon City and Biodiversity Management Bureau pages in search results. Coordinates from memory for the Quezon Ave / Elliptical Road entrance, medium confidence. Wikipedia title kept from knowledge, not URL-confirmed.",
+      "name": "Ninoy Aquino Parks and Wildlife Center",
+      "neighborhood": "Quezon City (Diliman)",
+      "category": "park",
+      "vibes": [
+        "green",
+        "water",
+        "quiet",
+        "picnic",
+        "walk",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "A 22-hectare government nature park beside Quezon Memorial Circle, with a lagoon, a small botanical garden, a rescue centre for confiscated wildlife and lawns under big old trees. It is run by the Biodiversity Management Bureau rather than as a tourist attraction, so it is never crowded, and the lagoon-side benches on a weekday are about as quiet as Quezon City gets. Families picnic on weekends; on weekdays it is joggers and people with books.",
+      "tips": "Enter from Quezon Avenue near the Elliptical Road, a short walk from MRT Quezon Avenue; PHP 30 for adults, PHP 100 for foreign visitors. Head past the wildlife enclosures to the lagoon for the quiet side. It closes at 5pm and there is little shade on the open lawns at midday.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "7am-5pm daily",
+      "lat": 14.6535,
+      "lng": 121.0436,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Ninoy Aquino Parks and Wildlife Center",
+      "sources": [
+        {
+          "url": "https://quezoncity.gov.ph/place/ninoy-aquino-parks-and-wildlife-center/",
+          "label": "Quezon City Government: Ninoy Aquino Parks and Wildlife Center",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.bmb.gov.ph/ninoy-aquino-parks-and-wildlife-center/",
+          "label": "Biodiversity Management Bureau: park page",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.spot.ph/things-to-do/weekend-guides/ninoy-aquino-parks-and-wildlife-center-quezon-city-a5229-20251120-dyn",
+          "label": "Spot.ph: guide to Ninoy Aquino Parks and Wildlife Center",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Ticketed, fenced and staffed, closed at 5pm; the lagoon edge is unfenced and paths are unlit, so leave before closing."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Hours (Tue-Sun 7am-4pm, closed Mon) and fee (PHP 50 from Aug 2026, free with QCitizen ID) confirmed by researcher from Manila Times and Quezon City pages; a PhilSTAR Life piece reported a 100-guests-a-day cap, so booking ahead is advised. Skeptic search confirmed the English article \"La Mesa Ecopark\" (33 ha, Greater Lagro, reopened June 2024 under Manila Water Foundation) and that the Manila Times URL is real. Coordinates from memory for the Pearl Drive entrance, medium confidence.",
+      "name": "La Mesa Ecopark",
+      "neighborhood": "Quezon City (Novaliches / Greater Lagro)",
+      "category": "trail",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "water",
+        "hidden",
+        "solo",
+        "picnic"
+      ],
+      "blurb": "A 33-hectare park on the edge of the La Mesa watershed, the forest that protects Metro Manila's main reservoir, with shaded trails, a lagoon, a butterfly garden and picnic groves under real secondary forest. It is far enough north that it is used almost entirely by Quezon City residents, and after a 2024 relaunch it limits daily numbers, so the trails are quiet even on weekends. Bring a book and sit by the lagoon; the air is noticeably cooler than downtown.",
+      "tips": "The entrance is inside Pearl Drive off Commonwealth Avenue, Greater Lagro; ride-hail is easiest, or a jeepney to Fairview. PHP 50, free with a QCitizen ID; check the park's page or email for the current daily cap and book ahead. Closed Mondays and it shuts at 4pm, so come early.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "Tue-Sun 7am-4pm, closed Mon",
+      "lat": 14.7183,
+      "lng": 121.0743,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "La Mesa Ecopark",
+      "sources": [
+        {
+          "url": "https://www.manilatimes.net/2026/08/11/fast-times/la-mesa-ecopark-a-breath-of-fresh-air-in-quezon-city/2401795",
+          "label": "Manila Times: La Mesa Ecopark, a breath of fresh air",
+          "kind": "press"
+        },
+        {
+          "url": "https://quezoncity.gov.ph/place/la-mesa-eco-park/",
+          "label": "Quezon City Government: La Mesa Eco Park",
+          "kind": "official"
+        },
+        {
+          "url": "https://philstarlife.com/self/897621-la-mesa-ecopark-quezon-city",
+          "label": "PhilSTAR Life: La Mesa Ecopark accepts 100 guests a day",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Forest trails are unlit and the park is gated and closes at 4pm; go in daylight, stay on marked trails, carry water and repellent, and arrange your ride back before you go in since transport outside the gate is thin."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Researcher wrote this from knowledge; skeptic search confirmed the English article \"Marikina River Park\" exists and that the Roman Garden, amphitheatre and picnic grounds are on Riverside Drive (Jesus de la Pena side). Free public riverside park run by Marikina City, open 24h. Coordinates still from memory near the Santa Elena / Sports Center stretch; the park runs for kilometres along both banks, so confidence stays low. Caution kept for flood risk, a documented physical condition of this river.",
+      "name": "Marikina River Park",
+      "neighborhood": "Marikina (Santa Elena / San Roque)",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "walk",
+        "sunset",
+        "people-watch",
+        "green",
+        "free",
+        "group",
+        "night"
+      ],
+      "blurb": "Marikina's long riverside park, with a paved promenade, lawns, a Roman-style garden, an animal trail and bike lanes along both banks of the Marikina River, is where the city walks, jogs and hangs out in the evening. It is far enough east that almost nobody from outside Marikina comes, and the wide river valley gives an open sky for sunset behind the Quezon City ridge. Benches along the water and the grass slopes are free and rarely full.",
+      "tips": "Take the LRT-2 to Santolan and a jeepney or tricycle to Riverbanks, or ride-hail to the Marikina Sports Center and walk down to the river. Evenings from 5pm are liveliest with food stalls; weekday mornings are near empty. The Sunday morning market by the river is worth timing a visit for.",
+      "bestTimes": [
+        "golden-hour",
+        "morning",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 14.6345,
+      "lng": 121.0925,
+      "coordConfidence": "low",
+      "wikipediaTitle": "Marikina River Park",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Marikina_River_Park",
+          "label": "Wikipedia: Marikina River Park",
+          "kind": "other"
+        },
+        {
+          "url": "https://tourism.marikina.gov.ph/tourismspots",
+          "label": "Marikina City Tourism: tourist spots",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "The riverbanks flood fast and deep during typhoons and heavy monsoon rain, so stay away in a storm or when the river is high; on normal evenings the main promenade is lit and busy, while the lower banks are unlit."
+      },
+      "lowkeyScore": 4
+    }
+  ]
+}

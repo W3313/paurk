@@ -39,14 +39,17 @@ times are computed on the client with SunCalc.
 
 The dataset
 -----------
-data/research/*.json describes 604 real, publicly accessible places across 44
-cities. Please read this before relying on it:
+data/research/*.json describes 1,229 real, publicly accessible places across
+89 cities in 60 countries. Please read this before relying on it:
 
   * It is licensed CC BY 4.0 — reuse it, with attribution.
 
-  * It is not verified. 354 of the 604 entries cite no source at all, and for
-    17 cities neither the research pass nor the review pass could reach the
-    web; those files say so in their own verifyNotes, in capitals. Coordinates
+  * It is not verified. 518 of the 1,229 entries cite no source at all, and
+    for 17 cities neither the research pass nor the review pass could reach
+    the web; those files say so in their own verifyNotes, in capitals. No
+    coordinate in this dataset has been checked against a map service — each
+    carries its own confidence level, and "high" still means a model was
+    confident, not that anyone looked. Coordinates
     are approximate and each carries its own confidence level. Opening hours
     are frequently from memory and change without notice.
 

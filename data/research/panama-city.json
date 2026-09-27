@@ -1,0 +1,704 @@
+{
+  "city": "Panama City",
+  "country": "Panama",
+  "slug": "panama-city",
+  "region": "americas",
+  "cityLat": 8.9824,
+  "cityLng": -79.5199,
+  "timezone": "America/Panama",
+  "searchesRun": [
+    "Parque Omar Panamá horario Biblioteca Nacional Ernesto J. Castillero",
+    "Café Coca-Cola Panamá Plaza Santa Ana horario abierto",
+    "Casa del Soldado Centro Cultural de España Panamá biblioteca horario",
+    "Cerro Ancón Panamá mirador horario acceso caminata",
+    "Parque Natural Metropolitano Panamá horario entrada precio",
+    "Panamá Viejo Patronato horario entrada sitio arqueológico",
+    "Biomuseo Panamá horario entrada Parque de la Biodiversidad",
+    "Paseo Esteban Huertas Plaza de Francia Casco Viejo wikipedia",
+    "Museo del Canal Interoceánico Panamá horario entrada precio Plaza de la Independencia",
+    "Parque Urracá Panamá Bella Vista Avenida Balboa ubicación",
+    "Ciudad del Saber Clayton Panamá plaza acceso público visitantes horario",
+    "Panama City Café Coca-Cola Cinta Costera Amador Causeway Panamá Viejo (site:en.wikipedia.org)"
+  ],
+  "redditSourcedNotes": "Two stages, 12 searches in total, web reachable both times but no direct page fetches possible in the review stage (every fetch was blocked by the proxy, including Wikipedia, so nothing below was map-checked against a live page). Stage 1 (8 searches) spent them on existence, hours and Wikipedia titles for the most doubtful spots; no reddit or forum threads came up in results, so nothing here is sourced from locals-say posts. Confirmed via search in stage 1: Biblioteca Nacional is inside Parque Omar and open Mon-Fri 9am-5pm (park itself free, 5am-10pm); Cerro Ancón is free and open daily 6am-6pm with a ranger-controlled road; Parque Natural Metropolitano trails 7am-4:30pm with a small fee and an online reservation form; Panamá Viejo Tue-Sun 8:30am-5:30pm, ticket office closes 4:30pm; Biomuseo Wed-Fri 10am-3pm and Sat-Sun 11am-4pm, with the outdoor Parque de la Biodiversidad free; Café Coca-Cola still trading on Plaza Santa Ana (hours quoted between 7am and 11pm); Casa del Soldado exhibitions Tue-Sat 10am-6pm. Stage 2 (4 searches) went to the five spots that had no sources: Museo del Canal confirmed on Plaza de la Independencia, Tue-Sun 9am-6pm (ticket prices differed between results, so none is quoted); Parque Urracá confirmed on Avenida Balboa at Federico Boyd, opposite the Cinta Costera; Ciudad del Saber confirmed as an openly accessible campus with a public plaza, Thursday evening free concerts and a free Casa Museo; and one en.wikipedia.org-only search for the remaining titles. English Wikipedia articles seen as URLs across both stages: National Library of Panama, Ancon Hill, Metropolitan Natural Park, Biomuseo, Cinta Costera, Panamá Viejo, Panama Canal Museum, Ciudad del Saber, Causeway Islands. The Amador spot now uses Causeway Islands because that is the article the search returned; no separate Amador Causeway URL appeared. Null because only Spanish Wikipedia or nothing appeared: Parque Omar, Paseo Esteban Huertas/Las Bóvedas, Café Coca-Cola (searched twice, no English URL seen), Parque Urracá, Casa del Soldado. Source URLs are attached only where they appeared in a result in one of the two stages; none was fetched or opened, so a reader should expect some to have moved. Coordinates: all 14 remain from memory of the map and are marked medium, none high; the review stage checked each against its own recall and the Wikipedia article positions it remembers, nudged only the Biomuseo point, and could not map-check any of them. Most likely to be off by a block: Parque Urracá, the Biblioteca Nacional building inside Parque Omar, the Ciudad del Saber plaza, the Cerro Ancón summit, and the two mid-path markers on the Cinta Costera and the Amador causeway. Hours for Cinta Costera, Amador, Parque Urracá and Paseo Esteban Huertas (24h) are from knowledge. Safety screen: all 14 are legitimate public places (parks, promenades, a ranger-staffed hill, two museums, a national library, a cultural centre, a café, a campus); none require entering closed, derelict, industrial or rail land. Every safety note was re-read against the standard; all rest on lighting, closing times, terrain, water and exposure, none characterise people or neighbourhoods, and none needed rewriting. Cautions are limited to physical conditions: unlit trails after closing on Cerro Ancón and in the Metropolitano, an unlit seawall path at Panamá Viejo, and the long exposed stretches of the Amador causeway late at night.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Hours (trails 7am-4:30pm), small entry fee and online reservation form confirmed via search; Wikipedia title Metropolitan Natural Park seen as a URL. Coordinates are for the visitor centre on Avenida Juan Pablo II from memory, not map-checked.",
+      "name": "Parque Natural Metropolitano",
+      "neighborhood": "Ancón / Curundú",
+      "category": "trail",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "view",
+        "solo",
+        "skyline",
+        "hidden"
+      ],
+      "blurb": "A 230-hectare patch of dry tropical forest inside the city limits, with a handful of short trails that climb to Cerro Cedro and a clearing that looks back over the towers of the banking district. Sloths, agoutis and toucans are ordinary sightings, and on a weekday morning you can have a bench at the top to yourself. It is where residents come to walk before work rather than a place tour buses stop.",
+      "tips": "Pay at the visitor centre on Avenida Juan Pablo II and take the Mono Tití or La Cieneguita trail to the Cerro Cedro lookout; the website asks you to reserve a slot in advance, so check before going. Bring water and insect repellent, and go early, since the heat builds fast after 10am.",
+      "bestTimes": [
+        "morning"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "7am-4:30pm daily (check site)",
+      "lat": 8.9935,
+      "lng": -79.5437,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Metropolitan Natural Park",
+      "sources": [
+        {
+          "url": "https://parquemetropolitano.org/en/",
+          "label": "Parque Natural Metropolitano official site",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.tourismpanama.com/outdoors-and-nature/nature-parks/national-parks/metropolitan-natural-park/",
+          "label": "Visit Panama: Metropolitan Natural Park",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Staffed park with marked trails, but the paths are unlit and steep in places and the gates close at 4:30pm; go in the morning, stay on the trails and carry water."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Free access and 6am-6pm daily hours confirmed via search (El Faro, Descubre Panamá); Wikipedia title Ancon Hill seen as a URL. Summit coordinates from memory of the flag and lookout, not map-checked.",
+      "name": "Cerro Ancón",
+      "neighborhood": "Ancón",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "skyline",
+        "green",
+        "walk",
+        "free",
+        "solo",
+        "quiet",
+        "sunrise"
+      ],
+      "blurb": "The forested hill with the giant flag that you see from all over the city, reached by a narrow one-way road that residents walk up for exercise before the heat. From the small lookouts at the top you get the Canal entrance, the Bridge of the Americas, Casco Viejo and the towers of Punta Paitilla in one sweep, and sloths in the trees on the way. It is free and manned by rangers, and quiet enough on weekday mornings to sit on the low wall and just look.",
+      "tips": "Start from the gate on Calle Quarry Heights behind Mi Pueblito; the walk up is about 2 km and takes 45 minutes at an easy pace. Cars are let through only when the road is clear, so walkers should keep to the side. Early morning is best for birds and for the view before the haze.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "6am-6pm daily",
+      "lat": 8.9578,
+      "lng": -79.5487,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Ancon Hill",
+      "sources": [
+        {
+          "url": "https://elfarodelcanal.com/en/a-hike-up-cerro-ancon/",
+          "label": "El Faro (Canal de Panamá): A hike up Cerro Ancón",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.descubre.com.pa/senderos/cerro-ancon/",
+          "label": "Descubre Panamá: Cerro Ancón",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.alltrails.com/trail/panama/panama-city/cerro-ancon",
+          "label": "AllTrails: Cerro Ancón",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Ranger-controlled gate and a shared one-way road with no pavement; the road is unlit and the gate closes at 6pm, so start down well before then and walk facing traffic."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence and layout (bougainvillea walkway over Las Bóvedas ending at Plaza de Francia) confirmed via search; only a Spanish Wikipedia article for Las Bóvedas appeared, so title set to null. Coordinates from memory of the southeastern tip of Casco Viejo.",
+      "name": "Paseo Esteban Huertas",
+      "neighborhood": "Casco Viejo (San Felipe)",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "water",
+        "skyline",
+        "sunset",
+        "sunrise",
+        "walk",
+        "free",
+        "people-watch"
+      ],
+      "blurb": "A raised walkway along the top of the old colonial sea wall at the southern tip of Casco Viejo, roofed with bougainvillea and set with stone benches that face the bay. To one side is the whole modern skyline across the water, to the other the Bridge of the Americas and ships queuing for the Canal. Craft sellers set up along the wall by day; early morning and late afternoon it is mostly people leaning on the parapet with a coffee.",
+      "tips": "Come up the ramp from Plaza de Francia beside the French embassy and walk towards the old Club Unión; the benches under the vines are shaded until mid-morning. The Casa del Soldado cultural centre at the plaza end has toilets and a cafe if you need a break from the heat.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 8.9498,
+      "lng": -79.5318,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://panamacascoviejo.com/monumental-complex-of-las-bovedas/",
+          "label": "Panama Casco Viejo: Las Bóvedas and Paseo Esteban Huertas",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.fodors.com/world/mexico-and-central-america/panama/panama-city/things-to-do/sights/reviews/paseo-esteban-huertas-453675",
+          "label": "Fodor's: Paseo Esteban Huertas",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit walkway in a policed historic district; the parapet drops to rocks and sea, so keep children back from the edge."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Researcher wrote from knowledge. Review stage: English Wikipedia URL Cinta_Costera seen in an en.wikipedia.org search, so the title is now URL-confirmed. Open 24h and lit from knowledge. Coordinates mark a mid-point of the promenade near Calle 39 from memory, not map-checked.",
+      "name": "Cinta Costera",
+      "neighborhood": "Bella Vista / Calidonia",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "walk",
+        "skyline",
+        "sunrise",
+        "night",
+        "free",
+        "people-watch",
+        "group"
+      ],
+      "blurb": "The long strip of reclaimed land along Avenida Balboa, laid out as a linear park with a seaside path, lawns, exercise stations and benches facing the Bay of Panama. At dawn it belongs to runners and cyclists, at dusk to families and couples watching the lights come on along Punta Paitilla and Casco Viejo. It is the city's front porch rather than a hidden spot, but the stretch between the Balboa monument and the fish market is wide enough to find a quiet bench.",
+      "tips": "The benches on the seaward edge face east for sunrise; for sunset walk south towards the Mercado de Mariscos and Casco Viejo. It is busiest on Sunday mornings when the road is closed to cars for the Recreovía. Bring water, since there is very little shade at midday.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 8.9715,
+      "lng": -79.5262,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Cinta Costera",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Cinta_Costera",
+          "label": "Wikipedia: Cinta Costera",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Well lit, patrolled and used until late; the seaward path has no railing in places and the tide drops far, so stay on the paved path at night."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review stage: existence and location on Avenida Balboa at Avenida Federico Boyd, across from the Cinta Costera, confirmed via search (Moovit, minube, a property listing); no hours or English Wikipedia article found. Coordinates match that corner from memory but were not map-checked.",
+      "name": "Parque Urracá",
+      "neighborhood": "Bella Vista",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "solo",
+        "free",
+        "people-watch",
+        "cozy",
+        "rain-ok"
+      ],
+      "blurb": "A square of old rain trees and benches a block back from the Cinta Costera, the kind of neighbourhood park where office workers eat lunch, retirees play dominoes and kids from the surrounding blocks use the playground after school. The canopy is dense enough to sit through a downpour, and the traffic noise from Avenida Balboa fades under the leaves. It is a resident's park, not a sight.",
+      "tips": "Enter from Avenida Balboa, Avenida Federico Boyd or Calle 45; the benches on the shaded eastern side stay cool longest. Street vendors sell raspados and coconut water at the corners in the afternoon. Pair it with a walk along the Cinta Costera across the road.",
+      "bestTimes": [
+        "afternoon",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 8.9793,
+      "lng": -79.5218,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://moovitapp.com/index/en/public_transit-Parque_Urrac%C3%A1-Panam%C3%A1-site_17179877-4674",
+          "label": "Moovit: how to get to Parque Urracá",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.minube.com/rincon/parque-urraca-a3639620",
+          "label": "minube: Parque Urracá",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit, overlooked by apartment blocks and next to a busy avenue; fine solo by day and in the early evening."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, free entry and 5am-10pm hours confirmed via search (parqueomar.gob.pa, Spanish Wikipedia). No English Wikipedia article appeared, so title set to null. Coordinates are for the middle of the park from memory.",
+      "name": "Parque Omar",
+      "neighborhood": "San Francisco",
+      "category": "park",
+      "vibes": [
+        "green",
+        "walk",
+        "group",
+        "picnic",
+        "free",
+        "people-watch",
+        "quiet"
+      ],
+      "blurb": "The city's big everyday park, a former golf course in San Francisco with a 3 km running loop, mature trees, playing fields, a pool and the National Library on one edge. It is where the neighbourhood jogs before work, walks dogs and spreads out on the grass on Sunday afternoons, and the far corners away from the sports courts are genuinely quiet on weekdays. Nothing about it is for tourists, which is the point.",
+      "tips": "Enter from Vía Porras or Calle 74 Este; the loop is shaded for most of its length and the benches under the big trees near the library are the calmest. Food carts cluster at the entrances in the evening. Go early or after 5pm to avoid the heat.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "5am-10pm daily",
+      "lat": 8.9955,
+      "lng": -79.505,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://parqueomar.gob.pa/biblioteca-nacional/",
+          "label": "Parque Omar official site",
+          "kind": "official"
+        },
+        {
+          "url": "https://es.wikipedia.org/wiki/Parque_Recreativo_Omar_Torrijos",
+          "label": "Wikipedia (es): Parque Recreativo Omar Torrijos",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated, lit along the main loop and busy with runners until closing at 10pm; the outer paths are darker, so keep to the loop after dusk."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Location inside Parque Omar and Mon-Fri 9am-5pm hours confirmed via search (binal.ac.pa); Wikipedia title National Library of Panama seen as a URL. Coordinates for the library building on the park's western edge from memory.",
+      "name": "Biblioteca Nacional Ernesto J. Castillero R.",
+      "neighborhood": "San Francisco (Parque Omar)",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "free",
+        "solo",
+        "cozy",
+        "green"
+      ],
+      "blurb": "Panama's national library sits inside Parque Omar, a low modern building with reading rooms that look out onto the trees. Anyone can walk in with ID, find a desk and read or work for the day in air-conditioned silence, and the periodicals room is a good place to sit with the local papers. It is the most reliable indoor refuge in this part of the city when the afternoon rain comes.",
+      "tips": "Bring photo ID to register at the desk; bags may be checked. Weekday mornings are quietest. It is closed at weekends, so plan around Mon-Fri 9am-5pm, and step out into the park for a break under the trees.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Fri 9am-5pm, closed weekends (check site)",
+      "lat": 8.994,
+      "lng": -79.5075,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "National Library of Panama",
+      "sources": [
+        {
+          "url": "https://binal.ac.pa/",
+          "label": "Biblioteca Nacional de Panamá",
+          "kind": "official"
+        },
+        {
+          "url": "https://parqueomar.gob.pa/biblioteca-nacional/",
+          "label": "Parque Omar: Biblioteca Nacional",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/National_Library_of_Panama",
+          "label": "Wikipedia: National Library of Panama",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building inside a gated park; closes at 5pm."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Researcher wrote from knowledge. Review stage: an en.wikipedia.org search returned the article Causeway Islands (Islas Calzada de Amador), which covers the causeway and its islands, and no separate Amador Causeway URL, so the title was changed to the confirmed one. Coordinates mark the seaside path between Naos and Perico from memory, not a single feature and not map-checked.",
+      "name": "Calzada de Amador",
+      "neighborhood": "Amador",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "skyline",
+        "sunset",
+        "sunrise",
+        "walk",
+        "view",
+        "free",
+        "people-watch"
+      ],
+      "blurb": "A 6 km causeway built from Canal spoil that runs out to three small islands at the Pacific entrance, with a palm-lined path on the city side and ships sliding past on the other. The skyline view back across the bay is the classic one, and at dusk residents come out to jog, cycle or sit on the seawall benches while the container ships light up. It is popular but long, so a bench of your own is never far.",
+      "tips": "Take a taxi or the Amador bus to the Biomuseo end and walk out; bikes can be rented near the start. The benches facing the city on the Isla Perico stretch are best for sunset behind the Bridge of the Americas. Bring water, since shade is thin, and expect strong winds in the dry season.",
+      "bestTimes": [
+        "golden-hour",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 8.9175,
+      "lng": -79.5295,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Causeway Islands",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Causeway_Islands",
+          "label": "Wikipedia: Causeway Islands",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Lit path and steady traffic until late evening, but it is a long, exposed strip with few exits and the lighting thins late at night; walk it before about 10pm and arrange a ride back from the island end."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Hours (Wed-Fri 10am-3pm, Sat-Sun 11am-4pm), ticket prices and free access to the Parque de la Biodiversidad confirmed via search; Wikipedia title Biomuseo seen as a URL. Coordinates from memory of the building at the start of the causeway. Review stage nudged the point about 150 m north-west to sit on the building itself from memory of the map; still medium.",
+      "name": "Biomuseo",
+      "neighborhood": "Amador",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "view",
+        "water",
+        "green",
+        "solo",
+        "cozy",
+        "skyline"
+      ],
+      "blurb": "Frank Gehry's crumpled, brightly coloured museum at the start of the Amador Causeway, about how the isthmus rose from the sea and rewired life on two continents. The galleries are small and rarely crowded midweek, and the covered public atrium and the free Parque de la Biodiversidad outside give benches with the Canal entrance on one side and the city on the other. It is a good place to spend a rainy hour without needing a ticket.",
+      "tips": "The outdoor park and the temporary exhibition are free; only the permanent galleries charge. The building is closed Monday and Tuesday and shuts mid-afternoon, so go in the morning and sit outside afterwards. The cafe faces the water.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Wed-Fri 10am-3pm, Sat-Sun 11am-4pm, closed Mon-Tue (check site)",
+      "lat": 8.9349,
+      "lng": -79.5491,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Biomuseo",
+      "sources": [
+        {
+          "url": "https://biomuseo.org/en/",
+          "label": "Biomuseo official site",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.tourismpanama.com/culture-cuisine/historical-sites/biomuseo/",
+          "label": "Visit Panama: Biomuseo",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Biomuseo",
+          "label": "Wikipedia: Biomuseo",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed museum with a fenced outdoor park; the surrounding causeway path is lit but exposed, so plan transport back after closing."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Hours (Tue-Sun 8:30am-5:30pm, ticket office closes 4:30pm) and the Patronato as operator confirmed via search. Review stage: English Wikipedia URL Panamá_Viejo seen in an en.wikipedia.org search, so the title is now URL-confirmed. Non-resident tickets cost noticeably more than resident ones; the shoreline path outside the fence is free. Coordinates from memory of the cathedral tower, not map-checked; the site is large.",
+      "name": "Panamá Viejo",
+      "neighborhood": "Parque Lefevre",
+      "category": "other",
+      "vibes": [
+        "quiet",
+        "water",
+        "walk",
+        "view",
+        "solo",
+        "green",
+        "hidden",
+        "sunset"
+      ],
+      "blurb": "The stone ruins of the original 1519 city, sacked by Henry Morgan in 1671 and left to the mangroves on the eastern edge of town. Inside the fence are lawns, low walls to sit on, a cathedral tower you can climb and almost no one on weekdays; outside it the free seaside path along the mudflats is where the surrounding neighbourhood walks and watches shorebirds at low tide. The city towers sit on the horizon to the west, which makes the sunset especially good.",
+      "tips": "Buy a ticket at the visitor centre by the museum and walk the whole site; the tower gives the best view but the shaded walls near the convent ruins are better for sitting. The ticket office closes at 4:30pm. The paved shoreline path outside the fence is free and open all day.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "Tue-Sun 8:30am-5:30pm, closed Mon (check site)",
+      "lat": 9.0079,
+      "lng": -79.4862,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Panamá Viejo",
+      "sources": [
+        {
+          "url": "https://www.patronatopanamaviejo.org/visitanos/",
+          "label": "Patronato Panamá Viejo: Visítanos",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.patronatopanamaviejo.org/sitio-arqueologico/",
+          "label": "Patronato Panamá Viejo: Sitio Arqueológico",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Panam%C3%A1_Viejo",
+          "label": "Wikipedia: Panamá Viejo",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Staffed and fenced site by day; the shoreline path outside is unlit and empties after the site closes, so leave by dusk and use the Vía Cincuentenario side for transport."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Still trading, location beside Plaza Santa Ana (Avenida Central and Calle 12) and 1875 founding confirmed via search; hours quoted between 7am and 11pm across sources, so given as approximate. An English Wikipedia article probably exists but no URL appeared, so title set to null. Coordinates from memory of Plaza Santa Ana. Review stage: an en.wikipedia.org search for the cafe returned no article URL, so the title stays null.",
+      "name": "Café Coca-Cola",
+      "neighborhood": "Santa Ana",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "people-watch",
+        "solo",
+        "night"
+      ],
+      "blurb": "An old-school diner on Plaza Santa Ana that has been serving coffee, sancocho and cheap plates since 1875, all formica tables, ceiling fans and regulars reading the paper. It sits at the point where the pedestrian Avenida Central meets Casco Viejo, so the windows give a steady stream of the real city going by. Nobody minds if you linger over one coffee for an hour.",
+      "tips": "Sit by the window on the plaza side for people-watching, or at the back under the fans for quiet; order the coffee and a plato del día, and pay at the counter. It is a short walk from the 5 de Mayo metro station along Avenida Central.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly 7:30am-11pm daily (check site)",
+      "lat": 8.9538,
+      "lng": -79.5383,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.prensa.com/impresa/vivir/primer-cafe-Panama_0_4282821776.html",
+          "label": "La Prensa: El primer café de Panamá",
+          "kind": "press"
+        },
+        {
+          "url": "https://panamacascoviejo.com/coca-cola-cafe/",
+          "label": "Panama Casco Viejo: Coca Cola Café",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed cafe on a lit, busy plaza next to a pedestrian shopping street; open late."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review stage: public access by road and bus from Avenida Omar Torrijos, free parking, the plaza food court, Thursday 5-7:30pm free concerts and the free Casa Museo (Wed-Sat 10am-3pm) confirmed via search (ciudaddelsaber.org, Wanderlog). English Wikipedia URL Ciudad_del_Saber seen, so title set. Plaza coordinates from memory, not map-checked.",
+      "name": "Ciudad del Saber",
+      "neighborhood": "Clayton",
+      "category": "plaza",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "study",
+        "cozy",
+        "free",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "The former US Army base of Fort Clayton, turned into a campus of NGOs, schools and start-ups next to the Miraflores Locks. Its wide lawns, old barracks with deep verandas, a central plaza with cafes and long shaded avenues make it feel like a college town dropped beside the Canal, and outsiders are free to wander in. On weekday afternoons it is one of the calmest places in the city to sit with a laptop or a book.",
+      "tips": "Enter from Avenida Omar Torrijos (the road to the Miraflores locks); the MiBus stop is by the main gate and parking is free. The plaza has a food court, cafes with outdoor tables and wifi, free rock and jazz bands on Thursdays 5-7:30pm, and the small Casa Museo is free Wed-Sat 10am-3pm. The old barracks verandas are shaded all day.",
+      "bestTimes": [
+        "afternoon",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "campus open to walk in daily; cafes and buildings vary (check site)",
+      "lat": 9.0038,
+      "lng": -79.5857,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Ciudad del Saber",
+      "sources": [
+        {
+          "url": "https://ciudaddelsaber.org/conoce-el-campus",
+          "label": "Ciudad del Saber: Conoce el campus",
+          "kind": "official"
+        },
+        {
+          "url": "https://wanderlog.com/place/details/12311579/plaza-ciudad-del-saber--clayton",
+          "label": "Wanderlog: Plaza Ciudad del Saber",
+          "kind": "other"
+        },
+        {
+          "url": "https://siemprerunning.com/2022/12/23/donde-correr-en-panama-clayton-ciudad-del-saber/",
+          "label": "Siempre Running: correr en Clayton",
+          "kind": "blog"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ciudad_del_Saber",
+          "label": "Wikipedia: Ciudad del Saber",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Security-patrolled campus with lit avenues; it empties in the evening, so plan a ride back after dark."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review stage: location on Plaza de la Independencia (Calle 5a/6a corner) and Tue-Sun 9am-6pm hours confirmed via search (Visit Canal de Panamá, Sicultura); ticket prices differed between results so none is quoted. English Wikipedia URL Panama_Canal_Museum seen in results, so title set. Coordinates are for the plaza from memory, not map-checked.",
+      "name": "Museo del Canal Interoceánico",
+      "neighborhood": "Casco Viejo (San Felipe)",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "cozy",
+        "solo",
+        "study"
+      ],
+      "blurb": "The Canal museum occupies the former French and then US canal company headquarters on Casco Viejo's main plaza, a cool old building with wooden floors and high ceilings. The galleries walk through the French failure, the US construction and the 1999 handover in a way that rewards slow reading, and midweek you often have a room to yourself. It is the natural place to escape a downpour in the old town without buying a coffee.",
+      "tips": "Enter from Plaza de la Independencia opposite the cathedral, on the Calle 5a/6a corner; ask for the English audio guide. Closed Mondays; last admission is half an hour before the 6pm close. The plaza benches under the trees outside are good for sitting afterwards.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Tue-Sun 9am-6pm, last entry 5:30pm, closed Mon (check site)",
+      "lat": 8.9523,
+      "lng": -79.5348,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Panama Canal Museum",
+      "sources": [
+        {
+          "url": "https://museodelcanal.com/en/",
+          "label": "Museo del Canal official site",
+          "kind": "official"
+        },
+        {
+          "url": "https://visitcanaldepanama.com/en/points-of-interest/interoceanic-canal-museum/",
+          "label": "Visit Canal de Panamá: Interoceanic Canal Museum",
+          "kind": "official"
+        },
+        {
+          "url": "https://sicultura.gob.pa/espacios-culturales/museos-otros-espacios-exhibicion-interpretacion-patrimonial/museo-del-canal-interoceanico-de-panama",
+          "label": "Sicultura (Ministerio de Cultura): Museo del Canal",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Panama_Canal_Museum",
+          "label": "Wikipedia: Panama Canal Museum",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed museum on a lit, policed central plaza; closes at 6pm."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, location on Paseo Esteban Huertas and library/gallery/cafe confirmed via search (ccecasadelsoldado.org, AC/E); exhibition hours Tue-Sat 10am-6pm found, library hours not specifically, so given as varies. No English Wikipedia article, so null. Coordinates from memory of the Plaza de Francia end of the paseo.",
+      "name": "Centro Cultural de España - Casa del Soldado",
+      "neighborhood": "Casco Viejo (San Felipe)",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "cozy",
+        "free",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "Spain's cultural centre occupies a restored building at the foot of Paseo Esteban Huertas by Plaza de Francia, with a free gallery, a small library and reading room, and a shaded courtyard cafe. It is one of the few places in Casco Viejo where you can sit indoors for an hour without buying anything, and the exhibitions change often enough that residents drop in regularly. The reading room is quiet even when the plaza outside is full.",
+      "tips": "Walk in past the front desk; the library and exhibition rooms are free and the courtyard has tables. Exhibition hours are Tue-Sat 10am-6pm but the library may keep shorter hours, so check the website. Combine with the sea wall walk right outside.",
+      "bestTimes": [
+        "afternoon",
+        "morning"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Tue-Sat 10am-6pm (library hours vary, check site)",
+      "lat": 8.9503,
+      "lng": -79.5323,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://ccecasadelsoldado.org/visitanos/",
+          "label": "CCE Casa del Soldado: Visítanos",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.accioncultural.es/en/centro-cultural-de-espana-en-panama--casa-del-soldado",
+          "label": "AC/E: Centro Cultural de España en Panamá",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed building in a lit, policed historic district; closes at 6pm."
+      },
+      "lowkeyScore": 4
+    }
+  ]
+}

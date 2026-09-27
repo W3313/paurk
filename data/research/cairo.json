@@ -1,0 +1,586 @@
+{
+  "city": "Cairo",
+  "country": "Egypt",
+  "slug": "cairo",
+  "region": "europe-africa",
+  "cityLat": 30.0444,
+  "cityLng": 31.2357,
+  "timezone": "Africa/Cairo",
+  "searchesRun": [
+    "Aquarium Grotto Garden Zamalek opening hours wikipedia",
+    "Greater Cairo Library Zamalek public reading opening hours",
+    "Mamsha Ahl Masr Nile walkway Cairo entry fee opening hours",
+    "Wadi Degla Protectorate Maadi entrance fee opening hours",
+    "Manasterly Palace Umm Kulthum Museum Roda Island opening hours ticket",
+    "Japanese Garden Helwan Cairo opening hours ticket",
+    "El Fishawi cafe Khan el-Khalili wikipedia open 24 hours",
+    "Orman Garden Giza botanical garden opening hours wikipedia",
+    "Orman Garden Giza reopened 2026 opening hours after renovation",
+    "Wadi Degla Protectorate main gate entrance Zahraa El Maadi wikipedia",
+    "Mamsha Ahl Masr first phase 15 May Bridge Imbaba Bridge Corniche length",
+    "Café Riche Cairo Talaat Harb wikipedia"
+  ],
+  "redditSourcedNotes": "Two stages. RESEARCH STAGE ran eight searches on the eight spots it was least sure about (Aquarium Grotto Garden, Greater Cairo Library, Mamsha Ahl Masr, Wadi Degla, Manasterly Palace / Umm Kulthum Museum, Japanese Garden Helwan, El-Fishawy, Orman Garden); the other six (Al-Azhar Park, Museum of Islamic Art, Gayer-Anderson Museum, Diwan, Café Riche, Baron Empain Palace) came from prior knowledge with empty sources. REVIEW STAGE ran four more searches and could not open any URL directly (the outbound proxy refused plain fetches), so source URLs were checked only against what appeared in search-result listings, not by loading them. Outcomes: (1) Orman Botanical Garden DROPPED. Cairo Scene, Egypt Today and Daily News Egypt results say the joint Giza Zoo / Orman redevelopment, once due September 2025, is now slated to open in the fourth quarter of 2026, so as of September 2026 the garden is still shut; 13 spots remain. (2) Mamsha Ahl Masr CORRECTED. SIS, Daily News Egypt and Ahram results state phase one runs 1.8 km from 15 May Bridge to Imbaba Bridge on the east bank; the draft had placed it south of 15 May Bridge near Maspero and the Ritz-Carlton, so blurb, tips, neighbourhood and coordinate were moved to the Bulaq / Rod el-Farag stretch. (3) Wadi Degla Wikipedia title set to null: the only en.wikipedia hit was the list article Egyptian Protectorates. Search confirmed the main gate is in Zahraa el-Maadi but gave no map position, so the gate point stays low confidence. A Cairo 360 URL from the result listing was added as a source. (4) Café Riche: en.wikipedia.org/wiki/Café_Riche confirmed in results, and Cairo 360 and Spotted by Locals URLs from the same listing were added. Confirmed by the research stage: Aquarium Grotto Garden (Gabalaya St, about 9am-5:30pm, small fee, no en.wikipedia article found); Greater Cairo Library (Mohamed Mazhar St, Zamalek, reading only, roughly 10am-3pm, closed Fridays, no en.wikipedia article found); Wadi Degla (about 7am-6pm, cash fee, amount varies by source); Umm Kulthum Museum (en.wikipedia.org/wiki/Umm_Kulthum_Museum, about 9am-4pm, closed Fridays); Japanese Garden Helwan (en.wikipedia.org/wiki/Japanese_Garden_(Helwan); hours conflict, 9am-10pm versus 6:30pm close, so listed as varies); El-Fishawy Café (en.wikipedia.org/wiki/El-Fishawy_Café, 24h). Still from knowledge only, not URL-confirmed: Wikipedia titles for Al-Azhar Park, Museum of Islamic Art, Cairo, Gayer-Anderson Museum and Baron Empain Palace; hours for those four plus Diwan; all coordinates (high for the mapped landmarks, medium for the Zamalek villa library, the Mamsha strip, the Japanese Garden and Diwan, low for the Wadi Degla gate). No reddit threads were read at either stage. Safety notes were re-read against the standard at review: all thirteen describe conditions (gates, staffing, lighting, closing times, terrain, traffic, water edges) and none characterise people or lean on neighbourhood reputation, so none needed rewriting; only Wadi Degla carries caution, for open desert with no shade, water or lighting and a gate that shuts at dusk.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known 30-hectare public park run by the Aga Khan Trust for Culture, researched from knowledge only (search budget spent elsewhere). Entry fee and closing time vary by season and were not URL-confirmed. Wikipedia title on high confidence from knowledge.",
+      "name": "Al-Azhar Park",
+      "neighborhood": "Darb al-Ahmar",
+      "category": "park",
+      "vibes": [
+        "green",
+        "view",
+        "sunset",
+        "skyline",
+        "walk",
+        "picnic",
+        "group",
+        "solo"
+      ],
+      "blurb": "A 30-hectare hillside park built on five centuries of rubbish dumps above the Ayyubid wall, with lawns, a long water channel and palm avenues that step down towards the old city. From the upper terraces you look straight across at the domes and minarets of Islamic Cairo and the Citadel, and at sunset half the neighbourhood comes up to sit on the grass with tea. It is one of very few big green spaces east of the Nile and locals use it far more than tourists do.",
+      "tips": "Enter from Salah Salem Road; the ticket is cheap for Egyptians and higher for foreigners. Head for the northern lawns or the benches along the restored wall for quiet, and the hilltop near the lookout for the sunset. Weekday mornings are near-empty; Friday afternoons are family-packed.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "roughly 9am-10pm (check site)",
+      "lat": 30.0406,
+      "lng": 31.2636,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Al-Azhar Park",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Gated, ticketed and staffed, with lit paths until closing; the slopes are steep in places, so wear proper shoes."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, Gabalaya Street address and hours (about 9am-5:30pm, small fee) confirmed by search results from Cairo 360 and Spotted by Locals. No English Wikipedia article appeared in results, so title set to null. Coordinates from knowledge of the Gabalaya Street garden.",
+      "name": "Aquarium Grotto Garden (Gabalaya Garden)",
+      "neighborhood": "Zamalek",
+      "category": "garden",
+      "vibes": [
+        "hidden",
+        "quiet",
+        "green",
+        "cozy",
+        "solo",
+        "walk",
+        "rain-ok"
+      ],
+      "blurb": "A small 19th-century garden built around artificial rock grottoes that once housed Khedive Ismail's aquarium; a few fish tanks are still set into the cave walls. Above ground it is a shaded, slightly overgrown pocket of paths and benches under old trees on Gabalaya Street. Zamalek residents come here to read or to escape the traffic noise for an hour, and it rarely has more than a handful of people in it.",
+      "tips": "Entrance on Gabalaya Street; a nominal ticket at the gate. The grotto tunnels are cool on a hot day and dry in rain. Mornings on weekdays are the emptiest; weekend afternoons draw couples and families.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "roughly 9am-5:30pm (check site)",
+      "lat": 30.0625,
+      "lng": 31.2163,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.cairo360.com/article/sights-travel/aquarium-grotto-garden-the-only-fish-garden-in-cairo/",
+          "label": "Cairo 360: Aquarium Grotto Garden",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.spottedbylocals.com/cairo/aquarium-grotto-garden/",
+          "label": "Spotted by Locals: Aquarium Grotto Garden",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated and staffed; closes in the late afternoon. Grotto floors are uneven and dim, so mind your footing inside."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Confirmed by search: housed in a former princess's palace at 17 Mohamed Mazhar Street, reading-only (no borrowing), roughly 10am-3pm and closed Fridays, with a Nile-facing garden terrace. No English Wikipedia article found. Coordinates are for the Mohamed Mazhar Street villa and are medium confidence.",
+      "name": "Greater Cairo Library",
+      "neighborhood": "Zamalek",
+      "category": "library",
+      "vibes": [
+        "quiet",
+        "study",
+        "rain-ok",
+        "water",
+        "cozy",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "A public reference library inside the neo-Gothic former palace of Princess Samiha Kamel on the Nile side of Zamalek. You cannot borrow, but anyone can sit in the high-ceilinged reading rooms or on the garden terrace above the river with a book or a laptop. It is one of the few genuinely quiet free indoor spaces in the city and most of its regulars are students and neighbourhood pensioners.",
+      "tips": "Bring ID; bags may be checked at the door. Hours are short, roughly 10am-3pm and closed Fridays, so go late morning. The garden terrace behind the building is the spot for the Nile view.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "roughly 10am-3pm, closed Fri (check site)",
+      "lat": 30.0663,
+      "lng": 31.22,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.cairo360.com/article/books/six-public-libraries-in-cairo-where-you-can-study-read-or-just-relax/",
+          "label": "Cairo 360: Six public libraries in Cairo",
+          "kind": "press"
+        },
+        {
+          "url": "https://egyptianstreets.com/2019/07/24/where-can-the-urban-bookworm-go-a-mini-guide-to-cairos-library-landscape/",
+          "label": "Egyptian Streets: Cairo library landscape",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.cuipcairo.org/en/directory/greater-cairo-library",
+          "label": "Cairo Urban Initiatives Platform: Greater Cairo Library",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building open daytime only; quiet residential street outside."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Confirmed by search (Ahram Online, Egyptian Streets, Daily News Egypt, SIS): the first phase opened March 2022, 20 EGP for the lower level, lower level about 9am-1am and upper walk 24h. Review-stage search corrected the extent: phase one runs 1.8 km along the east-bank Corniche from 15 May Bridge north to Imbaba Bridge (Bulaq / Rod el-Farag), not south towards Qasr el-Nil as first drafted. Point moved to the mid-point of that stretch; medium confidence because it is a strip, not a single site. No English Wikipedia article found.",
+      "name": "Mamsha Ahl Masr (Nile Walkway)",
+      "neighborhood": "Bulaq / Rod el-Farag (Corniche el-Nil)",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "night",
+        "sunset",
+        "people-watch",
+        "walk",
+        "skyline",
+        "group",
+        "solo"
+      ],
+      "blurb": "A two-level promenade built down at river level along the east-bank Corniche, running 1.8 km north from 15 May Bridge to Imbaba Bridge, so that for once you are beside the Nile rather than behind a wall of traffic. The lower deck has benches, steps to the water and a row of cafes; the upper walk is free and never closes. After 10pm on warm nights it fills with families and couples, and the view across to Zamalek and Imbaba lights is the reason to stay.",
+      "tips": "Enter from the Corniche el-Nil anywhere between 15 May Bridge and Imbaba Bridge; stairs lead down from the road. The lower level is ticketed (about 20 EGP) and the upper walk free. The northern half towards Imbaba Bridge is the quieter end. Bring a jacket in winter, the river wind is cold.",
+      "bestTimes": [
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "lower level roughly 9am-1am; upper walk 24h",
+      "lat": 30.066,
+      "lng": 31.2272,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://english.ahram.org.eg/NewsContent/7/47/463119/Life--Style/Style/Promenade-along-the-Nile-Cairo-celebrates-opening-.aspx",
+          "label": "Ahram Online: opening of Mamsha Ahl Masr",
+          "kind": "press"
+        },
+        {
+          "url": "https://egyptianstreets.com/2022/03/16/mamsha-ahl-misr-egypts-first-modern-walkway-overlooking-the-nile/",
+          "label": "Egyptian Streets: Mamsha Ahl Misr",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Well lit, staffed and busy until well past midnight; the lower steps are unfenced at the water's edge, so keep back from the edge at night."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence and status as a ticketed nature protectorate confirmed by search (Bayut, Spotted by Locals, Cairo 360); hours reported as roughly 7am-6pm or sunrise to sunset, and the cash entry fee varies between sources. Review-stage search found no English Wikipedia article for the protectorate (only the list article Egyptian Protectorates), so the title was set to null. Results confirm the main gate is in Zahraa el-Maadi and that a second, southern gate exists, but gave no map position; the point is placed at the main gate from knowledge and remains the least certain coordinate in this file.",
+      "name": "Wadi Degla Protectorate",
+      "neighborhood": "Maadi / Zahraa el-Maadi",
+      "category": "trail",
+      "vibes": [
+        "quiet",
+        "walk",
+        "sunrise",
+        "solo",
+        "group",
+        "hidden",
+        "view"
+      ],
+      "blurb": "A dry limestone canyon on the eastern edge of Maadi, protected since 1999, where a gravel track runs for kilometres between pale cliffs and complete silence replaces the city within ten minutes of the gate. Maadi residents cycle, run and picnic here on Friday mornings; on a weekday you can walk half an hour and sit on a rock ledge with nobody in sight. Fossils in the cliff face and the odd fox or lizard are the entertainment.",
+      "tips": "Enter through the main gate at the end of the Zahraa el-Maadi road and pay cash; a car or taxi is the practical way in. Bring at least two litres of water, a hat and sun protection, since there is no shade or shop inside. Go early or in the last two hours before the 6pm closing.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "roughly 7am-6pm (check site)",
+      "lat": 29.9565,
+      "lng": 31.34,
+      "coordConfidence": "low",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.bayut.eg/mybayut/en/how-to-spend-the-day-at-mahmeyet-wadi-degla/",
+          "label": "Bayut: a day at Wadi Degla",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.spottedbylocals.com/cairo/wadi-degla-protectorate/",
+          "label": "Spotted by Locals: Wadi Degla Protectorate",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.cairo360.com/article/sights-travel/wadi-degla-natural-protectorate-just-minutes-away/",
+          "label": "Cairo 360: Wadi Degla natural protectorate",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Open desert with no shade, water or lighting and patchy phone signal; the gate closes at dusk. Go in daylight, carry water, tell someone your plan and stay on the main track."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "en.wikipedia.org/wiki/Umm_Kulthum_Museum appeared in search results; hours reported as about 9am-4pm, closed Fridays, small ticket. The palace garden and Nilometer share the same ticketed compound at the southern tip of Roda Island. Coordinates from knowledge, high confidence for the island tip.",
+      "name": "Manasterly Palace and Umm Kulthum Museum gardens",
+      "neighborhood": "Roda Island (Manial)",
+      "category": "garden",
+      "vibes": [
+        "water",
+        "quiet",
+        "hidden",
+        "view",
+        "solo",
+        "sunset",
+        "rain-ok"
+      ],
+      "blurb": "The southern tip of Roda Island holds a small 1851 Ottoman-style palace, the medieval Nilometer and a shaded riverside garden, now run as a museum compound with a modest museum to the singer Umm Kulthum. The garden terrace sits right where the Nile splits around the island, with water on three sides and boats passing close by. Almost nobody comes, and the palace's painted salons and the museum give you somewhere to go when it rains.",
+      "tips": "Take the metro to Mar Girgis or a taxi to the end of Roda Island; the compound is ticketed and closes mid-afternoon, so go before 3pm. Sit on the riverside terrace behind the palace for the best water view. Closed Fridays.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "roughly 9am-4pm, closed Fri (check site)",
+      "lat": 30.0065,
+      "lng": 31.2255,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Umm Kulthum Museum",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Umm_Kulthum_Museum",
+          "label": "Wikipedia: Umm Kulthum Museum",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g294201-d3846996-Reviews-Umm_Kolthoum_Museum-Cairo_Cairo_Governorate.html",
+          "label": "TripAdvisor: Umm Kolthoum Museum",
+          "kind": "forum"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated, staffed and ticketed; the terrace has a low parapet above the river, so keep children back from the edge."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "en.wikipedia.org/wiki/Japanese_Garden_(Helwan) appeared in results, and the government SIS page confirms it is a working public garden. Hours conflict between sources (9am-10pm versus closing 6:30pm), so set to varies. Coordinates placed just east of Helwan metro station, medium confidence.",
+      "name": "Japanese Garden, Helwan",
+      "neighborhood": "Helwan",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "solo",
+        "group",
+        "picnic",
+        "hidden"
+      ],
+      "blurb": "A 1917 garden of pagodas, pink stone Buddhas, ponds and shaded paths laid out when Helwan was a spa resort at the end of the tram line, and still the main green space for the southern suburb. It is about as far from the tourist circuit as Cairo gets: on a weekday the only company is students from the nearby university and older residents on the benches. The metro drops you almost at the gate, so it is an easy hour of quiet at the end of the line.",
+      "tips": "Take Metro Line 1 to the terminus, Helwan, and walk one block east to the gate on Mohamed Mostafa el-Maraghy Street; the ticket is a few pounds. Weekday mornings are near-empty; avoid public holidays when it fills up with families.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "varies (sources give 9am-10pm or to 6:30pm; check site)",
+      "lat": 29.85,
+      "lng": 31.3352,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Japanese Garden (Helwan)",
+      "sources": [
+        {
+          "url": "https://sis.gov.eg/en/egypt/tourism/recreational-tourism/helwan-s-japanese-garden/",
+          "label": "Egypt State Information Service: Helwan's Japanese Garden",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Japanese_Garden_(Helwan)",
+          "label": "Wikipedia: Japanese Garden (Helwan)",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.cairo360.com/article/city-life/gorgeous-gardens-to-check-out-in-cairo/",
+          "label": "Cairo 360: gorgeous gardens in Cairo",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated and ticketed with a metro station beside it; pond edges are unfenced, and if you stay after dark note the paths are only partly lit."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "en.wikipedia.org/wiki/El-Fishawy_Café appeared in results; 24h opening and 1797 founding confirmed by search. It is famous and busy in the evenings, so lowkeyScore is honest at 2; the low-key hours are dawn and late night.",
+      "name": "El-Fishawy Café",
+      "neighborhood": "Khan el-Khalili (al-Hussein)",
+      "category": "cafe",
+      "vibes": [
+        "night",
+        "people-watch",
+        "cozy",
+        "rain-ok",
+        "solo",
+        "group"
+      ],
+      "blurb": "A 200-year-old cafe in an alley of Khan el-Khalili, all tarnished mirrors, brass trays and mint tea, that has never closed since 1797. In the evening it is loud and full of visitors, but come at dawn or after 1am and it reverts to what it has always been: a place where neighbourhood men read the paper and old friends argue over a shisha while the bazaar is shuttered. Its 24-hour opening makes it the city's most reliable indoor sit at any hour.",
+      "tips": "Walk in from al-Hussein Square and take the alley to the right of the mosque; order tea or hibiscus, ignore the vendors, and choose the inner room away from the passage for calm. Prices are higher than a normal ahwa but still cheap. Early morning is the quietest time of day.",
+      "bestTimes": [
+        "morning",
+        "night"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "24h",
+      "lat": 30.0475,
+      "lng": 31.2622,
+      "coordConfidence": "high",
+      "wikipediaTitle": "El-Fishawy Café",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/El-Fishawy_Caf%C3%A9",
+          "label": "Wikipedia: El-Fishawy Café",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.middleeasteye.net/discover/egypt-el-fishawy-cafe-cairo",
+          "label": "Middle East Eye: El Fishawy cafe",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, lit and open around the clock, in a pedestrian bazaar alley; late at night the surrounding lanes are empty and mostly unlit, so leave by the main al-Hussein Square side."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Major state museum at Bab al-Khalq, researched from knowledge only (search budget spent elsewhere); hours approximate and the ticket price changes often. Wikipedia title on high confidence from knowledge, not URL-confirmed.",
+      "name": "Museum of Islamic Art",
+      "neighborhood": "Bab al-Khalq",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "cozy",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "One of the world's great collections of Islamic art, in a 1903 building on Port Said Street, and yet on most days you will share its cool, dim galleries of carved wood, glass lamps and Quran pages with only a few other people. Benches in the central halls and the slow air-conditioning make it a genuine place to sit and think rather than a museum you rush through. It reopened in 2017 after a long restoration and the lighting is now excellent.",
+      "tips": "Enter from Port Said Street; the ticket is cheap for Egyptians and higher for foreigners, and bags are scanned. Go mid-morning on a weekday for near-empty galleries. Pair it with a walk down to Bab Zuweila and the Tentmakers' street nearby.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly 9am-5pm (check site)",
+      "lat": 30.0448,
+      "lng": 31.254,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Museum of Islamic Art, Cairo",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed and guarded public museum with security screening at the door; busy main road outside, so use the crossings."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known house museum beside Ibn Tulun Mosque, researched from knowledge only (search budget spent elsewhere); hours approximate. Wikipedia title on high confidence from knowledge, not URL-confirmed.",
+      "name": "Gayer-Anderson Museum (Bayt al-Kritliya)",
+      "neighborhood": "Sayyida Zeinab",
+      "category": "museum",
+      "vibes": [
+        "hidden",
+        "quiet",
+        "rain-ok",
+        "view",
+        "cozy",
+        "solo"
+      ],
+      "blurb": "Two joined 16th- and 17th-century houses next to the Ibn Tulun Mosque, filled with the eclectic collection of a British officer who lived here in the 1930s. The draw for a quiet hour is the mashrabiya-screened reception hall with cushioned benches and the roof terrace, where you can sit among the wooden screens and look across at the mosque's spiral minaret. It is small, rarely busy and a completely different pace from the streets outside.",
+      "tips": "Entrance is beside the Ibn Tulun Mosque gate on Sheikhoun Street; buy a ticket at the door. Climb straight to the roof terrace and the mashrabiya salon for the best sitting spots. Mornings are quietest; it closes mid-afternoon.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly 9am-4pm (check site)",
+      "lat": 30.0287,
+      "lng": 31.2497,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Gayer-Anderson Museum",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed museum, daytime only; stairs are steep and the roof terrace has low parapets."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Long-running independent bookshop chain whose flagship at 159 26th of July Street, Zamalek, opened in 2002, researched from knowledge only; hours approximate and the in-store cafe area has changed over the years. Coordinates medium confidence (the block near the Hassan Sabry junction). No confident English Wikipedia title, so null.",
+      "name": "Diwan Bookstore (Zamalek)",
+      "neighborhood": "Zamalek",
+      "category": "bookstore",
+      "vibes": [
+        "rain-ok",
+        "cozy",
+        "quiet",
+        "solo",
+        "night",
+        "study"
+      ],
+      "blurb": "Cairo's best-known independent bookshop, opened in 2002 on 26th of July Street by three women who wanted somewhere to browse Arabic and English books in peace. The Zamalek flagship has a small cafe corner and staff who let you read for an hour without buying, and it stays open late, which makes it a standard evening refuge for the neighbourhood. Its later chapters and the founder's memoir made it a small piece of Cairo cultural history.",
+      "tips": "On the north side of 26th of July Street near the Hassan Sabry junction; open late most nights. The English section and cafe corner are at the back. Browse first, then take a coffee to a window seat.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly 9am-11pm daily (check site)",
+      "lat": 30.061,
+      "lng": 31.22,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed shop on a busy, well-lit main street with late opening."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Historic cafe-restaurant at 17 Talaat Harb Street (opened 1908, named 1914). Review-stage search returned en.wikipedia.org/wiki/Café_Riche plus Cairo 360 and Spotted by Locals pages confirming the address and history; hours remain approximate from knowledge. It serves alcohol but is a full cafe-restaurant, not a bar-only venue.",
+      "name": "Café Riche",
+      "neighborhood": "Downtown (Talaat Harb)",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "people-watch",
+        "solo",
+        "night",
+        "quiet"
+      ],
+      "blurb": "A 1908 downtown cafe on Talaat Harb Street lined with portraits of the writers and politicians who argued here for a century, Naguib Mahfouz among them. It is dim, wood-panelled and unhurried; you can sit for two hours over a Turkish coffee and a plate of something simple and nobody will move you along. On a rainy or hot afternoon it is the most civilised indoor pause in the downtown grid.",
+      "tips": "A few doors up from Tahrir Square on Talaat Harb; the small front tables watch the street, the back tables are quieter. Prices are moderate by downtown standards. Note it sometimes closes early on quiet nights and occasionally for private events.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly 10am-midnight (check site)",
+      "lat": 30.0466,
+      "lng": 31.24,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Café Riche",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Caf%C3%A9_Riche",
+          "label": "Wikipedia: Café Riche",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.cairo360.com/article/restaurants/cafe-riche-historically-rich-real-cappuccino/",
+          "label": "Cairo 360: Café Riche",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.spottedbylocals.com/cairo/cafe-riche/",
+          "label": "Spotted by Locals: Café Riche",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed and lit on one of downtown's busiest streets; heavy traffic on Talaat Harb, so cross at the junctions."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Restored 1911 palace museum in Heliopolis, reopened to the public in 2020, researched from knowledge only (search budget spent elsewhere); hours approximate. Wikipedia title on high confidence from knowledge, not URL-confirmed. Coordinates high confidence for the palace on El-Orouba Street.",
+      "name": "Baron Empain Palace gardens",
+      "neighborhood": "Heliopolis",
+      "category": "museum",
+      "vibes": [
+        "green",
+        "quiet",
+        "view",
+        "rain-ok",
+        "walk",
+        "solo",
+        "sunset"
+      ],
+      "blurb": "The Hindu-temple-style palace that the Belgian founder of Heliopolis built for himself in 1911, restored and opened as a museum of the suburb's history in 2020 after decades locked up. The lawns and terraces around it are a rare open green space in eastern Cairo, and from the upper terrace you look over Heliopolis and the airport road as the light goes. Heliopolis residents treat the garden as a park with a ticket.",
+      "tips": "Entrance from El-Orouba Street (the airport road); ticket at the gate, cheaper for Egyptians. Late afternoon is the time for the terraces. The palace interior is small, so give most of your hour to the garden benches.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "roughly 9am-5pm (check site)",
+      "lat": 30.0868,
+      "lng": 31.3303,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Baron Empain Palace",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Gated, staffed and ticketed, closing before dark; the entrance is on a very fast multi-lane road, so use the pedestrian crossings or a taxi to the gate."
+      },
+      "lowkeyScore": 3
+    }
+  ]
+}

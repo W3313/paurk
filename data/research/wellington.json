@@ -1,0 +1,658 @@
+{
+  "city": "Wellington",
+  "country": "New Zealand",
+  "slug": "wellington",
+  "region": "asia-pacific",
+  "cityLat": -41.2865,
+  "cityLng": 174.7762,
+  "timezone": "Pacific/Auckland",
+  "searchesRun": [
+    "Te Matapihi Wellington Central Library reopening 2026",
+    "Midnight Espresso Cuba Street Wellington opening hours",
+    "Maranui Cafe Lyall Bay Wellington opening hours",
+    "Te Ahumairangi Hill Wellington lookout wikipedia",
+    "Bolton Street Cemetery Wellington wikipedia",
+    "Otari-Wilton's Bush opening hours wikipedia",
+    "National Library of New Zealand Wellington reading room opening hours public",
+    "Unity Books Wellington Willis Street wikipedia",
+    "Midnight Espresso Cuba Street Wellington closing 2026",
+    "Ōtari-Wilton's Bush Wellington coordinates 160 Wilton Road latitude longitude",
+    "Mount Kaukau summit coordinates wikipedia Khandallah",
+    "en.wikipedia.org Bolton Street Cemetery Wellington article"
+  ],
+  "redditSourcedNotes": "Two stages. Researcher stage ran 8 searches and confirmed: Te Matapihi ki te Ao Nui (Wellington Central Library) reopened 14 March 2026 (WCC news, Spinoff, NZ Herald) and en.wikipedia has \"Wellington Central Library\"; Maranui Cafe is open with hours roughly 7am-4pm weekdays and 8am-5pm weekends (its own site, directory listings); Ōtari-Wilton's Bush is open dawn to dusk with a visitor centre 7.30am-4pm (owbt.nz, wellingtongardens.nz); the National Library building is open Mon-Fri 9am-5pm and Sat 9am-1pm with shorter reading-room hours (natlib.govt.nz); en.wikipedia articles exist for Te Ahumairangi Hill, Ōtari-Wilton's Bush and Unity Books. Skeptic stage had 4 searches and spent them on the items most likely to be wrong. Outcomes: (1) Midnight Espresso, flagged as possibly closing, shows no closure report anywhere in results; Oct 2025 listings describe it as active and Yelp is updated June 2026, so it is kept with hours marked varies. (2) Ōtari-Wilton's Bush coordinates were about 500 m off and were replaced with the Wikipedia coordinates for the Wilton Road entrance. (3) Mount Kaukau summit coordinates were about 600 m off and were replaced with the Wikipedia summit coordinates; WCC and WellingtonNZ loop-walk pages appeared and are attached. (4) en.wikipedia.org/wiki/Bolton_Street_Cemetery is the live article and \"Bolton Street Memorial Park\" is its former name, so the title stands. Six Wikipedia titles remain from knowledge only and are not URL-confirmed: Wellington Botanic Garden, Oriental Bay, Pukeahu National War Memorial Park, National Library of New Zealand, Wellington Museum, Days Bay; each is a well-known article and none was nulled. Coordinates for the other twelve spots are from knowledge and were checked against the reviewer's own recall of the streets, not against a map result; Te Ahumairangi lookout, Maranui Cafe and Midnight Espresso stay at medium. No reddit or \"locals say\" content was read for this city in either stage. Source URLs are attached only where they appeared in a search result; the arrays for Botanic Garden, Oriental Bay, Pukeahu, Wellington Museum and Days Bay are empty rather than invented. Hours for those five and for Unity Books are approximate from knowledge. Content fixes: removed a stale Pukeahu tip about a cafe in the Great War Exhibition (closed 2018), corrected Midnight Espresso's opening year to 1988, softened the Wellington Museum floor count, and flagged the Central Library interior layout as inferred. Safety screen: all 14 spots are legitimate public places; none involve trespass, derelict, industrial or rail land. All 14 safety notes were read against the standard and rest on physical conditions (lighting, closing times, steep or wet paths, unfenced wharf edges, wind exposure, transport home); none characterise people or lean on a neighbourhood's reputation, so none needed rewriting. Caution is set only for the two hill lookouts (Te Ahumairangi, Mount Kaukau) because their tracks are unlit, steep and exposed.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, public access and history confirmed via search (WCC heritage page, Friends of Bolton Street Cemetery, wellingtongardens.nz). Skeptic pass: a second search returned en.wikipedia.org/wiki/Bolton_Street_Cemetery as the live article (it describes the site as \"formerly known as Bolton Street Memorial Park\"), so the title is kept. Hours from knowledge (open, ungated park).",
+      "name": "Bolton Street Cemetery",
+      "neighborhood": "Thorndon",
+      "category": "park",
+      "vibes": [
+        "quiet",
+        "green",
+        "hidden",
+        "solo",
+        "walk",
+        "free",
+        "view",
+        "study"
+      ],
+      "blurb": "Wellington's oldest cemetery, a steep hillside of Victorian headstones and heritage roses wedged between the Botanic Garden and the parliamentary end of town, sliced in two by the motorway in the 1960s. Office workers from Bowen Street eat lunch on the benches and hardly anyone else comes in, so it is a genuinely quiet place five minutes from The Terrace. The upper paths look out over the city and harbour between the trees.",
+      "tips": "Enter from Bolton Street by the old chapel or from the Botanic Garden's Founders' Entrance on Glenmore Street; a footbridge crosses the motorway to link the two halves. The benches on the upper eastern slope get the afternoon sun and the view. Paths are steep and can be slick after rain.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (open park, no gates)",
+      "lat": -41.2795,
+      "lng": 174.7738,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Bolton Street Cemetery",
+      "sources": [
+        {
+          "url": "https://wellingtoncityheritage.org.nz/areas/2-bolton-street-cemetery",
+          "label": "Wellington City Heritage: Bolton Street Cemetery",
+          "kind": "official"
+        },
+        {
+          "url": "https://wellingtongardens.nz/our-gardens/bolton-street-cemetery",
+          "label": "Wellington Gardens: Bolton Street Cemetery",
+          "kind": "official"
+        },
+        {
+          "url": "https://boltoncemetery.org.nz/",
+          "label": "Friends of Bolton Street Cemetery",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Unlit and steep; the paths are fine in daylight but go before dusk, since there is no lighting and the motorway footbridge is the only link between the halves."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known public garden; reviewed from knowledge only (no search budget left). Wikipedia title kept on high confidence from knowledge, not URL-confirmed. Hours approximate.",
+      "name": "Wellington Botanic Garden",
+      "neighborhood": "Kelburn",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "picnic",
+        "solo",
+        "group",
+        "free",
+        "sunset"
+      ],
+      "blurb": "Twenty-five hectares of hillside above the city, half native bush, half Victorian plantings, with a duck pond, the Lady Norwood Rose Garden and the glasshouse at the bottom. Tourists ride the cable car up to the top lookout and leave; residents come in from the Glenmore Street gates with a thermos and disappear into the bush walks or the lawns above the rose garden. The sound of the city drops away almost as soon as you are under the trees.",
+      "tips": "Skip the cable car and walk in from Glenmore Street or the Founders' Entrance for the quiet lower gardens; the benches above the rose garden and the duck pond are the usual reading spots. The Begonia House has a cafe for wet days. The main paths are lit at night for the walk between Kelburn and Thorndon.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (glasshouse and cafe roughly 9am-4pm)",
+      "lat": -41.2822,
+      "lng": 174.7677,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Wellington Botanic Garden",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Main through-paths are lit and used by commuters after dark; the side tracks in the bush are unlit and steep, so keep to the lit route at night."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, free access and hours (dawn to dusk; visitor centre 7.30am-4pm) confirmed via search (owbt.nz, wellingtongardens.nz, WellingtonNZ); en.wikipedia article Ōtari-Wilton's Bush appeared in results. Skeptic pass: the draft coordinates were about 500 m west of the entrance; replaced with the Wikipedia coordinates (41.26733°S 174.75863°E), which sit at the 160 Wilton Road entrance.",
+      "name": "Ōtari-Wilton's Bush",
+      "neighborhood": "Wilton",
+      "category": "trail",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "solo",
+        "free",
+        "hidden",
+        "picnic",
+        "rain-ok"
+      ],
+      "blurb": "New Zealand's only botanic garden devoted entirely to native plants, wrapped around a hundred hectares of regenerating forest with an 800-year-old rimu in it. A canopy walkway leads from the visitor centre across the gully into the bush, where the tracks are quiet on weekdays and the tui and kereru are loud. It is fifteen minutes from the city by bus and feels like a different island.",
+      "tips": "Take the number 14 bus to Wilton Road; the picnic lawn by the visitor centre is the easy sit, the Blue Trail down to the stream is the quiet one. Under the canopy it stays dry in light rain and cool in summer. Tracks are muddy after rain, so wear proper shoes.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "dawn-dusk (visitor centre 7.30am-4pm)",
+      "lat": -41.2673,
+      "lng": 174.7586,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Ōtari-Wilton's Bush",
+      "sources": [
+        {
+          "url": "https://www.owbt.nz/visiting/",
+          "label": "Ōtari-Wilton's Bush Trust: Visiting",
+          "kind": "other"
+        },
+        {
+          "url": "https://wellingtongardens.nz/our-gardens/otari-wiltons-bush",
+          "label": "Wellington Gardens: Ōtari-Wilton's Bush",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.wellingtonnz.com/visit/trails/otari-wiltons-bush",
+          "label": "WellingtonNZ: Ōtari-Wilton's Bush",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Unlit forest tracks that close at dusk; the gully paths are steep and slippery when wet, so go in daylight and stick to the marked trails."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Lookout off Orangi Kaupapa Road confirmed via search (AllTrails, Tripadvisor, Explore Wellington); en.wikipedia.org/wiki/Te_Ahumairangi_Hill appeared in results. Lookout coordinates from knowledge, marked medium: confident of the road end, not to the metre.",
+      "name": "Te Ahumairangi Hill Lookout",
+      "neighborhood": "Northland / Wadestown (Town Belt)",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "skyline",
+        "sunrise",
+        "quiet",
+        "solo",
+        "free",
+        "walk",
+        "hidden"
+      ],
+      "blurb": "The lookout on the hill formerly called Tinakori Hill, redeveloped by the council in 2010 with a picnic area at the end of Orangi Kaupapa Road so you can drive or walk almost to the bench. It faces east over the whole harbour, from the city to the Hutt and the Orongorongo Range, which makes it a sunrise spot rather than a sunset one. Mount Victoria gets the tour buses; this one gets dog walkers and people on their lunch break.",
+      "tips": "Drive or bus to Northland and follow Orangi Kaupapa Road to the end; the Ridgeline Track runs on from here to Weld Street in Wadestown if you want a longer walk. Bring a windbreaker whatever the forecast says. Nothing to buy up here, so carry your coffee in.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -41.2712,
+      "lng": 174.7622,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Te Ahumairangi Hill",
+      "sources": [
+        {
+          "url": "https://www.alltrails.com/trail/new-zealand/wellington/te-ahumairangi-hill-lookout",
+          "label": "AllTrails: Te Ahumairangi Hill Lookout",
+          "kind": "other"
+        },
+        {
+          "url": "https://explorewellington.nz/te-ahumairangi-hill-tinakori-hill/",
+          "label": "Explore Wellington: Te Ahumairangi Hill",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g255115-d8039933-Reviews-Te_Ahumairangi_Hill_Lookout-Wellington_Greater_Wellington_North_Island.html",
+          "label": "Tripadvisor: Te Ahumairangi Hill Lookout",
+          "kind": "forum"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Unlit bush tracks with steep drop-offs and very exposed to wind; the lookout itself is by the road, but go in daylight and stay off the tracks after dark."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known public beach and promenade; reviewed from knowledge only (no search budget left). Wikipedia title kept on high confidence from knowledge, not URL-confirmed.",
+      "name": "Oriental Bay & Freyberg Beach",
+      "neighborhood": "Oriental Bay",
+      "category": "beach",
+      "vibes": [
+        "water",
+        "sunset",
+        "walk",
+        "people-watch",
+        "night",
+        "free",
+        "group",
+        "solo"
+      ],
+      "blurb": "The city's own beach, a curve of imported golden sand and a long promenade ten minutes' walk from Courtenay Place, with the Carter Fountain out in the water and the whole harbour in front of you. Wellingtonians swim here before work in summer, walk it every evening in every season, and sit on the sea wall with fish and chips watching the light go off the hills across the water. It is busy but never hurried, and the promenade runs on round the bays for as long as you want to keep walking.",
+      "tips": "Freyberg Beach at the eastern end has the calmest water and the steps to sit on; the grass at the western end by the band rotunda is the picnic spot. Wind funnels along here, so pick the sheltered side of the sea wall. Buses along Oriental Parade run late.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -41.2905,
+      "lng": 174.7925,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Oriental Bay",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit promenade with steady foot traffic well into the evening; the beach itself is unlit and the water is cold and unpatrolled outside summer."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known public memorial park opened 2015; reviewed from knowledge only (no search spent on it). Skeptic pass: removed a stale tip that said the Great War Exhibition building next door has a cafe, since that exhibition closed in 2018. Wikipedia title kept on high confidence from knowledge, not URL-confirmed.",
+      "name": "Pukeahu National War Memorial Park",
+      "neighborhood": "Mount Cook",
+      "category": "plaza",
+      "vibes": [
+        "quiet",
+        "free",
+        "solo",
+        "study",
+        "walk",
+        "night",
+        "green",
+        "people-watch"
+      ],
+      "blurb": "A broad, level park laid over the top of the Buckle Street tunnel in front of the National War Memorial carillon, with lawns, a long paved terrace and a small memorial garden for each nation that fought alongside New Zealand. It is at the top of the Massey University campus and the bottom of Tasman Street, so it fills with students and Te Aro workers at lunch and empties again by mid-afternoon. On a still day it is one of the calmest open spaces in the inner city.",
+      "tips": "Sit on the grass steps below the carillon for the view down Tory Street, or among the Australian memorial's red sandstone columns for shelter from the wind. There is nothing to buy in the park itself; the cafes on Tory and Taranaki Streets are a few minutes downhill. Watch for cyclists on the through-path.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -41.2987,
+      "lng": 174.7775,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Pukeahu National War Memorial Park",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Well lit, open sightlines on all sides and a busy road along the northern edge; fine solo in the evening."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Reopening on 14 March 2026 after the 2019 seismic closure confirmed via search (WCC news, Spinoff, NZ Herald, Positively Poneke); en.wikipedia.org/wiki/Wellington_Central_Library appeared in results. Daily hours not in results, so left as varies. The description of which floors are quietest and where the cafe and children's area sit is inferred from the redevelopment plans, not from a visit or a result, so treat it as a guess. Coordinates for 65 Victoria Street / Civic Square from knowledge.",
+      "name": "Te Matapihi ki te Ao Nui (Wellington Central Library)",
+      "neighborhood": "Te Aro (Civic Square)",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "study",
+        "quiet",
+        "cozy",
+        "free",
+        "solo",
+        "people-watch"
+      ],
+      "blurb": "The city's main public library, closed for seven years for earthquake strengthening and reopened in March 2026 as a much bigger building with reading floors, a maker space, gallery spaces and the city archives under one roof. Anyone can walk in and sit for as long as they like without a card, which makes it the default rainy-day room for the whole inner city. The upper floors looking out over Civic Square are the quietest.",
+      "tips": "Enter from Victoria Street or from Civic Square; head upstairs and away from the ground-floor cafe and children's area for silence. It is busy after school and on wet weekends, and quietest on weekday mornings. Hours are still settling after the reopening, so check the council site.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "varies (check site)",
+      "lat": -41.2886,
+      "lng": 174.7768,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Wellington Central Library",
+      "sources": [
+        {
+          "url": "https://wellington.govt.nz/news-and-events/news-and-information/our-wellington/2026/03/te-matapihi-ki-te-ao-nui-opening-weekend",
+          "label": "Wellington City Council: Te Matapihi reopening",
+          "kind": "official"
+        },
+        {
+          "url": "https://thespinoff.co.nz/books/13-03-2026/the-re-opening-of-wellington-library-te-matapihi-ki-te-ao-nui-is-a-game-changer-for-the-capital",
+          "label": "The Spinoff: Te Matapihi reopening",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.positivelyponeke.govt.nz/projects/te-matapihi-ki-te-ao-nui-central-library",
+          "label": "Positively Poneke: Te Matapihi project page",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building on a central square; lit and busy until closing."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Public building hours (Mon-Fri 9am-5pm, Sat 9am-1pm) and free reading-room access confirmed via search (natlib.govt.nz); results disagreed on reading-room closing time (2pm vs 5pm), so building hours are given. Wikipedia title kept on high confidence from knowledge, not URL-confirmed.",
+      "name": "National Library of New Zealand",
+      "neighborhood": "Thorndon",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "free",
+        "solo",
+        "cozy",
+        "hidden"
+      ],
+      "blurb": "The national research library on the corner of Molesworth and Aitken Streets, a heavy 1980s concrete block that is far calmer inside than out. The ground floor has free exhibitions, including He Tohu with the Treaty of Waitangi and the suffrage petition, a cafe and open tables where anyone can sit and work; the Alexander Turnbull reading rooms upstairs are free too once you register. Because it is a research library rather than a lending one, it stays quiet even on a wet Saturday.",
+      "tips": "Use the ground-floor tables and the cafe if you just want to sit; the reading rooms need a free reader's card and keep shorter hours than the building. Closed Sundays and public holidays. The Parliament grounds two minutes away are the outdoor option.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Fri 9am-5pm, Sat 9am-1pm, closed Sun (reading rooms shorter, check site)",
+      "lat": -41.2756,
+      "lng": 174.7778,
+      "coordConfidence": "high",
+      "wikipediaTitle": "National Library of New Zealand",
+      "sources": [
+        {
+          "url": "https://natlib.govt.nz/visiting/wellington/opening-hours",
+          "label": "National Library: Opening hours",
+          "kind": "official"
+        },
+        {
+          "url": "https://natlib.govt.nz/visiting/wellington/the-reading-rooms",
+          "label": "National Library: The reading rooms",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed government building with security at the door; closes at 5pm, and the surrounding streets are lit and busy with commuters."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence at 57 Willis Street since 1998 confirmed via search (unitybooks.co.nz, WellingtonNZ, Yelp Aug 2026); en.wikipedia.org/wiki/Unity_Books appeared in results. Hours from knowledge, approximate.",
+      "name": "Unity Books",
+      "neighborhood": "Wellington Central (Willis Street)",
+      "category": "bookstore",
+      "vibes": [
+        "rain-ok",
+        "cozy",
+        "solo",
+        "quiet",
+        "people-watch"
+      ],
+      "blurb": "Wellington's independent bookshop since 1967, now in Findex House at 57 Willis Street, with the strongest New Zealand literature and poetry shelves in the city and staff who read everything. It is a browsing shop rather than a sitting shop, but nobody minds if you take twenty minutes with a book by the poetry wall, and there are a couple of stools tucked in the back. On a rainy lunchtime it is where half of the surrounding offices go to think.",
+      "tips": "Go in at the Willis Street door; the New Zealand section and poetry are at the back, away from the till. Weekday mornings are quietest. Launches and readings happen in the evenings, listed on the shop's site.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "roughly Mon-Fri 9am-6pm, Sat-Sun 10am-5pm (check site)",
+      "lat": -41.2863,
+      "lng": 174.7748,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Unity Books",
+      "sources": [
+        {
+          "url": "https://www.unitybooks.co.nz/stores/wellington",
+          "label": "Unity Books: Wellington store",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.wellingtonnz.com/visit/shopping/unity-books",
+          "label": "WellingtonNZ: Unity Books",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Unity_Books",
+          "label": "Wikipedia: Unity Books",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed shop on a busy, lit central street."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Free council museum in the 1892 Bond Store on Queens Wharf; reviewed from knowledge only (no search budget left). Wikipedia title kept on high confidence from knowledge, not URL-confirmed. Hours approximate.",
+      "name": "Wellington Museum",
+      "neighborhood": "Queens Wharf (Waterfront)",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "cozy",
+        "free",
+        "solo",
+        "hidden",
+        "water"
+      ],
+      "blurb": "The city's social-history museum in the old Bond Store on Queens Wharf, free to enter and a fraction of the size and noise of Te Papa two blocks down the waterfront. Several floors of creaking timber, harbour stories and the Wahine disaster room, with window seats on the upper levels looking out over the wharf. On a wet afternoon you can have a whole floor to yourself.",
+      "tips": "Enter from the Jervois Quay side of Queens Wharf; the top floor has the quietest corners and the best harbour windows. Free, but a donation box by the door. Pair it with a walk out along the wharf when the rain stops.",
+      "bestTimes": [
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "10am-5pm daily (check site)",
+      "lat": -41.2846,
+      "lng": 174.7781,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Wellington Museum",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed building on the lit waterfront promenade; the wharf edges outside are unfenced."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Cafe on the top floor of the Maranui Surf Life Saving Club at 7 Lyall Parade; open and hours (Mon-Thu 7am-4pm, Fri-Sun 8am-5pm) confirmed via search (maranuicafe.co.nz, Dinefind, Yelp Sep 2026). Coordinates from knowledge of the club building, marked medium.",
+      "name": "Maranui Cafe",
+      "neighborhood": "Lyall Bay",
+      "category": "cafe",
+      "vibes": [
+        "water",
+        "cozy",
+        "rain-ok",
+        "view",
+        "people-watch",
+        "solo",
+        "group",
+        "sunrise"
+      ],
+      "blurb": "A cafe upstairs in the 1930s Maranui Surf Life Saving Club on Lyall Bay, with big windows straight onto the surf and the planes coming in to land at the airport next door. It is a south-coast institution: surfers in wetsuits, families, people alone with the paper. Get a window seat on a stormy morning and the southerly does the entertaining.",
+      "tips": "Bus 3 to Lyall Parade or walk from the airport; the queue for a table peaks at weekend brunch, so go on a weekday or after 2pm. Order at the counter. The beach and the dune boardwalk outside are the free follow-on if the weather allows.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Mon-Thu 7am-4pm, Fri-Sun 8am-5pm (check site)",
+      "lat": -41.3273,
+      "lng": 174.7936,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "http://www.maranuicafe.co.nz/home.html",
+          "label": "Maranui Cafe: official site",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.dinefind.co.nz/listing/maranui-cafe",
+          "label": "Dinefind: Maranui Cafe",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed cafe that closes mid-afternoon; the beach outside is unlit and the surf is strong, so stay on the promenade after dark."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Still trading as far as the web shows. Researcher stage flagged a \"Closing Soon\" label on the Facebook result; the skeptic search for closure news in 2026 found nothing: Dinefind (updated Oct 2025) and a Sojourn Hotels piece (Oct 2025) describe it as active, Yelp is updated June 2026, and no press report of a closure appeared. Treated as open but with hours set to varies because late-night closing is inconsistent. Opened 1988 per the results. Coordinates from knowledge of the street number, marked medium.",
+      "name": "Midnight Espresso",
+      "neighborhood": "Te Aro (Cuba Street)",
+      "category": "cafe",
+      "vibes": [
+        "night",
+        "cozy",
+        "rain-ok",
+        "people-watch",
+        "solo",
+        "study"
+      ],
+      "blurb": "The late-night cafe at the top of Cuba Street, open since 1988 with the same mismatched tables, pinball machine and cabinet food, and a closing time that stretches into the small hours. It is where Wellington goes to sit with a coffee at 1am without having to be in a bar, and where students do their reading at odd hours. Nothing fancy and nobody rushes you.",
+      "tips": "Order at the counter and take the window seats to watch upper Cuba Street; the back tables are quieter for reading. Cash and card. Hours vary with the night, so check before a late trip.",
+      "bestTimes": [
+        "night",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "varies (listed 7.30am-3am, check before going)",
+      "lat": -41.2951,
+      "lng": 174.7742,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.dinefind.co.nz/listing/midnight-espresso",
+          "label": "Dinefind: Midnight Espresso",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.yelp.com/biz/midnight-espresso-wellington",
+          "label": "Yelp: Midnight Espresso",
+          "kind": "forum"
+        },
+        {
+          "url": "https://sojournhotels.co.nz/experience/midnight-espresso/",
+          "label": "Sojourn: Midnight Espresso, Cuba Street's last great late-night cafe",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed and lit until late on a busy pedestrian street; plan the ride home if you stay past the last bus."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Summit lookout in the northern Town Belt. Skeptic pass: en.wikipedia.org/wiki/Mount_Kaukau appeared in a search result and gives the summit as 41.23147°S 174.77799°E; the draft coordinates were about 600 m south of the summit and have been replaced. WCC and WellingtonNZ pages for the Khandallah Park loop also appeared, so the route from Woodmancote Road is confirmed. Hours and track times from knowledge.",
+      "name": "Mount Kaukau",
+      "neighborhood": "Khandallah",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "skyline",
+        "sunset",
+        "sunrise",
+        "walk",
+        "quiet",
+        "free",
+        "solo"
+      ],
+      "blurb": "The highest point on the Wellington skyline, the hill with the TV mast above Khandallah, reached by a steep 45-minute climb through Khandallah Park from the suburb's swimming pool. The platform at the top looks over the whole harbour, the city, the Hutt Valley and on a clear day the Kaikoura ranges in the South Island. It is a local fitness route, so you share the top with runners and dog walkers rather than tour groups.",
+      "tips": "Take the train to Khandallah or Box Hill and start from Woodmancote Road by the pool; the Northern Walkway signs lead to the summit. Wind at the top can be fierce, so bring a layer even in summer. There are no facilities up there and the track is unlit, so time it to be back down before dark.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -41.2315,
+      "lng": 174.778,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Mount Kaukau",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mount_Kaukau",
+          "label": "Wikipedia: Mount Kaukau",
+          "kind": "other"
+        },
+        {
+          "url": "https://wellington.govt.nz/recreation/outdoors/walks-and-walkways/beyond-the-city/khandallah-park-loop",
+          "label": "Wellington City Council: Mount Kaukau summit / Khandallah Park loop",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.wellingtonnz.com/visit/trails/mount-kaukau-summit-khandallah-park-loop",
+          "label": "WellingtonNZ: Mount Kaukau Summit / Khandallah Park Loop",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Steep, unlit bush track with a 45-minute climb and a very exposed summit; go in daylight, carry a light for the descent at golden hour, and turn back in strong wind."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Public beach and park in Eastbourne reached by the East by West ferry; reviewed from knowledge only (no search budget left). Wikipedia title kept on high confidence from knowledge, not URL-confirmed. Ferry timetable not verified.",
+      "name": "Days Bay & Williams Park",
+      "neighborhood": "Eastbourne (Lower Hutt)",
+      "category": "beach",
+      "vibes": [
+        "water",
+        "quiet",
+        "picnic",
+        "walk",
+        "green",
+        "sunset",
+        "free",
+        "group"
+      ],
+      "blurb": "A sheltered beach on the eastern side of the harbour, twenty minutes from Queens Wharf on the East by West ferry, with Williams Park's lawns and old trees behind the sand. It is where Katherine Mansfield's family summered, and it still has the same slow, out-of-town feel: a wharf to sit on, a pavilion cafe, and the city small and far away across the water. The afternoon sun lands here after it has left the western bays.",
+      "tips": "Take the ferry from Queens Wharf and check the return times before you get on, they thin out after the commuter run; bus 81 along Marine Drive is the fallback. Sit on the wharf for the harbour or in the park under the trees for shade. The rocky shore towards Eastbourne village is quieter than the beach.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (ferry runs daytime, check timetable)",
+      "lat": -41.2813,
+      "lng": 174.9063,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Days Bay",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Village beach with a lit road behind it; the wharf is unfenced and the last ferry leaves early, so plan the trip home."
+      },
+      "lowkeyScore": 3
+    }
+  ]
+}

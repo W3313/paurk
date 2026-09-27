@@ -1,0 +1,682 @@
+{
+  "city": "Marrakech",
+  "country": "Morocco",
+  "slug": "marrakech",
+  "region": "europe-africa",
+  "cityLat": 31.6295,
+  "cityLng": -7.9811,
+  "timezone": "Africa/Casablanca",
+  "searchesRun": [
+    "Cyber Park Marrakech Arsat Moulay Abdeslam opening hours",
+    "Dar Bellarj foundation Marrakech opening hours free entry",
+    "Institut français Marrakech médiathèque horaires Route de Targa",
+    "MACAAL Museum of African Contemporary Art Al Maaden Marrakech opening hours wikipedia",
+    "Le Jardin Secret Marrakech opening hours wikipedia",
+    "Jardin El Harti Gueliz Marrakech public garden",
+    "Maison de la Photographie Marrakech rooftop terrace cafe opening hours",
+    "Lalla Takerkoust lake Marrakech wikipedia",
+    "Institut français Marrakech Route de Targa Jbel Guéliz adresse",
+    "Dar Cherifa Marrakech café littéraire Derb Chorfa Lakbir open",
+    "Café Clock Marrakech Derb Chtouka Kasbah opening hours",
+    "Dar Si Said museum Marrakech opening hours closed day"
+  ],
+  "redditSourcedNotes": "Two stages, twelve searches in total, no reddit content in any result despite the field name. RESEARCH STAGE (8 searches) confirmed by search result: Cyber Park (free, roughly 7am-7pm), Dar Bellarj (free, Tue-Sat, short hours), Institut français médiathèque (Route de Targa, Tue-Sat with a late Thursday), MACAAL (Wed-Sun 10am-6pm, 120 MAD, en.wikipedia URL seen), Le Jardin Secret (daily, seasonal hours from the official site; no Wikipedia URL seen so null), Jardin El Harti (free, about 8am-6pm winter / 8pm summer), Maison de la Photographie (daily 9:30am-7pm, about 50 MAD, rooftop café) and Lalla Takerkoust (en.wikipedia URL seen, but for the town and dam). REVIEW STAGE (4 searches) confirmed: Dar Cherifa is still trading (operator hours daily 10am-midnight, Wednesday to 7pm; an en.wikipedia.org/wiki/Dar_Cherifa URL appeared so its title was set), Café Clock is trading (9am-11pm daily, 224 Derb Chtouka), Dar Si Said is closed Tuesdays with hours that differ by source, and the Institut français address is Route de Targa, Jbel Guéliz. Still knowledge-only with empty sources: Menara Gardens, Agdal Gardens (Fri and Sun opening and royal-residence closures unverified) and Koutoubia gardens. WIKIPEDIA: Museum of African Contemporary Art Al Maaden and Dar Cherifa are URL-confirmed; Menara gardens, Agdal Gardens and Dar Si Said Museum are kept on knowledge only, because en.wikipedia.org was blocked by the network proxy at review and could not be fetched; Lalla Takerkoust was nulled at review because the article is about the town and dam rather than the lake. SOURCES: every URL was copied from a search result at one of the two stages; none could be opened to check it still resolves, because all direct fetches were blocked by the proxy, so a reader may find some pages moved. COORDINATES: nothing was geocoded at either stage. All 14 points were re-checked against the reviewer's own map knowledge and none was moved; all are within 34 km of the centre. Medina and Gueliz points should be within a couple of hundred metres and are marked medium; Menara pavilion is high; the Institut français was downgraded to low because no result gave a location for the Route de Targa address. SAFETY: all 14 notes were read against the standard and none needed rewriting; they describe closing times, lighting, shade, unfenced water, stairs, parapets, traffic and distance from transit only, and the single caution (the lake) rests on unfenced, unlit, remote shoreline with no evening transport. QUALITY: Menara and the Koutoubia gardens are landmarks but are genuinely where locals sit, so they stay with low lowkeyScores; Le Jardin Secret (about 100 MAD) and MACAAL (120 MAD) are ticketed but not expensive by museum standards and were kept.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, free entry and hours (7am to roughly 7pm, sources disagree by half an hour) confirmed by search. Coordinates from memory of the park between Bab Nkob and the Koutoubia; not geocoded. No English Wikipedia URL appeared, title left null.",
+      "name": "Cyber Park (Arsat Moulay Abdeslam)",
+      "neighborhood": "Bab Nkob / edge of the medina",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "solo",
+        "walk",
+        "free",
+        "people-watch"
+      ],
+      "blurb": "An 18th-century royal orchard turned public park on the walk between the Koutoubia and Gueliz, planted with olive, orange and palm and threaded with straight gravel paths and low fountains. Locals cut through on the way to work or sit on the benches under the olives with a phone or a book, and the traffic of Avenue Mohammed V drops to a hum behind the walls. It is the easiest green quiet within five minutes of Jemaa el-Fna.",
+      "tips": "Enter from Avenue Mohammed V opposite the Ensemble Artisanal or from the Bab Nkob side; the benches deepest in the olive rows are the shadiest at midday. The small internet kiosks that gave the park its name are beside the point; bring your own water, there is little for sale inside.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 7am-7pm daily",
+      "lat": 31.627,
+      "lng": -7.9968,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://visitmarrakech.com/en/listing/cyber-parc-arsat-moulay-abdeslam/",
+          "label": "Visit Marrakech: Cyber Parc Arsat Moulay Abdeslam",
+          "kind": "official"
+        },
+        {
+          "url": "https://marrakechtricks.com/blog/marrakech-cyber-park",
+          "label": "Marrakech Tricks: The Cyber Park",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Walled park with guards at the gates, closed after about 7pm; paths are shaded rather than lit, so treat it as a daytime place."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, free entry and hours (about 8am-6pm winter, to 8pm summer) confirmed by search including the city's own blog. Coordinates from memory of the block south of Place du 16 Novembre; not geocoded.",
+      "name": "Jardin El Harti (Jnane El Harti)",
+      "neighborhood": "Gueliz",
+      "category": "park",
+      "vibes": [
+        "green",
+        "people-watch",
+        "group",
+        "solo",
+        "free",
+        "walk",
+        "quiet"
+      ],
+      "blurb": "A six-hectare 1930s neighbourhood garden on the Gueliz-Hivernage boundary with lawns, roses, a cactus collection, a small amphitheatre and a pair of concrete dinosaurs that generations of Marrakchi children have climbed. It is where the new town actually goes to sit: families in the evening, students on the grass in the afternoon, older men on the benches under the ficus all day. Almost no tourists find it, though it is two streets from Avenue Mohammed V.",
+      "tips": "Come in from Rue Oued El Makhazine or the Avenue Mohammed VI side; the rose beds and the old music kiosk are the calmest corner, the playground end is the loudest. In summer it stays open until about 8pm and the hour before closing is the best light and the coolest air.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "8am-6pm winter, 8am-8pm summer (check locally)",
+      "lat": 31.631,
+      "lng": -8.0115,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.ville-marrakech.ma/blog/jardin-el-harti-un-bol-d-rsquo-air-a-gueliz/1820/",
+          "label": "Ville de Marrakech: Jardin El Harti",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.lonelyplanet.com/points-of-interest/jardin-harti/1471099",
+          "label": "Lonely Planet: Jardin Harti",
+          "kind": "press"
+        },
+        {
+          "url": "https://mylittlekech.com/parc-el-harti-marrakech/",
+          "label": "My Little Kech: Parc El Harti",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced garden with gate attendants, busy with families until closing; lit along the main paths in the evening."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched at either stage; written from knowledge. Well-known public garden. Coordinates are for the pavilion basin and are placed with confidence. Wikipedia title Menara gardens is kept on high confidence from knowledge; Wikipedia could not be fetched from this environment so it is not URL-confirmed. Hours approximate.",
+      "name": "Menara Gardens",
+      "neighborhood": "Menara / west of Hivernage",
+      "category": "garden",
+      "vibes": [
+        "view",
+        "water",
+        "green",
+        "sunset",
+        "picnic",
+        "walk",
+        "free",
+        "group"
+      ],
+      "blurb": "A 12th-century olive grove of some hundred hectares around a great stone basin, with a green-tiled Saadian pavilion at one end and, on a clear day, the snow line of the High Atlas behind it. Tour groups photograph the pavilion and leave; the olive rows behind it are where Marrakech families picnic on Sundays and where you can sit under a tree with nobody in sight. The light on the water in the last hour before sunset is the reason locals come.",
+      "tips": "Walk or take a taxi down Avenue de la Menara from Hivernage, then head away from the pavilion into the grove for quiet. The basin edge has no rail, so keep children back. Bring food; the kiosks are unreliable. Gates close around dusk.",
+      "bestTimes": [
+        "golden-hour",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 8am-dusk (around 6-7pm)",
+      "lat": 31.6127,
+      "lng": -8.0222,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Menara gardens",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Large, open and unlit; the basin has no railing. Leave by dusk when the gates close, and carry water in summer since there is little shade near the pavilion."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched; written from knowledge. Royal orchard open to the public traditionally only Friday and Sunday and closed when the King is in residence, so hours are marked as varying. Coordinates for the Dar El Hana basin from memory. Wikipedia title 'Agdal Gardens' kept on high confidence from knowledge, not URL-confirmed.",
+      "name": "Agdal Gardens",
+      "neighborhood": "South of the Kasbah",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "green",
+        "water",
+        "walk",
+        "solo",
+        "free",
+        "hidden",
+        "view"
+      ],
+      "blurb": "Four hundred hectares of walled olive, orange and pomegranate orchards laid out by the Almohads in the 12th century and still irrigated by the old khettara channels. The centrepiece is the Dar El Hana basin, a vast still pool with a pavilion where you can sit on the wall and see the Atlas reflected in the water. It is only open two days a week, which keeps the numbers tiny; you may share several kilometres of orchard with a handful of walkers.",
+      "tips": "Open only Friday and Sunday in daylight, and closed altogether when the royal family is in Marrakech, so ask locally first. Enter from the Mechouar south of Bab Ahmar and walk the long central avenue to the basin. There is no shade on the paths and nothing to buy inside; bring water and a hat.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (Fri & Sun daytime only; closed during royal residence)",
+      "lat": 31.5975,
+      "lng": -7.98,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Agdal Gardens",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Very large, sparsely visited and without shade or lighting; the basin edge is unfenced. Go in daylight, carry water and keep to the main avenue so you can find the gate before it closes."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched; written from knowledge. Free public gardens on the south and west sides of the Koutoubia (also called Parc Lalla Hasna). Coordinates from memory and should be close. No confident English Wikipedia article for the gardens themselves (only the mosque), so null.",
+      "name": "Koutoubia Gardens (Parc Lalla Hasna)",
+      "neighborhood": "Medina / Koutoubia",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "view",
+        "sunset",
+        "night",
+        "people-watch",
+        "walk",
+        "free",
+        "solo"
+      ],
+      "blurb": "Formal rose gardens and orange-tree walks wrapped around the base of the Koutoubia minaret, a few hundred metres from Jemaa el-Fna and yet mostly used by locals: couples on the benches, men reading newspapers, kids running the gravel. The minaret is lit after dark and the paths stay busy and open, so it is one of the few places in the medina to sit outside at night without buying anything. Come at the evening call to prayer when the swifts wheel round the tower.",
+      "tips": "Enter from Avenue Mohammed V or the Place de Foucauld side; the western section beyond the mosque, towards Bab Jdid, is quieter than the lawns facing the square. Do not walk on the flower beds or sit on the mosque steps during prayer times.",
+      "bestTimes": [
+        "golden-hour",
+        "night",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "open to late evening (roughly 24h, paths lit)",
+      "lat": 31.623,
+      "lng": -7.994,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit, open and busy into the night with a police post at the square; the horse-carriage rank and Avenue Mohammed V traffic are the main hazards when crossing."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence and hours confirmed by search from the official site (9:30am-6:30pm Feb & Oct, to 7:30pm Mar-Sep; winter hours not in results). Paid entry. Coordinates for 121 Rue Mouassine from memory. No en.wikipedia URL appeared in results, so title left null rather than guessed.",
+      "name": "Le Jardin Secret",
+      "neighborhood": "Mouassine (medina)",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "green",
+        "water",
+        "view",
+        "solo",
+        "cozy",
+        "hidden"
+      ],
+      "blurb": "A restored Saadian-era riad complex in the middle of the Mouassine souks with two walled gardens: an exotic one and a formal Islamic garden of four beds around a khettara-fed rill. Once you are through the door the souk noise stops; there are benches along the walls, a small café and a tower you can pay extra to climb for a rooftop view of the medina. It is one of the few places in the old town where you can sit for an hour with nobody selling you anything.",
+      "tips": "The entrance is on Rue Mouassine, a short walk north of the Mouassine fountain. Go at opening or in the last hour when the tour groups have gone; the benches in the Islamic garden are the calmest. Tickets are around 100 MAD, the tower is extra.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "9:30am-6:30pm (Feb, Oct), 9:30am-7:30pm (Mar-Sep); check site for winter",
+      "lat": 31.6314,
+      "lng": -7.99,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.lejardinsecretmarrakech.com/en/essential-information/",
+          "label": "Le Jardin Secret: visitor information",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.lejardinsecretmarrakech.com/en/faqs/",
+          "label": "Le Jardin Secret: FAQ",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, ticketed and enclosed; the approach lanes through the souk are narrow and shared with mopeds and handcarts, so walk on the side."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, free entry and Tue-Sat opening confirmed by search; one result gives 9:30am-3:30pm, which is shorter than I remembered, so hours are marked to check. Coordinates for the lane beside the Ben Youssef Madrasa from memory; medium confidence.",
+      "name": "Dar Bellarj",
+      "neighborhood": "Ben Youssef (medina)",
+      "category": "museum",
+      "vibes": [
+        "quiet",
+        "cozy",
+        "rain-ok",
+        "hidden",
+        "solo",
+        "free"
+      ],
+      "blurb": "A former stork hospital ('bellarj' is stork) beside the Ben Youssef Madrasa, now a cultural foundation with a calm white courtyard, a shallow pool and rotating exhibitions of Moroccan crafts, calligraphy and archaeology. Entry is free most of the time, and the courtyard benches are a genuine refuge from the lanes outside. It is the kind of place you wander into for five minutes and stay for an hour.",
+      "tips": "Look for the door on Toualat Zaouiat Lahdar, the lane on the north side of the madrasa; hours are short and it is closed Sunday and Monday, so go late morning. Some concerts and workshops are ticketed; the courtyard itself is not.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Tue-Sat roughly 9:30am-3:30pm (check site)",
+      "lat": 31.6322,
+      "lng": -7.986,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.lonelyplanet.com/morocco/marrakesh/kaat-ben-nahid-and-bab-debbagh/attractions/dar-bellarj/a/poi-sig/1144248/1342928",
+          "label": "Lonely Planet: Dar Bellarj",
+          "kind": "press"
+        },
+        {
+          "url": "https://visitmarrakech.com/en/listing/musee-dar-bellarj/",
+          "label": "Visit Marrakech: Dar Bellarj",
+          "kind": "official"
+        },
+        {
+          "url": "https://linktr.ee/darbellarj",
+          "label": "Dar Bellarj Foundation links",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed building on a busy lane; the surrounding alleys are narrow and shared with mopeds, and the foundation closes mid-afternoon."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review-stage search confirmed it is still trading: address 8 Derb Chorfa Lakbir, Mouassine, hours given by the operator as daily 10am-midnight (Wednesday to 7pm), and it now bills itself as restaurant as much as literary café, with exhibitions and concerts continuing. An en.wikipedia.org/wiki/Dar_Cherifa URL appeared in the results, so the title is set. Coordinates from memory of the derb west of the Mouassine mosque; medium.",
+      "name": "Dar Cherifa",
+      "neighborhood": "Mouassine (medina)",
+      "category": "cafe",
+      "vibes": [
+        "quiet",
+        "cozy",
+        "rain-ok",
+        "study",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "A café and small gallery in one of the oldest riads in the medina, all carved cedar, stucco and a two-storey courtyard with cushions on the floor and a couple of low tables. Coffee and mint tea come slowly, nobody minds a laptop or a two-hour book, and exhibitions and readings happen upstairs. It is down a dead-end derb, so almost nobody stumbles in by accident.",
+      "tips": "From the Mouassine fountain follow Derb Chorfa Lakbir west; the door is unmarked apart from a small plaque. Sit in the courtyard for light or upstairs for quiet. In the evening it runs as a restaurant, so daytime is the café-and-book time. Prices are higher than a street café but you are paying for the room.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "10am-midnight daily, Wednesday to 7pm (check locally)",
+      "lat": 31.6303,
+      "lng": -7.99,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Dar Cherifa",
+      "sources": [
+        {
+          "url": "https://marrakech-riads.com/en/restaurant-dar-cherifa/",
+          "label": "Marrakech Riads (operator): Dar Cherifa",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Dar_Cherifa",
+          "label": "Wikipedia: Dar Cherifa",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g293734-d1478351-Reviews-Restaurant_Dar_Cherifa-Marrakech_Marrakech_Safi.html",
+          "label": "Tripadvisor: Restaurant Dar Cherifa",
+          "kind": "forum"
+        },
+        {
+          "url": "https://babel-voyages.com/fr/bouquiner-en-toute-quietude-au-dar-cherifa",
+          "label": "Babel Voyages: reading in peace at Dar Cherifa",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed café in a dead-end lane; the derbs around it are unlit and easy to lose your way in after dark, so leave before nightfall or use a map."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review-stage search confirmed it is trading at 224 Derb Chtouka, Kasbah, open 9am-11pm daily per its own site. Storytelling and music programme not re-checked, so treat event nights as needing a look at the board. Coordinates from memory of Derb Chtouka south of the Saadian Tombs; medium.",
+      "name": "Café Clock Marrakech",
+      "neighborhood": "Kasbah (medina)",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "night",
+        "view",
+        "group",
+        "solo",
+        "study"
+      ],
+      "blurb": "A three-storey café in the Kasbah with a rooftop terrace facing the Saadian Tombs and the Atlas, sofas indoors for rainy days and a programme of storytelling nights, oud lessons and film screenings. It is run as a cultural space as much as a café, so sitting for hours with a notebook is normal. Evenings on the roof, when the Kasbah mosque is lit and the swifts come out, are the quiet version of Marrakech nightlife.",
+      "tips": "Walk south from Bab Agnaou past the Saadian Tombs into Derb Chtouka; the roof is best an hour before sunset. Check the events board for storytelling evenings (usually one weeknight) if you want company, and avoid them if you want silence.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "9am-11pm daily",
+      "lat": 31.617,
+      "lng": -7.988,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.cafeclock.com/contact-us",
+          "label": "Cafe Clock: contact and hours",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g293734-d6276330-Reviews-Cafe_Clock-Marrakech_Marrakech_Safi.html",
+          "label": "Tripadvisor: Cafe Clock Marrakech",
+          "kind": "forum"
+        },
+        {
+          "url": "https://travelguide-marrakech.com/cafe-clock/",
+          "label": "Travelguide Marrakech: Café Clock",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed café open into the evening; the Kasbah lanes back to Bab Agnaou are lit and short, so the walk out after dark is straightforward."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, daily hours (9:30am-7pm), rooftop café and admission (about 50 MAD) confirmed by search. Coordinates for 46 Rue Ahl Fes from memory; medium. No English Wikipedia URL appeared, title null.",
+      "name": "Maison de la Photographie",
+      "neighborhood": "North medina (Rue Ahl Fes)",
+      "category": "museum",
+      "vibes": [
+        "view",
+        "rain-ok",
+        "quiet",
+        "cozy",
+        "skyline",
+        "solo",
+        "sunset"
+      ],
+      "blurb": "A small private museum of early Moroccan photography in a restored riad north of the Ben Youssef Madrasa, three floors of vintage prints and glass plates around a courtyard, with a rooftop café on top. The roof is the point for sitting: one of the highest terraces in this part of the medina, with the whole rooftop-scape and the Atlas behind, and a ticket lets you come and go the same day. Late afternoon it is often just you and a pot of tea.",
+      "tips": "Follow Rue Ahl Fes north from the madrasa and look for the sign; the stairs are steep. Buy the ticket, see the prints, then take the roof for the last hour before closing at 7pm. Food is simple (a tagine or the dish of the day) and stops before the museum does.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "9:30am-7pm daily",
+      "lat": 31.633,
+      "lng": -7.9847,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.slowmorocco.com/places/maison-photographie",
+          "label": "Slow Morocco: Maison de la Photographie visitor guide",
+          "kind": "blog"
+        },
+        {
+          "url": "https://marrakechtricks.com/blog/maison-photographie",
+          "label": "Marrakech Tricks: Maison de la Photographie",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g293734-d1675171-Reviews-Maison_de_la_Photographie-Marrakech_Marrakech_Safi.html",
+          "label": "Tripadvisor: Maison de la Photographie",
+          "kind": "forum"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed museum; the roof has low parapets and steep stairs, and the lanes back to the madrasa are poorly lit after closing, so leave with daylight or a map."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Address (Route de Targa, Jbel Guéliz, BP 566) and general hours (Mon 9am-5:30pm, Tue-Sat 9am-7pm) re-confirmed by a review-stage search of the official if-maroc.org contact page; the médiathèque timetable is from the earlier search and was not re-checked. No result gave coordinates, so the point is a best guess for that address west of the Gueliz hill and is marked LOW: expect to ask a taxi driver rather than navigate to the pin. Sitting and reading in the médiathèque is free; borrowing needs a membership.",
+      "name": "Institut français de Marrakech (médiathèque and garden)",
+      "neighborhood": "Jbel Gueliz / Route de Targa",
+      "category": "library",
+      "vibes": [
+        "study",
+        "rain-ok",
+        "quiet",
+        "green",
+        "cozy",
+        "solo"
+      ],
+      "blurb": "The French cultural institute's campus on the Targa road has a shaded garden with a café, an open-air theatre and a médiathèque with newspapers, novels in French and Arabic and a young people's section. Students from the nearby university come to work in the reading rooms and the garden terrace is one of the few places in the new town to sit under trees with a coffee and a book without being moved on. Evening screenings and concerts run most weeks.",
+      "tips": "Adult library hours are Tue and Fri from noon, Wed and Sat from 10am, Thu until 9pm, closed Sun-Mon; the garden and café keep their own hours around events. Bring ID if you want to borrow; sitting and reading in the médiathèque is free. Taxi to 'Institut français, Route de Targa'.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Médiathèque Tue & Fri 12-7pm, Wed & Sat 10am-7pm, Thu 12-9pm; closed Sun-Mon",
+      "lat": 31.6385,
+      "lng": -8.0195,
+      "coordConfidence": "low",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://if-maroc.org/marrakech/mediatheques/",
+          "label": "Institut français de Marrakech: médiathèque",
+          "kind": "official"
+        },
+        {
+          "url": "https://if-maroc.org/marrakech/contact-acces/",
+          "label": "Institut français de Marrakech: contact and access",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated, staffed campus with security at the entrance; it sits on a fast road with sparse pavement, so take a taxi to the gate rather than walking from Gueliz at night."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, hours (Wed-Sun 10am-6pm, closed Mon-Tue, shorter in Ramadan), admission (120 MAD, 60 MAD for African residents) and English Wikipedia URL all confirmed by search. Coordinates for the Al Maaden site off the Ouarzazate road are from memory and medium confidence; the museum is inside a large golf-resort development.",
+      "name": "MACAAL (Museum of African Contemporary Art Al Maaden)",
+      "neighborhood": "Al Maaden / Sidi Youssef Ben Ali",
+      "category": "museum",
+      "vibes": [
+        "quiet",
+        "rain-ok",
+        "green",
+        "view",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "An independent, non-profit museum of contemporary African art on the south-eastern edge of the city, with cool white galleries, a sculpture garden and a café terrace looking towards the Atlas. It is far enough from the medina that it is rarely more than a handful of people, and the recently refurbished building is built for slow looking. A good half-day when the old town has worn you out.",
+      "tips": "Take a taxi to Al Maaden (about 20 minutes from Gueliz, ask for 'le musée MACAAL'); there is no useful public transport and you will need to arrange the ride back. Wed-Sun only. The sculpture garden and café are the place to sit after the galleries.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Wed-Sun 10am-6pm, closed Mon-Tue (10am-3:30pm during Ramadan)",
+      "lat": 31.5806,
+      "lng": -7.9635,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Museum of African Contemporary Art Al Maaden",
+      "sources": [
+        {
+          "url": "https://macaal.org/en/informations-pratiques",
+          "label": "MACAAL: practical information",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Museum_of_African_Contemporary_Art_Al_Maaden",
+          "label": "Wikipedia: Museum of African Contemporary Art Al Maaden",
+          "kind": "other"
+        },
+        {
+          "url": "https://africanstays.com/attraction/macaal-museum-marrakech/",
+          "label": "African Stays: visiting the refurbished MACAAL",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, gated museum inside a resort development; the surrounding roads have no pavements or transit, so book a taxi back rather than trying to walk out."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence and about 40 km south-west confirmed by search; en.wikipedia.org/wiki/Lalla_Takerkoust appeared but is the article for the town and dam, not the lake itself, so the title was nulled at review to avoid a mismatched photograph. Coordinates are for the northern shore near the dam from memory; medium. Open shoreline, no gates.",
+      "name": "Lac Lalla Takerkoust",
+      "neighborhood": "Al Haouz (about 35 km south-west of the city)",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "view",
+        "sunset",
+        "stargaze",
+        "picnic",
+        "quiet",
+        "free",
+        "group"
+      ],
+      "blurb": "A seven-kilometre reservoir behind a 1930s dam at the foot of the High Atlas, deep blue against red hills, with the snow peaks straight ahead in winter. Marrakech families come out on Sundays to picnic on the stony shore and eat tagine at the lakeside cafés; on a weekday you can have a whole bay to yourself. It is the closest open water to the city and the darkest sky within an easy drive.",
+      "tips": "Grand taxis run from the Bab Rob rank, or drive 45 minutes via the Amizmiz road; the west and south shores away from the dam and the jet-ski rental are the quietest. Bring everything you need and plan the ride back before dark, as taxis thin out in the evening. Water levels vary a lot with the drought years.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (open shoreline; cafés daytime only)",
+      "lat": 31.36,
+      "lng": -8.133,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Lalla_Takerkoust",
+          "label": "Wikipedia: Lalla Takerkoust",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.journeybeyondtravel.com/blog/lalla-takerkoust-lake-morocco.html",
+          "label": "Journey Beyond Travel: Lalla Takerkoust Lake",
+          "kind": "blog"
+        },
+        {
+          "url": "https://bewilderedinmorocco.com/lac-lalla-takerkoust-marrakech-day-trip/",
+          "label": "Bewildered in Morocco: Lac Lalla Takerkoust day trip",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Remote, unfenced and unlit shoreline with no lifeguards, steep loose banks in places and no public transport after dark; swim only where others are, keep off the dam structure, and arrange your return before sunset."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review-stage search confirmed the museum is open and closed on Tuesdays; hours vary by source (10am-6pm most often, 9am opening and 4:45pm closing also reported), so kept approximate. Coordinates from memory of the lane off Riad Zitoun el Jdid; medium. Wikipedia title Dar Si Said Museum is kept on knowledge and was NOT URL-confirmed (Wikipedia was unreachable from this environment); null it if a check finds a different title.",
+      "name": "Dar Si Said Museum",
+      "neighborhood": "Riad Zitoun el Jdid (medina)",
+      "category": "museum",
+      "vibes": [
+        "quiet",
+        "rain-ok",
+        "green",
+        "cozy",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "A 19th-century vizier's palace a lane away from the Bahia Palace crowds, with a central garden courtyard of orange trees, a tiled fountain and a painted-cedar reception hall upstairs. The collection is Moroccan carpets and weaving, but most people come for the courtyard, where the benches under the trees are cool at midday and the sound is water and birds rather than souk. It gets a fraction of the Bahia's visitors.",
+      "tips": "From Riad Zitoun el Jdid turn onto Derb El Bahia and follow the signs; entry is around 30-70 MAD. Sit in the garden court first, then the upstairs salon for the ceiling. Closed Tuesday, and sources disagree on the exact hours, so check before you cross the medina for it.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly 10am-6pm (some sources say 9am and earlier closing), closed Tuesday",
+      "lat": 31.6228,
+      "lng": -7.9838,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Dar Si Said Museum",
+      "sources": [
+        {
+          "url": "https://visitmarrakech.com/en/listing/musee-dar-si-said/",
+          "label": "Visit Marrakech: Dar Si Said Museum",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.introducingmarrakech.com/dar-si-said",
+          "label": "Introducing Marrakech: Dar Si Said hours and price",
+          "kind": "blog"
+        },
+        {
+          "url": "https://travelguide-marrakech.com/museum-dar-si-said/",
+          "label": "Travelguide Marrakech: Museum Dar Si Said",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, ticketed museum on a lit lane close to Jemaa el-Fna; closes late afternoon."
+      },
+      "lowkeyScore": 4
+    }
+  ]
+}

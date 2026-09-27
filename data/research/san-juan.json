@@ -1,0 +1,636 @@
+{
+  "city": "San Juan",
+  "country": "Puerto Rico",
+  "slug": "san-juan",
+  "region": "americas",
+  "cityLat": 18.4655,
+  "cityLng": -66.1057,
+  "timezone": "America/Puerto_Rico",
+  "searchesRun": [
+    "Biblioteca Carnegie San Juan Puerto Rico horario abierta 2025",
+    "Parque Luis Muñoz Marín Hato Rey reapertura horario",
+    "Librería Laberinto Viejo San Juan Calle de la Cruz horario",
+    "Hacienda San Pedro café Santurce Avenida De Diego horario",
+    "Paseo del Morro San Juan National Historic Site hours trail",
+    "Jardín Botánico de Río Piedras UPR horario entrada gratis",
+    "Paseo Lineal Enrique Martí Coll Hato Rey Parque Central San Juan",
+    "Museo de Arte de Puerto Rico jardín de esculturas horario entrada",
+    "Carnegie Library San Juan Puerto Rico Avenida Ponce de León wikipedia coordinates",
+    "Parque Nacional Laguna del Condado Jaime Benítez ubicación entrada kayak",
+    "Paseo de la Princesa Old San Juan wikipedia",
+    "Paseo Tablado Piñones estado boardwalk abierto 2026"
+  ],
+  "redditSourcedNotes": "Two stages. Research stage ran eight web searches on existence, public access and hours of the most doubtful candidates and confirmed: Biblioteca Carnegie open Mon-Fri 9am-5:30pm at 7 Ave Ponce de León; Parque Luis Muñoz Marín reopened Feb 2021, open Wed-Sun and holidays from 8:30am with $3 parking (closing time not found); Librería Laberinto at 251 Calle de la Cruz, 9am-7pm daily; Hacienda San Pedro Coffee Shop at 318 Ave De Diego with hours; Jardín Botánico UPR free, 6am-6pm; MAPR sculpture garden free with hours. It dropped two candidates because searches showed them closed: the NPS Paseo del Morro trail (partially closed indefinitely since Feb 2026) and the Paseo Lineal Enrique Martí Coll (out of service since 2014). Review stage ran four more searches. Findings: (1) the researcher's Biblioteca Carnegie coordinate pointed at the Capitol, 400 m from the library; replaced with the Wikipedia infobox coordinate from the search summary and marked medium, and the English article 'Biblioteca Carnegie' confirmed. (2) The Condado lagoon park's entrance is at 1110 Calle Vieques on the Condado (east) shore, not the west shore the researcher guessed; pin, blurb and tips corrected, still medium since placed from a street name. (3) 'Paseo de la Princesa' confirmed as an English Wikipedia article. (4) The Piñones boardwalk is open and free but 2025-26 reviews report collapsing planks and broken glass, now in the safety note. Wikipedia titles confirmed from search-result URLs across both stages: Paseo de la Princesa, Biblioteca Carnegie, Luis Muñoz Rivera Park, Luis Muñoz Marín Park, San Juan Botanical Garden. Kept from knowledge, not URL-confirmed: Museo de Arte de Puerto Rico, Cuartel de Ballajá, La Rogativa (the article is about the sculpture that stands on this plaza). All other titles are null. No reddit or 'according to locals' content was read in either stage. Source URLs are only ones that appeared in a result set; the reviewer could not HTTP-check them (outbound curl was blocked), but the researcher's Tripadvisor URL for the Carnegie library reappeared verbatim in a review search, which supports the rest. Four spots still have empty sources arrays (Plazuela de la Rogativa, Cuartel de Ballajá, Escambrón, Ocean Park) because they were never searched; their hours and coordinates are from knowledge. Coordinates marked medium are honest block-level placements. Safety notes were checked against the standard and none needed rewriting: every note describes lighting, closing times, water, terrain or staffing, and the two cautions (Piñones, Ocean Park) rest on unlit, isolated or unpatrolled conditions only.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Long-established municipal promenade below the city wall. Review search confirmed the English Wikipedia article 'Paseo de la Princesa' (0.8 km promenade built 1852-54, runs past the Raíces fountain to the San Juan Gate). Hours are from knowledge, approximate. The adjoining NPS Paseo del Morro is partially closed since Feb 2026 per an NPS notice found in the research stage, so the tip warns about it.",
+      "name": "Paseo de la Princesa",
+      "neighborhood": "Viejo San Juan (Old San Juan)",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunset",
+        "walk",
+        "people-watch",
+        "view",
+        "free",
+        "night"
+      ],
+      "blurb": "A tree-lined 19th-century promenade that runs from the cruise piers along the outside of the old city wall to the Raíces fountain and the bay. In the late afternoon it is where sanjuaneros walk, sit on the wall-side benches and buy piraguas from the carts while the sun goes down over Cataño across the water. It is a hundred metres from the tourist piers but the far end by the fountain is usually just people watching the pelicans.",
+      "tips": "Start at Plaza de la Dársena near Pier 1 and walk west; the benches past the Raíces fountain facing the bay are the quietest. Note that the continuation along the wall to El Morro (the NPS Paseo del Morro) has been partially closed since early 2026, so check before planning to walk through to the fort.",
+      "bestTimes": [
+        "golden-hour",
+        "night",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (busiest 4-8pm)",
+      "lat": 18.464,
+      "lng": -66.119,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Paseo de la Princesa",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Paseo_de_la_Princesa",
+          "label": "Wikipedia: Paseo de la Princesa",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.discoverpuertorico.com/profile/paseo-de-la-princesa/8035",
+          "label": "Discover Puerto Rico: Paseo de la Princesa",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit and well used into the evening; the bay edge near the fountain is unfenced in places, so keep back from the water after dark."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Small public plaza with the La Rogativa sculpture on the city wall above the San Juan Gate; not searched. Wikipedia title 'La Rogativa' given from high confidence (the article covers the sculpture on this plaza), not URL-confirmed.",
+      "name": "Plazuela de la Rogativa",
+      "neighborhood": "Viejo San Juan (Old San Juan)",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "sunset",
+        "water",
+        "quiet",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "A pocket plaza on top of the city wall just uphill from the San Juan Gate, with a bronze of a bishop and torch-bearing women commemorating the 1797 procession that supposedly scared off the British. It faces west across the mouth of the bay, so it is one of the best sunset benches in the old city, and because it is tucked at the end of Caleta de las Monjas most walking groups pass it in thirty seconds. Come back after they leave.",
+      "tips": "Walk down Caleta de las Monjas from the cathedral and the plaza is at the bottom on the right, above the gate. Two or three benches only, so come alone or with one friend; the streetlights on the wall make it comfortable for an hour after sunset.",
+      "bestTimes": [
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 18.4667,
+      "lng": -66.1208,
+      "coordConfidence": "high",
+      "wikipediaTitle": "La Rogativa",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit plaza on a public street with a low wall above a drop to the walkway below; keep children away from the parapet."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Restored 19th-century barracks whose courtyard is public and free; houses Museo de las Américas (paid) and has had a café. Not searched in either stage; museum hours and courtyard hours from knowledge and approximate, and the café is not verified as currently operating. Wikipedia title 'Cuartel de Ballajá' kept on high confidence from knowledge, not URL-confirmed.",
+      "name": "Cuartel de Ballajá (courtyard)",
+      "neighborhood": "Viejo San Juan (Old San Juan)",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "cozy",
+        "solo",
+        "study",
+        "free",
+        "hidden"
+      ],
+      "blurb": "The huge Spanish infantry barracks beside El Morro's lawn, restored into a cultural centre around a wide arcaded courtyard. Anyone can walk in and sit under the arches out of the sun or rain; the Museo de las Américas upstairs charges a small entry, but the courtyard, the café and the ground-floor galleries do not. On weekday afternoons the quadrangle is mostly students from the conservatory next door and it is startlingly quiet for a place fifty metres from the fort crowds.",
+      "tips": "Enter from the Plaza del Quinto Centenario side or from Calle Norzagaray; the shaded arcade on the east side gets the breeze. There has usually been a café off the courtyard (Café Don Ruiz), a good rain shelter if it is open; the museum is generally closed Mondays, so check before coming for the exhibits.",
+      "bestTimes": [
+        "afternoon",
+        "morning"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "courtyard roughly 8am-6pm; museum Tue-Sun (check site)",
+      "lat": 18.4682,
+      "lng": -66.1215,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Cuartel de Ballajá",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building with a security desk; the courtyard is locked at night."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, address (251 Calle de la Cruz) and hours (9am-7pm daily) confirmed via search results (own site, Yelp, Corner). Coordinates placed on that block of Calle de la Cruz from knowledge, not pin-verified.",
+      "name": "Librería Laberinto",
+      "neighborhood": "Viejo San Juan (Old San Juan)",
+      "category": "bookstore",
+      "vibes": [
+        "rain-ok",
+        "cozy",
+        "quiet",
+        "solo",
+        "study"
+      ],
+      "blurb": "The old city's general-interest independent bookshop, on Calle de la Cruz a block from Plaza de Armas, with a deep Puerto Rican and Latin American literature section and a small children's corner. It is the kind of shop where browsing for an hour is normal and the staff will talk about what they are reading. When a downpour empties the streets it is one of the few dry, quiet rooms in the old city that is not a bar.",
+      "tips": "Two blocks downhill from the cathedral on Calle de la Cruz; there is no café, so pair it with a coffee on Calle San Francisco. Ask for local authors if you want to leave with something you cannot buy elsewhere.",
+      "bestTimes": [
+        "afternoon",
+        "morning"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "9am-7pm daily",
+      "lat": 18.4661,
+      "lng": -66.1165,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://librerialaberintopr.com/",
+          "label": "Librería Laberinto official site",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.yelp.com/biz/librer%C3%ADa-laberinto-san-juan",
+          "label": "Yelp: Librería Laberinto",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.corner.inc/place/pktZTJv2DEVm",
+          "label": "Corner: Librería Laberinto Viejo San Juan",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Shop on a busy pedestrian-scale street; closes at 7pm."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, address (7 Ave Ponce de León) and public hours (Mon-Fri 9am-5:30pm) confirmed in the research stage (EnciclopediaPR, Tripadvisor). Review stage: the researcher's coordinate (18.4655, -66.1055) pointed at the Capitol, 400 m east of the library; replaced with the coordinate given in the English Wikipedia infobox as reported in a search summary (18°28′6″N 66°6′34″W). I did not see the map myself and the latitude looks slightly north of the avenue to me, so confidence is medium: the building is on the north side of Ponce de León between Plaza de Colón and the Capitol, next to the Ateneo. Wikipedia title 'Biblioteca Carnegie' confirmed from the search-result URL. Reading-room access rules not verified.",
+      "name": "Biblioteca Carnegie",
+      "neighborhood": "Puerta de Tierra",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "Puerto Rico's first purpose-built public library, a 1915 Carnegie building with tall windows and a marble stair, sitting between the old city and the Capitol on Avenida Ponce de León. It is a working public library rather than a monument: reading tables, newspapers, a Puerto Rican collection and very few visitors. If you need somewhere cool and silent to read or write for an afternoon, this is it.",
+      "tips": "Walk east from Plaza de Colón along Ponce de León for about ten minutes; the entrance faces the avenue. Weekday hours only, so plan around the 5:30pm close; bring ID in case the reading rooms ask for it.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Fri 9am-5:30pm, closed weekends",
+      "lat": 18.4683,
+      "lng": -66.1094,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Biblioteca Carnegie",
+      "sources": [
+        {
+          "url": "https://enciclopediapr.org/content/san-juan-biblioteca-carnegie/",
+          "label": "EnciclopediaPR: Biblioteca Carnegie",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g147320-d17464035-Reviews-Biblioteca_Carnegie-San_Juan_Puerto_Rico.html",
+          "label": "Tripadvisor: Biblioteca Carnegie",
+          "kind": "other"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Biblioteca_Carnegie",
+          "label": "Wikipedia: Biblioteca Carnegie",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building on a main avenue with bus stops outside; closed evenings and weekends."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Large historic public park; Wikipedia title confirmed from a search-result URL (en.wikipedia.org/wiki/Luis_Muñoz_Rivera_Park). Hours from knowledge and approximate.",
+      "name": "Parque Luis Muñoz Rivera",
+      "neighborhood": "Puerta de Tierra",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "picnic",
+        "solo",
+        "group",
+        "free"
+      ],
+      "blurb": "A 27-acre park of huge shade trees, formal paths and a peace pavilion laid out in the 1930s on the strip of land between the old city and Condado. Families come on weekends for the playgrounds and food carts, but on a weekday afternoon the benches under the ceibas and the lawns by the pavilion are nearly empty. It is the closest thing the north side of the city has to a big, ordinary neighbourhood park.",
+      "tips": "Enter from Avenida Ponce de León or from the Escambrón side; the pavilion and the lawns in the western half are the shadiest. Cross Avenida Muñoz Rivera at the signalled crossings only, since it is fast traffic.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (roughly 6am-6pm)",
+      "lat": 18.464,
+      "lng": -66.092,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Luis Muñoz Rivera Park",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Luis_Mu%C3%B1oz_Rivera_Park",
+          "label": "Wikipedia: Luis Muñoz Rivera Park",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Open, tree-shaded park bounded by two fast avenues; paths are lit near the entrances but dim in the interior after dark, so leave around dusk."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Public balneario (bathing beach) run by the Compañía de Parques Nacionales; not searched. Hours and parking fee from knowledge and approximate. Not confident of an exact English Wikipedia title, so null.",
+      "name": "Balneario El Escambrón",
+      "neighborhood": "Puerta de Tierra",
+      "category": "beach",
+      "vibes": [
+        "water",
+        "sunrise",
+        "quiet",
+        "solo",
+        "picnic",
+        "free"
+      ],
+      "blurb": "A sheltered public beach behind a reef and a breakwater, right below the Caribe Hilton and the ruined Fortín San Gerónimo, that stays calm even when the Condado surf is up. It is where San Juan residents swim laps and snorkel before work, and on weekday mornings the sand under the palms is almost empty. Bring a book and sit at the western end where the fort ruins frame the view.",
+      "tips": "Enter from the Muñoz Rivera park side or the Escambrón parking lot (small fee for cars, free on foot); the western end by the fort is quietest. Weekends and holidays fill with families and music by midday, so go early.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 7am-6pm (lifeguards daytime)",
+      "lat": 18.4665,
+      "lng": -66.0895,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lifeguarded in daylight and protected by a reef; the beach and lot are unlit after closing, so do not stay past dusk. Swim inside the marked area."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Public lagoon-side park (Parque Nacional Laguna del Condado Profesor Jaime Benítez Rexach). Review search found the entrance at 1110 Calle Vieques, reached from Calle Luisa in Condado, i.e. on the eastern shore of the lagoon, not the west/Miramar side the researcher assumed; results describe a shoreline boardwalk, benches, a gazebo, a kayak/paddleboard ramp, free parking and bathrooms. Coordinates moved to where Calle Vieques meets the lagoon and kept medium because I placed the pin from the street name, not from a map. Hours still from knowledge and approximate. 'Condado Lagoon' exists on English Wikipedia but is the lagoon, not this park, so the title stays null.",
+      "name": "Parque Laguna del Condado Jaime Benítez",
+      "neighborhood": "Condado",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunset",
+        "quiet",
+        "walk",
+        "solo",
+        "free",
+        "green"
+      ],
+      "blurb": "A small grassy park and shoreline boardwalk on the eastern edge of the Condado lagoon, a brackish inlet where manatees occasionally surface and paddleboarders drift under the Dos Hermanos bridge. It looks west down the length of the lagoon, so the sunset comes across the water towards you, and outside weekend afternoons it is mostly joggers on the path and a few people sitting on the rocks. It is the calmest water in the city centre.",
+      "tips": "The entrance is at the foot of Calle Vieques (1110 Calle Vieques), off Calle Luisa a couple of blocks south of Ashford Avenue in Condado; there is free parking, bathrooms, a gazebo and benches along a short shoreline boardwalk. Face west across the water for the sunset. Kayak and paddleboard rentals and classes run from the ramp in daylight.",
+      "bestTimes": [
+        "golden-hour",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (roughly dawn to dusk)",
+      "lat": 18.4555,
+      "lng": -66.0765,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.discoverpuertorico.com/profile/jaime-benitez-national-park/7702",
+          "label": "Discover Puerto Rico: Jaime Benítez National Park",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.yelp.com/biz/laguna-del-condado-jaime-benitez-park-san-juan",
+          "label": "Yelp: Laguna del Condado Jaime Benítez Park (1110 Calle Vieques)",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.zeepuertorico.com/lugar/parque-nacional-laguna-del-condado",
+          "label": "ZeePuertoRico: Parque Nacional Laguna del Condado",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Unfenced lagoon edge with rocks and mangrove roots; the path is lit near the bridge but dim further along, so go in daylight or at golden hour."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Residential beach used mainly by locals; not searched. Coordinates mark the public access at the end of Calle Santa Ana from knowledge, medium confidence. The neighbourhood has a Wikipedia article but the beach itself does not have one I am sure of, so null.",
+      "name": "Ocean Park beach",
+      "neighborhood": "Ocean Park / Santurce",
+      "category": "beach",
+      "vibes": [
+        "water",
+        "sunrise",
+        "walk",
+        "quiet",
+        "solo",
+        "free",
+        "people-watch"
+      ],
+      "blurb": "A long, wide stretch of sand between Condado and Isla Verde fronted by low houses and small guesthouses rather than hotel towers, which is why it is the beach residents actually use. Early mornings are kite-surfers, dog walkers and people doing yoga; by afternoon it is a mix of neighbourhood families and the occasional volleyball game, but never the crowd of Condado. Sit near the Santa Ana access and watch the Atlantic come in.",
+      "tips": "Public access paths run between the houses off Calle Park Boulevard; the one at Calle Santa Ana is the easiest to find. Parking is street-only and tight, so walk or take a bus down Calle Loíza. There is no shade, so bring an umbrella and water.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (no lifeguards)",
+      "lat": 18.4525,
+      "lng": -66.053,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "No lifeguards and strong currents and shore break are common, so swim only if you know the conditions and stay in the shallows. The sand is unlit at night; keep to the street-lit access paths after dark."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Free outdoor sculpture garden behind the Museo de Arte de Puerto Rico at 299 Ave De Diego; free access and hours (Mon-Fri 8am-5:30pm, Sat-Sun 11am-5pm) confirmed via the museum's site in search results. Wikipedia title for the museum given from high confidence, not URL-confirmed.",
+      "name": "Jardín de Esculturas, Museo de Arte de Puerto Rico",
+      "neighborhood": "Santurce",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "solo",
+        "study",
+        "free",
+        "hidden",
+        "cozy"
+      ],
+      "blurb": "The museum's back garden is a free 2.5-acre park of pergolas, native trees, a koi pond and sixteen large sculptures, with the museum's white neoclassical facade on one side and the Santurce rooftops on the others. Office workers from the avenue eat lunch here and hardly anyone else finds it, so most afternoons you will share it with the fish. The museum itself is paid, but the garden and the lobby are open to anyone.",
+      "tips": "Walk through the museum's ground floor or around the side to the garden; benches under the pergola by the pond are shaded. Combine with a coffee at Hacienda San Pedro across De Diego. The museum is closed Mondays but the garden keeps weekday hours.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Mon-Fri 8am-5:30pm, Sat-Sun 11am-5pm, closed holidays",
+      "lat": 18.446,
+      "lng": -66.0675,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Museo de Arte de Puerto Rico",
+      "sources": [
+        {
+          "url": "https://www.mapr.org/en/visit/plan-your-visit/facilities",
+          "label": "MAPR: Facilities (Sculpture Garden)",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.mapr.org/es/visita/planifica-tu-visita",
+          "label": "MAPR: Planifica tu visita",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Walled garden with museum security on site; gated and closed after hours."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, address (318 Ave De Diego) and hours (Mon-Fri 6:30am-6pm, Sat 8:30am-4pm, Sun 9am-3pm) confirmed via search results (Discover Puerto Rico, Yelp). Coordinates placed across De Diego from the museum from knowledge, medium confidence.",
+      "name": "Hacienda San Pedro Coffee Shop",
+      "neighborhood": "Santurce",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "study",
+        "solo",
+        "quiet"
+      ],
+      "blurb": "The city outpost of a fourth-generation coffee farm in Jayuya, a small roastery-café on Avenida De Diego across from the art museum where the beans are roasted on site. It is a neighbourhood regulars' place rather than a scene: people read the paper, students work on laptops, and the staff know the roast by name. On a rainy Santurce afternoon it is the easiest room in the district to stay in for an hour.",
+      "tips": "Order at the counter and take the window table if it is free; the pour-over is the thing to have. It closes early on weekends, and the museum garden across the road is the natural next stop.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Mon-Fri 6:30am-6pm, Sat 8:30am-4pm, Sun 9am-3pm",
+      "lat": 18.4472,
+      "lng": -66.0665,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.discoverpuertorico.com/profile/hacienda-san-pedro-coffee-shop/7076",
+          "label": "Discover Puerto Rico: Hacienda San Pedro Coffee Shop",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.yelp.com/biz/hacienda-san-pedro-san-juan-3",
+          "label": "Yelp: Hacienda San Pedro",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed café on a busy avenue with daytime hours only."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "University of Puerto Rico botanical garden; free entry and 6am-6pm daily hours confirmed via search results (UPR site, ZeePuertoRico). Wikipedia title confirmed from a search-result URL (en.wikipedia.org/wiki/San_Juan_Botanical_Garden). Coordinates mark the main entrance area off PR-1/PR-847 from knowledge.",
+      "name": "Jardín Botánico de la Universidad de Puerto Rico",
+      "neighborhood": "Río Piedras",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "water",
+        "walk",
+        "solo",
+        "picnic",
+        "free",
+        "hidden"
+      ],
+      "blurb": "Nearly 300 acres of tropical garden run by the university at the southern edge of the city, with a bamboo chapel, a lotus pond, an orchid garden and shaded paths along the Río Piedras. Entry is free and on weekdays it is nearly deserted, which makes it the best place in the metro area to disappear with a book for a morning. The heliconia garden and the pond benches are the classic sitting spots.",
+      "tips": "Take the Tren Urbano to Cupey or Río Piedras and a short taxi, or drive to the entrance on Calle Guaracanal where PR-1 meets PR-847; there is ample parking. Bring water and insect repellent, and go before 10am in summer for the cool.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "6am-6pm daily",
+      "lat": 18.3915,
+      "lng": -66.0575,
+      "coordConfidence": "high",
+      "wikipediaTitle": "San Juan Botanical Garden",
+      "sources": [
+        {
+          "url": "https://www.upr.edu/en/jardin-botanico/",
+          "label": "UPR: Jardín Botánico",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.zeepuertorico.com/lugar/jard%C3%ADn-bot%C3%A1nico",
+          "label": "ZeePuertoRico: Jardín Botánico",
+          "kind": "other"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/San_Juan_Botanical_Garden",
+          "label": "Wikipedia: San Juan Botanical Garden",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated garden with staff at the entrance, closes at 6pm; paths are unlit and some are uneven near the river, so wear proper shoes."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Large municipal park; search confirmed it reopened in Feb 2021 after years closed, is run by the municipality, and opens Wed-Sun and holidays from 8:30am with $3 parking (closing time not in results, so hours marked check site). Wikipedia title confirmed from a search-result URL.",
+      "name": "Parque Luis Muñoz Marín",
+      "neighborhood": "Hato Rey / Gobernador Piñero",
+      "category": "park",
+      "vibes": [
+        "green",
+        "picnic",
+        "walk",
+        "group",
+        "quiet",
+        "free"
+      ],
+      "blurb": "A 140-acre metropolitan park south of Hato Rey with rolling lawns, ponds, bike paths and an old cable car, which reopened in 2021 after years of neglect and is slowly being brought back by the city. Because it is only open a few days a week and sits away from the tourist coast, it is used almost entirely by families and cyclists from the surrounding neighbourhoods. On a Thursday morning you can have a whole hillside lawn to yourself.",
+      "tips": "Open Wednesday to Sunday and holidays only; entry is free on foot and parking costs about $3. Take the Tren Urbano to Cupey or Río Piedras or drive in from Avenida Piñero. Bring everything with you, since food kiosks are sporadic.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Wed-Sun & holidays from 8:30am (check site for closing)",
+      "lat": 18.409,
+      "lng": -66.064,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Luis Muñoz Marín Park",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Luis_Mu%C3%B1oz_Mar%C3%ADn_Park",
+          "label": "Wikipedia: Luis Muñoz Marín Park",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.zeepuertorico.com/place/parque-luis-mu%C3%B1oz-mar%C3%ADn-reapertura",
+          "label": "ZeePuertoRico: Luis Muñoz Marín Park reopening",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated, staffed park that closes in the late afternoon; large and spread out, so tell someone where you are if walking the far paths alone."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Public boardwalk and bike path through the Piñones mangroves along PR-187, about 14 km east of the centre. Review search (Tripadvisor listing under Loíza, Komoot, travel sites) confirms it is open, free and roughly 11-12 km long, but recent reviews report damaged and near-collapsing planked sections and broken glass on the path, so the safety note says so. Coordinates mark the western section near the Boca de Cangrejos bridge from knowledge, medium confidence. No exact English Wikipedia title I am sure of (the 'Paseo Tablado La Guancha' article that came up is a different boardwalk in Ponce), so null.",
+      "name": "Paseo Tablado de Piñones",
+      "neighborhood": "Piñones (Loíza / Carolina border)",
+      "category": "trail",
+      "vibes": [
+        "water",
+        "green",
+        "walk",
+        "sunset",
+        "quiet",
+        "free",
+        "solo"
+      ],
+      "blurb": "A raised wooden boardwalk and bike path that threads through mangrove forest and along the ocean east of the airport, with kiosks selling alcapurrias and coconut water at the road end. Away from the food stands the boardwalk is quiet enough to hear the surf through the trees, and the benches at the ocean sections look straight out at an empty Atlantic. It is the closest wild coast to the city and where sanjuaneros go on a Sunday to feel out of town.",
+      "tips": "Take PR-187 east past the Boca de Cangrejos bridge; rent a bike at the kiosks or walk from the first parking area. Go in the late afternoon for the light but leave before dark, and expect some damaged sections: reviews in 2025-26 describe planks on the verge of collapse in places.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (unlit)",
+      "lat": 18.456,
+      "lng": -65.977,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g775322-d17463974-Reviews-Paseo_Tablado_de_Pinones-Loiza_Puerto_Rico.html",
+          "label": "Tripadvisor: Paseo Tablado de Piñones",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.komoot.com/highlight/2668825",
+          "label": "Komoot: Piñones Boardwalk",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Unlit boardwalk with long stretches out of sight of the road and no exits between access points; go in daylight, leave before dusk and go with someone if walking the far sections. Recent reviews report missing or rotten planks and broken glass on the path, so wear closed shoes and watch your footing."
+      },
+      "lowkeyScore": 4
+    }
+  ]
+}

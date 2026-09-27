@@ -1,0 +1,604 @@
+{
+  "city": "Amman",
+  "country": "Jordan",
+  "slug": "amman",
+  "region": "europe-africa",
+  "cityLat": 31.9539,
+  "cityLng": 35.9106,
+  "timezone": "Asia/Amman",
+  "searchesRun": [
+    "King Hussein Park Amman opening hours Royal Automobile Museum Children's Museum",
+    "Abdul Hameed Shoman Foundation public library Amman location opening hours",
+    "Darat al Funun Jabal Al Weibdeh opening hours garden",
+    "Wild Jordan Center Amman cafe terrace view downtown",
+    "Duke's Diwan Amman King Faisal Street opening hours",
+    "Al Hussein Youth City Sports City Amman park jogging track public",
+    "Jordan National Gallery of Fine Arts park Weibdeh opening hours",
+    "Books@Cafe Jabal Amman Omar bin al-Khattab street bookshop cafe",
+    "Abdul Hameed Shoman Foundation library Jabal Amman location map coordinates",
+    "Rumi Cafe Jabal Al Weibdeh Amman open 2026",
+    "Wild Jordan Center Amman opening hours Othman Bin Affan street",
+    "The Jordan Museum Ras Al Ain Amman opening hours ticket price closed Tuesday"
+  ],
+  "redditSourcedNotes": "Two stages. RESEARCHER: eight web searches, all on existence, public access, hours and Wikipedia titles, none on coordinates. Confirmed by those results: Royal Automobile Museum hours (10am-7pm, closed Tue) inside Al Hussein Public Parks and the en.wikipedia article 'Al Hussein Public Parks'; Darat al Funun hours (10am-7pm, closed Fri and in August) and address (9 Mohammad Ali Al Saadi St); Jordan National Gallery hours (9am-5pm, closed Tue and Fri; sculpture park to 2:30pm) and its en.wikipedia article; The Duke's Diwan hours (10am-5pm, closed Fri), address (12 King Faisal St) and en.wikipedia article; Books@Cafe address, 1997 founding and hours; Wild Jordan Center as an RSCN cafe with a terrace; Al Hussein Youth City forest open to walkers while the sports facilities are members-only; Abdul Hameed Shoman Public Library address. SKEPTIC: four more searches. Rumi Cafe confirmed trading in 2026 (opened 2013, official site and 2026 reviews). Wild Jordan Center address confirmed as 36 Othman Bin Affan St with hours around 9am-11pm daily. The Jordan Museum confirmed closed Tuesdays, Friday afternoons only, about 5 JOD, and the en.wikipedia title 'The Jordan Museum' appeared as a result URL. The Shoman library search returned the same street address and postcode but still no coordinates or hours. COORDINATES: no search in either stage returned coordinates, and the network proxy blocked every attempt to load Wikipedia, mapcarta or the source pages directly, so every lat/lng is from the two agents' own knowledge. All 13 pins are 1-8 km from the centre and were sanity-checked against known landmarks (First Circle, Paris Circle, Roman Theatre, Sports City stadium, Ras Al Ain civic complex); The Jordan Museum pin was moved about 180 m. Only Hashemite Plaza is 'high'; the Shoman library stays 'low'. SOURCES: the 16 researcher URLs could not be fetched (egress blocked) so they remain unverified by the skeptic, but the Wild Jordan Tripadvisor URL matches the exact listing ID the skeptic's own search returned, which supports that they were copied from real result lists; the skeptic added URLs only from its own result lists. No reddit threads were read in either stage; Hashemite Plaza, Abu Darwish viewpoint and Abdali Boulevard remain unsearched with sources: []. WIKIPEDIA: URL-confirmed titles are Al Hussein Public Parks, Jordan National Gallery of Fine Arts, The Duke's Diwan and The Jordan Museum; Darat al Funun and Abu Darwish Mosque are kept on high confidence from knowledge only. SAFETY: all 13 notes describe lighting, closing times, steps, terrain, traffic, fencing and staffing only; the skeptic found no people-characterising or neighbourhood-reputation language and rewrote none. Books@Cafe is a bookshop-cafe-restaurant that gets bar-like late; it is listed for daytime use and is not bar-only. All spots are public parks, plazas, streets, museums, a library and cafes.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed the park complex and its en.wikipedia article 'Al Hussein Public Parks', and the Royal Automobile Museum's hours (10am-7pm, closed Tue). Park gate hours were not in results and are from knowledge. Coordinates are the researcher's estimate of the park's centre, not a checked pin.",
+      "name": "Al Hussein Public Parks (King Hussein Park)",
+      "neighborhood": "Dabouq / west Amman",
+      "category": "park",
+      "vibes": [
+        "green",
+        "walk",
+        "picnic",
+        "group",
+        "solo",
+        "sunset",
+        "free",
+        "people-watch"
+      ],
+      "blurb": "Amman's largest public park, a long terraced strip of lawns, pine and olive groves and a paved walkway on a hillside on the western edge of the city, with the King Hussein Mosque and the Children's Museum at one end. West Amman families come here after work and on Fridays to walk laps, picnic on the grass and let kids run; on weekday mornings it is mostly joggers and people on benches with a thermos. The upper terraces face west and catch the sunset over the hills.",
+      "tips": "Come by taxi or ride-hail (there is no metro and buses are thin here) and ask for 'Hada'iq al Hussein'; the walkway loops the whole site, and the quietest benches are on the upper terraces away from the museum car parks. The Royal Automobile Museum (10am-7pm, closed Tuesdays, 3 JOD) is a good rainy-day pairing.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 8am-11pm (check locally)",
+      "lat": 31.982,
+      "lng": 35.839,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Al Hussein Public Parks",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Al_Hussein_Public_Parks",
+          "label": "Wikipedia: Al Hussein Public Parks",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.trip.com/travel-guide/attraction/amman/royal-automobile-museum-18699073",
+          "label": "Trip.com: Royal Automobile Museum",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated, staffed and lit along the main walkway; the outer terraces are dimmer after dark, so stay on the lit paths in the evening."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search (CSBE and Great Runs pages) confirmed the central forest with walking and jogging tracks open to the public, while the sports facilities are membership-based. Coordinates are an estimate of the forest area between the stadium and the eastern entrances, not a checked pin. No English Wikipedia article for the complex itself confirmed, so null.",
+      "name": "Al Hussein Youth City forest (Sports City)",
+      "neighborhood": "Shmeisani / Al Madina Al Munawwara",
+      "category": "park",
+      "vibes": [
+        "green",
+        "walk",
+        "quiet",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "The pine forest at the heart of the Sports City complex covers about a third of the site and is one of the few places in central Amman where you can sit under tall trees with the traffic muffled. Gravel and paved tracks loop through it and are used by early runners and older men doing slow laps; between the trees there are low walls and benches where people read or just sit. It is a place residents of Shmeisani and Madina use, and almost no visitor knows it is there.",
+      "tips": "Enter from the gates on Al Madina Al Munawwara Street or from the Shmeisani side and head into the trees behind the stadium; walking and jogging are free even though the pools and courts are members-only. Mornings before 9am and the hour before sunset are the calm windows.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 6am-10pm (check locally)",
+      "lat": 31.983,
+      "lng": 35.8965,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.csbe.org/al-hussein-youth-city-the-sports-city",
+          "label": "CSBE: Al Hussein Youth City (The Sports City)",
+          "kind": "other"
+        },
+        {
+          "url": "https://greatruns.com/amman-jordan-sport-city/",
+          "label": "Great Runs: Sport City",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "The forest paths are mostly unlit and empty after dark; go in daylight or at golden hour and leave by dusk."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed hours (Mon-Thu and Sat-Sun 10am-7pm, closed Fri, closed in August and on public holidays, 3pm close in Ramadan), free entry and the address 9 Mohammad Ali Al Saadi St. Coordinates are an estimate of that address on the downtown-facing slope of Weibdeh. Wikipedia title from knowledge, not URL-confirmed.",
+      "name": "Darat al Funun",
+      "neighborhood": "Jabal Al Weibdeh",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "green",
+        "view",
+        "hidden",
+        "solo",
+        "free",
+        "study",
+        "cozy"
+      ],
+      "blurb": "An arts foundation spread over six 1920s stone houses and a terraced garden on the slope of Weibdeh, with the ruins of a Byzantine church at the bottom and a small cafe on the terrace. Entry is free and nobody minds if you skip the exhibitions and sit under the trees with a book looking across the valley to the Citadel. It is where Amman's art students and writers go to think, and the garden stays hushed even when downtown below is loud.",
+      "tips": "Walk up from downtown via the stairs off Prince Mohammad Street or down from Paris Circle; the terrace by the cafe has the best view, the benches by the church ruins the most shade. Closed Fridays and all of August, and it shuts at 7pm, so it is an afternoon place.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Sat-Thu 10am-7pm, closed Fri and in August (check site)",
+      "lat": 31.9547,
+      "lng": 35.9269,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Darat al Funun",
+      "sources": [
+        {
+          "url": "https://daratalfunun.org/?page_id=11",
+          "label": "Darat al Funun: Welcome",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.archnet.org/sites/20257",
+          "label": "Archnet: Darat al Funun",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, walled site that closes at 7pm; the garden is on steep terraces with uneven stone steps, so watch your footing."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed hours (gallery 9am-5pm, closed Tue and Fri; sculpture park 9am-2:30pm; cafe 9am-11pm), the address on Husni Fariz Street and the en.wikipedia article. Coordinates are an estimate of the gallery building, not a checked pin.",
+      "name": "Jordan National Gallery of Fine Arts and Sculpture Park",
+      "neighborhood": "Jabal Al Weibdeh",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "green",
+        "solo",
+        "cozy",
+        "study"
+      ],
+      "blurb": "Two modest buildings of modern Arab art facing each other across a small public sculpture park on a quiet Weibdeh street. The galleries are rarely crowded, so you can sit in front of a painting for as long as you like, and the park between them has benches under trees where neighbourhood people read on their lunch break. The cafe on the park side stays open well into the evening after the galleries close.",
+      "tips": "Closed Tuesdays and Fridays; the sculpture park shuts early at 2:30pm, so come mid-morning if you want both. Weibdeh's cafes are a few minutes' walk, and Paris Circle is just up the hill.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Gallery 9am-5pm (closed Tue, Fri); park 9am-2:30pm; cafe 9am-11pm (check site)",
+      "lat": 31.96,
+      "lng": 35.923,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Jordan National Gallery of Fine Arts",
+      "sources": [
+        {
+          "url": "https://nationalgallery.org/visit/visit-info/",
+          "label": "JNGFA: Admissions, Location & Hours",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Jordan_National_Gallery_of_Fine_Arts",
+          "label": "Wikipedia: Jordan National Gallery of Fine Arts",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed museum on a quiet residential street; the park is small, fenced and closes mid-afternoon."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Researcher search confirmed an RSCN-run centre with a cafe and outdoor terrace overlooking downtown and the Citadel. Skeptic search confirmed the address (36 Othman Bin Affan St), phone +962 6 463 3542 and hours listed variously as 9am-11pm and 9:30am-11:30pm, seven days. Coordinates remain an estimate of the building on Othman Bin Affan Street, not a checked pin. No Wikipedia article confirmed, so null.",
+      "name": "Wild Jordan Center terrace",
+      "neighborhood": "Jabal Amman",
+      "category": "cafe",
+      "vibes": [
+        "view",
+        "skyline",
+        "sunset",
+        "night",
+        "rain-ok",
+        "cozy",
+        "solo",
+        "study"
+      ],
+      "blurb": "The Royal Society for the Conservation of Nature's headquarters clings to the north face of Jabal Amman, and its cafe and open terrace look straight across the valley at the Citadel, the Raghadan flagpole and the stacked houses of downtown. It is a working NGO building with a shop and a co-working room, so the atmosphere is calmer than the Rainbow Street cafes a few streets up, and you can nurse one coffee through a whole sunset. The glass wall makes it just as good on a rainy afternoon.",
+      "tips": "It is down a side street off Rainbow Street near the First Circle; walk down Othman Bin Affan Street and look for the RSCN sign. The terrace is the prize at golden hour and after dark when downtown lights up; inside seats by the window work in winter.",
+      "bestTimes": [
+        "golden-hour",
+        "night",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly 9am-11pm daily (check locally)",
+      "lat": 31.9525,
+      "lng": 35.9278,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.jordannews.jo/Section-128/Where-to-Go/Wild-Jordan-Center-where-you-can-play-eat-and-engage-4890",
+          "label": "Jordan News: Wild Jordan Center",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g293986-d1036043-Reviews-Wild_Jordan_Center-Amman_Amman_Governorate.html",
+          "label": "Tripadvisor: Wild Jordan Center",
+          "kind": "forum"
+        },
+        {
+          "url": "https://www.touristjordan.com/wild-jordan-center/",
+          "label": "Tourist Jordan: Wild Jordan Center",
+          "kind": "other"
+        },
+        {
+          "url": "https://jo.near-place.com/wild-jordan-center-othman-ben-affan-st-36-amman",
+          "label": "near-place: Wild Jordan Center opening times",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed building with a railed terrace; the side street down from Rainbow Street is steep and lit."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed the address (12 Omar Bin Al-Khattab St, off Rainbow Street), founding year 1997, a terrace over the city and hours (Sun-Thu 10am-midnight, Fri-Sat 9am-midnight). It is a bookshop, cafe and restaurant that also serves alcohol and gets loud late; the skeptic kept it because it is not bar-only and the listing is for the daytime bookshop-cafe. Coordinates estimated from the address.",
+      "name": "Books@Cafe",
+      "neighborhood": "Jabal Amman (First Circle)",
+      "category": "bookstore",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "study",
+        "view",
+        "solo",
+        "people-watch",
+        "night"
+      ],
+      "blurb": "A bookshop-cafe in an old Jabal Amman villa that has been open since 1997, with English and Arabic shelves downstairs and a rooftop terrace upstairs looking out over the rooftops towards downtown. Daytime is for laptops, long breakfasts and browsing; it gets busier and louder after about 9pm. The shop is one of the few places in the city to sit with a paperback you have just bought and nobody hurries you.",
+      "tips": "It is a two-minute walk down Omar Bin Al-Khattab Street from Rainbow Street; go up to the roof terrace on a clear day and stay inside on the sofas when it rains. Weekday mornings and early afternoons are quietest.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Sun-Thu 10am-midnight, Fri-Sat 9am-midnight (check site)",
+      "lat": 31.9509,
+      "lng": 35.925,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://booksatcafe.com/",
+          "label": "Books@Cafe official site",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g293986-d1570764-Reviews-Books_at_Cafe-Amman_Amman_Governorate.html",
+          "label": "Tripadvisor: Books at Cafe",
+          "kind": "forum"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed venue open late on a lit street near the First Circle; the roof terrace has railings but steep stairs."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched by the researcher. Skeptic search confirmed it is trading in 2026: opened in Jabal Al Weibdeh in 2013, has an official site (rumijordan.com), an Instagram account and 2026 Tripadvisor reviews. Hours were not in results, so approximate. Coordinates are an estimate of the block just off Paris Circle, not a checked pin.",
+      "name": "Rumi Cafe",
+      "neighborhood": "Jabal Al Weibdeh (Paris Circle)",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "study",
+        "solo",
+        "quiet",
+        "people-watch"
+      ],
+      "blurb": "A small cafe a few steps from Paris Circle that Weibdeh residents treat as an extension of their living rooms: a long menu of teas, Turkish coffee, a few tables on the pavement and a soft-lit interior where people read or work for hours. It is unhurried in a way the bigger Rainbow Street places are not, and the walk there through Weibdeh's stone villas is half the point. Paris Circle itself, with its low wall and old trees, is a good place to sit when the cafe is full.",
+      "tips": "Sit outside in spring and autumn, inside by the window in winter; order a pot of tea rather than a single cup if you plan to stay. Pair it with the National Gallery park or Darat al Funun, both within ten minutes on foot.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly 9am-midnight daily (check locally)",
+      "lat": 31.957,
+      "lng": 35.9228,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.rumijordan.com/",
+          "label": "Rumi Cafe official site",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.tripadvisor.co.uk/Restaurant_Review-g293986-d6673921-Reviews-Rumi_Cafe-Amman_Amman_Governorate.html",
+          "label": "Tripadvisor: Rumi Cafe",
+          "kind": "forum"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Busy, lit residential street with other cafes around Paris Circle; staff on site until late."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched by the researcher. Skeptic search confirmed the en.wikipedia article title 'The Jordan Museum', that it is closed on Tuesdays, opens Friday afternoons only and charges about 5 JOD; weekday opening is given as 9am or 10am to 5pm depending on the listing. Coordinates were moved about 180 m south-east to the skeptic's recollection of the building beside City Hall and the Al Hussein Cultural Center; still an estimate, so medium.",
+      "name": "The Jordan Museum",
+      "neighborhood": "Ras Al Ain",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "solo",
+        "cozy",
+        "study"
+      ],
+      "blurb": "The national museum sits in a modern stone building at the bottom of the valley in Ras Al Ain, a short walk west of downtown, and it is far quieter than its collection deserves: the Ain Ghazal statues and some of the Dead Sea Scrolls share long, cool galleries with a handful of school groups. The benches in the dim first galleries are good for sitting with your thoughts, and the paved plaza between the museum and the Al Hussein Cultural Center is a wide, calm open space in the evening.",
+      "tips": "Come from downtown along Quraysh Street or Ras Al Ain Street; allow a couple of hours if you actually read the panels. Closed Tuesdays, open only in the afternoon on Fridays, and entry is about 5 JOD for non-Jordanians; check hours before going since they have changed over the years.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly Sat-Thu 9/10am-5pm, Fri afternoon only, closed Tue (check site)",
+      "lat": 31.9447,
+      "lng": 35.9248,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "The Jordan Museum",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Jordan_Museum",
+          "label": "Wikipedia: The Jordan Museum",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.triphobo.com/places/amman-jordan/the-jordan-museum",
+          "label": "TripHobo: The Jordan Museum",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed museum with bag checks; the surrounding plaza is lit and next to a main road, so cross at the signals."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Researcher search confirmed the library (open since 1986) at Al-Kulliyah Al-Ilmiah Al-Islamiyah St, Jabal Amman, postcode 11194, with branches in Ashrafieh and Muqabalayn. Skeptic search returned the same address and a mapcarta entry but no coordinates, and the map page could not be fetched. Opening hours were not in any result. The pin is a rough estimate of that street on the north side of Jabal Amman and should be checked before anyone relies on it; ask a taxi for 'Maktabat Shoman' rather than navigating to the pin. No Wikipedia article for the library itself, so null.",
+      "name": "Abdul Hameed Shoman Public Library",
+      "neighborhood": "Jabal Amman",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "solo",
+        "free",
+        "cozy"
+      ],
+      "blurb": "Jordan's best-known public library, run by the Arab Bank's cultural foundation since 1986, with open shelves in Arabic and English, reading rooms, a children's floor and a steady programme of free talks and film screenings. Anyone can walk in and read; membership is only needed to borrow. On a wet winter afternoon it is the calmest indoor place on Jabal Amman, and the foundation's courtyard is a quiet spot to sit between sessions.",
+      "tips": "It is on Al-Kulliyah Al-Ilmiah Al-Islamiyah Street between the First Circle and downtown; ask any taxi for 'Maktabat Shoman'. Check the foundation's site for current hours and for the evening events calendar, and expect a bag check at the door.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "varies (check site)",
+      "lat": 31.9527,
+      "lng": 35.9235,
+      "coordConfidence": "low",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://shoman.org/en/The-Library/Main-library",
+          "label": "Abdul Hameed Shoman Foundation: Main Library",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.ifla.org/news/community-engagement-and-expansion-the-role-of-the-abdul-hameed-shoman-public-library/",
+          "label": "IFLA: The Role of the Abdul Hameed Shoman Public Library",
+          "kind": "other"
+        },
+        {
+          "url": "https://shoman.org/en/library",
+          "label": "Shoman Foundation: About the Library",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building with security at the entrance; closes in the evening, so plan the walk back to the First Circle on the lit main streets."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed the address (12 King Faisal Street), free entry, hours (10am-5pm, closed Fri) and the en.wikipedia article 'The Duke's Diwan'. Coordinates are an estimate of that block of King Faisal Street, not a checked pin.",
+      "name": "The Duke's Diwan",
+      "neighborhood": "Downtown (Al Balad)",
+      "category": "other",
+      "vibes": [
+        "hidden",
+        "cozy",
+        "rain-ok",
+        "quiet",
+        "free",
+        "solo",
+        "people-watch"
+      ],
+      "blurb": "A 1924 stone house above the shops on King Faisal Street, one of the oldest buildings in Amman, kept open as a free 'diwan' by a private patron: rooms of old photographs, radios and furniture, a balcony over the street and a long tradition of letting anyone come up, sit down and drink tea. It is a rare pocket of stillness right in the middle of the downtown souk, and you can watch the street from the balcony without being in it.",
+      "tips": "Look for the small sign and doorway between the shops opposite the Arab Bank and climb the stairs; there is no ticket, just a guestbook. Closed Fridays and shut by 5pm, so it is a daytime stop to pair with the market.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Sat-Thu 10am-5pm, closed Fri (check locally)",
+      "lat": 31.9517,
+      "lng": 35.933,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "The Duke's Diwan",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Duke%27s_Diwan",
+          "label": "Wikipedia: The Duke's Diwan",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.atlasobscura.com/places/the-dukes-diwan-amman-jordan",
+          "label": "Atlas Obscura: The Duke's Diwan",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Upstairs house on a busy, lit commercial street; the entrance stairs are steep and worn."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched; written from knowledge. The plaza is the paved public square between the Roman Theatre and Al Hashemi Street; coordinates given relative to the Roman Theatre, whose position is very well known, so confidence is high. No English Wikipedia article for the plaza itself confirmed, so null (the theatre has its own article).",
+      "name": "Hashemite Plaza",
+      "neighborhood": "Downtown (Al Balad)",
+      "category": "plaza",
+      "vibes": [
+        "night",
+        "people-watch",
+        "group",
+        "free",
+        "view",
+        "walk"
+      ],
+      "blurb": "The wide stone square in front of the Roman Theatre is where downtown Amman comes out in the evening: families on the low walls with sunflower seeds and corn from the carts, kids on bikes, old men on the benches, the Citadel lit up on the hill above. Tour groups do the theatre in the morning and leave; after sunset the plaza belongs to the city. Sit with your back to the columns and the whole of Al Balad passes in front of you.",
+      "tips": "Come after 7pm in summer when the heat drops and the plaza fills; the benches on the theatre side are quieter than the Al Hashemi Street edge. The theatre itself is ticketed and closes in the evening, but the plaza is always open.",
+      "bestTimes": [
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 31.9525,
+      "lng": 35.939,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Well lit and busy until late, with a tourist police post beside the theatre; the plaza borders a busy road, so use the crossings."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched; written from knowledge. The viewpoint is the public street and steps around the black-and-white Abu Darwish Mosque at the top of Jabal Al Ashrafieh; the mosque is open to Muslims for prayer and the view is from the public street outside. Coordinates estimated from the mosque's position, not a checked pin. Wikipedia title from knowledge, not URL-confirmed.",
+      "name": "Abu Darwish Mosque viewpoint",
+      "neighborhood": "Jabal Al Ashrafieh (east Amman)",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "skyline",
+        "sunset",
+        "free",
+        "solo",
+        "walk",
+        "hidden"
+      ],
+      "blurb": "The striped black-and-white mosque sits on the highest point of Ashrafieh, and the streets and steps around it give one of the widest views in Amman: the Citadel across the valley, downtown far below, and the hills of the western city fading out in layers at dusk. It is a working neighbourhood with almost no visitors, so you will be sharing the low walls with residents rather than photographers. The evening call to prayer echoing across the valleys from up here is the sound of the city.",
+      "tips": "Take a taxi to 'Masjid Abu Darwish' and walk around the north and west sides of the mosque for the downtown view; dress modestly and stay outside the mosque unless you are visiting to pray. The stairways down towards downtown are steep, so go down in daylight.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (street viewpoint)",
+      "lat": 31.9375,
+      "lng": 35.9414,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Abu Darwish Mosque",
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "A street viewpoint with no fence on steep hillsides and long, unlit stairways down; go in daylight or at golden hour and take a taxi back rather than the stairs after dark."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched; written from knowledge. A privately managed but publicly accessible pedestrian boulevard in the Abdali development, open to anyone with no ticket; hours approximate. Coordinates estimated for the middle of the boulevard, not a checked pin. No Wikipedia article confirmed for the boulevard itself, so null.",
+      "name": "Abdali Boulevard",
+      "neighborhood": "Abdali",
+      "category": "plaza",
+      "vibes": [
+        "night",
+        "walk",
+        "people-watch",
+        "skyline",
+        "group",
+        "free",
+        "rain-ok"
+      ],
+      "blurb": "A car-free, tree-lined pedestrian street running through the new Abdali towers, with fountains, benches and long stretches of covered arcade. It is glossier than the rest of this list, but it is where a lot of Amman goes for an evening walk with an ice cream, and the benches away from the restaurant terraces are quiet enough to sit and watch the city go by. The arcades make it one of the few outdoor places in Amman that still works in the rain.",
+      "tips": "Enter from Rafiq Al Hariri Avenue or Suleiman Al Nabulsi Street; the benches at the northern end near the fountains are less busy than the middle stretch. It is busiest on Thursday and Friday nights, calm on weekday afternoons.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 10am-midnight (check locally)",
+      "lat": 31.9613,
+      "lng": 35.9058,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Brightly lit, staffed with security and busy until late; fully pedestrian, with paving that gets slippery when wet."
+      },
+      "lowkeyScore": 2
+    }
+  ]
+}

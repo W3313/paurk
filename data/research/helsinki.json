@@ -1,0 +1,686 @@
+{
+  "city": "Helsinki",
+  "country": "Finland",
+  "slug": "helsinki",
+  "region": "europe-africa",
+  "cityLat": 60.1699,
+  "cityLng": 24.9384,
+  "timezone": "Europe/Helsinki",
+  "searchesRun": [
+    "Kallio Library Helsinki Viides linja opening hours wikipedia",
+    "Roihuvuori Japanese style garden Helsinki cherry trees public park",
+    "Lammassaari boardwalk Viikki Vanhankaupunginlahti nature reserve Helsinki",
+    "Café Regatta Helsinki Merikannontie opening hours",
+    "Kamppi Chapel of Silence Helsinki opening hours",
+    "Hakaniemi Market Hall Helsinki reopened opening hours",
+    "Oodi Helsinki Central Library opening hours 2026",
+    "Aurinkolahti beach Vuosaari Helsinki wikipedia",
+    "Sinebrychoff Park Helsinki (site:en.wikipedia.org)",
+    "Tervasaari island Helsinki Kruununhaka (site:en.wikipedia.org)",
+    "Kaisaniemi Botanic Garden University of Helsinki (site:en.wikipedia.org)",
+    "Akateeminen Kirjakauppa Café Aalto Pohjoisesplanadi opening hours 2026"
+  ],
+  "redditSourcedNotes": "Two stages. RESEARCH STAGE ran eight searches on hours, public access and English Wikipedia titles; no reddit or forum threads appeared in any result and none were read, so nothing here is 'according to locals' beyond the writer's own knowledge of the city. Confirmed then by search results: Oodi (en.wikipedia 'Helsinki Central Library Oodi'; hours Mon-Fri 8-21, Sat-Sun 10-20), Kallio Library (suomi.fi/hel.fi hours; no English article found, title null), Hakaniemi market hall (reopened April 2023, closed Sundays; the en.wikipedia URL appeared with lowercase 'market hall' and is kept as reported), Café Regatta (en.wikipedia 'Cafe Regatta'; hours differ between sources), Kamppi Chapel (free, roughly 8-20, weekend hours disagree between sources), Roihuvuori Cherry Park and the Japan-inspired garden (hel.fi confirms both are public city parks; en.wikipedia 'Kirsikkapuisto'), Lammassaari boardwalk (hel.fi: 1.2 km accessible public boardwalk from Pornaistenniemi, no cycling; no English article), Aurinkolahti beach (hel.fi public beach page). REVIEW STAGE had a cap of four searches and spent them on the least certain Wikipedia titles and on whether the Academic Bookstore still trades. Outcomes: 'Sinebrychoff Park', 'Tervasaari' and 'Seurasaari' all appeared as exact en.wikipedia.org URLs in domain-restricted searches and are now URL-confirmed; the botanic garden article is 'University of Helsinki Botanical Garden', which covers the Kaisaniemi and Kumpula sites, and is used with that caveat; 'Aurinkolahti' was set to null because the article is about the sub-neighbourhood rather than the beach; the Academic Bookstore and Café Aalto are still open (official sites and hel.fi service map in results, cafe hours updated), and the building article 'Kirjatalo' appeared in results and replaces the from-memory title 'Academic Bookstore'. Still from memory only and not URL-confirmed: 'Kamppi Chapel' and 'Kaivopuisto', both kept on high confidence. Kaivopuisto keeps sources [] because no search was ever spent on it. Every source URL in this file appeared in a search result in one of the two stages; the review could not fetch them directly (outbound requests from the review environment were blocked), so they are unverified beyond that. COORDINATES: all set from knowledge in both stages, never from a map lookup. The reviewer agreed with the central building-level points (Oodi, Kamppi Chapel, Kallio Library, Hakaniemi hall, Café Regatta, the bookshop, Tervasaari, the botanic garden, Koffin puisto, Kaivopuisto observatory hill) and left the four large-area spots at medium: Seurasaari (island centre), Kirsikkapuisto (slope by the water tower), the Pornaistenniemi trailhead and the Aurinkolahti beach midpoint could each be a few hundred metres off. SAFETY: all fourteen notes describe lighting, closing times, water, footing and exits only; none needed rewriting. Two cautions are physical (Lammassaari: unlit boardwalk over water with no side exits; Seurasaari: unlit forest paths, one bridge). Hours for the knowledge-only spots remain approximate.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, free access and hours (Mon-Fri 8-21, Sat-Sun 10-20) confirmed via oodihelsinki.fi and suomi.fi in search results. en.wikipedia.org/wiki/Helsinki_Central_Library_Oodi appeared in results. Coordinates from knowledge of the building at Töölönlahdenkatu 4.",
+      "name": "Oodi (Helsinki Central Library)",
+      "neighborhood": "Kluuvi / Töölönlahti",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "view",
+        "cozy",
+        "solo",
+        "free",
+        "people-watch"
+      ],
+      "blurb": "The city's central library, a long timber-and-glass ship facing Parliament across Kansalaistori square, and the place Helsinki actually goes to sit indoors for free. The top floor, called Book Heaven, is one open room under a cloud-white ceiling with lounge chairs along the glass wall and a balcony over the square; people read, nap and stare at the weather for hours. Nobody checks a card and nobody hurries you.",
+      "tips": "Take the spiral stairs or lift to the third floor and head for the seats along the west-facing glass wall or the outdoor balcony at golden hour; the ground floor is busiest and the middle floor is for makerspaces. Cafe on the ground floor, free wifi, and it stays open until 9pm on weekdays.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Fri 8am-9pm, Sat-Sun 10am-8pm",
+      "lat": 60.174,
+      "lng": 24.938,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Helsinki Central Library Oodi",
+      "sources": [
+        {
+          "url": "https://oodihelsinki.fi/en/",
+          "label": "Oodi official site",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.suomi.fi/services/servicepoint/helsinki-central-library-oodi-city-of-helsinki-culture-and-leisure-division/45a85c05-8c2e-441a-8c96-25980be74ce1",
+          "label": "Suomi.fi: Helsinki Central Library Oodi",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building on a lit square beside the central station; open late and busy."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Free entry and roughly 8am-8pm hours confirmed via search (sources disagree on weekend hours, so hours marked check site). Wikipedia title 'Kamppi Chapel' from knowledge, not URL-confirmed in results. Coordinates from knowledge of Narinkka square, Simonkatu 7.",
+      "name": "Kamppi Chapel of Silence",
+      "neighborhood": "Kamppi",
+      "category": "indoor",
+      "vibes": [
+        "quiet",
+        "rain-ok",
+        "cozy",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "A windowless wooden bowl on Narinkka square, one of the busiest pedestrian spots in the city, built for the 2012 design capital year as a place to be silent. Inside is a single curved room of pale spruce with light falling from a rim in the ceiling, a few benches and no services; you sit, the shopping-centre noise disappears entirely, and you leave when you want. It is run jointly by the parish and city social services and is open to everyone regardless of belief.",
+      "tips": "Enter through the low grey annex on the square side, not the wooden bowl itself; phones off and no talking inside. Weekday mid-mornings are the emptiest, and there are staff in the annex if you want to talk to someone.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "roughly 8am-8pm daily, shorter at weekends (check site)",
+      "lat": 60.169,
+      "lng": 24.934,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Kamppi Chapel",
+      "sources": [
+        {
+          "url": "https://www.shift.jp.org/guide/helsinki/others/chapel-of-silence.html",
+          "label": "SHIFT city guide: Kamppi Chapel of Silence",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g189934-d3320587-Reviews-Kamppi_Chapel_of_Silence-Helsinki_Uusimaa.html",
+          "label": "Tripadvisor: Kamppi Chapel of Silence",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, on a lit and busy square next to the Kamppi bus and metro station."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known public seaside park written from knowledge (no search spent). Wikipedia title 'Kaivopuisto' kept on high confidence, not URL-confirmed. Coordinates are for the Ursa observatory hill, the best sitting spot; the park is large.",
+      "name": "Kaivopuisto",
+      "neighborhood": "Ullanlinna / Kaivopuisto",
+      "category": "park",
+      "vibes": [
+        "view",
+        "water",
+        "sunset",
+        "green",
+        "picnic",
+        "walk",
+        "group",
+        "solo",
+        "free",
+        "stargaze"
+      ],
+      "blurb": "The old spa park at the southern tip of the peninsula, where a rocky hill topped by the small Ursa observatory looks out over the archipelago and the ferries heading for Tallinn. On summer evenings the slopes fill with picnics and the rocks facing south-west are where the city watches the sun go down over Suomenlinna; on a winter afternoon you can have the whole hill and the frozen sea to yourself. The shore path below leads past the embassies to Café Ursula and on to the Eira waterfront.",
+      "tips": "Take tram 3 to Kaivopuisto and climb the bedrock behind the observatory rather than staying on the lawns; bring something to sit on since the rock is cold outside July. Alcohol is tolerated at picnics but glass is frowned on, and the shore path is lit while the hill itself is not.",
+      "bestTimes": [
+        "golden-hour",
+        "afternoon",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 60.1565,
+      "lng": 24.9575,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Kaivopuisto",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Open park with a lit shore path; the observatory hill itself is unlit bedrock with uneven footing, so use a light if you stay after dark."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Small public island park written from knowledge in the research stage. Review stage: en.wikipedia.org/wiki/Tervasaari appeared in a domain-restricted search result, so the title is URL-confirmed; the article also confirms the Tervasaarenkannas causeway from Pohjoisranta, the surviving tar granary (now restaurant Savu) and the dog park. Coordinates from knowledge of the island, not a map lookup.",
+      "name": "Tervasaari",
+      "neighborhood": "Kruununhaka",
+      "category": "waterfront",
+      "vibes": [
+        "quiet",
+        "water",
+        "sunrise",
+        "sunset",
+        "view",
+        "green",
+        "solo",
+        "picnic",
+        "free",
+        "hidden"
+      ],
+      "blurb": "A small island park joined to the Kruununhaka shore by a short causeway, ten minutes' walk from Senate Square but almost never on a visitor's route. It has a lawn, an old tar-storage-era wooden building now used as a summer restaurant, a dog park and a ring of rocks and benches facing every direction over the water, so there is always a spot out of the wind. Locals from the surrounding blocks come to read, watch the boats in Pohjoissatama and catch the low sun on the water.",
+      "tips": "Walk out along Pohjoisranta and cross the causeway at the north end of the district; the eastern rocks face the sunrise over Korkeasaari and the western bench line gets the evening. It is exposed, so dress for wind even in summer.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 60.1755,
+      "lng": 24.9665,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Tervasaari",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Tervasaari",
+          "label": "Wikipedia: Tervasaari",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit causeway and paths, unfenced rocky shoreline; stay back from the water's edge in ice or wet weather."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "University botanic garden written from knowledge; outdoor garden free, glasshouses charge. Review stage: the English article is en.wikipedia.org/wiki/University_of_Helsinki_Botanical_Garden (URL-confirmed); it covers both the Kaisaniemi and Kumpula sites, Kaisaniemi being the historic main one, so the title is used with that caveat. Hours approximate and seasonal, not confirmed by search.",
+      "name": "Kaisaniemi Botanic Garden",
+      "neighborhood": "Kaisaniemi",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "solo",
+        "study",
+        "rain-ok",
+        "hidden"
+      ],
+      "blurb": "The University of Helsinki's botanic garden, a walled block of old trees, ponds and systematic beds a few hundred metres behind the central station. The outdoor garden is free and stays quiet even at lunchtime because the walls hide it from Kaisaniemi park next door; the 19th-century glasshouses charge a small fee and are the warmest, greenest place in the city in February. Benches under the big trees by the pond are the classic spot for an hour with a book.",
+      "tips": "Enter from Kaisaniemenranta or from the Unioninkatu gate; the outdoor garden is free, the glasshouses take tickets at the Kaisaniemenranta entrance. Outdoor areas close in the evening and glasshouse days vary by season, so check the university's garden page.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "outdoor garden roughly 9am-8pm summer, shorter in winter; glasshouses varies (check site)",
+      "lat": 60.1745,
+      "lng": 24.9445,
+      "coordConfidence": "high",
+      "wikipediaTitle": "University of Helsinki Botanical Garden",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/University_of_Helsinki_Botanical_Garden",
+          "label": "Wikipedia: University of Helsinki Botanical Garden",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Walled, staffed garden that is locked outside opening hours; the surrounding Kaisaniemi park is lit but the garden itself closes before dark in winter."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Neighbourhood park (Koffin puisto) written from knowledge in the research stage. Review stage: en.wikipedia.org/wiki/Sinebrychoff_Park appeared in a domain-restricted search result, so the title is URL-confirmed; the article confirms the Bulevardi frontage, the art museum in the old residence and the stairway up from Iso Roobertinkatu. Coordinates for the sloping lawn below the museum, from knowledge.",
+      "name": "Sinebrychoffin puisto (Koffin puisto)",
+      "neighborhood": "Punavuori",
+      "category": "park",
+      "vibes": [
+        "green",
+        "picnic",
+        "people-watch",
+        "sunset",
+        "group",
+        "solo",
+        "free"
+      ],
+      "blurb": "A sloping lawn behind the old Sinebrychoff brewery buildings on Bulevardi, known to everyone as Koffin puisto after the beer brand. It is the living room of Punavuori: on any warm evening the grass is covered in blankets, portable speakers and takeaway from the neighbourhood, and the top of the slope catches the last sun over Hietalahti. Small enough to feel like a shared backyard, big enough that you can always find a corner.",
+      "tips": "Come up from Bulevardi past the art museum and sit high on the slope for the sun and the view down over the crowd; the Hietalahti market hall two blocks away is the place for food if it rains. Loud on Friday and Saturday evenings in summer, quiet at all other times.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 60.1625,
+      "lng": 24.934,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Sinebrychoff Park",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sinebrychoff_Park",
+          "label": "Wikipedia: Sinebrychoff Park",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit paths around a small open lawn in a residential block, with trams and cafes on Bulevardi a minute away."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, year-round opening and address (Merikannontie 8) confirmed via search; hours differ between sources (Mon-Sat 9-20 / Sun 10-20 vs 9-21 or 9-22), so marked approximate. en.wikipedia.org/wiki/Cafe_Regatta appeared in results.",
+      "name": "Café Regatta",
+      "neighborhood": "Taka-Töölö",
+      "category": "cafe",
+      "vibes": [
+        "water",
+        "cozy",
+        "sunset",
+        "solo",
+        "group",
+        "walk",
+        "people-watch"
+      ],
+      "blurb": "A tiny red wooden cottage on the Töölö shore beside the rowing club, so small that most of the seating is outside on the rocks and jetties around it. You buy a cinnamon bun and a coffee, take a blanket and sit by the water looking across Seurasaarenselkä towards Seurasaari and the Sibelius monument behind you; in winter there is a fire pit and people arrive on skates across the ice. It has been a Sunday habit for west Helsinki for decades and is open every day of the year.",
+      "tips": "Walk down from the Sibelius monument or along the shore path from Hietaniemi; the jetty benches on the south side face the afternoon sun. Refills are cheap, the queue moves fast, and kayak and SUP rental is next door in summer.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "roughly 9am-8pm daily, later in summer (check site)",
+      "lat": 60.1815,
+      "lng": 24.9105,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Cafe Regatta",
+      "sources": [
+        {
+          "url": "https://www.myhelsinki.fi/en/eat-and-drink/caf%C3%A9s/caf%C3%A9-regatta",
+          "label": "MyHelsinki: Café Regatta",
+          "kind": "official"
+        },
+        {
+          "url": "https://palvelukartta.hel.fi/en/unit/21098",
+          "label": "City of Helsinki service map: Café Regatta",
+          "kind": "official"
+        },
+        {
+          "url": "https://coffeeguide.fi/en/helsinki/cafe-regatta/",
+          "label": "Coffeeguide: Cafe Regatta",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed cafe on a lit shore path; the jetties and rocks are unfenced and slippery when wet or icy."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Public island park and open-air museum written from knowledge (no research-stage search spent); the island itself is free, the museum buildings charge in summer. Review stage: en.wikipedia.org/wiki/Seurasaari appeared in a search result, so the title is URL-confirmed. Coordinates are for the island centre, from knowledge, not a map lookup; the footbridge from Meilahti is at about 60.1855, 24.8865. Medium confidence because the island is large.",
+      "name": "Seurasaari",
+      "neighborhood": "Meilahti",
+      "category": "trail",
+      "vibes": [
+        "green",
+        "water",
+        "quiet",
+        "walk",
+        "solo",
+        "picnic",
+        "free",
+        "sunset"
+      ],
+      "blurb": "A forested island reached by a white wooden footbridge from Meilahti, with pine woods, rocky shores and a scatter of old farm buildings that make up the open-air museum. Outside the museum's summer season it is simply a big quiet park where locals walk, feed the very bold red squirrels and sit on the western rocks watching the sun go down over the bay. The paths loop the whole island in about an hour and there are benches on almost every headland.",
+      "tips": "Bus 24 from the centre ends at the bridge; cross and bear left along the shore for the quietest rocks, or right for the museum area and the summer cafe. The museum buildings need a ticket in summer but the island and paths are always free.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (museum buildings seasonal)",
+      "lat": 60.187,
+      "lng": 24.883,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Seurasaari",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Seurasaari",
+          "label": "Wikipedia: Seurasaari",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Forest paths are unlit and the island empties fast after sunset, with one bridge in and out; go in daylight or leave at dusk, and stay off the shore rocks when they are wet or icy."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Reopening (27 April 2023) and hours confirmed via official site in search results: Mon-Sat roughly 8am-5pm main floor, closed Sunday. en.wikipedia.org/wiki/Hakaniemi_market_hall appeared in results (lowercase 'market hall' in the title). Coordinates from knowledge of the hall on Hakaniemi square.",
+      "name": "Hakaniemen kauppahalli (Hakaniemi Market Hall)",
+      "neighborhood": "Hakaniemi",
+      "category": "market",
+      "vibes": [
+        "rain-ok",
+        "cozy",
+        "people-watch",
+        "solo",
+        "group"
+      ],
+      "blurb": "The 1914 red-brick market hall on Hakaniemi square, reopened in 2023 after a long renovation, with fish, bread and cheese stalls downstairs and handicrafts and small cafes on the gallery floor above. It is the neighbourhood market for Kallio and Hakaniemi rather than a showpiece, so the cafe counters upstairs are where people linger over coffee and a korvapuusti with a view down onto the stalls. A good rainy-morning stop between the metro and the Tokoinranta shore.",
+      "tips": "Take the metro to Hakaniemi and cross the square; the upstairs cafes have the calmest seats and the best view of the hall. Closed Sundays, and most stalls wind down by late afternoon, so go before 3pm.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Sat roughly 8am-5pm, closed Sun (stall hours vary)",
+      "lat": 60.179,
+      "lng": 24.9515,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Hakaniemi market hall",
+      "sources": [
+        {
+          "url": "https://hakaniemenkauppahalli.fi/en/",
+          "label": "Hakaniemi Market Hall official site",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.helsinkitimes.fi/finland/finland-news/domestic/23323-the-renovated-hakaniemi-market-hall-is-now-ready-for-move-in-doors-to-open-before-may-day.html",
+          "label": "Helsinki Times: renovated hall reopening",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.myhelsinki.fi/places/hakaniemi-market-hall/",
+          "label": "MyHelsinki: Hakaniemi Market Hall",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed indoor market on a lit square directly above a metro station; closes late afternoon."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Address (Viides linja 11) and hours (Mon-Thu 8-20, Fri 8-18, Sat 10-16, Sun 12-18) confirmed via suomi.fi and hel.fi service map in search results. No English Wikipedia article found for the library itself (only Linjat and Helsinki City Library), so title null.",
+      "name": "Kallion kirjasto (Kallio Library)",
+      "neighborhood": "Kallio / Torkkelinmäki",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "cozy",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "A 1912 art nouveau library with a green copper roof on the corner of Viides linja and Fleminginkatu, in the middle of the densest district in Finland. Inside are high ceilings, worn wooden reading tables, a small newspaper room and a resident population of students and freelancers who treat it as a second home. After Oodi it feels like the opposite kind of library: small, old, unhurried and almost entirely local.",
+      "tips": "Tram 9 or the metro to Hakaniemi and a short walk uphill; the upstairs reading room is the quietest and the ground-floor sofas by the window are for browsing. Closes at 6pm on Fridays and opens at noon on Sundays.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Thu 8am-8pm, Fri 8am-6pm, Sat 10am-4pm, Sun 12pm-6pm",
+      "lat": 60.185,
+      "lng": 24.953,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.suomi.fi/services/servicepoint/kallio-library-city-of-helsinki-culture-and-leisure-division/91c3953f-146a-4738-9228-6a925f26b4f6",
+          "label": "Suomi.fi: Kallio Library",
+          "kind": "official"
+        },
+        {
+          "url": "https://palvelukartta.hel.fi/en/unit/8215",
+          "label": "City of Helsinki service map: Kallio Library",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.myhelsinki.fi/places/kallio-library/",
+          "label": "MyHelsinki: Kallio library",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public library on a lit residential street with tram and metro nearby."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "hel.fi confirms both the Cherry Park (200+ trees by the water tower) and the adjacent hectare-sized Japan-inspired garden are public city parks in Roihuvuori. en.wikipedia.org/wiki/Kirsikkapuisto appeared in results and is about the cherry park, which is why the spot is named for it. Coordinates from knowledge of the slope by the Roihuvuori water tower; medium confidence.",
+      "name": "Kirsikkapuisto and the Japan-inspired garden",
+      "neighborhood": "Roihuvuori",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "solo",
+        "picnic",
+        "walk",
+        "free",
+        "hidden",
+        "view"
+      ],
+      "blurb": "A sunny slope of more than 200 cherry trees below the Roihuvuori water tower, planted from 2007 by Japanese residents of Finland, with a small Japan-inspired garden of moss-covered bedrock, pines and stone steps on the other side of the same park. For one weekend in May it is mobbed for the hanami festival; the rest of the year it is an east-Helsinki neighbourhood park where you can sit alone on the rocks in the garden and hear nothing but wind in the pines. The hilltop gives a wide view south over Herttoniemi.",
+      "tips": "Metro to Herttoniemi then bus, or a 20-minute walk uphill via Roihuvuorentie; the garden is on the west side of the park, the cherry slope faces south below the tower. Avoid the hanami weekend if you want it quiet; September and October colour is the local secret.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 60.1985,
+      "lng": 25.0525,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Kirsikkapuisto",
+      "sources": [
+        {
+          "url": "https://www.hel.fi/en/culture-and-leisure/outdoor-activities-parks-and-nature-destinations/parks/roihuvuori-cherry-park-and-japan-inspired-garden",
+          "label": "City of Helsinki: Roihuvuori Cherry Park and Japan-inspired garden",
+          "kind": "official"
+        },
+        {
+          "url": "https://vihreatsylit.fi/en/japanilaisvaikutteinen-puutarha/",
+          "label": "Vihreät Sylit: Japan-inspired garden",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.myhelsinki.fi/places/roihuvuori-cherry-park-kirsikkapuisto/",
+          "label": "MyHelsinki: Roihuvuori Cherry Park",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Open neighbourhood park with lit main paths; the garden's stone steps and bedrock are uneven and unlit, so go in daylight."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "hel.fi pages confirm a 1.2 km accessible public boardwalk from Pornaistenniemi to Lammassaari through the Viikki-Vanhankaupunginlahti nature reserve, with two viewing platforms and a bird hide; no cycling, no fires, dogs on lead. No English Wikipedia article found for the boardwalk, so title null. Coordinates are for the Pornaistenniemi trailhead, from knowledge; medium confidence.",
+      "name": "Lammassaari boardwalk (Pornaistenniemi)",
+      "neighborhood": "Viikki / Arabianranta",
+      "category": "trail",
+      "vibes": [
+        "quiet",
+        "water",
+        "green",
+        "walk",
+        "sunrise",
+        "sunset",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "A raised wooden boardwalk that runs 1.2 km out through the reedbeds of the Vanhankaupunginlahti bird reserve to the little island of Lammassaari, a bird hide and a ring of old summer cottages. Two glass-walled viewing decks along the way are the place to sit: reeds on all sides, geese and marsh harriers overhead, and the towers of the city just visible to the south-west. It is inside the city limits, twenty minutes from the centre by tram and a short walk, and still feels like the countryside.",
+      "tips": "Tram 6 or 8 to Arabianranta, then walk north along the shore to the Pornaistenniemi car park where the boardwalk starts; allow an hour for the round trip. No bikes on the boards, dogs on a lead, and bring binoculars in April-May and September for the migration.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 60.2095,
+      "lng": 25.002,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.hel.fi/en/culture-and-leisure/outdoor-activities-parks-and-nature-destinations/outdoor-recreation-areas/pornaistenniemi-and-lammassaari",
+          "label": "City of Helsinki: Pornaistenniemi and Lammassaari",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.hel.fi/en/culture-and-leisure/outdoor-activities-parks-and-nature-destinations/outdoor-recreation-areas/pornaistenniemi-and-lammassaari/lammassaari-accessible-boardwalk-24-km",
+          "label": "City of Helsinki: Lammassaari accessible boardwalk",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.myhelsinki.fi/places/lammassaari/",
+          "label": "MyHelsinki: Lammassaari",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "The boardwalk is unlit, has water and reeds on both sides and no side exits for 1.2 km; go in daylight, turn back well before dusk, and expect the boards to be slippery when wet or frosty."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Public city beach with showers, changing rooms and seasonal lifeguards confirmed via hel.fi in search results. en.wikipedia.org/wiki/Aurinkolahti appeared in results but is about the sub-neighbourhood, not the beach itself, so the review set the title to null rather than risk the wrong photograph. Coordinates are for the middle of the beach, from knowledge, and may be off by a few hundred metres along the shore; medium confidence.",
+      "name": "Aurinkolahti beach",
+      "neighborhood": "Vuosaari / Aurinkolahti",
+      "category": "beach",
+      "vibes": [
+        "water",
+        "sunrise",
+        "walk",
+        "quiet",
+        "solo",
+        "picnic",
+        "free",
+        "stargaze"
+      ],
+      "blurb": "A 700-metre sandy beach with a long promenade at the eastern end of the metro line, facing south over the open Gulf of Finland. In July it is a proper city beach; from September to May it is a wide, empty strand where Vuosaari residents walk dogs, sit on the promenade steps and watch the light on the sea, with the Uutela nature area starting at the eastern end. Sunrise comes straight up out of the water, and it is one of the darkest sky spots you can reach by metro.",
+      "tips": "Metro to Vuosaari and walk ten minutes south down to the shore; the promenade steps at the eastern end are quietest and lead on into the Uutela trails. The cafe is seasonal, so bring a thermos out of season and expect wind straight off the sea.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (lifeguards in summer only)",
+      "lat": 60.1985,
+      "lng": 25.132,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.hel.fi/en/culture-and-leisure/outdoor-activities-parks-and-nature-destinations/public-beaches/helsinkis-public-beaches/aurinkolahti-beach",
+          "label": "City of Helsinki: Aurinkolahti beach",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.myhelsinki.fi/places/aurinkolahti-beach/",
+          "label": "MyHelsinki: Aurinkolahti beach",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit promenade backed by apartment blocks; the sand itself is unlit after dark and the water is unsupervised outside the summer season, so stay on the promenade at night."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Research stage wrote this from knowledge. Review stage: a search confirmed the shop is still trading at Pohjoisesplanadi 39 and Café Aalto is open on the second floor (akateeminen.com, cafeaalto.fi, hel.fi service map and MyHelsinki all in results); cafe hours per those pages Mon-Fri 9-21, Sat 9-19, Sun 11-18, shop hours not separately confirmed. en.wikipedia.org/wiki/Kirjatalo (the Aalto building that houses the shop) appeared in results and is used as the title; the from-memory title Academic Bookstore was not URL-confirmed.",
+      "name": "Akateeminen Kirjakauppa (Academic Bookstore) and Café Aalto",
+      "neighborhood": "Kluuvi",
+      "category": "bookstore",
+      "vibes": [
+        "rain-ok",
+        "cozy",
+        "people-watch",
+        "solo",
+        "quiet",
+        "study"
+      ],
+      "blurb": "Finland's best-known bookshop, in an Alvar Aalto building on the Esplanade whose three-storey atrium is lit by angular skylights that Aalto called his 'book-shaped' lanterns. The English section is large, browsing is unhurried, and Café Aalto on the mezzanine, with its original Aalto lamps and marble tables, is where people sit above the shop floor for an hour with a book they have not bought yet. Warm, dry and open every day, it is the default place to wait out a sleet shower in the centre.",
+      "tips": "Enter from Pohjoisesplanadi or Keskuskatu and take the stairs to the second-floor cafe; the tables along the rail look down into the atrium. The Stockmann department store is across Keskuskatu if the weather is bad, and the cafe serves breakfast daily and a soup lunch on weekdays.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "cafe Mon-Fri 9am-9pm, Sat 9am-7pm, Sun 11am-6pm; shop hours similar (check site)",
+      "lat": 60.1683,
+      "lng": 24.9425,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Kirjatalo",
+      "sources": [
+        {
+          "url": "https://www.akateeminen.com/cafe-aalto/",
+          "label": "Akateeminen Kirjakauppa: Café Aalto",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.cafeaalto.fi/",
+          "label": "Café Aalto official site",
+          "kind": "official"
+        },
+        {
+          "url": "https://palvelukartta.hel.fi/en/unit/56482",
+          "label": "City of Helsinki service map: Cafe Aalto",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.myhelsinki.fi/places/cafe-aalto/",
+          "label": "MyHelsinki: Cafe Aalto",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed shop on the city's main lit boulevard, open into the evening."
+      },
+      "lowkeyScore": 2
+    }
+  ]
+}

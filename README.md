@@ -3,7 +3,7 @@
 > Somewhere to breathe, wherever, whenever.
 
 All the low-key ("lwk") chill spots around you, on a globe. A static web app: a matte porcelain globe on warm
-paper shows 44 cities; pick one (or say *around me*) and get a ranked list of quiet parks, waterfronts,
+paper shows 89 cities; pick one (or say *around me*) and get a ranked list of quiet parks, waterfronts,
 viewpoints, gardens, cafés, libraries and public rooftops for **right now**: the time of day, the sun, the
 weather and your distance all change the order and the words.
 
@@ -74,7 +74,7 @@ To deploy by hand instead of connecting Git: `npm run build && npx wrangler page
 | **Whenever** | Sunrise, sunset and golden hour are computed on the device (SunCalc) per city. The horizon light on the page and the sphere follow the phase of day; a *sun-rule* dial lets you scrub the day (and pin a time into the link) to see what the picks would be at 21:30. |
 | **Ranking** | "Right now" scoring: period of day × weather (Open-Meteo, keyless, optional) × your chosen vibes × distance × hours confidence. Every top pick explains itself in one line starting with *because*. At night, spots with a caution note sink below *better in daylight*. |
 | **Spot page** | A deterministic *Sumi poster* is painted first; a photograph from the spot's Wikipedia article loads over it when one exists (fetched in your browser from Wikipedia's public API, with a Commons attribution link). Blurb, tip, best times, hours (*open now* only when the hours are unambiguous, otherwise *see hours*), *take care* note, sources, save, share, *breathe here*. |
-| **Find** | One combobox over all 44 cities and all 604 places, opened from the header or with `/`. Ranks names, neighbourhoods, categories and vibes in tiers; every row carries that place's local clock, its period of day, and a countdown to what happens next there. Before you type a letter it already offers what the light is doing elsewhere, where you have been lately, and the whole city list. |
+| **Find** | One combobox over all 89 cities and all 1,229 places, opened from the header or with `/`. Ranks names, neighbourhoods, categories and vibes in tiers; every row carries that place's local clock, its period of day, and a countdown to what happens next there. Before you type a letter it already offers what the light is doing elsewhere, where you have been lately, and the whole city list. |
 | **Saved** | Saved spots (localStorage) grouped by city; the globe fills the disc of cities that hold them. |
 | **Access** | Every control is an underlined word with a 44 px hit box (checked by `npm run shots`); native dialogs; one polite live region; reduced-motion (*still*) mode; paper and slate themes; 4.5:1 text contrast under every horizon colour. |
 
@@ -92,12 +92,14 @@ The brief asked for research through Reddit. Reddit is not reachable from the en
    coordinates against the city centre, kept or nulled the Wikipedia title that drives the photo, and wrote the
    file. All 44 cities went through this stage — but be clear about what the stage could and could not do:
 
-   **17 of the 44 cities could not reach the web at all.** The session's search budget ran out partway through
+   **17 cities could not reach the web at all.** They are all from the original 44; every one of the 45
+   cities added later had working search. In those 17 the session's search budget ran out partway through
    and the egress proxy refused direct fetches, so for *amsterdam, auckland, barcelona, berkeley, berlin,
    hong-kong, istanbul, kyoto, lisbon, london, melbourne, mexico-city, mumbai, prague, seoul, singapore and
    washington-dc* both the research and the review pass ran on the model's own knowledge of the city. Those
-   files say so themselves, in capitals, in their `verifyNotes`. **354 of the 604 spots cite no source of any
-   kind**, and in 8 cities not one spot does. 393 spots carry a Wikipedia title, but many were kept from
+   files say so themselves, in capitals, in their `verifyNotes`. Across the whole dataset **518 of the 1,229
+   spots cite no source of any kind**, and in 8 cities not one spot does — all 8 among the original 44. 744
+   spots carry a Wikipedia title, but many were kept from
    reviewer knowledge rather than confirmed by a lookup — an unconfirmed title degrades to no photo rather than
    a wrong one, which is why they were kept.
 
@@ -123,7 +125,7 @@ neither is the reputation of the neighbourhood next door. An unlit path with few
 *go in daylight*; it does not need a second reason, and the second reason is usually the one that turns a travel
 note into a slur. Specific crime claims are held to the same standard as everything else: no source, no claim.
 
-This was not true of the first version of the dataset. All 604 notes were swept against the rule above and **32
+This was not true of the first version of the dataset. All 604 notes then in the dataset were swept against the rule above and **32
 across 21 cities failed it**: 15 characterised the people in or near a place, 15 leaned on an adjacent
 neighbourhood's reputation, 12 used vague "feels rough" language, 11 told you to avoid somewhere without saying
 what the hazard was, and 9 asserted a crime pattern nothing supported. Five of the 32 were public libraries,
@@ -131,10 +133,14 @@ graded by the people outside them.
 
 All 32 were rewritten at source and re-checked twice — once that the new wording no longer describes anyone, and
 once that it still tells you the thing that matters, since a sanitised note that leaves you walking into an unlit
-dead end believing it is fine is a worse failure than the one being fixed. Every one of the 604 spots still
+dead end believing it is fine is a worse failure than the one being fixed. Every one of the 1,229 spots still
 carries a note. Four dropped from `caution` to `ok` because the only reason they carried it was the removed
-clause; each is a staffed or gated venue that closes before dark, and each kept its practical advice. If you find
-one that still breaks the rule, that is a bug worth an issue.
+clause; each is a staffed or gated venue that closes before dark, and each kept its practical advice.
+
+The 45 cities added afterwards were written to this rule from the start rather than cleaned up after, and each
+was read by a second pass whose only job was to catch breaches of it; 7 were caught and rewritten. A sweep of
+all 1,229 notes, verifyNotes, blurbs and tips finds none remaining. If you find one that does, that is a bug
+worth an issue.
 
 ## Stack
 

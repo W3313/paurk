@@ -1,0 +1,647 @@
+{
+  "city": "São Paulo",
+  "country": "Brazil",
+  "slug": "sao-paulo",
+  "region": "americas",
+  "cityLat": -23.5505,
+  "cityLng": -46.6333,
+  "timezone": "America/Sao_Paulo",
+  "searchesRun": [
+    "Mirante Sesc Avenida Paulista horário entrada gratuita",
+    "Praça Pôr do Sol Alto de Pinheiros horário de funcionamento fechamento",
+    "Biblioteca de São Paulo Parque da Juventude horário de funcionamento",
+    "Trianon Park São Paulo wikipedia",
+    "Parque do Carmo Itaquera wikipedia",
+    "Casa das Rosas Avenida Paulista horário de funcionamento jardim",
+    "Centro Cultural São Paulo Vergueiro wikipedia",
+    "Parque Alfredo Volpi Morumbi horário de funcionamento",
+    "Livraria da Vila Alameda Lorena 1731 horário de funcionamento café",
+    "Parque da Aclimação horário de funcionamento Rua Muniz de Souza",
+    "Biblioteca Mário de Andrade horário de funcionamento Rua da Consolação 94",
+    "Sesc Pompeia horário de funcionamento Rua Clélia 93"
+  ],
+  "redditSourcedNotes": "Two stages, twelve searches in total, all in Portuguese or aimed at Wikipedia titles. RESEARCH STAGE (8 searches) confirmed: Parque Trianon and Parque do Carmo (English Wikipedia URLs seen in results), Casa das Rosas (Wikipedia URL, free, garden Tue-Sun 7am-10pm), Centro Cultural São Paulo (researcher reports the URL en.wikipedia.org/wiki/São_Paulo_Cultural_Center in results; the reviewer could not re-open Wikipedia, so this title rests on the researcher's report), Biblioteca de São Paulo (bsp.org.br, Tue-Sun 9:30am-6:30pm), Parque Alfredo Volpi (city page, 6am-6pm) and Praça Pôr do Sol (fenced since 2020, closing time disputed 8pm vs 10pm, only a Portuguese Wikipedia article found). One candidate was dropped by search: the free Sesc Avenida Paulista mirante is closed for structural works. REVIEW STAGE (4 searches, plus attempts to open Wikipedia and two store pages directly that the network proxy blocked) confirmed: Biblioteca Mário de Andrade hours on city culture pages (common areas Mon-Fri 9am-9pm, weekends 9am-6pm), Parque da Aclimação (Rua Muniz de Souza 1119, 6am-8pm) and Sesc Pompeia (Tue-Sat 10am-10pm, Sun 10am-7pm), and returned the exact English Wikipedia URL SESC_Pompeia, which corrected the researcher's accented guess. The Livraria da Vila search raised a problem it could not settle: listings at both Alameda Lorena 1731 and 1501 and a 2022 headline about a new address; the entry now says so, the pin is a low-confidence estimate for 1501, and a reader should check the chain's store list. STILL FROM KNOWLEDGE ONLY, no search behind them: Parque Villa-Lobos, Jardim da Luz and Jardim Botânico (hours approximate, sources empty). Wikipedia titles kept from knowledge without a URL: 'Villa-Lobos Park' and 'Jardim da Luz'; 'São Paulo Botanical Garden' was nulled at review because it was memory-only and one memory-only title had already proved wrong. Titles null for lack of an English URL: Biblioteca Mário de Andrade, Parque da Aclimação, Praça Pôr do Sol, Biblioteca de São Paulo, Parque Alfredo Volpi, Livraria da Vila. No reddit or 'according to locals' content was read at either stage. Every source URL appeared in a real search result; none were opened and read in full at review because the proxy blocked them, so labels describe what the result snippet said. Coordinates: all 14 within 17 km of the centre and re-checked against street addresses from memory; no pin was found to be in the wrong place, but the large parks (Carmo, Villa-Lobos) and the Botanical Garden are pinned near entrances and could be a few hundred metres off. Safety screen: all 14 are ordinary public places; the two cautions (Carmo, Villa-Lobos) rest on unlit far paths near closing; one note (Mário de Andrade) was reworded at review to state the lighting condition rather than imply it.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Existence and English Wikipedia title (São Paulo Cultural Center) confirmed by search; hours from knowledge and approximate. Coordinates are for the Rua Vergueiro entrance, high confidence.",
+      "name": "Centro Cultural São Paulo (CCSP)",
+      "neighborhood": "Paraíso / Liberdade (Rua Vergueiro)",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "study",
+        "free",
+        "people-watch",
+        "cozy",
+        "green",
+        "solo",
+        "group"
+      ],
+      "blurb": "A low, long 1980s municipal cultural centre that spills down the slope between Rua Vergueiro and the 23 de Maio expressway, all open ramps, wooden decks and roof gardens. Anyone can walk in and sit anywhere: the public libraries have hundreds of seats, the ramps and lawns are full of students, dancers rehearsing and people reading, and nobody asks you to buy anything. It is the closest thing central São Paulo has to a free living room.",
+      "tips": "Come straight out of Vergueiro metro (Line 1) into the building; the Biblioteca Sérgio Milliet on the upper level is the quietest reading space, and the garden roof over the expressway side catches afternoon sun. Free exhibitions and film programmes are posted at the entrance.",
+      "bestTimes": [
+        "afternoon",
+        "morning"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "roughly Tue-Sun 10am-8pm, library hours shorter (check site)",
+      "lat": -23.5716,
+      "lng": -46.6396,
+      "coordConfidence": "high",
+      "wikipediaTitle": "São Paulo Cultural Center",
+      "sources": [
+        {
+          "url": "https://centrocultural.sp.gov.br/",
+          "label": "CCSP official site",
+          "kind": "official"
+        },
+        {
+          "url": "https://spcultura.prefeitura.sp.gov.br/espaco/169/",
+          "label": "SpCultura: CCSP",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building with security at the doors, directly above a metro station; the outdoor ramps are lit but the garden roof empties after dark, so sit inside late."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review-stage search confirmed the address (Rua da Consolação 94), free entry and hours on the city culture department's own pages: common areas Mon-Fri 9am-9pm and weekends/holidays 9am-6pm, collection rooms Mon-Fri 9am-5pm. Coordinates high confidence. No English Wikipedia URL appeared in results, so the title stays null (the researcher's null was correct).",
+      "name": "Biblioteca Mário de Andrade",
+      "neighborhood": "Centro (República / Consolação)",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "study",
+        "quiet",
+        "free",
+        "solo",
+        "cozy"
+      ],
+      "blurb": "The city's main public library, a 1940s art deco tower on the edge of the old centre, restored and reopened with a bright reading room, a periodicals hall and a big sculpture-court entrance. Getting a seat is easy on weekdays, the collection is enormous, and the building is one of the few places downtown where you can sit for hours in silence for nothing. A good rain plan for anyone already in the centre.",
+      "tips": "Enter from Rua da Consolação a few minutes from Anhangabaú or República metro; bring ID to register if you want to borrow, otherwise just find a desk. The entry hall, terrace and study rooms are open every day; the specialist collection rooms (arts, maps, periodicals) keep office hours on weekdays only.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Fri 9am-9pm, weekends and holidays 9am-6pm (hall, terrace, study rooms); collections Mon-Fri 9am-5pm",
+      "lat": -23.5457,
+      "lng": -46.6425,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://prefeitura.sp.gov.br/web/cultura/w/bma/30720",
+          "label": "City culture department: BMA opening hours",
+          "kind": "official"
+        },
+        {
+          "url": "https://prefeitura.sp.gov.br/web/cultura/w/bibliotecas/servicos/14090",
+          "label": "City culture department: library opening hours",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed and guarded building whose front door opens onto a wide, lit avenue; the block behind it is narrow and dimly lit after the reading rooms close, so walk out along Consolação to the metro at night."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed en.wikipedia.org/wiki/Casa_das_Rosas, free entry, garden Tue-Sun 7am-10pm and museum 10am-6pm (state culture department and Visite Museus pages). Coordinates for Av Paulista 37, high confidence.",
+      "name": "Casa das Rosas",
+      "neighborhood": "Bela Vista / Paraíso (Avenida Paulista)",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "free",
+        "cozy",
+        "hidden",
+        "solo",
+        "people-watch",
+        "night"
+      ],
+      "blurb": "A 1930s mansion with a formal rose garden at the quiet southern end of Avenida Paulista, kept as a free poetry and literature museum by the state. The garden is the point: gravel paths, rose beds and benches behind a low wall, with the glass towers of Paulista looming over the roof. Office workers eat lunch here and readers take the benches in the late afternoon; the house itself has a small café and free exhibitions.",
+      "tips": "Two minutes from Brigadeiro metro (Line 2). The garden stays open until 10pm even when the house is shut, so it works for an evening sit; the benches at the back are the quietest. Closed Mondays.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Tue-Sun 7am-10pm (garden); museum 10am-6pm",
+      "lat": -23.5706,
+      "lng": -46.644,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Casa das Rosas",
+      "sources": [
+        {
+          "url": "https://www.cultura.sp.gov.br/sec_cultura/Equipamentos/museus/CASA_DAS_ROSAS",
+          "label": "São Paulo State Culture Department: Casa das Rosas",
+          "kind": "official"
+        },
+        {
+          "url": "https://visite.museus.gov.br/instituicoes/casa-das-rosas/",
+          "label": "Visite Museus: Casa das Rosas",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Casa_das_Rosas",
+          "label": "Wikipedia: Casa das Rosas",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Walled, staffed garden on a lit avenue with a metro entrance opposite; fine solo into the evening."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed en.wikipedia.org/wiki/Parque_Trianon (official name Parque Tenente Siqueira Campos). Hours from knowledge, approximate. Coordinates for the park block between Paulista and Alameda Santos, high confidence.",
+      "name": "Parque Trianon (Tenente Siqueira Campos)",
+      "neighborhood": "Cerqueira César (Avenida Paulista)",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "free",
+        "solo",
+        "walk",
+        "hidden",
+        "cozy"
+      ],
+      "blurb": "A fragment of original Atlantic Forest, barely 48,000 square metres, hemmed in by the towers of Avenida Paulista opposite MASP. Inside the gate the traffic noise drops fast: tall old trees, ferns, damp shade, a few benches and a loop of paths that takes ten minutes to walk. Locals use it for a lunchtime sit or to cool down between errands on the avenue; tourists mostly walk straight past on their way to the museum.",
+      "tips": "Enter from Avenida Paulista beside the Trianon-Masp metro exit or from Alameda Santos on the other side. Benches at the Alameda Santos end are the least used. It closes at 6pm, so it is a daytime spot only.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 6am-6pm daily",
+      "lat": -23.5617,
+      "lng": -46.6559,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Parque Trianon",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Parque_Trianon",
+          "label": "Wikipedia: Parque Trianon",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced, staffed municipal park that locks at 6pm; dense shade means some paths are dim even at midday, so keep to the main loop."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed the square (official name Praça Coronel Custódio Fernandes Pinheiros) is fenced with gates since 2020; sources disagree on closing time (8pm vs 10pm), so hours are approximate. Only a Portuguese Wikipedia article was found, title set to null. Coordinates medium confidence, on the square itself.",
+      "name": "Praça Pôr do Sol",
+      "neighborhood": "Alto de Pinheiros",
+      "category": "viewpoint",
+      "vibes": [
+        "sunset",
+        "view",
+        "skyline",
+        "green",
+        "group",
+        "picnic",
+        "people-watch",
+        "free"
+      ],
+      "blurb": "A sloping grass square on a ridge in Alto de Pinheiros that faces west over the Pinheiros river valley, which is why the city simply calls it Sunset Square. On weekday evenings it is neighbours with dogs and a can of something, on weekends a small festival of picnic blankets and guitars. Come early or on a grey day and it is a quiet lawn with a very long view.",
+      "tips": "Take a bus or ride-hail to Rua Desembargador Ferreira França; the upper terrace has the widest view, the lower lawn is calmer. The square has been fenced since 2020 and the gates close in the evening, so do not plan to stay long after the sun goes.",
+      "bestTimes": [
+        "golden-hour",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 6am-8pm or 10pm (sources differ; check locally)",
+      "lat": -23.5528,
+      "lng": -46.7105,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://prefeitura.sp.gov.br/web/pinheiros/w/noticias/112032",
+          "label": "Pinheiros subprefecture: Praça Pôr do Sol reopening",
+          "kind": "official"
+        },
+        {
+          "url": "https://pt.wikipedia.org/wiki/Pra%C3%A7a_P%C3%B4r_do_Sol",
+          "label": "Wikipedia (pt): Praça Pôr do Sol",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.encontrapinheiros.com.br/pinheiros/praca-por-do-sol/",
+          "label": "Encontra Pinheiros: Praça Pôr do Sol",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated square in a residential street grid; busy at sunset, then it empties quickly and the surrounding streets are quiet, so arrange your ride before the gates close."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Large state park written from knowledge; no search spent. Wikipedia title Villa-Lobos Park given on high confidence from knowledge, not URL-confirmed. Hours approximate. Coordinates for the main entrance area, medium confidence.",
+      "name": "Parque Villa-Lobos",
+      "neighborhood": "Alto de Pinheiros",
+      "category": "park",
+      "vibes": [
+        "green",
+        "walk",
+        "free",
+        "group",
+        "picnic",
+        "sunset",
+        "study",
+        "solo"
+      ],
+      "blurb": "A big, flat, open state park on the west bank of the Pinheiros river, with wide lawns, a eucalyptus grove, a cycling loop and a small free public library in a glass pavilion. It is the west side's answer to Ibirapuera with a fraction of the visitors on weekdays, and the far lawns towards the river stay empty enough to read on. Late afternoon light comes in low across the grass.",
+      "tips": "Villa-Lobos-Jaguaré station (CPTM Line 9) is a short walk away; the Biblioteca Parque Villa-Lobos near the main entrance is a good rain fallback. Weekends are busy with families, so go on a weekday or early.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 5:30am-7pm daily",
+      "lat": -23.5465,
+      "lng": -46.726,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Villa-Lobos Park",
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "Very large and open; the paths furthest from the entrance are unlit and empty near closing time, so head back towards the main gate before dusk."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review-stage search confirmed the park on state and city pages: Rua Muniz de Souza 1119, open 6am-8pm daily (hours can change for events). Coordinates on the lake, medium confidence. No English Wikipedia URL appeared, title stays null.",
+      "name": "Parque da Aclimação",
+      "neighborhood": "Aclimação",
+      "category": "park",
+      "vibes": [
+        "water",
+        "green",
+        "quiet",
+        "walk",
+        "free",
+        "solo",
+        "cozy"
+      ],
+      "blurb": "A hilly neighbourhood park around a lake, originally a private zoo garden from the 1890s, in a residential district south of Liberdade. Herons, turtles and geese work the water, the loop path is a favourite of local walkers, and the benches on the slope above the lake are shaded and rarely full. It is the kind of park people who live nearby use every day and visitors never find.",
+      "tips": "Enter from Rua Muniz de Souza; benches on the upper side of the lake get the morning sun. Closes in the evening, so it is a daytime place. Nearest metro is Vergueiro or Ana Rosa, then a 15-minute walk or short bus ride.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "6am-8pm daily",
+      "lat": -23.574,
+      "lng": -46.632,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.saopaulo.sp.gov.br/conhecasp/parques-e-reservas-naturais/parque-da-aclimacao/",
+          "label": "São Paulo State: Parque da Aclimação",
+          "kind": "official"
+        },
+        {
+          "url": "https://prefeitura.sp.gov.br/web/meio_ambiente/w/noticias/269712",
+          "label": "City environment department: Parque da Aclimação at 80",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced municipal park with staff at the gate, closed at night; the slopes are steep and slippery after rain."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "The city's oldest public garden, written from knowledge; no search spent. Wikipedia title Jardim da Luz given on high confidence from knowledge, not URL-confirmed. Hours approximate; I believe it opens later on Mondays. Coordinates for the garden centre beside Pinacoteca, high confidence.",
+      "name": "Jardim da Luz",
+      "neighborhood": "Luz / Bom Retiro",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "free",
+        "walk",
+        "solo",
+        "hidden",
+        "cozy"
+      ],
+      "blurb": "São Paulo's oldest public garden, laid out in the 18th century as a botanical garden and now a walled park of old trees, a grotto, iron bandstands and sculptures on loan from the Pinacoteca next door. Between Luz station and the museum, it is far quieter than either, and the benches around the central pond are where people from Bom Retiro read newspapers. The Pinacoteca café opens onto the garden when you want coffee.",
+      "tips": "Enter from Praça da Luz opposite the station or through the Pinacoteca side; the sculpture trail is a good excuse to wander. It closes around 6pm, so combine it with a free-entry Saturday at the Pinacoteca and leave before dusk.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 6am-6pm daily (check site)",
+      "lat": -23.5355,
+      "lng": -46.634,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Jardim da Luz",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Walled and staffed garden with guards at the gates, locked at dusk; visit by day and use the Praça da Luz entrance beside the station."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "State botanical garden written from knowledge; no search spent at either stage. The English Wikipedia title 'São Paulo Botanical Garden' was given from memory only, and since another memory-only title in this file turned out to be misspelt, it is set to null rather than risk the wrong photo. Ticket price and hours approximate. Coordinates for the main gate area on Av Miguel Estéfano, medium confidence.",
+      "name": "Jardim Botânico de São Paulo",
+      "neighborhood": "Água Funda (Fontes do Ipiranga)",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "water",
+        "walk",
+        "solo",
+        "picnic",
+        "hidden"
+      ],
+      "blurb": "A state botanical garden inside the Fontes do Ipiranga forest reserve on the far south side, with a long avenue of palms, a Victorian-style glasshouse, lily ponds and trails into real Atlantic Forest. The modest entry fee keeps numbers low, and on weekdays you can have a bench by the ponds to yourself with only birds and marmosets for company. It is the quietest large green space in the city that is easy to reach.",
+      "tips": "Take the metro to São Judas or Conceição then a bus along Avenida Miguel Estéfano, or a ride-hail to the gate. Closed Mondays; the trails and glasshouse are best before the heat, and the ponds at the far end are the calmest sit.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "Tue-Sun roughly 9am-5pm (check site)",
+      "lat": -23.6395,
+      "lng": -46.623,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Ticketed, staffed and gated, closed by 5pm; the forest trails are unpaved and shaded, so wear proper shoes and stay on marked paths."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed en.wikipedia.org/wiki/Parque_do_Carmo and that it is a municipal park of about 1.5 sq km in the East Zone. Hours from knowledge, approximate. Coordinates for the main entrance on Av Afonso de Sampaio e Sousa, medium confidence given the park's size.",
+      "name": "Parque do Carmo",
+      "neighborhood": "Itaquera (Zona Leste)",
+      "category": "park",
+      "vibes": [
+        "green",
+        "water",
+        "walk",
+        "free",
+        "picnic",
+        "group",
+        "sunset",
+        "quiet"
+      ],
+      "blurb": "The second-largest park in the city, out in the East Zone: lakes, cherry trees planted by the Japanese-Brazilian community, big meadows and a stand of Atlantic Forest that most of the west side has never seen. It is a neighbourhood park for a million people, so weekends are lively, but on a weekday the lakeside paths and the cherry grove are wide open and quiet. Worth the trip if you want a long horizon and a sit that feels far from Paulista.",
+      "tips": "Take Line 3 (Red) to Itaquera, then a bus or ride-hail to the main gate on Avenida Afonso de Sampaio e Sousa. The lakes near the entrance are the busy part; walk on towards the cherry grove for quiet. Cherry blossom weekends in July bring crowds.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 5:30am-8pm daily",
+      "lat": -23.575,
+      "lng": -46.468,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Parque do Carmo",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Parque_do_Carmo",
+          "label": "Wikipedia: Parque do Carmo",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.saopaulo.sp.gov.br/conhecasp/parques-e-reservas-naturais/parque-do-carmo/",
+          "label": "São Paulo State: Parque do Carmo",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Enormous park with long unlit paths and forest sections far from any gate; go in daylight, keep to the lakeside and main avenues, and start back well before closing."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed the library (bsp.org.br, SP Leituras): Av Cruzeiro do Sul 2630, free, Tue-Sun and holidays 9:30am-6:30pm, beside Carandiru metro. Coordinates for the library building inside Parque da Juventude, medium confidence. No English Wikipedia article found, title null.",
+      "name": "Biblioteca de São Paulo (Parque da Juventude)",
+      "neighborhood": "Santana (Zona Norte)",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "study",
+        "free",
+        "quiet",
+        "cozy",
+        "green",
+        "solo"
+      ],
+      "blurb": "A bright, low state library inside Parque da Juventude, the park built on the site of the demolished Carandiru prison in the North Zone. It is deliberately unlibrary-like: armchairs, a big glass front onto the park lawns, comics and newspapers alongside the books, and staff who do not mind if you sit all afternoon. The park outside has lawns, sports courts and preserved fragments of the old prison walls turned into a memorial garden.",
+      "tips": "Carandiru metro (Line 1) opens almost onto the park; the library is a short walk in. Closed Mondays. Afternoons fill with students, so mornings are quietest; take a book out onto the lawns when the sun is out.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Tue-Sun and holidays 9:30am-6:30pm",
+      "lat": -23.5097,
+      "lng": -46.6248,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://bsp.org.br/contato/",
+          "label": "Biblioteca de São Paulo: contact and hours",
+          "kind": "official"
+        },
+        {
+          "url": "https://spleituras.org.br/equipamento/biblioteca-de-sao-paulo",
+          "label": "SP Leituras: Biblioteca de São Paulo",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public library in a gated park with a metro station at the gate; the library closes at 6:30pm and the park lawns are lit only near the paths, so head to the metro at dusk."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review-stage search returned listings for this store at two addresses on Alameda Lorena (1731 and 1501) and a March 2022 article headlined 'Livraria da Vila da Alameda Lorena ganha novo endereço'; neither page could be opened through the proxy, so the move is reported as a signal, not a fact. The pin was moved to an estimate for no. 1501 and confidence set to low. Hours come from an aggregator listing and may belong to the old address. A café (La Guapa) upstairs was mentioned in a 2018 blog for the 1731 store.",
+      "name": "Livraria da Vila (Alameda Lorena)",
+      "neighborhood": "Jardins (Jardim Paulista)",
+      "category": "bookstore",
+      "vibes": [
+        "rain-ok",
+        "cozy",
+        "study",
+        "people-watch",
+        "solo",
+        "night"
+      ],
+      "blurb": "The Jardins branch of a São Paulo bookshop chain and the district's best-known place to read indoors without buying a table at a restaurant. For fifteen years it lived in Isay Weinfeld's building at no. 1731, the one with pivoting bookshelves for doors; reports from 2022 say it moved a few blocks along the same street to no. 1501. Either way it is a shop where nobody hurries browsers, with a small café upstairs where residents read for an hour on a rainy evening, and it stays open late.",
+      "tips": "A ten-minute walk from Consolação or Trianon-Masp metro through the Jardins side streets; check the chain's own store list for the current Alameda Lorena number before you go. Weekday evenings are quieter than Saturday afternoons. Listed hours were Mon-Sat 10am-10pm and Sun 11am-8pm.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly Mon-Sat 10am-10pm, Sun 11am-8pm (check site)",
+      "lat": -23.5662,
+      "lng": -46.6632,
+      "coordConfidence": "low",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.livrariadavila.com.br/institucional/nossas-lojas",
+          "label": "Livraria da Vila: store list",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.amigosdolivro.com.br/2022/03/livraria-da-vila-da-alameda-lorena.html",
+          "label": "Amigos do Livro (2022): Alameda Lorena store gets a new address",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed shop on a lit, busy shopping street; taxis and ride-hails are easy to get outside at closing time."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review-stage search confirmed the unit on Sesc's own site (Rua Clélia 93, Tue-Sat 10am-10pm, Sun/holidays 10am-7pm) and returned the English Wikipedia URL en.wikipedia.org/wiki/SESC_Pompeia, so the title was corrected from the unaccented-vs-accented guess 'SESC Pompéia' to the exact article title. Free entry to the public areas from knowledge; sports towers need a Sesc card. Coordinates high confidence.",
+      "name": "Sesc Pompeia",
+      "neighborhood": "Pompeia (Zona Oeste)",
+      "category": "indoor",
+      "vibes": [
+        "rain-ok",
+        "cozy",
+        "free",
+        "people-watch",
+        "study",
+        "group",
+        "solo",
+        "night"
+      ],
+      "blurb": "A 1930s drum factory that Lina Bo Bardi turned into a cultural centre in the 1980s, keeping the brick sheds and adding concrete towers joined by aerial walkways. The long ground-floor hall has a fireplace, a shallow indoor stream, a library with newspapers and dozens of chairs where anyone can sit for hours without spending anything; the canteen does cheap lunches. Locals of every age treat it as a public living room, and it stays open into the evening.",
+      "tips": "Take a bus along Avenida Pompeia or a ride-hail; Rua Clélia is a short walk from Barra Funda or Água Branca stations. Bring ID for the free entrance registration. The library and the deck by the stream are the quiet corners; the sports towers need a Sesc card. Closed Mondays.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Tue-Sat 10am-10pm, Sun and holidays 10am-7pm",
+      "lat": -23.5275,
+      "lng": -46.6738,
+      "coordConfidence": "high",
+      "wikipediaTitle": "SESC Pompeia",
+      "sources": [
+        {
+          "url": "https://portal.sescsp.org.br/unidades/11_POMPEIA",
+          "label": "Sesc São Paulo: Pompeia unit",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/SESC_Pompeia",
+          "label": "Wikipedia: SESC Pompeia",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed and gated building with security at the entrance, open until late; the surrounding streets are quiet at night, so order a ride from the door."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed via prefeitura.sp.gov.br and state pages: municipal park at Rua Engenheiro Oscar Americano 480, open daily 6am-6pm. Coordinates for the entrance, medium confidence. No English Wikipedia article found, title null.",
+      "name": "Parque Alfredo Volpi",
+      "neighborhood": "Morumbi",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "free",
+        "solo",
+        "hidden",
+        "cozy"
+      ],
+      "blurb": "A steep, forested municipal park in Morumbi, almost entirely Atlantic Forest with a small lake and a few clearings, and far fewer visitors than its size deserves because it is hard to reach without a car. Paths wind under tall trees, marmosets and toucans are common, and the lake benches are shaded and usually empty on weekdays. For a city of 12 million it is remarkably silent.",
+      "tips": "Ride-hail or bus to Rua Engenheiro Oscar Americano; the Fundação Maria Luisa e Oscar Americano museum garden is next door if you want a paid, even quieter alternative. The lake is a few minutes downhill from the gate. Closes at 6pm sharp.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "6am-6pm daily",
+      "lat": -23.588,
+      "lng": -46.705,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://prefeitura.sp.gov.br/web/meio_ambiente/w/parques/regiao_centrooeste/5729",
+          "label": "City of São Paulo: Parque Alfredo Volpi",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.saopaulo.sp.gov.br/conhecasp/parques-e-reservas-naturais/parque-alfredo-volpi/",
+          "label": "São Paulo State: Parque Alfredo Volpi",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated park with staff at the entrance, locked at 6pm; the forest paths are steep, shaded and unlit, so go in daylight and stay on the marked trails."
+      },
+      "lowkeyScore": 4
+    }
+  ]
+}

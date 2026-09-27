@@ -1,0 +1,657 @@
+{
+  "city": "Hanoi",
+  "country": "Vietnam",
+  "slug": "hanoi",
+  "region": "asia-pacific",
+  "cityLat": 21.0285,
+  "cityLng": 105.8542,
+  "timezone": "Asia/Ho_Chi_Minh",
+  "searchesRun": [
+    "Manzi Art Space Hanoi 14 Phan Huy Ích cafe opening hours",
+    "Tranquil Books & Coffee Hanoi Nguyễn Quang Bích",
+    "Hanoi Book Street Phố Sách 19/12 Hoàn Kiếm",
+    "National Library of Vietnam Tràng Thi reading room library card foreigners opening hours",
+    "Thống Nhất Park Hanoi fence removed free entry opening hours",
+    "Hồ Văn lake garden opposite Temple of Literature Hanoi Quốc Tử Giám",
+    "Yên Sở Park Hanoi Hoàng Mai opening hours free",
+    "Thiền Quang Lake Hanoi wikipedia",
+    "Vietnam National Fine Arts Museum Hanoi 66 Nguyen Thai Hoc wikipedia opening hours",
+    "Hanoi Botanical Garden Bach Thao wikipedia opening hours ticket price",
+    "Công viên Nghĩa Đô Nguyễn Văn Huyên Cầu Giấy park opening hours",
+    "Thống Nhất Park Hanoi wikipedia Reunification Park Bảy Mẫu lake"
+  ],
+  "redditSourcedNotes": "Two stages. RESEARCH STAGE: eight web searches, all returned results; no reddit threads appeared in any result set, so nothing here is reddit-sourced despite the field name. Confirmed then: Manzi Art Space at 14 Phan Huy Ích (official site, 8am-7pm); Tranquil Books & Coffee at 5 Nguyễn Quang Bích (8am-10pm, Apple Maps coordinate); Hanoi Book Street 19/12 free, 8am-10pm; Thống Nhất Park fence-free since December 2025, free, 5am-10pm (Viet Nam News, The Star); Yên Sở Park free, 5am-7pm; Hồ Văn as the lake section of the Temple of Literature complex; National Library reader-card process (nlv.gov.vn). Wikipedia titles URL-confirmed then: Thiền Quang Lake, West Lake (Hanoi), National Library of Vietnam, Temple of Literature, Hanoi. REVIEW STAGE: four more searches, spent on the Fine Arts Museum title, the Botanical Garden, Nghĩa Đô Park and the Thống Nhất Park title. Outcomes: Vietnam National Museum of Fine Arts confirmed as the exact en.wikipedia title and added; Thống Nhất Park and Hanoi Botanical Garden titles set to null because no en.wikipedia article surfaced for either (a poster is safer than a wrong photo); Trúc Bạch Lake and Vietnam Museum of Ethnology are kept from knowledge and remain not URL-confirmed. Botanical Garden hours corrected to 5am-10pm and the fee hedged (sources give free, 2,000 or 5,000-15,000 VND). Nghĩa Đô Park confirmed at 55 Nguyễn Văn Huyên with gates on Tô Hiệu and Nguyễn Văn Huyên; its published hours conflict and the field says so. Coordinates: Manzi moved ~300 m north to the Quán Thánh / Nguyễn Trường Tộ block, Nghĩa Đô ~200 m west, West Lake Quảng An ~250 m to the water end of Từ Hoa; all three remain medium because they rest on memory of the street grid, not a map result. Every other coordinate is within 8 km of the centre and matches the Wikipedia or maps figure the researcher cited. Sources: the review could not open any URL directly (the container blocks outbound fetches to those hosts), so the research-stage links were not re-fetched; they were kept because each is a specific page that appeared in a search result set and Audiala reappeared in a review search. New review-stage links are attached only where they appeared in a result. Hours for Ethnology Museum, Hồ Văn, National Library and Yên Sở are from knowledge or a single result and approximate. Safety screen: every spot is an ordinary public park, lake shore, museum, library, bookshop street or licensed café; no note characterises people or leans on a neighbourhood reputation; none needed rewriting. Long Biên Bridge and the Red River mid-river island were deliberately left out (active rail bridge; informal riverbank land). Only Yên Sở Park carries caution, for its size, early closing, unfenced water and unlit paths.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title and coordinates (21°01′06″N 105°50′44″E) confirmed from the en.wikipedia article in search results. Lakeside layout and the neighbouring pagodas from knowledge.",
+      "name": "Hồ Thiền Quang (Thiền Quang Lake)",
+      "neighborhood": "Hai Bà Trưng",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "quiet",
+        "green",
+        "sunrise",
+        "solo",
+        "people-watch",
+        "walk",
+        "free"
+      ],
+      "blurb": "A rectangular lake ringed by old trees and a paved promenade, boxed in by Nguyễn Du, Trần Bình Trọng, Trần Nhân Tông and Quang Trung streets, with three small pagodas along its western shore. It is where the surrounding neighbourhood does its morning exercise and evening stroll, and by mid-morning the benches under the trees are mostly empty. The lake is a short walk from Hoàn Kiếm but gets almost none of its foot traffic.",
+      "tips": "The Trần Nhân Tông side connects straight into Thống Nhất Park, so you can combine the two; the Nguyễn Du side has the most shade and the quietest benches. Street coffee vendors set up plastic stools along the shore, and Quang Trung street has proper cafés if it rains.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 21.0183,
+      "lng": 105.8456,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Thiền Quang Lake",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Thi%E1%BB%81n_Quang_Lake",
+          "label": "Wikipedia: Thiền Quang Lake",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit promenade on a busy ring of streets, used late into the evening; the lake edge has a low wall but no railing in places."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed the last of the 2 km perimeter fence was removed in December 2025, entry is free and hours are 5am-10pm (Viet Nam News, The Star, Audiala; Audiala reappeared in the review-stage search). A review search including the word wikipedia returned no en.wikipedia article for the park, so the title is set to null rather than guessed. Coordinate is the centre of Bảy Mẫu Lake.",
+      "name": "Công viên Thống Nhất (Reunification Park)",
+      "neighborhood": "Hai Bà Trưng / Đống Đa",
+      "category": "park",
+      "vibes": [
+        "green",
+        "water",
+        "walk",
+        "people-watch",
+        "picnic",
+        "group",
+        "solo",
+        "free"
+      ],
+      "blurb": "Hanoi's largest inner-city park, 50 hectares around Bảy Mẫu Lake, once fenced and ticketed and now fully open to the surrounding streets after the fences came down in 2022-2025. Retirees do tai chi on the plazas at dawn, students spread out on the lawns behind the lake and the paths along the eastern shore stay quiet during the day. It is big enough that you can always find an unoccupied bench facing the water.",
+      "tips": "Come in from Trần Nhân Tông (opposite Thiền Quang Lake) or Lê Duẩn; the island in Bảy Mẫu Lake, reached by a footbridge, and the paths on the Nguyễn Đình Chiểu side are the calmest. Early morning is exercise hour and very lively; late morning and mid-afternoon are the empty stretches.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "5am-10pm",
+      "lat": 21.013,
+      "lng": 105.844,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://vietnamnews.vn/society/1594782/ha-noi-s-largest-park-to-become-freely-accessible-space-after-fence-removal.html",
+          "label": "Viet Nam News: fence removal at Thống Nhất Park",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/04/27/hanoi-opens-its-parks-welcoming-a-greener-future",
+          "label": "The Star: Hanoi opens its parks",
+          "kind": "press"
+        },
+        {
+          "url": "https://audiala.com/en/vietnam/hanoi/thong-nhat-park",
+          "label": "Audiala: Thống Nhất Park visitor guide",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Open on all sides and busy until about 9pm; interior lakeside paths are dimly lit, so stick to the lit main loop after dark."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review search confirmed the garden at 3 Hoàng Hoa Thám, open daily 5am-10pm (Holidify, gtrip, Tripadvisor). Fee reports disagree: free, 2,000 VND or 5,000-15,000 VND depending on the source, so it is kept as not-free with the blurb hedged. No English Wikipedia article for the garden itself appeared in results (only List of botanical gardens in Vietnam), so the title is null. Coordinate is the garden centre from knowledge.",
+      "name": "Vườn Bách Thảo (Hanoi Botanical Garden)",
+      "neighborhood": "Ba Đình",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "water",
+        "solo",
+        "study",
+        "walk",
+        "hidden"
+      ],
+      "blurb": "A 10-hectare French-era botanical garden behind the Presidential Palace, with century-old trees, a small lake, a wooded hillock and lawns that stay shady all day. A token ticket of a few thousand dong is charged at the gate (some visitors report walking in free), and even that is enough to keep it far quieter than the open parks: on a weekday you share it with a few readers, sketchers and elderly walkers. It is the closest thing central Hanoi has to sitting in a forest.",
+      "tips": "The gate is on Hoàng Hoa Thám, a short walk from the Ho Chi Minh Mausoleum area; climb the little hill (Núi Nùng) for the most secluded benches, or sit on the far side of the lake away from the entrance. Bring mosquito repellent in the wet season.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "5am-10pm (check on arrival)",
+      "lat": 21.0392,
+      "lng": 105.8338,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.holidify.com/places/hanoi/hanoi-botanical-garden-sightseeing-121929.html",
+          "label": "Holidify: Hanoi Botanical Garden hours and fee",
+          "kind": "blog"
+        },
+        {
+          "url": "https://gtrip.vn/vietnam-tours/attractions/hanoi-botanical-garden",
+          "label": "gtrip: Hanoi Botanical Garden (Bach Thao Park)",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g293924-d311051-Reviews-Botanical_Gardens_Vuon_Bach_Thao-Hanoi.html",
+          "label": "Tripadvisor: Botanical Gardens (Vuon Bach Thao)",
+          "kind": "forum"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Walled, ticketed and staffed; paths are shaded and become dim well before closing, so leave by dusk."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known lake immediately south of West Lake, from knowledge only. Wikipedia title from knowledge, not URL-confirmed. Coordinates are the lake centre.",
+      "name": "Hồ Trúc Bạch (Trúc Bạch Lake)",
+      "neighborhood": "Ba Đình (Trúc Bạch)",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunset",
+        "night",
+        "people-watch",
+        "walk",
+        "solo",
+        "free",
+        "view"
+      ],
+      "blurb": "The small lake separated from West Lake by the tree-lined causeway of Thanh Niên street, with a lakeside walkway and a cluster of low-key cafés on its eastern shore. Locals sit on the wall along Trấn Vũ street in the evening with sunflower seeds and iced tea watching the light go down over Trấn Quốc pagoda across the road. It is the West Lake experience at a tenth of the scale and without the traffic.",
+      "tips": "The Trấn Vũ and Trúc Bạch streets on the east and south sides have the widest pavements and the café stools; the Thanh Niên side is louder with traffic and more visited. Phở cuốn (rolled pho) is the neighbourhood dish if you get hungry.",
+      "bestTimes": [
+        "golden-hour",
+        "night",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 21.0475,
+      "lng": 105.8415,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Trúc Bạch Lake",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit streets with cafés open late on the east shore; the lake wall is low and unrailed, and Thanh Niên street has fast traffic to cross."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "West Lake existence and Wikipedia title confirmed (en.wikipedia article appeared in results). The Quảng An / Từ Hoa shore is a chosen stretch of a 500 ha lake, not a single site. Review moved the point roughly 250 m north-west, from inside the residential lanes of the peninsula to the water end of Từ Hoa, from memory of the InterContinental hotel position; still medium confidence and unverified against a map.",
+      "name": "West Lake shore at Quảng An (Từ Hoa / Quảng Bá)",
+      "neighborhood": "Tây Hồ",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunset",
+        "view",
+        "skyline",
+        "walk",
+        "solo",
+        "group",
+        "free"
+      ],
+      "blurb": "The western edge of the Quảng An peninsula, where Từ Hoa and the lakeside lanes off Quảng Bá run along a broad stretch of West Lake facing due west. The lake is 500 hectares, so the sunset here has real horizon, and the shore is lined with stone benches, lotus ponds in summer and fishermen who ignore you. It is the expat-and-local end of the lake rather than the tourist end by Trấn Quốc pagoda.",
+      "tips": "Walk or take a Grab bike to the western end of Từ Hoa and follow the shore path north; the benches thin out the further you go from Xuân Diệu. Weekend evenings the nearby Trịnh Công Sơn pedestrian street has food stalls if you want company afterwards.",
+      "bestTimes": [
+        "golden-hour",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 21.0618,
+      "lng": 105.8248,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "West Lake (Hanoi)",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/West_Lake_(Hanoi)",
+          "label": "Wikipedia: West Lake (Hanoi)",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit lakeside road with scooter traffic; the shore path has stretches without railings and few lights, so stay on the road side after dark."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review search confirmed the park at 55 Nguyễn Văn Huyên, Dịch Vọng ward, free entry, 4.7 ha around a lake, two gates (Nguyễn Văn Huyên and Tô Hiệu) (gody.vn, VinWonders, Xanh SM). Published hours conflict (5am-10pm, 7:30am-9:30pm, 7am-8pm), so the field is hedged. Coordinate moved about 200 m west to sit between the two named streets, from knowledge of the grid; no map result was read, so medium confidence.",
+      "name": "Công viên Nghĩa Đô (Nghĩa Đô Park)",
+      "neighborhood": "Cầu Giấy (Dịch Vọng)",
+      "category": "park",
+      "vibes": [
+        "green",
+        "water",
+        "quiet",
+        "walk",
+        "people-watch",
+        "solo",
+        "free"
+      ],
+      "blurb": "A mid-sized neighbourhood park built around a lake on Nguyễn Văn Huyên street, a few minutes from the Museum of Ethnology, used almost entirely by people who live in the apartment blocks around it. There is a shaded loop path, exercise machines, plenty of benches facing the water and no reason for a visitor to come unless they want somewhere ordinary to sit. It is the kind of park every Hanoi district has and the centre does not.",
+      "tips": "Entrances on Nguyễn Văn Huyên and on Tô Hiệu; pair it with the Museum of Ethnology a few hundred metres south-west. The lakeside benches on the side away from Nguyễn Văn Huyên are the quietest. Dawn and dusk are exercise time and busy, midday is empty.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 5am-10pm (sources disagree; check on arrival)",
+      "lat": 21.0445,
+      "lng": 105.802,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://gody.vn/chau-a/viet-nam/ha-noi/cong-vien-nghia-do-nghia-do-park",
+          "label": "Gody.vn: Công viên Nghĩa Đô",
+          "kind": "blog"
+        },
+        {
+          "url": "https://vinwonders.com/vi/wonderpedia/news/cong-vien-nghia-do-ha-noi/",
+          "label": "VinWonders: Công viên Nghĩa Đô hours",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Residential park with lit paths and a lit main road on one side; well used until mid-evening."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Major public museum at Nguyễn Văn Huyên street, from knowledge only (no search spent); hours and ticket approximate. Wikipedia title from knowledge, not URL-confirmed.",
+      "name": "Bảo tàng Dân tộc học (Vietnam Museum of Ethnology) garden",
+      "neighborhood": "Cầu Giấy",
+      "category": "museum",
+      "vibes": [
+        "green",
+        "quiet",
+        "rain-ok",
+        "solo",
+        "walk",
+        "cozy"
+      ],
+      "blurb": "The museum's outdoor section is a garden of full-size traditional houses moved here from around Vietnam: a Ede longhouse, a Tày stilt house, a soaring Bahnar communal house. Between them are gravel paths, ponds and benches under trees where you can sit for an hour after walking through the indoor galleries. Weekday afternoons are close to empty, and the indoor halls are air-conditioned refuge in the hot months.",
+      "tips": "Buy a ticket at the gate and head straight out the back to the architecture garden; the benches behind the Bahnar house are the shadiest. Closed Mondays; a water-puppet show runs on some days and draws school groups, so check timings if you want quiet.",
+      "bestTimes": [
+        "afternoon",
+        "morning"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Tue-Sun 8:30am-5:30pm, closed Mon (check site)",
+      "lat": 21.0407,
+      "lng": 105.7987,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Vietnam Museum of Ethnology",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, gated museum grounds; gravel paths and stilt-house ladders need care when wet."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review search confirmed the museum at 66 Nguyễn Thái Học and returned the en.wikipedia article Vietnam National Museum of Fine Arts by URL. Hours in results: 8:30am-5pm, with several listings saying closed Monday and others saying daily, so the field is hedged. Coordinate from knowledge (directly across Nguyễn Thái Học from the Temple of Literature).",
+      "name": "Bảo tàng Mỹ thuật Việt Nam (Vietnam Fine Arts Museum)",
+      "neighborhood": "Ba Đình",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "cozy",
+        "solo",
+        "study"
+      ],
+      "blurb": "The national fine arts collection in a converted French colonial boarding school across the road from the Temple of Literature, and one of the least visited major museums in the city. Three floors run from Buddhist sculpture and Đông Sơn bronzes to lacquer and silk paintings from the 20th century, with wooden floors, tall shuttered windows and benches in most rooms. There is a small courtyard café for sitting between floors.",
+      "tips": "Go in the afternoon when the school groups have left; the lacquer painting rooms on the upper floor are the quietest. The ticket is modest and the courtyard café is a good place to wait out a downpour. Some listings give Monday as a closing day, so avoid Mondays unless you have checked.",
+      "bestTimes": [
+        "afternoon",
+        "morning"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "8:30am-5pm; some listings say closed Mon (check site)",
+      "lat": 21.0308,
+      "lng": 105.8375,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Vietnam National Museum of Fine Arts",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Vietnam_National_Museum_of_Fine_Arts",
+          "label": "Wikipedia: Vietnam National Museum of Fine Arts",
+          "kind": "other"
+        },
+        {
+          "url": "https://gtrip.vn/vietnam-tours/attractions/vietnam-national-fine-arts-museum",
+          "label": "gtrip: Vietnam National Fine Arts Museum",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building on a busy lit street; steep old staircases inside."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Address (31 Tràng Thi) and reader-card process confirmed from nlv.gov.vn and search results; Wikipedia title confirmed by URL. Specific opening hours did not appear in results, so left as varies. Card takes time to issue, so a same-day visit may be limited to the grounds and public areas.",
+      "name": "Thư viện Quốc gia Việt Nam (National Library of Vietnam)",
+      "neighborhood": "Hoàn Kiếm",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "cozy",
+        "solo",
+        "green"
+      ],
+      "blurb": "The national library occupies a French colonial compound on Tràng Thi with a shaded front garden, a colonnaded main building and reading rooms that are silent in a way little else in central Hanoi is. Students fill the general reading room during exam season; the periodicals and foreign-language rooms upstairs stay calm. Even the garden benches inside the gate are a good place to sit out of the street.",
+      "tips": "You need a reader card for the reading rooms, applied for in the office to the left inside the gate with instructions in English; issuing can take up to a week, so ask about a temporary or day pass. The foreign-language room is on the second floor. Likely closed Sundays; confirm hours before making a special trip.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "varies (check site)",
+      "lat": 21.0272,
+      "lng": 105.8448,
+      "coordConfidence": "high",
+      "wikipediaTitle": "National Library of Vietnam",
+      "sources": [
+        {
+          "url": "https://nlv.gov.vn/ef/get-a-library-card.html",
+          "label": "National Library of Vietnam: get a library card",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/National_Library_of_Vietnam",
+          "label": "Wikipedia: National Library of Vietnam",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, gated public building with bag storage at the entrance; on a busy central street."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, free entry and 8am-10pm hours confirmed from search results (opened December 2020, runs between Lý Thường Kiệt and Hai Bà Trưng). Coordinate placed from the street grid next to Hỏa Lò, medium confidence.",
+      "name": "Phố Sách 19/12 (Hanoi Book Street)",
+      "neighborhood": "Hoàn Kiếm",
+      "category": "bookstore",
+      "vibes": [
+        "quiet",
+        "study",
+        "cozy",
+        "people-watch",
+        "solo",
+        "night",
+        "free"
+      ],
+      "blurb": "A one-block pedestrian street lined with the kiosks of Hanoi's publishers, opened in 2020 on 19 Tháng 12 street between Lý Thường Kiệt and Hai Bà Trưng. Trees, benches and a book café make it a place to sit and read rather than only shop, and although it is three minutes from Hoàn Kiếm Lake most visitors never turn down it. Evenings bring students browsing under the string lights.",
+      "tips": "Enter from either end; the benches midway down are shaded by the trees and the café at the Hai Bà Trưng end has indoor seating for rain. Books are almost all in Vietnamese, but nobody minds if you sit with your own.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "8am-10pm",
+      "lat": 21.0257,
+      "lng": 105.8473,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://jackfruitadventure.com/book-street-hanoi/",
+          "label": "Jackfruit Adventure: Book Street Hanoi",
+          "kind": "blog"
+        },
+        {
+          "url": "https://thaiest.com/vietnam/travel/hanoi-book-street-pho-sach",
+          "label": "Thaiest: Hanoi Book Street",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Pedestrianised, lit and staffed by the kiosks until 10pm; both ends open onto busy streets."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed Hồ Văn (Văn Lake, also Hồ Giám / Minh Đường) sits directly south of the Temple of Literature main gate across Quốc Tử Giám street and forms part of the relic complex. Free access to the lake garden is from knowledge; gate hours approximate. Coordinate placed just south of the temple gate, medium confidence. The Temple of Literature Wikipedia article covers the whole complex, not the lake alone, so title set to null.",
+      "name": "Hồ Văn (Văn Lake garden)",
+      "neighborhood": "Đống Đa",
+      "category": "garden",
+      "vibes": [
+        "hidden",
+        "quiet",
+        "water",
+        "green",
+        "solo",
+        "study",
+        "free"
+      ],
+      "blurb": "The forgotten front garden of the Temple of Literature: a small lake with an islet and pavilion, shady old trees and stone benches, on the far side of Quốc Tử Giám street from the ticketed temple. Tour groups walk straight from their buses into the temple and never cross the road, so the lake garden is left to students revising and older residents playing chess. It is free and you can see the temple's gate towers over the trees.",
+      "tips": "Cross Quốc Tử Giám street from the temple's main gate and enter the low-walled garden; benches on the west bank face the pavilion. Occasional book fairs and calligraphy events take over the lakeside around Tết.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 7am-6pm (gated; check on arrival)",
+      "lat": 21.0266,
+      "lng": 105.8356,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Temple_of_Literature,_Hanoi",
+          "label": "Wikipedia: Temple of Literature, Hanoi",
+          "kind": "other"
+        },
+        {
+          "url": "https://vietnamdiscovery.com/hanoi/attractions/temple-of-literature/",
+          "label": "Vietnam Discovery: Temple of Literature",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Small walled garden on a busy lit street, closed at night; the lake edge is unrailed."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed Manzi is still operating at 14 Phan Huy Ích with an official site (manziart.space) and hours of 8am-7pm daily; founded 2012 per Hanoi Grapevine. Review moved the coordinate about 300 m north: Phan Huy Ích links Quán Thánh and Nguyễn Trường Tộ, and the original point sat down near Phan Đình Phùng. Still from memory of the grid, so medium confidence.",
+      "name": "Manzi Art Space",
+      "neighborhood": "Ba Đình",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "quiet",
+        "study",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "An independent contemporary art space and café in a white French villa on a quiet street behind Quán Thánh, running since 2012. Downstairs is a café with a courtyard and rotating exhibitions on the walls; upstairs is a small gallery you can wander into with your coffee. It is one of the few places in the city where sitting alone with a book for two hours is the expected behaviour.",
+      "tips": "Phan Huy Ích is a short street between Quán Thánh and Nguyễn Trường Tộ; the courtyard tables are quietest, the front room has the exhibition. Openings and talks happen some evenings, so check the site if you want it empty.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "8am-7pm daily (check site)",
+      "lat": 21.043,
+      "lng": 105.8445,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.manziart.space/",
+          "label": "Manzi Art Space official site",
+          "kind": "official"
+        },
+        {
+          "url": "https://hanoigrapevine.com/vi/2012/11/manzi-hanois-newest-independent-art-space/",
+          "label": "Hanoi Grapevine: Manzi opening (2012)",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed café on a quiet residential street; closes at 7pm, and the lane is lit but has little foot traffic afterwards."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed Tranquil Books & Coffee operating since 2015 at 5 Nguyễn Quang Bích, 8am-10pm; coordinate taken from the Apple Maps result (21.0324, 105.8456), high confidence.",
+      "name": "Tranquil Books & Coffee",
+      "neighborhood": "Hoàn Kiếm (Cửa Đông)",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "quiet",
+        "study",
+        "solo",
+        "night"
+      ],
+      "blurb": "A reading café on a short street at the western edge of the Old Quarter, two floors of bookshelves, brick walls and small rooms, including a mezzanine and a back room where people work on laptops in silence. It has been going since 2015 and the house rule is that it is quiet: no loud conversation, low music, sometimes a piano in the evening. It is where locals go when the Old Quarter cafés are too full.",
+      "tips": "Nguyễn Quang Bích runs off Phùng Hưng near the railway arches; go upstairs or to the back room for the quietest seats. Open until 10pm, which makes it one of the better after-dark options in the centre.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "8am-10pm daily (check site)",
+      "lat": 21.0324,
+      "lng": 105.8456,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g293924-d8815596-Reviews-Tranquil_Books_Coffee-Hanoi.html",
+          "label": "Tripadvisor: Tranquil Books & Coffee",
+          "kind": "forum"
+        },
+        {
+          "url": "https://laptopfriendlycafe.com/cafes/hanoi/tranquil-books-coffee",
+          "label": "Laptop Friendly Cafe: Tranquil Books & Coffee",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.madein.city/hanoi/en/places/tranquil-books-and-coffee-f1nns66mn25h966udu7e9f7e/",
+          "label": "Made in City: Tranquil Books & Coffee",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed café open until 10pm on a lit street a block from busy Phùng Hưng."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed Yên Sở Park is free and open 5am-7pm in Yên Sở ward, Hoàng Mai (Origin Vietnam, Hanoi by Locals). Coordinate placed from memory of the lake and park layout east of the Pháp Vân expressway, medium confidence.",
+      "name": "Công viên Yên Sở (Yên Sở Park)",
+      "neighborhood": "Hoàng Mai",
+      "category": "park",
+      "vibes": [
+        "green",
+        "water",
+        "quiet",
+        "picnic",
+        "walk",
+        "group",
+        "sunset",
+        "free"
+      ],
+      "blurb": "A very large landscaped park around a chain of lakes on the southern edge of the city, with wide lawns, a long lakeside path and far more space than people. It is the place south Hanoi goes for weekend picnics, kite-flying and cycling, and on a weekday afternoon you can sit by the water for an hour and see nobody. The horizon is open enough for a proper sunset over the lake.",
+      "tips": "It is around 8 km south of Hoàn Kiếm, so take a Grab or bus rather than walk; the entrance off the Pháp Vân area leads to the main lawns, and the lakeside path west of the lawns has the emptiest benches. Bring water and shade, there is little cover in the middle of the day and it closes at 7pm.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "5am-7pm",
+      "lat": 20.9635,
+      "lng": 105.8535,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.originvietnam.com/destinations/yen-so-park/",
+          "label": "Origin Vietnam: Yen So Park",
+          "kind": "blog"
+        },
+        {
+          "url": "https://hanoibylocals.com/yen-so-park/",
+          "label": "Hanoi by Locals: Yên Sở Park",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Very large and sparsely used on weekdays, with long unlit paths and unfenced lake edges; go in daylight, stay near the main lawns and plan a ride back since the park closes at 7pm and is far from transit."
+      },
+      "lowkeyScore": 4
+    }
+  ]
+}

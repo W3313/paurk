@@ -1,0 +1,629 @@
+{
+  "city": "San José",
+  "country": "Costa Rica",
+  "slug": "san-jose-cr",
+  "region": "americas",
+  "cityLat": 9.9281,
+  "cityLng": -84.0907,
+  "timezone": "America/Costa_Rica",
+  "searchesRun": [
+    "Parque del Este Sabanilla Montes de Oca horario entrada",
+    "Parque La Libertad Desamparados ubicación horario",
+    "Monte de la Cruz San Rafael de Heredia mirador horario entrada",
+    "Lankester Botanical Garden Cartago wikipedia opening hours",
+    "Museo de Arte Costarricense La Sabana horario entrada gratuita wikipedia",
+    "Biblioteca Nacional de Costa Rica Miguel Obregón Lizano horario wikipedia",
+    "Alma de Café Teatro Nacional Costa Rica horario",
+    "Parque Nacional San José Costa Rica Monumento Nacional wikipedia",
+    "Parque La Libertad Desamparados Río Azul coordenadas latitud longitud",
+    "Monte de la Cruz San Rafael de Heredia coordinates latitude longitude mirador",
+    "Biblioteca Nacional Miguel Obregón Lizano coordenadas Parque Nacional San José Costa Rica calle 15 17 avenida 3",
+    "Parque Francia Barrio Escalante calle 33 coordenadas; Parque del Este Sabanilla coordenadas; Parque de la Paz San Sebastián coordenadas"
+  ],
+  "redditSourcedNotes": "Two stages. RESEARCH STAGE ran 8 searches (hours, fees, access, English Wikipedia titles) and reported: Parque del Este, Parque La Libertad, Monte de la Cruz, MAC, Biblioteca Nacional, Alma de Café and Lankester confirmed via municipal, ministry or venue pages; titles Costa Rican Museum of Art, Lankester Botanical Garden and Biblioteca Nacional \"Miguel Obregón Lizano\" URL-confirmed; La Sabana Metropolitan Park from knowledge. REVIEW STAGE ran 4 searches on the coordinates most likely to be wrong; every direct page fetch (en/es Wikipedia, La Nación, Teletica, MCJ, venue sites) was blocked by the network proxy, so URL contents could not be re-read. Review outcomes: Biblioteca Nacional position confirmed exactly by a search result (9.9357, -84.0714) and used to re-derive the downtown grid, which moved Parque Nacional ~100 m, Parque España ~80 m and CENAC ~170 m (CENAC downgraded to medium). Parque de la Paz was about 1 km off and was moved to a lagoon coordinate that appeared in a result (medium). Parque Francia sits at Avenida 5 / Calle 29 per two results, not Calle 33 as drafted; moved ~350 m (medium) and its text corrected. Parque La Libertad and Monte de la Cruz returned no lat/lng in any result and stay LOW confidence; La Libertad entrance directions and Monte de la Cruz elevation (1,800 m, not 2,000 m) were corrected from search text. SOURCES: five URLs were removed. The MAC \"mac.go.cr\" domain does not resolve at all and is treated as invented; two La Nación story URLs, one Teletica URL and the La Libertad \"contacto\" page carry opaque IDs or could not be tied to any search result seen in this review and could not be fetched, so they were dropped rather than shipped unverified. Remaining prior-stage URLs (vamosaturistear, teatronacional.go.cr, mytanfeet, MCJ) use real domains and plausible slugs but were not fetched; the SINABI, MCJ La Libertad, munisrh and montesdeoca URLs reappeared in review results. New sources were added only from URLs that appeared in review search results. No reddit or \"locals say\" content was read in either stage; the resident-oriented framing (UCR, Parque de la Paz, Parque Francia, Parque España, CENAC) is from prior knowledge. WIKIPEDIA: all four titles kept; none could be fetched during review, but the Biblioteca Nacional en.wikipedia URL appeared in a review result and the other three are held on high confidence from knowledge. HOURS for La Sabana, Parque de la Paz, UCR, CENAC, Parque España and Parque Francia remain approximate from knowledge; CENAC courtyard access and Parque de la Paz facilities are still unconfirmed. SAFETY: all 14 notes were read against the standard and describe only lighting, closing times, terrain, water and weather; none needed rewriting. Two cautions kept (La Sabana unlit interior; Monte de la Cruz fog and trails).",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Very well-known public park on the former airport site; coordinates from knowledge (centre near the lake), high confidence. Wikipedia title \"La Sabana Metropolitan Park\" is kept on high confidence from knowledge in both stages; en.wikipedia could not be fetched during review, so it is not URL-confirmed. Hours approximate: the park has no gates.",
+      "name": "Parque Metropolitano La Sabana",
+      "neighborhood": "La Sabana / Mata Redonda",
+      "category": "park",
+      "vibes": [
+        "green",
+        "walk",
+        "picnic",
+        "group",
+        "solo",
+        "free",
+        "sunset",
+        "people-watch"
+      ],
+      "blurb": "The city's big flat green lung at the west end of Paseo Colón, built on the old international airport: eucalyptus and cypress stands, a lake with ducks, running loops and football pitches. On weekday mornings it is joggers and people reading on the grass; on Sunday afternoons whole families spread out with picnics. It is where josefinos go when they want sky and space without leaving town.",
+      "tips": "The quietest corners are the wooded north-west quadrant and the benches on the far side of the lake from the Estadio Nacional. Bring water and sunscreen since shade is patchy at midday; the free Museo de Arte Costarricense at the east end is the rain fallback.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (no gates; interior unlit)",
+      "lat": 9.936,
+      "lng": -84.101,
+      "coordConfidence": "high",
+      "wikipediaTitle": "La Sabana Metropolitan Park",
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "Very large and mostly unlit away from the perimeter roads after dark; stay on the lit edges near Paseo Colón and the stadium in the evening, or go in daylight. The lake is unfenced."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Prior stage reported free admission, Tue-Sun 9am-4pm and the exact en.wikipedia title Costa Rican Museum of Art from search. Review: the \"mac.go.cr\" source URL does not resolve (DNS failure), so it was removed as unverifiable; the vamosaturistear URL could not be fetched (blocked) and is kept on the prior stage's word. Coordinates from knowledge (east end of La Sabana, old terminal building), medium confidence.",
+      "name": "Museo de Arte Costarricense",
+      "neighborhood": "La Sabana / Mata Redonda",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "free",
+        "solo",
+        "green",
+        "cozy"
+      ],
+      "blurb": "The old 1940 airport terminal at the east end of La Sabana, now the national art museum, with free entry and a sculpture garden out the back. The upstairs Salón Dorado has a stucco relief mural wrapping the whole room and is usually empty; downstairs the rotating shows are small enough to see slowly. It is the calmest indoor room within reach of the park.",
+      "tips": "Enter from the Paseo Colón side; leave bags at the desk. Do the sculpture garden first while the light is good, then the Salón Dorado. Closed Mondays.",
+      "bestTimes": [
+        "afternoon",
+        "morning"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Tue-Sun 9am-4pm, closed Mon (check site)",
+      "lat": 9.9345,
+      "lng": -84.0925,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Costa Rican Museum of Art",
+      "sources": [
+        {
+          "url": "https://vamosaturistear.com/actividades/paseos-gratuitos-museo-de-arte-costarricense/",
+          "label": "Vamos a Turistear: free visits to the MAC",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed museum with a guard at the door; the park outside is busy by day."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Public downtown square; existence confirmed by the prior stage via ministry results. Review: coordinates re-derived from the Biblioteca Nacional's confirmed position (library at Calle 15-17 on the park's north side, park spanning Calle 15-19), moved ~100 m east; high confidence. Teletica URL with an opaque numeric ID could not be fetched and was removed rather than kept unverified. No English Wikipedia article for the park, title null.",
+      "name": "Parque Nacional",
+      "neighborhood": "Downtown (Barrio La California edge)",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "free",
+        "solo",
+        "walk",
+        "people-watch"
+      ],
+      "blurb": "A shaded square of tall trees and benches around the 1895 Monumento Nacional, between the Legislative Assembly and the National Library. It gets a fraction of the foot traffic of Parque Central or Morazán a few blocks west, so office workers and library users eat lunch here in relative peace. The tree canopy keeps it cool at midday.",
+      "tips": "Benches on the north side face the library and get afternoon shade. Combine with the free reading rooms in the Biblioteca Nacional next door. Best treated as a daytime spot.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (open square)",
+      "lat": 9.9346,
+      "lng": -84.071,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.mcj.go.cr/sala-de-prensa/noticias/monumento-nacional-cumple-125-anos-de-su-inauguracion-este-15-de-septiembre",
+          "label": "Ministry of Culture: Monumento Nacional 125 years",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Well used and lit on the street side in daytime; empties after offices close, so go before dusk."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review search returned the library's position as 9°56'8.4\"N 84°4'17.0\"W (9.9357, -84.0714), between Av 3 and 3B, Calle 15 and 17, on the north side of Parque Nacional, matching the file; high confidence. The en.wikipedia URL for the exact title appeared in review search results too. Hours (Mon-Fri 8am-6pm) from the prior stage's SINABI result; free public access to reading rooms is from knowledge.",
+      "name": "Biblioteca Nacional Miguel Obregón Lizano",
+      "neighborhood": "Downtown",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "free",
+        "solo",
+        "cozy"
+      ],
+      "blurb": "The national library, a 1970s concrete block on the corner of Parque Nacional with wide, hushed reading rooms and a periodicals hall that anyone can use. It is where students and researchers go to sit for hours, and on a rainy afternoon it is one of the few quiet, free indoor rooms downtown. The upper floors have long tables by the windows.",
+      "tips": "Bring an ID to register at the entrance; leave bags in the lockers. Reading rooms are silent, so take calls outside. Closed weekends, so plan it as a weekday refuge.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Fri 8am-6pm, closed weekends (check site)",
+      "lat": 9.9357,
+      "lng": -84.0714,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Biblioteca Nacional \"Miguel Obregón Lizano\"",
+      "sources": [
+        {
+          "url": "https://www.sinabi.go.cr/bibliotecas/biblioteca_nacional.aspx",
+          "label": "SINABI: Benemérita Biblioteca Nacional",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Biblioteca_Nacional_%22Miguel_Obreg%C3%B3n_Lizano%22",
+          "label": "Wikipedia: Biblioteca Nacional Miguel Obregón Lizano",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q15548033",
+          "label": "Wikidata: Biblioteca Nacional Miguel Obregon Lizano",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building with a guard and bag check; closes at 6pm."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Small, well-known downtown park from knowledge; not searched in either stage. Review: coordinates re-derived from the grid using the confirmed library position (park occupies Av 3-7, Calle 9-11), nudged ~80 m east; high confidence. No English Wikipedia article known, title null.",
+      "name": "Parque España",
+      "neighborhood": "Barrio Amón / Downtown",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "hidden",
+        "free",
+        "solo",
+        "walk"
+      ],
+      "blurb": "A dense little park of very tall old trees, ferns and winding paths one block east of Parque Morazán, hemmed in by the yellow Casa Amarilla, the old liquor factory (CENAC) and the Metallic School. It feels like a pocket of forest dropped into downtown, and the canopy is loud with birds in the early morning. Most people walk past it on the way to the museums, which is why the benches inside stay free.",
+      "tips": "Enter from Avenida 7 or the CENAC side; the inner benches under the largest trees are the shadiest. Daylight only, since the tree cover makes it dim early.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (open park)",
+      "lat": 9.9361,
+      "lng": -84.0745,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Dense canopy blocks street lighting and sightlines, so treat it as a daytime spot and leave before dusk."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "CENAC courtyards are public and free from knowledge; the MADC museum inside charges. Not searched in either stage; hours approximate and current courtyard access unconfirmed. Review: the prior coordinates sat inside Parque España; moved ~170 m east onto the CENAC block (Av 3-7, Calle 11-15), derived from the grid rather than a map result, so medium confidence. Title null.",
+      "name": "CENAC courtyards (Antigua Fábrica Nacional de Licores)",
+      "neighborhood": "Barrio Amón / Downtown",
+      "category": "plaza",
+      "vibes": [
+        "quiet",
+        "hidden",
+        "free",
+        "solo",
+        "rain-ok",
+        "cozy"
+      ],
+      "blurb": "The old national liquor factory, now the Ministry of Culture complex, with brick-and-stone courtyards, arcades and a covered patio that are open to anyone during the day. The Museo de Arte y Diseño Contemporáneo and the dance and theatre companies live here, so the yards have benches, a small café and a steady low hum of rehearsals rather than traffic. The arcades make it a good place to sit out a downpour.",
+      "tips": "Enter from Avenida 3 opposite Parque España or from Calle 13; the inner courtyard by the MADC entrance has the benches. Weekdays are quietest; check MADC hours separately if you want the galleries.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (roughly Mon-Sat daytime; check site)",
+      "lat": 9.9362,
+      "lng": -84.073,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Gated, staffed complex with security at the entrances; closes in the evening."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed the café inside the Teatro Nacional with hours Mon-Sat 9am-7pm, Sun 9am-6pm, later on performance nights. Coordinates: the theatre itself, high confidence. No article for the café, title null.",
+      "name": "Alma de Café (Teatro Nacional)",
+      "neighborhood": "Downtown (Plaza de la Cultura)",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "people-watch",
+        "solo",
+        "quiet",
+        "night"
+      ],
+      "blurb": "The café in the Teatro Nacional's former women's canteen: marble tables, painted ceilings and tall windows onto Avenida 2. You do not need a theatre ticket, and a coffee buys an hour in one of the most elegant rooms in the country while the plaza outside does its thing. Locals meet here for a quiet afternoon coffee rather than the tourist places on the plaza.",
+      "tips": "Enter through the theatre's side door on Avenida 2; the window tables go first. Come mid-afternoon on a weekday for space, or before a performance for the buzz. Small menu of coffee, crepes and cakes.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Mon-Sat 9am-7pm, Sun 9am-6pm (later on show nights)",
+      "lat": 9.9333,
+      "lng": -84.0774,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.teatronacional.go.cr/Cafeteria",
+          "label": "Teatro Nacional: Cafetería",
+          "kind": "official"
+        },
+        {
+          "url": "https://vamosaturistear.com/actividades/un-cafecito-en-el-corazon-del-teatro-nacional/",
+          "label": "Vamos a Turistear: a coffee in the Teatro Nacional",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed venue with theatre security; the plaza outside is lit and busy until the café closes."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review search results (Mi Costa Rica de Antaño, Cambio Político) place the park at Avenida 5 and Calle 29 in Barrio Escalante, inaugurated 14 July 1964; the prior stage had it near Calle 33, which is the restaurant street two blocks east. Coordinates re-derived from that address and a plus code in a result (WWMM+RQG), moved ~350 m south-east; medium confidence because no result gave a plain lat/lng. Title null.",
+      "name": "Parque Francia",
+      "neighborhood": "Barrio Escalante",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "solo",
+        "people-watch",
+        "free",
+        "cozy"
+      ],
+      "blurb": "A one-block neighbourhood park with old trees and a few benches at Avenida 5 and Calle 29, on the edge of Barrio Escalante, the restaurant district east of downtown. It is where people from the surrounding streets walk their dogs, read and drink a takeaway coffee from the cafés on Calle 33 two blocks east, and it stays quiet even when the restaurant strip is full. Good for an hour between meals.",
+      "tips": "Pick up a coffee on Calle 33 and walk two blocks west to sit on the shaded side. Evenings are lively but pleasant because the restaurants keep the surrounding streets lit and occupied; go before they close.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (open park)",
+      "lat": 9.9352,
+      "lng": -84.066,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://micostaricadeantano.com/2025/05/22/parque-francia-barrio-escalante-san-jose-1964/",
+          "label": "Mi Costa Rica de Antaño: Parque Francia, 1964",
+          "kind": "blog"
+        },
+        {
+          "url": "https://cambiopolitico.com/parque-francia-en-barrio-escalante/95124/",
+          "label": "Cambio Político: Parque Francia en Barrio Escalante",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Small and overlooked by houses and restaurants; lit from the surrounding streets in the evening."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Municipal park confirmed via the Montes de Oca municipality (Tue-Sun 8am-4pm, ₡1,000 entry, free sport window 5-8am, 1.2 km east of the Cristo de Sabanilla, entrance opposite a Fresh Market); the municipal page reappeared in review search results, as did a Spanish Wikipedia article. No result gave a lat/lng, so coordinates remain an estimate from the 1.2 km description; medium confidence. The prior stage's La Nación URL (opaque story ID) could not be fetched and was removed. Title null.",
+      "name": "Parque del Este",
+      "neighborhood": "Sabanilla, Montes de Oca",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "picnic",
+        "view",
+        "solo",
+        "group"
+      ],
+      "blurb": "A hilly municipal park on the eastern edge of the city above Sabanilla, with pine and cypress woods, open lawns, ranchos for picnics and paths that climb to views back over the valley. It is where east-side families go on Sundays and where runners use the free 5am-8am window on weekdays, and outside those times it is nearly empty. The trees make it several degrees cooler than downtown.",
+      "tips": "Take a bus or taxi towards San Ramón de La Unión; the entrance is opposite a Fresh Market about 1.2 km east of the Cristo de Sabanilla. ₡1,000 entry (free for under-12s and over-65s), closed Mondays, dogs allowed. Bring your own food.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "Tue-Sun 8am-4pm (free sport 5-8am), closed Mon",
+      "lat": 9.942,
+      "lng": -84.02,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://montesdeoca.go.cr/tramites/parque_del_este.aspx",
+          "label": "Municipalidad de Montes de Oca: Parque del Este",
+          "kind": "official"
+        },
+        {
+          "url": "https://es.wikipedia.org/wiki/Parque_del_Este_(Costa_Rica)",
+          "label": "Wikipedia (es): Parque del Este (Costa Rica)",
+          "kind": "other"
+        },
+        {
+          "url": "https://montesdeoca.go.cr/servicios/servicios_publicos/Brochure_%20ParquedelEste.pdf",
+          "label": "Municipalidad de Montes de Oca: 2024 brochure",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated and staffed, closes at 4pm; paths are steep and slippery in the rainy season, so wear grippy shoes."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Public university campus from knowledge; not searched. Coordinates centred on the main campus core, high confidence for the campus, exact bench unverifiable. Wikipedia article is for the institution not the grounds, so title null. Campus hours approximate.",
+      "name": "UCR Ciudad Universitaria Rodrigo Facio",
+      "neighborhood": "San Pedro, Montes de Oca",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "study",
+        "walk",
+        "people-watch",
+        "free",
+        "solo",
+        "quiet"
+      ],
+      "blurb": "The main University of Costa Rica campus in San Pedro is open to anyone and works as the east side's park: lawns, huge old trees, sculptures, a small forest reserve (Reserva Leonelo Oviedo) and dozens of benches where students read between classes. Outside term or on weekend mornings it is almost silent. The surrounding streets of San Pedro have cheap cafés and sodas for a coffee to carry in.",
+      "tips": "Walk in from the Fuente de la Hispanidad roundabout or Calle de la Amargura. The lawns around the Facultad de Letras and the paths by the forest reserve are the quietest; the Carlos Monge library has public seating during opening hours. Campus is busiest at midday in term.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (campus roughly 6am-10pm; buildings vary)",
+      "lat": 9.9362,
+      "lng": -84.0515,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Open campus with security posts and lit main paths; the forest reserve and back lawns are unlit, so keep to the main paths after dark."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review search confirmed the park straddles Ruta 39 (Circunvalación) in San Sebastián and returned one GPS reference, 9°54'47\"N 84°4'18\"W (9.9131, -84.0718), for the lagoon inside the park. The prior coordinates were about 1 km too far south-west and have been replaced. Medium confidence: the reference is for the lagoon, not an entrance. Hours still approximate from knowledge (ICODER page appeared in results but could not be fetched). Title null.",
+      "name": "Parque de la Paz",
+      "neighborhood": "San Sebastián (south San José)",
+      "category": "park",
+      "vibes": [
+        "green",
+        "water",
+        "walk",
+        "group",
+        "picnic",
+        "free",
+        "sunset",
+        "people-watch"
+      ],
+      "blurb": "The south side's big open park along the Circunvalación ring road: wide lawns, a lake with pedal boats, a skate area and enough sky that it is the city's kite-flying spot in the windy season around Christmas. It draws neighbourhood families rather than visitors, and the grass slopes above the lake are a good place to watch the afternoon light drop behind the western hills.",
+      "tips": "Come on a weekday afternoon for space, or a Sunday if you want the kite crowds. The park lies on both sides of the Circunvalación; the lake is on the north side, and the grass slopes above it face the view. Bring your own snacks since vendors are mostly there at weekends.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (roughly dawn to dusk)",
+      "lat": 9.913,
+      "lng": -84.0718,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://es.wikipedia.org/wiki/Parque_de_la_Paz",
+          "label": "Wikipedia (es): Parque de la Paz",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.icoder.go.cr/parques-recreativos/parque-la-paz",
+          "label": "ICODER: Parque La Paz",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Busy in daylight and bordered by a major road; the interior has little lighting, so leave around dusk and use the Circunvalación side entrances."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, 32 ha size, public access, daily 5am-6pm hours and the two entrances confirmed by both stages via the Ministry of Culture page (which reappeared in review search). Review corrected the entrance directions to the ministry's wording (300 m east, 100 m north of the Palí in Fátima). No result gave a lat/lng; coordinates remain an estimate for the Desamparados/La Unión/Curridabat tri-point and are LOW confidence. Title null.",
+      "name": "Parque La Libertad",
+      "neighborhood": "Fátima de Desamparados / Río Azul",
+      "category": "park",
+      "vibes": [
+        "green",
+        "walk",
+        "quiet",
+        "free",
+        "solo",
+        "group",
+        "hidden"
+      ],
+      "blurb": "A 32-hectare public park and cultural centre run by a Ministry of Culture foundation where Desamparados, La Unión and Curridabat meet, with a botanical garden, a skate park, trails through regenerating forest and art and music workshops. Almost no one from outside the south-east suburbs knows it exists, which makes it one of the quietest large green spaces in the metro area. The trails along the ravine edge are the calm part.",
+      "tips": "Two entrances: Fátima (300 m east and 100 m north of the Palí supermarket in Fátima de Desamparados) and Río Azul (opposite the Plaza de Deportes / football field in Río Azul). Open daily 5am-6pm; the botanical garden section has benches. Bus or taxi is easier than driving.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "daily 5am-6pm",
+      "lat": 9.899,
+      "lng": -84.029,
+      "coordConfidence": "low",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.mcj.go.cr/index.php/espacios-culturales/instituciones-centros/parque-la-libertad",
+          "label": "Ministry of Culture: Parque La Libertad",
+          "kind": "official"
+        },
+        {
+          "url": "https://lalibertadcr.org/mapa-del-parque/",
+          "label": "Fundación Parque La Libertad: mapa del parque",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.gamcultural.com/cr/p/parquelalibertad",
+          "label": "GAM Cultural: Parque La Libertad",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed park with gates that close at 6pm; trails are unpaved and muddy in the rainy season."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed the exact en.wikipedia title Lankester Botanical Garden, UCR operation, and hours of roughly 8:30am-4:30pm daily (one source gives 4pm on Mon-Tue). Coordinates from knowledge of the Wikipedia location, high confidence. About 24 km from the city centre.",
+      "name": "Jardín Botánico Lankester",
+      "neighborhood": "Dulce Nombre, Cartago (25 km east)",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "solo",
+        "walk",
+        "rain-ok",
+        "hidden"
+      ],
+      "blurb": "The University of Costa Rica's orchid research garden outside Cartago: 11 hectares of orchid houses, a Japanese garden, bamboo, cactus and a stretch of secondary forest with benches. It is a research station first and an attraction second, so weekday visitors are often alone with the gardeners. The covered orchid pavilions make it one of the few green places that still works in rain.",
+      "tips": "Take a Cartago bus from San José then a taxi or the Paraíso bus (the entrance is on the old road to Paraíso). Small entry fee; orchids peak roughly February to April. Allow two hours and bring a rain jacket in the afternoon.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "daily 8:30am-4:30pm (check site)",
+      "lat": 9.8394,
+      "lng": -83.89,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Lankester Botanical Garden",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Lankester_Botanical_Garden",
+          "label": "Wikipedia: Lankester Botanical Garden",
+          "kind": "other"
+        },
+        {
+          "url": "https://mytanfeet.com/activities/lankester-botanical-garden/",
+          "label": "Mytanfeet: Lankester Botanical Garden",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, gated garden with paved and gravel paths; closes at 4:30pm."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Municipal paradero confirmed by both stages via the San Rafael de Heredia municipality (daily 8am-4pm, small fee, 8 km from San Rafael on a paved road, ~1,800 m elevation; the prior stage's 2,000 m was corrected). Note: an AllTrails listing labels the site \"private property\", but the municipality operates it as a public paid recreation park, which is what is listed here. No result gave a lat/lng; coordinates remain an estimate and are LOW confidence. The en.wikipedia \"Mirador de la Cruz\" article is a different place, so title null.",
+      "name": "Monte de la Cruz",
+      "neighborhood": "San Rafael de Heredia (mountains north of the city)",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "green",
+        "quiet",
+        "walk",
+        "solo",
+        "group",
+        "picnic"
+      ],
+      "blurb": "A municipal mountain park in the cloud forest above Heredia, about 8 km up a paved road from San Rafael, with a viewpoint under a tall cross that looks over the whole Central Valley, plus short forest trails, a small lagoon and picnic ranchos at around 1,800 m. On a clear morning you can see San José laid out below; by early afternoon the cloud usually rolls in and the place turns cool and silent. Heredianos come up for Sunday picnics and weekday visitors are few.",
+      "tips": "Buses run from Heredia via San Rafael to the park entrance. Go early for the view, bring a warm layer and a rain jacket whatever the forecast, and pay the small entrance fee at the gate. Everything closes at 4pm.",
+      "bestTimes": [
+        "morning"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "daily 8am-4pm",
+      "lat": 10.064,
+      "lng": -84.098,
+      "coordConfidence": "low",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.munisrh.go.cr/paradero-turistico-monte-de-la-cruz/",
+          "label": "Municipalidad de San Rafael de Heredia: Paradero Turístico Monte de la Cruz",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.munisrh.go.cr/monte-de-la-cruz/",
+          "label": "Municipalidad de San Rafael de Heredia: Monte de la Cruz",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.twoweeksincostarica.com/monte-de-la-cruz/",
+          "label": "Two Weeks in Costa Rica: Monte de la Cruz",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Mountain site around 1,800 m with fast-arriving fog, cold and slippery trails; go in the morning, stay on marked paths and leave well before the 4pm closing. The road down is unlit."
+      },
+      "lowkeyScore": 4
+    }
+  ]
+}

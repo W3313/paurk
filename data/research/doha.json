@@ -1,0 +1,653 @@
+{
+  "city": "Doha",
+  "country": "Qatar",
+  "slug": "doha",
+  "region": "asia-pacific",
+  "cityLat": 25.2854,
+  "cityLng": 51.531,
+  "timezone": "Asia/Qatar",
+  "searchesRun": [
+    "Qatar National Library Education City opening hours visitors",
+    "MIA Park Doha Museum of Islamic Art park wikipedia",
+    "Oxygen Park Education City Doha walking track",
+    "Dahl Al Hamam Park Doha Madinat Khalifa",
+    "Msheireb Museums Doha opening hours free entry",
+    "Fire Station Doha Artist in Residence Garage Gallery Cafe 999 opening hours",
+    "Souq Al Wakrah corniche Qatar opening hours",
+    "Purple Island Al Khor Qatar mangroves Jazirat Bin Ghanim location",
+    "Purple Island Al Khor boardwalk parking coordinates latitude longitude",
+    "Dahl Al Hamam Park Madinat Khalifa North location coordinates opening hours",
+    "Mathaf Arab Museum of Modern Art admission fee opening hours 2026",
+    "Barzan Towers Umm Salal Mohammed opening hours entry fee visitors"
+  ],
+  "redditSourcedNotes": "Two stages. RESEARCH STAGE ran eight searches (queries 1-8 above), all of which returned results; the URLs attached to QNL, Oxygen Park, MIA Park, Dahl Al Hamam, Msheireb Museums, Fire Station, Souq Al Wakrah and Purple Island came from those results. It confirmed by URL: QNL hours and en.wikipedia article; Oxygen Park en.wikipedia article; MIA Park 24h (mia.org.qa); Msheireb Museums free entry and hours; Fire Station hours and the en.wikipedia article Fire Station, Doha; Souq Al Wakrah shop hours; Purple Island existence (en.wikipedia Al Khor Island). It did NOT look up any coordinate; all were from memory. SKEPTIC STAGE ran four more searches (queries 9-12). Outcomes: Dahl Al Hamam Park had been placed about 1.2 km too far south; the en.wikipedia Dahl Al Hamam article gives 25.3335, 51.4802 at the Al Markhiya/Arab League junction and that is now used. Purple Island coordinates were refined to the boardwalk car park using a plus code (MGVW+RR, Al Khor) printed in an Evendo result and the en.wikipedia island coordinate (25.6928, 51.5489); the decode is the skeptic’s own, so confidence is medium. Mathaf confirmed free (ticket still required) with corrected hours (closed Monday, late Thursday) via mathaf.org.qa and qm.org.qa. Barzan Towers confirmed free with a sign-in caretaker via Visit Qatar and review sites, but no source gives its hours. The Pearl / Porto Arabia was dropped as a privately developed marina promenade and landmark padding; Sheraton Park (West Bay) was added from knowledge in its place, unsearched, with sources empty. STILL FROM KNOWLEDGE ONLY, not URL-confirmed: Al Bidda Park, Aspire Park, Katara and Sheraton Park (existence, hours, coordinates), and the Wikipedia titles Al Bidda Park, Aspire Park, Mathaf: Arab Museum of Modern Art, Katara (cultural village) and Barzan Towers, kept because the skeptic is confident those exact articles exist. All remaining coordinates are medium confidence: consistent with the skeptic’s recollection of each site to within a few hundred metres, but not pinned by a search result. No reddit or forum-thread content was read for this city beyond the Tripadvisor and Wanderlog listing pages named in sources. Safety notes were checked against the standard and none needed rewriting: every note rests on lighting, water edges, tide, shade, staffing or road conditions, and the single caution (Purple Island) is for a remote, unlit, tidal site with an unpaved track. Doha context: rain is rare; summer heat (May-Sep) is why the indoor entries matter, and most residents use parks after sunset, so several spots list night as a best time.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched (budget spent elsewhere). Large, long-established public park along the Corniche; Wikipedia title from knowledge, not URL-confirmed. Hours from knowledge; coordinates are for the middle of the park, which is very large.",
+      "name": "Al Bidda Park",
+      "neighborhood": "Al Bidda / Corniche",
+      "category": "park",
+      "vibes": [
+        "green",
+        "walk",
+        "night",
+        "skyline",
+        "picnic",
+        "group",
+        "free",
+        "people-watch"
+      ],
+      "blurb": "A long, hilly public park stretching along the Corniche between the Amiri Diwan and the Sheraton, with rolling lawns, mature trees and paths that climb to views over the bay and the West Bay towers. On winter evenings whole families spread rugs on the grass, and on weekday mornings the shaded upper lawns are nearly empty. It is the closest thing central Doha has to a common green.",
+      "tips": "Come from the Corniche side or the Al Bidda metro exit and walk uphill away from the water for shade and quiet; the slopes facing the bay are best for the lit skyline after dark. In summer, come after 6pm; in winter, bring a rug and something to sit on.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (check locally)",
+      "lat": 25.299,
+      "lng": 51.522,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Al Bidda Park",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit paths and busy in the evening; the park is big, so stay on the lit paths near the Corniche late at night. Carry water in warm months."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched (budget spent elsewhere). Well-known public park in the Aspire Zone; Wikipedia title from knowledge, not URL-confirmed. Coordinates are for the lake area, medium confidence.",
+      "name": "Aspire Park",
+      "neighborhood": "Al Waab / Baaya",
+      "category": "park",
+      "vibes": [
+        "green",
+        "water",
+        "walk",
+        "sunset",
+        "night",
+        "picnic",
+        "group",
+        "free"
+      ],
+      "blurb": "One of the largest parks in the city, wrapped around the Aspire Zone with a lake, long shaded jogging loops and lawns under the Torch tower. Residents from the western suburbs treat it as their default evening walk, and the lake edge is where people sit to read while the sky goes orange behind the stadium. Weekday mornings are calm; weekend nights are a family fair.",
+      "tips": "Park near the lake on the Al Waab Street side or come by bus to Aspire Zone; the lakeside benches and the grass under the trees on the western loop are the quietest. Avoid Friday and Saturday evenings if you want peace.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (check locally)",
+      "lat": 25.263,
+      "lng": 51.443,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Aspire Park",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit paths, staffed grounds and plenty of people until late; the lake edge is unfenced in places, so mind children near the water."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence and 24h opening confirmed via mia.org.qa and Lonely Planet results. No English Wikipedia article for the park appeared in results (only the museum's), so title set to null. Coordinates are for the crescent lawn north-east of the museum, medium confidence.",
+      "name": "MIA Park",
+      "neighborhood": "Corniche / Old Doha Port",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "skyline",
+        "sunset",
+        "night",
+        "walk",
+        "picnic",
+        "free",
+        "view"
+      ],
+      "blurb": "A crescent of lawn and palm-lined promenade on the water beside the Museum of Islamic Art, open all hours and free to walk. The view is the reason people come: the full West Bay skyline across the water, best when the towers light up, with the museum itself glowing behind you. Locals bring food and sit on the grass or the sea wall long after the museum has closed.",
+      "tips": "Follow the promenade around the crescent to the end near the Richard Serra sculpture for the widest skyline view with the fewest people. There are cafes in the park for coffee; evenings from October to April are the sweet spot.",
+      "bestTimes": [
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 25.297,
+      "lng": 51.542,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://mia.org.qa/en/visit/mia-park/",
+          "label": "Museum of Islamic Art: MIA Park",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.lonelyplanet.com/qatar/doha/attractions/mia-park/a/poi-sig/1341119/361125",
+          "label": "Lonely Planet: MIA Park",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit promenade, security on site and people around until late; the sea wall has no railing along much of its length, so keep back from the edge in the dark."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Hours, free public access and the en.wikipedia article confirmed via search results (qnl.qa hours page, Wikipedia). Coordinates from memory, medium confidence; the building is next to the QNL metro station on the Green Line.",
+      "name": "Qatar National Library",
+      "neighborhood": "Education City (Al Rayyan)",
+      "category": "library",
+      "vibes": [
+        "study",
+        "quiet",
+        "rain-ok",
+        "solo",
+        "free",
+        "cozy"
+      ],
+      "blurb": "A vast tilted-slab library by Rem Koolhaas where the whole collection sits on terraced steps under one roof, open to anyone for free. You can take any seat on the terraces or in the reading areas and stay all day with a laptop or a book; membership is only needed to borrow. The heritage library in the sunken centre is the quietest corner, and the whole place is air-conditioned refuge in summer.",
+      "tips": "Take the Green Line to QNL station and walk straight in; bring ID if you want to register. Head to the upper terraces at the back for empty desks, and note the Friday morning closure. Late-night study hours run after 8pm for members.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Sat-Thu 8am-8pm, Fri 4pm-8pm (check site)",
+      "lat": 25.3153,
+      "lng": 51.4428,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Qatar National Library",
+      "sources": [
+        {
+          "url": "https://www.qnl.qa/en/library-hours",
+          "label": "QNL: Hours and Location",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.timeoutdoha.com/attractions/460384-everything-you-need-to-know-about-qatar-national-library",
+          "label": "Time Out Doha: Qatar National Library guide",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building with bag checks at the door; the metro station is directly outside."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, 130,000 sqm size, cooled covered walkways and the en.wikipedia article confirmed via search results (Wikipedia, Qatar Foundation, Visit Qatar). Coordinates from memory for the park's centre, medium confidence; it sits between the library and the Education City Mosque.",
+      "name": "Oxygen Park",
+      "neighborhood": "Education City (Al Rayyan)",
+      "category": "park",
+      "vibes": [
+        "green",
+        "walk",
+        "quiet",
+        "sunrise",
+        "night",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "A landscaped park of grassy hills and sunken paths in the middle of Education City, with a 1.6 km running loop and covered walkways that are fan-cooled in summer. Because it is inside the campus rather than on a main road, it stays quiet outside the early-morning runner rush, and the hollows between the hills are good places to sit out of the wind. University staff and students use it; few visitors know it exists.",
+      "tips": "Get off at QNL metro station and walk west past the library; the covered walkways are the shaded option at noon and the hilltops face the sunset. Weekday mid-mornings are almost empty.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (check locally)",
+      "lat": 25.3185,
+      "lng": 51.434,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Oxygen Park",
+      "sources": [
+        {
+          "url": "https://www.qf.org.qa/community/oxygen-park",
+          "label": "Qatar Foundation: Oxygen Park",
+          "kind": "official"
+        },
+        {
+          "url": "https://visitqatar.com/intl-en/things-to-do/family-break/parks/oxygen-park",
+          "label": "Visit Qatar: Oxygen Park",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit paths on a patrolled campus; the sunken sections have limited sightlines at night, so stay on the main loop after dark."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Researcher confirmed the park exists (skate area, open-air theatre, 93,000 sqm) but placed it about 1.2 km too far south from memory. Skeptic search: the en.wikipedia Dahl Al Hamam article puts it at 25.3335, 51.4802, beside the Al Markhiya Street / Arab League Street junction; coordinates replaced with that. That article covers the cave and district rather than the park alone, so wikipediaTitle stays null. Hours did not appear in any result.",
+      "name": "Dahl Al Hamam Park",
+      "neighborhood": "Madinat Khalifa North",
+      "category": "park",
+      "vibes": [
+        "green",
+        "walk",
+        "night",
+        "group",
+        "picnic",
+        "free",
+        "people-watch"
+      ],
+      "blurb": "A neighbourhood park in the northern suburbs named for the pigeon cave it was built around, with lawns, shaded seating, a skate bowl and a small open-air theatre. It is emphatically a residents' park: evening walkers doing laps, kids on scooters, families with thermoses of karak. Nobody drives across town for it, which is exactly why it is calm on a weekday morning.",
+      "tips": "Enter from the Al Markhiya Street side near the Arab League Street junction and head away from the playgrounds and skate area for quieter lawns; the shaded benches along the perimeter path are the best seats at midday. Evenings belong to the locals and are busiest on weekends.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (check locally)",
+      "lat": 25.3335,
+      "lng": 51.4802,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.dohalocal.com/attractions/parks/dahl-al-hamam-park/",
+          "label": "Doha Local: Dahl Al Hamam Park",
+          "kind": "blog"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Dahl_Al_Hamam",
+          "label": "Wikipedia: Dahl Al Hamam (district and cave; gives park location)",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit, fenced neighbourhood park with plenty of people in the evening; quiet but open in the morning heat, so bring water."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Free entry and hours confirmed via msheirebmuseums.com and Time Out results. Coordinates from memory for the four heritage houses at the eastern edge of Msheireb Downtown, medium confidence. No English Wikipedia title given because none appeared in results.",
+      "name": "Msheireb Museums",
+      "neighborhood": "Msheireb Downtown",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "cozy",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "Four restored courtyard houses at the edge of the rebuilt Msheireb district, each a small free museum on a different strand of Qatari life, from the old oil company house to the story of slavery in the Gulf. The courtyards themselves are the draw for sitting: shaded, cool and almost silent a block from the Souq Waqif crowds. You can drift between houses at your own pace and nobody hurries you.",
+      "tips": "Walk over from Souq Waqif or take the Msheireb tram; start at Bin Jelmood House and finish in the Radwani House courtyard. Closed Sundays and open late only on Fridays, so check before going. The Barahat Msheireb square nearby has benches under a retractable roof.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Thu & Sat 9am-5pm, Fri 3pm-9pm, closed Sun",
+      "lat": 25.2878,
+      "lng": 51.5303,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://msheirebmuseums.com/en/visit/opening-hours/",
+          "label": "Msheireb Museums: Opening Hours",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.timeoutdoha.com/culture/471597-msheireb-museums-doha-qatar-guide",
+          "label": "Time Out Doha: Msheireb Museums guide",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed museums in a pedestrianised district with the tram outside; entirely indoors and shaded."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Skeptic search confirmed via mathaf.org.qa and the Qatar Museums ticket page that entry to Mathaf and its special exhibitions is free to all but a (free) ticket is required, and gave the current hours, which differ from the researcher’s guess: closed Mondays and open late on Thursdays. Coordinates from memory (the building is off Al Luqta Street at the western edge of Education City) and match the Wikipedia figure I recall to within about 100 m; medium. Wikipedia title from knowledge, not URL-confirmed.",
+      "name": "Mathaf: Arab Museum of Modern Art",
+      "neighborhood": "Education City (Al Rayyan)",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "solo",
+        "cozy",
+        "hidden"
+      ],
+      "blurb": "A converted school building at the far edge of Education City holding the region's largest collection of modern Arab art, with airy white galleries that are rarely busy. It is the museum residents mention when they want somewhere calm on a hot afternoon: a couple of hours of paintings, a quiet cafe, and a seat in the sculpture-dotted forecourt as the light drops. Few tourists make the trip out.",
+      "tips": "Drive or take a taxi; there is no metro station within easy walking distance. Closed Mondays; entry is free but pick up a ticket at the desk or book online. Weekday afternoons are close to empty, and Thursday evenings run late.",
+      "bestTimes": [
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Sun, Tue, Wed, Sat 9am-7pm; Thu 9am-9pm; Fri 1:30pm-7pm; closed Mon",
+      "lat": 25.3107,
+      "lng": 51.4335,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Mathaf: Arab Museum of Modern Art",
+      "sources": [
+        {
+          "url": "https://mathaf.org.qa/en/visit/",
+          "label": "Mathaf: Plan Your Visit",
+          "kind": "official"
+        },
+        {
+          "url": "https://qm.org.qa/tickets/select-tickets/?exhibition-deeplink=mathaf-plus-special-exhibitions",
+          "label": "Qatar Museums: Mathaf tickets (free)",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed museum with parking at the door; the surrounding campus roads have little pedestrian traffic, so plan a ride rather than walking out at night."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Gallery and cafe hours, and the en.wikipedia article 'Fire Station, Doha', confirmed via firestation.org.qa and Wikipedia results. Galleries only open when an exhibition is on, but the building and Cafe #999 are open regardless. Coordinates from memory for the building on Mohammed Bin Thani Street, medium confidence.",
+      "name": "Fire Station: Artist in Residence",
+      "neighborhood": "Al Bidda / Rumeilah",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "cozy",
+        "quiet",
+        "solo",
+        "free",
+        "hidden",
+        "study"
+      ],
+      "blurb": "A 1980s civil-defence fire station turned into artists' studios, a big Garage Gallery and a retro-styled Italian cafe, Cafe #999, on the ground floor. Exhibitions are free and change through the year, and between them the cafe and the courtyard are where the city's art crowd sits with a laptop. It is a short walk from Al Bidda Park but feels tucked away from the Corniche.",
+      "tips": "Check what is on in the Garage Gallery before you go; even with nothing showing, the cafe is open until 9pm and the art-supply shop is worth a browse. Enter from the Mohammed Bin Thani Street side; parking is on site.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Galleries Sat-Thu 9am-7pm, Fri 1:30pm-7pm; cafe to 9pm",
+      "lat": 25.2913,
+      "lng": 51.519,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Fire Station, Doha",
+      "sources": [
+        {
+          "url": "https://firestation.org.qa/en/about-us/visiting-information/",
+          "label": "Fire Station: Visiting Information",
+          "kind": "official"
+        },
+        {
+          "url": "https://firestation.org.qa/en/spaces-and-galleries/cafe-999/",
+          "label": "Fire Station: Cafe #999",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.timeoutdoha.com/culture/doha-fire-station-art-gallery-guide",
+          "label": "Time Out Doha: Fire Station guide",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed building with security and a car park; on a wide, fast road, so use the signalled crossings if arriving on foot."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched (budget spent elsewhere). Well-known cultural village on the West Bay Lagoon shore; Wikipedia title from knowledge, not URL-confirmed. The village grounds are open all hours; venues inside keep their own hours. Coordinates are for the amphitheatre, medium confidence.",
+      "name": "Katara Cultural Village (amphitheatre and beach)",
+      "neighborhood": "Katara / West Bay Lagoon",
+      "category": "plaza",
+      "vibes": [
+        "water",
+        "sunrise",
+        "night",
+        "walk",
+        "people-watch",
+        "free",
+        "view",
+        "group"
+      ],
+      "blurb": "A purpose-built cultural quarter of galleries, a mosque, an open-air amphitheatre and a long public beach facing east over the Gulf. It is busy on event nights, but early on a weekday morning the amphitheatre steps and the beach promenade are quiet enough to sit with a coffee and watch the sun come up out of the sea. The colonnaded lanes between the galleries stay shaded most of the day.",
+      "tips": "Take the metro to Katara and walk down to the amphitheatre; the top rows catch the sea breeze and the sunrise. The beach is public and free to walk, with water sports at a fee. Most galleries are free; check Katara's events page, since concerts fill the amphitheatre.",
+      "bestTimes": [
+        "morning",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (venues vary)",
+      "lat": 25.359,
+      "lng": 51.5255,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Katara (cultural village)",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Well lit, patrolled and busy until late; the beach itself is unlit beyond the promenade, so stay near the lit paths at night."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, restaurant hours (roughly 10am-11pm) and the 3 km corniche confirmed via search results. No English Wikipedia article for the souq appeared in results, so title set to null (the town article 'Al Wakrah' exists but is not the place). Coordinates from memory for the souq's seafront, medium confidence.",
+      "name": "Souq Al Wakrah and Corniche",
+      "neighborhood": "Al Wakrah",
+      "category": "market",
+      "vibes": [
+        "water",
+        "walk",
+        "sunrise",
+        "night",
+        "people-watch",
+        "free",
+        "cozy",
+        "hidden"
+      ],
+      "blurb": "A rebuilt traditional souq of low stone lanes right on the beach in Al Wakrah, twenty minutes south of the centre, with a long promenade running along the sea. It is Souq Waqif without the tour groups: shops shut for the afternoon, fishermen mend nets on the shore, and locals sit on the sea wall with karak as the sun comes up over the water. The corniche is the place to sit; the souq is the place to get tea.",
+      "tips": "Take the Red Line to Al Wakrah and a short taxi to the souq; the seafront benches at the northern end are the quietest. Shops open mornings and evenings with a midday break, so time a visit for sunrise or after 5pm.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Corniche 24h; shops roughly 10am-11pm with an afternoon break",
+      "lat": 25.169,
+      "lng": 51.6075,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.propertyfinder.qa/blog/souq-al-wakra-guide-restaurants-timings-directions-location-and-more/",
+          "label": "Property Finder: Souq Al Wakra guide",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g3221436-d9742366-Reviews-or90-Souq_Al_Wakrah-Al_Wakrah.html",
+          "label": "Tripadvisor: Souq Al Wakrah",
+          "kind": "forum"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit promenade and souq lanes with people about until late; the beach beyond the promenade is unlit, so stay on the corniche after dark. No shade at midday."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Researcher confirmed existence and boardwalk by search but guessed coordinates (low). Skeptic search: en.wikipedia Al Khor Island gives the island at 25.6928, 51.5489, and an Evendo listing gives the car park at the start of the walkway as plus code MGVW+RR (Al Khor), which decodes to about 25.6946, 51.5471; that is used here for the parking/boardwalk start. The decode is mine, not a printed lat/lng, so confidence is medium, not high. Results also say the last 1 km is unpaved but passable in a normal car, and it is about a 1 km walk across the mangroves.",
+      "name": "Purple Island (Jazirat Bin Ghanim)",
+      "neighborhood": "Al Khor",
+      "category": "trail",
+      "vibes": [
+        "water",
+        "green",
+        "quiet",
+        "sunrise",
+        "walk",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "A low island of mangroves and tidal flats off the coast north of Al Khor, reached by a wooden boardwalk from the beach and named for the Bronze Age purple-dye works found there. There is nothing here but birds, still water and a few kayakers, and at high tide in the early morning it is the quietest place within an hour of the city. Locals come to walk the boardwalk and sit on the rocks.",
+      "tips": "Drive north on the Al Khor road and follow signs for Al Thakhira or Purple Island; the last stretch is a rough track, so go slow. Come at high tide for water rather than mud, bring water, a hat and shoes you can get wet, and leave before dark since there is no lighting.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 25.6946,
+      "lng": 51.5471,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Al Khor Island",
+      "sources": [
+        {
+          "url": "https://visitqatar.com/intl-en/things-to-do/beach-holiday/islands/purple",
+          "label": "Visit Qatar: Purple Island",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.cnn.com/travel/article/qatar-al-thakira-purple-island-cmd",
+          "label": "CNN: Al Thakira and Purple Island",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.offbeatqatar.com/place/purple-island/",
+          "label": "Offbeat Qatar: Purple Island",
+          "kind": "blog"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Al_Khor_Island",
+          "label": "Wikipedia: Al Khor Island",
+          "kind": "other"
+        },
+        {
+          "url": "https://evendo.com/locations/qatar/al-thakira-mangroves/landmark/purple-island-beach",
+          "label": "Evendo: Purple Island Beach (parking location)",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Remote, unlit and unstaffed, with tidal mud, no shade and patchy phone signal; the access track is unpaved. Go in daylight, tell someone your plans, and do not walk out on the flats at low tide."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Skeptic search (Visit Qatar, Trip.com, Wanderlog results) confirmed the site is free: a caretaker at the gate takes your name and lets you in, no ticket. Opening hours did not appear in any result, so hours stay as varies. Coordinates from memory and consistent with the Wikipedia figure I recall (about 25.4108, 51.4297); medium. Wikipedia title from knowledge, not URL-confirmed.",
+      "name": "Barzan Towers",
+      "neighborhood": "Umm Salal Mohammed",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "sunset",
+        "quiet",
+        "solo",
+        "hidden",
+        "walk"
+      ],
+      "blurb": "Two restored stone watchtowers from the early twentieth century standing in a small landscaped compound in the village of Umm Salal Mohammed, about twenty minutes north of the centre. There are benches under the walls and a view from the tower tops over the flat desert edge and the low houses of the village. Almost no one is here on a weekday, which makes it a good place to sit with a book at the end of the afternoon.",
+      "tips": "Drive or take a taxi; parking is beside the compound and a caretaker at the gate signs you in for free. Late afternoon gives shade under the western wall and a sunset from the tower steps. Hours are not published anywhere I could find, so go in daylight and expect it to be shut after dark.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (check site)",
+      "lat": 25.411,
+      "lng": 51.431,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Barzan Towers",
+      "sources": [
+        {
+          "url": "https://visitqatar.com/intl-en/things-to-do/art-culture/heritage-sites/barzan-towers",
+          "label": "Visit Qatar: Barzan Towers",
+          "kind": "official"
+        },
+        {
+          "url": "https://wanderlog.com/place/details/23820/barzan-towers",
+          "label": "Wanderlog: Barzan Towers reviews (free entry, caretaker)",
+          "kind": "forum"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated, staffed heritage site closed at night; tower stairs are steep and uneven, and there is little shade at midday."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Added by the skeptic from knowledge, not searched (budget spent on coordinate checks). Public municipal park opened in 2017 at the northern end of the Corniche in front of the Sheraton hotel, over an underground car park. Coordinates are for the central lawn between the hotel and the Corniche road, medium confidence; hours from knowledge. No English Wikipedia article I am confident of, so null.",
+      "name": "Sheraton Park",
+      "neighborhood": "West Bay / Corniche",
+      "category": "park",
+      "vibes": [
+        "green",
+        "skyline",
+        "night",
+        "walk",
+        "free",
+        "solo",
+        "people-watch"
+      ],
+      "blurb": "A flat, formal park of lawns, fountains and palm avenues at the northern end of the Corniche, sitting between the pyramid-shaped Sheraton and the West Bay towers. It is the green space office workers use at lunch and residents of the towers use after dark, and the lawns facing the water give the whole Corniche curve back to the Museum of Islamic Art. It is rarely crowded outside festival dates.",
+      "tips": "Come from the Corniche promenade or the DECC metro station; the lawns on the seaward side have the view and the fountain terraces on the hotel side have the shade. Bring something to sit on, since benches are few for the size of the place.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (check locally)",
+      "lat": 25.3222,
+      "lng": 51.5298,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Well lit and open on all sides to the Corniche road and the hotel; the fountains and pools are unfenced, and the lawns offer little shade at midday, so carry water."
+      },
+      "lowkeyScore": 3
+    }
+  ]
+}

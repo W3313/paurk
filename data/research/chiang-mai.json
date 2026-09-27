@@ -1,0 +1,644 @@
+{
+  "city": "Chiang Mai",
+  "country": "Thailand",
+  "slug": "chiang-mai",
+  "region": "asia-pacific",
+  "cityLat": 18.7883,
+  "cityLng": 98.9853,
+  "timezone": "Asia/Bangkok",
+  "searchesRun": [
+    "TCDC Chiang Mai opening hours library Chang Moi",
+    "Backstreet Books Chiang Mai Chang Moi Kao secondhand bookshop",
+    "Clay Studio Coffee in the Garden Chiang Mai Wat Phra Singh",
+    "Wat Pha Lat Monk's Trail Chiang Mai wikipedia",
+    "Nong Buak Haad Public Park Chiang Mai wikipedia",
+    "Khlong Mae Kha canal walkway Chiang Mai night",
+    "Huay Tung Tao lake Chiang Mai entrance fee opening hours",
+    "Chiang Mai City Arts and Cultural Centre wikipedia opening hours Three Kings",
+    "Clay Studio Coffee in the Garden Chiang Mai address Phra Pokklao Soi 2 Wat Chedi Luang",
+    "Backstreet Books Chiang Mai Chang Moi Kao still open 2025",
+    "Doi Suthep viewpoint Srivichai Road lookout Chiang Mai city view coordinates",
+    "Iron Bridge Khua Lek Chiang Mai Chansom Memorial Bridge Loi Kroh Road Ping River"
+  ],
+  "redditSourcedNotes": "Two stages. Research stage ran eight web searches on the eight spots it judged most doubtful and wrote the other six (Ang Kaew, Wat Umong, Wat Chet Yot, Doi Suthep viewpoint, Royal Park Rajapruek, Iron Bridge) from prior knowledge. Review stage had four searches and spent them on Clay Studio's location, Backstreet Books' current status, the Doi Suthep road lookout and the Iron Bridge; direct fetches of Wikipedia and the source pages were blocked by the network proxy, so nothing beyond search-result snippets was read. No reddit threads were read for this city in either stage. What the searches settled: Suan Buak Hat Park (5am-9pm) and Ang Kaew Reservoir have exact English Wikipedia articles, both URL-confirmed; TCDC Chiang Mai is Tue-Sun 10:30am-9pm with a 100 baht day pass; the City Arts and Cultural Centre is Tue-Sun 8:30am-5pm; Khlong Mae Kha's walkway is open all day with stalls roughly 3-10pm; Huay Tung Tao charges a small gate fee (20-50 baht across sources) and hours vary (roughly 8am-6pm); Clay Studio's address is 36 Phra Pokklao Road Soi 2 in Phra Sing subdistrict, but no result gave a map position so its pin is low confidence; Khua Lek is a 1923 truss bridge carrying Loi Kroh Road, and the 'Chansom Memorial Bridge' name in the draft was not supported by any result and was removed. Backstreet Books was dropped: a Foursquare listing returned by search marks it 'Now Closed' and every other hit was an old directory or a 2016 review. It was replaced with the Chiang Mai University Art Center from knowledge, with sources left empty. Nothing confirmed the Srivichai Road lookout lay-by, so it stays on knowledge with low coordinate confidence and a tip to follow the road rather than the pin. Wikipedia titles for Wat Umong, Wat Chet Yot and Royal Park Rajapruek are from knowledge in both stages and not URL-confirmed; Wat Pha Lat, the City Arts Centre and the Art Center are null because no article surfaced. Hours for Ang Kaew, Wat Umong, Wat Chet Yot, Royal Park Rajapruek, the Iron Bridge, the viewpoint and the Art Center are approximate from knowledge, as are the Royal Park (about 200 baht) and City Arts (about 90 baht) fees. Source URLs are attached only where they appeared in a search result in one of the two stages; the review swapped the Clay Studio Tripadvisor link for the .co.uk URL the search actually returned. Safety screen: all 14 spots are public parks, temple grounds, a national-park trail, a public walkway and bridge, a library, two museums and a cafe; nothing involves trespass, derelict or industrial land. All safety notes describe lighting, hours, terrain, water and traffic only; none needed rewriting for characterising people or neighbourhoods. Caution is set only on the Monk's Trail and the Doi Suthep viewpoint (unlit forest path and unlit mountain road after dark).",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title confirmed: en.wikipedia.org/wiki/Suan_Buak_Hat_Park appeared in search results, as did posted hours of 5am-9pm. Coordinates are the park's centre inside the old city's southwest corner.",
+      "name": "Suan Buak Hat (Nong Buak Haad Public Park)",
+      "neighborhood": "Old City (southwest corner)",
+      "category": "park",
+      "vibes": [
+        "green",
+        "water",
+        "quiet",
+        "picnic",
+        "people-watch",
+        "solo",
+        "group",
+        "free",
+        "sunrise"
+      ],
+      "blurb": "The old city's only proper park, a pond ringed by palms, lawns and a jogging loop tucked into the southwest corner of the moat. Early morning brings tai chi groups and joggers; by mid-afternoon it is people on mats under the trees with a book or a bag of fruit from the vendors at the gate. It is the default place for anyone living inside the walls to sit outside without a coffee purchase attached.",
+      "tips": "Enter from Arak Road or Bumrungburi Road; the lawns on the far side of the pond from the main gate are quietest. Mat rental and drinks are sold near the entrance. Avoid the first week of February when the Flower Festival fills it.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "5am-9pm",
+      "lat": 18.7813,
+      "lng": 98.9797,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Suan Buak Hat Park",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Suan_Buak_Hat_Park",
+          "label": "Wikipedia: Suan Buak Hat Park",
+          "kind": "other"
+        },
+        {
+          "url": "https://thailandtourismdirectory.go.th/en/attraction/329",
+          "label": "Thailand Tourism Directory: Nong Buak Hat Public Park",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced, lit and gated at 9pm; busy with joggers from dawn. Fine solo at any open hour."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched directly, but en.wikipedia.org/wiki/Ang_Kaew_Reservoir appeared in a viewpoint search result, so the title is URL-confirmed. Coordinates are from knowledge for the reservoir about 500 m west of the Huay Kaew Road main gate; the researcher's point looked to sit on the western shore, so it was moved east and downgraded to medium. Hours from knowledge.",
+      "name": "Ang Kaew Reservoir",
+      "neighborhood": "Suthep (Chiang Mai University)",
+      "category": "waterfront",
+      "vibes": [
+        "sunset",
+        "water",
+        "view",
+        "green",
+        "walk",
+        "group",
+        "solo",
+        "free",
+        "people-watch"
+      ],
+      "blurb": "A reservoir on the Chiang Mai University campus with Doi Suthep rising straight behind it, so the mountain doubles in the water at sunset. Students sit on the grass slope and the low wall by the road with iced coffee from the campus stalls, and the path around the lake is a slow evening loop for staff, families and dog-walkers. It is open to anyone who walks in.",
+      "tips": "Enter the campus from the Huay Kaew Road main gate and walk or take a campus shuttle a few hundred metres west; the eastern bank faces the mountain and the setting sun. Coffee and snack stalls sit nearby. The fountain and lights come on at dusk, then most people drift off by 8pm.",
+      "bestTimes": [
+        "golden-hour",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (campus grounds; lit until roughly 9pm)",
+      "lat": 18.8062,
+      "lng": 98.9518,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Ang Kaew Reservoir",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ang_Kaew_Reservoir",
+          "label": "Wikipedia: Ang Kaew Reservoir",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "University campus with security posts and lit lakeside path until the evening; the far western shore is dimmer, so stay on the road side after dark."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, small gate fee and free entry after 5pm confirmed by search, but sources disagree on the fee (20-50 baht) and on hours (roughly 8am-6pm). Coordinates are for the main lakeside hut area on the south shore; the entrance gate is roughly 700 m southeast of this point.",
+      "name": "Huay Tung Tao Lake",
+      "neighborhood": "Mae Rim (Don Kaeo), 12 km northwest",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "green",
+        "picnic",
+        "group",
+        "quiet",
+        "sunset",
+        "walk"
+      ],
+      "blurb": "A reservoir at the foot of the Doi Suthep-Pui hills where Chiang Mai families spend Sunday afternoons in bamboo huts on the water, ordering grilled fish and sticky rice and doing very little else. The 3 km loop road is popular with joggers and cyclists on weekday evenings, and midweek the shore is close to empty. It is where locals go to get out of the city without leaving it.",
+      "tips": "Rent a hut for a few hours (you pay by ordering food) or walk to the far northern shore for free grass. Weekdays are far quieter than weekends. Bring your own transport; there is no public bus, and a small vehicle and per-person fee is charged at the gate before 5pm.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "roughly 8am-6pm (sources vary; check locally)",
+      "lat": 18.8612,
+      "lng": 98.9345,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.tielandtothailand.com/hangout-like-local-huay-tung-tao-lake-chiang-mai/",
+          "label": "Tieland to Thailand: Hangout Like a Local at Huay Tung Tao",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.thailandee.com/en/visit-thailand/huay-thung-tao-lake-chiang-mai-314",
+          "label": "Thailandee: Huay Thung Tao Lake",
+          "kind": "blog"
+        },
+        {
+          "url": "https://chiangmaiupdate.com/huay-tung-tao-reservoir/",
+          "label": "Chiang Mai Update: Huay Tung Tao Reservoir",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed gate and food huts during the day; the loop road is unlit and the huts close around dusk, so plan to leave by dark. Swim only from the hut areas."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched; written from knowledge. Wikipedia title Wat Umong kept on high confidence from knowledge, not URL-confirmed. Coordinates are for the temple's tunnel mound and main compound off Suthep Road.",
+      "name": "Wat Umong",
+      "neighborhood": "Suthep (Chiang Mai University south side)",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "green",
+        "water",
+        "solo",
+        "hidden",
+        "walk",
+        "free"
+      ],
+      "blurb": "A 14th-century forest temple built around brick meditation tunnels under a mound topped by a chedi, set in shady woodland with a pond full of fish and turtles. Tree trunks carry hand-painted proverbs in Thai and English, and there are benches by the water and stone seats in the trees where you can sit for an hour undisturbed. It is a working monastery, so voices stay low without anyone asking.",
+      "tips": "Turn south off Suthep Road at the signed soi and follow it about 1 km to the car park. Dress with shoulders and knees covered inside the tunnels and shrine areas. Bags of fish food are sold by the pond; the lakeside benches on the far side are the quietest.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 6am-6pm (grounds)",
+      "lat": 18.7826,
+      "lng": 98.9494,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Wat Umong",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Monastery grounds with resident monks and staff; tunnel floors are uneven and dim, and the woodland paths are unlit, so visit in daylight."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched; written from knowledge. Wikipedia title Wat Chet Yot kept on high confidence from knowledge, not URL-confirmed. Coordinates are for the compound between the Super Highway and the Chiang Mai National Museum.",
+      "name": "Wat Chet Yot (Wat Jed Yod)",
+      "neighborhood": "Chang Phueak (Super Highway)",
+      "category": "other",
+      "vibes": [
+        "quiet",
+        "green",
+        "solo",
+        "hidden",
+        "free",
+        "walk"
+      ],
+      "blurb": "A 15th-century temple whose seven-spired main sanctuary, modelled on Bodh Gaya, sits in a wide compound of old trees and brick ruins just off the ring road. Despite its age and importance it is rarely on tour itineraries, and most hours you will share the lawns with a handful of monks, gardeners and a few people reading on the stone benches under the trees. The stucco figures on the sanctuary walls reward a slow look.",
+      "tips": "It sits on the Super Highway frontage road just west of the Chiang Mai National Museum; a songthaew or ride-hail is the easiest way there. Enter from the frontage road, then walk behind the main sanctuary to the quieter chedi ruins and shaded benches. Modest dress.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 6am-6pm",
+      "lat": 18.8082,
+      "lng": 98.9723,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Wat Chet Yot",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed temple compound in daylight; the frontage road has fast traffic and no pavement in places, so take care arriving and leaving."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Written from knowledge in both stages. A review search for the Srivichai Road lookout returned only the temple, the national park and an AllTrails 'Monk Lookout' trail, none of which confirm this lay-by, so the coordinates are a low-confidence estimate somewhere on the road between Wat Pha Lat and the temple car park. It is a signed pull-off on the right going up, so anyone on the road will find it, but do not navigate to the pin itself.",
+      "name": "Doi Suthep Viewpoint (Srivichai Road lookout)",
+      "neighborhood": "Doi Suthep-Pui National Park",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "skyline",
+        "night",
+        "sunrise",
+        "sunset",
+        "free",
+        "group",
+        "stargaze"
+      ],
+      "blurb": "A paved lay-by with a low wall on the mountain road up to Wat Phra That Doi Suthep, looking east over the whole city grid, the airport and the Ping valley. Locals ride up in the evening to sit on the wall with a drink from the stall and watch the lights come on; it is far quieter than the temple terrace above and does not involve a ticket or stairs. On clear dry-season nights the sky opens up behind you.",
+      "tips": "Take a songthaew or scooter up Srivichai Road from the zoo; the lookout is a signed pull-off on the right a few kilometres up, past the Wat Pha Lat turn and before the temple car park, with a small drinks stall in the evening. The pin here is approximate: follow the road, not the map marker. Bring a layer even in hot season; the mountain is several degrees cooler.",
+      "bestTimes": [
+        "golden-hour",
+        "night",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 18.8025,
+      "lng": 98.929,
+      "coordConfidence": "low",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "Winding unlit mountain road with sharp bends; ride down slowly and with lights, and do not attempt it on a scooter in heavy rain. The lookout itself has a wall but no barrier from the road, so keep children close."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Trail existence, length (about 1.5-2 km, 45 minutes) and Wat Pha Lat's status as a monks' residence and meditation centre confirmed by search. No English Wikipedia article surfaced, so title is null. Coordinates are for Wat Pha Lat itself; the trailhead is roughly 600 m northeast on the road past the zoo.",
+      "name": "Monk's Trail to Wat Pha Lat",
+      "neighborhood": "Doi Suthep-Pui National Park",
+      "category": "trail",
+      "vibes": [
+        "green",
+        "water",
+        "quiet",
+        "walk",
+        "solo",
+        "group",
+        "free",
+        "hidden"
+      ],
+      "blurb": "A shaded forest path marked by strips of saffron cloth tied to the trees, climbing about 45 minutes from behind the zoo to Wat Pha Lat, a small monastery built around a waterfall and mossy stone terraces. The temple was a rest stop for pilgrims before the road was built in 1935 and is now a meditation centre, so the terraces above the stream stay hushed. Sitting on the rocks by the water with the city hazy below is the point of the walk.",
+      "tips": "Start early: the trailhead is at the end of the road past the zoo's rear entrance, signed and easy to follow. Wear proper shoes, bring water, and cover shoulders and knees at the temple. Most people turn back here rather than continuing the steeper stretch to Doi Suthep. A small cafe operates at the temple some days.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "daylight (temple grounds roughly 6am-6pm)",
+      "lat": 18.8023,
+      "lng": 98.9338,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.alltrails.com/trail/thailand/chiang-mai/doi-suthep-monk-trail",
+          "label": "AllTrails: Wat Pha Lat Hike (Monk's Trail)",
+          "kind": "other"
+        },
+        {
+          "url": "https://chiangmaihub.com/monks-trail/",
+          "label": "Chiang Mai Hub: Monk's Trail",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.weseektravel.com/hiking-the-monks-trail-chiang-mai/",
+          "label": "We Seek Travel: Hiking the Monk's Trail",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Unlit forest trail with roots and rocks that get slippery after rain; start with enough daylight to walk back, or arrange a ride down the road from the temple. Phone signal is patchy on the path."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched; written from knowledge. Wikipedia title Royal Park Rajapruek kept on high confidence from knowledge, not URL-confirmed. Entry fee (around 200 baht for foreign visitors) and hours (roughly 8am-6pm) are from knowledge and should be checked.",
+      "name": "Royal Park Rajapruek",
+      "neighborhood": "Mae Hia, 10 km southwest",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "solo",
+        "picnic",
+        "view",
+        "sunset"
+      ],
+      "blurb": "An 80-hectare botanical park built for the 2006 Royal Flora exhibition, with a golden Lanna pavilion at the end of a long axis, an orchid house, national gardens from dozens of countries and a lot of empty lawn between them. Outside the December-February flower season and away from the pavilion, you can walk for an hour and see almost nobody. Doi Suthep and Doi Pui frame the western skyline for the last hour of light.",
+      "tips": "It is too big to cover on foot in the heat; take the tram loop once, then get off near the international gardens or the lotus ponds and settle in. Bring water and a hat. Weekday mornings are the quietest; check whether a night illumination event is running in winter.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "roughly 8am-6pm (check site)",
+      "lat": 18.7468,
+      "lng": 98.928,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Royal Park Rajapruek",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Ticketed, staffed and fenced park; very little shade on the main axis, so carry water in hot season."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Hours (Tue-Sun 10:30am-9pm, closed Mon), address (1/1 Muang Samut Road, Chang Moi, behind Muang Mai Market) and 100 baht day pass confirmed by search results, so listed as not free. Coordinates are placed behind Muang Mai Market and are medium confidence.",
+      "name": "TCDC Chiang Mai (Thailand Creative & Design Center)",
+      "neighborhood": "Chang Moi (Muang Mai Market)",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "study",
+        "quiet",
+        "cozy",
+        "solo",
+        "night"
+      ],
+      "blurb": "A design library and creative centre in a converted building behind the wholesale produce market, with a well-lit reading floor of design and architecture books, a materials library and long tables where students and freelancers work all day. Exhibitions on the ground floor are usually free to walk into; the library itself needs a day pass or a membership. It is open until 9pm, which makes it one of the few quiet indoor rooms in the city after dark.",
+      "tips": "Buy a 100 baht day pass at reception (annual membership is cheaper if you stay long); bring ID. Open Tuesday to Sunday, closed Monday. Approach along the river past Muang Mai Market or from Chang Moi Road; the market is loud, the reading floor is not.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Tue-Sun 10:30am-9pm, closed Mon",
+      "lat": 18.7953,
+      "lng": 98.9975,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://library.tcdc.or.th/visit/chm_contact",
+          "label": "TCDC Resource Center: Visit Chiang Mai",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.tcdc.or.th/en/tcdc-chiangmai/service/visit-and-service-area",
+          "label": "TCDC Chiang Mai: Visit and Service Area",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.chiangmaitravelhub.com/attractions/tcdc-chiang-mai/",
+          "label": "Chiang Mai Travel Hub: TCDC Chiang Mai",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building with reception; the market lanes outside are busy with delivery trucks in the early morning and quieter at night."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Hours (Tue-Sun 8:30am-5pm) and location behind the Three Kings Monument confirmed by search. No English Wikipedia article for the centre itself surfaced (only Three Kings Monument), so title is null. Coordinates are for the building directly behind the monument; high confidence.",
+      "name": "Chiang Mai City Arts & Cultural Centre",
+      "neighborhood": "Old City (Three Kings Monument)",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "cozy",
+        "solo",
+        "study"
+      ],
+      "blurb": "The 1924 provincial hall behind the Three Kings Monument, now a city history museum arranged around two whitewashed inner courtyards with teak balconies and a few benches. The exhibits are modest, but the courtyards are cool, quiet and almost always empty, and the ticket also covers the Lanna Folklife Museum across the square if you want a second dry room. It is where to sit when the rain comes down on the old city.",
+      "tips": "Open Tuesday to Sunday 8:30am-5pm, closed Monday; the combined ticket is around 90 baht for foreign visitors. Head straight for the rear courtyard and its benches. The plaza outside is free and fills with locals in the evening once the museum has closed.",
+      "bestTimes": [
+        "afternoon",
+        "morning"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Tue-Sun 8:30am-5pm, closed Mon",
+      "lat": 18.7905,
+      "lng": 98.9877,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g293917-d1639475-Reviews-Chiang_Mai_City_Arts_and_Cultural_Centre-Chiang_Mai.html",
+          "label": "Tripadvisor: Chiang Mai City Arts and Cultural Centre",
+          "kind": "forum"
+        },
+        {
+          "url": "https://thailandforvisitors.com/north/chiangmai/old-city/art-culture-center/",
+          "label": "Thailand For Visitors: City Art & Cultural Center",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed museum in the busiest part of the old city; the plaza outside is lit and used well into the evening."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence and address (36 Phra Pokklao Road Soi 2, Phra Sing subdistrict) confirmed by search in both stages, and Tripadvisor still lists it as open. Neither stage found a map coordinate, and the soi could sit anywhere on Phra Pokklao Road between Ratchamanka Road and Chiang Mai Gate, so the pin is placed mid-way along that stretch and marked low. Hours not found in results.",
+      "name": "Clay Studio Coffee in the Garden",
+      "neighborhood": "Old City (Phra Pokklao Soi 2, near Chiang Mai Gate)",
+      "category": "cafe",
+      "vibes": [
+        "hidden",
+        "green",
+        "quiet",
+        "cozy",
+        "solo",
+        "rain-ok",
+        "water"
+      ],
+      "blurb": "A cafe set inside a sculptor's overgrown terracotta garden in the south of the old city, where tables sit among mossy Buddha heads, clay figures, fountains and thick tropical planting behind a brick wall. Cups and plates are hand-thrown, the coffee and cakes are inexpensive, and the garden absorbs sound so that a scooter-heavy street a few metres away disappears. Most tables are under cover, so it works in a downpour.",
+      "tips": "Walk south on Phra Pokklao Road from Wat Chedi Luang towards Chiang Mai Gate and look for the signed Soi 2 and a brick wall with clay figures; ask at any shop if you miss it, the cafe is locally known. Take a table deep in the garden rather than by the entrance, and go mid-morning on a weekday before photo-takers arrive. Order at the counter.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "varies (check site; roughly daytime)",
+      "lat": 18.784,
+      "lng": 98.9865,
+      "coordConfidence": "low",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.tripadvisor.co.uk/Restaurant_Review-g293917-d8790551-Reviews-Clay_Studio_Coffee_In_The_Garden-Chiang_Mai.html",
+          "label": "Tripadvisor: Clay Studio Coffee In The Garden",
+          "kind": "forum"
+        },
+        {
+          "url": "https://us.trip.com/travel-guide/foods/chiang-mai-209-restaurant/clay-studio-coffee-in-the-garden-25266076",
+          "label": "Trip.com: Clay Studio Coffee in the Garden (address)",
+          "kind": "other"
+        },
+        {
+          "url": "https://thailand-vloggers.com/en/discover/location/clay-studio-coffee-chiang-mai/",
+          "label": "Thailand Vloggers: Clay Studio Coffee cafe guide",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed cafe on a residential soi; paths between the sculptures are uneven and wet after rain, so watch your footing."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Revitalised canal walkway confirmed by search, along with the walkway being open all day and the stall scene running roughly 3-10pm, with no cars or scooters allowed on the path. Coordinates are for the central 'village' stretch south of the Night Bazaar and are medium confidence.",
+      "name": "Khlong Mae Kha Canal Walk",
+      "neighborhood": "Chang Khlan (south of the Night Bazaar)",
+      "category": "waterfront",
+      "vibes": [
+        "night",
+        "water",
+        "walk",
+        "people-watch",
+        "group",
+        "free",
+        "cozy"
+      ],
+      "blurb": "A once-neglected canal behind the Night Bazaar, cleaned up and relined since 2022 with a paved, car-free walkway, murals, planting and a yellow footbridge that gets compared to a Japanese canal town. In the evening lanterns come on and small food and craft stalls open along the water; earlier in the day it is a quiet path used by neighbours and dog-walkers. It is a gentler, cheaper night out than the bazaar two streets over.",
+      "tips": "Come from Sridonchai Road or from behind the Anusarn market and follow the water; the section around the yellow bridge has the most benches. Stalls run roughly 3-10pm, and the walkway is open all day. Weeknights are calmer than Saturday.",
+      "bestTimes": [
+        "golden-hour",
+        "night",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h walkway (stalls roughly 3pm-10pm)",
+      "lat": 18.7818,
+      "lng": 98.999,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.cktravels.com/khlong-mae-kha-chiang-mai/",
+          "label": "CK Travels: Khlong Mae Kha Canal Village guide",
+          "kind": "blog"
+        },
+        {
+          "url": "https://northernth.com/en/khlong-mae-kha-canal-chiang-mai/",
+          "label": "Northern Thailand: Khlong Mae Kha at night",
+          "kind": "blog"
+        },
+        {
+          "url": "https://mindtrip.ai/attraction/chiang-mai/mae-kha-canal/at-UIK1liS0",
+          "label": "Mindtrip: Mae Kha Canal",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit, car-free walkway that is busiest in the evening; the canal edge is low and unfenced in places, so keep small children close. Beyond the lit village stretch the path is darker after the stalls close."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review search confirmed Khua Lek (Iron Bridge) as a 1923 riveted truss carrying Loi Kroh Road over the Ping from Chang Khlan to Wat Ket, open to pedestrians and light traffic and lit at night. The 'Chansom Memorial Bridge' name in the researcher's draft did not appear in any result and was removed. Coordinates are from knowledge for the foot of Loi Kroh Road at the river, about 350 m south of Nawarat Bridge; medium.",
+      "name": "Ping River at the Iron Bridge (Khua Lek)",
+      "neighborhood": "Wat Ket / Chang Khlan riverside",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "night",
+        "sunset",
+        "people-watch",
+        "walk",
+        "free",
+        "group"
+      ],
+      "blurb": "A 1923 steel truss bridge lit up at night at the foot of Loi Kroh Road, with the Ping sliding underneath and the old teak houses and riverside restaurants of Wat Ket on the far bank. Locals lean on the railings in the evening, sit on the low walls at either end and buy grilled snacks from carts, and the riverside lanes on the eastern side are quiet enough for a slow walk north to the Wat Ket community. It is the free version of the riverside bar scene, with the same view.",
+      "tips": "Come from Charoen Prathet Road on the west bank or Charoenrat Road on the east; the east-bank landing has the better view back at the lit bridge. Evening is best for people-watching, sunrise for having the river to yourself. Pair it with the Wat Ket Museum a short walk north on weekend mornings.",
+      "bestTimes": [
+        "night",
+        "golden-hour",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 18.7853,
+      "lng": 99.0028,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://mindtrip.ai/attraction/chiang-mai/khua-lek-iron-bridge/at-bxbL7Lyi",
+          "label": "Mindtrip: Khua Lek (Iron Bridge)",
+          "kind": "other"
+        },
+        {
+          "url": "https://historicbridges.org/bridges/browser/?bridgebrowser=thailand%2Floi_kroh_road_bridge%2F",
+          "label": "HistoricBridges.org: Loi Kroh Road Bridge (Khua Lek)",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.trip.com/travel-guide/attraction/chiang-mai/khua-lek-13364165/",
+          "label": "Trip.com: Khua Lek (Iron Bridge)",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit bridge with railings, busy with pedestrians and scooters in the evening; riverside walls are unfenced, and the river runs high and fast in the rainy season, so keep back from the bank."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Added at review stage from knowledge to replace the closed bookshop and keep a free indoor option; no search budget remained, so nothing here is URL-confirmed. Coordinates are for the gallery building at the Nimmanhaemin Road / Suthep Road corner, medium confidence. Hours and closed-Monday pattern are from memory.",
+      "name": "Chiang Mai University Art Center",
+      "neighborhood": "Suthep (Nimmanhaemin Road)",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "solo",
+        "study",
+        "cozy",
+        "free"
+      ],
+      "blurb": "The university's contemporary art gallery at the Nimmanhaemin Road corner, a big airy building of white halls and a shaded courtyard that shows student and regional artists in rotating exhibitions and is very rarely busy. Entry is free and nobody minds if you sit on the benches or courtyard steps for an hour with a notebook. It is the calm indoor room on a street otherwise made of cafes.",
+      "tips": "Enter from the Nimmanhaemin Road side; exhibitions change monthly, so an empty hall or two is normal. There is a small cafe on site most days and dozens more along Nimman if it is shut. Closed Mondays; confirm current hours before a special trip, as they change with exhibitions.",
+      "bestTimes": [
+        "afternoon",
+        "morning"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "roughly Tue-Sun 9am-5pm, closed Mon (check)",
+      "lat": 18.7996,
+      "lng": 98.9668,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed university building on a main road with pavements, a lit car park and daytime hours only; Nimmanhaemin traffic is heavy at rush hour, so cross at the lights."
+      },
+      "lowkeyScore": 4
+    }
+  ]
+}

@@ -70,8 +70,19 @@ describe('search', () => {
   })
 
   it('a capped search can return one kind only, which is why the panel does not cap', () => {
-    const capped = search('o', 24)
-    expect(capped.every((h) => h.kind === 'spot')).toBe(true)
+    /*
+     * The hazard, not one instance of it. This used to assert that search('o', 24) was all spots,
+     * which was true of a 44-city dataset and stopped being true at 89: "o" now matches enough city
+     * names (Oslo, Osaka, Toronto, Colombo, Bogota) to reach the first 24. That made the test a
+     * tripwire on the dataset's size rather than on the behaviour it is named for, so it now asserts
+     * the thing that actually justifies the panel's design: some query, capped, still starves a kind.
+     */
+    const queries = ['o', 'a', 'e', 'i', 'par', 'gar', 'lib', 'ri', 'san', 'la']
+    const starved = queries.filter((q) => {
+      const capped = search(q, 24)
+      return capped.length >= 24 && new Set(capped.map((h) => h.kind)).size === 1
+    })
+    expect(starved.length).toBeGreaterThan(0)
   })
 
   it('builds a route for each hit', () => {

@@ -1,0 +1,638 @@
+{
+  "city": "Bengaluru",
+  "country": "India",
+  "slug": "bengaluru",
+  "region": "asia-pacific",
+  "cityLat": 12.9716,
+  "cityLng": 77.5946,
+  "timezone": "Asia/Kolkata",
+  "searchesRun": [
+    "Kaikondrahalli Lake Bengaluru walking timings wikipedia",
+    "Jakkur Lake Bengaluru timings visitors",
+    "Rangoli Metro Art Center MG Road Bengaluru wikipedia timings free entry",
+    "State Central Library Cubbon Park Seshadri Iyer Memorial Hall timings public entry",
+    "Turahalli forest Bengaluru entry timings public",
+    "National Gallery of Modern Art Bengaluru Manikyavelu Mansion timings wikipedia",
+    "Sankey Tank Bengaluru walking path timings",
+    "Blossom Book House Church Street Bengaluru wikipedia opening hours",
+    "Turahalli Tree Park Bengaluru open entry timings forest department 2026",
+    "Venkatappa Art Gallery Bengaluru reopened renovation timings free entry",
+    "Koshy's restaurant 39 St Mark's Road Bangalore wikipedia",
+    "Sankey Tank Bangalore (site:en.wikipedia.org)"
+  ],
+  "redditSourcedNotes": "Two stages, neither read any reddit thread, so nothing here is reddit-sourced. Research stage: all 14 spots were drafted from prior knowledge and its 8 searches went on hours, public access and English Wikipedia titles; it confirmed by URL the articles Jakkur Lake, Rangoli Metro Art Center, Turahalli Forest, National Gallery of Modern Art, Bengaluru and Venkatappa Art Gallery, and set Kaikondrahalli Lake (Simple English only), Blossom Book House (no article) and State Central Library (exact name unconfirmed) to null. Skeptic stage had 4 searches and could not open URLs directly (the container proxy refuses plain HTTP fetches, so no Wikipedia API or link check was possible). Its outcomes: Koshy's has the exact article Koshy's, so that title is now set and its coordinate was moved from Church Street to the St Mark's Road frontage; Sankey tank (lowercase t) confirmed as the exact title; Turahalli Tree Park re-confirmed open in 2026 (6-10am and 4-6pm, Rs 10 cash, reserved forest beyond it closed) and kept with a caution; Venkatappa Art Gallery was found to have reopened after a 15-month renovation with a ticket of about Rs 50 and a new cafe, so free changed to false, hours to varies and the blurb rewritten. Titles still held on knowledge only, not URL-confirmed: Cubbon Park, Lal Bagh, Bugle Rock, Ranga Shankara (all high confidence). Hours from search results: State Central Library, Jakkur, Kaikondrahalli, Sankey, NGMA, Blossom, Turahalli; all others are from knowledge and approximate, and BBMP parks here commonly close mid-day. Coordinates are from knowledge and none is map-confirmed; lakes and large parks are high confidence, shopfronts, gates and compounds are medium. Sources: every URL appeared in a search result of one of the two stages (the Turahalli trio and the Koshy's, Sankey and Venkatappa URLs reappeared in skeptic searches); the rest are taken on the research stage's word, since they could not be fetched. Cubbon Park, Lal Bagh, Bugle Rock and Ranga Shankara keep empty arrays rather than invented ones. Safety screen: all 14 are public parks, lake paths, a library, galleries, a bookshop, a cafe and a theatre foyer; no note characterises people or leans on a neighbourhood's reputation, and cautions are given only for physical conditions at Turahalli (unlit hill paths, loose rock, irregular gates) and Jakkur Lake (long unlit shoreline that locks at 7pm). Coverage is central-heavy; Indiranagar, Koramangala and Whitefield have no entry yet.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Very well-known public park; hours from knowledge (the park itself is open roughly dawn to dusk, and its roads close to traffic on Sundays and second Saturdays). Wikipedia title kept on high confidence from knowledge, not URL-confirmed. Coordinates are the bandstand area near the State Central Library.",
+      "name": "Cubbon Park",
+      "neighborhood": "Central Bengaluru (Sampangi Rama Nagar)",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "solo",
+        "group",
+        "people-watch",
+        "picnic",
+        "free"
+      ],
+      "blurb": "Three hundred acres of rain trees, bamboo groves and lawns in the middle of the city, threaded with quiet lanes and dotted with red colonial buildings. Bengalureans use it as their front garden: readers spread out under the trees on weekend mornings (a large silent-reading meetup gathers here on Saturdays), dog walkers and joggers circle the roads, and by mid-morning on a weekday you can find a bench where the only sound is the parakeets. It is one of the very few places in the centre where you can sit for an hour without buying anything.",
+      "tips": "Come in from the Cubbon Park metro exit or the Hudson Circle gate and head for the bamboo grove or the lawns behind the bandstand for the quietest spots. Sundays and second Saturdays are car-free, which makes the whole park calmer. Carry water; there are few stalls inside.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 6am-6pm (check locally)",
+      "lat": 12.9763,
+      "lng": 77.5929,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Cubbon Park",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Large, well used and patrolled by day; inner lanes are unlit and empty after dark, so leave by dusk."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known botanical garden; hours and the small entry fee are from knowledge and approximate (walkers have traditionally entered free in the early morning and evening). Wikipedia title \"Lal Bagh\" kept on high confidence from knowledge, not URL-confirmed. Coordinates are the garden centre near the Glass House.",
+      "name": "Lalbagh Botanical Garden",
+      "neighborhood": "Lalbagh / Basavanagudi",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "sunrise",
+        "view",
+        "walk",
+        "water",
+        "solo",
+        "quiet"
+      ],
+      "blurb": "A 240-acre botanical garden laid out in the 18th century, with a glass house, a lake full of pelicans and a huge granite outcrop that is one of the oldest rock formations on earth. The rock beside the old Kempegowda watchtower is where residents climb at first light to watch the sun come up over the south of the city, and on a weekday the lakeside benches and the far lawns near the Siddapura gate are almost empty. The famous flower shows are twice a year; the rest of the time it is just a very large, very green place to sit.",
+      "tips": "Enter from the West Gate (Basavanagudi side) for the rock and watchtower, or from the Lalbagh metro side for the lake. Go before 9am for the coolest, quietest hour; mornings and evenings have traditionally been free for walkers, with a small ticket in between. Skip the flower-show weeks in January and August if you want it calm.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "6am-7pm (check locally)",
+      "lat": 12.9507,
+      "lng": 77.5848,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Lal Bagh",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Gated garden with staff at the entrances and closed at night; the granite rock is steep and slippery when wet, so wear grippy shoes."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Research-stage search confirmed the tank is open daily until about 7-7:30pm and is busiest 6-9am and 3:30-7:30pm. Skeptic-stage search confirmed the exact article is en.wikipedia.org/wiki/Sankey_tank (lowercase t). Coordinates are the lake body; entrances are on the Sadashivanagar and Malleshwaram sides.",
+      "name": "Sankey Tank",
+      "neighborhood": "Malleshwaram / Sadashivanagar",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunrise",
+        "sunset",
+        "walk",
+        "quiet",
+        "solo",
+        "free"
+      ],
+      "blurb": "A 19th-century reservoir in the leafy north-west of the city with a paved walking loop, a few small parks along its edge and a surprising amount of birdlife for somewhere ten minutes from Malleshwaram's markets. It is a neighbourhood lake rather than a destination: retired couples doing laps, students on the benches under the rain trees, and a wide western sky for sunsets. The Malleshwaram side has quieter benches than the Sadashivanagar gate.",
+      "tips": "Enter from the Sadashivanagar gate or the smaller gates off the Malleshwaram side; the loop is under 2 km. Pair it with a filter coffee on Malleshwaram's 8th Cross afterwards. Weekend mornings are crowded with walkers, so go on a weekday or in the late afternoon.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 6am-7:30pm (check locally)",
+      "lat": 13.01,
+      "lng": 77.5733,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Sankey tank",
+      "sources": [
+        {
+          "url": "https://lbb.in/bangalore/sankey-tank-bangalore-iconic-man-made-lake/",
+          "label": "LBB: Sankey Tank sunrise",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g297628-d4138665-Reviews-or360-Sankey_Tank-Bengaluru_Bangalore_District_Karnataka.html",
+          "label": "Tripadvisor: Sankey Tank",
+          "kind": "forum"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated path that closes in the evening and is busy with walkers; the lake edge is fenced along most of the loop."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed hours (weekdays 5:30-10:30am and 3:30-6:30pm, weekends 5:30am-6:30pm), the 48-acre size and its community-run restoration. Only a Simple English Wikipedia page appeared, no en.wikipedia article, so title set to null. Coordinates are the lake off Sarjapur Road; medium confidence for the exact gate.",
+      "name": "Kaikondrahalli Lake",
+      "neighborhood": "Sarjapur Road (Kaikondrahalli / Kasavanahalli)",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "green",
+        "quiet",
+        "walk",
+        "sunrise",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "A community-restored lake on Sarjapur Road that residents' groups pulled back from a sewage-filled swamp into a 48-acre wetland with a mud walking path, a native-plant trail and platforms for watching kingfishers and painted storks. It is the model for the city's citizen lake movement and feels like it: no boating, no food stalls, just people from the surrounding apartments walking, reading and birdwatching. Early morning is when the light and the birds are best.",
+      "tips": "The gate is on Sarjapur Road near the Kasavanahalli junction; weekday hours are split, so aim for 6-9am or 4-6:30pm. The path is earth, not paved, and gets muddy after rain. Bring binoculars if you have them.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "weekdays 5:30-10:30am and 3:30-6:30pm; weekends 5:30am-6:30pm",
+      "lat": 12.9153,
+      "lng": 77.6735,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.tripadvisor.in/Attraction_Review-g297628-d7728876-Reviews-Kaikondrahalli_Lake-Bengaluru_Bangalore_District_Karnataka.html",
+          "label": "Tripadvisor: Kaikondrahalli Lake",
+          "kind": "forum"
+        },
+        {
+          "url": "https://www.explorebangalore.com/gardens-parks/kaikondrahalli-lake",
+          "label": "Explore Bangalore: Kaikondrahalli Lake",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated and closed after 6:30pm; the earth path is uneven and unlit, so finish your loop before the light goes."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed en.wikipedia.org/wiki/Jakkur_Lake, the BBMP lake page, free entry and the two daily shifts (6-9am and 4-7pm, some sources say 5am opening). Coordinates are the lake body in Jakkur; the main gate is on the southern side, medium confidence.",
+      "name": "Jakkur Lake",
+      "neighborhood": "Jakkur / Yelahanka (North Bengaluru)",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunrise",
+        "quiet",
+        "walk",
+        "green",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "One of the city's largest lakes, about 4 km around, with islands full of roosting birds and a wide, open sky that the south of the city never gets. It sits in the north near Yelahanka and is used almost entirely by people who live nearby, so even on a weekend the far shore is empty. The morning shift is the one to come for: mist on the water, cormorants drying their wings and the sunrise coming up behind the islands.",
+      "tips": "Get here for the 6am opening and walk the loop anticlockwise for the sunrise over the water; the evening shift is 4-7pm. There is free parking at the main gate and little else, so bring water and a snack. Closest metro is a long auto ride away, so plan the trip back.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "6am-9am and 4pm-7pm",
+      "lat": 13.08,
+      "lng": 77.612,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Jakkur Lake",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jakkur_Lake",
+          "label": "Wikipedia: Jakkur Lake",
+          "kind": "other"
+        },
+        {
+          "url": "https://site.bbmp.gov.in/departmentwebsites/lakes/jakkuru.html",
+          "label": "BBMP: Jakkur Lake",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "A long, lightly used shoreline path with no lighting; the gates lock at 7pm, so do the loop in the morning shift or start the evening walk by 5pm and stay on the main path."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known BBMP park on a granite outcrop next to the Bull Temple; hours from knowledge and follow the usual BBMP split-shift pattern (approximate). Wikipedia title \"Bugle Rock\" kept on high confidence from knowledge, not URL-confirmed. Coordinates are the rock itself, adjacent to the Bull Temple.",
+      "name": "Bugle Rock Park",
+      "neighborhood": "Basavanagudi",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "quiet",
+        "green",
+        "sunset",
+        "solo",
+        "free",
+        "walk"
+      ],
+      "blurb": "A hump of three-billion-year-old granite in the heart of old Basavanagudi, planted around with trees and turned into a small park where the neighbourhood comes to walk and sit on the warm rock in the evening. From the top you look over the tiled roofs of one of the city's oldest suburbs, with the Bull Temple gopuram beside you and a huge fruit-bat colony overhead at dusk. It is a very local place: schoolkids, grandparents, a few readers on the benches.",
+      "tips": "The entrance is beside the Bull Temple on Bull Temple Road; climb the steps to the rock top for the view. BBMP parks here usually close in the middle of the day, so come early or after 4pm. Gandhi Bazaar is a ten-minute walk for dosas and coffee afterwards.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 5am-10am and 4pm-8pm (BBMP park hours, check locally)",
+      "lat": 12.9433,
+      "lng": 77.5691,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Bugle Rock",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Small, gated neighbourhood park that locks in the evening; the bare rock is slippery after rain, so mind the steps."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Research stage confirmed en.wikipedia.org/wiki/Turahalli_Forest and that the reserved-forest section is closed to visitors, with only the Forest Department Tree Park open. Skeptic stage re-searched in 2026 and got the same picture: Tree Park open, 6-10am and 4-6pm, Rs 10 cash, vehicles banned inside, opening sometimes delayed; the three attached URLs reappeared verbatim in that result. Kept, written for the Tree Park only. Coordinates are the forest hill off Kanakapura Road from knowledge; the gate itself is medium confidence.",
+      "name": "Turahalli Tree Park",
+      "neighborhood": "Turahalli / Uttarahalli (off Kanakapura Road)",
+      "category": "trail",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "view",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "The last patch of scrub forest inside the city, on a low granite hill south of Uttarahalli, with a Forest Department tree park at its edge where you can walk sandy paths between rocks and dry-deciduous trees and hear almost nothing but birds. Climbers used to come for the boulders; now the reserved forest proper is off limits and the tree park is the part you can use. For a city this size it is startlingly quiet, and the rocks near the top give a view back over the southern suburbs.",
+      "tips": "Come from Kanakapura Road via Turahalli; ask locally for the tree park gate, since the entrance is easy to miss. Bring Rs 10 in cash for the ticket and go in the morning shift, as gates have been reported to open late or close unexpectedly. Stay inside the tree park boundary; the reserved forest beyond is closed.",
+      "bestTimes": [
+        "morning"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "6am-10am and 4pm-6pm (reported; gate opening is sometimes late, check locally)",
+      "lat": 12.8895,
+      "lng": 77.524,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Turahalli Forest",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Turahalli_Forest",
+          "label": "Wikipedia: Turahalli Forest",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.tripadvisor.in/Attraction_Review-g297628-d7311363-Reviews-Turahalli_Park-Bengaluru_Bangalore_District_Karnataka.html",
+          "label": "Tripadvisor: Turahalli Park",
+          "kind": "forum"
+        },
+        {
+          "url": "https://www.trawell.in/karnataka/bangalore/turahalli-forest",
+          "label": "Trawell: Turahalli Forest timings",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Unlit hill paths, loose rock and irregular gate hours; go in daylight, ideally with someone, carry water and keep to the marked tree-park paths."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed the address (84/6 Church Street), daily hours of 10:30am-9pm, two branches on the same street and roughly 200,000 second-hand books. No English Wikipedia article exists (only Church Street, Bengaluru), so title set to null. Coordinates are the Church Street shopfront, medium confidence.",
+      "name": "Blossom Book House",
+      "neighborhood": "Church Street (Central Business District)",
+      "category": "bookstore",
+      "vibes": [
+        "rain-ok",
+        "cozy",
+        "solo",
+        "quiet",
+        "night",
+        "free"
+      ],
+      "blurb": "Three floors of second-hand books stacked to the ceiling on Church Street, started by an engineering graduate who once sold paperbacks off a pavement and now runs the biggest used-book shop in the country. Nobody minds if you take a book to a corner and read for an hour; that is what half the customers are doing. There is a second, larger branch a few doors down, and the surrounding street has enough coffee to make a whole rainy afternoon of it.",
+      "tips": "The original at 84/6 is the more atmospheric; the newer branch further along Church Street is roomier. Fiction and cheap classics are upstairs. Take the metro to MG Road and walk two minutes.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "10:30am-9pm daily",
+      "lat": 12.9752,
+      "lng": 77.6055,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.atlasobscura.com/places/blossom-book-house",
+          "label": "Atlas Obscura: Blossom Book House",
+          "kind": "press"
+        },
+        {
+          "url": "https://lbb.in/bangalore/blossom-book-house/",
+          "label": "LBB: Blossom Book House",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed shop on a busy, lit pedestrian-friendly street that stays lively until late."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Skeptic search confirmed en.wikipedia.org/wiki/Koshy%27s (Koshy's Parade Cafe, est. 1940, 39 St Mark's Road, near the LIC building), so the title is set. The draft coordinate (77.6045) sat on Church Street a block east of St Mark's Road; moved to the St Mark's Road frontage near its junction with Church Street, still medium confidence as it is placed from knowledge, not a map result. Hours from knowledge and approximate.",
+      "name": "Koshy's",
+      "neighborhood": "St Mark's Road (Central Business District)",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "people-watch",
+        "solo",
+        "group"
+      ],
+      "blurb": "A high-ceilinged 1940s cafe on St Mark's Road with ceiling fans, dark wood, waiters in white and a clientele of journalists, retired professors and students who have been meeting here for generations. The trick is to sit in the old Parade Cafe side with a pot of tea and a plate of toast and stay as long as you like; nobody has ever been hurried out of Koshy's. It is the closest Bengaluru comes to a Viennese coffeehouse.",
+      "tips": "Enter from St Mark's Road and turn left for the older, cheaper cafe section rather than the air-conditioned restaurant. Late morning on a weekday is the emptiest; Sunday breakfast is packed. Cash and cards both work.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly 9am-11pm daily (check locally)",
+      "lat": 12.9741,
+      "lng": 77.6024,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Koshy's",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Koshy%27s",
+          "label": "Wikipedia: Koshy's",
+          "kind": "other"
+        },
+        {
+          "url": "https://lbb.in/bangalore/koshys-st-marks-road/",
+          "label": "LBB: Koshy's on St Mark's Road",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed cafe on a main, well-lit road with autos and the MG Road metro close by."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed free public entry, hours of about 8am-8pm, and closure on Mondays and the second Tuesday of the month. I believe an English Wikipedia article exists but could not confirm its exact title, so set to null. Coordinates place the red Seshadri Iyer Memorial Hall inside Cubbon Park, medium confidence.",
+      "name": "State Central Library (Seshadri Iyer Memorial Hall)",
+      "neighborhood": "Cubbon Park",
+      "category": "library",
+      "vibes": [
+        "study",
+        "quiet",
+        "rain-ok",
+        "green",
+        "solo",
+        "free"
+      ],
+      "blurb": "A red Victorian hall in the middle of Cubbon Park, fronted by a rose garden and filled with long tables, old fans and a public reference collection you are free to sit and read without any membership. It is quieter than any cafe in the city and costs nothing, and when it rains you can watch the park turn dark green through the tall windows. Students preparing for exams fill the tables on weekends, so weekday afternoons are the calm ones.",
+      "tips": "Walk in from the Cubbon Park metro side; sign the visitors' register at the door and take any free seat in the reading hall. Phones on silent and no laptops in some rooms, so bring a book or paper. Closed Mondays and the second Tuesday of the month.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "8am-8pm, closed Mon and 2nd Tue (check locally)",
+      "lat": 12.977,
+      "lng": 77.5923,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://lbb.in/bangalore/state-central-library/",
+          "label": "LBB: State Central Library",
+          "kind": "blog"
+        },
+        {
+          "url": "https://bangalore.explocity.com/bangalore-guide/listing/sheshadri-iyer-memorial-hall-state-central-library/",
+          "label": "Explocity: Seshadri Iyer Memorial Hall",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building inside a park; the walk out to the road is unlit after dark, so leave before the park empties."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed en.wikipedia.org/wiki/National_Gallery_of_Modern_Art,_Bengaluru (the Bangalore spelling redirects), the Manikyavelu Mansion location on Palace Road, hours (Tue-Fri 11am-6:30pm, Sat-Sun 11am-8pm, closed Mon) and an on-site cafe and library. Coordinates are the Palace Road compound, medium confidence.",
+      "name": "National Gallery of Modern Art, Bengaluru",
+      "neighborhood": "Palace Road (Vasanth Nagar)",
+      "category": "museum",
+      "vibes": [
+        "quiet",
+        "rain-ok",
+        "green",
+        "cozy",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "A modern-art museum in a century-old mansion set in three and a half acres of lawn and old trees on Palace Road, with two floors of Indian painting from the Bengal School onward and, more to the point for an hour's rest, a garden cafe under the trees that is one of the quietest outdoor tables in the centre. Weekday afternoons are close to empty. The ticket is a token amount and the grounds alone are worth it.",
+      "tips": "Buy a ticket at the gate on Palace Road and do the galleries first, then take a coffee to the garden. Photography rules vary by exhibition. Weekend evenings stay open till 8pm; closed Mondays.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Tue-Fri 11am-6:30pm, Sat-Sun 11am-8pm, closed Mon",
+      "lat": 12.991,
+      "lng": 77.5888,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "National Gallery of Modern Art, Bengaluru",
+      "sources": [
+        {
+          "url": "https://ngmaindia.gov.in/ngma_bangaluru.asp",
+          "label": "NGMA: Bengaluru branch",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/National_Gallery_of_Modern_Art,_Bengaluru",
+          "label": "Wikipedia: NGMA Bengaluru",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.incredibleindia.gov.in/en/karnataka/bengaluru/national-gallery-of-modern-art",
+          "label": "Incredible India: NGMA Bengaluru",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, gated compound with security at the entrance; Palace Road outside is busy and lit."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed en.wikipedia.org/wiki/Rangoli_Metro_Art_Center, the 2013 opening by BMRCL, the three galleries and that entry is usually free; gallery hours were not stated precisely, so hours left as varies. Coordinates are the MG Road boulevard under the metro station, high confidence for the strip.",
+      "name": "Rangoli Metro Art Center",
+      "neighborhood": "MG Road Boulevard",
+      "category": "plaza",
+      "vibes": [
+        "people-watch",
+        "rain-ok",
+        "free",
+        "night",
+        "solo",
+        "group",
+        "walk"
+      ],
+      "blurb": "The old MG Road promenade, rebuilt under the elevated metro line as a kilometre of shaded walkway with benches, bougainvillea, a fountain and three small free galleries that host rotating exhibitions and weekend performances. It is the rare central spot where you can sit for an hour in the shade or out of the rain without a menu in front of you, watching the city go by below and the trains slide past above. Evenings, when the office crowd drifts through, are the liveliest.",
+      "tips": "Exit MG Road metro station straight onto the boulevard; the galleries are along the strip and open most days but check the BMRCL Rangoli site for what is on. The covered sections keep you dry in the monsoon. Cafes and Church Street are one road away.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (boulevard open most of the day; galleries check site)",
+      "lat": 12.9757,
+      "lng": 77.6065,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Rangoli Metro Art Center",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Rangoli_Metro_Art_Center",
+          "label": "Wikipedia: Rangoli Metro Art Center",
+          "kind": "other"
+        },
+        {
+          "url": "http://rangoli.bmrc.co.in/",
+          "label": "BMRCL: Rangoli Metro Art Center",
+          "kind": "official"
+        },
+        {
+          "url": "https://karnatakatourism.org/en/experiences/rangoli-metro-art-center-bengaluru",
+          "label": "Karnataka Tourism: Rangoli",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit, elevated walkway beside a metro station with staff and constant foot traffic until the last trains."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known non-profit theatre in JP Nagar with a public foyer cafe, written from knowledge only; cafe hours approximate and depend on the show schedule. Wikipedia title \"Ranga Shankara\" kept on high confidence from knowledge, not URL-confirmed. Coordinates are the 8th Cross, JP Nagar 2nd Phase site, medium confidence.",
+      "name": "Ranga Shankara",
+      "neighborhood": "JP Nagar 2nd Phase",
+      "category": "indoor",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "people-watch",
+        "night",
+        "solo",
+        "group"
+      ],
+      "blurb": "A small, much-loved theatre that has staged a play almost every night since 2004, with an open courtyard-style foyer and a cafe where you can sit over coffee and a plate of food whether or not you have a ticket. Before the 7:30pm show the foyer fills with the neighbourhood's theatre crowd; in the afternoon it is nearly silent and a good place to read. It is one of the few cultural spaces in the southern suburbs that is genuinely open to anyone who wanders in.",
+      "tips": "The cafe is in the foyer to the right of the entrance; afternoons are quiet, evenings are the scene. Tickets for most plays are cheap and sell out, so book online if you want to stay for the show. Closest metro is Jayanagar or Yelachenahalli, then a short auto ride.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "varies (cafe roughly 10am-9pm, closed Mon; check site)",
+      "lat": 12.9091,
+      "lng": 77.5868,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Ranga Shankara",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed venue on a residential street; the street is lit and autos are easy after evening shows."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Skeptic search found Deccan Herald reporting the gallery reopened after a major 15-month renovation (new galleries, cafe, shop, elevators) after earlier postponements, and a listing site giving a Rs 50 ticket, so the draft's 'free' and 'Tue-Sun 10-5' were stale and are replaced with free:false and hours:varies. The article en.wikipedia.org/wiki/Venkatappa_Art_Gallery appeared in a research-stage result. Coordinates are the Kasturba Road museum compound, medium confidence.",
+      "name": "Venkatappa Art Gallery",
+      "neighborhood": "Kasturba Road (Cubbon Park edge)",
+      "category": "museum",
+      "vibes": [
+        "quiet",
+        "rain-ok",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "A state-run gallery next to the red Government Museum on the Cubbon Park side of Kasturba Road, built in 1975 to hold the paintings, plaster reliefs and veenas of the Mysore court artist K. Venkatappa, and reopened in its golden-jubilee year after a 15-month, Rs 10 crore renovation that added two new galleries, a restoration room, a shop and a cafe. The first floor is all Venkatappa; the rest rotates local shows. It is rarely crowded and a few steps from the park, so it works as a cool, quiet hour out of the midday heat or a downpour.",
+      "tips": "The gallery shares a compound with the Government Museum on Kasturba Road, a short walk from the Cubbon Park metro. Expect a small ticket (about Rs 50 was reported after the reopening) and check the current day and hours before you go, since the post-renovation schedule was not published in anything I found. Combine it with the park or the State Central Library.",
+      "bestTimes": [
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "varies (check locally; closed Mon in the past)",
+      "lat": 12.9754,
+      "lng": 77.5958,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Venkatappa Art Gallery",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Venkatappa_Art_Gallery",
+          "label": "Wikipedia: Venkatappa Art Gallery",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.deccanherald.com/india/karnataka/bengaluru/bengaluru-venkatappa-art-gallery-reopens-after-major-renovation-3583721",
+          "label": "Deccan Herald: gallery reopens after renovation",
+          "kind": "press"
+        },
+        {
+          "url": "https://bangaloretourism.in/venkatappa-art-gallery-bangalore",
+          "label": "Bangalore Tourism: timings and ticket",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed government building on a main road with security at the gate; closes in the late afternoon."
+      },
+      "lowkeyScore": 4
+    }
+  ]
+}

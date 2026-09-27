@@ -1,0 +1,660 @@
+{
+  "city": "Santiago",
+  "country": "Chile",
+  "slug": "santiago",
+  "region": "americas",
+  "cityLat": -33.4489,
+  "cityLng": -70.6693,
+  "timezone": "America/Santiago",
+  "searchesRun": [
+    "Parque Bicentenario Vitacura horario apertura wikipedia",
+    "Jardín Japonés Parque Metropolitano Santiago horario entrada Pedro de Valdivia Norte",
+    "Café Literario Parque Balmaceda Providencia horario",
+    "Biblioteca de Santiago Matucana 151 horario",
+    "Parque de las Esculturas Providencia Santiago wikipedia",
+    "Jardín Botánico Chagual Parque Metropolitano horario visitas",
+    "Cementerio General de Santiago horario visitas Recoleta",
+    "Parque Araucano Las Condes horario wikipedia",
+    "Parque Inés de Suárez Providencia ubicación Francisco Bilbao Antonio Varas",
+    "Jardín Botánico Chagual cómo llegar acceso entrada Parque Metropolitano Vitacura",
+    "Café Literario Parque Balmaceda Providencia 410 Baquedano ubicación",
+    "\"Parque Bicentenario\" Vitacura Santiago wikipedia (site:en.wikipedia.org)"
+  ],
+  "redditSourcedNotes": "Two stages. RESEARCHER: eight web searches, spent on hours, free access and English Wikipedia titles for the eight least certain spots; no reddit or local-opinion pages were read, and the choice of places comes from prior knowledge. SKEPTIC: four more searches plus attempted direct fetches of en.wikipedia.org, wikidata.org and several source pages; every direct fetch was blocked by the network egress proxy, so nothing beyond search-result snippets was read in either stage. Confirmed by a real search result (either stage): Parque Bicentenario (en.wikipedia article \"Parque Bicentenario\" is the Vitacura park, re-confirmed by a site-restricted search; free, 8am-9pm per Vitacura municipality), Jardín Japonés (free, Tue-Sun 9am-6pm, closed Monday, access from Pedro de Valdivia Norte; no English article), Café Literario Parque Balmaceda (reopened April 2026 after six years closed; address Av. Providencia 410, nearest metro Salvador; hours conflict between a pre-closure page and 2026 coverage, so marked varies), Biblioteca de Santiago (en.wikipedia \"Biblioteca de Santiago\"; Tue-Fri 11am-7:15pm, Sat-Sun 11:30am-5pm), Parque de las Esculturas (only es.wikipedia; providencia.cl confirms free open-air museum on the north bank), Jardín Botánico Chagual (en.wikipedia article URL appeared in both stages; free; summer hours per parquemet.cl; only access is the Vivero Leliantú gate on Av. Comodoro Arturo Merino Benítez, Vitacura), Cementerio General (en.wikipedia \"Santiago General Cemetery\"; free, 8:45am-5pm), Parque Araucano (en.wikipedia \"Araucano Park\"; 6:30am-9:30pm), Parque Inés de Suárez (es.wikipedia and providencia.cl: 5 ha, 540 m south of Av. Bilbao between Marchant Pereira and Antonio Varas). From prior knowledge only, with empty sources arrays: Parque Quinta Normal, Museo de la Memoria y los Derechos Humanos, Parque Forestal, GAM and Plaza Ñuñoa; their hours are approximate and their Wikipedia titles (Quinta Normal Park, Museum of Memory and Human Rights, Parque Forestal, Gabriela Mistral Cultural Center) are kept on high confidence from memory but were not URL-confirmed by either stage. Coordinates: no coordinate in this file was read off a map; all are from knowledge of the street grid. The skeptic moved two pins: Parque Inés de Suárez ~800 m south (the researcher had it north of Bilbao; the park is south of Bilbao) and Café Literario ~400 m east toward Salvador metro. Both stay medium. Jardín Botánico Chagual remains LOW: the pin marks the eastern Vitacura sector of the Parque Metropolitano, not the gate. Sources: five researcher URLs were re-observed verbatim in skeptic search results (providencia.cl reopening, Emol 2026, tupanoramaurbano, en.wikipedia Chagual, en.wikipedia Parque_Bicentenario); the remaining researcher URLs could not be opened because of the egress block and are kept on the researcher's statement that each appeared in a result. Six URLs from skeptic results were added. Safety screen: all 14 are ordinary public places (parks, gardens, a cemetery-museum, a library, a museum, a cultural centre, a plaza, a book cafe); no derelict, industrial, rail or private land. Every safety note was re-read against the standard; none characterises people or leans on a neighbourhood's reputation, and no crime pattern is asserted. Caution is applied only to Parque Forestal (open 24h, inner paths dimly lit and emptying after dark) and Cementerio General (86 hectares, easy to lose bearings, unlit and locked after 5pm). An unsourced remark in the researcher notes about 2019-20 damage at the Plaza Baquedano end of Parque Forestal was removed, and a class-based description of Quinta Normal's visitors was rewritten.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, free entry and 8am-9pm hours confirmed via vitacura.cl and conociendochile in researcher results. Skeptic search restricted to en.wikipedia.org returned the article \"Parque Bicentenario\" with a summary describing the Vitacura park (Teodoro Fernández design, first phase 2007, second phase 2011), so the title is confirmed as this place and not a disambiguation. Coordinates from knowledge of Av. Bicentenario; the park is 30 ha so the point lands inside it.",
+      "name": "Parque Bicentenario",
+      "neighborhood": "Vitacura",
+      "category": "park",
+      "vibes": [
+        "green",
+        "water",
+        "walk",
+        "picnic",
+        "sunset",
+        "group",
+        "solo",
+        "free"
+      ],
+      "blurb": "A 30-hectare riverside park along the Mapocho in Vitacura with two lagoons that hold flamingos and black-necked swans, wide lawns, native trees and a long promenade. It is where the eastern suburbs come to run, walk dogs and lie on the grass after work, and the lawns facing the Andes turn gold in the late afternoon. It is big enough to find a bench nobody else wants.",
+      "tips": "Come in from Av. Bicentenario near the municipal building and walk north away from the cafe cluster for quieter grass; the lagoon benches are best for the birds and the eastern lawns for the mountains. Gates close at 9pm and the park is fenced, so plan around that.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "8am-9pm",
+      "lat": -33.4,
+      "lng": -70.603,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Parque Bicentenario",
+      "sources": [
+        {
+          "url": "https://vitacura.cl/parque-bicentenario/parquebicentenario/",
+          "label": "Municipalidad de Vitacura: Parque Bicentenario",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Parque_Bicentenario",
+          "label": "Wikipedia: Parque Bicentenario",
+          "kind": "other"
+        },
+        {
+          "url": "https://conociendochile.cl/parque-bicentenario/",
+          "label": "Conociendo Chile: hours and prices",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced, staffed and lit along the main paths; closes at 9pm. Keep small children back from the unfenced lagoon edges."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Free entry, Tue-Sun 9am-6pm and Monday closure confirmed via La Tercera, RedGol and santiagoando in search results; access from Pedro de Valdivia Norte confirmed. No English Wikipedia article found, so title null. Coordinates are my estimate ~200 m up the hill from the Pedro de Valdivia Norte gate; medium confidence.",
+      "name": "Jardín Japonés (Cerro San Cristóbal)",
+      "neighborhood": "Providencia (Parque Metropolitano)",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "green",
+        "water",
+        "hidden",
+        "solo",
+        "free",
+        "cozy"
+      ],
+      "blurb": "A small walled Japanese garden on the lower slope of Cerro San Cristóbal, a gift from Japan in 1978 and restored in the late 1990s, with a koi pond, a red bridge, stone lanterns and cherry trees. It is a few minutes' walk up from the Pedro de Valdivia Norte gate but most people on the hill are heading for the summit, so the benches under the maples stay quiet. Locals come here to read or simply sit by the water for an hour.",
+      "tips": "Walk in through the Pedro de Valdivia Norte entrance of the Parque Metropolitano and the garden is on your right about 200 m up, past the first bend. Closed Mondays for maintenance; cherry blossom is late August to September. No food inside.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Tue-Sun 9am-6pm, closed Mon",
+      "lat": -33.4238,
+      "lng": -70.6255,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.latercera.com/servicios/noticia/jardin-japones-en-santiago-como-llegar-y-cual-es-el-horario-del-panorama-gratuito/3T2QCBBIT5GTFMNRTJUAXVLLBY/",
+          "label": "La Tercera: how to get there and hours",
+          "kind": "press"
+        },
+        {
+          "url": "https://santiagoando.com/jardin-japones-2/",
+          "label": "Santiagoando: Jardín Japonés",
+          "kind": "blog"
+        },
+        {
+          "url": "https://redgol.cl/tendencias/Cuales-son-los-horarios-para-visitar-el-Jardin-Japones-ubicado-en-el-Cerro-San-Cristobal-Parque-Metropolitano-20220719-0029.html",
+          "label": "RedGol: opening hours",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, gated garden that closes at 6pm; the access road is a shared road with cyclists and cars, so walk on the verge."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Free entry and summer hours (Tue-Sun 10am-8pm, Mon 1pm-8pm) confirmed via parquemet.cl in researcher results; winter hours not found. en.wikipedia.org/wiki/Jardín_Botánico_Chagual appeared in results in both stages, so the title is kept. Skeptic search: the garden's pages (chlorischile.cl, AllTrails) say the only enabled access is from Av. Comodoro Arturo Merino Benítez at the Vivero Leliantú entrance in Vitacura, on the garden's southern boundary, with parking and Red buses C07/C22 nearby. Neither stage could open a map result (skeptic fetches were egress-blocked), so the pin marks the eastern Vitacura sector of the Parque Metropolitano, not the gate: coordConfidence stays LOW. Navigate to the Vivero Leliantú entrance, not to this pin.",
+      "name": "Jardín Botánico Chagual",
+      "neighborhood": "Vitacura (Parque Metropolitano)",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "green",
+        "hidden",
+        "walk",
+        "solo",
+        "view",
+        "free"
+      ],
+      "blurb": "A slow-growing botanical garden on the eastern slopes of Cerro San Cristóbal devoted to Chile's Mediterranean-climate flora: chaguales, espinos, quillayes and the puya and cactus collections that most city parks pull out. It is run by a foundation with volunteers, feels half wild, and looks out across Vitacura to the Andes. Almost nobody outside the plant world knows it exists, which is why it makes this list.",
+      "tips": "Entry is free, and the only open access is the Vivero Leliantú gate on Av. Comodoro Arturo Merino Benítez in Vitacura (Red buses C07 and C22 pass nearby; there is parking). Check parquemet.cl or the garden's own page for current hours, since they change by season and it is closed Monday mornings. Wear closed shoes for the gravel paths and bring water; there is no cafe.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (summer Tue-Sun 10am-8pm, Mon 1pm-8pm; check site)",
+      "lat": -33.419,
+      "lng": -70.6205,
+      "coordConfidence": "low",
+      "wikipediaTitle": "Jardín Botánico Chagual",
+      "sources": [
+        {
+          "url": "https://www.parquemet.cl/jardin-botanico-chagual/",
+          "label": "Parquemet: Jardín Botánico Chagual",
+          "kind": "official"
+        },
+        {
+          "url": "https://laderasur.com/articulo/jardin-botanico-chagual-un-proyecto-de-lo-nuestro/",
+          "label": "Ladera Sur: a project of our own",
+          "kind": "press"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Jard%C3%ADn_Bot%C3%A1nico_Chagual",
+          "label": "Wikipedia: Jardín Botánico Chagual",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.chlorischile.cl/chagualjb/Jardin%20Botanico%20Chagual.htm",
+          "label": "Chloris Chile: Jardín Botánico Chagual (access)",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.alltrails.com/es/poi/chile/santiago/vitacura/jardin-botanico-chagual",
+          "label": "AllTrails: Jardín Botánico Chagual",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated and staffed in opening hours; unpaved sloping paths, and the hillside has no lighting, so leave before closing."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Reopening in April 2026 after six years closed confirmed via providencia.cl and Emol in both stages. Skeptic search: 2GIS and a UC events page give the address as Av. Providencia 410 and a transit page names Salvador as the nearest metro, so the pin was moved ~400 m east from the Plaza Baquedano end of Parque Balmaceda toward Salvador; still estimated, not read off a map, so medium. Hours conflict between sources (a pre-closure providencia.cl page lists Mon-Fri 9am-8pm and weekends 10am-8pm; the 2026 reopening coverage says Mon-Sat 9am-6pm), so hours are marked varies. The en.wikipedia Bustamante Park result is the neighbouring park south of the Alameda, not this one, so title null.",
+      "name": "Café Literario Parque Balmaceda",
+      "neighborhood": "Providencia",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "study",
+        "quiet",
+        "green",
+        "solo"
+      ],
+      "blurb": "A municipal library-cafe in a glass-and-timber pavilion in Parque Balmaceda, the strip of park between Av. Providencia and the Mapocho. Providencia runs a handful of these cafés literarios and this one, the original, reopened in April 2026 after six years shut, with three floors of open shelves, a children's room, a terrace and a counter selling coffee and pastries. You can read anything off the shelves without a card, and the park is right outside the door.",
+      "tips": "It is at Av. Providencia 410 in Parque Balmaceda, between Baquedano and Salvador metros and closer to Salvador; go upstairs for the quietest tables and use the terrace when it is warm. Hours have changed since the 2026 reopening, so check providencia.cl before a Sunday or evening visit. If it is full, the twin Café Literario in Parque Bustamante across the Alameda works the same way.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "varies (recently reopened; roughly Mon-Sat 9am-6pm, check providencia.cl)",
+      "lat": -33.435,
+      "lng": -70.63,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://providencia.cl/provi/explora/noticias/municipalidad/providencia-reabre-el-cafe-literario-del-parque-balmaceda",
+          "label": "Municipalidad de Providencia: reopening",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.emol.com/noticias/Nacional/2026/04/23/1198047/inaguracion-cafe-literario-balmaceda-providencia.html",
+          "label": "Emol: before and after the refurbishment",
+          "kind": "press"
+        },
+        {
+          "url": "https://tupanoramaurbano.cl/cafe-literario-parque-balmaceda/",
+          "label": "Panorama Urbano: Café Literario Parque Balmaceda",
+          "kind": "blog"
+        },
+        {
+          "url": "https://2gis.cl/santiago/firm/70000001006566193",
+          "label": "2GIS: address listing, Av. Providencia 410",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed building with security on a busy, lit avenue; the park strip behind it toward the river is narrower and less lit at night, so leave along Av. Providencia rather than through the park."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, free entry and location (north bank of the Mapocho between Pedro de Valdivia and Nueva Lyon, Av. Santa María) confirmed via providencia.cl and culturaprovidencia.cl in results. Only a Spanish Wikipedia article was found, so title null. Hours are from knowledge and approximate.",
+      "name": "Parque de las Esculturas",
+      "neighborhood": "Providencia (Pedro de Valdivia Norte)",
+      "category": "park",
+      "vibes": [
+        "quiet",
+        "green",
+        "water",
+        "walk",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "A narrow open-air sculpture museum on the north bank of the Mapocho, laid out in 1986 with more than forty works by Chilean sculptors set among lawns, old trees and gravel paths. It sits directly below the Cerro San Cristóbal and across the river from the Providencia office towers, so you get the hill on one side and the skyline on the other with the river between. Office workers cross the footbridge with lunch; otherwise it is mostly empty.",
+      "tips": "Cross the Mapocho on the Pedro de Valdivia or Padre Letelier footbridge and enter from Av. Santa María; the benches near Marta Colvin's 'Pachamama' get the afternoon sun. Gated and closed at night, and there is a small free exhibition hall at the eastern end.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (roughly 8am-7pm; check site)",
+      "lat": -33.4222,
+      "lng": -70.6165,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://providencia.cl/provi/site/artic/20190927/pags/20190927121514.html",
+          "label": "Municipalidad de Providencia: Parque de las Esculturas",
+          "kind": "official"
+        },
+        {
+          "url": "https://culturaprovidencia.cl/esculturas-del-parque/",
+          "label": "Fundación Cultural de Providencia: the sculptures",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced park, closed overnight; Av. Santa María beside it is a fast road with few crossings, so use the footbridges rather than crossing at grade."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Researcher placed this from memory at -33.4335 (north of Av. Bilbao). Skeptic search: es.wikipedia and providencia.cl describe a 5 ha park extending 540 m SOUTH of Av. Francisco Bilbao between Marchant Pereira and Antonio Varas, bounded by Vasconia on the south, built 1966. Pin moved ~800 m south to the middle of that block; longitude is estimated from the street grid, no map result read, so medium. Hours still approximate. No English Wikipedia article known, so null.",
+      "name": "Parque Inés de Suárez",
+      "neighborhood": "Providencia",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "picnic",
+        "walk",
+        "solo",
+        "group",
+        "free"
+      ],
+      "blurb": "A five-hectare neighbourhood park of old trees, lawns and a small amphitheatre in residential Providencia, laid out in 1966 on former Carabineros school land and mostly used by people who live within ten blocks. Weekday mornings bring dog walkers and retirees on the benches; weekends bring picnics and children, but even then it is never crowded. It is a good place to read under a plane tree with coffee from Barrio Italia a few blocks south.",
+      "tips": "The park runs south from Av. Francisco Bilbao between Antonio Varas and Marchant Pereira; enter from Bilbao or Antonio Varas, and the lawns on the north side stay in shade longest in summer. Gates are closed overnight. Inés de Suárez station on Line 6 is the nearest metro.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 7am-9pm (check locally)",
+      "lat": -33.441,
+      "lng": -70.6105,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://es.wikipedia.org/wiki/Parque_In%C3%A9s_de_Su%C3%A1rez",
+          "label": "Wikipedia (es): Parque Inés de Suárez",
+          "kind": "other"
+        },
+        {
+          "url": "https://providencia.cl/provi/site/artic/20190927/pags/20190927122144.html",
+          "label": "Municipalidad de Providencia: Parque Inés de Suárez",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.santiagoregion.com/es/ver/4/700/parque-ines-de-suarez",
+          "label": "Santiago Region: park description",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced municipal park on a lit residential grid, closed overnight; fine solo in daylight."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Hours (Tue-Fri 11am-7:15pm, Sat-Sun 11:30am-5pm, closed Mon) confirmed via bibliotecasantiago.gob.cl in search results; en.wikipedia.org/wiki/Biblioteca_de_Santiago appeared in results. Coordinates estimated from the Matucana 151 address; medium.",
+      "name": "Biblioteca de Santiago",
+      "neighborhood": "Quinta Normal / Barrio Yungay",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "study",
+        "quiet",
+        "cozy",
+        "solo",
+        "free"
+      ],
+      "blurb": "Chile's largest public lending library, opened in 2005 in a converted state warehouse on Matucana, opposite the Quinta Normal park. It is deliberately un-monumental: open shelves, big reading rooms, a newspaper hall, a courtyard and armchairs anyone can sit in without a card. Locals treat it as an indoor park, and on a rainy or 35-degree afternoon it is the calmest free room in the west of the city.",
+      "tips": "Quinta Normal metro (Line 5) is at the door; the upper-floor reading rooms and the courtyard are quietest. Closed Mondays and hours are short on weekends, so check before a late visit. Bags may be checked at the entrance.",
+      "bestTimes": [
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Tue-Fri 11am-7:15pm, Sat-Sun 11:30am-5pm, closed Mon",
+      "lat": -33.4418,
+      "lng": -70.6798,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Biblioteca de Santiago",
+      "sources": [
+        {
+          "url": "https://www.bibliotecasantiago.gob.cl/node/65",
+          "label": "Biblioteca de Santiago: opening hours",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Biblioteca_de_Santiago",
+          "label": "Wikipedia: Biblioteca de Santiago",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building with security at the door, directly beside a metro entrance on a wide lit avenue."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "From knowledge only; no search spent. Long-established public park with a lagoon and several museums. Hours approximate. Wikipedia title 'Quinta Normal Park' given on high confidence from memory but not URL-confirmed. Coordinates are inside a 36-ha park, so high.",
+      "name": "Parque Quinta Normal",
+      "neighborhood": "Quinta Normal",
+      "category": "park",
+      "vibes": [
+        "green",
+        "water",
+        "walk",
+        "picnic",
+        "people-watch",
+        "group",
+        "free"
+      ],
+      "blurb": "The city's oldest park, laid out in 1841 as an agricultural station, now 36 hectares of enormous old trees, a boating lagoon and a scatter of small museums including the Natural History Museum. It is a family weekend park where people grill, kids rent pedal boats and chess games run on the benches, and on weekday mornings it is almost empty under the araucarias. It feels a century away from the malls of the east.",
+      "tips": "Enter from Matucana opposite the Biblioteca de Santiago (Quinta Normal metro) and head for the lagoon or the greenhouse lawns; the north-west corner is quietest. Fenced and closed at night; museum days vary, and the Natural History Museum is free.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 7am-8:30pm (check locally)",
+      "lat": -33.44,
+      "lng": -70.683,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Quinta Normal Park",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced and closed overnight, with guards at the gates; busiest on weekends. Interior paths are unevenly lit, so head for the Matucana gate as it gets dark."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "From knowledge only; no search spent. Free national museum at Matucana 501, opened 2010. Hours approximate (usually Tue-Sun, closed Mon). Wikipedia title 'Museum of Memory and Human Rights' given on high confidence from memory but not URL-confirmed. Coordinates estimated from the address; medium.",
+      "name": "Museo de la Memoria y los Derechos Humanos",
+      "neighborhood": "Quinta Normal / Barrio Yungay",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "solo",
+        "free",
+        "water",
+        "study"
+      ],
+      "blurb": "A free national museum documenting the 1973-1990 dictatorship, housed in a long green-glass box raised above a sunken plaza with a reflecting pool. The exhibitions are heavy and deserve time; the reason it is on this list is the plaza and the library-documentation centre, which are free, calm and open to anyone who wants to sit and think afterwards. Locals use the steps and the pool edge as a quiet place away from Matucana traffic.",
+      "tips": "Quinta Normal metro is next door; the museum is closed Mondays and the plaza is open whenever the museum is. Allow the exhibition its due, then sit by the pool. Guided visits and the reading room are free; photography rules are posted.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Tue-Sun 10am-6pm, closed Mon (check site)",
+      "lat": -33.4392,
+      "lng": -70.6792,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Museum of Memory and Human Rights",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building with security; the sunken plaza has steps without handrails in places and is closed when the museum is."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Free entry and daily 8:45am-5pm hours confirmed via cementeriogeneral.cl and registromuseoschile.cl in results; en.wikipedia.org/wiki/Santiago_General_Cemetery appeared in results. Coordinates from knowledge of the Av. La Paz / Cementerios metro area; the site is 86 ha so medium is honest for the main gate.",
+      "name": "Cementerio General",
+      "neighborhood": "Recoleta",
+      "category": "other",
+      "vibes": [
+        "quiet",
+        "walk",
+        "green",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "Latin America's largest cemetery, founded in 1821, now run by Recoleta as an open-air museum: 86 hectares of cypress avenues, mausoleums in every style from Egyptian to Bauhaus, and the graves of nearly every Chilean president. Santiaguinos walk here the way Parisians use Père Lachaise, and the long inner avenues are as silent as the city gets. Bring a book and sit in the shade of the Patio de los Disidentes or by Allende's tomb.",
+      "tips": "Cementerios metro (Line 2) is at the Av. La Paz gate; pick up a map at the entrance or join one of the free daytime guided routes. Entry is free, 8:45am-5pm daily. The paid night tours are the only way in after dark.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "8:45am-5pm daily",
+      "lat": -33.4165,
+      "lng": -70.648,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Santiago General Cemetery",
+      "sources": [
+        {
+          "url": "https://cementeriogeneral.cl/?Itemid=39&catid=19&id=232%3Ahorario-2&option=com_content&view=article",
+          "label": "Cementerio General: hours",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.registromuseoschile.cl/663/w3-article-131558.html",
+          "label": "Registro de Museos de Chile: open-air museum",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Santiago_General_Cemetery",
+          "label": "Wikipedia: Santiago General Cemetery",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Very large and easy to lose your bearings in the older sections; stay on the named avenues, keep a map, and start back toward the Av. La Paz gate well before the 5pm close, since the site is unlit and locked after that."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "From knowledge only; no search spent. Well-known linear park along the Mapocho from Plaza Baquedano to Estación Mapocho. Wikipedia title 'Parque Forestal' given on high confidence from memory but not URL-confirmed. Coordinates high (long park; the point is near the Bellas Artes end).",
+      "name": "Parque Forestal",
+      "neighborhood": "Santiago Centro (Bellas Artes / Lastarria)",
+      "category": "park",
+      "vibes": [
+        "green",
+        "walk",
+        "people-watch",
+        "picnic",
+        "sunset",
+        "solo",
+        "group",
+        "free"
+      ],
+      "blurb": "A century-old avenue of plane trees along the south bank of the Mapocho, running from Plaza Baquedano west past the Museo de Bellas Artes to the old Mapocho station. It is central Santiago's living room: students on the grass, slackliners, dog walkers and people reading on the low wall along Av. Cardenal Caro. The Bellas Artes stretch is the leafiest, and the museum itself is free if it rains.",
+      "tips": "Bellas Artes metro (Line 5) puts you in the middle; the lawns around the Fuente Alemana and behind the museum are the best sitting spots, and Lastarria's cafes are a block south. The section by Plaza Baquedano is the busiest and the least tended.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -33.4352,
+      "lng": -70.642,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Parque Forestal",
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "Open 24h and well used until early evening, but lighting on the inner paths is patchy and the park empties after dark; stay on the lit Merced and Cardenal Caro edges at night, or move to Lastarria's streets a block south."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "From knowledge only; no search spent. Public cultural centre at Alameda 227 with open plazas and the BiblioGAM public library. Hours of the plazas approximate. Wikipedia title 'Gabriela Mistral Cultural Center' given on high confidence from memory but not URL-confirmed. Coordinates high.",
+      "name": "GAM (Centro Cultural Gabriela Mistral)",
+      "neighborhood": "Santiago Centro (Lastarria)",
+      "category": "plaza",
+      "vibes": [
+        "rain-ok",
+        "people-watch",
+        "study",
+        "night",
+        "group",
+        "solo",
+        "free",
+        "cozy"
+      ],
+      "blurb": "A cultural centre in the rusted-steel shell of the former UNCTAD building on the Alameda, whose two covered plazas are open to the street all day and into the night. People sit on the long benches with laptops, dancers rehearse to phone speakers, and the BiblioGAM library upstairs lets you read without a card. The roof keeps the rain off and the plazas stay lit and populated after dark, which is rare in the centre.",
+      "tips": "Universidad Católica metro is at the door; the eastern plaza off Villavicencio is quieter than the Alameda side. BiblioGAM and the exhibition halls have their own hours, but the plazas are open roughly 8am-10pm. Cafes inside are pricier than Lastarria's a block away.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "plazas roughly 8am-10pm; halls vary (check site)",
+      "lat": -33.4372,
+      "lng": -70.6392,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Gabriela Mistral Cultural Center",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, covered and lit into the evening, with security at the plazas and a metro entrance at the door."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Hours (6:30am-9:30pm) and the bounding streets confirmed via lascondes.cl and en.wikipedia.org/wiki/Araucano_Park in results. Coordinates from knowledge of the Presidente Riesco / Manquehue quadrant; the park is 22 ha so high.",
+      "name": "Parque Araucano",
+      "neighborhood": "Las Condes",
+      "category": "park",
+      "vibes": [
+        "green",
+        "walk",
+        "picnic",
+        "quiet",
+        "solo",
+        "group",
+        "free"
+      ],
+      "blurb": "A 22-hectare municipal park behind the Parque Arauco mall, with a formal rose garden, a long allée of trees, lawns, a skate park and a pond with ducks. Office workers from the Nueva Las Condes towers eat lunch here and the rose garden benches are quiet even when the sports fields are busy. It is the Las Condes answer to Parque Bicentenario, with fewer visitors and more shade.",
+      "tips": "Manquehue metro (Line 1) is a ten-minute walk; enter from Presidente Riesco or Cerro Colorado and head for the Rosedal in the middle. Fenced, with gates closing at 9:30pm. The mall behind it is the rainy-day fallback.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "6:30am-9:30pm",
+      "lat": -33.403,
+      "lng": -70.58,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Araucano Park",
+      "sources": [
+        {
+          "url": "https://www.lascondes.cl/nuevos-horarios-para-parques-de-las-condes/",
+          "label": "Municipalidad de Las Condes: park hours",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Araucano_Park",
+          "label": "Wikipedia: Araucano Park",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced, patrolled by municipal guards and lit along the main paths; closes at 9:30pm."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "From knowledge only; no search spent. Long-established municipal square at Irarrázaval and Jorge Washington, open at all hours. Not confident an exact English Wikipedia article exists, so null. Coordinates medium.",
+      "name": "Plaza Ñuñoa",
+      "neighborhood": "Ñuñoa",
+      "category": "plaza",
+      "vibes": [
+        "people-watch",
+        "night",
+        "green",
+        "group",
+        "solo",
+        "free",
+        "cozy"
+      ],
+      "blurb": "The heart of Ñuñoa, a leafy square with a fountain, plane trees and old benches, ringed by the municipal building, cafes and long-running bars. On weekday mornings it is retirees and newspaper sellers; by evening it is students and neighbours drinking coffee on the terraces, and it stays lively and lit well into the night. It is the square santiaguinos mean when they say a barrio still has a real plaza.",
+      "tips": "Ñuñoa metro (Lines 3 and 6) is a short walk; sit on the fountain side away from Irarrázaval for less traffic noise. The cafes around the square are fine for hours with a book; the bars along Jorge Washington take over after 9pm.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -33.4565,
+      "lng": -70.5972,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit and busy into the night with cafes and the municipal building facing it; Irarrázaval on the north side is a fast four-lane road, so cross at the lights."
+      },
+      "lowkeyScore": 3
+    }
+  ]
+}

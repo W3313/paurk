@@ -1,0 +1,617 @@
+{
+  "city": "Reykjavík",
+  "country": "Iceland",
+  "slug": "reykjavik",
+  "region": "europe-africa",
+  "cityLat": 64.1466,
+  "cityLng": -21.9426,
+  "timezone": "Atlantic/Reykjavik",
+  "searchesRun": [
+    "Grasagarður Reykjavíkur Reykjavík Botanic Garden opening hours Laugardalur",
+    "Borgarbókasafnið Grófin Tryggvagata Reykjavík City Library opening hours",
+    "Nordic House Reykjavík Norræna húsið library cafe opening hours Aalto",
+    "Hólavallagarður cemetery Reykjavík wikipedia",
+    "Nauthólsvík geothermal beach Reykjavík opening hours winter",
+    "Grótta Seltjarnarnes lighthouse island closed nesting season May June",
+    "Mokka Kaffi Skólavörðustígur oldest cafe Reykjavík opening hours",
+    "Elliðaárdalur valley Reykjavík park walking paths wikipedia",
+    "Reykjavík Botanic Garden Grasagarður wikipedia (site:en.wikipedia.org)",
+    "Reykjavík City Library Borgarbókasafn wikipedia (site:en.wikipedia.org)",
+    "Nordic House Reykjavík Alvar Aalto wikipedia (site:en.wikipedia.org)",
+    "Harpa concert hall Öskjuhlíð Grótta Tjörnin Reykjavík wikipedia (site:en.wikipedia.org)"
+  ],
+  "redditSourcedNotes": "Two stages. Research stage ran eight web searches (the first eight in searchesRun), all of which returned results, spent on hours, access and Wikipedia titles for the eight spots it was least sure about. Confirmed from those results: the Botanic Garden grounds are always open with the greenhouse 10-19 summer / 10-15 winter (reykjavik.is); Grófin library hours Mon-Thu 10-19, Fri 11-18, Sat-Sun 11-17 (borgarbokasafn.is); the Nordic House is open Tue-Sun 10-17 with an Aalto-designed public library and the MATR cafe; Nauthólsvík winter (16 Aug-14 May) hours Tue-Fri 11-19, Sat 11-16, closed Sun-Mon, with an adult fee of roughly 895 ISK for the facilities; Grótta island and its immediate shore are closed 1 May to about mid-July for nesting terns and the causeway floods at high tide; Mokka Kaffi has been at Skólavörðustígur 3A since 1958 and opens roughly 9-18; Elliðaárdalur has about 10 km of paths with a car park at Elliðaárstöð. Review stage ran four more searches, all restricted to en.wikipedia.org, on the titles the first stage had given from memory. Outcome: Reykjavík Botanic Garden, Harpa (concert hall) and Nordic House (Iceland) each appeared as an article URL and are confirmed; Reykjavík City Library did not (only the List of libraries in Iceland page), so it is now null; Tjörnin, Öskjuhlíð and Grótta were not seen as their own URLs and are kept from knowledge on high confidence, flagged in their verifyNotes. Hólavallagarður, Elliðaárdalur, Nauthólsvík, Klambratún, Vesturbæjarlaug and Ægisíða are null because no article name was confirmed. The review stage also checked every coordinate against its own knowledge of the city: all 14 are within 6 km of the centre and none needed moving; the five medium-confidence ones (Ægisíða, Elliðaárdalur, Öskjuhlíð, Grótta, Vesturbæjarlaug) stay medium because they are long linear sites or were placed from memory to within roughly 100 m. Two blurb corrections: the Botanic Garden species count (5,000, per the Wikipedia result, not 3,000) and Öskjuhlíð walking time (ten minutes from BSÍ only, not from Hlemmur). No reddit threads were read for this city in either stage. The 16 source URLs on eight spots were attached by the research stage as URLs that appeared in its eight results; the review stage had no search budget left to re-open them and did not re-verify them, so a reader should treat them as unchecked links rather than quotations. The six spots with empty sources arrays (Tjörnin, Öskjuhlíð, Ægisíða, Harpa, Vesturbæjarlaug, Klambratún) are written entirely from prior knowledge and their hours are approximate. Safety notes were read against the standard by both stages: all fourteen describe lighting, ice, tide, terrain, staffing or closing times only, none characterise people or neighbourhoods, and no note needed rewriting. Cautions are given only for physical conditions: the Grótta tidal causeway (the flooding is stated on the visitreykjavik.is and totaliceland.com pages that came up), unlit wooded paths on Öskjuhlíð, and unlit river paths in Elliðaárdalur. Every spot is a public park, shore, library, cafe, municipal pool, concert-hall foyer or cemetery-park with open access; nothing involves trespass, derelict or industrial land, and nothing was dropped. Iceland-wide condition worth stating once: pavements and paths ice over in winter and daylight is roughly four to five hours in December, so daylight tips are seasonal.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, location (Laugardalur) and hours confirmed from reykjavik.is search result: grounds always open, greenhouse 10-19 summer and 10-15 winter. Review stage: en.wikipedia.org/wiki/Reykjavík_Botanic_Garden appeared in a search result, so the title is URL-confirmed; that article gives more than 5,000 species, so the blurb figure was corrected. Coordinates are for the main entrance area off Laugardalur.",
+      "name": "Grasagarður Reykjavíkur (Reykjavík Botanic Garden)",
+      "neighborhood": "Laugardalur",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "solo",
+        "free",
+        "picnic",
+        "walk",
+        "cozy"
+      ],
+      "blurb": "A small municipal botanic garden in the Laugardalur valley, east of the centre, with some 5,000 plant species arranged around a pond, a rock garden and sheltered lawns. The trees are tall enough to cut the wind, which in Reykjavík is the whole point, and on a weekday you share it mostly with gardeners and people from the neighbourhood pushing prams. The greenhouse cafe, Flóran, is the place to sit with a coffee when the weather turns.",
+      "tips": "Take bus 14 to Laugardalur or walk in past the swimming pool and the zoo; the gates are always open even when the greenhouse is shut. The benches by the pond and the rock garden on the south side are the most sheltered. The cafe and greenhouse keep shorter hours in winter.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "grounds 24h; greenhouse 10am-7pm summer, 10am-3pm winter",
+      "lat": 64.1392,
+      "lng": -21.869,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Reykjavík Botanic Garden",
+      "sources": [
+        {
+          "url": "https://reykjavik.is/en/botanical-garden",
+          "label": "City of Reykjavík: Botanic Garden",
+          "kind": "official"
+        },
+        {
+          "url": "https://visitreykjavik.is/service/reykjavik-botanical-garden",
+          "label": "Visit Reykjavík: Botanical Garden",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Flat, gated garden in a busy sports-and-leisure valley; paths are lit near the entrance only, and can be icy in winter."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "The city-centre pond; written from knowledge, no search spent in either stage. Coordinates are for the north-east bank by Fríkirkjan and the Iðnó theatre. Wikipedia title kept from knowledge on high confidence; the review search only saw Tjörnin mentioned inside the Reykjavík City Center article, not as its own URL.",
+      "name": "Tjörnin (east bank)",
+      "neighborhood": "Miðborg",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "people-watch",
+        "walk",
+        "free",
+        "sunset",
+        "night",
+        "solo",
+        "view"
+      ],
+      "blurb": "The pond in the middle of town, ringed by a path, old timber houses and the city hall, with swans, ducks and, in summer, arctic terns. It is where people walk at lunch, feed the birds with their kids and sit on the benches along Fríkirkjuvegur with a takeaway coffee looking west over the water. It never really empties, which makes it an easy place to be alone without being isolated.",
+      "tips": "The benches on the east bank under the trees by Fríkirkjan get the evening light; the city hall side has a lit walkway right at water level. In winter the pond freezes and people walk and skate on it, but the city pumps warm water into one corner for the birds, so watch the signs.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 64.1452,
+      "lng": -21.9403,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Tjörnin",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit path around the whole pond and central-street traffic close by; the bank is unfenced and the ice is thin near the warm-water inlet in winter."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence and character confirmed from search results (opened 1838, three hectares, west of downtown). No English Wikipedia article appeared in results, so title set to null. Coordinates are for the Suðurgata gate.",
+      "name": "Hólavallagarður",
+      "neighborhood": "Vesturbær (Suðurgata)",
+      "category": "park",
+      "vibes": [
+        "quiet",
+        "green",
+        "hidden",
+        "solo",
+        "free",
+        "walk"
+      ],
+      "blurb": "The old cemetery on the hill west of the pond, opened in 1838 and now a mossy wood of birch and rowan grown up between the graves of poets, painters and the independence leader Jón Sigurðsson. It is the closest thing central Reykjavík has to a forest, and locals treat it as a park: a place to walk the long way home or sit on the wall in the shelter of the trees. The rustle of leaves is louder than the traffic on Hringbraut.",
+      "tips": "Come in through the gate on Suðurgata opposite the university or from Ljósvallagata; the older, more overgrown section is at the northern end. Paths are narrow and uneven, so wear proper shoes. Be quiet and stay off the plots; it is still an active family cemetery.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (gates generally open)",
+      "lat": 64.1443,
+      "lng": -21.9478,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.atlasobscura.com/places/holavallagardur",
+          "label": "Atlas Obscura: Hólavallagarður",
+          "kind": "blog"
+        },
+        {
+          "url": "https://icelandmag.is/article/holavallagardur-reykjavik-listed-one-europes-loveliest-cemeteries",
+          "label": "Iceland Magazine: Hólavallagarður",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Unlit inside and tree roots make the paths uneven; go in daylight, which in midwinter means roughly 11am to 3pm."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wooded hill under Perlan; written from knowledge, no search spent in either stage. Coordinates are for the path network on the south-west slope above Nauthólsvík, not the Perlan building. Wikipedia title kept from knowledge on high confidence; the review search saw Öskjuhlíð mentioned only inside the Reykjavík article, not as its own URL.",
+      "name": "Öskjuhlíð",
+      "neighborhood": "Öskjuhlíð / Hlíðar",
+      "category": "trail",
+      "vibes": [
+        "green",
+        "walk",
+        "quiet",
+        "view",
+        "free",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "The hill under the Perlan water tanks is covered in a planted conifer and birch wood laced with gravel paths, old wartime bunkers and open patches of lava with rabbits. Tourists go up for the Perlan viewing deck; locals go into the trees below it to walk the dog or sit on a rock with the wind cut off and a view down over the airport and the bay to the mountains. It is a ten-minute walk from the BSÍ bus terminal.",
+      "tips": "Start from the car park below Perlan or climb up from Nauthólsvík; the south and west slopes have the best sitting spots and the least wind. Some paths are stepped or rooty and none of the interior ones are lit. Perlan's ground-floor lobby is a warm fallback.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 64.1285,
+      "lng": -21.9215,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Öskjuhlíð",
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "Interior paths are unlit, wooded and uneven, with steep drops by the old bunkers; go in daylight or stick to the lit road up to Perlan after dark."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence and winter hours confirmed from reykjavik.is search result (Tue-Fri 11-19, Sat 11-16, closed Sun-Mon, 16 Aug-14 May; roughly 895 ISK adult fee for facilities). Summer hours from knowledge. The open beach and grass are free to sit on; the fee is for the hot pot, steam room and changing rooms. Wikipedia title set to null because I am not sure of the exact article name.",
+      "name": "Nauthólsvík (Ylströndin)",
+      "neighborhood": "Nauthólsvík / Fossvogur",
+      "category": "beach",
+      "vibes": [
+        "water",
+        "sunset",
+        "view",
+        "free",
+        "walk",
+        "group",
+        "solo"
+      ],
+      "blurb": "A small artificial golden-sand beach in a sheltered cove below Öskjuhlíð, where geothermal water is piped into a lagoon and a long hot pot on the sand. In summer it is where the city goes to lie on the grass and swim; in winter it is the sea-swimmers' place, a few dozen regulars steaming in the hot pot and then walking into the fjord. Even if you never get wet, the bench above the sand looks straight down Fossvogur to the mountains.",
+      "tips": "Cycle or walk the coastal path from the university, or take the bus to Nauthóll. The beach and the lawn are free; you pay only if you use the changing rooms, steam room and hot pot, and in winter those keep short hours and close Sun-Mon. Bring a towel and a woolly hat if you swim.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "beach 24h; facilities summer (15 May-15 Aug) daily ~10am-7pm, winter Tue-Fri 11am-7pm, Sat 11am-4pm (check site)",
+      "lat": 64.1251,
+      "lng": -21.9293,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://reykjavik.is/en/residents-sports-leisure-culture-arts-sports-and-outdoor-activities-nautholsvik-hot-water-beach/opening-hours-geothermal-beach",
+          "label": "City of Reykjavík: Geothermal Beach hours",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.atlasiceland.com/guides/nautholsvik-reykjaviks-geothermal-beach",
+          "label": "Atlas Iceland: Nauthólsvík guide",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed in opening hours with a lifeguard in summer; the sea outside the lagoon is cold year-round, so swim only where marked. The coastal path here is lit."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Coastal path on the west side of town; written from knowledge, no search spent. It is roughly 1.5 km long so coordinates are for the middle of the Ægisíða stretch near the old fish-drying racks; medium confidence. No English Wikipedia article that I am sure of, so null.",
+      "name": "Ægisíða coastal path",
+      "neighborhood": "Vesturbær",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunset",
+        "walk",
+        "view",
+        "free",
+        "quiet",
+        "solo",
+        "night"
+      ],
+      "blurb": "A paved seafront path along the south shore of the Vesturbær peninsula, with the houses of Ægisíða on one side and Skerjafjörður and the Reykjanes mountains on the other. There are benches every few hundred metres, wooden racks where fish are still hung to dry, and a steady stream of joggers and dog walkers who nod and leave you alone. It faces south-west, which makes it the neighbourhood's sunset bench.",
+      "tips": "Join the path where Hofsvallagata meets the sea and walk west; the benches near the drying racks are the most sheltered. It continues east all the way to Nauthólsvík if you want a longer walk. There is nothing to buy along it, so bring coffee from Kaffihús Vesturbæjar up the hill.",
+      "bestTimes": [
+        "golden-hour",
+        "morning",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 64.1365,
+      "lng": -21.9595,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit, flat path with houses along its length; the seaward edge is a rocky shore with no railing, and the wind can be strong."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence confirmed from search results; the island and immediate shore are closed 1 May to about mid-July for nesting birds, and the causeway floods at high tide. Coordinates are for the mainland shore and car park at the end of the peninsula, not the lighthouse itself, so a visitor is never sent onto the closed island. Wikipedia title kept from knowledge; no en.wikipedia URL for it appeared in either stage.",
+      "name": "Grótta (mainland shore)",
+      "neighborhood": "Seltjarnarnes",
+      "category": "viewpoint",
+      "vibes": [
+        "stargaze",
+        "sunset",
+        "water",
+        "view",
+        "night",
+        "free",
+        "quiet",
+        "walk"
+      ],
+      "blurb": "The tip of the Seltjarnarnes peninsula, twenty minutes' bus ride west of the centre, where a lighthouse sits on a small tidal island and the shore faces open sea in three directions. It is the darkest spot within easy reach of town, so it is where residents drive out to watch for the northern lights in winter, and where they walk at midnight in June when the sun barely sets. A small geothermal footbath, Kvika, is set into the rocks by the car park.",
+      "tips": "Take bus 11 to the end of the line or cycle out along the north shore. Stay on the mainland beach unless you have checked the tide and the date: the causeway floods twice a day and the island is closed from 1 May to mid-July. Bring more layers than you think you need.",
+      "bestTimes": [
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "shore 24h; island closed 1 May-mid Jul and at high tide",
+      "lat": 64.1636,
+      "lng": -22.0165,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Grótta",
+      "sources": [
+        {
+          "url": "https://visitreykjavik.is/service/island-grotta-and-grotta-lighthouse",
+          "label": "Visit Reykjavík: Grótta island and lighthouse",
+          "kind": "official"
+        },
+        {
+          "url": "https://totaliceland.com/visiting-grotta-island-iceland-timing-everything/",
+          "label": "Total Iceland: timing a Grótta visit",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "The causeway to the island floods at high tide and people have been cut off; check tide times and stay on the mainland after dark. The shore is unlit and exposed, and the rocks are slippery with weed."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, address (Tryggvagata 15) and hours confirmed from borgarbokasafn.is and reykjavik.is search results. Review stage searched en.wikipedia.org for the library: only the List of libraries in Iceland and National and University Library articles came back, no dedicated article, so the title was set to null.",
+      "name": "Borgarbókasafnið Grófinni (Reykjavík City Library)",
+      "neighborhood": "Miðborg (Grófin / old harbour)",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "cozy",
+        "free",
+        "solo",
+        "view"
+      ],
+      "blurb": "The main branch of the city library, in the Grófin culture house a block from the old harbour, sharing a building with the Museum of Photography. Anyone can walk in, take a window seat on the upper floors and stay all day; there are newspapers, a children's floor that is louder, and quiet reading corners upstairs that look out over the rooftops towards the harbour. It is the standard rainy-day refuge for people who live downtown.",
+      "tips": "Go up to the top floors for the quietest seats and the view; the ground floor has the cafe-style seating and the events. Free wifi and no card needed to sit. Closed evenings from 7pm and shorter hours at weekends.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Thu 10am-7pm, Fri 11am-6pm, Sat-Sun 11am-5pm",
+      "lat": 64.1493,
+      "lng": -21.9418,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://borgarbokasafn.is/en/library/grofin-en",
+          "label": "Reykjavík City Library: Grófin",
+          "kind": "official"
+        },
+        {
+          "url": "https://reykjavik.is/en/grofin-city-library",
+          "label": "City of Reykjavík: Grófin City Library",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building on a lit central street."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, Aalto design, public library, MATR cafe and hours (Tue-Sun 10-17, closed Mon) confirmed from nordichouse.is search results. Wikipedia title en.wikipedia.org/wiki/Nordic_House_(Iceland) appeared in search results in both stages.",
+      "name": "Norræna húsið (The Nordic House)",
+      "neighborhood": "Vatnsmýri (by the university)",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "cozy",
+        "free",
+        "solo",
+        "green",
+        "hidden"
+      ],
+      "blurb": "Alvar Aalto's only building in Iceland, a low white-and-blue cultural centre in the marsh between the pond and the university, with a public library under a cone-shaped skylight that pours daylight onto the reading tables. You can sit with a book or a laptop in the library or in the MATR cafe for as long as you like; outside, boardwalks cross the Vatnsmýri bird marsh. It is a five-minute walk from the centre and most visitors never find it.",
+      "tips": "Walk south past Tjörnin along Sæmundargata; the library is downstairs and the reading tables under the skylight are the best seats. Closed Mondays. The marsh boardwalk outside is a good place to sit in June when the terns and waders are nesting, but they will dive at you if you go too close.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Tue-Sun 10am-5pm, closed Mon",
+      "lat": 64.1386,
+      "lng": -21.9478,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Nordic House (Iceland)",
+      "sources": [
+        {
+          "url": "https://nordichouse.is/en/opening-hours-and-accessibility/",
+          "label": "Nordic House: opening hours",
+          "kind": "official"
+        },
+        {
+          "url": "https://nordichouse.is/en/library/",
+          "label": "Nordic House: library",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Nordic_House_(Iceland)",
+          "label": "Wikipedia: Nordic House (Iceland)",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed building; the marsh boardwalks outside are unlit, so use them in daylight."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, address (Skólavörðustígur 3A), 1958 founding and hours (roughly 9-18, one source 8-18:30) confirmed from search results including mokka.is. Not certain an English Wikipedia article exists under an exact name, so null.",
+      "name": "Mokka Kaffi",
+      "neighborhood": "Miðborg (Skólavörðustígur)",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "people-watch",
+        "solo",
+        "quiet"
+      ],
+      "blurb": "Reykjavík's oldest espresso bar, open since 1958 at the bottom of Skólavörðustígur and barely changed: dark wood panelling, small tables, a rotating art show on the walls and a waffle with jam and cream that has been on the menu for decades. It is the place writers and old regulars still sit with a newspaper, and nobody will move you on. Small, so it fills at lunch, but it is calm most of the day.",
+      "tips": "Sit at the back or by the window; cash and card both fine. Closes at 6pm, so it is an afternoon place, not an evening one. The waffle is the order.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly 9am-6pm daily (check site)",
+      "lat": 64.1465,
+      "lng": -21.9314,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.mokka.is/",
+          "label": "Mokka Kaffi official site",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.ferdalag.is/en/service/mokka-kaffi",
+          "label": "Ferðalag.is: Mokka Kaffi",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed cafe on a busy, lit pedestrian street."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, roughly 10 km of paved and gravel paths, and the Elliðaárstöð car park confirmed from search results. No English Wikipedia article appeared in results, so null. Coordinates are for the Elliðaárstöð power-station area, a common starting point; the valley runs several km so treat as medium.",
+      "name": "Elliðaárdalur",
+      "neighborhood": "Árbær / Breiðholt",
+      "category": "park",
+      "vibes": [
+        "green",
+        "water",
+        "walk",
+        "quiet",
+        "free",
+        "solo",
+        "picnic",
+        "hidden"
+      ],
+      "blurb": "A river valley on the eastern edge of the built-up city, where the Elliðaár salmon river splits into two channels around a wooded island of birch and pine, with small waterfalls, footbridges and open lawns. It is the big weekend walk for people in Árbær and Breiðholt and almost unknown to visitors. Sit on the rocks by the water below the old power station and the only sound is the river and the occasional cyclist.",
+      "tips": "Take bus 5 or 12 towards Árbær, or drive to the car park at Elliðaárstöð, and follow the paved path upstream along the river; the gravel paths on the island are quieter. Paths near the river are unlit, and the bridges are icy in winter.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 64.1195,
+      "lng": -21.8565,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://visitreykjavik.is/city-areas/ellidaardalur-valley",
+          "label": "Visit Reykjavík: Elliðaárdalur Valley",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.whatson.is/take-a-weekend-stroll-in-ellidaardalur/",
+          "label": "What's On: a weekend stroll in Elliðaárdalur",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Riverside paths are unlit and the banks are steep and slippery in places; go in daylight and keep to the main paved path if you stay past dusk."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Concert hall with a public foyer; written from knowledge, no search spent on hours. Foyer hours are approximate and change with events. Review stage: en.wikipedia.org/wiki/Harpa_(concert_hall) appeared in a search result, so the title is URL-confirmed.",
+      "name": "Harpa foyer",
+      "neighborhood": "Austurhöfn (old harbour)",
+      "category": "indoor",
+      "vibes": [
+        "rain-ok",
+        "view",
+        "water",
+        "free",
+        "people-watch",
+        "skyline",
+        "study",
+        "sunset"
+      ],
+      "blurb": "The glass concert hall on the harbour is a landmark, but its foyers are also the city's biggest free indoor sitting room: several floors of open galleries behind the honeycomb glass wall, with benches and steps facing the bay and Esja. Locals come in to escape the wind, meet someone, or sit upstairs with a laptop and the light changing on the water. On a stormy winter afternoon it is warm, bright and nearly empty.",
+      "tips": "Walk in through the main doors and take the escalators up; the upper galleries on the harbour side are quietest and have the best light. The ground-floor cafe is the only thing that costs money. Before concerts the foyer fills, so check the programme if you want it empty.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "varies (foyer roughly 10am-6pm, later on event nights; check site)",
+      "lat": 64.1503,
+      "lng": -21.9325,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Harpa (concert hall)",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building; the harbour edge outside is unfenced and the paving is icy in winter."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Neighbourhood swimming pool in Vesturbær; written from knowledge, no search spent. Hours approximate. Coordinates are for the pool on Hofsvallagata, medium confidence. Category 'other' because a geothermal pool has no better category. Not sure of the exact Wikipedia article name, so null.",
+      "name": "Vesturbæjarlaug",
+      "neighborhood": "Vesturbær",
+      "category": "other",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "people-watch",
+        "group",
+        "solo",
+        "night",
+        "water"
+      ],
+      "blurb": "A neighbourhood geothermal pool in the west end, and the Reykjavík answer to the cafe: an outdoor lap pool, a row of hot pots at different temperatures and a steam bath, used at dawn and late evening by people who live nearby. Sitting in a 40-degree hot pot in the rain or the snow with the steam rising and neighbours talking politics is as low-key as this city gets. Tourists go to the big pools; residents go here.",
+      "tips": "Bring swimwear and a towel (both can be rented), shower thoroughly without a suit before entering as the signs require, and pick the hottest pot on the far side. Cheap city-pool ticket; a multi-pass is cheaper still. Early morning and after 8pm are the quietest.",
+      "bestTimes": [
+        "morning",
+        "night"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "roughly Mon-Fri 6:30am-10pm, Sat-Sun 8am-10pm (check site)",
+      "lat": 64.1434,
+      "lng": -21.9632,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed with lifeguards in opening hours; the poolside is slippery and icy in winter, so walk, do not run."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Park with the Kjarvalsstaðir art museum; written from knowledge, no search spent. Museum cafe hours approximate. Not certain of the exact Wikipedia article name, so null. Coordinates are for the middle of the park by the museum, high confidence.",
+      "name": "Klambratún",
+      "neighborhood": "Hlíðar",
+      "category": "park",
+      "vibes": [
+        "green",
+        "picnic",
+        "group",
+        "solo",
+        "free",
+        "walk",
+        "people-watch",
+        "rain-ok"
+      ],
+      "blurb": "A broad, open park east of the centre with big lawns, a frisbee-golf course, a playground and, in the middle, the low modernist Kjarvalsstaðir building of the Reykjavík Art Museum. On any dry day it is full of people from the Hlíðar flats lying on the grass; when the weather turns you walk into the museum cafe, which looks out over the lawn through a wall of glass. It is fifteen minutes' walk from Hlemmur and off the tourist map.",
+      "tips": "Enter from Flókagata or Miklabraut; the lawns on the south side of the museum are the sunniest and most sheltered. The cafe at Kjarvalsstaðir is open in museum hours (roughly 10am-5pm) and you can sit there without a ticket. Watch for frisbees near the course.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "park 24h; museum cafe roughly 10am-5pm (check site)",
+      "lat": 64.1396,
+      "lng": -21.9162,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Open, flat park with lit paths on the main routes and a busy road on the north side; the interior lawns are dark after the museum closes."
+      },
+      "lowkeyScore": 3
+    }
+  ]
+}

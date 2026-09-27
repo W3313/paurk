@@ -1,0 +1,711 @@
+{
+  "city": "Kuala Lumpur",
+  "country": "Malaysia",
+  "slug": "kuala-lumpur",
+  "region": "asia-pacific",
+  "cityLat": 3.139,
+  "cityLng": 101.6869,
+  "timezone": "Asia/Kuala_Lumpur",
+  "searchesRun": [
+    "Taman Tugu Kuala Lumpur forest trail opening hours wikipedia",
+    "Saloma Link bridge Kampung Baru KLCC wikipedia",
+    "Kuala Lumpur Library Perpustakaan Kuala Lumpur Dataran Merdeka opening hours",
+    "Ilham Gallery Kuala Lumpur opening hours free admission Ilham Tower",
+    "KL Forest Eco Park Bukit Nanas entrance fee canopy walk opening hours 2026",
+    "Merchant's Lane cafe Petaling Street Kuala Lumpur opening hours 2026",
+    "Taman Persekutuan Bukit Kiara TTDI trail wikipedia Bukit Kiara",
+    "REXKL Jalan Sultan BookXcess opening hours 2026",
+    "National Art Gallery Malaysia Balai Seni Negara wikipedia Jalan Temerloh opening hours free admission",
+    "Taman Rekreasi Bukit Jalil park Jalan Jalil Perkasa opening hours location",
+    "Titiwangsa Lake Gardens wikipedia Perdana Botanical Gardens wikipedia opening hours",
+    "Islamic Arts Museum Malaysia opening hours ticket price 2026"
+  ],
+  "redditSourcedNotes": "Two stages. RESEARCH STAGE: all 14 spots were drafted from prior knowledge, then 8 searches went on the least certain items. Confirmed then: Taman Tugu free, 7am-6.30pm, last entry 5.45pm (official site; no en.wikipedia article, title null); Saloma Link, Bukit Kiara and Kuala Lumpur Library have exact en.wikipedia articles seen in results; Kuala Lumpur Library Tue-Fri 10am-6.45pm, Sat-Sun 10am-5pm, closed Monday; Ilham Gallery free, Tue-Sat 11am-6pm, Sun 11am-5pm, closed Monday; KL Forest Eco Park RM10 MyKad / RM40 others, cash only, 7am-7pm, closed Fridays (marked not free); Merchant's Lane open at 150 Jalan Petaling, closed Wednesdays; BookXcess at REXKL Tue-Thu and Sun 10am-10pm, Fri-Sat to midnight (Monday not stated). REVIEW STAGE (4 searches, all recorded in searchesRun) went on the six unsearched spots. National Art Gallery: hours were wrong in the draft (9am-5pm daily) and are now Tue-Sun 10am-6pm, closed Mondays and public holidays, free entry; no English Wikipedia article appeared and the place is also styled National Visual Arts Gallery, so the title was nulled. Titiwangsa: the en.wikipedia article is titled Titiwangsa Lake Park, not Titiwangsa Lake Gardens, so the title was corrected; hours are 6am-10pm, replacing a guessed 'roughly 6am-midnight'. Perdana Botanical Gardens: title and 7am-8pm hours confirmed by the Wikipedia and official URLs in results. Bukit Jalil park: exists at Jalan Jalil Perkasa 1, 6am-8pm daily, free, about 80 acres (draft said 80 hectares, corrected); no result gave coordinates, so the pin stays medium confidence. Islamic Arts Museum: 9:30am-6pm daily and RM20 adult from the official visit page (older RM14 prices also appear). Thean Hou Temple was not searched; its hours are approximate and its Wikipedia title is kept on knowledge only. Coordinate edits: Kuala Lumpur Library pin moved about 100 m to the library's block at the south end of Dataran Merdeka (and the tip fixed, since it is beside the KL City Gallery, not opposite the Sultan Abdul Samad Building); Bukit Kiara pin moved about 300 m to the TTDI Park gate on Jalan Aminuddin Baki. Both moves are from knowledge, not search. Wikipedia titles not URL-confirmed in either stage and kept on confidence: Bukit Nanas, Islamic Arts Museum Malaysia, Thean Hou Temple. No reddit threads were read for this city; every source URL appeared in one of the 12 search result lists and nothing has been invented. Safety notes were re-read against the standard: all describe lighting, closing times, terrain, water edges, road crossings and macaques, none characterise people or neighbourhoods; one unverified claim (Saloma Link's LED show ending at midnight) was removed. Caution stays on Bukit Kiara (unlit steep trails, patchy signal) and Bukit Jalil park (large unlit interior, gates close 8pm). All 14 spots kept.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Review-stage search confirmed the exact en.wikipedia article Perdana Botanical Gardens and the 7am-8pm daily hours (official klbotanicalgarden.gov.my site and travel pages appeared in results). Coordinates are the main lake, high confidence.",
+      "name": "Perdana Botanical Gardens (Taman Botani Perdana)",
+      "neighborhood": "Lake Gardens (Tasik Perdana)",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "water",
+        "quiet",
+        "walk",
+        "picnic",
+        "solo",
+        "free"
+      ],
+      "blurb": "The old colonial Lake Gardens, now a 90-hectare botanical park of rain trees, a long lake, a sunken garden and a hibiscus garden, folded into the hills west of the old city. Weekday mornings belong to walkers, tai chi groups and people who bring a flask and sit on the lakeside benches under the shade; the crowds stay at the Bird Park and Butterfly Park on the edges. It is the closest thing central KL has to a quiet lawn to lie on.",
+      "tips": "Come in from the Jalan Tembusu gate near the National Mosque or the Jalan Cenderawasih side and head for the far (western) end of the lake, which stays quietest; the Sunken Garden and the boathouse benches are shaded. A free shuttle loops the park on weekends. Bring water and go before 10am or after 5pm, since midday is very hot.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "7am-8pm daily",
+      "lat": 3.1425,
+      "lng": 101.6845,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Perdana Botanical Gardens",
+      "sources": [
+        {
+          "url": "http://www.klbotanicalgarden.gov.my/",
+          "label": "Perdana Botanical Garden (official)",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Perdana_Botanical_Gardens",
+          "label": "Wikipedia: Perdana Botanical Gardens",
+          "kind": "other"
+        },
+        {
+          "url": "https://forevervacation.com/kuala-lumpur/perdana-botanical-gardens",
+          "label": "Forever Vacation: hours and entry",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Large, patrolled and well used by joggers; the lakeside paths are lit but the inner garden paths are not, so leave the wooded sections before dusk. Macaques take unattended food."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, free entry and hours (daily 7am-6.30pm, last entry 5.45pm) confirmed via official site and travel pages in search. No English Wikipedia article appeared, so title set to null. Coordinates are the trailhead near the National Monument, medium-high confidence.",
+      "name": "Taman Tugu",
+      "neighborhood": "Lake Gardens / Jalan Sultan Salahuddin",
+      "category": "trail",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "solo",
+        "hidden",
+        "free"
+      ],
+      "blurb": "A 66-acre patch of secondary rainforest behind the National Monument that was rescued from redevelopment and opened as a forest park in 2018, with marked dirt trails, a small stream and benches cut into the slopes. It is free, gated and carefully managed, so it feels like a proper jungle walk without the effort of leaving the city. On weekday mornings you can sit on a bench under the canopy and hear only cicadas and the odd hornbill.",
+      "tips": "The entrance and trail maps are at the car park off Jalan Sultan Salahuddin, a short walk from the National Monument; the green trail is the gentlest loop. Last entry is 5.45pm and the trails close at 6.30pm. Wear shoes with grip, since the red clay paths get slick after rain, and bring water because there is no shop inside.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "7am-6:30pm daily (last entry 5:45pm)",
+      "lat": 3.1503,
+      "lng": 101.6878,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://tamantugu.my/visitor-information/",
+          "label": "Taman Tugu: visitor information",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.malaysia-traveller.com/taman-tugu-forest-trail.html",
+          "label": "Malaysia Traveller: Taman Tugu Forest Trail",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.alltrails.com/parks/malaysia/taman-tugu",
+          "label": "AllTrails: Taman Tugu",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated, staffed park with marked, signposted trails that closes before dark; paths are unlit and slippery after rain, so go in daylight and stick to the marked loops."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence of the federal park and the TTDI trailhead at Jalan Aminuddin Baki confirmed via search (official tpbk.jln.gov.my site and hiking guides); Wikipedia title Bukit Kiara confirmed at en.wikipedia.org. Review stage moved the pin about 300 m south-west to the TTDI Park (Taman Bukit Kiara) gate on Jalan Aminuddin Baki from knowledge, still medium confidence; hours from knowledge.",
+      "name": "Taman Persekutuan Bukit Kiara (TTDI trailhead)",
+      "neighborhood": "Taman Tun Dr Ismail (TTDI)",
+      "category": "trail",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "solo",
+        "group",
+        "free",
+        "hidden",
+        "sunrise"
+      ],
+      "blurb": "A 400-acre forested hill between TTDI, Bukit Damansara and Mont Kiara, criss-crossed by more than a dozen named hiking and mountain-bike trails and ringed by a paved loop where the neighbourhood walks its dogs at dawn. This is where west-KL residents go instead of a gym, and the benches and rock outcrops along the lower trails make easy places to sit and listen to the forest. It is a suburban commons rather than an attraction, which is exactly why it works.",
+      "tips": "Start at TTDI Park (Taman Bukit Kiara) on Jalan Aminuddin Baki, about a ten-minute walk from TTDI MRT; there is a guardhouse, toilets and parking. The paved perimeter path is fine in ordinary shoes, the forest trails need grip. Go early, before 9am, for cool air and the most people around, and download an offline trail map.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 6am-7pm (trails close at dusk)",
+      "lat": 3.1372,
+      "lng": 101.6278,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Bukit Kiara",
+      "sources": [
+        {
+          "url": "https://tpbk.jln.gov.my/",
+          "label": "Taman Persekutuan Bukit Kiara (official)",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.tahanoutdoor.com/blogs/camping/bukit-kiara-hikers-guide",
+          "label": "Tahan Outdoor: Bukit Kiara hiker's guide",
+          "kind": "blog"
+        },
+        {
+          "url": "https://greatruns.com/kuala-lumpur-bukit-kiara-park/",
+          "label": "Great Runs: Bukit Kiara Park",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Forest trails are unlit, steep in places and slippery after rain, with patchy phone signal off the main loop; go in daylight, tell someone your route and stay on named trails. Macaques are common, so keep food packed away."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed the park now charges RM10 (MyKad) / RM40 (others), cash only, open 7am-7pm and closed Fridays, so free set to false. Wikipedia title Bukit Nanas kept on high confidence from knowledge, not URL-confirmed.",
+      "name": "KL Forest Eco Park (Bukit Nanas Forest Reserve)",
+      "neighborhood": "Bukit Nanas",
+      "category": "trail",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "view",
+        "skyline",
+        "solo",
+        "rain-ok"
+      ],
+      "blurb": "A nine-hectare fragment of old-growth rainforest on the hill under KL Tower, gazetted in 1906 and now threaded with boardwalks, three short trails and a 200-metre canopy walk that puts you at treetop height with the towers poking through the leaves. It is small enough to cover in half an hour and shaded enough to sit in on a hot afternoon, and the entry fee keeps it far quieter than the tower next door.",
+      "tips": "Enter from Jalan Raja Chulan (near Bukit Nanas monorail) or from the KL Tower approach road; bring cash for the fee, since cards are not taken. The canopy walk is closed in heavy rain, but the ground-level boardwalks are usable under the canopy in a drizzle. Closed on Fridays.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "7am-7pm, closed Fri (RM10 MyKad / RM40 others, cash)",
+      "lat": 3.1523,
+      "lng": 101.7012,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Bukit Nanas",
+      "sources": [
+        {
+          "url": "https://www.malaysia-traveller.com/kl-forest-eco-park.html",
+          "label": "Malaysia Traveller: KL Forest Eco Park",
+          "kind": "blog"
+        },
+        {
+          "url": "https://rollinggrace.com/2026/04/03/kl-forest-eco-park-canopy-walk/",
+          "label": "Rolling Grace: trails, canopy walk and fee",
+          "kind": "blog"
+        },
+        {
+          "url": "https://travelynnfamily.com/kuala-lumpur-forest-eco-park-and-canopy-walk/",
+          "label": "Travelynn Family: 2026 guide",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, ticketed reserve that closes at 7pm; boardwalks and canopy walk are slippery when wet and the canopy walk shuts in storms. Macaques will grab food and loose bags."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review-stage search: the en.wikipedia article is titled Titiwangsa Lake Park (Titiwangsa_Lake_Gardens redirects to it), so the title was changed from the researcher's guess. Hours 6am-10pm and free entry from Malaysia Traveller and Visit Selangor pages in results; the earlier 'roughly 6am-midnight' was a guess and has been replaced. Coordinates are the lake, high confidence.",
+      "name": "Titiwangsa Lake Gardens (Taman Tasik Titiwangsa)",
+      "neighborhood": "Titiwangsa",
+      "category": "park",
+      "vibes": [
+        "water",
+        "skyline",
+        "sunset",
+        "night",
+        "walk",
+        "people-watch",
+        "free",
+        "group"
+      ],
+      "blurb": "A big former tin-mining lake north of the centre, relandscaped in 2020 with a wide lakeside promenade, boardwalks over the water and lawns that frame the whole KL skyline, Twin Towers and Merdeka 118 included, across the lake. It is a neighbourhood park first: families, joggers and couples on the benches after Maghrib, with hawker stalls on the edge. Sunset over the towers from the eastern shore is the best free skyline view in the city and almost no tourists know it.",
+      "tips": "Titiwangsa station (LRT/monorail/MRT) is a ten-minute walk; the eastern and southern shores face the skyline. Come around 6.30pm for the sunset and stay for the towers lighting up. Weekends bring loud fitness classes, so weekday evenings are calmer. Food stalls sit by the Jalan Temerloh side. Gates close at 10pm.",
+      "bestTimes": [
+        "golden-hour",
+        "night",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "6am-10pm daily",
+      "lat": 3.1785,
+      "lng": 101.706,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Titiwangsa Lake Park",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Titiwangsa_Lake_Park",
+          "label": "Wikipedia: Titiwangsa Lake Park",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.malaysia-traveller.com/titiwangsa-lake-gardens.html",
+          "label": "Malaysia Traveller: Titiwangsa Lake Gardens",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.visitselangor.com/titiwangsa-park/",
+          "label": "Visit Selangor: Titiwangsa Park",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit promenade busy into the evening with joggers and families; the water edge is mostly unfenced on the boardwalks, and the inner lawns are darker, so stay on the lit loop after dark."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, free entry and hours confirmed via search (DBKL site, Time Out, Buro): Tue-Fri 10am-6.45pm, Sat-Sun 10am-5pm, closed Monday; one source says 6.30pm weekday closing. Wikipedia title Kuala Lumpur Library confirmed at en.wikipedia.org. Review stage moved the pin about 100 m south to the library's actual block at the south end of Dataran Merdeka (beside KL City Gallery) and corrected the tip, which had placed it opposite the Sultan Abdul Samad Building.",
+      "name": "Kuala Lumpur Library (Perpustakaan Kuala Lumpur)",
+      "neighborhood": "Dataran Merdeka / Jalan Raja",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "solo",
+        "free",
+        "cozy"
+      ],
+      "blurb": "The city's flagship public library sits at the quiet end of Dataran Merdeka in a low modern block behind the old colonial row, and anyone can walk in, find a desk and stay until closing. The reading floors are air-conditioned, hushed and largely used by students and retirees; membership is only needed to borrow. On a monsoon afternoon it is the easiest indoor refuge in the old centre.",
+      "tips": "Enter from Jalan Raja at the south end of the square, next to the KL City Gallery; leave large bags at the counter and take a seat on the upper reading floors, which are quieter than the ground floor. Closed Mondays. Masjid Jamek LRT is a five-minute walk.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Tue-Fri 10am-6:45pm, Sat-Sun 10am-5pm, closed Mon (check site)",
+      "lat": 3.1468,
+      "lng": 101.6941,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Kuala Lumpur Library",
+      "sources": [
+        {
+          "url": "https://perpustakaankualalumpur.dbkl.gov.my/en/",
+          "label": "Perpustakaan Kuala Lumpur (DBKL)",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Kuala_Lumpur_Library",
+          "label": "Wikipedia: Kuala Lumpur Library",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.timeout.com/kuala-lumpur/attractions/perpustakaan-kuala-lumpur",
+          "label": "Time Out: Perpustakaan Kuala Lumpur",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.buro247.my/lifestyle/news/public-libraries-klang-valley-study-wfh.html",
+          "label": "Buro: best public libraries in the Klang Valley",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building with bag checks; the square outside is lit and open but empties after the library closes."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review-stage search confirmed hours 9:30am-6pm daily (5pm in Ramadan, closed on the two Hari Raya days) and RM20 adult admission from the official iamm.org.my visit page and travel guides; older RM14 figures also appear on some pages. Wikipedia title Islamic Arts Museum Malaysia kept on high confidence, not URL-confirmed. Coordinates high confidence.",
+      "name": "Islamic Arts Museum Malaysia",
+      "neighborhood": "Lake Gardens (Jalan Lembah Perdana)",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "cozy",
+        "solo",
+        "study"
+      ],
+      "blurb": "A cool, white-marble museum of Islamic textiles, ceramics, Qurans and architecture models next to the National Mosque, with tiled domes overhead, wide empty galleries and long benches in front of the scale models of the world's great mosques. Even on weekends it is uncrowded, and the top-floor galleries and the courtyard cafe are the sort of places you can sit for an hour with a notebook. It is the calmest paid space in the Lake Gardens on a rainy day.",
+      "tips": "Walk up from Kuala Lumpur (KTM/Old Railway Station) via the National Mosque; the architecture gallery on the upper floor has the benches. The museum shop and cafe are open without a ticket. Adult tickets are RM20 (RM10 students and Malaysian seniors) per the official site; some third-party pages still quote older RM14 prices.",
+      "bestTimes": [
+        "afternoon",
+        "morning"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "9:30am-6pm daily (9:30am-5pm in Ramadan; closed Hari Raya)",
+      "lat": 3.1415,
+      "lng": 101.6895,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Islamic Arts Museum Malaysia",
+      "sources": [
+        {
+          "url": "https://iamm.org.my/visit-us",
+          "label": "IAMM: Visit Us (hours and tickets)",
+          "kind": "official"
+        },
+        {
+          "url": "https://audiala.com/en/malaysia/kuala-lumpur/islamic-arts-museum-malaysia",
+          "label": "Audiala: opening hours 2026",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, ticketed museum; the walk from the station passes under a highway ramp, so use the pavement past the National Mosque."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Free entry and hours (Tue-Sat 11am-6pm, Sun 11am-5pm, closed Mon and public holidays) and address (Levels 3 and 5, Ilham Tower, 8 Jalan Binjai) confirmed via search. No English Wikipedia article checked or found, so null. Coordinates are Ilham Tower, medium confidence.",
+      "name": "Ilham Gallery",
+      "neighborhood": "KLCC (Jalan Binjai)",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "free",
+        "solo",
+        "hidden",
+        "study"
+      ],
+      "blurb": "A free contemporary art gallery on the third and fifth floors of an office tower a few blocks behind the Twin Towers, showing serious, well-curated exhibitions of Malaysian and Southeast Asian art that change every few months. The floors are large, silent and rarely busy on weekdays, with window seats looking out over KLCC. It is where people who work in the towers go for a quiet lunch hour.",
+      "tips": "Take the lift from the Ilham Tower lobby to level 5 first, then walk down to level 3; both floors are free. Ampang Park LRT and KLCC are each a ten-minute walk. Closed Mondays and public holidays; check Instagram for the current show, since the gallery shuts briefly between exhibitions.",
+      "bestTimes": [
+        "afternoon",
+        "morning"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Tue-Sat 11am-6pm, Sun 11am-5pm, closed Mon and public holidays",
+      "lat": 3.1588,
+      "lng": 101.7188,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://collection.ilhamgallery.com/contact",
+          "label": "Ilham Gallery: contact and hours",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.tripadvisor.com.my/Attraction_Review-g298570-d9608627-Reviews-Ilham_Gallery-Kuala_Lumpur_Wilayah_Persekutuan.html",
+          "label": "Tripadvisor: Ilham Gallery",
+          "kind": "forum"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed gallery inside a guarded office tower; surrounding streets are lit and busy with office traffic."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known Chinese temple with public terraces; not searched. Wikipedia title kept on high confidence from knowledge, not URL-confirmed. Hours approximate.",
+      "name": "Thean Hou Temple",
+      "neighborhood": "Seputeh (Robson Heights)",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "skyline",
+        "sunset",
+        "quiet",
+        "free",
+        "solo",
+        "night"
+      ],
+      "blurb": "A large six-tiered Chinese temple on Robson Heights, south of the centre, whose upper terraces look north across the rooftops to the whole downtown skyline. Outside festival weekends and the busy weekend evenings it is remarkably quiet: the terraces are open to anyone, there are benches under the lanterns, and the medicinal herb garden at the back is empty most afternoons. Sunset and the hour after, when the lanterns and the towers light up, are the payoff.",
+      "tips": "It is a steep 15-minute walk up Persiaran Endah from Jalan Syed Putra; a Grab from KL Sentral is under ten minutes. The best skyline view is from the upper terrace on the left as you face the main hall. Dress modestly, keep quiet inside the prayer hall, and avoid the first and fifteenth of the lunar month and Chinese New Year if you want it empty.",
+      "bestTimes": [
+        "golden-hour",
+        "night",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "8am-10pm (approx.)",
+      "lat": 3.1218,
+      "lng": 101.6875,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Thean Hou Temple",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed temple grounds, lit until closing; the access road up the hill has no continuous pavement and little traffic after dark, so plan a ride down rather than walking."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence and hours confirmed via search (BookXcess official page, TheSmartLocal): 2nd floor of REXKL, 80 Jalan Sultan, Tue-Thu and Sun 10am-10pm, Fri-Sat 10am-midnight; Monday hours not stated in results. No English Wikipedia article checked, so null.",
+      "name": "BookXcess at REXKL",
+      "neighborhood": "Chinatown (Jalan Sultan)",
+      "category": "bookstore",
+      "vibes": [
+        "rain-ok",
+        "cozy",
+        "night",
+        "solo",
+        "people-watch",
+        "hidden"
+      ],
+      "blurb": "A discount bookshop built into the old projection room and upper floors of the Rex, a 1940s cinema on Jalan Sultan that reopened as a community arts and food hall. Shelves climb the old raked cinema walls in a maze of stairs and mezzanines with reading nooks tucked into the corners, and nobody minds if you settle in with a book for an hour. The ground floor hawker hall and the rooftop deck give you somewhere to go afterwards.",
+      "tips": "Enter through REXKL's main doors on Jalan Sultan and climb to the second floor; the far upper mezzanines have the quietest seats. It is open late, so it works as an after-dinner stop from Pasar Seni MRT. Weekend afternoons are busy with photo-takers; weekday evenings are calm.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Tue-Thu & Sun 10am-10pm, Fri-Sat 10am-midnight (Mon: check site)",
+      "lat": 3.1441,
+      "lng": 101.698,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.bookxcess.com/pages/rex-kl",
+          "label": "BookXcess: REX KL",
+          "kind": "official"
+        },
+        {
+          "url": "https://thesmartlocal.my/rexkl/",
+          "label": "TheSmartLocal: REXKL guide",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed venue on a lit, busy pedestrian street until late; the old cinema stairs are steep and uneven, so mind your footing on the upper levels."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence and hours confirmed via search (Yelp listing updated 2026, Eat Drink KL, Time Out): 150 Jalan Petaling, first floor, closed Wednesdays, Mon-Tue and Thu-Fri 11.30am-10pm, Sat-Sun 9.30am-10pm. Coordinates are the shophouse block, medium confidence.",
+      "name": "Merchant's Lane",
+      "neighborhood": "Chinatown (Jalan Petaling)",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "solo",
+        "group",
+        "people-watch",
+        "hidden"
+      ],
+      "blurb": "A cafe up an unmarked staircase on the first floor of a Jalan Petaling shophouse, in rooms that keep their peeling walls, tiled floors and a plant-filled open courtyard where the roof was taken off. It has been running since 2015 and is one of the few places in Chinatown where you can sit for two hours over a coffee and a book without the market noise. The courtyard tables are the ones to aim for on a dry day.",
+      "tips": "Look for the small sign at number 150 at the southern end of Jalan Petaling, near the Jalan Sultan junction, and climb the stairs; Pasar Seni MRT is a five-minute walk. Closed Wednesdays. Weekend brunch is the only truly busy time; weekday afternoons are easy.",
+      "bestTimes": [
+        "afternoon",
+        "morning"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Mon-Tue & Thu-Fri 11:30am-10pm, Sat-Sun 9:30am-10pm, closed Wed",
+      "lat": 3.1425,
+      "lng": 101.6975,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.eatdrinkkl.com/venues/merchant-s-lane-cafe",
+          "label": "Eat Drink KL: Merchant's Lane",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.yelp.com/biz/merchants-lane-kuala-lumpur",
+          "label": "Yelp: Merchant's Lane (hours)",
+          "kind": "forum"
+        },
+        {
+          "url": "https://www.timeout.com/kuala-lumpur/restaurants/merchants-lane",
+          "label": "Time Out: Merchant's Lane",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed cafe on a lit, busy street; the stairwell is steep and the courtyard floor gets wet in rain."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence (69 m pedestrian and cycle bridge over the Klang River, opened February 2020, LED-lit) confirmed via search; Wikipedia title Saloma Link confirmed at en.wikipedia.org. Coordinates are the river crossing between Kampung Baru and Jalan Saloma, high confidence for the bridge, exact pin approximate.",
+      "name": "Saloma Link",
+      "neighborhood": "Kampung Baru / KLCC",
+      "category": "viewpoint",
+      "vibes": [
+        "night",
+        "skyline",
+        "view",
+        "water",
+        "walk",
+        "free",
+        "people-watch"
+      ],
+      "blurb": "A 69-metre covered footbridge over the Klang River that stitches the Malay village of Kampung Baru back to the glass towers of KLCC, its lattice canopy lit in shifting LED colours after dark. Stand at the middle and you have the Twin Towers filling the frame in one direction and low wooden houses in the other. Locals cross it on the way to supper in Kampung Baru, and the parapet is a fine place to lean and watch the city change colour.",
+      "tips": "Reach it from Kampung Baru LRT via Jalan Raja Muda Musa, or from the KLCC side along Jalan Saloma; the LED show runs in the evening, so arrive around 8pm. Pair it with a late plate of nasi lemak on Jalan Raja Muda Musa. It is a public footbridge, open all the time, so there is nothing to pay or book.",
+      "bestTimes": [
+        "night",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (lit in the evening)",
+      "lat": 3.16,
+      "lng": 101.7128,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Saloma Link",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Saloma_Link",
+          "label": "Wikipedia: Saloma Link",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.malaysia.travel/explore/saloma-bridge",
+          "label": "Malaysia Truly Asia: Saloma Bridge",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.cidb.gov.my/eng/saloma-link-weaving-together-klcc-and-kampung-bahru/",
+          "label": "CIDB: Saloma Link",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Well-lit and busy in the evening with steady foot traffic; the approach paths beside the elevated highway are quieter and less overlooked late at night, so cross while people are still about and plan the walk back to the LRT or a ride."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review-stage search confirmed the address (2 Jalan Temerloh off Jalan Tun Razak), free general admission and hours Tue-Sun 10am-6pm, closed Mondays and public holidays (Malaysia Truly Asia, Visit Selangor, Audiala); the researcher's '9am-5pm daily' was wrong and has been replaced. No en.wikipedia article appeared in results and the institution is also styled National Visual Arts Gallery, so the title is set to null rather than guessed. Coordinates are the block next to Istana Budaya, medium confidence.",
+      "name": "National Art Gallery (Balai Seni Negara)",
+      "neighborhood": "Titiwangsa (Jalan Temerloh)",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "free",
+        "solo",
+        "study",
+        "hidden"
+      ],
+      "blurb": "Malaysia's national art gallery occupies a big pyramid-roofed building next to Istana Budaya, with a spiral ramp winding up through several floors of modern Malaysian painting, sculpture and rotating exhibitions. Entry is free, the halls are cool and almost always half-empty, and there are benches on the ramp landings and a cafe by the entrance. Most visitors are art students sketching, which sets the volume.",
+      "tips": "Titiwangsa station is a fifteen-minute walk along Jalan Tun Razak, or a short Grab; combine it with the lake gardens across the road. Leave bags at the counter, start at the top of the spiral and work down. Closed Mondays and public holidays; check the site for current exhibitions before going.",
+      "bestTimes": [
+        "afternoon",
+        "morning"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Tue-Sun 10am-6pm, closed Mon and public holidays",
+      "lat": 3.1737,
+      "lng": 101.7036,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.malaysia.travel/explore/must-visit-museums-and-galleries-in-kl",
+          "label": "Malaysia Truly Asia: museums and galleries in KL",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.visitselangor.com/national-art-gallery-balai-seni-negara/",
+          "label": "Visit Selangor: National Art Gallery",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.malaysia-traveller.com/national-visual-arts-gallery.html",
+          "label": "Malaysia Traveller: National Visual Arts Gallery",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building; the walk from Titiwangsa station follows a wide, fast road with long gaps between crossings, so use the signalled crossings."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review-stage search confirmed the park exists at Jalan Jalil Perkasa 1, is free, about 80 acres (the researcher's '80 hectares' was wrong) and open 6am-8pm daily (Malaysia Traveller, Kuala Lumpur Insider, AllTrails, Tripadvisor). No en.wikipedia article appeared, so title stays null. No result gave coordinates; the pin is the lake area west of the stadium from knowledge and stays medium confidence.",
+      "name": "Bukit Jalil Recreational Park (Taman Rekreasi Bukit Jalil)",
+      "neighborhood": "Bukit Jalil",
+      "category": "park",
+      "vibes": [
+        "green",
+        "water",
+        "walk",
+        "quiet",
+        "picnic",
+        "free",
+        "solo",
+        "sunset"
+      ],
+      "blurb": "An 80-acre hillside park in the south of the city, laid out for the 1998 Commonwealth Games and left to mature into lawns, lakes, a heliconia garden, an international garden and long shaded walking loops with a reflexology path. It is used almost entirely by Bukit Jalil and Sri Petaling residents for evening walks and weekend picnics, and the upper slopes give a wide open view over the southern suburbs. On a weekday afternoon you can have a whole hillside bench to yourself.",
+      "tips": "Bukit Jalil LRT is about a fifteen-minute walk via the stadium; the main car park and lake are off Jalan Jalil Perkasa. The Malay garden and the ridge lawns are the quietest sections. Bring water and come after 5pm for shade and a breeze; evenings are busiest with joggers.",
+      "bestTimes": [
+        "golden-hour",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "6am-8pm daily",
+      "lat": 3.0585,
+      "lng": 101.677,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.malaysia-traveller.com/bukit-jalil-park.html",
+          "label": "Malaysia Traveller: Bukit Jalil Park",
+          "kind": "blog"
+        },
+        {
+          "url": "https://kualalumpurinsider.com/complete-guide-bukit-jalil-recreational-park-taman-rekreasi-in-kuala-lumpur/",
+          "label": "Kuala Lumpur Insider: 2026 guide",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.alltrails.com/en-gb/trail/malaysia/kuala-lumpur/taman-rekreasi-bukit-jalil",
+          "label": "AllTrails: Taman Rekreasi Bukit Jalil",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Large park with unlit interior paths and slopes and few exits once you are on the ridge; gates close at 8pm, so stay on the lit loop near the entrance after dusk or leave before dark."
+      },
+      "lowkeyScore": 4
+    }
+  ]
+}

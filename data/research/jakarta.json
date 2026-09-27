@@ -1,0 +1,684 @@
+{
+  "city": "Jakarta",
+  "country": "Indonesia",
+  "slug": "jakarta",
+  "region": "asia-pacific",
+  "cityLat": -6.2088,
+  "cityLng": 106.8456,
+  "timezone": "Asia/Jakarta",
+  "searchesRun": [
+    "Tebet Eco Park jam buka hari senin tutup 2026",
+    "Taman Literasi Martha Christina Tiahahu Blok M jam operasional",
+    "Perpustakaan Jakarta Cikini Taman Ismail Marzuki jam buka",
+    "Perpustakaan Nasional Medan Merdeka Selatan jam layanan lantai 24",
+    "Hutan Kota GBK jam buka pengunjung",
+    "Taman Wisata Alam Mangrove Angke Kapuk PIK harga tiket jam buka",
+    "Bakoel Koffie Cikini masih buka jam buka",
+    "en.wikipedia.org Suropati Park Lapangan Banteng Setu Babakan Jakarta",
+    "Hutan Kota GBK lokasi koordinat Jalan Gerbang Pemuda pintu masuk TVRI",
+    "Galeri Nasional Indonesia jam buka 2026 Medan Merdeka Timur",
+    "Hutan Kota Srengseng Jakarta Barat jam buka harga tiket 2026",
+    "en.wikipedia.org \"Ancol Dreamland\" OR \"National Gallery of Indonesia\" OR \"National Library of Indonesia\""
+  ],
+  "redditSourcedNotes": "Two stages. Stage one drafted 14 spots from prior knowledge of Jakarta and spent its 8 searches on opening hours, continued operation and doubtful English Wikipedia titles; no reddit threads were read in either stage, so nothing here is 'according to locals' in the literal sense and the bias toward resident-used places comes from knowledge. Stage-one confirmations by search result: Perpustakaan Jakarta at TIM daily 9am-10pm (Tempo/detik/kumparan); Perpusnas Mon-Fri 8am-7pm, Sat-Sun 9am-4pm (jakarta.go.id, detik); Hutan Kota GBK Tue-Sun 6-10am and 3-6pm, closed Monday (Kompas/Tempo/detik); TWA Mangrove Angke Kapuk 8am-6pm weekdays, 7am-6pm weekends, with a much higher foreigner rate (Kompas 2025/2026); Taman Literasi 7am-10pm per detik/GNFI though one source says 24h; Bakoel Koffie Cikini still open roughly 8am-11:30pm. Tebet Eco Park hours conflict across sources (6am-6pm in two sessions, 6am-7pm, 6am-10pm; a 24h plan was cancelled) and are recorded as approximate. Stage two (skeptic) had 4 searches and found: (1) an English Wikipedia article 'GBK City Park' for Hutan Kota GBK, now set, and the entrance address Jl. Gerbang Pemuda No. 1 via Pintu 5-7; the pin was moved about 250 m north-east but remains medium confidence because every geocoder and Wikipedia fetch was blocked by the network proxy, so no coordinate in this file was checked against a map; (2) Galeri Nasional is no longer free (CNN Indonesia: fee rose 5 Jan 2026) and opens Tue-Thu 10am-6pm, Fri-Sun 10am-8pm, closed Monday, per snippets quoting its Instagram; the stage-one 'free, Tue-Sun 9am-4pm' entry was wrong and has been corrected, though the fee amount could not be read; (3) Hutan Kota Srengseng in West Jakarta confirmed public, daily about 7am-5pm, Rp3,000 (Kompas 2023/2025, MetroTV), and added to fill the West Jakarta gap; (4) 'National Library of Indonesia', 'National Gallery of Indonesia' and 'Ancol Dreamland' all confirmed as exact en.wikipedia.org URLs. Pantai Ancol was dropped in stage two as the one major ticketed tourist complex on the list and the weakest pin (one point on a multi-kilometre beach); Hutan Kota Srengseng replaced it. Not searched in either stage and therefore knowledge-only: Taman Langsat (hours and gate-closing time are estimates), Gramedia Matraman (hours typical, not confirmed), Setu Babakan hours and charges, Lapangan Banteng fountain schedule. Source URLs are only those that appeared in a search result in one of the two stages; stage two could not open any of them to re-verify content, so labels describe what the result snippet said. Two spots (Taman Langsat, Gramedia Matraman) have empty sources arrays rather than invented ones. Safety notes were re-read against the standard in stage two: none characterised people or neighbourhoods and none needed rewriting; the three cautions (Setu Babakan, the mangrove park, Hutan Kota Srengseng) rest on unlit paths, unfenced water and early closing. Remaining clusters: two libraries, and four Central Jakarta spots around Merdeka Square and Cikini.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title confirmed: en.wikipedia.org/wiki/Taman_Suropati appeared in results. Coordinates high confidence (junction of Jl. Diponegoro, Imam Bonjol and Teuku Umar). Hours from knowledge; the park is effectively always open.",
+      "name": "Taman Suropati",
+      "neighborhood": "Menteng",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "people-watch",
+        "solo",
+        "group",
+        "free",
+        "walk"
+      ],
+      "blurb": "A small 1920s park at the heart of Menteng's garden-suburb street plan, ringed by mahogany trees, with a fountain, a dozen ASEAN sculptures and a lot of benches in the shade. It is where Menteng's residents walk dogs and where a loose community of violinists and guitarists practise on Sunday mornings; on a weekday afternoon it is mostly pigeons and a few people reading. Small enough that you can see the whole thing, big enough that the traffic on the surrounding roads fades to a hum.",
+      "tips": "Come from Jl. Diponegoro side and sit on the benches nearest the fountain, which get the most shade; the sculptures on the perimeter make good spots to lean and read. Sunday morning is lively with music, weekday afternoons are the quietest. Street vendors sell coffee and snacks along the edge.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (busiest 6-9am and after 4pm)",
+      "lat": -6.1993,
+      "lng": 106.8325,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Taman Suropati",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Taman_Suropati",
+          "label": "Wikipedia: Taman Suropati",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit, open to the surrounding streets on all sides and used well into the evening; the perimeter roads are busy, so cross at the marked points."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Hours confirmed by search: daily 9am-10pm, brief Friday pause for prayers around 11:30am-1pm, closed on national holidays (Tempo, detik, kumparan). Entry is via online registration on the Jaklitera app or site. Coordinates are for the TIM complex; the library occupies the long Gedung Panjang building, so pin may be off by ~100 m. Wikipedia set to null: the en article Ismail Marzuki Park is for the arts complex, not the library.",
+      "name": "Perpustakaan Jakarta (Taman Ismail Marzuki)",
+      "neighborhood": "Cikini, Central Jakarta",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "cozy",
+        "solo",
+        "free",
+        "night",
+        "view"
+      ],
+      "blurb": "The city's flagship public library, rebuilt in 2022 inside the Taman Ismail Marzuki arts complex on Cikini Raya, with several floors of open shelves, long tables, window seats and a children's floor. Anyone can walk in after a free online registration and stay until 10pm, which makes it one of the very few calm, air-conditioned, free places in Jakarta that are open late. The upper floors look out over the TIM plaza and the planetarium.",
+      "tips": "Register on the Jaklitera app or perpustakaan.jakarta.go.id before you go and scan the QR at the entrance; bags go in a locker. Head for the upper reading floors for quiet, and note the ground level and plaza outside are free to sit in even without registering. Cikini station on the commuter line is a ten-minute walk.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "daily 9am-10pm (closed national holidays)",
+      "lat": -6.1902,
+      "lng": 106.8395,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.tempo.co/politik/pramono-anung-tambah-jam-buka-perpustakaan-tim-hingga-pukul-22-00-wib-1384549",
+          "label": "Tempo: TIM library hours extended to 10pm",
+          "kind": "press"
+        },
+        {
+          "url": "https://news.detik.com/berita/d-6177562/perpustakaan-jakarta-cikini-cara-berkunjung-dan-jam-buka",
+          "label": "detik: how to visit Perpustakaan Jakarta Cikini",
+          "kind": "press"
+        },
+        {
+          "url": "https://perpustakaan.jakarta.go.id/supports/about-us",
+          "label": "Jaklitera: about Perpustakaan Jakarta",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, gated building with security at the entrance and lockers for bags; the TIM plaza outside is lit and busy until closing."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Hours confirmed by search: Mon-Fri 8am-7pm, Sat-Sun 9am-4pm, closed on national holidays (jakarta.go.id, detik). The 24th floor houses the Nusantara culture collection and a lounge; the public view floor may be restricted at times. Wikipedia title 'National Library of Indonesia' confirmed in the second stage as an exact en.wikipedia.org URL. Coordinates high confidence (Jl. Medan Merdeka Selatan 11).",
+      "name": "Perpustakaan Nasional (National Library)",
+      "neighborhood": "Gambir, Central Jakarta",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "view",
+        "skyline",
+        "solo",
+        "free"
+      ],
+      "blurb": "A 24-storey library tower on the south side of Merdeka Square, entered through a restored colonial house, with reading rooms stacked floor after floor and a top-floor lounge that looks straight out over Monas and the city. It is free, air-conditioned and mostly full of students, so the mood is studious rather than touristic. Even people who never borrow a book come here to sit by the windows and watch the afternoon rain sweep across the square.",
+      "tips": "Bring ID to get a day pass or a free membership card at the ground floor; bags go in lockers. Take the lift straight to the upper floors for the view and the quietest rooms, and go on a weekday if you want space. It is a short walk from Gambir station and the Monas Transjakarta stop.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Fri 8am-7pm, Sat-Sun 9am-4pm (closed national holidays)",
+      "lat": -6.1808,
+      "lng": 106.8265,
+      "coordConfidence": "high",
+      "wikipediaTitle": "National Library of Indonesia",
+      "sources": [
+        {
+          "url": "https://www.jakarta.go.id/perpustakaan-nasional",
+          "label": "Jakarta.go.id: Perpustakaan Nasional",
+          "kind": "official"
+        },
+        {
+          "url": "https://news.detik.com/berita/d-4837732/perpustakaan-nasional-jadwal-buka-dan-syarat-masuknya",
+          "label": "detik: Perpusnas hours and entry rules",
+          "kind": "press"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/National_Library_of_Indonesia",
+          "label": "Wikipedia: National Library of Indonesia",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed government building with security screening at the door; closes in the early evening, so plan the trip home before it empties."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Second-stage search: a CNN Indonesia headline reports the entry fee rose from 5 January 2026, so the gallery is no longer free; the amount could not be read (page blocked), so 'free' is set to false without a price. Hours per the gallery's Instagram as quoted in results: Tue-Thu 10am-6pm, Fri-Sun 10am-8pm, closed Monday; one snippet gave a Monday 12-8pm slot instead, so check before going. Wikipedia title 'National Gallery of Indonesia' confirmed as an exact en.wikipedia.org URL. Coordinates high confidence (Jl. Medan Merdeka Timur 14).",
+      "name": "Galeri Nasional Indonesia",
+      "neighborhood": "Gambir, Central Jakarta",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "green",
+        "solo",
+        "free",
+        "cozy"
+      ],
+      "blurb": "The national art gallery occupies a colonial school compound across the road from Gambir station, with a permanent collection of Indonesian modern art in one wing, rotating shows in others and a lawn with big trees in between. Admission is a small fee since 2026 and the crowds are thin outside opening nights, so you can move slowly through the galleries and then sit under the trees in the courtyard. It is one of the easiest places in the centre to lose an hour on a hot or wet afternoon.",
+      "tips": "Enter from Jl. Medan Merdeka Timur, buy a ticket at the desk and check which buildings are open that day, since some close between exhibitions. The benches on the lawn near the old school building are the quietest spot; the small cafe by the entrance is hit and miss. Gambir station is directly opposite.",
+      "bestTimes": [
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Tue-Thu 10am-6pm, Fri-Sun 10am-8pm, closed Mon (check gni.kemdikbud.go.id)",
+      "lat": -6.1765,
+      "lng": 106.833,
+      "coordConfidence": "high",
+      "wikipediaTitle": "National Gallery of Indonesia",
+      "sources": [
+        {
+          "url": "https://www.cnnindonesia.com/gaya-hidup/20260105150310-269-1313708/harga-tiket-masuk-galeri-nasional-naik-mulai-5-januari-2026",
+          "label": "CNN Indonesia: Galeri Nasional ticket price rises from 5 Jan 2026",
+          "kind": "press"
+        },
+        {
+          "url": "https://kumparan.com/seputar-jakarta/galeri-nasional-indonesia-harga-tiket-jam-operasional-dan-informasi-lainnya-21bgae4CuLi",
+          "label": "kumparan: Galeri Nasional tickets and hours",
+          "kind": "press"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/National_Gallery_of_Indonesia",
+          "label": "Wikipedia: National Gallery of Indonesia",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, walled compound with a guarded gate; closes at 6pm early in the week, and the road outside is a busy multi-lane one, so use the crossing to Gambir station."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title confirmed: en.wikipedia.org/wiki/Lapangan_Banteng appeared in results (5.2 ha park in Sawah Besar). Evening fountain show schedule from knowledge and may change. Coordinates high confidence.",
+      "name": "Lapangan Banteng",
+      "neighborhood": "Sawah Besar, Central Jakarta",
+      "category": "plaza",
+      "vibes": [
+        "night",
+        "people-watch",
+        "group",
+        "free",
+        "walk",
+        "green",
+        "skyline"
+      ],
+      "blurb": "A 5-hectare square east of Monas, once the colonial Waterlooplein, redone in 2018 with a big amphitheatre-style lawn, the West Irian Liberation monument, a running track and a fountain that puts on a light show a few nights a week. The Cathedral and the Istiqlal mosque frame one side and the Ministry of Finance the other. Families and office workers fill the steps after dark, which makes it one of the more comfortable places in the city to sit outside at night.",
+      "tips": "Come after 6pm when the heat drops and the lights come on; the fountain shows are usually on weekend evenings, so check before you go if you want one. Sit on the upper steps of the amphitheatre for the widest view. Juanda commuter station is a ten-minute walk, and Transjakarta stops on the west side.",
+      "bestTimes": [
+        "golden-hour",
+        "night",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 6am-10pm (check for events)",
+      "lat": -6.1706,
+      "lng": 106.8348,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Lapangan Banteng",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Lapangan_Banteng",
+          "label": "Wikipedia: Lapangan Banteng",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Well lit, fenced and staffed, with a lot of people until closing; the surrounding roads carry heavy traffic, so use the marked crossings."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Hours re-confirmed by a second-stage search: Tue-Sun in two sessions, 6-10am and 3-6pm, closed Monday, free (Kompas, Tempo, detik, 99.co). Address per results is Jl. Gerbang Pemuda No. 1, reached via Pintu 5, 6 or 7 Senayan, about 15 minutes' walk north from Pintu 5 opposite fX Sudirman. Pin moved ~250 m north-east from the first draft to the block east of the Aquatic Stadium, south of Jl. Gerbang Pemuda; still medium confidence because no map lookup was possible (geocoders and Wikipedia were blocked). English Wikipedia article 'GBK City Park' appeared as an exact en.wikipedia.org URL in results.",
+      "name": "Hutan Kota GBK",
+      "neighborhood": "Senayan / Gelora, Central Jakarta",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "solo",
+        "picnic",
+        "free",
+        "hidden",
+        "sunrise"
+      ],
+      "blurb": "A four-hectare planted forest on the north side of the Gelora Bung Karno sports complex, with a wooden boardwalk, a small lake, a long lawn and a lot of young trees that have grown up enough to give real shade. Because it only opens in a morning and a late-afternoon session and closes on Mondays, it never gets the crowds of the main GBK ring road. On a weekday morning it is joggers, a few people with laptops on the lawn and birdsong under the skyscrapers of Sudirman.",
+      "tips": "Enter from Jl. Gerbang Pemuda No. 1 (the TVRI side of GBK) or walk in through Pintu 5, 6 or 7 Senayan and follow the signs; the two sessions are 6-10am and 3-6pm, closed Monday. Sit on the lawn on the lake side or the benches along the boardwalk. Istora Mandiri MRT and the GBK Transjakarta stop are within a 15-minute walk.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Tue-Sun 6-10am and 3-6pm, closed Mon",
+      "lat": -6.2125,
+      "lng": 106.807,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "GBK City Park",
+      "sources": [
+        {
+          "url": "https://travel.kompas.com/read/2023/03/31/143100827/panduan-ke-hutan-kota-gbk--jam-buka-fasilitas-dan-aturan-masuk",
+          "label": "Kompas: guide to Hutan Kota GBK",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.tempo.co/hiburan/hutan-kota-gbk-jam-buka-harga-tiket-dan-fasilitas-92945",
+          "label": "Tempo: Hutan Kota GBK hours and facilities",
+          "kind": "press"
+        },
+        {
+          "url": "https://travel.detik.com/domestic-destination/d-7601877/cara-ke-hutan-kota-gbk-jam-buka-dan-fasilitasnya",
+          "label": "detik: how to get to Hutan Kota GBK",
+          "kind": "press"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/GBK_City_Park",
+          "label": "Wikipedia: GBK City Park",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated and staffed, with the site closed outside its two daily sessions; the boardwalk can be slippery after rain and the lake edge is unfenced in places."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Hours 7am-10pm per detik and Good News From Indonesia; one source claims 24-hour operation, so treat closing time as approximate. Opened 2022 next to Blok M MRT. Only an Indonesian-language Wikipedia article surfaced, so English title set to null. Coordinates medium confidence (immediately north-east of the Blok M bus terminal).",
+      "name": "Taman Literasi Martha Christina Tiahahu",
+      "neighborhood": "Blok M, Kebayoran Baru, South Jakarta",
+      "category": "park",
+      "vibes": [
+        "study",
+        "night",
+        "people-watch",
+        "free",
+        "solo",
+        "group",
+        "cozy",
+        "walk"
+      ],
+      "blurb": "A 'literacy park' built over the old Blok M bus-terminal garden in 2022, with a small glass library pavilion, open-air reading nooks, an amphitheatre and rows of benches under trees, all plugged directly into the Blok M MRT station. It is what a lot of young South Jakartans mean when they say they are going to read or work outside for a bit; the food alleys of Blok M and Little Tokyo are two minutes away. Open late, so it works as an after-dinner sit as well as a lunchtime one.",
+      "tips": "Take the MRT to Blok M BCA and follow the signs into the park; the library pavilion is free but small, so the shaded benches around the amphitheatre are the better bet for a long sit. It fills on weekend evenings when there are pop-up events; weekday mornings are near empty.",
+      "bestTimes": [
+        "morning",
+        "night",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 7am-10pm (some sources say 24h)",
+      "lat": -6.244,
+      "lng": 106.7985,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://travel.detik.com/domestic-destination/d-6579173/taman-literasi-blok-m-asyik-banget-buat-hangout-mau-pagi-atau-malam",
+          "label": "detik: Taman Literasi Blok M, morning or night",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.goodnewsfromindonesia.id/2024/08/27/5-kegiatan-seru-di-taman-literasi-martha-christina-tiahahu-blok-m",
+          "label": "Good News From Indonesia: things to do at Taman Literasi",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.nowjakarta.co.id/integrating-literacy-into-the-city/",
+          "label": "NOW! Jakarta: Taman Literasi",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit, staffed and busy until late thanks to the MRT and terminal next door; bus lanes run along two sides, so use the crossings."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched (budget spent elsewhere); from knowledge. Established municipal park on Jl. Barito behind the Barito bird and flower market; hours approximate (it has historically been fenced with a gate closed at night). Coordinates medium confidence. No English Wikipedia article known; null.",
+      "name": "Taman Langsat",
+      "neighborhood": "Kebayoran Baru, South Jakarta",
+      "category": "garden",
+      "vibes": [
+        "hidden",
+        "quiet",
+        "green",
+        "solo",
+        "free",
+        "walk",
+        "picnic"
+      ],
+      "blurb": "A three-hectare shaded park tucked behind the Barito flower and bird market in Kebayoran Baru, with old trees, a pond, a small running loop and very few people who are not from the neighbourhood. It is the quieter sibling of the more visible Taman Ayodya across the road and has long been where nearby residents come to read, stretch or just sit under the canopy. The market outside sells cut flowers and plants if you want to leave with something.",
+      "tips": "Enter from Jl. Barito next to the flower market; the benches along the pond and the far corner from the entrance stay quietest. Mornings are coolest; the park is fenced and the gate has historically closed around dusk, so do not plan a late sit. Blok M MRT is about a 15-minute walk.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 6am-6pm (gated; check locally)",
+      "lat": -6.243,
+      "lng": 106.7915,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced park with limited lighting under dense trees, so go in daylight and leave before the gate closes at dusk."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, free entry and daily opening confirmed by search, but hours conflict across sources (6am-6pm in two sessions, 6am-7pm, 6am-10pm; a 24-hour plan was cancelled by the governor per Tempo/MetroTV), so hours are recorded as approximate with a pointer to tebetecopark.id. Coordinates medium confidence for the park centre off Jl. Tebet Barat Raya. No English Wikipedia article found; null.",
+      "name": "Tebet Eco Park",
+      "neighborhood": "Tebet, South Jakarta",
+      "category": "park",
+      "vibes": [
+        "green",
+        "walk",
+        "water",
+        "group",
+        "picnic",
+        "free",
+        "sunset"
+      ],
+      "blurb": "Two older neighbourhood parks in Tebet joined in 2022 by an orange pedestrian bridge into a seven-hectare landscape of restored streams, wetlands, lawns and playgrounds. Weekends get crowded and loud, but weekday mornings belong to residents jogging the loop and people sitting on the boardwalk over the wetland watching herons. It is the clearest example in Jakarta of a park designed to be sat in rather than driven past.",
+      "tips": "Aim for a weekday and enter from the Jl. Tebet Barat Raya side; the wetland boardwalk and the benches on the north lawn are the calmest. Check current hours before you go since the park has switched between a two-session schedule and longer evening opening. Tebet commuter station is a 15-minute walk.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies; roughly 6am-6pm, sometimes later (check tebetecopark.id)",
+      "lat": -6.2362,
+      "lng": 106.853,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://travel.kompas.com/read/2025/10/24/210100527/lokasi-jam-buka-dan-harga-tiket-masuk-tebet-eco-park-wisata-hijau-di-jaksel",
+          "label": "Kompas: Tebet Eco Park location, hours and entry",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.tempo.co/politik/pramono-anung-batalkan-operasional-24-jam-tebet-eco-park-1230166",
+          "label": "Tempo: 24-hour operation cancelled",
+          "kind": "press"
+        },
+        {
+          "url": "https://tebetecopark.id/",
+          "label": "Tebet Eco Park official site",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced, staffed park that closes at night; the stream and wetland edges are unfenced in places and boardwalks are slippery after rain."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title confirmed: en.wikipedia.org/wiki/Setu_Babakan_Betawi_Cultural_Village appeared in results (117 ha cultural park in Srengseng Sawah, Jagakarsa). Hours and small parking/entry charges from knowledge and approximate. Coordinates medium confidence for the lake's north shore where the cultural stages and food stalls are.",
+      "name": "Setu Babakan",
+      "neighborhood": "Jagakarsa, South Jakarta",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunset",
+        "quiet",
+        "walk",
+        "people-watch",
+        "picnic",
+        "free"
+      ],
+      "blurb": "A reservoir lake ringed by fruit trees and traditional Betawi houses on the southern edge of the city, run as a cultural village where the food stalls sell kerak telor and bir pletok and there is dance or music on some weekends. Away from the stages, the lake path is long, shaded and slow, with anglers and pedal boats and a horizon you rarely get in Jakarta. Weekday afternoons are close to empty.",
+      "tips": "Come in through the main gate on Jl. Moh. Kahfi II and walk anticlockwise around the lake for the quiet shore; the west bank benches face the sunset. Weekends bring performances and crowds, so pick a weekday for stillness. It is a long way from the MRT (Lebak Bulus, then a taxi or ojek), so plan the ride home.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 6am-6pm (stalls and museum have their own hours)",
+      "lat": -6.3425,
+      "lng": 106.8255,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Setu Babakan Betawi Cultural Village",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Setu_Babakan_Betawi_Cultural_Village",
+          "label": "Wikipedia: Setu Babakan Betawi Cultural Village",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "The lake path is unlit and the site is far from rail transit, so finish before dusk and arrange transport back in advance; the bank is unfenced along most of the loop."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Hours and prices confirmed by search: 8am-6pm weekdays, 7am-6pm weekends and holidays; roughly Rp30k-35k for residents and a considerably higher foreigner-without-KITAS rate of Rp125k-175k (Kompas 2025 and 2026). Coordinates medium confidence for the entrance off Jl. Garden House, Kamal Muara. No English Wikipedia article found; null.",
+      "name": "Taman Wisata Alam Mangrove Angke Kapuk",
+      "neighborhood": "Pantai Indah Kapuk, North Jakarta",
+      "category": "trail",
+      "vibes": [
+        "water",
+        "green",
+        "quiet",
+        "walk",
+        "sunset",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "A 99-hectare mangrove conservation park on the north coast behind the Pantai Indah Kapuk housing estates, with bamboo and concrete boardwalks winding through the trees to viewing towers over the mudflats and the sea. It is the only place in Jakarta where you can sit in silence on a boardwalk and hear nothing but water and birds. Weekday afternoons are almost deserted; the paid entry keeps the numbers down.",
+      "tips": "Buy a ticket at the gate (cash or e-money); foreigners without a residence permit pay a much higher rate, so check before you go. Follow the boardwalk to the far tower for the sea view and the quietest benches, and bring insect repellent and water. Getting there is by car or ride-hail; there is no rail nearby.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "Mon-Fri 8am-6pm, Sat-Sun and holidays 7am-6pm",
+      "lat": -6.1035,
+      "lng": 106.7405,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://travel.kompas.com/read/2026/07/09/060700127/jam-buka-dan-harga-tiket-masuk-taman-wisata-alam-mangrove-angke-kapuk-2026",
+          "label": "Kompas 2026: TWA Mangrove Angke Kapuk hours and tickets",
+          "kind": "press"
+        },
+        {
+          "url": "https://travel.kompas.com/read/2025/10/28/070000627/lokasi-jam-buka-dan-harga-tiket-masuk-twa-angke-kapuk",
+          "label": "Kompas 2025: location, hours and tickets",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g294229-d8090040-Reviews-Alam_Angke_Kapuk_Nature_Park-Jakarta_Java.html",
+          "label": "Tripadvisor: Angke Kapuk Nature Park",
+          "kind": "forum"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Boardwalks are narrow, sometimes broken and unrailed over water and mud, and the park closes at 6pm with no lighting; keep to the marked walkways and leave before closing."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Added in the second stage to cover West Jakarta. Existence, public access, hours (daily roughly 7am-5pm, Sunday from 6:30am) and the Rp3,000 ticket confirmed by search snippets (Kompas 2023 and 2025, MetroTV); address Jl. H. Kelik, Srengseng, Kembangan. Coordinates from knowledge only, medium confidence: no geocoder or map page could be fetched, so the pin marks the forest and lake roughly, not the gate. No English Wikipedia article known; null.",
+      "name": "Hutan Kota Srengseng",
+      "neighborhood": "Srengseng, Kembangan, West Jakarta",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "water",
+        "walk",
+        "solo",
+        "hidden",
+        "picnic"
+      ],
+      "blurb": "A 15-hectare city forest in Kembangan with a lake in the middle, dirt-and-paving paths under tall old trees, a small amphitheatre and a jogging loop, kept as a conservation area rather than a landscaped park. It is the only real patch of woodland on the west side of the city and the Rp3,000 ticket keeps it to neighbourhood walkers, anglers and the odd photographer. Weekday mornings are near silent apart from birds and the road beyond the trees.",
+      "tips": "Pay the small fee at the gate on Jl. H. Kelik and take the path anticlockwise around the lake; the benches on the far shore from the entrance are the quietest. Paths are unpaved in stretches, so wear shoes that can get muddy, and bring water since stalls are few. Reach it by ride-hail or a Mikrotrans feeder from the Kebon Jeruk area; there is no rail nearby.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "daily roughly 7am-5pm (Sun from 6:30am)",
+      "lat": -6.2078,
+      "lng": 106.7475,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://travel.kompas.com/read/2025/10/19/150300327/lokasi-jam-buka-dan-harga-tiket-hutan-kota-srengseng-wisata-hutan-di-jakarta",
+          "label": "Kompas 2025: Hutan Kota Srengseng location, hours and tickets",
+          "kind": "press"
+        },
+        {
+          "url": "https://travel.kompas.com/read/2023/06/28/151500327/jam-buka-dan-harga-tiket-masuk-hutan-kota-srengseng-di-jakarta-barat",
+          "label": "Kompas 2023: hours and ticket price",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.metrotvnews.com/read/kewCMqom-healing-murah-meriah-di-hutan-kota-srengseng-jam-buka-hingga-harga-tiketnya",
+          "label": "MetroTV: Hutan Kota Srengseng hours and tickets",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Gated forest with unlit, partly unpaved paths under dense canopy and an unfenced lake edge; it closes around 5pm, so go in daylight, keep to the loop path and leave before the gate shuts."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Confirmed still operating by search, at Jl. Cikini Raya 25, roughly 8am-11:30pm daily (Pergikuliner, Qraved, Chope, Tripadvisor listings; Time Out Jakarta review). The brand traces its coffee-trading roots to 1878; the Cikini cafe itself dates from the early 2000s. Coordinates medium confidence. No English Wikipedia article; null.",
+      "name": "Bakoel Koffie Cikini",
+      "neighborhood": "Cikini, Central Jakarta",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "study",
+        "solo",
+        "night",
+        "people-watch"
+      ],
+      "blurb": "A long-running coffee house in a colonial-era shophouse on Cikini Raya, all dark wood, ceiling fans and a shaded back terrace, run by the family behind one of Batavia's oldest coffee traders. It has outlived a generation of trendier cafes because you can order one kopi tubruk and stay all afternoon with a book or a laptop without anyone minding. Open until late, it is a natural pair with the TIM library a few doors down.",
+      "tips": "Take a table in the back garden or upstairs for quiet; the front room by the road is louder. Order the house-roasted tubruk or a pour-over and a plate of pisang goreng. Cikini commuter station is a ten-minute walk, and it stays open late enough to sit out an evening downpour.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly 8am-11:30pm daily (check listing)",
+      "lat": -6.1925,
+      "lng": 106.8385,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.timeout.com/jakarta/restaurants/bakoel-koffie",
+          "label": "Time Out Jakarta: Bakoel Koffie",
+          "kind": "press"
+        },
+        {
+          "url": "https://pergikuliner.com/restaurants/jakarta/bakoel-koffie-cikini?page=2",
+          "label": "Pergikuliner: Bakoel Koffie Cikini hours and menu",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g294229-d1076614-Reviews-Bakoel_Koffie_Cikini-Jakarta_Java.html",
+          "label": "Tripadvisor: Bakoel Koffie Cikini",
+          "kind": "forum"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed cafe on a lit, busy street with late closing; Cikini Raya has no continuous pavement in places, so walk facing traffic."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched (budget spent elsewhere); from knowledge. Gramedia's flagship store on Jl. Matraman Raya has operated for decades and is usually described as the largest bookshop in Indonesia; hours approximate (typically 9am-9pm). Coordinates medium confidence. The en Wikipedia article 'Gramedia' is about the company, not this branch, so title set to null.",
+      "name": "Gramedia Matraman",
+      "neighborhood": "Matraman, East Jakarta",
+      "category": "bookstore",
+      "vibes": [
+        "rain-ok",
+        "cozy",
+        "solo",
+        "study",
+        "people-watch"
+      ],
+      "blurb": "The biggest branch of Indonesia's national bookshop chain, five floors on Matraman Raya with a full English section, stationery, music and a cafe, and a habit of letting people read in the aisles for as long as they like. It is not a boutique bookshop but it is the one every Jakarta reader knows, and on a wet afternoon the upper floors are among the calmest indoor places on the east side of the city. Come for the imported paperbacks and stay for the air conditioning.",
+      "tips": "Take the escalators to the top floors where the foreign-language and academic sections are and the crowds are thinnest; there are seats near the cafe. Weekday afternoons are quiet, weekends and school-holiday periods are not. Transjakarta stops outside, and Manggarai station is a short ride away.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "roughly 9am-9pm daily (check site)",
+      "lat": -6.199,
+      "lng": 106.858,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed multi-storey shop with security at the door; Matraman Raya is a fast, wide road, so use the pedestrian bridge or the Transjakarta crossing."
+      },
+      "lowkeyScore": 2
+    }
+  ]
+}

@@ -1,0 +1,645 @@
+{
+  "city": "Tunis",
+  "country": "Tunisia",
+  "slug": "tunis",
+  "region": "europe-africa",
+  "cityLat": 36.8065,
+  "cityLng": 10.1815,
+  "timezone": "Africa/Tunis",
+  "searchesRun": [
+    "Parc du Belvédère Tunis wikipedia park hours",
+    "Parc Ennahli Ariana Tunis park opening hours entrance",
+    "Bibliothèque nationale de Tunisie Boulevard 9 avril reading room access hours",
+    "Bibliothèque Dar Ben Achour médina de Tunis rue du Pacha public library",
+    "Cité de la Culture Tunis wikipedia City of Culture Avenue Mohamed V",
+    "Jardin japonais Montplaisir Tunis parc",
+    "Café Saf-Saf La Marsa Librairie Mille Feuilles La Marsa",
+    "Ennejma Ezzahra Sidi Bou Said palace garden opening hours wikipedia",
+    "Jardin japonais Tunis Rue du Japon Montplaisir coordinates map",
+    "Bardo National Museum Tunis opening hours 2026 ticket price",
+    "Librairie Al Kitab 43 avenue Habib Bourguiba Tunis horaires",
+    "Café M'rabet Souk Ettrouk Tunis médina ouvert"
+  ],
+  "redditSourcedNotes": "Two stages, twelve searches in all, none on reddit; no reddit or forum threads were read for this city, so the 'what locals actually use' judgement comes from prior knowledge of Tunis, not from quoted residents. RESEARCHER STAGE (8 searches): 'Belvedere Park, Tunis' and 'Dar Ben Achour' confirmed as exact en.wikipedia articles (URLs in sources); Belvedere hours reported as 7am-7pm by one aggregator and 9am-7pm Tue-Sun by another, so the file says roughly 7am-7pm and flags it; Parc Ennahli confirmed as a 210 ha hilltop park open 6am-7pm, with visitor reviews saying a small entrance fee is now charged, so free is set to false on that basis only; the Jardin Japonais in Montplaisir confirmed (inaugurated 2006, JICA-supported restoration under way as of Oct 2025); Cité de la Culture confirmed on Avenue Mohamed V with only a French Wikipedia article, so wikipediaTitle is null; Café Saf-Saf confirmed at Place du Saf-Saf, La Marsa. The National Library was left out because its reading rooms need a reader card; Ennejma Ezzahra (hours confirmed via cmam.tn) and Librairie Mille Feuilles (confirmed via Petit Futé) were cut to keep the list at 14. REVIEW STAGE (4 searches, spent on the doubtful items): the Jardin Japonais has a French Wikipedia article ('Jardin japonais de Tunis', address Avenue du Japon) but no source gave coordinates, so its point stays a medium-confidence memory placement; Bardo Museum 2026 hours confirmed as Tue-Sun 9am-5pm, closed Monday, with a 30 TND non-resident ticket (8 TND residents), which is the most expensive entry here and is now stated in tips; Librairie Al Kitab confirmed still trading at 43 Avenue Habib Bourguiba via its own site, with hours that differ slightly between listings; Café M'rabet confirmed at 27 Souk El Trouk and reopened after a closure, but with a midday opening, so the researcher's 9am start was corrected. Sources were added only where the URL appeared in one of those four results. NOT SEARCHED IN EITHER STAGE, knowledge only, sources empty or district-level: Byrsa Hill, the Punic Ports, Café des Délices, the Berges du Lac promenade, the La Marsa corniche (its only source is the town's Wikipedia article, which appeared in the Saf-Saf search). WIKIPEDIA TITLES: two URL-confirmed (Belvedere, Dar Ben Achour); 'Bardo National Museum' and 'Byrsa' are kept from knowledge and flagged as not URL-confirmed in verifyNote; every other title is null rather than guessed. COORDINATES: all from memory of the map in both stages, no geocoder; the review checked each against known landmarks and found none in the wrong place, and all 14 are within 17 km of the centre. High confidence only for the large landmark sites (Belvedere, Bardo, Byrsa, Café des Délices); the small or linear ones (Jardin Japonais, Dar Ben Achour, Café M'rabet, Al Kitab, Berges du Lac, Ennahli entrance, Punic Ports, Saf-Saf, La Marsa beach) are medium and a visitor should confirm on a map before walking. Hours are approximate except where a search gave them (Bardo, Ennahli, Al Kitab). QUALITY: Bardo, Byrsa and Café des Délices are well-known sights and score 2 for low-key; they are kept because each is a genuine sitting place (museum benches in the rain, a free esplanade view, a terrace café) and the list needs indoor and coastal options, but a reader should not expect them to be undiscovered. SAFETY: all 14 notes describe lighting, closing times, staffing, terrain, water and traffic only; none characterise people or neighbourhoods; the single caution is Ennahli for unlit hillside trails. The review found no note that broke the standard; one wording ('heavily policed avenue') was softened to a plain description of a busy lit avenue.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Exact en.wikipedia article 'Belvedere Park, Tunis' appeared in search results. Hours differ between aggregators (7am-7pm vs 9am-7pm Tue-Sun); treated as approximate. Coordinates are the park's upper slopes near Kobbet El Haoua, from memory.",
+      "name": "Parc du Belvédère",
+      "neighborhood": "Belvédère / Mutuelleville",
+      "category": "park",
+      "vibes": [
+        "green",
+        "view",
+        "walk",
+        "quiet",
+        "skyline",
+        "free",
+        "solo",
+        "picnic"
+      ],
+      "blurb": "Tunis's big 19th-century hill park, 110 hectares of eucalyptus, pine and olive laid out by a Paris city gardener, climbing from Place Pasteur to a summit with the little Kobbet El Haoua pavilion. The zoo and the playgrounds near the bottom gate draw the families; the upper paths and the lawns around the pavilion are where people come alone to read, jog or look down over the whole city to the lake. On a weekday morning you can walk the top half and meet only a handful of runners.",
+      "tips": "Enter from Place Pasteur (metro or a short walk from Avenue Mohamed V) and keep climbing past the zoo turn-off; the benches by Kobbet El Haoua face the city and the lake. The Andalusian-style café inside is open by day. Bring water, there is little shade at the very top.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 7am-7pm (check locally)",
+      "lat": 36.8215,
+      "lng": 10.1715,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Belvedere Park, Tunis",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Belvedere_Park,_Tunis",
+          "label": "Wikipedia: Belvedere Park, Tunis",
+          "kind": "other"
+        },
+        {
+          "url": "https://voyage-tunisie.info/parc-belvedere-de-tunis-tunisie/",
+          "label": "Voyage Tunisie: Parc du Belvédère",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Large park with unlit upper paths and gates that close around 7pm; stay on the main paths and come down before closing. Busy near the zoo and Place Pasteur entrance by day."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Researcher stage confirmed existence, 2006 opening and the JICA restoration (La Presse, Webdo). Review search found a French Wikipedia article ('Jardin japonais de Tunis', giving the address as Avenue du Japon, Montplaisir, 6,000 m2) but still no coordinates anywhere in results, so the point remains a memory placement in the Montplaisir grid and could be a few hundred metres off: medium confidence, do not treat as exact. No English Wikipedia article.",
+      "name": "Jardin Japonais de Montplaisir",
+      "neighborhood": "Montplaisir",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "green",
+        "water",
+        "hidden",
+        "solo",
+        "free",
+        "cozy"
+      ],
+      "blurb": "A 6,000 m2 Japanese garden given to the city in 2006 to mark fifty years of Tunisian-Japanese relations, tucked into the office blocks of Montplaisir a few streets east of Avenue Mohamed V. There are ponds, stone lanterns, a curved bridge and a small pavilion, planted with species that cope with the Tunis summer. Office workers eat lunch here and almost nobody else knows it exists, so it is one of the few genuinely quiet green corners in the modern centre.",
+      "tips": "Look for Avenue du Japon in Montplaisir, east of Avenue Mohamed V; it is small, so weekday lunchtime is the only time it feels populated. Restoration work resumed in late 2025, so a section may be closed. Pair it with a coffee on Avenue Mohamed V afterwards.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (daytime, municipal park hours)",
+      "lat": 36.8235,
+      "lng": 10.1885,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.lapresse.tn/2025/10/10/tunis-restauration-en-cours-du-jardin-japonais-symbole-de-lamitie-tuniso-nippone/",
+          "label": "La Presse: restoration of the Japanese garden",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.webdo.tn/fr/actualite/national/du-nouveau-au-jardin-japonais-de-montplaisir/209932/",
+          "label": "Webdo: Jardin japonais de Montplaisir",
+          "kind": "press"
+        },
+        {
+          "url": "https://aroundus.com/p/9637197-jardin-japonais-de-tunis",
+          "label": "AroundUs: Jardin japonais de Tunis",
+          "kind": "other"
+        },
+        {
+          "url": "https://fr.wikipedia.org/wiki/Jardin_japonais_de_Tunis",
+          "label": "Wikipédia (fr): Jardin japonais de Tunis",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Small fenced garden on a quiet office street; closes in the evening and the surrounding streets empty after office hours, so treat it as a daytime spot."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Exact en.wikipedia article 'Dar Ben Achour' appeared in results and confirms it houses the public library of the City of Tunis (since 1983) on Rue du Pacha. Opening hours did not appear; typical municipal hours given as a guess. Coordinates from memory of the Rue du Pacha, medium confidence.",
+      "name": "Bibliothèque Dar Ben Achour",
+      "neighborhood": "Medina (Rue du Pacha)",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "cozy",
+        "hidden",
+        "solo",
+        "free"
+      ],
+      "blurb": "A 17th-century palace on Rue du Pacha, in the quiet northern half of the medina, that the city restored and turned into its public library in 1983. You read around a tiled courtyard under carved ceilings, in rooms built to stay cool without air-conditioning, with the noise of the souks two streets away completely shut out. It is the most peaceful indoor place in the old city and one that almost no visitor finds.",
+      "tips": "Walk up Rue du Pacha from Rue Sidi Ben Arous; the door is between Dar El Pacha and the Bir Lahjar madrasa. Reading rooms are free to sit in; ask at the desk about a card if you want to borrow. Closed Sundays and likely over lunch, so aim for a weekday morning or mid-afternoon.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "varies (weekday municipal hours, roughly 9am-5pm; check locally)",
+      "lat": 36.7992,
+      "lng": 10.1688,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Dar Ben Achour",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Dar_Ben_Achour",
+          "label": "Wikipedia: Dar Ben Achour",
+          "kind": "other"
+        },
+        {
+          "url": "https://mapcarta.com/fr/N5668536175",
+          "label": "Mapcarta: Dar Ben Achour",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building; the medina lanes around it are narrow and mostly unlit and shops shut by early evening, so leave with the library rather than lingering after dark."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review search confirmed the café exists at 27 Souk El Trouk (Foursquare, Tripadvisor, a 2025 travel blog) and that it reopened after a closure as a café and cultural space with a restaurant. One listing gives a midday opening, so the researcher's 9am start was wrong and hours are now given as from noon; still approximate. Coordinates from memory of Souk Ettrouk beside the Zitouna mosque, medium confidence. No English Wikipedia article, so null.",
+      "name": "Café M'rabet",
+      "neighborhood": "Medina (Souk Ettrouk)",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "people-watch",
+        "solo",
+        "group",
+        "quiet"
+      ],
+      "blurb": "A café that has been pouring mint tea in Souk Ettrouk since the 17th century, a few steps from the Zitouna mosque, with a columned hall of raised platforms covered in mats where regulars sit cross-legged for hours over tea, a chicha and a game of cards. It reopened after a closure as a café and small cultural space, and it still slows to the pace of the souk around it; nobody moves you on, and the vaulted room stays cool when the lanes outside are baking. The restaurant upstairs has a terrace over the medina roofs.",
+      "tips": "Take the mats along the wall rather than the tables by the door if you want to read; order tea with pine nuts and stay as long as you like. It opens around midday, and the souk and the café wind down by early evening, so this is an afternoon place.",
+      "bestTimes": [
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly noon-7pm (later in summer; check locally)",
+      "lat": 36.7976,
+      "lng": 10.1711,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://fr.foursquare.com/v/caf%C3%A9-el-mrabet/53c844a5498e31473d090ff3",
+          "label": "Foursquare: Café El M'rabet, 27 Souk El Trouk",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g293758-d2701260-Reviews-or30-Restaurant_Cafe_El_Mrabet-Tunis_Tunis_Governorate.html",
+          "label": "Tripadvisor: Restaurant Café El Mrabet",
+          "kind": "forum"
+        },
+        {
+          "url": "https://en.kosupatravel.com/entry/2025/04/05/smoking-shisha-at-the-oldest-cafe-mrabet-in-tunis-a-local-style-tunisia-travel-experience",
+          "label": "Kosupa Travel (2025): the oldest café M'rabet",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed café in the covered souks; the surrounding lanes are lit only by shopfronts and go dark once they close, so plan to walk out towards Bab Bhar before that."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review search confirmed 2026 hours (Tue-Sun 9am-5pm, closed Monday, seasonal variation on the official page) and the current ticket: 30 TND for non-residents, 8 TND for residents. That is the most expensive entry in this list, so it is flagged in tips. 'Bardo National Museum' as the English Wikipedia title is from knowledge and consistent with how every result names the museum, but no wikipedia URL appeared, so not URL-confirmed. Coordinates high confidence (large, well-known site next to the parliament).",
+      "name": "Bardo National Museum",
+      "neighborhood": "Le Bardo",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "cozy",
+        "solo",
+        "study"
+      ],
+      "blurb": "A former beylical palace on the western edge of the city holding the largest collection of Roman mosaics anywhere, most of them lifted from villas across Tunisia and laid out under painted wooden ceilings. The 19th-century palace rooms, the harem courtyard and the Carthage room are cool and hushed on weekday afternoons, and the benches in front of the Virgil mosaic are a good place to sit out the heat or the rain. Locals treat it as somewhere to bring visiting relatives, so it rarely feels crowded outside tour-group hours.",
+      "tips": "Take the light rail (metro line 4) to Le Bardo; the museum is next to the parliament and there is a security check at the entrance. Non-residents pay about 30 TND (2026), residents 8 TND. Come after 2pm when the morning groups have left, and head upstairs to the old palace rooms for the quietest spaces.",
+      "bestTimes": [
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Tue-Sun 9am-5pm, closed Mon (seasonal changes; check site)",
+      "lat": 36.8093,
+      "lng": 10.1343,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Bardo National Museum",
+      "sources": [
+        {
+          "url": "https://audiala.com/en/tunisia/tunis-governorate/bardo-national-museum",
+          "label": "Audiala: Bardo National Museum visitor guide",
+          "kind": "other"
+        },
+        {
+          "url": "https://momentbook.app/en/guides/bardo-national-museum-hours-ticket-guide-2026-07-03",
+          "label": "MomentBook: Bardo hours and 2026 ticket guide",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g293758-d472648-Reviews-The_National_Bardo_Museum-Tunis_Tunis_Governorate.html",
+          "label": "Tripadvisor: The National Bardo Museum",
+          "kind": "forum"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed and guarded building with bag screening at the door; the museum closes by late afternoon and the light rail stop is a short, lit walk away."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Location (Avenue Mohamed V, former trade-fair site, completed 2018) confirmed by search. Only a French Wikipedia article was found, so title is null. Public access to the lobby and exhibition halls is from knowledge; hours vary by event. Coordinates medium confidence.",
+      "name": "Cité de la Culture",
+      "neighborhood": "Avenue Mohamed V",
+      "category": "indoor",
+      "vibes": [
+        "rain-ok",
+        "people-watch",
+        "group",
+        "solo",
+        "night",
+        "free"
+      ],
+      "blurb": "A vast nine-hectare cultural complex on Avenue Mohamed V, opened in 2018 on the old trade-fair site, with an opera house, theatres, cinemas, a national art gallery and long marble concourses. You do not need a ticket to walk in: the foyers, the exhibition halls and the terraces around the entrance are open by day and stay lit and populated into the evening when there is a show. It is where students meet before a film and where you can sit indoors in air-conditioning for an hour without buying anything.",
+      "tips": "Enter from Avenue Mohamed V; the temporary exhibitions in the ground-floor galleries are usually free. Check the programme, since the building is livelier and open later on performance nights. The outdoor steps and planted terraces are good at golden hour.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "varies (check site)",
+      "lat": 36.8158,
+      "lng": 10.1852,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://fr.wikipedia.org/wiki/Cit%C3%A9_de_la_culture_(Tunisie)",
+          "label": "Wikipédia (fr): Cité de la culture",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.jeuneafrique.com/mag/543159/culture/tunisie-la-cite-de-la-culture-un-temple-pour-les-arts-et-pour-tous/",
+          "label": "Jeune Afrique: la Cité de la culture",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed building with security at the doors on a wide, lit avenue; taxis and the metro are close by for the way home after evening events."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review search confirmed the shop is still trading at 43 Avenue Habib Bourguiba (own site alkitab.tn lists Tunis, La Marsa and Mutuelleville branches; open since 1967). Listed hours differ between sources (Mon-Sat 8am-8pm with Sunday 9am-7pm on one, Mon-Sat 8am-7pm with Sunday 8am-2pm on another), so the file gives the overlap. Coordinates are from memory of the avenue between the Municipal Theatre and Place de l'Indépendance, medium confidence. No English Wikipedia article, so null.",
+      "name": "Librairie Al Kitab",
+      "neighborhood": "Ville Nouvelle (Avenue Habib Bourguiba)",
+      "category": "bookstore",
+      "vibes": [
+        "rain-ok",
+        "cozy",
+        "study",
+        "solo",
+        "people-watch"
+      ],
+      "blurb": "The city's best-known independent bookshop, on Avenue Habib Bourguiba since the 1960s, with French, Arabic and some English titles spread over two levels and a staff that lets you browse indefinitely. It has long been where Tunis's readers meet for launches and signings, and the upstairs shelves are a calm place to stand or perch with a book while the avenue's café terraces roar outside. The nearby cafés on the avenue's central promenade are the natural next stop.",
+      "tips": "It is on the north side of the avenue between the Municipal Theatre and Place de l'Indépendance; head upstairs for the quieter sections. Sunday hours are shorter and vary by source, so check before making a special Sunday trip.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Sat roughly 8am-7pm; Sunday shorter (check alkitab.tn)",
+      "lat": 36.7996,
+      "lng": 10.1832,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.alkitab.tn/infosprat.php",
+          "label": "Al Kitab: practical information (official)",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.petitfute.co.uk/v44416-tunis/c1168-shopping-mode-cadeaux/c521-librairie/138695-librairie-al-kitab-tunis.html",
+          "label": "Petit Futé: Librairie Al Kitab",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed shop on the city's main, lit avenue with a constant flow of people until late; the tramway and taxis are at the door."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched in either stage; from knowledge. Landscaped lakeside promenade along the north shore of the Lake of Tunis in Les Berges du Lac 1; the point is a central stretch of the path and is arbitrary along a kilometre-plus walkway, medium confidence. No exact English Wikipedia article for the promenade itself, so null.",
+      "name": "Promenade des Berges du Lac",
+      "neighborhood": "Les Berges du Lac",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunset",
+        "walk",
+        "night",
+        "skyline",
+        "free",
+        "people-watch",
+        "solo"
+      ],
+      "blurb": "A paved and planted walkway along the north shore of the Lake of Tunis in the modern Berges du Lac district, with benches facing south across the water towards the city and the causeway. It is where the neighbourhood jogs before work and strolls with ice cream after dinner, and because the lake is wide and flat it gets long, clear sunsets and flamingos in winter. Nobody is selling anything and the cafés are a block back, so the shore itself stays quiet.",
+      "tips": "Aim for the stretch behind the Lac 1 cafés along Rue du Lac Turkana and walk west for the emptiest benches; evenings after 6pm are the local hour. It is a car district, so take a taxi or the bus and expect a long walk from the light rail.",
+      "bestTimes": [
+        "golden-hour",
+        "night",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 36.8322,
+      "lng": 10.2395,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit promenade with steady evening foot traffic; the lake edge is low and unfenced in places, and the ring road behind has fast traffic, so cross at the signals."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched in either stage; from knowledge. Hilltop archaeological site beside the former Carthage cathedral (Acropolium); the national museum on the summit has been closed for renovation for several years, so the spot is the esplanade and the view, not the museum. Whether the whole terrace of Punic foundations sits inside the ticketed zone is not certain, hence free=false and the free-esplanade note in tips. Wikipedia title 'Byrsa' kept on confidence from knowledge, not URL-confirmed. Coordinates high confidence (the cathedral is a landmark).",
+      "name": "Byrsa Hill",
+      "neighborhood": "Carthage",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "water",
+        "sunset",
+        "quiet",
+        "walk",
+        "solo",
+        "skyline"
+      ],
+      "blurb": "The citadel hill of ancient Carthage, topped by the former cathedral of Saint Louis and a terrace of Punic house foundations, with the best free-standing view in the metropolitan area: the Gulf of Tunis, the Bou Kornine mountain, the Punic ports below and the whole city on the horizon. Cruise-ship groups come through mid-morning and leave; by late afternoon the terrace belongs to local students and couples sitting on the low walls. It is the place people bring someone to show them where they live.",
+      "tips": "Take the TGM suburban train to Carthage Hannibal and walk up the hill (ten minutes, steep). The archaeological site charges a small entry fee on the combined Carthage ticket; the esplanade in front of the cathedral is free. Sunset is behind you over the city, and the gulf turns pink.",
+      "bestTimes": [
+        "golden-hour",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "roughly 8:30am-5pm winter, to 7pm summer (check locally)",
+      "lat": 36.8527,
+      "lng": 10.3232,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Byrsa",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced site that closes at dusk; the hill road is steep and poorly lit after closing, so walk down to the TGM station before dark."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched (budget spent); from knowledge. The two ancient harbour basins at Salammbô are a free, open landscaped area with a small museum pavilion; coordinates are the circular basin, medium-high confidence. No exact English article for the ports alone that I am confident of, so null.",
+      "name": "Punic Ports, Salammbô",
+      "neighborhood": "Carthage-Salammbô",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "quiet",
+        "hidden",
+        "sunrise",
+        "walk",
+        "solo",
+        "free",
+        "green"
+      ],
+      "blurb": "Two quiet lagoons in a residential corner of Carthage that were the merchant and military harbours of the Punic city: the circular one still has the island where the war galleys were kept, ringed today by grass, palms and a footpath. Fishermen sit on the banks, neighbours walk dogs, and there is no ticket booth and no crowd, only the shape of a 2,400-year-old harbour with the sea just beyond. It is a five-minute walk from the TGM and one of the calmest places in Carthage to sit with a book.",
+      "tips": "Get off the TGM at Carthage Salammbô or Carthage Byrsa and walk east towards the sea; the path around the circular basin has benches on the water side. The tiny Oceanographic Museum next door is a cheap rainy-day add-on. Morning light comes off the sea.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (open landscaped area)",
+      "lat": 36.8443,
+      "lng": 10.3247,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Unfenced water edges and a path that is unlit at night; a daytime and golden-hour place, with residential streets and the TGM station a few minutes away."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched (budget spent); from knowledge. The famous cliffside café at the top of the Sidi Bou Said steps (also called Café Sidi Chabaane); coordinates high confidence. The 'Sidi Bou Said' Wikipedia article is about the village, not this café, so title is null.",
+      "name": "Café des Délices (Sidi Chabaane)",
+      "neighborhood": "Sidi Bou Said",
+      "category": "cafe",
+      "vibes": [
+        "view",
+        "water",
+        "sunset",
+        "sunrise",
+        "people-watch",
+        "group",
+        "solo"
+      ],
+      "blurb": "The terraced café that steps down the cliff at the end of Sidi Bou Said, with mats and low tables on a dozen levels facing the marina and the whole Gulf of Tunis to Bou Kornine. The village itself is a tour-bus stop, but early in the morning or on a winter weekday the terraces are nearly empty and you can hold a mint tea and watch the light change on the water for as long as you want. It is a cliché for good reason.",
+      "tips": "Walk through the village to the far end and take the steps down past the lighthouse road; the lowest terraces have the fewest people and the widest view. Go before 10am or after the day-trippers leave around 5pm. Tea prices are higher than in town.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "roughly 8am-midnight (check locally)",
+      "lat": 36.8711,
+      "lng": 10.3478,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Steep, uneven steps and cliff-edge terraces with low walls; take care with children and in wet weather, and note the last TGM train back to Tunis runs around midnight."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, location (Place du Saf-Saf, La Marsa) and history (early 20th century, camel-driven well) confirmed by search. Coordinates from memory of the square, medium confidence. Hours approximate. No English Wikipedia article for the café, so null.",
+      "name": "Café Saf-Saf",
+      "neighborhood": "La Marsa",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "people-watch",
+        "group",
+        "solo",
+        "night",
+        "rain-ok"
+      ],
+      "blurb": "La Marsa's village café for more than a century, built around a well that a camel still turns on weekend afternoons and shaded by the poplar that gives it its name. Retired men play cards and chess, families come for a bowl of bsissa or a plate of chapati, and it stays open late on summer nights when the whole suburb is out walking. It sits a couple of minutes from the TGM terminus and the corniche, so it is the natural place to end a seaside walk.",
+      "tips": "Sit in the courtyard around the well rather than the street side; order mint tea with almonds or a citronnade. Busiest on weekend evenings, calm on weekday mornings. The TGM terminus is a short walk downhill.",
+      "bestTimes": [
+        "morning",
+        "night"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "roughly 7am-midnight (later in summer; check locally)",
+      "lat": 36.8781,
+      "lng": 10.3246,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://lignesdhorizon.net/le-cafe-du-saf-saf-au-coeur-de-la-marsa-depuis-deux-siecles/",
+          "label": "Lignes d'horizon: le café du Saf-Saf",
+          "kind": "blog"
+        },
+        {
+          "url": "https://tiplr.com/tips/africa/tunisia/tunis/carthage/el-saf-saf-a-cafe-through-history/",
+          "label": "Tiplr: El Saf Saf, a cafe through history",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.petitfute.co.uk/v44420-la-marsa-2078/c1169-s-amuser-sortir/c182-bar-cafe/137952-cafe-saf-saf.html",
+          "label": "Petit Futé: Café Saf-Saf",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed café on a lit square in the centre of La Marsa, open late; the TGM stops running around midnight, so check the last train or plan a taxi."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched directly; the 'La Marsa' en.wikipedia article appeared in the Saf-Saf search and is attached as a district-level source only. The corniche promenade and public beach are from knowledge; coordinates are the central beach by the old casino area, medium-high confidence. Title is null because the article is about the town, not the beach.",
+      "name": "La Marsa Corniche and Beach",
+      "neighborhood": "La Marsa",
+      "category": "beach",
+      "vibes": [
+        "water",
+        "sunrise",
+        "walk",
+        "night",
+        "people-watch",
+        "free",
+        "group",
+        "solo"
+      ],
+      "blurb": "The long sandy town beach of La Marsa with a promenade above it, where Tunis goes to walk after dinner in summer and to sit facing the sea in winter. It faces east, so sunrise comes straight out of the gulf, and on autumn and spring weekday mornings the sand is nearly empty apart from swimmers and joggers. Cafés line the corniche if you want a table, but the sea wall itself is free and the view is the same.",
+      "tips": "Take the TGM to its La Marsa terminus and walk five minutes down to the water; head north along the corniche towards Gammarth for fewer people. In July and August the beach is packed until late; come at dawn or out of season for quiet.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 36.8818,
+      "lng": 10.3262,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/La_Marsa",
+          "label": "Wikipedia: La Marsa (town)",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit promenade busy until late in summer; the beach itself is unlit and unlifeguarded outside the season, so stay on the corniche after dark and swim only where others do."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Researcher search confirmed existence, size (about 210 ha, hilltop at ~200 m), 6am-7pm hours and multiple entrances; visitor reviews mention a small entrance fee, so free is set to false on that basis alone. No coordinates appeared in either stage; the point is a memory placement on the Ariana / El Menzah 8 side of the hill and may not be a gate. Medium confidence for reaching the park, not for the entrance. No English Wikipedia article found.",
+      "name": "Parc Urbain Ennahli",
+      "neighborhood": "Ariana / El Menzah 8",
+      "category": "trail",
+      "vibes": [
+        "green",
+        "view",
+        "walk",
+        "quiet",
+        "sunset",
+        "skyline",
+        "solo",
+        "group",
+        "hidden"
+      ],
+      "blurb": "A 210-hectare pine and eucalyptus forest on the Ennahli hill north-west of the city, with dirt trails climbing to about 200 metres and clearings that look back over Ariana, the lake and Tunis. It is where the northern suburbs come to run, hike and picnic on weekend mornings; on weekdays the upper trails are almost deserted and the only sound is the wind in the pines. It is the closest thing to a real walk in the hills that you can reach by taxi from the centre in twenty minutes.",
+      "tips": "Take a taxi to the main gate on the Ariana side (there are several entrances) and follow the widest track uphill; the clearings on the east side face the city for sunset. Bring water and a hat, there is no kiosk on the upper paths. Gates close at 7pm.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "6am-7pm",
+      "lat": 36.8965,
+      "lng": 10.1375,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g2629125-d20613083-Reviews-Parc_Urbain_Ennahli-Ariana_Ariana_Governorate.html",
+          "label": "Tripadvisor: Parc Urbain Ennahli",
+          "kind": "forum"
+        },
+        {
+          "url": "https://aroundus.com/p/9631791-ennahli-park",
+          "label": "AroundUs: Ennahli Park",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Unlit hillside trails with loose stone and few people on weekdays; go in daylight, ideally with someone, carry water and phone signal, and be back at the gate well before the 7pm closing."
+      },
+      "lowkeyScore": 4
+    }
+  ]
+}

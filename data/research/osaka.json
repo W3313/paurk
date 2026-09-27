@@ -1,0 +1,677 @@
+{
+  "city": "Osaka",
+  "country": "Japan",
+  "slug": "osaka",
+  "region": "asia-pacific",
+  "cityLat": 34.6937,
+  "cityLng": 135.5023,
+  "timezone": "Asia/Tokyo",
+  "searchesRun": [
+    "Museum of Oriental Ceramics Osaka opening hours admission 2026",
+    "Osaka Municipal Central Library Nishi-Nagahori opening hours",
+    "Keitakuen garden Tennoji Park admission opening hours",
+    "Osaka Station City Tenku no Noen rooftop farm Kaze no Hiroba opening hours",
+    "Marufuku Coffee Sennichimae main shop hours 丸福珈琲店 千日前本店",
+    "Nagai Botanical Garden Osaka opening hours admission",
+    "Osaka Prefectural Nakanoshima Library opening hours visitors",
+    "Minoo Park waterfall trail Hankyu Minoo station walk hours free",
+    "大阪ステーションシティ 天空の農園 閉園",
+    "Utsubo Park Osaka wikipedia",
+    "Tempozan Park Mount Tempo Osaka coordinates Minato-ku",
+    "Time Out Osaka best rooftop gardens in Osaka free city views Namba Parks"
+  ],
+  "redditSourcedNotes": "Two stages. RESEARCH STAGE ran eight searches (hours and access for the indoor and paid spots): the Museum of Oriental Ceramics was found closed from August 2026 to spring 2027 and dropped; hours for the Nakanoshima Library, Municipal Central Library, Keitakuen, Nagai Botanical Garden, Marufuku Coffee, Kaze no Hiroba and Minoo Park came from search results. Direct fetches of en.wikipedia.org were blocked by the proxy, so no title was checked by fetch. REVIEW STAGE ran four more searches (all listed at the end of searchesRun): (1) a Japanese search for a closure of Tenku no Noen found the official Osaka Station City page still listing the roof farm as open, 7:00-18:00, and its hours were corrected from the researcher 10am; (2) Utsubo Park search returned en.wikipedia.org/wiki/Utsubo_Park, so that title moved from null to confirmed and three sources were added; (3) Tempozan Park search confirmed the park via Osaka Info and Osaka Metro (address, free, 24h) but gave no lat/lng, so the point was nudged towards the Mount Tempo marker from knowledge and stays medium; (4) the Time Out Osaka URL the researcher cited for Namba Parks appeared in results, so it is real, and a Nankai page saying the garden is open until midnight corrected the hours. The review also checked every URL in the file: all appeared in one of the twelve search results across the two stages, none were invented, none were removed. Wikipedia titles now stand as: URL-confirmed by a search result for Nakanoshima Park, Osaka Prefectural Nakanoshima Library and Utsubo Park; from knowledge on high confidence and not URL-confirmed for Sumiyoshi-taisha, Namba Parks and Osaka Station City; null for the other eight even where an article probably exists (Kema Sakuranomiya Park, Keitakuen, Tsurumi Ryokuchi, the Minoo quasi-national park, Mount Tempo which is the hill not the park). Coordinates in both stages are from knowledge, not from a map lookup; all fourteen are within 17 km of the centre and were checked against the 80 km rule. Medium confidence is honest for ten of them, meaning the right block or the right stretch of a long park, not the exact bench. Hours for Sumiyoshi Taisha grounds and Tsurumi Ryokuchi remain from knowledge and approximate. Kema Sakuranomiya Park, Tsurumi Ryokuchi and Sumiyoshi Taisha still have empty sources arrays because no search was spent on them; that is deliberate rather than an omission. No reddit threads or locals-say content was read in either stage. Safety notes were read against the standard: all fourteen describe lighting, closing times, water edges, railings, steep or slippery surfaces and how far the lit route runs; none characterise people or lean on a neighbourhood reputation, and none needed rewriting. Caution is set only for Minoo Park, whose valley road is unlit and empties once the shops close. All fourteen are ordinary public places: parks, a shrine precinct, two libraries, a cafe, a station roof and a mall garden; none involve trespass, derelict or industrial land, and none is a ticket-gated landmark beyond the 300 yen gardens.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title confirmed: en.wikipedia.org/wiki/Nakanoshima_Park appeared in a search result. Coordinates from knowledge, placed on the rose garden at the eastern end; medium because the park is 1.5 km long.",
+      "name": "Nakanoshima Park",
+      "neighborhood": "Kita-ku (Nakanoshima)",
+      "category": "park",
+      "vibes": [
+        "water",
+        "green",
+        "sunset",
+        "night",
+        "people-watch",
+        "walk",
+        "free",
+        "skyline",
+        "solo"
+      ],
+      "blurb": "Osaka's oldest public park runs along the eastern tip of the narrow island between the Dojima and Tosabori rivers, with a sunken rose garden, wide lawns and stone steps down to the water. Office workers eat lunch on the riverside terraces and after dark the lit bridges and the red-brick Central Public Hall make it one of the calmest places in the centre to sit with a can from the konbini. It is a two-minute walk from Kitahama or Naniwabashi station and yet the traffic noise drops away.",
+      "tips": "Come out of Naniwabashi station and walk east: the rose garden is best in May and October, and the terrace steps on the Tosabori (south) side face the afternoon sun. The lawns east of the rose garden are the quietest; the Nakanoshima Banks cafes across the water are open late if you want a proper seat.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 34.693,
+      "lng": 135.509,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Nakanoshima Park",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Nakanoshima_Park",
+          "label": "Wikipedia: Nakanoshima Park",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit paths and bridges, well used into the evening; the river steps have no railing, so keep back from the edge after dark or when wet."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Hours (Mon-Fri 9am-8pm, Sat 9am-5pm, closed Sun and holidays) and free entry confirmed from the prefectural library's English guide page in search results. Wikipedia title confirmed: en.wikipedia.org/wiki/Osaka_Prefectural_Nakanoshima_Library appeared in results. Coordinates from knowledge, next to City Hall.",
+      "name": "Osaka Prefectural Nakanoshima Library",
+      "neighborhood": "Kita-ku (Nakanoshima)",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "cozy",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "A 1904 neoclassical library with a domed rotunda and a curving staircase, tucked between City Hall and the Central Public Hall and designated an Important Cultural Property. Anyone can walk in for free, climb to the reading rooms and sit for the afternoon among the business and Osaka-history collections; the building is small, dim and hushed in a way the modern libraries are not. There is a cafe on the second floor if you want coffee with the old wood.",
+      "tips": "Enter from the south side facing the Tosabori river; the reading room on the upper floor is the quietest and the rotunda is the thing to see. Closed on Sundays and public holidays, so plan it as a weekday or Saturday refuge, and keep phones silent inside.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Fri 9am-8pm, Sat 9am-5pm, closed Sun & holidays",
+      "lat": 34.6937,
+      "lng": 135.5032,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Osaka Prefectural Nakanoshima Library",
+      "sources": [
+        {
+          "url": "https://www.library.pref.osaka.jp/site/nakato/english-nakato.html",
+          "label": "Osaka Prefectural Library: Nakanoshima guide",
+          "kind": "official"
+        },
+        {
+          "url": "https://osaka-info.jp/en/spot/osaka-prefectural-nakanoshima-library/",
+          "label": "Osaka Info: Nakanoshima Library",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Osaka_Prefectural_Nakanoshima_Library",
+          "label": "Wikipedia: Osaka Prefectural Nakanoshima Library",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building in the civic centre; closes at 8pm on weekdays and 5pm on Saturdays."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review stage searched in Japanese for a closure of Tenku no Noen (the farm was shut for periods in 2020-21) and found the official Osaka Station City page still listing it as open, 7:00-18:00, stairs only from the 11th floor; the researcher had 10am-6pm, so the farm hours now follow the official page but are flagged check-site. Kaze no Hiroba 7am-midnight from the researcher search. Wikipedia title Osaka Station City is the exact complex, from knowledge on high confidence, not URL-confirmed; the photo will show the station, not the roof. Coordinates are the North Gate Building, high.",
+      "name": "Osaka Station City rooftop gardens (Kaze no Hiroba & Tenku no Noen)",
+      "neighborhood": "Kita-ku (Umeda)",
+      "category": "rooftop",
+      "vibes": [
+        "view",
+        "skyline",
+        "sunset",
+        "night",
+        "free",
+        "people-watch",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "The North Gate Building of Osaka Station has a stack of free public terraces most commuters never climb to: Kaze no Hiroba, a wind-swept 11th-floor plaza with benches looking down onto the platforms and out over Umeda, and above it Tenku no Noen, a small rooftop farm with vegetable beds, a grape trellis and picnic tables reached only by outdoor stairs. Both are open to anyone and cost nothing, and the farm in particular is oddly silent for the middle of the busiest station in western Japan.",
+      "tips": "Take the escalators or elevators in the North Gate Building (Lucua side) to the 11th floor, walk out onto Kaze no Hiroba, then follow the signs and stairs up to the 14th-floor farm; there is no lift for the last stretch. The farm closes at 6pm, but the 11th floor stays open to midnight for the night skyline.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Kaze no Hiroba 7am-midnight; Tenku no Noen 7am-6pm (check site)",
+      "lat": 34.7035,
+      "lng": 135.4955,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Osaka Station City",
+      "sources": [
+        {
+          "url": "https://osakastationcity.com/green/tenku/",
+          "label": "Osaka Station City: Tenku no Noen (official, Japanese)",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.osakastation.com/osaka-station-city-facilities/",
+          "label": "OsakaStation.com: Osaka Station City facilities",
+          "kind": "blog"
+        },
+        {
+          "url": "https://maido-bob.osaka/en/2025/02/21/umeda-chill-spot-rooftop-bench/",
+          "label": "Maido Osaka Bob: rooftop places to relax in Umeda",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.japantravel.com/osaka/osaka-station-city-s-hidden-garden/73",
+          "label": "Japan Travel: Osaka Station City's hidden garden",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Inside a staffed station complex with high railings on every terrace; the outdoor stairs to the farm are steep and slippery in rain."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Researcher wrote this from knowledge with no search. Review stage searched it: en.wikipedia.org/wiki/Utsubo_Park appeared as a result, so the title is now confirmed, and the article agrees on the 9.7 ha former-airfield layout and the rose garden at the eastern end. Coordinates from knowledge, placed around Naniwa-suji in the middle of the park; medium because the park is 700 m long.",
+      "name": "Utsubo Park",
+      "neighborhood": "Nishi-ku",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "solo",
+        "free",
+        "picnic",
+        "people-watch",
+        "rain-ok"
+      ],
+      "blurb": "A long, narrow park laid out on a former wartime airstrip west of the business district, split by Naniwa-suji into an eastern half with a sunken rose garden and fountains and a western half of tennis courts and a zelkova-lined promenade. It is the lunchtime lawn for the offices around Honmachi and the weekend park for the cafe and bakery streets of Utsubo-Honmachi, and it rarely feels crowded because it is so spread out. The big zelkova canopy keeps the benches shaded and mostly dry.",
+      "tips": "Come from Honmachi station exit 28 or Yotsubashi; the rose garden on the eastern block is the place to sit, and the benches under the zelkova avenue on the western block are quieter. The surrounding streets have some of Osaka's best bakeries and third-wave coffee for takeaway.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 34.6848,
+      "lng": 135.4945,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Utsubo Park",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Utsubo_Park",
+          "label": "Wikipedia: Utsubo Park",
+          "kind": "other"
+        },
+        {
+          "url": "https://osaka-info.jp/en/spot/utsubo-park/",
+          "label": "Osaka Info: Utsubo Park",
+          "kind": "official"
+        },
+        {
+          "url": "https://maido-bob.osaka/en/spot/utsubo-park-rose/",
+          "label": "Maido Osaka Bob: Utsubo Park rose garden",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit paths bordered by busy streets on all sides; the park is open all night but the eastern block is the better lit half."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Hours (9:15am-8:30pm weekdays, to 5pm weekends and holidays; closed 1st and 3rd Thursday) and address (4-3-2 Kitahorie, above Nishi-Nagahori station exit 7) confirmed from the library's own usage PDF and other search results. Coordinates from knowledge of the station; medium. No English Wikipedia article confirmed, so null.",
+      "name": "Osaka Municipal Central Library",
+      "neighborhood": "Nishi-ku (Kitahorie)",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "free",
+        "solo",
+        "cozy"
+      ],
+      "blurb": "The main branch of the city library system, a big, plain, well-run building directly above Nishi-Nagahori station with open reading floors, hundreds of seats and a large foreign-language section. It is where students and retirees in the west of the city go to read all day; there is no ticket, no card needed to sit, and the upper floors stay quiet even on rainy Sundays. Not pretty, but exactly what a rainy afternoon needs.",
+      "tips": "Take exit 7 from Nishi-Nagahori station (Nagahori Tsurumi-ryokuchi and Sennichimae lines) and you are at the door. Seats on the upper floors are quieter than the ground-floor newspaper area; check the calendar, since it closes on the first and third Thursday of each month and early on weekends.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "9:15am-8:30pm Mon-Fri, 9:15am-5pm Sat/Sun/holidays; closed 1st & 3rd Thu",
+      "lat": 34.6742,
+      "lng": 135.4878,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.oml.city.osaka.lg.jp/upload/chuoeng202104.pdf",
+          "label": "Osaka Municipal Central Library: English usage guide (PDF)",
+          "kind": "official"
+        },
+        {
+          "url": "https://telljp.com/wikitell/osaka-municipal-library/",
+          "label": "TELL Japan: Osaka Municipal Library",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building sitting directly on a metro station; closes at 8:30pm on weekdays and 5pm on weekends."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Long riverside park written from knowledge only; no search spent in either stage. English Wikipedia article probably exists as Kema Sakuranomiya Park but was not confirmed, so null. Coordinates placed on the east bank beside JR Sakuranomiya station, where the tips send you; medium, the park runs 4 km along both banks.",
+      "name": "Kema Sakuranomiya Park",
+      "neighborhood": "Kita-ku / Miyakojima-ku (Okawa riverside)",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "walk",
+        "sunrise",
+        "sunset",
+        "quiet",
+        "free",
+        "solo",
+        "picnic"
+      ],
+      "blurb": "Four kilometres of grass, cherry trees and paved riverside path along both banks of the Okawa, from the Tenmabashi bridges north to the Kema lock. For two weeks in April it is the city's most crowded hanami spot; for the other fifty it is a runners' and dog-walkers' riverbank where you can sit on the embankment steps and watch the aqua-buses and rowing crews go past with the Mint's brick buildings behind you. The east bank around Sakuranomiya station is the easiest access.",
+      "tips": "From JR Sakuranomiya station walk down to the river and head north away from the bridge for the emptier stretches; the west bank by the Japan Mint has more shade. Mornings before 9am are the calmest, and the Okawa faces roughly north-south so both banks get long low light.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 34.701,
+      "lng": 135.5218,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Paved, mostly lit path with regular exits up to the road; the river edge is a low unfenced embankment, so stay on the path after dark."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, address (1-9-1 Sennichimae, Chuo-ku), founding year 1934 and hours 8am-11pm confirmed from search results (Good Luck Trip, Tabelog, Tripadvisor). Coordinates from knowledge of the block near Namba; medium. Hours may vary, so treated as approximate.",
+      "name": "Marufuku Coffee Sennichimae Honten",
+      "neighborhood": "Chuo-ku (Sennichimae / Namba)",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "night",
+        "solo",
+        "people-watch",
+        "quiet"
+      ],
+      "blurb": "The 1934 flagship of an Osaka kissaten chain, two floors of dark wood, leather banquettes and heavy cups of very strong coffee brewed the way it was before the war, a block behind the noise of Dotonbori. It is where older Osakans meet for a slow morning and where you can sit for an hour with a book and a hot cake without anyone hurrying you. Open from 8am to late, so it works for a quiet early start as well as a rainy evening.",
+      "tips": "Order the house blend and a slice of the pudding or hot cake; the upstairs room is calmer than the ground floor. Weekday mornings are the sleepy hours, and there is a small cover for sitting, so treat it as a paid seat rather than a takeaway counter.",
+      "bestTimes": [
+        "morning",
+        "night"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "8am-11pm daily (check site)",
+      "lat": 34.6668,
+      "lng": 135.5045,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.gltjp.com/en/directory/item/13234/",
+          "label": "Good Luck Trip: Marufuku Coffee Sennichimae Main Shop",
+          "kind": "other"
+        },
+        {
+          "url": "https://tabelog.com/en/osaka/A2701/A270202/27001450/",
+          "label": "Tabelog: Marufuku Coffee Sennichimae honten",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.ryoko-traveler.com/marufuku-coffee-honten/",
+          "label": "Ryoko's Travel Journal: Marufuku Coffee Honten",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed cafe on a busy, well-lit shopping street; open until 11pm with the Namba stations a few minutes away."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review stage search returned the Time Out Osaka URL the researcher cited (so it is real) and a Nankai (the mall operator) page saying Parks Garden is free and open until midnight, later than the shops; hours changed from 11pm to midnight, still check-site. Wikipedia title Namba Parks is the exact complex, from knowledge on high confidence, not URL-confirmed. Coordinates from knowledge, high for the building.",
+      "name": "Namba Parks Garden",
+      "neighborhood": "Naniwa-ku (Namba)",
+      "category": "rooftop",
+      "vibes": [
+        "green",
+        "view",
+        "skyline",
+        "night",
+        "free",
+        "cozy",
+        "hidden",
+        "people-watch"
+      ],
+      "blurb": "An eight-level terraced garden that climbs the outside of the Namba Parks mall like a canyon, with hundreds of species of trees, small lawns, a pond and benches tucked into corners you have to look for. It is one of the few genuinely green places south of Dotonbori, it costs nothing, and because it winds around the building there is almost always an empty bench even when the shops below are packed. The upper terraces look out over the Nankai tracks towards the Tsutenkaku tower.",
+      "tips": "Walk south from Nankai Namba station and take the outdoor escalators up from the Canyon Street level; the highest terraces are the quietest and the eastern edge catches the sunset. The garden stays open after the shops close, until around midnight, and is fully accessible by elevator.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 10am-midnight (check site)",
+      "lat": 34.6615,
+      "lng": 135.502,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Namba Parks",
+      "sources": [
+        {
+          "url": "https://timeout.com/osaka/things-to-do/best-rooftop-gardens-in-osaka-to-relax-and-enjoy-free-city-views",
+          "label": "Time Out Osaka: best rooftop gardens",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.nankai.co.jp/en/community/natts/odekake/parks-garden-rooftop-spot/",
+          "label": "Nankai: Parks Garden rooftop open until midnight",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit, railed terraces on a staffed commercial building; the garden closes at night and the stairs between levels can be slick in rain."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Hours (9:30am-5pm, last entry 4:30pm; closed Mon), 300 yen admission and location inside Tennoji Park next to the City Museum of Art confirmed from the garden's own site and Osaka Info in search results. Coordinates from knowledge; medium. English Wikipedia article on Keitakuen probably exists but was not confirmed, so null.",
+      "name": "Keitakuen Garden",
+      "neighborhood": "Tennoji-ku (Tennoji Park)",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "green",
+        "water",
+        "solo",
+        "hidden",
+        "study"
+      ],
+      "blurb": "A Meiji-era stroll garden built for the Sumitomo family and given to the city in 1926, hidden behind a wall beside the Osaka City Museum of Art at the back of Tennoji Park. A central pond, stepping stones, a tea house and lawns under big pines, with the Abeno Harukas tower rising incongruously behind the trees. For 300 yen you get one of the calmest hours in the south of the city while the Tenshiba lawn outside fills with picnickers.",
+      "tips": "Walk through the Tenshiba lawn from Tennoji station to the museum steps; the garden entrance is to the right of the museum. Sit on the benches on the far side of the pond facing back towards the tea house. Closed Mondays, and a combined ticket with the museum is 600 yen.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "9:30am-5pm (last entry 4:30pm), closed Mon; to 6pm weekends in May & Sep",
+      "lat": 34.6505,
+      "lng": 135.5098,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.keitakuen-garden.jp/en/info",
+          "label": "Keitakuen Garden: Info",
+          "kind": "official"
+        },
+        {
+          "url": "https://osaka-info.jp/en/spot/keitakuen-garden/",
+          "label": "Osaka Info: Keitakuen Garden",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Walled, staffed and ticketed garden that closes at 5pm; the pond edges and stepping stones are unfenced."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Major shrine written from knowledge only; no search spent. Grounds are free and open daily from early morning; hours approximate. Wikipedia title 'Sumiyoshi-taisha' given from knowledge on high confidence. Coordinates from knowledge; high for the shrine, the arched bridge is at the western entrance.",
+      "name": "Sumiyoshi Taisha grounds",
+      "neighborhood": "Sumiyoshi-ku",
+      "category": "other",
+      "vibes": [
+        "quiet",
+        "green",
+        "water",
+        "walk",
+        "free",
+        "solo",
+        "sunrise"
+      ],
+      "blurb": "One of Japan's oldest shrines, with four main halls in a pre-Buddhist architectural style and a famous steep red arched bridge over a pond, sitting in a wooded precinct at the end of the Hankai tram line in the south of the city. Outside New Year and festival days it is mostly neighbours walking through, and the back paths among the sub-shrines, camphor trees and stone lanterns are quiet enough to sit for an hour. It is a landmark, but a local one, and it costs nothing.",
+      "tips": "Take the Hankai tram from Tennoji-ekimae to Sumiyoshi-torii-mae and cross the arched bridge in; then leave the main axis and wander east to the smaller shrines and the big camphor tree for benches nobody uses. Early morning is the emptiest, and the grounds are generally open from around 6am to 5pm.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 6am-5pm daily (check site)",
+      "lat": 34.6125,
+      "lng": 135.4932,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Sumiyoshi-taisha",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed precinct that closes around dusk; the arched bridge is very steep and slippery when wet, so use the flat side bridge in rain."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Hours (9:30am-5pm Mar-Oct, to 4:30pm Nov-Feb, closed Mon), 300 yen admission, 24 ha and access (Nagai station exit 3, 800 m east) confirmed from Osaka Info and Good Luck Trip in search results; the teamLab night event on the same site appeared in results too. Coordinates from knowledge of the eastern half of Nagai Park; medium. Title set null: 'Nagai Park' exists but is the whole park including the stadium, not this garden.",
+      "name": "Nagai Botanical Garden",
+      "neighborhood": "Higashisumiyoshi-ku (Nagai Park)",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "water",
+        "walk",
+        "solo",
+        "picnic",
+        "sunset"
+      ],
+      "blurb": "Twenty-four hectares of municipal botanical garden filling the eastern half of Nagai Park, with a big central pond, a rose garden, hydrangea and peony beds and a small forest of old camphor and metasequoia. It is a residents' garden in the deep south of the city, cheap to enter and big enough that the lawns behind the pond are empty on weekday afternoons. After dark the same site becomes teamLab's ticketed light installation, which is a different and much busier experience.",
+      "tips": "From Nagai station on the Midosuji line take exit 3 and walk about ten minutes east through the park past the stadium. Aim for the lawns on the far side of the pond for quiet, and note the garden closes Mondays and at 5pm (4:30pm in winter); the teamLab evening event has separate tickets.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "9:30am-5pm Mar-Oct, 9:30am-4:30pm Nov-Feb; closed Mon",
+      "lat": 34.611,
+      "lng": 135.5215,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://osaka-info.jp/en/spot/nagai-botanical-garden/",
+          "label": "Osaka Info: Nagai Botanical Garden",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.gltjp.com/en/directory/item/18144/",
+          "label": "Good Luck Trip: Nagai Botanical Garden",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.teamlab.art/e/botanicalgarden/",
+          "label": "teamLab Botanical Garden Osaka (night event)",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced, staffed and ticketed garden that closes before dusk; the pond edge is unfenced and the wider Nagai Park paths are lit but long."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Researcher wrote this from knowledge. Review stage search confirmed it via Osaka Info and Osaka Metro NiNE: 3-2 Chikko, Minato-ku, free, open 24 hours, 7 minutes walk from Osakako station, Mount Tempo 4.53 m. Coordinates nudged about 150 m south-west towards the Mount Tempo marker from knowledge, still medium since no map result gave a lat/lng. English article Mount Tempō is about the hill, not the park, so title stays null.",
+      "name": "Tempozan Park",
+      "neighborhood": "Minato-ku (Osaka Port)",
+      "category": "viewpoint",
+      "vibes": [
+        "water",
+        "sunset",
+        "view",
+        "quiet",
+        "free",
+        "solo",
+        "walk",
+        "hidden"
+      ],
+      "blurb": "A small, slightly worn harbour park behind the aquarium crowds at Osakako, best known for Mount Tempo, a 4.5-metre grass mound that claims to be Japan's lowest mountain. The real reason to come is the west-facing seawall promenade along the Aji river mouth, where you can sit on the benches and watch the ferries and container cranes as the sun goes down over Osaka Bay. Almost nobody who gets off at Osakako for the aquarium walks this far, so it stays quiet.",
+      "tips": "From Osakako station walk north past the aquarium and the Ferris wheel to the park at the river mouth; the benches on the waterfront edge face west. Bring a jacket, the sea wind is constant, and the shops and lights of the Tempozan complex are a five-minute walk back if you stay past dark.",
+      "bestTimes": [
+        "golden-hour",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 34.657,
+      "lng": 135.4325,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://osaka-info.jp/en/spot/tempozan-park/",
+          "label": "Osaka Info: Tempozan Park",
+          "kind": "official"
+        },
+        {
+          "url": "https://metronine.osaka/en/spot-details/?spot_id=16321895145117",
+          "label": "Osaka Metro NiNE: Mt. Tempozan",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Open seawall with a low railing and deep water below; the park itself is only partly lit at night, so sit near the promenade lights and head back towards the station before it fully empties."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Large prefectural/municipal park, former Expo '90 site, written from knowledge only; no search spent, no sources. English Wikipedia article probably exists but exact title unconfirmed, so null. Coordinates placed near the central pond and windmill hill; medium.",
+      "name": "Tsurumi Ryokuchi",
+      "neighborhood": "Tsurumi-ku",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "water",
+        "sunset",
+        "picnic",
+        "free",
+        "solo",
+        "stargaze"
+      ],
+      "blurb": "A 120-hectare park on the eastern edge of the city built for the 1990 International Garden and Greenery Expo, with a Dutch-style windmill on a flower hill, a big lake, national gardens left over from the fair and long grass slopes that are empty on weekdays. It is where families from Tsurumi and Joto bring picnics and where people come to lie on the hill at sunset; the metro station is right at the gate, but the far corners are a twenty-minute walk and very quiet.",
+      "tips": "Take the Nagahori Tsurumi-ryokuchi line to its terminus and enter from the main gate; the windmill hill faces west for sunset and the lake path on the north side is the quietest loop. The Sakuya Konohana Kan greenhouse inside is a cheap rain option, and the park itself is open all night though only the main paths are lit.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (greenhouse and gardens have their own hours)",
+      "lat": 34.7145,
+      "lng": 135.5745,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Very large park where only the main paths are lit; after dark stay on the lit route between the station gate and the windmill hill rather than the lake loop."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, free entry, paved 3 km trail from Hankyu Minoo station to the falls (about 45 min one way) confirmed from japan-guide and other search results. Coordinates placed mid-trail near Ryuanji temple, about 17 km from the city centre; medium. Wikipedia article is titled for the quasi-national park, not 'Minoo Park', so null.",
+      "name": "Minoo Park (Minoh Falls trail)",
+      "neighborhood": "Minoh (north of Osaka)",
+      "category": "trail",
+      "vibes": [
+        "green",
+        "water",
+        "quiet",
+        "walk",
+        "free",
+        "solo",
+        "group",
+        "hidden"
+      ],
+      "blurb": "A wooded river valley thirty minutes from Umeda by Hankyu train, where a paved path follows the Minoo river past a temple, a small insect museum and shops selling deep-fried maple leaves to a 33-metre waterfall. Between the station and the falls there are dozens of benches and flat rocks by the water, and outside the November foliage weeks it is mostly Osakans out for a walk. It is the closest place to the city where the sound is river and cicadas rather than traffic.",
+      "tips": "From Umeda take the Hankyu Takarazuka line to Ishibashi Handai-mae and change for Minoo; the path starts just past the station. Ryuanji temple, about halfway, has the best sitting spots by the river. Do not feed or approach the monkeys, and start back by late afternoon since the valley is unlit.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (shops and temple close by early evening)",
+      "lat": 34.8445,
+      "lng": 135.4722,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.japan-guide.com/e/e4019.html",
+          "label": "japan-guide: Minoo Park",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.japan.travel/en/spot/1080/",
+          "label": "JNTO: Minoo Park",
+          "kind": "official"
+        },
+        {
+          "url": "https://insideosaka.com/minoh-falls/",
+          "label": "Inside Osaka: Minoh Falls",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "The valley road is unlit and empties out once the shops shut, so walk it in daylight and turn back by late afternoon; the path is paved but steep and wet near the falls, and wild monkeys should be given space."
+      },
+      "lowkeyScore": 3
+    }
+  ]
+}

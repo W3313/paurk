@@ -1,0 +1,661 @@
+{
+  "city": "Ho Chi Minh City",
+  "country": "Vietnam",
+  "slug": "ho-chi-minh-city",
+  "region": "asia-pacific",
+  "cityLat": 10.7769,
+  "cityLng": 106.7009,
+  "timezone": "Asia/Ho_Chi_Minh",
+  "searchesRun": [
+    "Tao Dan Park Ho Chi Minh City wikipedia",
+    "Nhieu Loc Thi Nghe canal Hoang Sa Truong Sa promenade wikipedia",
+    "Thu Thiem riverside park Saigon River opposite Bach Dang wharf opened",
+    "General Sciences Library Ho Chi Minh City 69 Ly Tu Trong opening hours",
+    "Cheo Leo cafe 109/36 Nguyen Thien Thuat District 3 Saigon oldest cafe",
+    "Ho Chi Minh City Museum of Fine Arts 97A Pho Duc Chinh opening hours wikipedia",
+    "Cafe Do Phu Com tam Dai Han 113A Dang Dung Da Kao secret base",
+    "Crescent Lake Phu My Hung Starlight Bridge Anh Sao District 7 wikipedia",
+    "Thảo Cầm Viên Saigon Zoo and Botanical Gardens ticket price opening hours 2026",
+    "General Sciences Library Ho Chi Minh City opening hours closed Friday reader card",
+    "Giác Lâm Pagoda opening hours 565 Lạc Long Quân visit",
+    "Cheo Leo cafe Saigon opening hours 109/36 Nguyễn Thiện Thuật"
+  ],
+  "redditSourcedNotes": "Two stages, twelve searches in total, all recorded in searchesRun; no reddit thread appeared in any result set, so nothing here is reddit-sourced despite the field name. Research stage (8 searches) confirmed by result URL: exact en.wikipedia articles for General Sciences Library of Ho Chi Minh City, Ho Chi Minh City Museum of Fine Arts, Nhiêu Lộc–Thị Nghè Canal and Saigon River Park (the 20 ha Thủ Thiêm riverside park opened 23 Dec 2023, 6am-10pm); library hours and 40,000 VND card; museum hours and 30,000 VND fee (sources disagree on Monday closure); Cheo Leo and Đỗ Phủ still operating. Tao Đàn Park returned only a Wikidata item and Starlight Bridge only the Phú Mỹ Hưng article, so both titles are null. Review stage (4 searches) checked the items most likely to be wrong: Saigon Zoo hours corrected to 7am-5:30pm and ticket to about USD 3 / 60,000-70,000 VND; library hours re-confirmed (closed Fridays); Giác Lâm hours corrected to gate roughly 5am-8:30pm with the main hall shut over lunch, and its coordinates nudged about 200 m north onto the compound; Cheo Leo hours corrected to roughly 6am-6pm from a Dec 2025 listing. Limits of this environment: en.wikipedia.org and every source domain were blocked to direct fetches, so no URL in this file was opened; every URL is one that appeared in a search result list in one of the two stages, and none was typed from memory. The three Wikipedia titles still held on knowledge alone (Saigon Zoo and Botanical Gardens, Giác Lâm Pagoda, Bình Tây Market) are long-standing articles the reviewer is confident of but could not confirm by URL. Not searched in either stage, written from knowledge: Bạch Đằng Wharf Park (a localvietnam URL appeared incidentally in the Thủ Thiêm search), Nguyễn Văn Bình Book Street, Gia Định Park and Bình Tây Market; their hours are approximate and Book Street, Gia Định and Bình Tây carry empty sources arrays rather than invented ones. Coordinates were written from knowledge of the street grid and cross-checked by the reviewer against remembered infobox coordinates, not read off a live map; the District 1 sites and Bình Tây are high confidence, the canal point, Cheo Leo, Đỗ Phủ, Gia Định, Giác Lâm, Thủ Thiêm and Crescent Lake are medium. All 14 lie within 12 km of the centre. Administrative note: Vietnam abolished HCMC's urban districts in July 2025 in favour of larger wards, so neighborhood fields use the old district names residents still use, with the new ward where known (ward names may be imperfect). Safety screen: all 14 are public parks, promenades, a library, a museum, a market, a pagoda and two cafés; none involve trespass, derelict, industrial or rail land. Every safety note was read against the standard; all rest on physical conditions (lighting, closing times, unfenced water, traffic) and none needed rewriting. The single caution, Saigon River Park, is for unfenced riverbank and sparsely lit access roads through empty plots.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, free entry and 10 ha size confirmed by search results (vinpearl, tripadvisor, vietnamdiscovery). Only a Wikidata item (Q10752055) appeared, no en.wikipedia article, so title null. Hours from knowledge.",
+      "name": "Tao Đàn Park",
+      "neighborhood": "District 1 (Bến Thành ward)",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "sunrise",
+        "people-watch",
+        "walk",
+        "free",
+        "solo"
+      ],
+      "blurb": "Ten hectares of hundred-year-old dipterocarp and mahogany trees behind the Independence Palace, laid out by the French as the city garden in the 1860s. Before 7am it belongs to badminton players, tai chi groups and the men who bring their songbirds in bamboo cages to the café corner on Cách Mạng Tháng Tám; by mid-morning it is mostly empty benches in deep shade. Office workers from the surrounding streets come back at lunch to nap on the low walls.",
+      "tips": "Enter from Trương Định or Nguyễn Thị Minh Khai; the benches along the Hùng Kings temple side stay quietest, and the bird café at the north-west corner is the place to sit with a coffee at dawn. Avoid Tết (late Jan or Feb) when the whole park becomes a paid flower fair.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 5am-10pm",
+      "lat": 10.7742,
+      "lng": 106.6924,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://vietnamdiscovery.com/ho-chi-minh-city/activities/tao-dan-park/",
+          "label": "Vietnam Discovery: Tao Dan Park",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g293925-d2414430-Reviews-Tao_Dan_Park-Ho_Chi_Minh_City.html",
+          "label": "Tripadvisor: Tao Dan Park",
+          "kind": "forum"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit main paths and busy from dawn; the park is ringed by heavy traffic, so use the marked crossings. Falling branches are a real hazard in the rainy season, move off the lawns in a storm."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review-stage search confirmed the 2B Nguyễn Bỉnh Khiêm entrance, 7am-5:30pm hours and a ticket of about USD 3 (idctravel, adventure-journey, traveloka). Wikipedia title kept on high confidence from knowledge; not URL-confirmed because en.wikipedia.org is blocked from this environment. Coordinates match the gate area on Nguyễn Bỉnh Khiêm.",
+      "name": "Thảo Cầm Viên (Saigon Zoo and Botanical Gardens)",
+      "neighborhood": "District 1 (Đa Kao / Sài Gòn ward)",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "picnic",
+        "solo",
+        "group"
+      ],
+      "blurb": "One of the oldest botanical gardens in the world (1864) and still the largest patch of old-growth shade in the centre, with giant tropical trees, an orchid house and lotus ponds spread over 17 hectares. The zoo gets the crowds; the garden paths at the back, along the Thị Nghè canal side, are where locals walk slowly, sketch or sit on benches under trees older than the city's boulevards. It is the closest thing Saigon has to a quiet forest.",
+      "tips": "Entry is roughly 60,000-70,000 VND (about USD 3) at the 2B Nguyễn Bỉnh Khiêm gate; go on a weekday morning, skip the animal enclosures and head for the tree-lined avenues and ponds at the eastern end. Bring water and a hat; the humidity under the canopy is heavy by noon.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "7am-5:30pm",
+      "lat": 10.7875,
+      "lng": 106.7052,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Saigon Zoo and Botanical Gardens",
+      "sources": [
+        {
+          "url": "https://www.idctravel.com/attraction/saigon-zoo-and-botanical-garden.html",
+          "label": "IDC Travel: Saigon Zoo and Botanical Gardens guide",
+          "kind": "blog"
+        },
+        {
+          "url": "https://adventure-journey.com/vietnam-travel-blog/saigon-zoo-and-botanical-garden-open-hours-ticket-price.html",
+          "label": "Adventure Journey: open hours and ticket price",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated, staffed and closed at dusk; paths are paved but slippery after rain."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Canal, its Hoàng Sa and Trường Sa banks and the World Bank restoration confirmed by search (Wikipedia, VnExpress, Vietcetera). Exact en.wikipedia title confirmed. Coordinates are a representative point near Kiệu Bridge on a 9 km promenade, so medium.",
+      "name": "Nhiêu Lộc–Thị Nghè canal promenade (Hoàng Sa / Trường Sa)",
+      "neighborhood": "District 3 / Phú Nhuận / Bình Thạnh",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "walk",
+        "night",
+        "sunset",
+        "people-watch",
+        "free",
+        "solo",
+        "group"
+      ],
+      "blurb": "A nine-kilometre canal that was an open sewer twenty years ago and is now lined on both banks with trees, benches and outdoor exercise machines. In the evening the whole neighbourhood comes out: joggers, couples, old men fishing, kids on scooters, and the food carts and cafés along Hoàng Sa and Trường Sa streets. Pick any bench between two bridges and you have water, a breeze and an hour of unhurried city life.",
+      "tips": "The stretch between Kiệu Bridge (Hai Bà Trưng / Phan Đình Phùng) and Lê Văn Sỹ Bridge is the liveliest; the Bình Thạnh end near Thị Nghè is calmer. Late afternoon after the heat breaks is when locals sit; the streets are one-way traffic, so cross at the bridges.",
+      "bestTimes": [
+        "golden-hour",
+        "night",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 10.7935,
+      "lng": 106.6875,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Nhiêu Lộc–Thị Nghè Canal",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Nhi%C3%AAu_L%E1%BB%99c%E2%80%93Th%E1%BB%8B_Ngh%C3%A8_Canal",
+          "label": "Wikipedia: Nhiêu Lộc–Thị Nghè Canal",
+          "kind": "other"
+        },
+        {
+          "url": "https://e.vnexpress.net/news/news/canal-revival-breathes-life-back-into-hcmc-4270518.html",
+          "label": "VnExpress: Canal revival",
+          "kind": "press"
+        },
+        {
+          "url": "https://vietcetera.com/en/truong-sa-and-hoang-sa-streets-a-five-stop-foodie-guide",
+          "label": "Vietcetera: Trường Sa and Hoàng Sa streets",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Street-lit and busy until about 10pm; the canal edge is a low railing with steep banks, and the promenade runs beside a one-way road with motorbikes, so keep to the canal side of the path."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched directly, but a localvietnam.com page for the park appeared in the Thủ Thiêm search, confirming the 2022 renovation and public access. No en.wikipedia article confirmed, so title null. Coordinates high confidence (Tôn Đức Thắng riverfront between the Thủ Ngữ flagpole and Ba Son).",
+      "name": "Bạch Đằng Wharf Park",
+      "neighborhood": "District 1 (Sài Gòn ward, riverfront)",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "skyline",
+        "sunrise",
+        "night",
+        "people-watch",
+        "walk",
+        "free",
+        "view"
+      ],
+      "blurb": "The city's riverside promenade along Tôn Đức Thắng, rebuilt in 2022 with lawns, stone steps down to the Saigon River and a view straight across to the new Thủ Thiêm skyline and the Ba Son bridge. Early morning it is joggers and people doing tai chi facing the river; at night the far bank lights up and the benches fill with locals eating takeaway and watching the water buses come in. It is the one central spot where the river is genuinely the point.",
+      "tips": "Sit at the southern end near the Thủ Ngữ flagpole for sunrise over Thủ Thiêm, or on the steps by the water-bus pier for the evening lights. Street vendors are periodically cleared, so bring your own drink; the Saigon Waterbus to Thủ Đức leaves from here if you want to extend the hour.",
+      "bestTimes": [
+        "morning",
+        "night",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 10.7735,
+      "lng": 106.706,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://localvietnam.com/ho-chi-minh-city/bach-dang-wharf/",
+          "label": "Local Vietnam: Bach Dang Wharf",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.vietnam.vn/en/dut-canh-hang-rong-bat-nhao-o-cong-vien-bach-dang-moi",
+          "label": "vietnam.vn: street vending cleared at new Bach Dang park",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Well lit and busy into the night; the river steps are unfenced and slippery when wet, and the promenade is separated from Tôn Đức Thắng traffic only by a pedestrian crossing."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, 20 ha size, 23 Dec 2023 opening, Nguyễn Thiện Thành street location and 6am-10pm hours confirmed by search (Wikipedia, SGGP). Exact en.wikipedia title Saigon River Park confirmed. Coordinates placed on the riverbank opposite Bạch Đằng, medium confidence.",
+      "name": "Saigon River Park (Thủ Thiêm riverside)",
+      "neighborhood": "Thủ Thiêm (An Khánh ward, former District 2)",
+      "category": "viewpoint",
+      "vibes": [
+        "skyline",
+        "sunset",
+        "water",
+        "view",
+        "night",
+        "picnic",
+        "free",
+        "group"
+      ],
+      "blurb": "Twenty hectares of open lawn on the Thủ Thiêm bank of the Saigon River, opened at the end of 2023, facing the whole District 1 skyline across the water. This is where locals now come to watch the sun go down behind Bitexco tower, fly kites, spread mats and picnic; there is a stone garden, a fountain and, in season, a sunflower field planted to face the city. Because it is still surrounded by empty plots it feels far bigger and quieter than the crowded wharf opposite.",
+      "tips": "Reach it by the Ba Son bridge on foot or by Grab bike; there is no shade yet, so arrive an hour before sunset and bring a mat and water. It closes at 10pm and the lawn nearest the river is the best seat for the city lights.",
+      "bestTimes": [
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "6am-10pm",
+      "lat": 10.7775,
+      "lng": 106.7125,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Saigon River Park",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Saigon_River_Park",
+          "label": "Wikipedia: Saigon River Park",
+          "kind": "other"
+        },
+        {
+          "url": "https://en.sggp.org.vn/thu-duc-city-inaugurates-riverside-park-post107176.html",
+          "label": "SGGP: Thu Duc City inaugurates riverside park",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "The riverbank is unfenced in places and the access roads through Thủ Thiêm are wide, fast and sparsely lit with long gaps between buildings; sit near the lit central area and plan a ride home rather than walking back over the bridge alone late."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched (budget spent elsewhere). Well-known pedestrian book street beside the Central Post Office, open since 2016; hours from knowledge and approximate. No en.wikipedia article known, title null. Coordinates high confidence.",
+      "name": "Nguyễn Văn Bình Book Street",
+      "neighborhood": "District 1 (Sài Gòn ward)",
+      "category": "bookstore",
+      "vibes": [
+        "cozy",
+        "study",
+        "people-watch",
+        "solo",
+        "rain-ok",
+        "night",
+        "green"
+      ],
+      "blurb": "A one-block pedestrian street of bookshop kiosks under tall trees, tucked between the Central Post Office and Hai Bà Trưng. Each stall has a few tables out front where you can drink an iced coffee and read whatever you have just bought, and students and retirees do exactly that for hours. It is a hundred metres from the cathedral crowds but treated by the city as a reading room rather than an attraction.",
+      "tips": "Come after 5pm when the heat lifts and the stalls light up, or early morning before the tour groups reach the post office. The cafés at the Hai Bà Trưng end have awnings for rain; most stalls sell Vietnamese titles with a small English section.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 8am-10pm",
+      "lat": 10.7803,
+      "lng": 106.6997,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Pedestrianised, lit and staffed by the stalls until closing; the only traffic is at the two street ends."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Hours (Mon-Thu 7:30am-7pm, Sat-Sun 9am-5pm, closed Fri and public holidays), 40,000 VND annual card and 69 Lý Tự Trọng address confirmed twice: by the research-stage search and again by a review-stage search (vietnam.vn, aroundus). en.wikipedia URL appeared in both result lists. Marked not free because a paid card is needed for the reading rooms.",
+      "name": "General Sciences Library of Ho Chi Minh City",
+      "neighborhood": "District 1 (Bến Thành ward)",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "cozy",
+        "solo",
+        "green"
+      ],
+      "blurb": "The city's main public library, a 1971 modernist block with a decorative concrete screen, set back from Lý Tự Trọng behind a garden of old trees. Inside are cool, silent reading rooms and a newer green study space where university students spend whole days; outside, the shaded forecourt benches are a quiet retreat from the traffic a block away. It is the obvious rainy-afternoon answer in the centre.",
+      "tips": "Bring ID to buy a reader card (about 40,000 VND a year) at the front desk; bags go in lockers. Closed Fridays and public holidays, and the reading rooms fill with students around exam time, so mornings are calmest.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Mon-Thu 7:30am-7pm, Sat-Sun 9am-5pm, closed Fri",
+      "lat": 10.7756,
+      "lng": 106.6985,
+      "coordConfidence": "high",
+      "wikipediaTitle": "General Sciences Library of Ho Chi Minh City",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/General_Sciences_Library_of_Ho_Chi_Minh_City",
+          "label": "Wikipedia: General Sciences Library",
+          "kind": "other"
+        },
+        {
+          "url": "https://vietnamnet.vn/en/top-libraries-for-students-in-hcm-city-E193353.html",
+          "label": "VietnamNet: Top libraries for students",
+          "kind": "press"
+        },
+        {
+          "url": "https://saigoneer.com/saigon-heritage/2674-old-saigon-building-of-the-week-ho-chi-minh-city-general-sciences-library",
+          "label": "Saigoneer: General Sciences Library building",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.vietnam.vn/en/thu-vien-khoa-hoc-tong-hop-tp-hcm-tram-dung-chan-tri-thuc-giua-long-quan-1",
+          "label": "vietnam.vn: General Science Library, a haven of knowledge",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building with security at the gate; closes at 7pm on weekdays."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Address, 1987 founding, 30,000 VND fee and hours (most sources Tue-Sun 8am-5pm, closed Mon; some say daily) confirmed by search. Exact en.wikipedia title confirmed. Coordinates high confidence.",
+      "name": "Ho Chi Minh City Museum of Fine Arts",
+      "neighborhood": "District 1 (Bến Thành ward, near Bến Thành market)",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "cozy",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "Three 1930s mansions built for a Chinese-Vietnamese merchant family, with yellow walls, art-deco stained glass, tiled floors and one of Saigon's first lifts, now holding the city's fine arts collection. The galleries are rarely busy, and the inner courtyards and wide shaded verandas are where people sit and sketch between rooms. For 30,000 VND it is the calmest hour available within five minutes of Bến Thành market.",
+      "tips": "Enter from Phó Đức Chính; the upper floors of the main building have the best light and the fewest people, and the courtyard benches are fine for sitting with a notebook. Last entry 4:30pm; check whether it is open on Mondays before going.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Tue-Sun 8am-5pm, closed Mon (check site)",
+      "lat": 10.7697,
+      "lng": 106.699,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Ho Chi Minh City Museum of Fine Arts",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City_Museum_of_Fine_Arts",
+          "label": "Wikipedia: Ho Chi Minh City Museum of Fine Arts",
+          "kind": "other"
+        },
+        {
+          "url": "https://localvietnam.com/blog/ho-chi-minh-city-museum-of-fine-arts/",
+          "label": "Local Vietnam: Museum of Fine Arts guide",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, ticketed building; old tiled stairs are steep and slippery in the wet."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Address (109/36 Nguyễn Thiện Thuật, old Ward 2, District 3), 1938 founding and cloth-filter brewing confirmed in the research stage; a review-stage search returned a listing giving 6am-6pm hours as of December 2025 (corner.inc) and 2025 reviews, so it is still trading. Coordinates placed on the alley off Nguyễn Thiện Thuật near the apartment blocks, medium confidence.",
+      "name": "Cheo Leo Café",
+      "neighborhood": "District 3 (Bàn Cờ ward)",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "hidden",
+        "solo",
+        "people-watch",
+        "rain-ok",
+        "quiet"
+      ],
+      "blurb": "Saigon's oldest café, opened in 1938 in an alley of the Bàn Cờ neighbourhood and still run by the same family, brewing coffee in cloth filters over a clay pot the way almost nobody else does anymore. It is stainless-steel tables, plastic stools, an old radio and regulars who have come every morning for decades. You are not a customer here so much as a visitor in someone's front room, and nobody minds if you stay an hour over one glass.",
+      "tips": "Walk into hẻm 109 off Nguyễn Thiện Thuật and look for the sign at number 36; it opens around 6am and closes about 6pm, so mornings are the time. Order bạc xỉu or cà phê sữa đá, cash only, and expect to share a table.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly 6am-6pm",
+      "lat": 10.771,
+      "lng": 106.68,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g293925-d10496161-Reviews-CHEO_LEO_Cafe-Ho_Chi_Minh_City.html",
+          "label": "Tripadvisor: Cheo Leo Cafe",
+          "kind": "forum"
+        },
+        {
+          "url": "https://curiousspoon.app/spot/saigon/cheo-leo-cafe",
+          "label": "Curious Spoon: Cheo Leo Cafe",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.corner.inc/place/135292",
+          "label": "Corner: Cheo Leo Cafe listing with hours",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Family-run café in a narrow residential alley; motorbikes use the alley too, so keep stools against the wall."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Address (113A Đặng Dung), history as a Saigon commando base, café operation and proposed heritage listing confirmed by search (VietnamNet, VNA, vietnam.vn). Hours from knowledge and approximate. Coordinates placed on Đặng Dung in Tân Định, medium confidence.",
+      "name": "Cà phê Đỗ Phủ – Cơm tấm Đại Hàn",
+      "neighborhood": "District 1 (Tân Định ward)",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "hidden",
+        "rain-ok",
+        "solo",
+        "quiet"
+      ],
+      "blurb": "A 1940s wooden townhouse that served broken rice to Korean soldiers upstairs while hiding weapons and couriers for the Saigon commandos in secret compartments below, now kept as a family-run café and small museum by the descendants of its owner. You sit at old tables among period furniture, radios and photographs, drink filter coffee and can ask to see the hidden mailbox and the floor bunkers. Even when a small tour comes through it stays hushed, and on a wet afternoon it is one of the most atmospheric rooms in the city.",
+      "tips": "Order a coffee or the broken rice with kimchi at the counter and take a table by the shutters; the upstairs room is quieter. Ask politely to be shown the bunker and letterbox; there is no entry fee but you are expected to buy something.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "varies (roughly 7am-9pm, check before going)",
+      "lat": 10.793,
+      "lng": 106.69,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://vietnamnet.vn/en/the-hidden-bunkers-of-saigon-inside-the-secret-bases-of-vietnam-s-commandos-2391497.html",
+          "label": "VietnamNet: The hidden bunkers of Saigon",
+          "kind": "press"
+        },
+        {
+          "url": "https://vnanet.vn/en/anh/vna-photos-1027/visiting-a-coffee-shop-hiding-saigon-special-forces-secret-cellar-7408040.html",
+          "label": "VNA: Coffee shop hiding a secret cellar",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.vietnam.vn/en/quan-ca-phe-do-phu-com-tam-dai-han-duoc-de-nghi-xep-hang-di-tich",
+          "label": "vietnam.vn: proposed heritage listing",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed café on a quiet residential street; the stairs and bunker hatches are steep and narrow."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched (budget spent elsewhere). Large, well-known public park between Nguyễn Kiệm, Hoàng Minh Giám and Hồ Văn Huê near the airport; hours from knowledge. No en.wikipedia article known, title null. Coordinates medium confidence (park centre).",
+      "name": "Gia Định Park",
+      "neighborhood": "Gò Vấp / Phú Nhuận",
+      "category": "park",
+      "vibes": [
+        "green",
+        "walk",
+        "sunrise",
+        "quiet",
+        "free",
+        "picnic",
+        "group",
+        "solo"
+      ],
+      "blurb": "The biggest park in the north of the city, over 30 hectares of lawns and mature trees just south of the airport runway, and almost entirely used by people who live nearby. Morning brings thousands of walkers and exercise groups; by mid-morning and again in late afternoon the lawns empty out and you can lie under a tree with the planes coming in low overhead. It is the park locals mean when they say they are going to the park.",
+      "tips": "The Hoàng Minh Giám side is the larger, older section with the most shade; there is a small lake and plenty of grass, so bring a mat. Plane-spotting is best from the northern lawns; street-side cafés on Hồ Văn Huê sell coffee to take in.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (busiest 5-7am)",
+      "lat": 10.813,
+      "lng": 106.6775,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Open, unfenced park with lit main paths and heavy morning and evening use; interior lawns are dark after about 9pm, so stay near the perimeter paths at night."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review-stage search confirmed 565 Lạc Long Quân, free entry and gate hours of about 5am-8:30pm with the main hall closed over lunch (localvietnam, forevervacation, jackfruitadventure); sources disagree on exact times, so hours are approximate. Coordinates nudged north to the pagoda compound itself, still medium. Wikipedia title kept on high confidence from knowledge; en.wikipedia.org is blocked from this environment so not URL-confirmed.",
+      "name": "Giác Lâm Pagoda",
+      "neighborhood": "Tân Bình",
+      "category": "other",
+      "vibes": [
+        "quiet",
+        "green",
+        "hidden",
+        "solo",
+        "rain-ok",
+        "free"
+      ],
+      "blurb": "The oldest Buddhist temple in Saigon, founded in 1744, set in a walled garden of bodhi trees, frangipani and monks' stupas well away from the tourist circuit. The main hall is dim, wooden and full of gilded statues, and the covered verandas and garden benches around it are where neighbours come to sit, read sutras or simply be out of the sun. Apart from the first and fifteenth of the lunar month it is nearly silent.",
+      "tips": "Take a Grab to 565 Lạc Long Quân and enter through the gate by the seven-storey stupa; dress modestly, remove shoes for the halls, and sit on the side verandas or under the trees by the stupas. The main hall shuts over lunch but the garden stays open; late afternoon is the pleasant hour.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 5am-8:30pm (main hall closed about 12pm-1:30pm)",
+      "lat": 10.7764,
+      "lng": 106.6495,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Giác Lâm Pagoda",
+      "sources": [
+        {
+          "url": "https://localvietnam.com/blog/giac-lam-pagoda/",
+          "label": "Local Vietnam: Giac Lam Pagoda local guide",
+          "kind": "blog"
+        },
+        {
+          "url": "https://forevervacation.com/ho-chi-minh-city/giac-lam-pagoda",
+          "label": "Forever Vacation: entrance fee and opening hours",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Walled, staffed temple grounds closed at night; Lạc Long Quân outside is a busy road with few crossings, so take care leaving."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched (budget spent elsewhere). Well-known 1928 market at 57A Tháp Mười in Chợ Lớn; renovated and reopened 2018. Hours from knowledge and approximate. Wikipedia title kept on high confidence from knowledge, not URL-confirmed. Coordinates high confidence.",
+      "name": "Bình Tây Market courtyard",
+      "neighborhood": "District 6 (Chợ Lớn)",
+      "category": "market",
+      "vibes": [
+        "people-watch",
+        "hidden",
+        "rain-ok",
+        "quiet",
+        "free",
+        "solo"
+      ],
+      "blurb": "The great 1928 wholesale market of Chợ Lớn, a yellow clock-towered block with a surprise at its centre: an open courtyard garden with a fountain, benches and a shrine to the Chinese merchant who built it, ringed by covered arcades. The stalls around the outside are frantic with wholesale trade, but the courtyard is oddly still, and traders and neighbours sit there for tea and a rest between deliveries. It is the quiet eye of the busiest market in the city.",
+      "tips": "Go in through the main Tháp Mười gate and straight ahead to the courtyard; mid-morning after the wholesale rush is calmest. Most stalls close by late afternoon and the whole building shuts in the early evening, so do not plan on it after dark.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "roughly 6am-7pm",
+      "lat": 10.7498,
+      "lng": 106.6507,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Bình Tây Market",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, covered market that closes in the evening; the surrounding streets carry heavy goods-cart and motorbike traffic, so watch your step in the arcades."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, 2010 opening of the 170 m pedestrian Starlight Bridge and the lakeside park confirmed by search (visithcmc.vn, VinWonders). Only the Phú Mỹ Hưng urban area Wikipedia article appeared, none for the lake or bridge, so title null. Coordinates medium confidence (lakeside promenade on Tôn Dật Tiên).",
+      "name": "Crescent Lake and Starlight Bridge (Hồ Bán Nguyệt)",
+      "neighborhood": "District 7 (Phú Mỹ Hưng / Tân Mỹ ward)",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "night",
+        "sunset",
+        "walk",
+        "quiet",
+        "free",
+        "group",
+        "view"
+      ],
+      "blurb": "A crescent-shaped lake with a wide stone promenade, lawns and a pedestrian bridge lit by LEDs after dark, at the centre of the planned Phú Mỹ Hưng district south of the river. It is the neighbourhood's evening living room: families, students and dog walkers come after dinner to sit on the steps, and the wide, low-traffic streets make it one of the few parts of Saigon where you can hear the water. It is a long way from the centre, which is the point.",
+      "tips": "Take a Grab to Tôn Dật Tiên street; the promenade steps on the lake's north side face the bridge lights. The cafés along the Crescent mall side stay open late and have outdoor tables; the bridge itself is sometimes dark when the lights are off for maintenance.",
+      "bestTimes": [
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 10.7288,
+      "lng": 106.719,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.visithcmc.vn/en/tin-tuc/kham-pha-nhanh-cong-vien-cau-anh-sao-ho-ban-nguyet_en",
+          "label": "visithcmc.vn: Starlight Bridge Park and Crescent Lake",
+          "kind": "official"
+        },
+        {
+          "url": "https://vinwonders.com/en/wonderpedia/news/starlight-bridge-saigon/",
+          "label": "VinWonders: Starlight Bridge",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit promenade and bridge, busy on evenings; the lake edge is a low step with no railing, so keep children back from the water, and the district is quiet late so book a ride home."
+      },
+      "lowkeyScore": 3
+    }
+  ]
+}

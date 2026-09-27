@@ -1,0 +1,676 @@
+{
+  "city": "Johannesburg",
+  "country": "South Africa",
+  "slug": "johannesburg",
+  "region": "europe-africa",
+  "cityLat": -26.2041,
+  "cityLng": 28.0473,
+  "timezone": "Africa/Johannesburg",
+  "searchesRun": [
+    "Johannesburg City Library reopened 2025 opening hours Beyers Naude Square",
+    "The Wilds Houghton Johannesburg park opening hours James Delaney",
+    "Victoria Yards Lorentzville Johannesburg opening hours visitors gardens",
+    "Melville Koppies West East open daily hours access",
+    "Bridge Books Commissioner Street Johannesburg bookshop Griffin Shea",
+    "James and Ethel Gray Park Melrose wikipedia",
+    "Northcliff Ridge lookout point Johannesburg view Aasvoelkop",
+    "Thokoza Park Moroka Dam Soweto Rockville park",
+    "Bridge Books Johannesburg 98 Commissioner Street address opening hours 2025",
+    "Victoria Yards 16 Viljoen Street Lorentzville Johannesburg map location",
+    "Klipriviersberg Nature Reserve main entrance Peggy Vera Road Kibler Park gate hours",
+    "Wits Art Museum opening hours days Jorissen Street Braamfontein"
+  ],
+  "redditSourcedNotes": "Two stages. RESEARCH STAGE: eight web searches, all returned results, none of them reddit, so nothing here is reddit-sourced. Those searches confirmed the City Library's reopening (fully on 9 August 2025, Mon-Fri 9am-5pm), The Wilds' hours (6am-6pm) and exact Wikipedia URL, Victoria Yards' free entry and weekday hours, Bridge Books' move to 98 Commissioner Street, James and Ethel Gray Park's size and skyline view, Northcliff Hill as a public lookout, and Thokoza Park's location on Chris Hani Road. Melville Koppies was deliberately left out because only the East section opens daily and the entrance was uncertain. SKEPTIC STAGE: four more searches. They confirmed Klipriviersberg's entrance on Peggy Vera Road, free entry, secure parking and gate hours (6am-6pm summer, 7am-5pm winter), and its English Wikipedia URL; Victoria Yards' Saturday hours (10am-5pm) and address; Bridge Books' address (98 Commissioner Street, Marshalltown), no on-site parking, and an older Mon-Fri 9-5 listing; and Wits Art Museum's corner (Jorissen and Bertha) and free-with-donations entry, with conflicting opening days between sources. Every attempt to FETCH a page (the Wikipedia API, Nominatim geocoding, the reserve FAQ, the shops' own sites, map links) was blocked by the network egress proxy, so no source URL in this file has been opened by either stage; each URL is attached only because it appeared in a search result list, and the detailed facts above come from search-engine summaries of those pages, not from reading them. Coordinates: the eight marked high are well-known sites checked against knowledge; the six marked medium (James and Ethel Gray Park, Northcliff Hill, Klipriviersberg, Thokoza Park, Victoria Yards, Bridge Books) are the right site from knowledge but were not map-verified. Bridge Books was moved about 500 m west by street-numbering inference (Corner House is no. 77 at Simmonds Street) and stays medium. Wikipedia titles: The Wilds and Klipriviersberg are URL-confirmed; Johannesburg Botanical Garden, Zoo Lake, Walter Sisulu NBG, Constitution Hill and Wits Art Museum are from knowledge with high confidence, not URL-confirmed; the library, Thokoza Park, Victoria Yards, 44 Stanley, Northcliff Hill and James and Ethel Gray Park are null. Hours are exact only where a search gave them (The Wilds, City Library, Victoria Yards, Klipriviersberg); everything else is approximate. Safety notes describe gates, lighting, closing times, terrain and isolation only; the skeptic rewrote three (Zoo Lake, City Library, Victoria Yards) that leaned on an unsourced valuables warning or on vague advice about the surrounding streets, and left the two cautions (Northcliff Hill, Klipriviersberg) for unlit, unstaffed terrain. No spots were dropped and none added; all 14 are ordinary public places.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known JCPZ garden and dam, from knowledge; no search spent. Wikipedia title from knowledge, not URL-confirmed. Hours approximate; the dam-side lawns are effectively open dawn to dusk.",
+      "name": "Johannesburg Botanical Garden & Emmarentia Dam",
+      "neighborhood": "Emmarentia",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "water",
+        "quiet",
+        "picnic",
+        "walk",
+        "solo",
+        "group",
+        "free",
+        "sunset"
+      ],
+      "blurb": "An 80-hectare municipal garden of rose terraces, herb and succulent gardens and big open lawns running down to Emmarentia Dam, where rowers train and dogs swim. On a weekday morning the rose garden and the arboretum at the top are nearly empty, and the west-facing dam wall is where the northern suburbs come to sit and watch the sun go down. It is the closest thing Johannesburg has to a shared back garden.",
+      "tips": "Enter from Olifants Road (main gate and parking) for the rose garden, or from Thomas Bowler Avenue for the dam lawns. The Shakespeare garden and the arboretum paths are the quietest corners; the dam-side benches face the sunset. Weekend mornings are busy with parkruns and dog walkers.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 6am-6pm (check site)",
+      "lat": -26.1565,
+      "lng": 28.0035,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Johannesburg Botanical Garden",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced garden with security at the main gates; paths are unlit, so leave as the light goes and park inside the Olifants Road gate rather than on the street."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known public park, from knowledge; no search spent. Wikipedia title from knowledge, not URL-confirmed. The park is unfenced and open round the clock, but it is unlit away from the roads. Skeptic: removed a valuables line from the safety note that rested on no source; coordinates checked against knowledge of the lake and kept high.",
+      "name": "Zoo Lake",
+      "neighborhood": "Parkview / Saxonwold",
+      "category": "park",
+      "vibes": [
+        "water",
+        "green",
+        "people-watch",
+        "picnic",
+        "walk",
+        "group",
+        "solo",
+        "free"
+      ],
+      "blurb": "A large lawned park around an ornamental lake opposite the zoo, with weeping willows, rowing boats for hire and a century-old habit of families setting up for the whole afternoon. It is one of the few places in the city where every part of Johannesburg shares the same grass, and there is always a quiet stretch of bank on the far side from the boathouse. Sit under the trees on the eastern shore and watch the boats go round.",
+      "tips": "Park along Prince of Wales Terrace or Lower Park Drive and walk to the north-eastern bank, away from the boathouse and the Sunday braai crowds. The Zoo Lake bowling club and the Moyo restaurant are on site if you want a coffee; weekday afternoons are the calmest.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (unlit; use in daylight)",
+      "lat": -26.1608,
+      "lng": 28.0355,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Zoo Lake",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Open, unfenced park with busy roads on three sides and no lighting on the lawns after dark; treat it as a daytime and golden-hour spot and be off the grass by dusk."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, size (36 ha), skyline view from the North Street car park and JCPZ management confirmed by search. No English Wikipedia article appeared, so title set to null. Coordinates are for the North Street entrance from knowledge, medium confidence.",
+      "name": "James and Ethel Gray Park",
+      "neighborhood": "Melrose / Birdhaven",
+      "category": "park",
+      "vibes": [
+        "skyline",
+        "view",
+        "green",
+        "quiet",
+        "walk",
+        "solo",
+        "free",
+        "sunset"
+      ],
+      "blurb": "A hilly 36-hectare park along the Sandspruit stream between Melrose Arch and Birdhaven, originally a bird sanctuary and still full of weavers and ibis. From the top lawns by the North Street car park the whole downtown skyline stands up out of the trees, Ponte and the Hillbrow tower included, which makes it the northern suburbs' easiest skyline bench. Paths wind down through indigenous grassland to the stream and a small Katyn memorial in the middle.",
+      "tips": "Use the North Street entrance in Melrose for the view and the parking; the lower paths by the stream are where dog walkers go. Come in the late afternoon when the light hits the towers, and leave by dusk since the gates are locked overnight.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 6am-6pm (check JCPZ)",
+      "lat": -26.1372,
+      "lng": 28.0605,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.jhbcityparksandzoo.com/services-facilities/parks/find-a-park/james-ethel-gray-park",
+          "label": "Johannesburg City Parks and Zoo: James & Ethel Gray Park",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.inyourpocket.com/johannesburg/James-and-Ethel-Gray-Park_123636v",
+          "label": "In Your Pocket: James and Ethel Gray Park",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced park with gates that close at dusk; the lower stream paths are out of sight of the road, so stay on the upper lawns if you are alone late in the day."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title confirmed: en.wikipedia.org/wiki/The_Wilds_(Johannesburg) appeared in results. Hours 6am-6pm and guarded parking on Houghton Drive confirmed by In Your Pocket and joburg.co.za.",
+      "name": "The Wilds",
+      "neighborhood": "Houghton",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "green",
+        "view",
+        "skyline",
+        "walk",
+        "solo",
+        "hidden",
+        "free",
+        "sunset"
+      ],
+      "blurb": "A steep indigenous garden on two rocky ridges above Houghton, laid out in the 1930s with stone-cut paths, yellowwood groves and small ponds, and brought back to life over the last decade by artist James Delaney, whose brightly painted steel owls and other animals are dotted through the trees. The upper paths look straight across at the Hillbrow tower and the skyline, and on a weekday afternoon you can walk for an hour and meet only a dog walker. It is the most surprising quiet place in the inner city.",
+      "tips": "Park in the guarded car park on Houghton Drive and take the paths up to the west ridge for the skyline view; the east side across the road is wilder and emptier. Wear shoes for uneven stone steps. Gates close at 6pm sharp.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "6am-6pm",
+      "lat": -26.1758,
+      "lng": 28.0525,
+      "coordConfidence": "high",
+      "wikipediaTitle": "The Wilds (Johannesburg)",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Wilds_(Johannesburg)",
+          "label": "Wikipedia: The Wilds (Johannesburg)",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.inyourpocket.com/johannesburg/the-wilds_150684v",
+          "label": "In Your Pocket: The Wilds",
+          "kind": "press"
+        },
+        {
+          "url": "https://joburg.co.za/blog/meet-the-wilds-the-free-joburg-park-you-need-to-see",
+          "label": "Joburg.co.za: The Wilds",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced, with guards at the Houghton Drive car park and gates locked at 6pm; paths are steep, stony and unlit, so go in daylight and stick to the west side if you are alone."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Public lookout confirmed by search (The Citizen, My Guide, AllTrails loop); the suburb's Wikipedia article gives the ridge as 1,807 m and the city's second-highest point. Only the suburb article exists, so title set to null. Coordinates are for the water tower and lookout from knowledge, medium confidence.",
+      "name": "Northcliff Hill lookout",
+      "neighborhood": "Northcliff",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "sunset",
+        "skyline",
+        "stargaze",
+        "quiet",
+        "solo",
+        "group",
+        "free"
+      ],
+      "blurb": "A rocky ridge-top at 1,807 m beside the Northcliff water tower, the second-highest point in Johannesburg, with 360-degree views: the city skyline to the south-east, the Magaliesberg on a clear day to the north, and the whole western sprawl turning orange at sunset. It is a public koppie with informal paths and flat rocks to sit on rather than a landscaped park, which is why residents drive up with a flask and nothing else. Sunset is the point; get there half an hour early.",
+      "tips": "Drive or ride up Frederick Drive to the water tower and walk out onto the rocks on the western side for the sunset; the short ridge loop is popular with walkers. There is no lighting, water or toilets, so bring what you need and go in a pair for the sunset if you can.",
+      "bestTimes": [
+        "golden-hour",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (unlit; sunset and daylight recommended)",
+      "lat": -26.1445,
+      "lng": 27.9655,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.citizen.co.za/travel/northcliff-hill-joburgs-most-beautiful-place/",
+          "label": "The Citizen: Northcliff Hill",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.myguidejohannesburg.com/wildlife-and-nature/northcliff-ridge-ecopark",
+          "label": "My Guide Johannesburg: Northcliff Ridge Ecopark",
+          "kind": "blog"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Northcliff",
+          "label": "Wikipedia: Northcliff (suburb)",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Unfenced, unstaffed and completely unlit; the rocks are uneven and there are steep drops on the edges. Come for sunset rather than full dark, bring a light for the walk back to the car, and go with someone if you plan to stay for stars."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "SANBI national garden, from knowledge; no search spent. Wikipedia title from knowledge, not URL-confirmed. Entry fee and hours approximate. 30 km from the centre, well inside the 80 km limit.",
+      "name": "Walter Sisulu National Botanical Garden",
+      "neighborhood": "Roodepoort (Poortview)",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "water",
+        "quiet",
+        "walk",
+        "picnic",
+        "solo",
+        "group",
+        "view"
+      ],
+      "blurb": "A 300-hectare SANBI garden on the western edge of the city built around the Witpoortjie waterfall, where a pair of Verreaux's (black) eagles has nested on the cliff for decades. The cultivated gardens near the entrance are for wandering; the real quiet is on the grassland trails up the ridge and the benches below the falls, where the sound of the water covers everything else. Locals with annual passes come for an hour after work as much as for a day out.",
+      "tips": "Enter off Malcolm Road; it is a paid garden (a modest adult fee, cheaper for residents). Head for the waterfall first and then take the ridge trail for the view over the garden. There is a restaurant near the entrance. Weekend mornings are busiest; weekday afternoons are close to empty.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "roughly 8am-5pm daily (check SANBI)",
+      "lat": -26.087,
+      "lng": 27.843,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Walter Sisulu National Botanical Garden",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced, staffed and ticketed with a single entrance and secure parking; the ridge trail is rocky and exposed, so carry water and stay on marked paths."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Skeptic search confirmed: the entrance precinct is on Peggy Vera Road, Kibler Park; gates 06h00-18h00 in summer and 07h00-17h00 in winter, open 365 days; entry free; secure free parking (reserve association FAQ, via search summary). The English Wikipedia URL Klipriviersberg_Nature_Reserve appeared in results, so the title is URL-confirmed. Coordinates remain from knowledge and sit inside the reserve near its southern side rather than on the gate itself, so confidence stays medium.",
+      "name": "Klipriviersberg Nature Reserve",
+      "neighborhood": "Kibler Park / Mondeor (south)",
+      "category": "trail",
+      "vibes": [
+        "quiet",
+        "green",
+        "walk",
+        "view",
+        "hidden",
+        "solo",
+        "group",
+        "free"
+      ],
+      "blurb": "Johannesburg's largest nature reserve, nearly 700 hectares of rocky ridges, grassland and river valley in the southern suburbs, with zebra and blesbok grazing and Iron Age stone-walled ruins on the slopes. It is free, almost unknown to the northern half of the city, and the ridge-top rocks give a long view back over the mine dumps to the skyline. A short walk from the main entrance gets you a boulder with nobody in sight.",
+      "tips": "Use the main entrance and free secure parking off Peggy Vera Road in Kibler Park; entry is free and the gates are open every day. Trails are colour-marked and the shortest loop takes under an hour. The Klipriviersberg Nature Reserve Association runs guided walks on some weekends. Wear proper shoes and carry water; there are no facilities on the trails.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "6am-6pm summer, 7am-5pm winter (gate hours)",
+      "lat": -26.2975,
+      "lng": 28.019,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Klipriviersberg Nature Reserve",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Klipriviersberg_Nature_Reserve",
+          "label": "Wikipedia: Klipriviersberg Nature Reserve",
+          "kind": "other"
+        },
+        {
+          "url": "https://klipriviersberg.org.za/faqs-2/",
+          "label": "Klipriviersberg Nature Reserve Association: FAQs",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.sa-venues.com/game-reserves/klipriviersberg.php",
+          "label": "SA-Venues: Klipriviersberg Nature Reserve",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Large, unlit and mostly unstaffed with long stretches out of sight of any road; walk in a group, in daylight, and tell someone your route. Rocky paths and summer thunderstorms make the exposed ridges a poor place to be after 3pm in the wet season."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, JCPZ management, location (Chris Hani Road and Ntuli Street) and features (fountain, streams, Moroka Dam, Mandela champion tree) confirmed by search. No English Wikipedia article appeared, so title null. Coordinates from knowledge of the dam, medium confidence. Hours approximate.",
+      "name": "Thokoza Park & Moroka Dam",
+      "neighborhood": "Rockville / Moroka, Soweto",
+      "category": "park",
+      "vibes": [
+        "water",
+        "green",
+        "picnic",
+        "people-watch",
+        "group",
+        "solo",
+        "free",
+        "walk"
+      ],
+      "blurb": "Soweto's signature park: 4.5 hectares of manicured lawn, paved paths and rock-lined streams flowing down to Moroka Dam, with Soweto's first fountain, a stand of trees including one planted by Nelson Mandela, and ducks that expect to be fed. It is where Rockville families picnic and braai on Sundays and where jazz concerts and art fairs are held, but on a weekday afternoon it is a calm place to sit on the dam edge a block from Regina Mundi church.",
+      "tips": "It is on Chris Hani Road at Ntuli Street, a short walk from Regina Mundi and on the Rea Vaya bus corridor; combine it with a visit to the church. Weekends and holidays are busy and lively; go on a weekday for quiet. Sit on the dam side away from the fountain.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 6am-6pm (check JCPZ)",
+      "lat": -26.259,
+      "lng": 27.879,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.jhbcityparksandzoo.com/services-facilities/parks/find-a-park/thokoza-park",
+          "label": "Johannesburg City Parks and Zoo: Thokoza Park",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.sa-venues.com/things-to-do/gauteng/thokoza-park/",
+          "label": "SA-Venues: Thokoza Park",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.joburg.org.za/media_/Newsroom/Pages/2022%20News%20Articles/July/Madiba%E2%80%99s-tree.aspx",
+          "label": "City of Johannesburg: Madiba's tree at Thokoza Park",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced JCPZ park on a main road with gates closed overnight; the dam edge is unfenced in places and paths are unlit, so keep to daylight hours."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known heritage precinct and seat of the Constitutional Court, from knowledge; no search spent. Wikipedia title from knowledge, not URL-confirmed. Hours and the free/paid split (grounds and court foyer free, prison tours ticketed) are from knowledge and should be checked.",
+      "name": "Constitution Hill",
+      "neighborhood": "Braamfontein / Hillbrow edge",
+      "category": "museum",
+      "vibes": [
+        "quiet",
+        "view",
+        "skyline",
+        "rain-ok",
+        "solo",
+        "walk",
+        "study"
+      ],
+      "blurb": "The old Johannesburg Fort and prison complex on a ridge between Braamfontein and Hillbrow, now home to the Constitutional Court. The ticketed museum tours through the Old Fort and Number Four are heavy; the low-key part is the precinct itself, which you can walk into for nothing. The Great African Steps run between the old cell blocks and the court, and the ramparts of the Fort give a view over Hillbrow. The court foyer, with its slanted columns and hanging lamps, is one of the calmest rooms in the city.",
+      "tips": "Enter from Kotze Street; the car park is inside the precinct. Ask at the visitor centre which areas are free that day, since the court and gardens are usually open to walk through while the prison exhibitions need a ticket. Weekday afternoons are quiet; court sittings are open to the public.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly 9am-5pm daily (check site)",
+      "lat": -26.19,
+      "lng": 28.042,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Constitution Hill, Johannesburg",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, gated precinct with security and on-site parking; it closes in the late afternoon, so plan your ride from inside the grounds rather than walking to transit after dark."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Skeptic search confirmed the museum is at the corner of Jorissen and Bertha Streets, Braamfontein, free with donations, and closed for a period over Christmas and on Good Friday and Workers' Day; opening days conflict between sources (Wed-Sun 10-4 vs Tue-Sat 10-4). Coordinates for that corner from knowledge, high. Wikipedia title kept from knowledge with reasonable confidence; the Wikipedia API was blocked by the network proxy so it is not URL-confirmed.",
+      "name": "Wits Art Museum (WAM)",
+      "neighborhood": "Braamfontein",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "cozy",
+        "study",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "The University of the Witwatersrand's free public art museum in a glass-fronted building on Jorissen Street, holding one of the largest collections of African art on the continent and rotating exhibitions of contemporary South African work. It is rarely busy, the galleries are cool and hushed, and there are benches in front of the big pieces. A small café by the entrance makes it an easy hour out of the rain in the middle of Braamfontein.",
+      "tips": "Entry is free (donations welcome); sign in at the desk. Combine it with a walk around the Braamfontein student cafés on Juta and De Beer Streets. Check the website for current opening days before going: recent listings say Wednesday to Sunday, older ones Tuesday to Saturday, and it is never open every day.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Wed-Sun 10am-4pm per recent listings (older ones say Tue-Sat; check site)",
+      "lat": -26.1922,
+      "lng": 28.0325,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Wits Art Museum",
+      "sources": [
+        {
+          "url": "https://www.sa-venues.com/things-to-do/gauteng/visit-wits-art-museum/",
+          "label": "SA-Venues: Wits Art Museum",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.gauteng.net/attractions/wits-art-museum/",
+          "label": "Gauteng Tourism: Wits Art Museum",
+          "kind": "official"
+        },
+        {
+          "url": "https://whatsoninjoburg.com/event/wits-art-museum/",
+          "label": "What's on in Joburg: Wits Art Museum",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public museum on a busy campus-edge street; it closes in the late afternoon, and the Braamfontein Gautrain station and Rea Vaya stops are a few minutes' walk in daylight."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed a partial reopening in March 2025 and full reopening on 9 August 2025 after a five-year closure, with hours Mon-Fri 9am-5pm (In Your Pocket, CS Monitor, EWN, JDA). I am not confident of the exact English Wikipedia title for the building, so title set to null. Coordinates for Beyers Naude Square from knowledge. Skeptic: rewrote the safety note so it rests on the closing time and how fast the square empties, not on a vague warning about side streets.",
+      "name": "Johannesburg City Library",
+      "neighborhood": "CBD (Beyers Naude Square)",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "cozy",
+        "solo",
+        "free"
+      ],
+      "blurb": "The city's 1935 central library on Beyers Naude Square, a grand Italianate building with a marble staircase, high reading rooms and a huge Africana collection, closed for five years and fully reopened in August 2025 after civil-society pressure and a long refurbishment. It is once again free to walk in, find a desk under the tall windows and read for an afternoon in the middle of downtown. The reference and reading rooms are quiet in a way the streets outside are not.",
+      "tips": "Entrance is on Beyers Naude Square at the corner of Albertina Sisulu and Pixley ka Isaka Seme Streets; bring ID if you want a card, but reading and sitting need nothing. It is a weekday-only building, closing at 5pm. The Gandhi Square bus terminus is a few blocks south.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Fri 9am-5pm, closed weekends",
+      "lat": -26.2047,
+      "lng": 28.0405,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.inyourpocket.com/johannesburg/visiting-the-johannesburg-city-library-august-2025_80793f",
+          "label": "In Your Pocket: Visiting the Johannesburg City Library (Aug 2025)",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.csmonitor.com/World/Africa/2025/0620/johannesburg-city-library-closure-reopening",
+          "label": "CS Monitor: central library reopens",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.jda.org.za/johannesburg-city-library-reopens-after-major-upgrades-celebrating-90-years-of-knowledge-and-culture/",
+          "label": "Johannesburg Development Agency: library reopens",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed building with security at the door and bag checks; it closes at 5pm and the streets around Beyers Naude Square empty out quickly once the offices shut, so plan to leave in daylight and head straight for the Gandhi Square or Park Station transit hubs, both a few blocks away."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Skeptic search confirmed the address 16 Viljoen Street, Lorentzville 2094, secure off-street parking, and hours Mon-Fri 9-5, Sat 10-5, Sun 10-4 (search summary of In Your Pocket / Lonely Planet). Map pages that would have given exact coordinates were blocked by the network proxy, so the coordinates stay from knowledge at medium confidence; they are within a few hundred metres of the yard. No English Wikipedia article known (only the suburb article Lorentzville appeared).",
+      "name": "Victoria Yards",
+      "neighborhood": "Lorentzville / Bertrams",
+      "category": "other",
+      "vibes": [
+        "green",
+        "cozy",
+        "quiet",
+        "hidden",
+        "solo",
+        "group",
+        "free",
+        "people-watch"
+      ],
+      "blurb": "A former laundry and industrial yard in Lorentzville turned into a working precinct of artists' studios, a bakery, a coffee roaster and long courtyards planted as a productive urban farm, with fruit trees, vegetable beds and a stream running through. Outside the first-Sunday market it is quiet: makers working behind open doors, a few people at the café tables under the trees, and nobody minding if you sit on a wall with a coffee for an hour. Entrance is free.",
+      "tips": "Come on a weekday for quiet, first Sunday of the month for the market. Park inside the secure gate at 16 Viljoen Street, Lorentzville (postcode 2094); many studios and food stalls close on weekends and holidays, so check who is open before making a special trip.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Mon-Fri 9am-5pm, Sat 10am-5pm, Sun 10am-4pm (limited trading weekends; check site)",
+      "lat": -26.1915,
+      "lng": 28.079,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.victoriayards.co.za/",
+          "label": "Victoria Yards official site",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.inyourpocket.com/johannesburg/victoria-yards_151290v",
+          "label": "In Your Pocket: Victoria Yards",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.lonelyplanet.com/south-africa/gauteng/johannesburg/attractions/victoria-yards/a/poi-sig/1587179/355617",
+          "label": "Lonely Planet: Victoria Yards",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated precinct with security and off-street parking inside the gate; it closes by 5pm and the approach along Viljoen Street is a quiet block of workshops with little foot traffic and no shops, so drive or ride-hail to the gate rather than walking in from a distant bus stop."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Long-running mixed-use precinct at 44 Stanley Avenue, Milpark, from knowledge; no search spent. Individual shop and café hours vary and are approximate. No Wikipedia article known.",
+      "name": "44 Stanley",
+      "neighborhood": "Milpark",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "quiet",
+        "rain-ok",
+        "green",
+        "solo",
+        "group",
+        "people-watch"
+      ],
+      "blurb": "A cluster of 1930s industrial buildings in Milpark rebuilt around a chain of shaded courtyards planted with old olive trees, with a handful of cafés, a bakery, a bookshop and design studios opening onto them. It has been running for two decades and never became a mall: on a weekday morning you can take a coffee from Bean There into the back courtyard and read undisturbed for as long as you like. Covered walkways make it usable in a thunderstorm.",
+      "tips": "Enter from Stanley Avenue or the Owl Street car park; the smaller courtyards at the back are the quietest. Most cafés open from about 8am and the precinct winds down by early evening except for the restaurants. Easy to combine with the Wits Art Museum ten minutes away.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly 8am-5pm shops, restaurants later (check each venue)",
+      "lat": -26.183,
+      "lng": 28.0185,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed precinct with guarded parking and security at the entrances; most of it closes in the early evening, so plan an evening visit around a restaurant booking."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Skeptic search re-confirmed 98 Commissioner Street, Marshalltown, no on-site parking, and an older Mon-Fri 9-5 listing; current 2025 hours did not appear. Coordinates moved about 500 m west: the researcher placed no. 98 near Eloff Street, but Commissioner Street numbers run up from the west and Corner House stands at no. 77 on the Simmonds corner, so no. 98 should be in the Simmonds-Harrison block. That is inference from street numbering, not a map fix, so confidence stays medium.",
+      "name": "Bridge Books",
+      "neighborhood": "CBD (Commissioner Street)",
+      "category": "bookstore",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "quiet",
+        "solo",
+        "study",
+        "hidden"
+      ],
+      "blurb": "An independent bookshop in the marble banking hall of the old Barclays headquarters on Commissioner Street, specialising in African writing, with new and second-hand shelves, a small café corner and regular launches. It started as one man carrying books in a rucksack to downtown street vendors and has become the literary anchor of the inner city. It is quiet in the way old banks are quiet, and nobody minds if you settle in with a book on a rainy afternoon.",
+      "tips": "It is at 98 Commissioner Street, Marshalltown, a few blocks west of Gandhi Square; check the website for current hours and for weekend openings, which change with events. There is no parking at the shop, so it suggests the downtown shuttle or an e-hailing service. Bridge Books also runs walking tours of the downtown book trade if you want company.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "roughly Mon-Fri 9am-5pm (older listing; check site for weekends)",
+      "lat": -26.205,
+      "lng": 28.038,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://bridgebooks.co.za/",
+          "label": "Bridge Books official site",
+          "kind": "official"
+        },
+        {
+          "url": "https://mg.co.za/article/2016-05-14-new-store-bridges-a-book-market-gap/",
+          "label": "Mail & Guardian: New store bridges a book market gap",
+          "kind": "press"
+        },
+        {
+          "url": "https://2summers.net/fantastic-new-bookshop-downtown-johannesburg/",
+          "label": "2Summers: Bridge Books",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.inyourpocket.com/johannesburg/bridge-books_145675v",
+          "label": "In Your Pocket: Bridge Books",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.sabooksellers.com/bridge-books-new-kid-block/",
+          "label": "SA Booksellers: Bridge Books",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed shop with a street entrance on a busy downtown block and no parking of its own; it closes in the late afternoon, so time your visit for daylight and take a ride-hail from the door or walk to the Gandhi Square bus hub while the streets are still busy."
+      },
+      "lowkeyScore": 4
+    }
+  ]
+}

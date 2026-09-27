@@ -1,0 +1,690 @@
+{
+  "city": "Shanghai",
+  "country": "China",
+  "slug": "shanghai",
+  "region": "asia-pacific",
+  "cityLat": 31.2304,
+  "cityLng": 121.4737,
+  "timezone": "Asia/Shanghai",
+  "searchesRun": [
+    "Shanghai Library East Pudong opening hours wikipedia",
+    "Duoyun Books Shanghai Tower 52nd floor bookstore opening hours reservation",
+    "Xujiahui Library 徐家汇书院 Zikawei Library opening hours public",
+    "Jing'an Sculpture Park Shanghai wikipedia",
+    "West Bund Xuhui riverside Shanghai wikipedia",
+    "Sinan Books Sinan Mansions Shanghai bookstore opening hours",
+    "Sheshan National Forest Park Songjiang opening hours ticket wikipedia",
+    "Guyi Garden Nanxiang Jiading opening hours ticket wikipedia",
+    "Shanghai Library East Hehuan Road Pudong address Century Park location",
+    "Fuxing Park Zhongshan Park Shanghai 24 hours open all night parks list",
+    "Zhongshan Park Shanghai Jessfield Park wikipedia",
+    "\"Shanghai Corniche\" Xuhui riverside wikipedia"
+  ],
+  "redditSourcedNotes": "Research stage ran 8 searches, all on the newest or most doubtful entries; the classic parks, the Power Station of Art, North Bund and Yangpu Riverside were written from prior knowledge. Skeptic stage had a cap of 4 searches and spent them on: (1) Shanghai Library East's location, confirmed at 300 Hehuan Road near Yingchun Road beside Century Park (SmartShanghai), hours matching the draft; (2) the 24-hour claim for Fuxing and Zhongshan parks: a Shanghai Daily report confirms Zhongshan Park is open 24h, so its hours were set to 24h, while Fuxing Park was only described as having extended hours, so it stays hedged; (3) \"Zhongshan Park (Shanghai)\" confirmed as an exact en.wikipedia URL; (4) \"Shanghai Corniche\" confirmed as an exact en.wikipedia URL for the Xuhui riverside. Titles still kept on knowledge alone, not URL-confirmed in either stage: Fuxing Park, Shanghai Botanical Garden, Guyi Garden, Power Station of Art. Titles set null for lack of a matching article: Shanghai Library East (only \"Shanghai Library\"), Zikawei Library (the \"Bibliotheca Zi-Ka-Wei\" article is the adjacent 1847 building), North Bund, Yangpu Riverside, Sinan Books, Duoyun Books, Sheshan. Skeptic coordinate corrections: Fuxing Park moved about 400 m east because the draft point fell west of Sinan Road outside the park; Yangpu Riverside nudged onto the promenade and its text corrected (Puxi bank, not east bank; Jiangpu Park is Line 18 only). The riverside promenades remain chosen points on multi-kilometre strips, marked medium. No reddit threads were read for this city in either stage; every source URL appeared in a real search result list, and spots with empty sources (Botanical Garden, Power Station of Art, North Bund, Yangpu Riverside) had none returned. Hours for the Botanical Garden, Power Station of Art and Jing'an Sculpture Park are from knowledge only; Sinan Books and Duoyun Books have conflicting published hours, flagged in each entry. Safety notes were reviewed against the standard: all rest on lighting, closing times, terrain, water edges or distance to transit, none on people or neighbourhood reputation; Sheshan is the only caution, for unlit steep steps and gates that close in the late afternoon.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Long-established public park. Skeptic moved the coordinate east: the park lies between Sinan Road (west) and Chongqing South Road (east), and the draft's 121.4652 fell west of Sinan Road. A search confirmed it is on Shanghai's extended-hours list but did not explicitly say 24h, so hours stay hedged. Wikipedia title from knowledge, not URL-confirmed.",
+      "name": "Fuxing Park (复兴公园)",
+      "neighborhood": "Huangpu (former French Concession)",
+      "category": "park",
+      "vibes": [
+        "green",
+        "people-watch",
+        "quiet",
+        "solo",
+        "group",
+        "free",
+        "walk"
+      ],
+      "blurb": "A 1909 French-laid-out park of plane-tree avenues, a formal rose parterre and a small lake, wedged between Sinan Road and Chongqing South Road. It is where the neighbourhood actually lives: card games under the trees, ballroom dancing on the plaza in the morning, retirees with thermoses on every bench, and by mid-afternoon whole shaded corners with nobody in them. The tall trees cut the traffic noise almost completely.",
+      "tips": "Enter from Gaolan Road or Fuxing Middle Road and head for the benches along the sunken rose garden or the far north-east corner, which stays quiet after the morning dancers leave. Sinan Books and the Sinan Mansions cafes are across the road for rain.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "extended hours, reported 24h by some listings (check locally)",
+      "lat": 31.22,
+      "lng": 121.469,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Fuxing Park",
+      "sources": [
+        {
+          "url": "https://www.citynewsservice.cn/articles/shanghaidaily/in-focus/the-night-owls-are-out-in-shanghai-parks-as-city-green-spaces-open-247-bme36bgn",
+          "label": "Shanghai Daily / City News Service: parks open 24/7",
+          "kind": "press"
+        },
+        {
+          "url": "https://us.trip.com/travel-guide/attraction/shanghai/fuxing-park-78448/",
+          "label": "Trip.com: Fuxing Park hours",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit main paths, busy with locals from dawn, and surrounded by well-lit residential streets; the lake edge is low and unfenced in places."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Long-established public park above Zhongshan Park metro (lines 2/3/4); coordinates from knowledge. Skeptic search confirmed the en.wikipedia article \"Zhongshan Park (Shanghai)\" by URL and confirmed 24-hour opening (Shanghai Daily report on the 24/7 park programme).",
+      "name": "Zhongshan Park (中山公园)",
+      "neighborhood": "Changning",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "solo",
+        "people-watch",
+        "free",
+        "picnic"
+      ],
+      "blurb": "The old Jessfield Park, a large English-style park in Changning with a lawn ringed by 150-year-old plane trees, a rose garden, a small lake and a lot of shade. It is far enough from the tourist circuit that almost everyone here lives within a few stops on the metro, and on weekday afternoons the western lawns and the paths behind the lake are close to empty. A good place to read for an hour under a big tree.",
+      "tips": "Exit the metro at Zhongshan Park and walk in through the Changning Road gate; the great lawn is straight ahead and the quieter benches are along the lake on the western side. Weekend mornings bring dance and tai chi groups, so come after lunch if you want silence.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 31.221,
+      "lng": 121.4195,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Zhongshan Park (Shanghai)",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Zhongshan_Park_(Shanghai)",
+          "label": "Wikipedia: Zhongshan Park (Shanghai)",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.citynewsservice.cn/articles/shanghaidaily/in-focus/the-night-owls-are-out-in-shanghai-parks-as-city-green-spaces-open-247-bme36bgn",
+          "label": "Shanghai Daily / City News Service: Zhongshan Park open 24h",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.lonelyplanet.com/china/shanghai/west-shanghai/attractions/zhongshan-park/a/poi-sig/369579/1336080",
+          "label": "Lonely Planet: Zhongshan Park",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Open 24h with lit main avenues and a staffed gate by the metro; the paths behind the lake are dimmer after dark, so stay on the lit loop if you come late."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title confirmed by search result URL en.wikipedia.org/wiki/Jing'an_Sculpture_Park; existence, free access and the Natural History Museum on site confirmed. Hours from knowledge, park is largely ungated.",
+      "name": "Jing'an Sculpture Park (静安雕塑公园)",
+      "neighborhood": "Jing'an",
+      "category": "park",
+      "vibes": [
+        "green",
+        "night",
+        "people-watch",
+        "solo",
+        "free",
+        "walk",
+        "skyline"
+      ],
+      "blurb": "A flat, open sculpture park behind the Shanghai Natural History Museum, laid out with lawns, a long line of ginkgo trees and a rotating collection of large outdoor sculptures. Office workers from the towers on Beijing West Road eat lunch here and the lawns stay open and lit into the evening, which makes it one of the easier central places to sit outside after dark. Nobody is selling anything and nothing is roped off.",
+      "tips": "Take metro line 13 to Natural History Museum and walk out onto the lawns; the benches along the ginkgo avenue on the Shimen Er Road side are the quietest. In autumn the ginkgos turn yellow and the park fills at weekends, so go on a weekday.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 6am-10pm, largely ungated (check locally)",
+      "lat": 31.234,
+      "lng": 121.467,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Jing'an Sculpture Park",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jing'an_Sculpture_Park",
+          "label": "Wikipedia: Jing'an Sculpture Park",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.smartshanghai.com/venue/11424/jingan_sculpture_park",
+          "label": "SmartShanghai: Jing'an Sculpture Park",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.lonelyplanet.com/china/shanghai/jingan/attractions/jing-an-sculpture-park/a/poi-sig/1538621/1325937",
+          "label": "Lonely Planet: Jing'an Sculpture Park",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Open, flat and well lit, with wide sightlines to busy Beijing West Road and the museum plaza; fine solo in the evening."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Long-established paid public garden at 1111 Longwu Road; entry fee and hours from knowledge (15 CNY main gate, roughly 7am-5pm). Coordinates are the middle of a large site. Wikipedia title kept from knowledge, not URL-confirmed.",
+      "name": "Shanghai Botanical Garden (上海植物园)",
+      "neighborhood": "Xuhui (Longhua / Longwu Road)",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "solo",
+        "picnic",
+        "water",
+        "hidden"
+      ],
+      "blurb": "An 80-hectare botanical garden in the south of Xuhui with a bonsai garden, a bamboo grove, magnolia and cherry collections and long lawns beside a stream. Because it charges a small fee and sits well off the tourist map, weekday afternoons are nearly silent apart from birds and the occasional gardener. The bonsai courtyard and the benches along the stream in the east are the places to sit with a book.",
+      "tips": "Take metro line 3 to Shilong Road or line 12 to Longcao Road; the main gate is on Longwu Road. Basic entry is around 15 CNY (the conservatory costs extra). Cherry season in late March and the autumn maples draw crowds, so avoid weekends then. It closes around 5pm, earlier than most parks.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "roughly 7am-5pm (check site)",
+      "lat": 31.15,
+      "lng": 121.448,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Shanghai Botanical Garden",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Gated, ticketed and staffed; closes around 5pm, so plan the walk back to the metro before the gates shut."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, 12 CNY ticket, address (218 Huyi Highway, Nanxiang) and gate hours confirmed by search. Coordinates from knowledge of Nanxiang town, marked medium. Wikipedia title \"Guyi Garden\" kept on confidence from knowledge; no en.wikipedia URL appeared in results.",
+      "name": "Guyi Garden (古猗园)",
+      "neighborhood": "Jiading (Nanxiang)",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "green",
+        "water",
+        "walk",
+        "solo",
+        "hidden",
+        "cozy"
+      ],
+      "blurb": "A Ming-dynasty classical garden in Nanxiang, Jiading, famous for its bamboo groves, lotus ponds, covered walkways and a pavilion with a deliberately missing corner. It gets a fraction of the visitors of Yu Garden downtown and is many times larger, so on a weekday you can have a whole pond pavilion to yourself. Locals come for the morning walk and stay for xiaolongbao, which were invented in the town outside the gate.",
+      "tips": "Take metro line 11 to Nanxiang and walk or take a short taxi to the south gate on Huyi Highway; entry is about 12 CNY. Head to the eastern half beyond the lotus pond for the quietest pavilions. Gates close around 6:30pm in summer and earlier in winter.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "south gate roughly 7am-6:30pm (Mar-Nov), to 7pm winter (check site)",
+      "lat": 31.2958,
+      "lng": 121.3212,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Guyi Garden",
+      "sources": [
+        {
+          "url": "https://www.trip.com/travel-guide/attraction/shanghai/guyi-garden-91536/",
+          "label": "Trip.com: Guyi Garden hours and tickets",
+          "kind": "other"
+        },
+        {
+          "url": "https://chinatripedia.com/guyi-garden-ticket-opening-hours-highlights-and-tips/",
+          "label": "Chinatripedia: Guyi Garden",
+          "kind": "blog"
+        },
+        {
+          "url": "https://almostlanding.com/nanxiang-ancient-town-shanghai-china/",
+          "label": "Almost Landing: Nanxiang and Guyi Garden",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated, ticketed and staffed; stone paths and pond edges are uneven and unrailed in places, so watch your footing, and leave before the gates close."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence and public access confirmed by search. The en.wikipedia article \"Shanghai Corniche\" was confirmed by URL in both stages and describes this exact Xuhui riverside (8.5 km former industrial frontage, Rihui Port to Xupu Bridge), so used. Coordinates are a chosen point near the Long Museum on a multi-kilometre strip, marked medium.",
+      "name": "West Bund Riverside (徐汇滨江)",
+      "neighborhood": "Xuhui (West Bund)",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunset",
+        "walk",
+        "skyline",
+        "people-watch",
+        "night",
+        "free",
+        "group"
+      ],
+      "blurb": "An eight-kilometre riverside promenade on the Puxi bank south of Lupu Bridge, built over old docks and a coal wharf and now the closest thing Shanghai has to a public living room on the water. There are lawns, a skate park, climbing walls, the Long Museum and West Bund Museum, and long stretches of steps down to the Huangpu where people just sit and watch the barges go by. It is popular, but the strip is so long that quiet is never far.",
+      "tips": "Take metro line 11 to Yunjin Road and walk east to the river, or line 7 to Longhua Middle Road; the sections north of the Long Museum toward the old crane gantries are quieter than the museum lawns. The steps face east across the river, so mornings are calm and evenings get the lit-up Pudong towers.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 31.179,
+      "lng": 121.4635,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Shanghai Corniche",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Shanghai_Corniche",
+          "label": "Wikipedia: Shanghai Corniche",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.meet-in-shanghai.net/en/xuhui-district/xuhui-riverside-west-bund-733955/",
+          "label": "Meet in Shanghai: Xuhui Riverside (West Bund)",
+          "kind": "official"
+        },
+        {
+          "url": "https://greatruns.com/shanghai-xuhui-riverside-open-space/",
+          "label": "Great Runs: West Bund / Xuhui Riverside",
+          "kind": "blog"
+        },
+        {
+          "url": "http://en.xuhui.gov.cn/Riverside.aspx",
+          "label": "Xuhui District government: Riverside",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit promenade with people around until late; the lower river steps are unfenced and slippery when wet, so keep back from the edge in the dark, and watch for cyclists on the shared path."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Finished, municipally run public riverside (former dock and factory land converted 2017-2019), written from knowledge; no search budget spent in either stage so sources empty. Skeptic corrected the draft's \"east bank\" (Yangpu is on the Puxi side) and the metro line (Jiangpu Park is Line 18 only), and nudged the coordinate north-west onto the promenade between the Qinhuangdao Road pier and Yangpu Bridge; still a chosen point on a 5 km strip, so medium. No English Wikipedia article known, title null.",
+      "name": "Yangpu Riverside (杨浦滨江)",
+      "neighborhood": "Yangpu",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "walk",
+        "quiet",
+        "sunset",
+        "skyline",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "The long Puxi-bank stretch of the Huangpu north-east of the Bund, where a century of textile mills, a waterworks and a fishery pier have been turned into a public promenade of boardwalks, rusted crane sculptures and planted rail tracks. It draws far fewer people than the West Bund or Lujiazui, so on most evenings you can find a bench facing the river with nobody within fifty metres. Old factory walls and new lawns sit side by side.",
+      "tips": "Take metro line 18 to Jiangpu Park or line 4/12 to Dalian Road and walk south to the river, or ride the Qinhuangdao Road ferry from Pudong; the section between the ferry pier and Yangpu Bridge has the most benches. The promenade is long with few cafes, so bring water.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 31.2575,
+      "lng": 121.5345,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit boardwalk, but long stretches between exits and few people late at night; the river edge is railed on most but not all sections, so stay on the main path after dark."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Public riverside green belt on the Hongkou side of the Huangpu, written from knowledge; no search budget spent so sources empty. Coordinates are a point on the promenade near the cruise terminal, marked medium. An en.wikipedia article on the North Bund district may exist but is not about this promenade specifically, so title null.",
+      "name": "North Bund Riverside (北外滩滨江)",
+      "neighborhood": "Hongkou (North Bund)",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "skyline",
+        "water",
+        "night",
+        "sunset",
+        "walk",
+        "free",
+        "people-watch"
+      ],
+      "blurb": "The riverside walkway east of the Waibaidu Bridge, on the Hongkou bank, looking straight across the Huangpu at the Lujiazui towers from a wider angle than the Bund itself. It has the same view as the Bund with a small fraction of the crowd: the promenade runs past the cruise terminal and a broad lawn with benches, and after the light show people drift away and leave it to joggers and couples. This is where locals bring visiting friends when they cannot face the Bund.",
+      "tips": "Walk north across the Waibaidu Bridge from the Bund and keep to the river, or take metro line 12 to International Cruise Terminal and walk south; the grassy terraces beside the terminal have the best sitting. The Pudong lights switch off around 10pm, so arrive before then for the full skyline.",
+      "bestTimes": [
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 31.245,
+      "lng": 121.4935,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit, railed promenade with people around until late and lit streets a short walk inland; the terraces are open to the wind off the river."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence and hours confirmed by search (floors 1-3 Mon 1:30-8:30pm, Tue-Sun 9am-8:30pm; floors 4-7 Tue-Sun 9am-5pm). Skeptic search confirmed the address as 300 Hehuan Road near Yingchun Road, beside Century Park, walkable from Line 18 Yingchun Road exit 4 and Line 2 Science and Technology Museum exit 3; the coordinate matches that block but is not pinned to the entrance, so stays medium. No en.wikipedia article for the East branch appeared, title null.",
+      "name": "Shanghai Library East (上海图书馆东馆)",
+      "neighborhood": "Pudong (Huamu / Century Park)",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "cozy",
+        "solo",
+        "free",
+        "green"
+      ],
+      "blurb": "A vast new public library opened in 2022 on the edge of Century Park, a pale glass and stone block with tall reading halls, a central atrium and thousands of seats on seven floors. Entry is free with any ID scanned at the gate, and you can sit all day with a laptop or a book without borrowing anything. The upper floors and the reading terraces looking over the park are where residents come to disappear for an afternoon.",
+      "tips": "Take metro line 18 to Yingchun Road (exit 4) or line 2 to Shanghai Science and Technology Museum (exit 3) and walk to 300 Hehuan Road; bring ID to scan in. Floors 1-3 open into the evening, the upper floors close at 5pm. Century Park is next door if you want to take your book outside afterwards.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "floors 1-3: Mon 1:30-8:30pm, Tue-Sun 9am-8:30pm; floors 4-7: Tue-Sun 9am-5pm",
+      "lat": 31.2175,
+      "lng": 121.5495,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.smartshanghai.com/venue/28735/shanghai_library_east_branch",
+          "label": "SmartShanghai: Shanghai Library East Branch (address)",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.library.sh.cn/en/service/promiss/82932",
+          "label": "Shanghai Library: opening hours",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g308272-d33279876-Reviews-Shanghai_Library_East_Hall-Shanghai.html",
+          "label": "Tripadvisor: Shanghai Library East Hall",
+          "kind": "forum"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Shanghai_Library",
+          "label": "Wikipedia: Shanghai Library (main article)",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building with security at the entrance; the surrounding Century Park streets are wide and lit, and the metro is a few minutes' walk."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, free entry, address (158 Caoxi North Road) and hours (Tue-Sun 9am-9pm, closed Mon) confirmed by search. The en.wikipedia article \"Bibliotheca Zi-Ka-Wei\" found in results is the historic 1847 Jesuit library next door, not this 2023 building, so title null. Coordinates from knowledge of the block south of Xujiahui Cathedral.",
+      "name": "Zikawei Library (徐家汇书院)",
+      "neighborhood": "Xuhui (Xujiahui)",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "study",
+        "quiet",
+        "cozy",
+        "solo",
+        "free",
+        "people-watch"
+      ],
+      "blurb": "Xuhui's district library, opened in 2023 beside Xujiahui Cathedral, with a bright three-storey atrium, long sunlit reading tables and a cafe on the ground floor. It is free to walk into and has become the neighbourhood's default place to read, revise or simply sit out of the rain, so it is busy but hushed. From the upper windows you look out at the cathedral spires.",
+      "tips": "Take metro line 1, 9 or 11 to Xujiahui and exit toward the cathedral; the library is the new building just south of it on Caoxi North Road. Closed Mondays. Weekend afternoons can hit capacity, so come on a weekday morning for a window seat, and check whether reservation is required on that day.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Tue-Sun 9am-9pm (last entry 8:30pm), closed Mon",
+      "lat": 31.1922,
+      "lng": 121.434,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.smartshanghai.com/venue/28400/zikawei_library",
+          "label": "SmartShanghai: Zikawei Library",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.trip.com/travel-guide/attraction/shanghai/zikawei-library-136023014/",
+          "label": "Trip.com: Zikawei Library hours",
+          "kind": "other"
+        },
+        {
+          "url": "https://shanghaideeptour.com/guide-to-xujiahui-library-the-most-beautiful-library-in-shanghai/",
+          "label": "Shanghai Deep Tour: Guide to Xujiahui Library",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building in a busy, well-lit transit hub; open until 9pm with the metro at the door."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence and address (517 Fuxing Middle Road, the Sinan Mansions villa) confirmed by search; published hours conflict (10am-8pm daily vs 10am-6pm closed Mon), so hours flagged. Coordinates from knowledge of the Sinan Road corner. No English Wikipedia article, title null.",
+      "name": "Sinan Books (思南书局)",
+      "neighborhood": "Huangpu (Sinan Road)",
+      "category": "bookstore",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "quiet",
+        "solo",
+        "study",
+        "hidden"
+      ],
+      "blurb": "A four-storey bookshop in a 1920s villa at Sinan Mansions, done in dark green and red with a small London Review Bookshop corner and reading chairs tucked into window bays on every floor. It is a shop, but nobody minds if you sit with a book for an hour, and the top floor with its slanting roof and armchairs is as quiet as a library. Fuxing Park is directly across the road for when the sun comes back out.",
+      "tips": "Enter from Fuxing Middle Road at the Sinan Road corner; the third and fourth floors are the quietest and have the reading chairs. There is a small cafe counter. Opening hours are published inconsistently (some listings say closed Monday), so check before a special trip.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "roughly 10am-8pm; some listings say 10am-6pm and closed Mon (check)",
+      "lat": 31.2175,
+      "lng": 121.4665,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.smartshanghai.com/venue/15360/sinan_books_fuxing_zhong_lu",
+          "label": "SmartShanghai: Sinan Books",
+          "kind": "other"
+        },
+        {
+          "url": "https://english.shanghai.gov.cn/en-BookstoresLibraries/20231221/8576791e48014165a74d8be2d17640b6.html",
+          "label": "Shanghai Municipal Government: Sinan Books",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.timeoutshanghai.com/venue/Books-Bookshops/68286/Sinan-Books.html",
+          "label": "Time Out Shanghai: Sinan Books",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed shop on a lit, well-used street; the villa's stairs are steep and narrow."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence on the 52nd floor of Shanghai Tower and WeChat reservation requirement (account 世纪朵云) confirmed by search; published hours conflict (10am-9pm vs 10:30am-8pm). Coordinates are the Shanghai Tower footprint, high confidence. No English Wikipedia article for the shop, title null.",
+      "name": "Duoyun Books at Shanghai Tower (朵云书院·旗舰店)",
+      "neighborhood": "Pudong (Lujiazui)",
+      "category": "bookstore",
+      "vibes": [
+        "view",
+        "skyline",
+        "rain-ok",
+        "cozy",
+        "sunset",
+        "night",
+        "solo",
+        "study"
+      ],
+      "blurb": "A 2,200-square-metre bookshop and cafe on the 52nd floor of Shanghai Tower, 239 metres up, with floor-to-ceiling windows over the Huangpu and the Bund and long reading counters set right against the glass. Entry is free, which makes it the cheapest high view in the city by a wide margin, and once the tour-group hour passes it settles into a hush of people reading with the clouds outside. Sunset from the west windows is the reason locals book it.",
+      "tips": "Reserve a free time slot in advance through the Duoyun WeChat account (世纪朵云), then take the dedicated lift from the tower's lower lobby; bring ID. Window counters are first come, so arrive at the start of your slot. Hours are published inconsistently, so check the day's closing time when you book.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "roughly 10am-8pm or 9pm, timed reservation required (check)",
+      "lat": 31.2356,
+      "lng": 121.5015,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://english.shanghai.gov.cn/en-BookstoresLibraries/20231219/cbd9d4d9faeb41e29e0b3e23441c8e10.html",
+          "label": "Shanghai Municipal Government: Duoyun Bookstore",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.timeoutshanghai.com/venue/Books-Bookshops/69571/Duoyun-Books.html",
+          "label": "Time Out Shanghai: Duoyun Books",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.trip.com/travel-guide/attraction/shanghai/duoyun-academy-flagship-store-136451143/",
+          "label": "Trip.com: Duoyun flagship store hours",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed venue inside a secured office tower with bag screening at the lift lobby; Lujiazui streets and the metro are lit and busy until late."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Long-established public museum in a former power station on the Huangpu, written from knowledge; free general admission and Tue-Sun 11am-7pm hours from knowledge, not URL-confirmed. Wikipedia title kept from knowledge. Coordinates from knowledge of the site south of Nanpu Bridge.",
+      "name": "Power Station of Art (上海当代艺术博物馆)",
+      "neighborhood": "Huangpu (South Bund / Miaojiang Road)",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "view",
+        "water",
+        "solo",
+        "free",
+        "cozy"
+      ],
+      "blurb": "China's first state-run contemporary art museum, housed in a 1985 power station with its 165-metre chimney still standing, on the Puxi bank just south of Nanpu Bridge. General admission to the permanent floors is free, the halls are enormous and echoing, and the upper-floor terraces and cafe look out over the river to Pudong. Even on a wet weekend the top floors are quiet enough to read in.",
+      "tips": "Take metro line 4 or 8 to Xizang South Road and walk east about 15 minutes, or arrive along the riverside path from the South Bund. Closed Mondays; special exhibitions sometimes charge. The riverside terrace and the seventh-floor cafe are the sitting spots, and the promenade outside faces east for the evening lights.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Tue-Sun 11am-7pm, closed Mon (check site)",
+      "lat": 31.192,
+      "lng": 121.486,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Power Station of Art",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed museum with bag checks; the riverside outside is lit and railed. The 15-minute walk to Xizang South Road metro is on lit streets with little foot traffic after the 7pm close, so plan the route home before you leave."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, free entry and roughly 8am-5pm hours confirmed by search (address 9142 Qingsong Road, Songjiang). Coordinates are the basilica hilltop from knowledge, marked medium. No en.wikipedia URL appeared for the forest park, and the basilica article is a different subject, so title null.",
+      "name": "Sheshan National Forest Park (佘山国家森林公园)",
+      "neighborhood": "Songjiang (Sheshan)",
+      "category": "trail",
+      "vibes": [
+        "green",
+        "quiet",
+        "view",
+        "walk",
+        "solo",
+        "free",
+        "sunrise"
+      ],
+      "blurb": "The only real hills in Shanghai, a pair of forested 100-metre bumps 30 km west of the centre, with a stone path winding up West Sheshan through bamboo and camphor to a red-brick Catholic basilica and an old observatory on top. It is where residents go when they need trees and a horizon; on a weekday the path up is nearly empty and the benches below the basilica look out over Songjiang's lakes and flat farmland. Bring lunch and you can sit up there for hours.",
+      "tips": "Take metro line 9 to Sheshan station and a short bus or taxi to the West Sheshan gate on Qingsong Road; entry to the forest park is free, the observatory museum charges a small fee. Start early, since the path and the hilltop close in the late afternoon and the last light through the trees is the best part. Wear proper shoes, the stone steps are steep.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 8am-5pm, last entry 4pm (check site)",
+      "lat": 31.0965,
+      "lng": 121.1895,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.trip.com/travel-guide/attraction/shanghai/sheshan-national-forest-park-92115/",
+          "label": "Trip.com: Sheshan National Forest Park hours and tickets",
+          "kind": "other"
+        },
+        {
+          "url": "https://chinatripedia.com/sheshan-forest-park-shanghai-ticket-opening-hours-highlights-and-tips/",
+          "label": "Chinatripedia: Sheshan Forest Park",
+          "kind": "blog"
+        },
+        {
+          "url": "https://en.gotravellingworld.com/a-day-trip-to-sheshan-national-forest-park/",
+          "label": "Go Travelling World: Sheshan day trip",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Forested hill with steep, unlit stone steps and gates that close in the late afternoon; go in daylight, allow time to get back down before closing, and plan the bus or taxi back to the metro in advance."
+      },
+      "lowkeyScore": 4
+    }
+  ]
+}

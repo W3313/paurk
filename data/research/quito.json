@@ -1,0 +1,664 @@
+{
+  "city": "Quito",
+  "country": "Ecuador",
+  "slug": "quito",
+  "region": "americas",
+  "cityLat": -0.1807,
+  "cityLng": -78.4678,
+  "timezone": "America/Guayaquil",
+  "searchesRun": [
+    "Parque Itchimbía Quito Palacio de Cristal wikipedia horario",
+    "Jardín Botánico de Quito horario entrada precio La Carolina",
+    "Parque Metropolitano Guangüiltagua Quito wikipedia horario ingreso",
+    "Centro Cultural Metropolitano Quito biblioteca horario García Moreno",
+    "Café Libro Quito Leonidas Plaza La Mariscal abierto",
+    "Cumandá Parque Urbano Quito horario ingreso gratuito",
+    "Capilla del Hombre Guayasamín Bellavista Quito horario precio wikipedia",
+    "Parque Bicentenario Quito antiguo aeropuerto horario wikipedia",
+    "Café Libro Quito Leonidas Plaza cierra cerró 2020",
+    "Parque Las Cuadras Quitumbe Quito dirección Rumichaca ubicación horario",
+    "Ocho y Medio cine La Floresta Valladolid Quito cafetería horario 2025",
+    "Parque Arqueológico Rumipamba Quito horario entrada gratuita Occidental Mariana de Jesús"
+  ],
+  "redditSourcedNotes": "Two stages. RESEARCH STAGE ran eight searches and confirmed from results: Parque Itchimbía (free, 5am-7pm, Palacio de Cristal on top; only a Spanish Wikipedia article, title null); Jardín Botánico de Quito hours Mon-Fri 10am-3:30pm, weekends 10am-4pm, about $4; Parque Metropolitano Guangüiltagua free, 557 ha, 5am-7pm, no English article found; Centro Cultural Metropolitano exact English article seen and free library Mon-Fri 8am-4:30pm; Cumandá Parque Urbano free, daily 8am-9pm; La Capilla del Hombre exact English article seen, daily 10am-5pm, $8; Parque Bicentenario de Quito exact English article seen, free 5am-7pm. REVIEW STAGE ran four more searches on the most doubtful items. Café Libro (Leonidas Plaza N23-56): every result across both stages was a directory listing or an article from 2013-2016 and nothing confirmed it operates today, so it was DROPPED rather than sending someone to a possibly closed door. It was replaced by the Parque Arqueológico y Ecológico Rumipamba, confirmed by results as free and open Wed-Sun 9am-4pm at Av. Occidental y Mariana de Jesús. Ocho y Medio was confirmed operating at Valladolid N24-353 with café hours from a quitotravel.ec listing. Parque Las Cuadras was confirmed to exist (24 ha, free, 5am-7pm, Av. Rumichaca y Matilde Alvarez) but no result gave a map pin, so its coordinates stay LOW confidence and should be checked against a map. From knowledge only, never URL-confirmed: La Carolina, Casa de la Cultura/MuNa, Mirador de Guápulo and Plaza de San Marcos, all with sources: []. The Wikipedia titles La Carolina Park and Casa de la Cultura Ecuatoriana are kept from knowledge at high confidence but are not URL-confirmed; the Casa de la Cultura photo will show the complex, not the MuNa rooms. Coordinates for Itchimbía, Guangüiltagua gate, Capilla del Hombre, Bicentenario, Cumandá, Guápulo, San Marcos, Rumipamba and Ocho y Medio are medium confidence (likely within a few hundred metres); the review recomputed all distances from the centre (-0.1807,-78.4678) at 0.5-15.4 km. No reddit or forum content was read for this city; every URL attached appeared in one of the twelve search results, and the review found no URL it believed invented. Hours come from results where stated and knowledge otherwise; treat all as approximate. Safety screen: 14 public parks, plazas, municipal buildings, museums and one cinema-café; none involve trespass, derelict, industrial or rail land. One safety note (Capilla del Hombre) was rewritten at review because the phrase about not walking with a bag implied a theft pattern no source supported; it now rests on the steep, unlit approach streets. Two cautions remain for physical reasons only: Guangüiltagua (unlit forest trails, few exits, 7pm close) and Itchimbía (steep, partly unlit pedestrian climb). Quito is at 2,850 m, so altitude and sun are noted as conditions.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, free entry and 5am-7pm hours confirmed via search (El Comercio patrimonio page, Quito Informa). Palacio de Cristal hours from results. Only a Spanish Wikipedia article was found, so title null. Coordinates are for the Palacio de Cristal at the hilltop from knowledge, medium confidence.",
+      "name": "Parque Itchimbía",
+      "neighborhood": "Itchimbía / above San Blas",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "skyline",
+        "sunset",
+        "green",
+        "walk",
+        "free",
+        "solo",
+        "picnic"
+      ],
+      "blurb": "A 54-hectare hilltop park directly above the old town, with a 360-degree view that takes in the Centro Histórico, El Panecillo and, on clear mornings, Cotopaxi and Cayambe. The glass-and-iron Palacio de Cristal on top, a relocated 19th-century market hall, hosts free exhibitions and gives you somewhere to shelter when the afternoon rain comes. Locals come up to run the perimeter path, fly kites in August and sit on the western grass to watch the light go orange over the domes below.",
+      "tips": "Take a taxi or the bus to the top entrance on Iquique rather than walking up from San Blas; the climb is steep. The western terraces by the Palacio face the old town for sunset, and the north-eastern edge is quietest. Bring a jacket, it is windy up here at 2,910 m.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "5am-7pm (park); Palacio de Cristal Mon-Fri 9am-5pm, Sat-Sun 10am-6pm",
+      "lat": -0.219,
+      "lng": -78.499,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://patrimonio.elcomercio.com/patrimonio-historico/parque-itchimbia/historia",
+          "label": "El Comercio patrimonio: Parque Itchimbía",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.quitoinforma.gob.ec/tag/palacio-de-cristal/",
+          "label": "Quito Informa: Palacio de Cristal",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.goraymi.com/es-ec/pichincha/quito/parques-plazas/parque-itchimbia-aa154d9c6",
+          "label": "GoRaymi: Parque Itchimbía",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "The pedestrian climb from the old town is steep with long unlit stretches; ride to the top entrance and leave before the 7pm close. Strong sun and thin air at 2,910 m, so bring water and a hat."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known central park, from knowledge only (no search budget left). Wikipedia title kept on high confidence from knowledge, not URL-confirmed. Coordinates are the park centre near the Cruz del Papa; high confidence for the park itself.",
+      "name": "Parque La Carolina",
+      "neighborhood": "La Carolina / Iñaquito",
+      "category": "park",
+      "vibes": [
+        "green",
+        "people-watch",
+        "walk",
+        "group",
+        "picnic",
+        "free",
+        "water"
+      ],
+      "blurb": "Quito's Central Park equivalent: 67 hectares of lawns, eucalyptus, a boating lake and football pitches in the middle of the modern business district, ringed by the Shyris and Amazonas towers. On weekday mornings it belongs to joggers and office workers eating lunch; on Sundays half the north of the city is here, when the adjacent avenues close for the ciclopaseo. It is not hidden, but it is where residents actually go to sit on the grass.",
+      "tips": "The quietest benches are on the eastern side along Av. Shyris and around the botanical garden; the lake and the Cruz del Papa end are busiest. Sunday mornings the Ciclopaseo closes Av. Amazonas to cars, which makes the western edge pleasant. Afternoon rain is common, so come before 2pm.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 5am-7pm (check site)",
+      "lat": -0.183,
+      "lng": -78.484,
+      "coordConfidence": "high",
+      "wikipediaTitle": "La Carolina Park",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Flat, open and busy through the day with a police post on site; the interior paths are poorly lit after dark, so stay on the avenue edges once the sun goes down. Bring water; the sun is strong at altitude."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Hours (Mon-Fri 10am-3:30pm, weekends 10am-4pm) and roughly $4 entry confirmed via search from the garden's own site and Expreso. Could not confirm the exact English Wikipedia article title, so left null. Coordinates are inside La Carolina near the Shyris/Rumipamba side, medium confidence.",
+      "name": "Jardín Botánico de Quito",
+      "neighborhood": "La Carolina",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "green",
+        "solo",
+        "cozy",
+        "rain-ok",
+        "hidden"
+      ],
+      "blurb": "A walled botanical garden inside Parque La Carolina, small enough to feel private but with a páramo garden, a wetland, a cloud-forest section and two orchid greenhouses that are the main reason locals bring visitors. A few dollars buys you an hour with hummingbirds and almost nobody else on a weekday, while the traffic on Shyris disappears behind the trees. The orchidarium is warm and dry when it rains.",
+      "tips": "Enter from the Shyris side of La Carolina; buy the ticket at the gate. Head past the orchid houses to the páramo and wetland benches at the back for the quietest sitting. It closes early in the afternoon, so go in the morning.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "Mon-Fri 10am-3:30pm, Sat-Sun 10am-4pm (check site)",
+      "lat": -0.1868,
+      "lng": -78.484,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://jardinbotanicoquito.com/en/visit-us/",
+          "label": "Jardín Botánico de Quito: Visit us",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.expreso.ec/buenavida/cuesta-entrada-jardin-botanico-quito-207215.html",
+          "label": "Expreso: entry price",
+          "kind": "press"
+        },
+        {
+          "url": "https://birdingplaces.eu/en/birdingplaces/ecuador/jardin-botanico-de-quito",
+          "label": "Birdingplaces: Jardín Botánico de Quito",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated, ticketed and staffed; paths are wheelchair-accessible and it closes mid-afternoon."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Free entry, 557 ha and 5am-7pm hours confirmed via search (La Hora, Quito Informa). No English Wikipedia article found in results, so title null. Coordinates are the main Calle Guangüiltagua entrance area in Batán Alto from knowledge, medium confidence.",
+      "name": "Parque Metropolitano Guangüiltagua",
+      "neighborhood": "Batán Alto / Bellavista",
+      "category": "trail",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "view",
+        "solo",
+        "free",
+        "sunrise",
+        "picnic"
+      ],
+      "blurb": "A 557-hectare eucalyptus forest on the ridge east of the business district, with more than 30 km of trails, clearings with picnic tables and miradores that look across the valley to Cumbayá and the Ilaló. It is the city's biggest park by far, which means that a ten-minute walk from the entrance puts you alone under the trees with only birdsong and the wind. Early morning, before the runners thin out, is when the volcanoes are clearest.",
+      "tips": "Enter at the main gate on Calle Guangüiltagua (bus or taxi from Bellavista). The short Ruta del Quilico loop (3 km) has the closest benches and miradores; the eastern viewpoints face sunrise. Take water and a layer, and stick to the marked routes.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "5am-7pm",
+      "lat": -0.1785,
+      "lng": -78.464,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.lahora.com.ec/pais/quito-conoce-parque-metropolitano-guanguiltagua-naturaleza-historia-y-diversion/",
+          "label": "La Hora: Parque Metropolitano Guangüiltagua",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.quitoinforma.gob.ec/2022/09/05/el-parque-metropolitano-guanguiltagua-es-clave-en-la-reduccion-de-emisiones-contra-el-cambio-climatico/",
+          "label": "Quito Informa: Parque Metropolitano Guangüiltagua",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Very large forested park with unlit trails, few exits and long stretches out of sight of the entrance; go in daylight, keep to the marked routes near the main gate and be out before the 7pm close. Steep terrain at over 2,900 m."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "English Wikipedia article confirmed via search (en.wikipedia.org/wiki/Centro_Cultural_Metropolitano). Free entry and library hours Mon-Fri 8am-4:30pm from Quito Informa/museosquito results; museum hours Tue-Sun 9am-4:30pm. Location García Moreno y Espejo confirmed; coordinates high confidence.",
+      "name": "Centro Cultural Metropolitano (Biblioteca Federico González Suárez)",
+      "neighborhood": "Centro Histórico",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "cozy",
+        "free",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "A former Jesuit college on the corner of the Plaza Grande, now the municipal cultural centre, with a free public library, temporary exhibitions and two stone courtyards where you can sit in the sun. The reading rooms are open to anyone without a card, and the whitewashed patios are one of the very few places in the old town where you can sit down for an hour without buying anything or being asked to move. On a wet afternoon it is the obvious refuge.",
+      "tips": "Enter from García Moreno y Espejo, just off the Plaza Grande; the library is on the upper floor and the patios are free to sit in. Library hours are weekday-only; the museum and patios also open at weekends. Bags may be checked at the door.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Library Mon-Fri 8am-4:30pm; museum Tue-Sun 9am-4:30pm (check site)",
+      "lat": -0.2207,
+      "lng": -78.513,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Centro Cultural Metropolitano",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Centro_Cultural_Metropolitano",
+          "label": "Wikipedia: Centro Cultural Metropolitano",
+          "kind": "other"
+        },
+        {
+          "url": "https://museosquito.gob.ec/espacios/centro-cultural-metropolitano/",
+          "label": "Sistema de Museos Quito: Centro Cultural Metropolitano",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.quitoinforma.gob.ec/2025/02/18/asi-se-obtiene-el-carnet-de-las-bibliotecas-municipales/",
+          "label": "Quito Informa: municipal library cards",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building on the main square with security at the door; the streets around are busy in daylight and the old town empties after shops close, so plan the trip home before dark."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Added at review stage to replace Café Libro. Search confirmed the Parque Arqueológico y Ecológico Rumipamba is a free municipal site at Av. Occidental (Mariscal Sucre) y Mariana de Jesús, open Wed-Sun and holidays 9am-4pm (Ministerio de Turismo, Sistema de Museos Quito, Patrimonio Quito). No English Wikipedia article found, title null. Coordinates are the Mariana de Jesús entrance just east of the Occidental from knowledge, medium confidence.",
+      "name": "Parque Arqueológico y Ecológico Rumipamba",
+      "neighborhood": "Rumipamba / Occidental",
+      "category": "other",
+      "vibes": [
+        "quiet",
+        "green",
+        "hidden",
+        "walk",
+        "solo",
+        "free",
+        "view"
+      ],
+      "blurb": "A 32-hectare hillside of native forest and ravine on the lower slopes of the Pichincha, wrapped around pre-Hispanic house floors, walls and tombs that were excavated in the 1990s and left in place under shelters. Interpretation rooms explain the site, but the reason to come is the three kilometres of quiet trails and benches above the city, where the traffic of the Occidental disappears within a hundred metres. Almost nobody outside the neighbourhood knows it is open to the public.",
+      "tips": "Enter from Av. Mariana de Jesús just east of Av. Occidental; sign in at the gate, entry is free. Do the upper trail loop first for the views over the north of the city, then the archaeological units on the way down. It is closed Monday and Tuesday and shuts at 4pm, so go late morning; paths are steep in places and muddy after rain.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Wed-Sun and holidays 9am-4pm; closed Mon-Tue (check site)",
+      "lat": -0.1818,
+      "lng": -78.5,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.turismo.gob.ec/museo-arqueologico-rumipamba-un-espacio-ancestral-abierto-al-publico/",
+          "label": "Ministerio de Turismo: Rumipamba",
+          "kind": "official"
+        },
+        {
+          "url": "https://museosquito.gob.ec/espacios/parque-arqueologico-y-ecologico-rumipamba/",
+          "label": "Sistema de Museos Quito: Rumipamba",
+          "kind": "official"
+        },
+        {
+          "url": "https://patrimonio.quito.gob.ec/?p=4994",
+          "label": "Patrimonio Quito: Rumipamba",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated, staffed site that closes at 4pm, so there is no after-dark question. Trails are steep, uneven and slippery after rain at about 2,900 m; wear proper shoes, carry water and keep to the marked paths near the ravine edge."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Free entry and daily 8am-9pm hours confirmed via search (Quito Informa 2025, Sistema de Museos Quito). Location on Av. 24 de Mayo in the former bus terminal confirmed. Coordinates from knowledge, medium confidence. No English Wikipedia article known, title null.",
+      "name": "Cumandá Parque Urbano",
+      "neighborhood": "Centro Histórico (La Loma / 24 de Mayo)",
+      "category": "indoor",
+      "vibes": [
+        "rain-ok",
+        "free",
+        "night",
+        "group",
+        "people-watch",
+        "view"
+      ],
+      "blurb": "The old intercity bus terminal below the Centro Histórico, converted in 2014 into a free municipal sports and culture centre: indoor courts, a pool, a climbing wall, exhibition halls and long concrete terraces that look south over the ravine towards El Panecillo. It is loud in the sports halls but the upper walkways and the terraces are calm, and it is one of very few free indoor places in the old town open into the evening.",
+      "tips": "Enter from the Av. 24 de Mayo boulevard, reached on foot from Plaza San Francisco or by the El Trole to Cumandá. The upper terraces and the library corner are the quiet spots; bring ID if you want to use the sports facilities. Open until 9pm daily.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "8am-9pm daily",
+      "lat": -0.227,
+      "lng": -78.515,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.quitoinforma.gob.ec/2025/01/24/parque-urbano-cumanda-celebra-11-anos-de-historias-y-trabajo-con-la-comunidad/",
+          "label": "Quito Informa: Cumandá 11 years",
+          "kind": "official"
+        },
+        {
+          "url": "https://museosquito.gob.ec/espacios/parque-urbano-cumanda/",
+          "label": "Sistema de Museos Quito: Parque Urbano Cumandá",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, lit municipal building with security at the entrances; the pedestrian boulevard above it is lit but quiet after shops close, so leave by the 24 de Mayo entrance and take the Trole or a taxi late."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "English Wikipedia article confirmed via search (en.wikipedia.org/wiki/La_Capilla_del_Hombre). Hours daily 10am-5pm and $8 adult entry from Visit Quito / Sistema de Museos results. Coordinates for the Bellavista site (Mariano Calvache y Lorenzo Chávez) from knowledge, medium confidence.",
+      "name": "La Capilla del Hombre",
+      "neighborhood": "Bellavista",
+      "category": "museum",
+      "vibes": [
+        "view",
+        "quiet",
+        "rain-ok",
+        "solo",
+        "skyline",
+        "green"
+      ],
+      "blurb": "Oswaldo Guayasamín's monumental gallery and his house-museum, set in a garden on the Bellavista hillside above La Carolina with a wide view west over the city to the Pichincha. The chapel itself is a dim, echoing space built for his large canvases about Latin America, and the terraced garden with the eternal flame is where you sit afterwards. It is a paid museum, not a secret, but on a weekday morning you can have the garden benches to yourself.",
+      "tips": "Take a taxi up; the streets from Bellavista are steep. The ticket covers both the chapel and the house, and the best sitting is on the garden terraces facing west, with the city below. Go early to avoid tour groups and the afternoon cloud.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "10am-5pm daily, closed some holidays (check site)",
+      "lat": -0.1843,
+      "lng": -78.4655,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "La Capilla del Hombre",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/La_Capilla_del_Hombre",
+          "label": "Wikipedia: La Capilla del Hombre",
+          "kind": "other"
+        },
+        {
+          "url": "https://visitquito.ec/travel/culture/capilla-del-hombre-y-casa-museo-guayasamin/",
+          "label": "Visit Quito: Capilla del Hombre",
+          "kind": "official"
+        },
+        {
+          "url": "https://museosquito.gob.ec/espacios/fundacion-guayasamin/",
+          "label": "Sistema de Museos Quito: Fundación Guayasamín",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Ticketed, staffed site with a gated garden. The approach streets from Bellavista are steep, with narrow or missing pavements and little street lighting, so take a taxi up and book one back rather than walking the hill."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "English Wikipedia article confirmed via search (en.wikipedia.org/wiki/Parque_Bicentenario_de_Quito). Free entry and 5am-7pm hours from EPMMOP and La Hora results. Coordinates are the middle of the former runway from knowledge, medium confidence.",
+      "name": "Parque Bicentenario",
+      "neighborhood": "La Concepción / Norte (former airport)",
+      "category": "park",
+      "vibes": [
+        "walk",
+        "sunset",
+        "view",
+        "free",
+        "group",
+        "quiet",
+        "water",
+        "skyline"
+      ],
+      "blurb": "The old Mariscal Sucre airport, closed in 2013 and turned into a 100-hectare park with the runway kept as a huge flat promenade for cyclists, skaters and walkers. There is a wetland with frogs and migrating birds, tree groves, and because nothing stands on the runway the view west to the Pichincha ridge and the sunset is uninterrupted. It is the north's park, used almost entirely by people who live nearby.",
+      "tips": "Get off the Metro at El Labrador at the southern end, or enter from Av. Amazonas or La Prensa. Walk north along the runway edge past the convention centre and sit on the western grass for sunset; the wetland benches on the east side are the quietest. It is exposed, so bring sun cover and a windbreaker.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "5am-7pm",
+      "lat": -0.141,
+      "lng": -78.488,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Parque Bicentenario de Quito",
+      "sources": [
+        {
+          "url": "https://www.epmmop.gob.ec/parques/parque-bicentenario/",
+          "label": "EPMMOP: Parque Bicentenario",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Parque_Bicentenario_de_Quito",
+          "label": "Wikipedia: Parque Bicentenario de Quito",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.lahora.com.ec/pais/parque-bicentenario-historia-antiguo-aeropuerto-entrelaza-evolucion-recreativa-ciudad/",
+          "label": "La Hora: Parque Bicentenario",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Wide, flat and open with long sightlines and staff at the gates; distances are big and shade is scarce, so carry water. It closes at 7pm and the interior is unlit after that."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "From knowledge only (no search budget left). The Casa de la Cultura complex and the free Museo Nacional (MuNa) inside it are well established; Wikipedia title for the Casa de la Cultura Ecuatoriana kept on high confidence but not URL-confirmed. MuNa hours from knowledge, approximate. Coordinates for the complex on Av. Patria / 6 de Diciembre, high confidence.",
+      "name": "Casa de la Cultura Ecuatoriana (MuNa and gardens)",
+      "neighborhood": "La Mariscal / El Ejido",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "free",
+        "quiet",
+        "solo",
+        "study",
+        "green"
+      ],
+      "blurb": "The national cultural institute's round modernist headquarters on Av. Patria, opposite Parque El Ejido, housing the free Museo Nacional del Ecuador, a cinema, a theatre and the Ágora amphitheatre with lawns around it. The museum's pre-Columbian and colonial rooms are big, cool and rarely crowded on a weekday, and the ramps and lobbies have benches nobody minds you sitting on. Outside, the grass by the Ágora is a quiet alternative to El Ejido across the road.",
+      "tips": "The MuNa entrance is on the Av. Patria side; entry is free, bags go into lockers. Combine it with a walk through El Ejido, and check the Casa's programme for free evening concerts and films. Closed Mondays.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "MuNa roughly Tue-Sun 9am-5pm, closed Mon (check site)",
+      "lat": -0.2096,
+      "lng": -78.4951,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Casa de la Cultura Ecuatoriana",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building on a major, well-lit avenue with a Metro stop (El Ejido) beside it; the surrounding park paths are unlit after dark, so use the avenue side once the museum closes."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "From knowledge only (no search budget left). The mirador at the top of the Guápulo escarpment on Av. González Suárez, with the Francisco de Orellana monument, is a long-standing public viewpoint. Coordinates approximate, medium confidence; no exact English Wikipedia article for the mirador itself, so title null.",
+      "name": "Mirador de Guápulo",
+      "neighborhood": "González Suárez / Guápulo",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "sunrise",
+        "sunset",
+        "night",
+        "free",
+        "solo",
+        "quiet"
+      ],
+      "blurb": "A small paved lookout at the edge of Av. González Suárez where the plateau drops away to the colonial village of Guápulo, its white church and, beyond, the Cumbayá valley and the Ilaló. There is a monument to Orellana, a few benches and a low wall to lean on; at dusk the valley lights come on below you and the traffic on the avenue fades behind. It is a two-minute detour for anyone in La Floresta or Bellavista and residents use it that way.",
+      "tips": "Come by taxi or the Ecovía to the González Suárez stop and walk east to the lookout beside the Hotel Quito. Sunrise comes up over the valley straight ahead of you. The stone stairway down to Guápulo village starts here; do it in daylight and come back up by taxi.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -0.1985,
+      "lng": -78.479,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "On a lit, busy avenue with hotel traffic nearby; the long stairway down to Guápulo is steep and unlit, so use it only in daylight and take a taxi back up."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "From knowledge only (no search budget left). Plaza de San Marcos is a small public square in the San Marcos barrio of the old town, in front of the church of the same name. Coordinates approximate, medium confidence; no English Wikipedia article known, title null.",
+      "name": "Plaza de San Marcos",
+      "neighborhood": "San Marcos, Centro Histórico",
+      "category": "plaza",
+      "vibes": [
+        "quiet",
+        "hidden",
+        "solo",
+        "people-watch",
+        "free",
+        "cozy"
+      ],
+      "blurb": "A pocket square in the San Marcos neighbourhood, the quiet, residential eastern corner of the old town, with a small colonial church, a few trees and benches, and streets that dead-end on the ravine so through traffic never comes. Around it are small museums, a bookshop or two and artisans' workshops rather than souvenir stalls. It is the old town as people who live there use it, five blocks and a world away from the Plaza Grande.",
+      "tips": "Walk east from Plaza Grande along Calle Junín, or take a taxi to Junín y Ortiz Bilbao. Late morning is best, when the church and the cafés on Junín are open. Sit on the benches under the trees facing the church.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -0.2228,
+      "lng": -78.5062,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Small residential square with cafés and a museum on it in daylight; the surrounding streets empty and are dimly lit after the shops close, so visit by day and plan a taxi back after dark."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review-stage search confirmed the park exists: 24 ha, free, at Av. Rumichaca y calle Matilde Alvarez in Quitumbe, with metropolitan-park hours 5am-7pm (Quito Informa 2018 and 2023, EPMMOP, El Comercio). Coordinates remain LOW confidence: no result gave a map pin, so the lat/lng is the Rumichaca/Quitumbe area from knowledge and may be several hundred metres off. Check against a map before relying on it.",
+      "name": "Parque Las Cuadras",
+      "neighborhood": "Quitumbe (south)",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "picnic",
+        "free",
+        "group",
+        "water"
+      ],
+      "blurb": "A 24-hectare park in Quitumbe, the newest and southernmost part of the city, laid out on old hacienda land with eucalyptus, a stream, a plant nursery and wide lawns that families from the surrounding blocks use every weekend. It is the south's answer to La Carolina and almost no visitor from the north ever comes, which is exactly why it makes the list: quiet lawns, a duck pond and views back up the valley to the Atacazo.",
+      "tips": "Take the Trole or the Metro to Quitumbe (terminal) or Moran Valverde and a short taxi; the entrance is on Av. Rumichaca at calle Matilde Alvarez. The stream-side path and the nursery end are the quietest, and weekday mornings are near-empty. Afternoon rain arrives earlier in the south, so come before noon.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "5am-7pm",
+      "lat": -0.296,
+      "lng": -78.544,
+      "coordConfidence": "low",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.quitoinforma.gob.ec/2023/03/31/visita-el-parque-las-cuadras-y-disfruta-de-sus-atractivos/",
+          "label": "Quito Informa: Parque Las Cuadras (2023)",
+          "kind": "official"
+        },
+        {
+          "url": "http://bpm.epmmop.gob.ec/epmmop/gestion/espacio-publico/parques-metropolitanos/las-cuadras.html",
+          "label": "EPMMOP: Las Cuadras",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.elcomercio.com/actualidad/quito/amplio-parque-ecologico-sur-de/",
+          "label": "El Comercio: parque ecológico en el sur",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced municipal park with guards at the gates that closes at dusk; paths are unlit, so leave before the gates shut and take the Trole or a taxi back."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review-stage search confirmed the cinema and its café are operating at Valladolid N24-353 y Vizcaya, La Floresta (ochoymedio.net, quitotravel.ec, Foursquare). Café hours from the quitotravel.ec listing: Mon-Thu 9am-10pm, Fri-Sat 9am-11pm, Sun 10am-10pm; treat as approximate and check the site. Coordinates from the street address, medium confidence.",
+      "name": "Ocho y Medio",
+      "neighborhood": "La Floresta",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "night",
+        "solo",
+        "group",
+        "people-watch"
+      ],
+      "blurb": "An arthouse cinema in a converted house in La Floresta, the leafy neighbourhood of cafés and design studios east of La Mariscal, with a café and a courtyard where people read before and after the screening. It has been the centre of the city's film culture since 2001 and the café works as a place to sit with a coffee whether or not you see a film. The whole barrio around it, Parque Navarro included, is made for slow afternoons.",
+      "tips": "Look for the house on Calle Valladolid at Vizcaya, a short walk from the Ecovía on Av. 12 de Octubre. Check the programme online; the café is calmest in the hour before an evening screening. La Floresta's side streets and Parque Navarro are the place to sit if you want outdoors.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Café roughly Mon-Thu 9am-10pm, Fri-Sat 9am-11pm, Sun 10am-10pm (check site)",
+      "lat": -0.2068,
+      "lng": -78.4826,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.ochoymedio.net/",
+          "label": "OCHOYMEDIO: el cine de La Floresta",
+          "kind": "official"
+        },
+        {
+          "url": "https://quitotravel.ec/verano/ofertas/miradores-y-terrazas/ocho-y-medio-cafe",
+          "label": "Quito Travel: Ocho y Medio café",
+          "kind": "official"
+        },
+        {
+          "url": "https://es.foursquare.com/v/ochoymedio/4b85b8cff964a520146f31e3",
+          "label": "Foursquare: OchoyMedio, Valladolid N24-353",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed venue on a quiet residential street with street lighting; evening screenings end late, so arrange a taxi or ride-hail rather than a long walk back."
+      },
+      "lowkeyScore": 4
+    }
+  ]
+}

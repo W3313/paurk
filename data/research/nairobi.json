@@ -1,0 +1,639 @@
+{
+  "city": "Nairobi",
+  "country": "Kenya",
+  "slug": "nairobi",
+  "region": "europe-africa",
+  "cityLat": -1.2921,
+  "cityLng": 36.8219,
+  "timezone": "Africa/Nairobi",
+  "searchesRun": [
+    "McMillan Memorial Library Nairobi Book Bunk reopening hours",
+    "KICC helipad Nairobi opening hours entry fee",
+    "Michuki Memorial Park Nairobi wikipedia",
+    "Oloolua Nature Trail Karen entry fee opening hours",
+    "City Park Nairobi Parklands wikipedia",
+    "Nairobi Arboretum entry fee opening hours",
+    "Karen Blixen Coffee Garden Nairobi Karen Road",
+    "Prestige Bookshop Mama Ngina Street Nairobi",
+    "Kenya National Library Service Upper Hill Ngong Road Maktaba Kuu location opening hours",
+    "John Michuki Memorial Park Nairobi entry fee opening hours 2026",
+    "Nairobi Railway Museum opening hours entry fee Station Road",
+    "Ngong Hills KFS gate entry fee opening hours ranger escort hiking"
+  ],
+  "redditSourcedNotes": "Two stages. RESEARCHER: eight searches, all returned results; none surfaced reddit threads. It confirmed KICC helipad walk-in access, fees and (conflicting) hours; Nairobi Arboretum hours and 2026 fee; Oloolua Nature Trail hours and fee; Prestige Bookshop address and hours; Karen Blixen Coffee Garden still operating at 336 Karen Road; Michuki Park layout and history; and the Wikipedia titles for August 7th Memorial Park, Kenya and McMillan Memorial Library (the latter excluded because access is by paid tour or membership). REVIEW: four more searches, spent on the least-verified spots. Confirmed: KNLS Maktaba Kuu address and hours (Mon-Fri 8am-6:30pm, Sat 8:30am-5pm) plus a KSh 20 daily fee from a 2021 post; Michuki Park free for individuals with ID and sign-in, opening 8am; Railway Museum open daily, 8:30am-5:30pm or 8am-5pm depending on source, cashless fees; Ngong Hills KSh 200 entry, gate 6am, entry closing 2pm, and a mandatory KFS ranger escort beyond the first peaks. Source URLs were added only where they appeared in those results. Direct URL checks were mostly impossible because the sandbox network proxy blocks outbound requests to most hosts; the one domain that failed DNS lookup (businessradar.co.ke) was removed as unverifiable, and archerjockers.com is kept but flagged. COORDINATES: none were map-checked in either stage; all are from knowledge. Central sites (Jeevanjee, KICC, National Museum, August 7th, Prestige) are the most certain; Ngong Hills first peak, Karen Blixen Coffee Garden and KNLS could each be several hundred metres out and are marked medium or low. WIKIPEDIA: only August 7th Memorial Park, Kenya is URL-confirmed; Nairobi Arboretum, Karura Forest, Jeevanjee Gardens, Nairobi National Museum, Nairobi Railway Museum, Kenyatta International Convention Centre and Ngong Hills are kept on high confidence from knowledge; the rest are null. Still from knowledge only: Karura hours and fee, Jeevanjee and City Park gate times, National Museum hours, August 7th fee and hours, Karen Blixen Coffee Garden hours. Safety notes describe gates, lighting, closing times, terrain, staffing and escort rules only; two cautions (City Park, Ngong Hills) rest on size, isolation and exposed terrain. Karen Blixen Coffee Garden is a hotel garden restaurant rather than a plain cafe and is the most borderline inclusion.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed hours (6am-6:15pm, 365 days) and 2026 citizen adult fee of KSh 242 from the Arboretum's own site. Coordinates for the main gate area off Arboretum Road from knowledge, not map-checked. Wikipedia title from knowledge; not URL-confirmed.",
+      "name": "Nairobi Arboretum",
+      "neighborhood": "Kilimani / State House",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "solo",
+        "picnic",
+        "walk",
+        "study",
+        "group"
+      ],
+      "blurb": "Thirty hectares of labelled trees, mown lawns and shaded benches a short walk from Kilimani, run by the Kenya Forest Service with Friends of Nairobi Arboretum. On weekday mornings it is joggers, a few readers and Sykes monkeys; on Sunday afternoons families spread blankets under the jacarandas. It is the closest thing central Nairobi has to a place where you can lie on grass and hear nothing but birds.",
+      "tips": "Enter from Arboretum Road (matatus and boda-bodas stop at State House Road); pay at the gate by M-Pesa or card. Head away from the main lawn towards the river side for empty benches. Bring your own food, there is only a small kiosk, and keep bags zipped because the monkeys are bold.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "6am-6:15pm daily",
+      "lat": -1.2757,
+      "lng": 36.8007,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Nairobi Arboretum",
+      "sources": [
+        {
+          "url": "https://nairobiarboretum.org/arboretum-charges/",
+          "label": "Nairobi Arboretum: charges",
+          "kind": "official"
+        },
+        {
+          "url": "https://travelwithapen.com/nairobi-arboretum-picnic-visit/",
+          "label": "Travel with a Pen: Arboretum guide 2026",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced, gated and staffed, with the gate locked at 6:15pm; paths are unlit, so leave before dusk."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched this run; well-established KFS forest reserve with Friends of Karura. Hours (6am-6pm) and fee from knowledge and may have changed. Coordinates approximate the Limuru Road main gate, not map-checked. Wikipedia title from knowledge; not URL-confirmed.",
+      "name": "Karura Forest",
+      "neighborhood": "Gigiri / Muthaiga",
+      "category": "trail",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "water",
+        "solo",
+        "group",
+        "picnic",
+        "hidden"
+      ],
+      "blurb": "A thousand hectares of indigenous and planted forest on the northern edge of the city, with some 50 km of marked trails, a small waterfall, caves, a lily-covered lake and picnic clearings. Nairobians run, cycle and walk dogs here before work, and a bench by the waterfall or the Lily Lake on a weekday is about as far from traffic as you can get without leaving town. Wangari Maathai's campaign saved it from developers in the late 1990s, which residents still talk about.",
+      "tips": "Use the Limuru Road main gate (Gate A) or the Kiambu Road gate; pay by M-Pesa at the gate and pick up a trail map. The River Cafe near Gate A does breakfast. The 5 km loop to the waterfall is flat and shaded; weekend mornings are busiest, weekday afternoons emptiest.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "6am-6pm daily",
+      "lat": -1.2395,
+      "lng": 36.8275,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Karura Forest",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced reserve with rangers on patrol and gates closed at 6pm; trails are unlit and long, so carry water and start back well before closing."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched this run; long-standing public garden in the CBD between Moi Avenue and Muindi Mbingu Street, well known to residents. Coordinates from knowledge, high confidence for a site this central. Hours are daylight only in practice; exact gate times not confirmed. Wikipedia title from knowledge; not URL-confirmed.",
+      "name": "Jeevanjee Gardens",
+      "neighborhood": "CBD",
+      "category": "park",
+      "vibes": [
+        "green",
+        "people-watch",
+        "free",
+        "solo",
+        "quiet",
+        "walk"
+      ],
+      "blurb": "A small colonial-era public garden in the middle of the CBD, gifted to the city by A.M. Jeevanjee in 1906, with mature trees, a statue of Queen Victoria and a ring of benches. Office workers eat lunch here, students read, and street preachers hold forth at the far end, so it is calm rather than silent. It is the easiest green pause in downtown Nairobi and costs nothing.",
+      "tips": "Enter from Moi Avenue or Muindi Mbingu Street; the benches under the big trees on the Muindi Mbingu side are the shadiest. Lunchtime is the busiest hour and mid-afternoon the quietest. There is nothing to buy inside, so bring water from a nearby kiosk.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (daylight, roughly 6am-6pm)",
+      "lat": -1.2828,
+      "lng": 36.821,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Jeevanjee Gardens",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Busy, fenced garden on well-lit central streets with a county askari at the gates; it closes at dusk, so plan to move on before then."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed the park exists, its 1921 founding, its boundaries (Limuru Rd, Forest Rd, Muranga Rd, Muthaiga) and the Friends of Nairobi City Park biodiversity work. No English Wikipedia article for the park itself appeared (only Parklands and City Park Hockey Stadium), so title is null. Coordinates are for the park interior near the Boscawen collection, not map-checked.",
+      "name": "City Park",
+      "neighborhood": "Parklands",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "free",
+        "hidden",
+        "solo",
+        "picnic"
+      ],
+      "blurb": "A 60-hectare remnant of original forest and old botanical garden on the edge of Parklands, founded in 1921 and now looked after by the Friends of Nairobi City Park. Sykes monkeys move through the canopy, the Boscawen collection has rare succulents, and the Joseph Murumbi memorial garden is a quiet corner residents come to with a book. It sees far fewer visitors than the Arboretum, which is the whole point.",
+      "tips": "Enter from Limuru Road near the hockey stadium and keep to the mown paths and the Murumbi garden rather than the overgrown eastern sections. Weekend mornings bring families and the odd guided bird walk; weekdays are near-empty. There are no cafes inside, so bring what you need.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (daylight, roughly 6am-6pm)",
+      "lat": -1.26,
+      "lng": 36.828,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://jambonairobi.co.ke/activities/public-parks/nairobi-city-park/",
+          "label": "Jambo Nairobi: Nairobi City Park",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.atlasobscura.com/places/nairobi-city-park",
+          "label": "Atlas Obscura: Nairobi City Park",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Large, lightly staffed and partly overgrown, with unlit paths and few exits from the deeper sections; go in daylight, stay on the main paths near the Limuru Road side, and consider going with someone."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched this run; National Museums of Kenya flagship at Museum Hill, hours (8:30am-5:30pm daily) and paid entry from knowledge, fee amounts omitted because they change. Coordinates high confidence for this landmark. Wikipedia title from knowledge; not URL-confirmed.",
+      "name": "Nairobi National Museum",
+      "neighborhood": "Museum Hill / Westlands",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "green",
+        "solo",
+        "study",
+        "cozy"
+      ],
+      "blurb": "The country's main museum, with the Hall of Kenya, the Cradle of Humankind fossils and Joy Adamson's botanical paintings, but the reason to come and sit is the grounds: a botanical garden of labelled indigenous plants, a courtyard with benches and a cafe that stays quiet on weekday afternoons. You can spend an hour with the Leakey skulls and another under a tree with a book. It is one of the few places in the city that works equally well in rain and sun.",
+      "tips": "Take a matatu or ride to Museum Hill roundabout and walk up; pay at the ticket desk (citizen, resident and non-resident rates differ, ID needed). The garden and courtyard are inside the ticketed area. Weekday mornings bring school groups, so go after 2pm for the quietest galleries.",
+      "bestTimes": [
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "8:30am-5:30pm daily",
+      "lat": -1.274,
+      "lng": 36.8143,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Nairobi National Museum",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, gated compound with bag checks at the entrance; it closes at 5:30pm before dark."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review-stage search confirmed it is a National Museums of Kenya site on Station Road beside the main station, open daily including weekends and holidays, with sources giving 8:30am-5:30pm or 8am-5pm and cashless fees of roughly KSh 200-300 for citizens. It has its own gate and yard and is not active rail land. Coordinates from knowledge, not map-checked. Wikipedia title from knowledge; not URL-confirmed.",
+      "name": "Nairobi Railway Museum",
+      "neighborhood": "CBD (Station Road)",
+      "category": "museum",
+      "vibes": [
+        "quiet",
+        "hidden",
+        "solo",
+        "rain-ok",
+        "people-watch"
+      ],
+      "blurb": "A small museum in the old railway headquarters beside Nairobi station, with a yard of retired steam locomotives and carriages from the Uganda Railway, including the coach from which Superintendent Ryall was taken by a lion in 1900. Almost nobody comes on weekdays, and you can sit on the step of a 1920s carriage in the sun with the city humming behind the trees. The indoor hall holds models, photographs and the old station clock.",
+      "tips": "Walk down Station Road from Haile Selassie Avenue past the station forecourt to the museum gate; pay at the small office by the entrance (cashless, roughly KSh 200-300 for citizens, more for non-residents). The yard is the place to sit, so bring a hat. Combine it with an early lunch in the CBD, since there is no cafe inside.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "8:30am-5:30pm daily (some sources say 8am-5pm)",
+      "lat": -1.2915,
+      "lng": 36.827,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Nairobi Railway Museum",
+      "sources": [
+        {
+          "url": "https://www.atlasobscura.com/places/nairobi-railway-museum",
+          "label": "Atlas Obscura: Nairobi Railway Museum",
+          "kind": "press"
+        },
+        {
+          "url": "https://twendesasa.com/nairobi-railway-museum-entrance-fees/",
+          "label": "Twende Sasa: Railway Museum entrance fees",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated, staffed museum compound that closes at 5pm; the yard has uneven ground and old rails, so watch your footing."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed walk-in public access to the helipad, cashless payment, ID requirement and fees (citizens KSh 200, residents KSh 300, non-residents KSh 500). Hours vary by source (6am-6pm daily, or 7am-6pm weekdays and 8am-5pm weekends). Coordinates high confidence for this landmark. Wikipedia title from knowledge; not URL-confirmed.",
+      "name": "KICC Helipad",
+      "neighborhood": "CBD",
+      "category": "rooftop",
+      "vibes": [
+        "view",
+        "skyline",
+        "sunset",
+        "people-watch",
+        "group",
+        "solo"
+      ],
+      "blurb": "The open helipad on top of the 28-storey Kenyatta International Convention Centre, reached by a lift and a final flight of stairs, with a 360-degree view over the CBD, Uhuru Park, the Ngong Hills and, on clear mornings, Kilimanjaro and Mount Kenya on the horizon. It is a paid attraction but a cheap one for citizens, and outside weekend afternoons you often share the roof with only a handful of people. Watching the light go orange over the city with the wind in your face is the best hour you can spend downtown.",
+      "tips": "Go to the main KICC reception on Harambee Avenue with your ID or passport, pay by M-Pesa or card and take the lift to the top. Late afternoon gives the softest light; clear mornings after rain give the mountain views. There is a small cafe on the ground floor but nothing up top, and drones are not allowed.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "varies (roughly 6am-6pm; check site)",
+      "lat": -1.2884,
+      "lng": 36.8232,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Kenyatta International Convention Centre",
+      "sources": [
+        {
+          "url": "https://kicc.co.ke/helipad/",
+          "label": "KICC: Helipad",
+          "kind": "official"
+        },
+        {
+          "url": "https://kicc.co.ke/pricing-guideline/",
+          "label": "KICC: pricing guideline",
+          "kind": "official"
+        },
+        {
+          "url": "https://victormatara.com/kicc-helipad-rooftop-entry-charges/",
+          "label": "Victor Matara: KICC helipad entry charges",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed building with security screening and a railed roof; it is very windy up top, so hold on to hats and phones and keep well back from the edge."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review-stage search confirmed the address (Maktaba Kuu Building, Ngong Road, Upper Hill) and hours (Mon-Fri 8am-6:30pm, Sat 8:30am-5pm, closed Sun) from the KNLS contacts page; the KSh 20 adult daily fee comes from a 2021 KNLS post and may have changed. Coordinates are still from knowledge only and could be off by a few hundred metres along Ngong Road, so confidence stays low. Wikipedia article covers the service, not the building, so null.",
+      "name": "Kenya National Library Service, Upper Hill",
+      "neighborhood": "Upper Hill",
+      "category": "library",
+      "vibes": [
+        "study",
+        "quiet",
+        "rain-ok",
+        "solo",
+        "cozy"
+      ],
+      "blurb": "The national library's headquarters building off Ngong Road, a modern multi-storey library with reading halls, a children's floor and study desks that fill with students and civil servants from Upper Hill. Anyone can walk in and sit with a book or laptop; borrowing needs membership. It is the most dependable free-ish quiet room in the city when the rains come.",
+      "tips": "Sign in at the security desk with an ID; a small daily user fee (KSh 20 for adults when last posted) is charged, so carry a little cash or M-Pesa. Upper floors are quietest, and exam seasons (April, August, November) are the busiest. Matatus along Ngong Road stop at Kenyatta Hospital or the Ministry of Works.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Mon-Fri 8am-6:30pm, Sat 8:30am-5pm, closed Sun",
+      "lat": -1.2975,
+      "lng": 36.8065,
+      "coordConfidence": "low",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.knls.ac.ke/contacts/",
+          "label": "KNLS: contact and opening hours",
+          "kind": "official"
+        },
+        {
+          "url": "https://x.com/knlsmedia/status/1453056928247070730",
+          "label": "KNLS on X: Maktaba Kuu hours and fee (2021)",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building with security at the door; it shuts before dark, and Ngong Road outside is busy and lit."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed the address (Prudential Building, ground floor, Mama Ngina Street, next to IMAX) and hours (Mon-Fri 9am-6pm, Sat 9am-3pm, closed Sunday). Coordinates approximate the Mama Ngina Street / Kimathi Street block, not map-checked. No Wikipedia article. Review stage could not reach archerjockers.com (blocked by the network proxy) and could not confirm that source independently.",
+      "name": "Prestige Bookshop",
+      "neighborhood": "CBD",
+      "category": "bookstore",
+      "vibes": [
+        "rain-ok",
+        "cozy",
+        "quiet",
+        "solo"
+      ],
+      "blurb": "Nairobi's best-loved independent bookshop, a narrow, floor-to-ceiling room on Mama Ngina Street run by a family that knows its regulars and stocks Kenyan and African fiction that the chains do not. It is where local writers launch books and where readers go to browse for an hour without being hurried. There is nowhere to sit for long, but it is the bookish heart of downtown and the natural start to a reading afternoon.",
+      "tips": "It is on the ground floor of Prudential Building next to the IMAX cinema; ask the staff for Kenyan fiction and recent East African publishing. Saturday mornings are the busiest. Pair it with a coffee at one of the cafes on Kimathi Street or a bench in Jeevanjee Gardens two blocks north.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Fri 9am-6pm, Sat 9am-3pm, closed Sun",
+      "lat": -1.2848,
+      "lng": 36.8235,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.facebook.com/PrestigeNBI/",
+          "label": "Prestige Bookshop on Facebook",
+          "kind": "other"
+        },
+        {
+          "url": "https://archerjockers.com/prestige-bookshop-nairobi-city/",
+          "label": "Prestige Bookshop address and hours",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed shop on a busy, lit central street; it closes at 6pm on weekdays."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed it is open daily 9am-6pm, KSh 200 adult entry via eCitizen, in Karen about 20 km from the CBD, with a waterfall and cave, on Institute of Primate Research land that is open to the public. Coordinates for the trail entrance off Karen Road / Oloolua Ridge from knowledge, not map-checked. No exact English Wikipedia article confirmed, so null. Review stage removed a businessradar.co.ke source because the domain did not resolve when checked.",
+      "name": "Oloolua Nature Trail",
+      "neighborhood": "Karen",
+      "category": "trail",
+      "vibes": [
+        "green",
+        "water",
+        "quiet",
+        "walk",
+        "hidden",
+        "picnic",
+        "solo",
+        "group"
+      ],
+      "blurb": "A 5 km forest trail through indigenous Oloolua forest in Karen, following the Mbagathi River past a small waterfall, a papyrus swamp and a 33-metre cave, with picnic bandas in the clearings. It is run by the Institute of Primate Research and gets a fraction of Karura's visitors, so a weekday afternoon here is you, the birds and the river. Karen residents use it for slow walks and picnics rather than fitness.",
+      "tips": "The entrance is off Karen Road near the Institute of Primate Research; pay the KSh 200 via eCitizen on your phone at the gate. Wear shoes with grip, the path to the waterfall is steep and muddy after rain. Bring your own picnic; there is no cafe.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "9am-6pm daily",
+      "lat": -1.356,
+      "lng": 36.705,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g294207-d2694588-Reviews-Oloolua_Nature_Trail-Nairobi.html",
+          "label": "Tripadvisor: Oloolua Nature Trail",
+          "kind": "forum"
+        },
+        {
+          "url": "https://victormatara.com/the-oloolua-nature-trail-entry-charges/",
+          "label": "Victor Matara: Oloolua entry charges",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated and staffed, closing at 6pm; the trail has steep, slippery river-bank sections and no lighting, so go in daylight and stay on the marked path."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed the venue is operating at 336 Karen Road on the original Blixen farm site, with a garden restaurant, cottages and pool, under the Karen Blixen Group. Hours not in results, so marked varies. Coordinates approximate the Karen Road address near the Karen Blixen Museum, not map-checked. No Wikipedia article for the restaurant.",
+      "name": "Karen Blixen Coffee Garden",
+      "neighborhood": "Karen",
+      "category": "cafe",
+      "vibes": [
+        "green",
+        "cozy",
+        "quiet",
+        "rain-ok",
+        "solo",
+        "group"
+      ],
+      "blurb": "A garden restaurant and cafe in the grounds of Swedo House, a 1906 lodge on the original Blixen coffee farm, five acres of old trees, lawns and birdlife a few minutes from the Karen Blixen Museum. Karen residents come for long breakfasts and to read on the terrace; there is a fireplace indoors for the cold, wet months. It is pricier than a CBD cafe but you can nurse a pot of Kenyan coffee under the trees for as long as you like.",
+      "tips": "It is at 336 Karen Road, easy by ride-hailing from Karen shopping centre; ask for a terrace or garden table rather than the dining room. Weekday mid-mornings are the quietest. Combine it with the museum next door or Oloolua trail a short drive away.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "varies (check site)",
+      "lat": -1.3425,
+      "lng": 36.7125,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.karenblixencoffeegardens.com/",
+          "label": "Karen Blixen Coffee Garden & Cottages",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g23201417-d1607150-Reviews-Karen_Blixen_Coffee_Garden-Langata_Nairobi.html",
+          "label": "Tripadvisor: Karen Blixen Coffee Garden",
+          "kind": "forum"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, gated hotel grounds with parking and lit paths; arrange a ride back since Karen Road has no streetlights or pavement for long stretches."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review-stage search confirmed KFS management, a KSh 200 entry fee paid at the KFS office opposite Ngong police station or at the barrier, gate opening at 6am with entry closing at 2pm, and a mandatory KFS ranger escort (about KSh 1,000 per group) for hikes beyond the first peaks or the full traverse. About 23 km from the centre. Coordinates for the first peak area above the KFS gate are from knowledge, not map-checked, and may sit a peak or so along the ridge. Wikipedia title from knowledge; not URL-confirmed.",
+      "name": "Ngong Hills",
+      "neighborhood": "Ngong (Kajiado, south-west of the city)",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "sunrise",
+        "walk",
+        "quiet",
+        "green",
+        "picnic",
+        "group"
+      ],
+      "blurb": "The knuckled ridge on the city's south-western horizon, the one from Out of Africa, with a wind farm along the top and a trail over its seven peaks. From the first peak, an hour's climb from the KFS gate above Ngong town, the Rift Valley drops away on one side and Nairobi spreads out on the other. Nairobians come on Saturday mornings to walk, sit on the grass and watch the clouds pour over the ridge.",
+      "tips": "Take a matatu to Ngong town and a boda-boda up to the KFS gate; pay the KSh 200 entry at the KFS office opposite Ngong police station or at the barrier. KFS requires a ranger escort (about KSh 1,000 per group) for anyone going beyond the first peaks. Entry closes at 2pm, so start early for clear views before the afternoon cloud. Bring layers, water and food.",
+      "bestTimes": [
+        "morning"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "gate 6am-6pm; entry closes 2pm",
+      "lat": -1.402,
+      "lng": 36.644,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Ngong Hills",
+      "sources": [
+        {
+          "url": "https://www.kenyaforestservice.org/ngong-hills-forest/",
+          "label": "Kenya Forest Service: Ngong Hills Forest",
+          "kind": "official"
+        },
+        {
+          "url": "https://kenyapeaks.com/ngong-hills/ngong-hills-entrance-fee",
+          "label": "Kenya Peaks: Ngong Hills entrance fees 2026",
+          "kind": "blog"
+        },
+        {
+          "url": "https://jambonairobi.co.ke/activities/hiking/hiking-near-nairobi/ngong-hills/",
+          "label": "Jambo Nairobi: Ngong Hills",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Exposed ridge with steep drops, fast-changing weather and long stretches far from the gate or any road; KFS requires a ranger escort beyond the first peaks and stops admitting hikers at 2pm. Go in a group, start early and be down before dusk."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Researcher search confirmed the park runs along the Nairobi River from Globe Cinema roundabout to Museum Hill bridge, about 10 ha, rehabilitated by KFS with a perimeter fence and 2.4 km walkway, reopened 2020. Review-stage search confirmed free entry for individuals (groups of 10+ and parking are charged), ID and sign-in at the gate, and an 8am opening; no closing time appeared, so marked varies. Coordinates are a midpoint of the riverside strip, not map-checked. No English Wikipedia article found, so null.",
+      "name": "John Michuki Memorial Park",
+      "neighborhood": "Ngara / Museum Hill",
+      "category": "park",
+      "vibes": [
+        "green",
+        "water",
+        "walk",
+        "free",
+        "quiet",
+        "hidden",
+        "solo"
+      ],
+      "blurb": "A narrow riverside park along the Nairobi River between Globe roundabout and Museum Hill, once a dumpsite and replanted by the Kenya Forest Service with thousands of indigenous trees and a 2.4 km walkway. It is a slice of shade and birdsong squeezed between the highway and the CBD that most visitors never notice, used by people from Ngara and the city centre for a lunchtime walk or a bench by the water. The river still carries the city's rubbish, but the trees are winning.",
+      "tips": "Enter from the Museum Hill end near the National Museum footbridge or from the Globe roundabout end; show an ID and sign in at the gate, and sign out when you leave. The western half towards the museum is shadier and quieter. Weekday lunchtimes see a trickle of walkers. There are no facilities inside, so bring water.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (opens 8am, closes around dusk)",
+      "lat": -1.278,
+      "lng": 36.82,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://una.city/nbs/nairobi-fua/rehabilitation-hon-john-n-michuki-memorial-conservation-park",
+          "label": "Urban Nature Atlas: Michuki Park rehabilitation",
+          "kind": "other"
+        },
+        {
+          "url": "https://commonwealthwalkway.info/place/john-michuki-memorial-park/",
+          "label": "Commonwealth Walkway: John Michuki Memorial Park",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g294207-d27104664-Reviews-John_Michuki_Memorial_Park-Nairobi.html",
+          "label": "Tripadvisor: John Michuki Memorial Park",
+          "kind": "forum"
+        },
+        {
+          "url": "https://nairobiunwind.com/spot/john-michuki-memorial-park",
+          "label": "Nairobi Unwind: John Michuki Memorial Park",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced and gated with KFS staff, closing at dusk; the walkway is long and thin with unlit stretches and an unfenced riverbank, so go in daylight and keep to the path."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched directly, but the en.wikipedia URL \"August_7th_Memorial_Park,_Kenya\" appeared in the Michuki search results, confirming the title. Small entry fee and 8am-6pm hours from knowledge and not confirmed. Coordinates for the Moi Avenue / Haile Selassie Avenue corner, high confidence for the block, not map-checked.",
+      "name": "August 7th Memorial Park",
+      "neighborhood": "CBD",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "green",
+        "solo",
+        "hidden",
+        "study"
+      ],
+      "blurb": "A walled memorial garden on the site of the former US embassy at the corner of Moi and Haile Selassie Avenues, built after the 1998 bombing, with a granite wall of names, a fountain, lawns and a small visitor centre. Inside the wall the traffic drops to a murmur and office workers come to sit with lunch or a book. It is a place for reflection first, but it is also simply the quietest bench in the lower CBD.",
+      "tips": "Enter from Moi Avenue and pay the small fee at the gate; the benches on the far side of the fountain are the shadiest. Photography of the memorial wall is fine but keep voices low. The visitor centre has a short exhibition if it rains.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "roughly 8am-6pm daily (check site)",
+      "lat": -1.2887,
+      "lng": 36.8262,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "August 7th Memorial Park, Kenya",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/August_7th_Memorial_Park,_Kenya",
+          "label": "Wikipedia: August 7th Memorial Park, Kenya",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Walled, gated and staffed, on a busy lit corner beside the railway station; it closes at 6pm."
+      },
+      "lowkeyScore": 4
+    }
+  ]
+}

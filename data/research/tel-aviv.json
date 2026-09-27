@@ -1,0 +1,643 @@
+{
+  "city": "Tel Aviv",
+  "country": "Israel",
+  "slug": "tel-aviv",
+  "region": "europe-africa",
+  "cityLat": 32.0853,
+  "cityLng": 34.7818,
+  "timezone": "Asia/Jerusalem",
+  "searchesRun": [
+    "Abrasha Park HaPisga Garden Jaffa wikipedia",
+    "Tel Aviv University Botanical Garden opening hours public visitors",
+    "Beit Ariela library Tel Aviv opening hours",
+    "Halper's Books Allenby Street Tel Aviv secondhand bookshop",
+    "Puaa cafe Jaffa flea market Rabbi Yohanan street",
+    "Independence Park Tel Aviv Gan HaAtzmaut wikipedia",
+    "Menachem Begin Park Tel Aviv wikipedia",
+    "Meir Park Gan Meir Tel Aviv King George wikipedia opening hours",
+    "Gan Meir Tel Aviv park gates opening hours closed at night",
+    "Beit Ariela library Tel Aviv opening hours Sunday Thursday Friday",
+    "Tel Aviv Museum of Art opening hours 2026 ticket price",
+    "Puaa cafe Jaffa opening hours Rabbi Yohanan"
+  ],
+  "redditSourcedNotes": "Two stages. Researcher stage ran eight searches, all of which returned results; the skeptic stage ran four more (recorded at the end of searchesRun) and, because direct fetches to Wikipedia, OpenStreetMap and the source sites were blocked by the network proxy, could only verify through those four searches. Wikipedia titles confirmed from result URLs across both stages: Beit Ariela, Meir Park, Tel Aviv, Independence Park (Tel Aviv), Tel Aviv Museum of Art. Kept from knowledge only and not URL-confirmed: Yarkon Park, Port of Tel Aviv, Charles Clore Park, Habima Square. Set to null after searching: HaPisga Garden / Abrasha Park (only the Old Jaffa article surfaced), Menachem Begin Park (Wikidata only); left null unchecked: Jaffa Port, Sarona, Halper's, Puaa. Skeptic corrections: the Museum of Art had Monday listed as open, but the museum site and listings say closed Sun and Mon (Tue/Thu to 21:00, Wed/Sat to 18:00, Fri to 14:00, 50 NIS); Beit Ariela hours found as Sun-Thu 9:00-21:00; Puaa hours found (roughly 9:00 to after midnight daily) and its street number is given as 6 or 8 depending on the listing; Gan Meir was described as gated and closed overnight from knowledge, but no official hours were found and a visitor review says it is always open and lit, so the closure claim was removed; the Sarona safety note claimed security guards from knowledge and now describes only lighting, sightlines and exits. Source URLs: each was attached only where a search returned it. URLs re-confirmed in the skeptic's own results: Time Out Gan Meir, Wikipedia Meir Park, the municipality libraries page, Wikipedia Beit Ariela, Wikipedia Tel Aviv Museum of Art, Tripadvisor Puaa. The remaining URLs (Haaretz, Bein Harim, Secret Tel Aviv, Jerusalem Post, Times of Israel, Spotted by Locals, Spivak) are from the researcher's results and could not be re-fetched; none looked invented and their formats match the sites, but a reader should treat them as unverified by the second stage. Halper's Books hours (Sun-Thu 9:00-19:30, Fri to 15:30) came from researcher-stage results. The TAU Botanical Garden was dropped in stage one because the university page said it is closed to visitors under Home Front Command guidance and otherwise ticketed or tour-only. No reddit threads were read in either stage. All coordinates are from knowledge and were checked against the skeptic's own map knowledge, all within 5 km of the centre: high confidence for the parks, squares, port, library and museum; medium for Halper's (address known, alley pin approximate), Puaa (street known, number disputed) and Menachem Begin Park (very large park, pin near the lake). Safety notes rest only on lighting, edges, terrain, water, closing and isolation. City-wide condition, recorded once rather than as a per-spot caution: since 2023 there have been periodic air-raid sirens and Home Front Command instructions, so a visitor should know where the nearest protected space is from any outdoor spot.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Very large, well-known municipal park; pin placed by the rowing lake in the Ganei Yehoshua section, so any error is well inside the park. Wikipedia title from knowledge in both stages, not URL-confirmed (the skeptic could not reach Wikipedia directly and spent its searches on hours). Hours from knowledge.",
+      "name": "Park HaYarkon (Ganei Yehoshua)",
+      "neighborhood": "North Tel Aviv / Yarkon",
+      "category": "park",
+      "vibes": [
+        "green",
+        "water",
+        "walk",
+        "picnic",
+        "quiet",
+        "solo",
+        "group",
+        "free",
+        "sunset"
+      ],
+      "blurb": "The city's big green lung along the Yarkon river, several kilometres of lawns, eucalyptus, a rowing lake and riverside paths that run from Ramat Gan to the sea. On weekdays the far lawns west of the lake are nearly empty, and the benches under the trees by the water are where people from the northern neighbourhoods come to read or eat lunch. It is big enough to get properly lost in, which is the point.",
+      "tips": "Come in from Rokach Boulevard or walk up from the port along the river path; the lake and the tropical garden on the south bank are the calmest corners. Weekends fill with families and barbecues, so aim for a weekday morning. Rent a bike at the port and ride the whole river if you want to move.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 32.1002,
+      "lng": 34.8085,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Yarkon Park",
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "Large and mostly unlit away from the main roads and the lake; the river banks are unfenced. Fine and busy by day; after dark stay on the lit lake loop or the Rokach side rather than the riverside paths."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title confirmed from result URLs in both stages (en.wikipedia.org/wiki/Meir_Park,_Tel_Aviv). The researcher assumed the gates close overnight; the skeptic search found no official hours and a visitor review saying the park is always open and lit at night, so the overnight-closure claim was removed. Treat hours as unconfirmed.",
+      "name": "Gan Meir",
+      "neighborhood": "City Centre (King George / Tchernichovsky)",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "solo",
+        "people-watch",
+        "cozy",
+        "free",
+        "walk"
+      ],
+      "blurb": "A walled 1940s garden a block off King George Street, with a small lily pond, a canopy of old ficus trees and benches ringed by the neighbourhood's dog walkers. It is small enough to feel like a shared courtyard and shaded enough to sit through a summer afternoon. The Tel Aviv LGBTQ Centre sits in one corner with a café terrace facing the lawn.",
+      "tips": "Enter from King George or Tchernichovsky; the benches around the pond are the quietest, the lawn nearest the King George gate is the busiest. Friday afternoon and Saturday are the crowded times, weekday mornings are near-silent. The centre's café is a good indoor fallback if it rains.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (no official hours found; visitor reviews report it open and lit at night)",
+      "lat": 32.0752,
+      "lng": 34.7748,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Meir Park, Tel Aviv",
+      "sources": [
+        {
+          "url": "https://www.timeout.com/israel/attractions/gan-meir-meir-park",
+          "label": "Time Out: Gan Meir",
+          "kind": "press"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Meir_Park,_Tel_Aviv",
+          "label": "Wikipedia: Meir Park, Tel Aviv",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.haaretz.com/israel-news/travel/2012-08-02/ty-article/tourist-tip-11-gan-meir/0000017f-df87-df7c-a5ff-dfff07fe0000",
+          "label": "Haaretz: Gan Meir (researcher-stage result, not re-confirmed)",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced and lit, with busy streets on every side and short paths to the King George and Tchernichovsky gates. Official closing hours were not found; visitor reviews say it stays open at night."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known public waterfront; the undulating wooden deck is a public promenade. Wikipedia title from knowledge in both stages, not URL-confirmed (the skeptic could not reach Wikipedia directly and spent its searches on hours).",
+      "name": "Tel Aviv Port boardwalk (Namal)",
+      "neighborhood": "Old North / Namal",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunset",
+        "walk",
+        "people-watch",
+        "night",
+        "group",
+        "free",
+        "view"
+      ],
+      "blurb": "The old port's hangars were turned into shops and restaurants, but the reason to come is the wide wooden deck that rolls like a dune along the sea wall. At the northern end, past the last restaurant, the deck runs out to the Yarkon estuary and the crowds thin to fishermen and a few people watching the waves break on the breakwater. It is busy at dinner time and almost yours at sunrise.",
+      "tips": "Walk north past the farmers' market hangar to the breakwater end for the quietest stretch; the steps down to the sand at the southern end face straight into the sunset. Friday morning market is the loudest time. Bus 4 and 5 stop nearby, and the river bike path starts here.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 32.0972,
+      "lng": 34.7735,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Port of Tel Aviv",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit and staffed by restaurants until late; the breakwater rocks are unfenced and wet, so keep to the deck in the dark or in rough sea."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence and public access confirmed via search (Bein Harim, Secret Tel Aviv, Tripadvisor). No English Wikipedia article surfaced for the park itself, only Old Jaffa, so title set to null.",
+      "name": "Gan HaPisga (Abrasha Park)",
+      "neighborhood": "Old Jaffa",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "skyline",
+        "sunset",
+        "night",
+        "water",
+        "green",
+        "free",
+        "walk"
+      ],
+      "blurb": "The hilltop garden above Old Jaffa, with lawns, a stone amphitheatre and a long balcony over the whole curve of the Tel Aviv shoreline. Tour groups pass through the Wishing Bridge and leave; sit on the grass on the seaward slope or on the low wall by the Gate of Faith sculpture and the skyline is yours. At night the city lights run north for kilometres.",
+      "tips": "Climb the steps from Kedumim Square or walk in from Mifratz Shlomo Street on the flat side; the north-facing lawns above the sea have the view. Come an hour before sunset and stay for the lights. Steps are stone and uneven, wear proper shoes.",
+      "bestTimes": [
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 32.0541,
+      "lng": 34.7518,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.beinharimtours.com/hapisga-garden/",
+          "label": "Bein Harim: HaPisga Garden (Abrasha Park)",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.secrettelaviv.com/best/tags/activities/abrasha-park",
+          "label": "Secret Tel Aviv: Abrasha Park",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit paths and busy with visitors into the evening; the outer slopes and steps are steep and uneven, so stay on the paved paths after dark."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known seafront park between Neve Tzedek and the sea. Wikipedia title from knowledge in both stages, not URL-confirmed (the skeptic could not reach Wikipedia directly and spent its searches on hours).",
+      "name": "Charles Clore Park",
+      "neighborhood": "Neve Tzedek / Manshiya",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunset",
+        "picnic",
+        "group",
+        "walk",
+        "free",
+        "skyline",
+        "people-watch"
+      ],
+      "blurb": "A long strip of lawn and low dunes between the promenade and the sea, running from the Dolphinarium site down towards Jaffa. It is the city's default picnic-and-sunset lawn: on Friday evenings whole families spread out with food, on weekday mornings it is joggers and a few people sitting alone facing the water. The grass slopes so you can sit facing the sea with Jaffa's minarets to your left.",
+      "tips": "Sit on the southern half, nearer Jaffa, for fewer people and a view of both the old city and the sunset; the northern end by the promenade is busier. Bring your own food and a blanket, there is nothing to buy inside the park. The beach in front is swimmable in season with lifeguards.",
+      "bestTimes": [
+        "golden-hour",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 32.0603,
+      "lng": 34.7601,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Charles Clore Park",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Open, flat and lit along the promenade side; the lawns away from the path are dark at night, so stay near the promenade after dusk."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title confirmed from result URLs in both stages. Address 25 Shaul HaMelech Boulevard. Skeptic search returned Sun-Thu 9:00-21:00 for the complex (spacing.co.il listing); Friday hours did not appear. The researcher-stage Secret Tel Aviv URL did not reappear in the skeptic search and was swapped for the one that did.",
+      "name": "Beit Ariela (Shaar Zion Library)",
+      "neighborhood": "Shaul HaMelech / Civic Centre",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "cozy",
+        "solo",
+        "free"
+      ],
+      "blurb": "Tel Aviv's central public library, a brutalist block next to the art museum and the courthouse with reading rooms, a periodicals hall and long tables where students and retirees sit all day. Anyone can walk in and read; membership is only needed to borrow. On a hot or rainy afternoon it is the calmest free indoor space in the centre.",
+      "tips": "Enter from Shaul HaMelech Boulevard; the upper reading rooms are quieter than the ground floor. Weekday hours run to 9pm; check the library site for Friday, since it is closed on Saturday. The museum cafe next door covers food.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Sun-Thu 9am-9pm; Fri and Sat check site",
+      "lat": 32.0777,
+      "lng": 34.7853,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Beit Ariela",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Beit_Ariela",
+          "label": "Wikipedia: Beit Ariela",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.tel-aviv.gov.il/en/Live/Education/Pages/Public-Libraries.aspx",
+          "label": "Tel Aviv-Yafo Municipality: Public Libraries",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.spacing.co.il/en/location/97_1",
+          "label": "Spacing: The Library Tel Aviv (hours)",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.secrettelaviv.com/best/tags/services/central-library-beit-ariela",
+          "label": "Secret Tel Aviv: Central Library (Beit Ariela)",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building with security check at the entrance."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Skeptic search confirmed hours from the museum site and listings: closed Sun and Mon, Tue/Thu 10-21, Wed/Sat 10-18, Fri 10-14; regular ticket 50 NIS. The researcher had Monday open, now corrected. Wikipedia title now confirmed from a result URL (en.wikipedia.org/wiki/Tel_Aviv_Museum_of_Art). Sculpture plaza between the buildings is free.",
+      "name": "Tel Aviv Museum of Art",
+      "neighborhood": "Shaul HaMelech / Civic Centre",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "cozy",
+        "solo",
+        "study"
+      ],
+      "blurb": "The city's main art museum, two buildings joined by an open plaza with sculptures and benches that is free to sit in. Inside, the folded-concrete atrium of the Herta and Paul Amir building is a good place to sit and stare even without looking at the art, and the permanent collection floors are quiet on weekday mornings. It works as a full rainy day, or as an hour in cool air before walking on to Sarona.",
+      "tips": "The sculpture garden and plaza between the buildings are free and open all day; the ticket desk is in the old building (about 50 NIS, students less). Tuesday and Thursday run late into the evening and are the emptiest. Closed Sunday and Monday. Bags go through a security check.",
+      "bestTimes": [
+        "morning",
+        "night"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Tue/Thu 10am-9pm, Wed/Sat 10am-6pm, Fri 10am-2pm, closed Sun and Mon (check site)",
+      "lat": 32.0773,
+      "lng": 34.7866,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Tel Aviv Museum of Art",
+      "sources": [
+        {
+          "url": "https://www.tamuseum.org.il/en/visit/",
+          "label": "Tel Aviv Museum of Art: Visit (hours and tickets)",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Tel_Aviv_Museum_of_Art",
+          "label": "Wikipedia: Tel Aviv Museum of Art",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed building with security at the door; the outdoor plaza is lit and overlooked by the boulevard."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known public square with the sunken Gan Yaakov garden alongside. Wikipedia title from knowledge in both stages, not URL-confirmed (the skeptic could not reach Wikipedia directly and spent its searches on hours).",
+      "name": "Habima Square and Gan Yaakov",
+      "neighborhood": "City Centre (Rothschild / Habima)",
+      "category": "plaza",
+      "vibes": [
+        "people-watch",
+        "night",
+        "green",
+        "quiet",
+        "solo",
+        "free",
+        "walk",
+        "hidden"
+      ],
+      "blurb": "The wide plaza in front of the national theatre and the concert hall, redesigned with a sunken garden of reeds and a long reflecting pool. Skateboarders use the flat part; the trick is to go down into the sunken garden, where the benches are below street level and the noise of Rothschild Boulevard drops away. Next door, Gan Yaakov is a raised garden of old ficus trees and shaded paths that most people walk straight past.",
+      "tips": "Come off the top of Rothschild Boulevard and take the steps down into the planted hollow; the benches on the concert-hall side get evening shade. Gan Yaakov's entrance is up the stairs beside the Charles Bronfman Auditorium. The theatre foyer and the auditorium café are open before performances if it rains.",
+      "bestTimes": [
+        "golden-hour",
+        "night",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 32.0728,
+      "lng": 34.7793,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Habima Square",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit and busy until late with theatre and concert crowds; the sunken garden is below street level, so sightlines are shorter after the venues close."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title confirmed from result URL (en.wikipedia.org/wiki/Independence_Park_(Tel_Aviv)). Park confirmed as a coastal public park on the cliff at the west end of HaYarkon Street, renovated 2009.",
+      "name": "Gan HaAtzmaut (Independence Park)",
+      "neighborhood": "Old North (HaYarkon / Hilton)",
+      "category": "park",
+      "vibes": [
+        "sunset",
+        "view",
+        "water",
+        "green",
+        "quiet",
+        "solo",
+        "free",
+        "walk"
+      ],
+      "blurb": "A clifftop park on the limestone bluff above Hilton Beach, with lawns, pines and a low wall along the edge that looks straight west over the sea. It is the best free sunset seat in the northern part of the city, and because the promenade below takes the foot traffic, the benches up here are mostly used by people from the surrounding streets. The renovated lawns are wide enough that nobody needs to sit near anyone else.",
+      "tips": "Enter from the west end of HaYarkon Street or up the steps from the promenade by Hilton Beach; the benches along the western edge face the sunset. It is exposed, so bring a layer in winter. Paths back to the street are short, so it is easy to leave once the light goes.",
+      "bestTimes": [
+        "golden-hour",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 32.0905,
+      "lng": 34.7712,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Independence Park (Tel Aviv)",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Independence_Park_(Tel_Aviv)",
+          "label": "Wikipedia: Independence Park (Tel Aviv)",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.secrettelaviv.com/best/tags/activities/gan-haatzmaut",
+          "label": "Secret Tel Aviv: Gan Haatzmaut",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Cliff-edge park with a low wall and steep drops to the beach; paths are only partly lit and the lawns empty out quickly after sunset. Go for golden hour and leave by the HaYarkon Street exit once it is dark."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Public working harbour and promenade; hangars house galleries and restaurants. Wikipedia title left null: an article likely exists but the exact title (Jaffa Port vs Port of Jaffa) was not confirmed and the budget was spent elsewhere.",
+      "name": "Jaffa Port",
+      "neighborhood": "Old Jaffa",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunset",
+        "walk",
+        "people-watch",
+        "quiet",
+        "solo",
+        "free",
+        "night"
+      ],
+      "blurb": "The small ancient harbour below Old Jaffa, still used by fishing boats, with a stone quay, a few converted hangars and the breakwater with Andromeda's Rock offshore. Sit on the quay wall with the boats knocking against their moorings and the sea slapping the breakwater; on weekday evenings the restaurants are quiet and the fishermen ignore you. It is the calmest bit of coast within walking distance of the centre.",
+      "tips": "Walk down from Kedumim Square or along the promenade from Charles Clore Park; the far southern end of the quay past the last hangar is the quietest. Fish restaurants in the hangars cover food and toilets. Sunset is best from the outer breakwater, in calm weather only.",
+      "bestTimes": [
+        "golden-hour",
+        "morning",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 32.0524,
+      "lng": 34.7502,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Working quay with unfenced edges, ropes and wet stone; the breakwater is slippery and gets waves in a swell, so stay on the quay in wind or after dark. Lit along the hangars."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Confirmed via search as trading at 87 Allenby Street for over 30 years, Sun-Thu 09:00-19:30, Fri to 15:30 (Jerusalem Post, Times of Israel, Secret Tel Aviv results). Pin is at the Allenby address, approximate to the alley.",
+      "name": "Halper's Books",
+      "neighborhood": "Allenby / Lev HaIr",
+      "category": "bookstore",
+      "vibes": [
+        "rain-ok",
+        "cozy",
+        "quiet",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "A secondhand bookshop of some 60,000 English and other-language titles down a short alley off Allenby, run by Yosef Halper since the early 1990s. Shelves go floor to ceiling and browsing for an hour is expected; there is usually a chair or a step to sit on and nobody minds if you read before you buy. It is the classic Tel Aviv rainy-afternoon refuge for readers.",
+      "tips": "Look for the alley at number 87 on the west side of Allenby; the shop is set back from the street. Cash and card both fine. Closed Saturday and Friday afternoon. Pair it with a coffee on nearby Nahalat Binyamin.",
+      "bestTimes": [
+        "afternoon",
+        "morning"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Sun-Thu 9am-7:30pm, Fri 9am-3:30pm, closed Sat (check site)",
+      "lat": 32.0665,
+      "lng": 34.7694,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.jpost.com/jerusalem-report/article-723815",
+          "label": "Jerusalem Post: Halper's Books",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.timesofisrael.com/taking-a-page-iconic-tel-aviv-bookseller-releases-his-1st-original-story-collection/",
+          "label": "Times of Israel: Yosef Halper",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.secrettelaviv.com/best/tags/shops/halpers-books",
+          "label": "Secret Tel Aviv: Halper's Books",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed shop on a busy central street; the alley is short and opens directly onto Allenby."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Confirmed open since 1998 in the flea market. Listings disagree on the street number: Waze says 6 Rabbi Yohanan, other listings say 8; pin is approximate to the street. Hours from a skeptic-search listing: Sun-Wed 9:00-00:30, Thu-Fri 9:00-01:00, Sat 10:00-00:30. Tripadvisor URL appeared in both stages; the Secret Tel Aviv URL is researcher-stage only.",
+      "name": "Puaa",
+      "neighborhood": "Jaffa Flea Market (Shuk HaPishpeshim)",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "people-watch",
+        "solo",
+        "group"
+      ],
+      "blurb": "A café-restaurant that has sat in the flea market since 1998, furnished entirely with pieces from the surrounding stalls that are all for sale. It is the market's living room: people linger over a long breakfast or an afternoon coffee for as long as they like, and the mismatched armchairs by the window are made for reading. Home-style food, no rush, and the market's noise stays outside.",
+      "tips": "Go mid-morning on a weekday or mid-afternoon to get a table without waiting; Friday brunch is the crush. Sit inside for quiet, or on the pavement to watch the market. It is a place to eat or drink something, not to camp on a single espresso all day.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Sun-Wed 9am-12:30am, Thu-Fri 9am-1am, Sat 10am-12:30am (check site)",
+      "lat": 32.0536,
+      "lng": 34.7561,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g297749-d2219967-Reviews-Puaa-Jaffa_Tel_Aviv_Tel_Aviv_District.html",
+          "label": "Tripadvisor: Puaa",
+          "kind": "forum"
+        },
+        {
+          "url": "https://www.waze.com/live-map/directions/il/tel-aviv-district/tel-aviv-yafo/cafe-puaa?to=place.ChIJOeimRrlMHRURSmuTz3Skpqw",
+          "label": "Waze: Cafe Puaa, 6 Rabbi Yohanan St",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.secrettelaviv.com/best/tags/best-restaurants/puaa",
+          "label": "Secret Tel Aviv: Puaa (researcher-stage result, not re-confirmed)",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed café on a pedestrian market street that stays lit and open late with bars and restaurants."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Substituted for the TAU Botanical Garden, which a researcher search showed is currently closed to visitors and otherwise ticketed. Sarona lawns and paths are public open space around restored Templer houses; from knowledge only, no search spent in either stage. The researcher safety note claimed security guards until late from knowledge; the skeptic removed that unverified claim. Wikipedia article covers the neighbourhood, not the park, so title left null.",
+      "name": "Sarona Park",
+      "neighborhood": "Sarona / Kaplan",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "solo",
+        "picnic",
+        "walk",
+        "free",
+        "study"
+      ],
+      "blurb": "Lawns, old cypress and olive trees and gravel paths laid out between the restored 19th-century houses of the Templer colony, hemmed in by the office towers of Kaplan Street. Office workers eat lunch on the grass and it goes quiet again by two; in the evening the lawns are lit and mostly empty. The houses hold shops and cafés, so there is coffee and shelter within a few steps of any bench.",
+      "tips": "Come in from Kaplan Street or from Eliezer Kaplan and head for the lawns on the eastern side, away from the food hall; the benches under the big trees behind the visitor centre are the calmest. Saturday is the busiest day. Everything closes late, so it works as an evening sit too.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (shops and cafés vary)",
+      "lat": 32.0716,
+      "lng": 34.7878,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Level, lit lawns and gravel paths overlooked on all sides by shops, cafes and office lobbies that stay open into the evening; exits to Kaplan Street are a minute away from any bench."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence confirmed via search (municipality, Spivak, Secret Tel Aviv results; established 1988, about 1,000 dunam, also called Park Darom). Only a Wikidata item surfaced, no English Wikipedia article, so title null. Pin is near the lake in a very large park and should be treated as approximate.",
+      "name": "Menachem Begin Park (Park Darom)",
+      "neighborhood": "South Tel Aviv (Kiryat Shalom / Neve Ofer)",
+      "category": "park",
+      "vibes": [
+        "green",
+        "water",
+        "quiet",
+        "walk",
+        "picnic",
+        "solo",
+        "free",
+        "hidden",
+        "sunset"
+      ],
+      "blurb": "The big park of south Tel Aviv, a thousand dunams of lawns, eucalyptus groves, a lake used for cable water-skiing and a long loop of cycle paths, opened in 1988 and mostly unknown to visitors. It is where the southern neighbourhoods go for a run or a Saturday barbecue, and on a weekday afternoon the far lawns above the lake are empty. There is a branch library in the park for rain.",
+      "tips": "Come by bus to Kiryat Shalom or cycle down from Florentin along the Ayalon path; the lakeside lawns on the western side are the best for sitting. Shade is patchy, so bring water and a hat in summer. Weekday afternoons and early Saturday mornings are the quiet windows.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 32.0447,
+      "lng": 34.7885,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.secrettelaviv.com/best/tags/activities/menachem-begin-park",
+          "label": "Secret Tel Aviv: Menachem Begin Park",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.spottedbylocals.com/tel-aviv/menachem-begin-park/",
+          "label": "Spotted by Locals: Menachem Begin Park",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.spivak.co.il/en/projects/menahem-begin-park-darom-park/",
+          "label": "Spivak Landscape: Menahem Begin Park (Darom Park)",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Very large and unlit away from the main paths, with an unfenced lake; it empties out after dusk and exits to lit streets are far apart. Go in daylight, or stay on the lit loop nearest the Kiryat Shalom entrance in the evening."
+      },
+      "lowkeyScore": 4
+    }
+  ]
+}

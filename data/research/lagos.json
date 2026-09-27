@@ -1,0 +1,664 @@
+{
+  "city": "Lagos",
+  "country": "Nigeria",
+  "slug": "lagos",
+  "region": "europe-africa",
+  "cityLat": 6.455,
+  "cityLng": 3.3841,
+  "timezone": "Africa/Lagos",
+  "searchesRun": [
+    "John Randle Centre for Yoruba Culture and History Onikan opening hours",
+    "Lekki-Ikoyi Link Bridge pedestrians walking allowed hours",
+    "Muri Okunola Park Victoria Island Lagos opening hours",
+    "Jazzhole Awolowo Road Ikoyi bookshop cafe",
+    "Patabah Books Surulere Adeniran Ogunsanya mall bookshop",
+    "Alliance Française Lagos Mike Adenuga Centre Osborne Road mediatheque garden cafe opening hours",
+    "Tarkwa Bay beach Lagos 2026 boat from Marina visit",
+    "Kalakuta Republic Museum Ikeja Gbemisola Street opening hours",
+    "Lekki-Ikoyi Link Bridge pedestrians jogging ban restricted walkway 2025 2026",
+    "Johnson Jakande Tinubu Park Alausa Ikeja opening hours entry fee",
+    "Jazzhole 168 Awolowo Road Ikoyi location map Falomo",
+    "Nike Art Gallery Lekki Phase 1 Elegushi Road coordinates map Lekki-Ikoyi bridge Admiralty Way"
+  ],
+  "redditSourcedNotes": "Two stages, twelve web searches in all, no reddit threads read. RESEARCH STAGE (8 searches) confirmed with URLs in results: John Randle Centre (en.wikipedia article; Wed-Mon 10am-6pm, about N5,000), Muri Okunola Park (Lagos State Parks and Gardens Agency page; 8am-8pm, about N1,000), Jazzhole (168 Awolowo Road), Patabah Books (Shop B18 Adeniran Ogunsanya Mall, Mon-Sat 9am-5:30pm), Alliance Française / Mike Adenuga Centre (9 Osborne Road; en.wikipedia article exists; only reception and cafe hours found), Tarkwa Bay (still visited by boat from CMS and Fiki Marina), Kalakuta Republic Museum (7 Gbemisola Street, 10am-6pm) and the Lekki-Ikoyi Link Bridge (en.wikipedia article exists). REVIEW STAGE (4 searches) found: (1) Nike Art Gallery is at 2 Elegushi Road, Ikate, by the Third Roundabout on the Lekki-Epe Expressway (directory coordinates 6.4315, 3.4819), about 3 km east of where the draft put it and not beside the bridge landing as the draft claimed; corrected, and the false 'walk across the bridge to Nike' tips removed. (2) The en.wikipedia article 'Johnson Jakande Tinubu Park' exists (URL in results); hours 9am-6pm and about N1,000 entry. (3) Jazzhole's draft coordinates were about 500 m south of Awolowo Road and were moved onto the road near Falomo; its listed hours conflict between sources, so they are marked varies. (4) No report of a current pedestrian ban on the Lekki-Ikoyi bridge was found for 2025-26, but no official pedestrian hours either, so the caution and 'access varies' stand. Wikipedia titles confirmed by URL: John Randle Centre, Lekki-Ikoyi Link Bridge, Alliance Française de Lagos, Johnson Jakande Tinubu Park. From memory only and NOT URL-confirmed (en.wikipedia.org was blocked by the review stage's network egress, so they could not be fetched): Freedom Park (Lagos), Terra Kulture, Nike Art Gallery, Lekki Conservation Centre, Tarkwa Bay Beach; kept because the reviewer is confident each exists, flagged in verifyNote. Kalakuta and the UNILAG lagoon front are null because the only articles are about the commune and the university, not these places. Not searched in either stage and written from knowledge: Freedom Park, Terra Kulture, Lekki Conservation Centre, UNILAG lagoon front; their sources arrays are empty rather than invented and their hours are approximate. Every source URL in this file appeared in a search result in one of the two stages; the reviewer could not open any of them (curl and WebFetch were blocked by the network proxy for every domain tried), so liveness is unverified but none was invented. Coordinates are from knowledge of the street layout, checked against the reviewer's own map memory and marked medium wherever the block is known but not the gate; only the bridge mid-span is high. Safety notes were read against the standard in both stages and describe only physical conditions (lighting, closing times, traffic, water, boat crossings, an unfenced lagoon wall); none characterises people or leans on a neighbourhood's reputation, and no rewrites were needed. Caution is set on two spots for physical reasons: the bridge walkway beside fast traffic with intermittent pedestrian restrictions, and Tarkwa Bay's surf and unscheduled boat crossing.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Long-established public park and memorial on the old Broad Street prison site; written from knowledge, not searched. Entry fee and hours are approximate. Wikipedia title from memory, not URL-confirmed. Coordinates are the block between Broad Street and Hospital Road, not a surveyed gate.",
+      "name": "Freedom Park",
+      "neighborhood": "Lagos Island (Broad Street)",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "night",
+        "cozy",
+        "solo",
+        "group",
+        "people-watch",
+        "walk"
+      ],
+      "blurb": "The colonial-era Broad Street prison, turned into a walled garden park with lawns, sculptures, a small museum, a pond and a couple of cafes under old trees. On weekday afternoons it is one of the few places on Lagos Island where you can sit still for an hour a few metres from the traffic and hear nothing but birds and a generator hum. Evenings bring live music and a bigger crowd, so daytime is the low-key window.",
+      "tips": "Enter from Broad Street opposite the old Ministry of Justice; pay the small gate fee and head for the benches around the pond or the shaded lawn behind the amphitheatre. Weekends and Friday nights are event nights, so go Tuesday to Thursday afternoons if you want it empty.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "roughly 10am-10pm daily (check site)",
+      "lat": 6.4488,
+      "lng": 3.3969,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Freedom Park (Lagos)",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Walled, gated and staffed, with lit paths in the evening; after closing the surrounding business streets are quiet and mostly unlit, so arrange your ride from the gate."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, en.wikipedia article and hours confirmed via search (open daily except Tuesday 10am-6pm, adult ticket about N5,000). Coordinates are the Onikan site beside the old Randle swimming pool, from knowledge of the block rather than a surveyed point.",
+      "name": "John Randle Centre for Yoruba Culture and History",
+      "neighborhood": "Onikan, Lagos Island",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "green",
+        "solo",
+        "study",
+        "cozy"
+      ],
+      "blurb": "A new museum of Yoruba culture built in 2023 on the site of Dr John Randle's 1928 public swimming pool in Onikan, with a restored pool, landscaped grounds and a cool, dim set of galleries built around sound, textiles and Ifa verse. It is far calmer than the National Museum down the road, and the grounds and cafe give you somewhere green to sit before or after the galleries. The ticket is not cheap by Lagos standards, which keeps it quiet.",
+      "tips": "Closed Tuesdays; go on a weekday morning just after opening for empty galleries. Sit by the restored pool or in the shaded courtyard when the sun is high, and allow ninety minutes for the exhibition itself.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Wed-Mon 10am-6pm, closed Tue (check site)",
+      "lat": 6.4443,
+      "lng": 3.4045,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "John Randle Centre for Yoruba Culture and History",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/John_Randle_Centre_for_Yoruba_Culture_and_History",
+          "label": "Wikipedia: John Randle Centre",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.discoverlagos.ng/post/exploring-lagos-discover-the-john-randle-centre-for-yoruba-culture-and-history",
+          "label": "Discover Lagos: John Randle Centre",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, ticketed building with a gated compound; closes at 6pm, before dark."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, hours (8am-8pm daily) and entry fee (about N1,000) confirmed via the Lagos State Parks and Gardens Agency page in search results. Coordinates are the Adeyemo Alakija / Muri Okunola Street block from knowledge, medium confidence. No English Wikipedia article found in results, so title is null.",
+      "name": "Muri Okunola Park",
+      "neighborhood": "Victoria Island",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "solo",
+        "picnic",
+        "walk",
+        "people-watch"
+      ],
+      "blurb": "A small, tidy landscaped park with a fountain, lawns, paved paths and benches under trees, wedged between the office towers and the Law School on Victoria Island. Office workers eat lunch here and the odd person reads on the grass; it is one of very few green spaces on VI where you can actually sit on a bench rather than in a cafe. It gets booked for weddings and shoots at weekends, so weekdays are calmer.",
+      "tips": "Entrance on Adeyemo Alakija Street near the Nigerian Law School; pay the small gate fee at the kiosk and head to the benches on the far side of the fountain, away from the entrance. Bring water, there is little for sale inside.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "8am-8pm daily",
+      "lat": 6.4322,
+      "lng": 3.422,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://lasparkportal.lagosstate.gov.ng/parks/muri-okunola-park/",
+          "label": "Lagos State Parks and Gardens Agency: Muri Okunola Park",
+          "kind": "official"
+        },
+        {
+          "url": "https://nigeriawide.com/listing/muri-okunola-park/",
+          "label": "Nigeriawide: Muri Okunola Park",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced, gated and staffed, with lighting until the 8pm close; the surrounding streets are busy office streets by day and quieter after offices shut."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Long-running arts centre at 1376 Tiamiyu Savage Street; written from knowledge, not searched. Hours approximate. Wikipedia title from memory, not URL-confirmed. Entry to the gallery and bookshop is free; the restaurant and theatre are paid.",
+      "name": "Terra Kulture",
+      "neighborhood": "Victoria Island",
+      "category": "other",
+      "vibes": [
+        "rain-ok",
+        "cozy",
+        "study",
+        "people-watch",
+        "solo",
+        "group",
+        "night"
+      ],
+      "blurb": "A Nigerian arts centre on Tiamiyu Savage Street that has been running since 2003, with a free art gallery, a small bookshop of Nigerian writers, a language school and a restaurant serving Nigerian food at ordinary prices. Between the lunch and theatre rushes it is a quiet place to read or work under air conditioning with a plate of ofada rice. The gallery changes regularly and nobody minds you lingering.",
+      "tips": "Walk in through the main entrance, browse the gallery upstairs and take a table at the back of the restaurant for a long sit. Check the theatre programme: show nights (usually weekends) fill the building, while weekday afternoons are almost empty.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "roughly 9am-10pm daily (check site)",
+      "lat": 6.4278,
+      "lng": 3.4238,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Terra Kulture",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed building with a gated car park and security at the door; open into the evening on a busy street."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Address (168 Awolowo Road, near the Falomo end) confirmed in both stages via directory listings. Hours conflict: one Oct 2025 review said Mon-Sat 9am-9pm, closed Sunday; a bookstore directory says Mon-Fri 9:30am-7pm and Sunday noon-6pm, so hours are marked varies. First-draft coordinates sat about 500 m south of Awolowo Road; moved onto the road near Falomo, still medium because the exact frontage is from memory. No English Wikipedia article found, so title is null.",
+      "name": "Jazzhole",
+      "neighborhood": "Ikoyi (Awolowo Road)",
+      "category": "bookstore",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "quiet",
+        "solo",
+        "study",
+        "hidden"
+      ],
+      "blurb": "A bookshop, record shop and tiny cafe on Awolowo Road that has been run by the Tejuoso family since the early 1990s, with floor-to-ceiling shelves of African literature, secondhand hardbacks, jazz and highlife vinyl, and a few tables where coffee and tea are served. It smells of paper and coffee, the music is always on low and the staff let you sit and read for as long as you like. It is where Ikoyi goes to slow down.",
+      "tips": "Order at the counter and take a table at the back among the records; browsing is welcome but no photography or video inside. Opening days and evening hours are not consistent across listings and readings or open-mic nights make it busier, so check their Instagram before going for quiet.",
+      "bestTimes": [
+        "afternoon",
+        "morning"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "varies (listings disagree; roughly 9:30am-7pm or later Mon-Sat, Sunday uncertain; check Instagram)",
+      "lat": 6.442,
+      "lng": 3.4232,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://aalbc.com/bookstore/The+Jazzhole",
+          "label": "AALBC bookstore listing: The Jazzhole",
+          "kind": "other"
+        },
+        {
+          "url": "https://cassiedaves.com/jazzhole-lagos-bookshop/",
+          "label": "Cassie Daves: a visit to Jazzhole",
+          "kind": "blog"
+        },
+        {
+          "url": "https://reviewit.ng/2025/10/17/jazzhole-lagos-where-lagos-takes-a-deep-breath-and-a-sip-of-coffee/",
+          "label": "ReviewIt (Oct 2025): Jazzhole Lagos",
+          "kind": "press"
+        },
+        {
+          "url": "https://triptap.com/places/ng/lagos/ikoyi/jazzhole-lagos-t060dc06",
+          "label": "TripTap: Jazzhole, 168 Awolowo Rd",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed shop on a main, lit road served by taxis and ride-hailing; parking on Awolowo Road is tight, so arrive by car with a plan to be dropped off."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Address (9 Osborne Road), facilities (mediatheque, gallery, garden amphitheatre, Maison Kayser cafe) and en.wikipedia article 'Alliance Française de Lagos' confirmed via search. Only reception (Mon-Fri 9am-5pm, Sat 9am-2pm) and cafe (7am-10pm or later) hours were found, so overall hours are marked varies. Coordinates are the Falomo end of Osborne Road from knowledge, medium confidence.",
+      "name": "Alliance Française de Lagos (Mike Adenuga Centre)",
+      "neighborhood": "Ikoyi (Osborne Road)",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "green",
+        "cozy",
+        "solo",
+        "free"
+      ],
+      "blurb": "The French cultural centre's 2020 building on Osborne Road: a media library, an art gallery, a cinema and a garden amphitheatre around a Maison Kayser bakery cafe. You can wander in to see the exhibition, sit in the garden or read in the mediatheque without being a student, and on weekday afternoons it is one of the quietest air-conditioned rooms in Ikoyi. Free films and concerts happen most weeks, but between events it is a library first.",
+      "tips": "Sign in at reception; borrowing needs membership but sitting and reading does not. The garden seating behind the cafe is shaded in the afternoon, and the cafe opens early enough for a 7am coffee before Ikoyi traffic builds. Check the programme so you do not land on a concert night if you want silence.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "varies (reception Mon-Fri 9am-5pm, Sat 9am-2pm; cafe from 7am; check site)",
+      "lat": 6.447,
+      "lng": 3.4262,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Alliance Française de Lagos",
+      "sources": [
+        {
+          "url": "https://www.afnigeria.org/lagos/ikoyi-branch/",
+          "label": "Alliance Française de Lagos: Ikoyi branch",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Alliance_Fran%C3%A7aise_de_Lagos",
+          "label": "Wikipedia: Alliance Française de Lagos",
+          "kind": "other"
+        },
+        {
+          "url": "https://maison-kayser.com/en/boulangerie/ikoyi-alliance-francaise/",
+          "label": "Maison Kayser: Ikoyi Alliance Française bakery",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated compound with security at the entrance and staff on site; the cafe stays open into the evening and the forecourt is lit."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Free gallery at 2 Elegushi Road, Ikate, by the Third Roundabout on the Lekki-Epe Expressway. Review search confirmed the address and gave coordinates 6.43152, 3.481898 (from a business directory, not surveyed), which moved this spot about 3 km east of where the first draft had it; the draft also wrongly put it beside the Lekki-Ikoyi bridge landing. Hours approximate. Wikipedia title from memory, not URL-confirmed.",
+      "name": "Nike Art Gallery",
+      "neighborhood": "Ikate, Lekki Phase 1",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "solo",
+        "cozy",
+        "free",
+        "people-watch"
+      ],
+      "blurb": "Nike Davies-Okundaye's multi-storey gallery on Elegushi Road, packed floor to ceiling with thousands of paintings, adire textiles, beadwork and carvings, and free to walk into. It is less a museum than an enormous, slightly chaotic house of art where you can climb to the top floor, find a bench and be left alone with the work for an hour. Staff are used to browsers and rarely push a sale.",
+      "tips": "Turn off the Lekki-Epe Expressway at the Third Roundabout onto Elegushi Road; the gallery is the tall white building on the left. Go on a weekday morning; the ground floor fills with tour groups on Saturdays. Climb straight to the upper floors for the quietest rooms, and ask before photographing individual works.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "roughly 10am-6pm daily (check site)",
+      "lat": 6.4315,
+      "lng": 3.4819,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Nike Art Gallery",
+      "sources": [
+        {
+          "url": "https://www.atlasobscura.com/places/nike-centre-for-art-and-culture",
+          "label": "Atlas Obscura: Nike Centre for Art and Culture",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.nigeriabusinessweb.com/contact-lagos-nike_art_and_culture-4358.html",
+          "label": "Nigeria Business Web: address and coordinates",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed building with a gated forecourt and security; closes before dark."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known Nigerian Conservation Foundation reserve at Km 19 Lekki-Epe Expressway; written from knowledge, not searched. Entry fee and hours approximate; canopy walkway is a separate paid ticket. Wikipedia title from memory, not URL-confirmed. Coordinates are the entrance area on the expressway, medium confidence.",
+      "name": "Lekki Conservation Centre",
+      "neighborhood": "Lekki (Lekki-Epe Expressway)",
+      "category": "trail",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "solo",
+        "group",
+        "picnic",
+        "water"
+      ],
+      "blurb": "A 78-hectare patch of mangrove swamp and coastal savannah kept by the Nigerian Conservation Foundation, with a raised timber boardwalk through the wetland, a long canopy walkway and a picnic lawn with benches, giant chess and a bird hide. Monkeys, monitor lizards and peacocks wander about, and once you are ten minutes down the boardwalk the expressway noise drops away completely. Most visitors do the canopy walk and leave; the boardwalk benches and the lakeside hut stay quiet.",
+      "tips": "Arrive at opening on a weekday, pay at the gate (the canopy walkway is an extra ticket you can skip) and take the boardwalk to the lake hut and the tree house benches. Wear closed shoes, bring water and insect repellent, and keep food zipped away from the monkeys.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "roughly 8:30am-5pm daily (check site)",
+      "lat": 6.4417,
+      "lng": 3.5353,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Lekki Conservation Centre",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Gated, staffed reserve that closes before dusk; the boardwalk has railings but is slippery when wet, and the canopy walkway is high and sways, so skip it if you dislike heights."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "En.wikipedia article confirmed via search in both stages. Review search (Sept 2026) found running guides describing the walkway in use mornings and evenings and no report of a current pedestrian ban, but also no official pedestrian hours, and access has been restricted by the state in the past, so treat it as changeable. First draft wrongly said Admiralty Way was on the Ikoyi side; it is the Lekki Phase 1 landing. Coordinates are mid-span.",
+      "name": "Lekki-Ikoyi Link Bridge walkway",
+      "neighborhood": "Ikoyi / Lekki Phase 1",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "water",
+        "sunrise",
+        "sunset",
+        "skyline",
+        "walk",
+        "free",
+        "people-watch"
+      ],
+      "blurb": "A 1.36 km cable-stayed toll bridge across the Five Cowrie Creek between Ikoyi and Lekki Phase 1, with a walkway that Lagosians use for early-morning and evening walks and runs. From the pylon at the centre you get the widest open view in the city: the lagoon, the Ikoyi towers, the Lekki skyline and the sunrise or sunset over the water. It is the closest thing Lagos has to a public promenade in the sky.",
+      "tips": "Start from the Lekki Phase 1 end on Admiralty Way or the Ikoyi end, and walk out to the pylon; there is no shade, so go before 8am or after 5pm. Pedestrian access has been switched off at times by the authorities, so if the ramp is barred, do not climb around it. Bring nothing you would mind losing to the wind.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h for traffic; walkway used mornings and evenings (access varies)",
+      "lat": 6.4355,
+      "lng": 3.447,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Lekki-Ikoyi Link Bridge",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Lekki-Ikoyi_Link_Bridge",
+          "label": "Wikipedia: Lekki-Ikoyi Link Bridge",
+          "kind": "other"
+        },
+        {
+          "url": "https://structurae.net/en/structures/lekki-ikoyi-link-bridge",
+          "label": "Structurae: Lekki-Ikoyi Link Bridge",
+          "kind": "other"
+        },
+        {
+          "url": "https://orivvio.com/tour/lekki-ikoyi-bridge-walk-tour-lagos-nigeria/",
+          "label": "Orivvio: Lekki-Ikoyi bridge walk",
+          "kind": "blog"
+        },
+        {
+          "url": "https://greatruns.com/ikoyi-lekki-bridge/",
+          "label": "Great Runs: Ikoyi-Lekki Bridge",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "A narrow walkway beside fast traffic with no shade and a long drop to the water; pedestrian access is sometimes closed by the authorities. Walk it in daylight or the lit early evening, stay inside the barrier, and turn back if the ramp is barred."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Beach confirmed still visited in 2026 via search (boats from CMS Marina, Fiki Marina and Mekwe Jetty, 15-30 minutes, small per-person fares). Wikipedia title from memory, not URL-confirmed. Coordinates are the sheltered beach on the harbour mole from knowledge, medium confidence. Small landing and beach fees are charged informally, so free is set to false.",
+      "name": "Tarkwa Bay Beach",
+      "neighborhood": "Tarkwa Bay (harbour mole, by boat)",
+      "category": "beach",
+      "vibes": [
+        "water",
+        "quiet",
+        "sunset",
+        "picnic",
+        "walk",
+        "group",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "A sheltered, artificial-harbour beach on the Atlantic mole, reachable only by a short boat ride from CMS or Fiki Marina, which is exactly why it stays calm. Fishermen mend nets, a few surfers work the break by the breakwater, and on a weekday you can rent a plastic chair under a palm shelter and watch container ships slide into Apapa for hours. It is the one beach near the centre without a car park, a gate or loud speakers.",
+      "tips": "Take a shared boat from CMS jetty or a private one from Fiki Marina in the morning and agree the return time with the boatman before you leave; ask for a life jacket. Bring cash for the landing fee, a chair and food, and sit at the western end away from the landing for quiet. Leave well before sunset so you are not waiting for a boat in the dark.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "daylight (boats roughly 8am-6pm)",
+      "lat": 6.404,
+      "lng": 3.3995,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Tarkwa Bay Beach",
+      "sources": [
+        {
+          "url": "https://en.wikivoyage.org/wiki/Tarkwa_Bay_(Lagos)",
+          "label": "Wikivoyage: Tarkwa Bay",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g304026-d7364151-Reviews-Tarkwa_Bay_Beach-Lagos_Lagos_State.html",
+          "label": "Tripadvisor: Tarkwa Bay Beach",
+          "kind": "forum"
+        },
+        {
+          "url": "https://sassyfunke.com/tarkwa-bay-lagos/",
+          "label": "SassyFunke: guide to visiting Tarkwa Bay",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Open-water boat crossing with no fixed schedule and no lifeguards on the beach; the ocean side has a strong undertow, so swim only in the sheltered bay, wear a life jacket on the boat and be back at the landing an hour before dusk."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Large Lagos State park in Alausa beside the state secretariat. Review search confirmed the en.wikipedia article 'Johnson Jakande Tinubu Park' by URL, hours of 9am-6pm and an entry fee of about N1,000 (listings conflict on whether small groups get in free), with mat hire at extra cost. Coordinates are the park block off Otunba Jobi Fele Way from knowledge, not a surveyed gate; medium confidence.",
+      "name": "Johnson Jakande Tinubu (JJT) Park",
+      "neighborhood": "Alausa, Ikeja",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "picnic",
+        "walk",
+        "solo",
+        "group",
+        "sunset"
+      ],
+      "blurb": "The mainland's biggest lawn: a wide open park in Alausa named for three Lagos governors, with mown grass, tree-lined paths, a pond, benches and a football pitch, across the road from the state secretariat. Civil servants cross it at lunch and Ikeja families spread mats on Sunday afternoons, but on a weekday morning it is almost empty and very quiet for somewhere so central to Ikeja. It is the obvious place to read outdoors if you live on the mainland.",
+      "tips": "Enter from the secretariat side off Otunba Jobi Fele Way; pay about N1,000 at the gate (mats can be hired) and head for the benches under the trees on the far side of the pond. Sundays are the busiest day and it closes at 6pm, so go on a weekday for space.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "9am-6pm daily (check site)",
+      "lat": 6.6165,
+      "lng": 3.3565,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Johnson Jakande Tinubu Park",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Johnson_Jakande_Tinubu_Park",
+          "label": "Wikipedia: Johnson Jakande Tinubu Park",
+          "kind": "other"
+        },
+        {
+          "url": "https://wanderlog.com/place/details/2067461/johnson-jakande-tinubu-jjt-park",
+          "label": "Wanderlog: JJT Park hours and fee",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced park with gate staff, next to the state secretariat and its police post; it closes at 6pm and has little lighting inside, so be at the gate before closing and plan the ride from there."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Address (7 Gbemisola Street, off Allen Avenue) and hours (daily 10am-6pm) confirmed via search. The rooftop lounge is from knowledge. The en.wikipedia article 'Kalakuta Republic' is about the commune Fela declared, not the museum, so title is null. Coordinates are the Allen Avenue side street from knowledge, medium confidence.",
+      "name": "Kalakuta Republic Museum",
+      "neighborhood": "Allen Avenue, Ikeja",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "cozy",
+        "quiet",
+        "solo",
+        "view",
+        "hidden"
+      ],
+      "blurb": "Fela Kuti's last house on a quiet Ikeja side street, kept as a small museum by his family: his bedroom, his saxophones, his shoes and the wall of newspaper cuttings, with a small rooftop lounge on top where you can sit over Ikeja's rooftops with a drink and his records playing. It is a house, not an institution, so a visit is unhurried and you often have it to yourself. The roof at the end of the afternoon is the point.",
+      "tips": "Ring the bell at the gate on Gbemisola Street and pay the small entry fee; a guide walks you round the rooms and then leaves you alone upstairs. Go late afternoon for the roof, and avoid the week of Felabration in October if you want it quiet.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "10am-6pm daily (check site)",
+      "lat": 6.6018,
+      "lng": 3.3545,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.kalakutamuseum.com/",
+          "label": "Kalakuta Museum: official site",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.lonelyplanet.com/points-of-interest/kalakuta-republic-museum/1346251",
+          "label": "Lonely Planet: Kalakuta Republic Museum",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g304026-d3954839-Reviews-Kalakuta_Republic_Museum-Lagos_Lagos_State.html",
+          "label": "Tripadvisor: Kalakuta Republic Museum",
+          "kind": "forum"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed private museum behind a gate on a residential street; closes at 6pm, and the walk back to Allen Avenue is short and along a lit main road."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "The University of Lagos lagoon front is a well-known student hangout on a public university campus; written from knowledge, not searched. Campus gates admit visitors by day but access rules can change, so this is flagged. No English Wikipedia article for the waterfront itself (only for the university), so title is null. Coordinates are the shoreline east of the Senate Building, medium confidence.",
+      "name": "University of Lagos Lagoon Front",
+      "neighborhood": "Akoka, Yaba",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunset",
+        "quiet",
+        "view",
+        "study",
+        "solo",
+        "group",
+        "free",
+        "walk"
+      ],
+      "blurb": "The stretch of Lagos Lagoon shoreline inside the University of Lagos campus at Akoka, with a low concrete wall, a row of trees, a jetty and a long view across the water to Third Mainland Bridge. Students come here to read, revise and watch the sunset behind the bridge, and it is one of the few open lagoon edges on the mainland where sitting still is normal. Fish sellers and boat operators give it a gentle bustle without noise.",
+      "tips": "Enter the campus by the main gate off St Finbarr's Road (visitors may be asked their business), walk past the Senate Building to the lagoon wall and sit anywhere along it; the jetty end is quietest. Go on a weekday afternoon in term time for the sunset over the bridge, and leave with the students as the light goes.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "campus open by day (visitor access varies)",
+      "lat": 6.5178,
+      "lng": 3.4015,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Inside a gated, policed campus; the lagoon wall is low and unfenced with deep water below, and the shore path is unlit, so go in daylight and stay on the paved side."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Address (Shop B18, Adeniran Ogunsanya Shopping Mall, Surulere), founding year (1987) and hours (Mon-Sat 9am-5:30pm, closed Sun) confirmed via search, with an event posted for October 2024. Coordinates are the mall on Adeniran Ogunsanya Street from knowledge, medium confidence. No English Wikipedia article found, so title is null.",
+      "name": "Patabah Books",
+      "neighborhood": "Surulere",
+      "category": "bookstore",
+      "vibes": [
+        "rain-ok",
+        "cozy",
+        "quiet",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "A Nigerian-owned independent bookshop trading since 1987, now a compact shop inside the Adeniran Ogunsanya mall in Surulere with a serious stock of Nigerian fiction, children's books and imported paperbacks, and a habit of hosting readings and book clubs. It is the mainland's answer to the Ikoyi bookshops, and browsing slowly is the point. Air-conditioned, quiet and far from the island crowds.",
+      "tips": "It is on the ground level of the Shoprite mall; browse, then take a seat at one of the mall's cafes with your purchase. Weekday mornings are quietest, Saturdays bring readings and families, and it is closed on Sundays.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Sat 9am-5:30pm, closed Sun",
+      "lat": 6.499,
+      "lng": 3.3555,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.patabah.com/",
+          "label": "Patabah Books: official site",
+          "kind": "official"
+        },
+        {
+          "url": "https://bookartville.com/bookartvilles-definitive-list-of-bookshops-and-libraries-in-lagos-nigeria/",
+          "label": "BookArtville: bookshops and libraries in Lagos",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.businesslist.com.ng/company/271537/patabah-books",
+          "label": "BusinessList: Patabah Books hours",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Inside a staffed, secured shopping mall with its own car park; closes before dark."
+      },
+      "lowkeyScore": 4
+    }
+  ]
+}

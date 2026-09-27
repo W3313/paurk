@@ -1,0 +1,638 @@
+{
+  "city": "Colombo",
+  "country": "Sri Lanka",
+  "slug": "colombo",
+  "region": "asia-pacific",
+  "cityLat": 6.9271,
+  "cityLng": 79.8612,
+  "timezone": "Asia/Colombo",
+  "searchesRun": [
+    "Beddagana Wetland Park Kotte opening hours entrance",
+    "Diyatha Uyana Battaramulla wikipedia",
+    "Crow Island Beach Park Mattakkuliya Colombo",
+    "Colombo Public Library opening hours Sir Marcus Fernando Mawatha",
+    "Lionel Wendt Art Centre Guildford Crescent gallery wikipedia",
+    "Pagoda Tea Room Chatham Street Colombo Fort still open",
+    "Barefoot Garden Cafe 704 Galle Road Colombo opening hours",
+    "Viharamahadevi Park Colombo opening hours",
+    "Beddagana Wetland Park Kotte coordinates latitude longitude",
+    "Crow Island Beach Park Mattakkuliya latitude longitude map",
+    "Diyatha Uyana Polduwa junction Battaramulla coordinates",
+    "Mount Lavinia beach seafood restaurants north of Mount Lavinia Hotel College Avenue beach access"
+  ],
+  "redditSourcedNotes": "Two stages. RESEARCHER: eight searches, all returned results; no reddit threads surfaced in either stage, so nothing here is reddit-sourced despite the field name. Confirmed by those searches: Beddagana Wetland Park exists at 139 Rampart Rd, Kotte, 6am-6pm (last entry 5:30pm), small entry fee (LKR 100 residents / LKR 500 foreigners); Diyatha Uyana, Lionel Wendt Art Centre, Colombo Public Library and Colombo National Museum have exact en.wikipedia.org articles under those names; Crow Island Beach Park is a free 17-acre Colombo Municipal Council park opened 2016; Pagoda Tea Room (105 Chatham St) still trades Mon-Sat 7:30am-5:30pm; Barefoot Garden Cafe is open Mon-Sat 10am-7pm, Sun/Poya 10am-6pm. Viharamahadevi Park closing time disagreed across sources (6/8/9pm) and the hours field says so. SKEPTIC: four searches, spent on coordinates. Diyatha Uyana moved ~470 m west to the Wikipedia infobox value (6.9044, 79.9097; the Wikipedia URL appeared again, so that title is doubly confirmed). Crow Island Beach Park moved ~300 m west onto the beach to 6.9734, 79.8694, the study-area position in a published research paper figure. Beddagana moved ~330 m to 6.8944, 79.9098 from a coordinate-directory result (kept medium: a directory, not a map). Mount Lavinia: search confirmed the beach restaurants are north of the hotel along College Avenue, so the first draft's 'south of the headland' geography, tips and coordinates were corrected. Lionel Wendt and Barefoot coordinates were nudged 200-250 m from knowledge and remain medium. All remaining coordinates are from knowledge and none from a map API; high is claimed only for Viharamahadevi Park, Independence Memorial Hall, National Museum, Dutch Hospital and the two search-corrected parks. Galle Face Green was dropped by the skeptic as landmark padding (lowkeyScore 1, the busiest tourist site in the city); the list is now 13. Wikipedia titles: URL-confirmed for Diyatha Uyana, Colombo Public Library, Colombo National Museum, Lionel Wendt Art Centre. From knowledge only, not URL-confirmed: Viharamahadevi Park, Independence Memorial Hall, Old Colombo Dutch Hospital, Wolvendaal Church. Null for Beddagana, Crow Island, Barefoot, Mount Lavinia Beach, Pagoda Tea Room. Sources: the skeptic tried to open every URL in the file directly and could not, because outbound fetches to en.wikipedia.org and the source sites were blocked by the sandbox proxy; the researcher's URLs are therefore kept on trust that they came from its search results (they have the shape of real result URLs and the researcher reported web search reachable), and nothing was removed or added except URLs that appeared in the skeptic's own four result lists. Independence Square, Old Colombo Dutch Hospital and Wolvendaal Church still have empty sources arrays because no search was spent on them in either stage; nothing was invented. Hours for Diyatha Uyana, Wolvendaal, Lionel Wendt galleries, Dutch Hospital courtyards and Crow Island are knowledge only. Safety screen: all 13 are legitimate public places (a park, a memorial square, a lakeside garden, a wetland trail, a library, a museum, an art centre, two cafes, a heritage courtyard, a church, a beach park, a beach); none involve trespass, derelict, industrial or rail land. The skeptic reread every safety note against the standard and found none that characterised people or leaned on a neighbourhood's reputation; all rest on lighting, closing times, traffic, water and terrain. Caution is set on the two beaches only, for currents and unlit sand after dark.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Existence and public access certain. Opening hours disagree across the search results (closes at 6pm, 8pm or 9pm depending on source), so treat the hours as approximate. Wikipedia title from knowledge, not URL-confirmed.",
+      "name": "Viharamahadevi Park",
+      "neighborhood": "Cinnamon Gardens (Colombo 7)",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "solo",
+        "walk",
+        "picnic",
+        "free",
+        "people-watch"
+      ],
+      "blurb": "Colombo's oldest and largest park, a rectangle of rain trees, flowering mara and lawns between the Town Hall and the National Museum. Office workers eat lunch under the trees, couples sit on the benches around the giant seated Buddha, and the shaded paths on the museum side are quiet even when the fountain end is busy. It is the default answer when a resident wants somewhere green to sit for an hour in the middle of the city.",
+      "tips": "Enter from the Town Hall side (Green Path) or from Sir Marcus Fernando Mawatha by the museum; the south-western corner and the paths near the Public Library are quietest. Early morning is walkers and joggers, late afternoon is families. Carry water, there is little for sale inside.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 6am-8pm (sources disagree; check locally)",
+      "lat": 6.9147,
+      "lng": 79.862,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Viharamahadevi Park",
+      "sources": [
+        {
+          "url": "https://www.colombo.mc.gov.lk/parks.php",
+          "label": "Colombo Municipal Council: parks",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.arabiers.lk/blog/viharamahadevi-park",
+          "label": "Arabiers: Viharamahadevi Park timings",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Open, well-used park bordered by busy roads with lit main paths; the interior paths are dim after sunset, so stay near the Town Hall or museum edges once it is dark."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known public monument and grounds, written from knowledge; no search spent. Wikipedia title from knowledge, not URL-confirmed. Coordinates are for the memorial hall itself.",
+      "name": "Independence Square",
+      "neighborhood": "Cinnamon Gardens (Colombo 7)",
+      "category": "plaza",
+      "vibes": [
+        "walk",
+        "night",
+        "people-watch",
+        "free",
+        "solo",
+        "group",
+        "quiet"
+      ],
+      "blurb": "The stone-pillared Independence Memorial Hall sits in a wide, lawned square that Colombo treats as its evening living room: walkers do laps of the perimeter path, students sit on the steps under the carved lions, and the whole thing is lit until late. The old Auditor General's building beside it is now the Arcade, a quiet colonial courtyard with cafes if you want a table. Weekday mornings before 8am are almost empty.",
+      "tips": "Sit on the raised steps of the hall itself for shade and a breeze, or on the lawn edges facing the Arcade. Go before 7am for joggers-only quiet, or after 8pm when the lights are on and the heat is gone. Toilets and coffee are in the Arcade next door.",
+      "bestTimes": [
+        "morning",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (Arcade cafes roughly 10am-10pm)",
+      "lat": 6.9034,
+      "lng": 79.8686,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Independence Memorial Hall",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Floodlit, busy with walkers until around 10pm and patrolled; the surrounding roads carry fast traffic, so use the crossings at Independence Avenue."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title confirmed by URL in two separate searches (researcher and skeptic). Coordinates corrected by the skeptic to the Wikipedia infobox value 6°54′16″N 79°54′35″E (the first draft was about 470 m too far east). Hours from knowledge only.",
+      "name": "Diyatha Uyana",
+      "neighborhood": "Battaramulla",
+      "category": "garden",
+      "vibes": [
+        "water",
+        "green",
+        "sunset",
+        "walk",
+        "group",
+        "free",
+        "people-watch"
+      ],
+      "blurb": "A lakeside park on the banks of the Diyawanna Oya, a few kilometres east of the centre near Parliament, built on reclaimed marsh with a long waterside walkway, a plant and flower market, food stalls and a small aquarium. It is where suburban Colombo comes on weekend evenings to walk by the water and eat, and on weekday afternoons the lakefront benches are mostly empty. The view west over the water at sunset is one of the widest open horizons the city has.",
+      "tips": "Take the bus or a tuk to Polduwa junction and walk in from Parliament Road; head past the stalls to the waterside path for benches facing the lake. Weekends fill up after 4pm with families; go on a weekday afternoon for quiet. The floating restaurant next door is separate and pricier.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 6am-10pm (check locally)",
+      "lat": 6.9044,
+      "lng": 79.9097,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Diyatha Uyana",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Diyatha_Uyana",
+          "label": "Wikipedia: Diyatha Uyana",
+          "kind": "other"
+        },
+        {
+          "url": "https://tlc.lk/diyatha-uyana/",
+          "label": "TLC: Diyatha Uyana",
+          "kind": "blog"
+        },
+        {
+          "url": "https://discovercolombo.com/diyatha-uyana-colombo-battaramulla/",
+          "label": "Discover Colombo: Diyatha Uyana",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.tripadvisor.com/LocationPhotoDirectLink-g293962-d13399634-i308185153-Exotic_Nature_Lanka-Colombo_Western_Province.html",
+          "label": "Tripadvisor: Diyatha Uyana at Polduwa junction",
+          "kind": "forum"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit, staffed park busy into the evening; the lake edge is low and unfenced in places, so keep to the paved walkway with children."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, address (139 Rampart Rd, Kotte), hours (6am-6pm, last entry 5:30pm) and entry fee (LKR 100 residents, LKR 500 foreigners) confirmed by the researcher's search. Skeptic moved the coordinates about 330 m to 6.8944, 79.9098, the value given by a coordinate directory (distancesto.com) in a search result; that is a directory listing, not a map I could open, so confidence stays medium. No English Wikipedia article surfaced in either stage; title null.",
+      "name": "Beddagana Wetland Park",
+      "neighborhood": "Sri Jayawardenepura Kotte",
+      "category": "trail",
+      "vibes": [
+        "quiet",
+        "green",
+        "water",
+        "solo",
+        "walk",
+        "hidden"
+      ],
+      "blurb": "A boardwalk and dirt-path loop through a stretch of the Diyawanna wetland behind the old Kotte ramparts, with bird hides, a small observation tower and a lot of herons, kingfishers and water monitors. It was built as an urban wetland reserve rather than a leisure park, so there are no stalls and no crowds, only the odd birder and a few neighbours walking. Sitting in a hide for an hour with the city noise gone is as close to countryside as Colombo gets without leaving it.",
+      "tips": "Small entry fee at the gate; bring water, a hat and insect repellent, and go before 9am for birds and shade. Boardwalks are the main route, and the tower at the far end has the best view over the reed beds. Last entry is 5:30pm and the gate closes at 6pm.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "6am-6pm (last entry 5:30pm)",
+      "lat": 6.8944,
+      "lng": 79.9098,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.lakpura.com/pages/beddagana-wetland-park",
+          "label": "Lakpura: Beddagana Wetland Park",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.arabiers.lk/blog/beddagana-wetland-park",
+          "label": "Arabiers: Beddagana timings and tickets",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.tripoto.com/colombo/places-to-visit/beddagana-wetland-park",
+          "label": "Tripoto: Beddagana Wetland Park",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.distancesto.com/coordinates/lk/beddagana-wetland-park-latitude-longitude/history/961167.html",
+          "label": "distancesto.com: Beddagana Wetland Park coordinates",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.kupi.com/en/explore/sri-lanka/sri-jayawardenepura-kotte/beddagana-wetland-park",
+          "label": "Kupi: Beddagana Wetland Park guide",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated and ticketed, closes at 6pm; paths are unlit and can be muddy after rain, and the water is unfenced, so stay on the boardwalks and keep back from the lake edge."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title confirmed: en.wikipedia.org/wiki/Colombo_Public_Library in search results. Address 15 Sir Marcus Fernando Mawatha and hours (Mon-Fri 8:30am-8pm, Sat-Sun 8:30am-7pm) from a directory result; the library's own hours page was listed but not opened, so verify before relying on a Sunday visit. Unsure whether a small reading-room fee applies to non-members.",
+      "name": "Colombo Public Library",
+      "neighborhood": "Cinnamon Gardens (Colombo 7)",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "solo",
+        "cozy",
+        "green"
+      ],
+      "blurb": "The city's main public library, a 1980s concrete building set in trees on the edge of Viharamahadevi Park, with big reading rooms, a periodicals section and ceiling fans. Students and retirees fill the desks on weekday afternoons, and it is one of the few places in central Colombo where you can sit for hours in the cool, out of the rain, without buying anything. The park is right outside for when you want to move.",
+      "tips": "Bring ID; membership is only needed to borrow, and reading rooms are open to walk-ins (a token charge may apply, check at the desk). Upstairs reading rooms are quieter than the ground floor. Bags may need to be left at the counter. Closed on public holidays.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Fri 8:30am-8pm, Sat-Sun 8:30am-7pm (check site)",
+      "lat": 6.9135,
+      "lng": 79.8634,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Colombo Public Library",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Colombo_Public_Library",
+          "label": "Wikipedia: Colombo Public Library",
+          "kind": "other"
+        },
+        {
+          "url": "http://www.colombopubliclibrary.org/hour.php",
+          "label": "Colombo Public Library: opening hours",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.colombo.mc.gov.lk/public-library.php",
+          "label": "Colombo Municipal Council: Public Library",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building with security at the door; the walk back through the park edge is dim after dark, so use the Sir Marcus Fernando Mawatha side."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title confirmed: en.wikipedia.org/wiki/Colombo_National_Museum appeared in a search result. Hours (9am-5pm) and ticket prices from knowledge, not confirmed in this session.",
+      "name": "Colombo National Museum",
+      "neighborhood": "Cinnamon Gardens (Colombo 7)",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "solo",
+        "green",
+        "cozy"
+      ],
+      "blurb": "A white Italianate colonial building of 1877 set in its own lawns beside Viharamahadevi Park, with long, high-ceilinged galleries of Kandyan regalia, stone Buddhas, palm-leaf manuscripts and colonial furniture. It is rarely crowded outside school-trip mornings, the upstairs galleries are cool and echoing, and the wide verandahs and lawn benches are a good place to sit even if you skip the collection. It is more a rainy-afternoon refuge than a blockbuster.",
+      "tips": "Buy a ticket at the gate (foreigners pay more than residents); leave big bags at the cloakroom. Head upstairs first for the quietest rooms, then sit on the front verandah looking out over the lawns. Closed on public holidays and some Poya days, so check before going.",
+      "bestTimes": [
+        "afternoon",
+        "morning"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "9am-5pm daily (closed public holidays; check site)",
+      "lat": 6.9107,
+      "lng": 79.8613,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Colombo National Museum",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Colombo_National_Museum",
+          "label": "Wikipedia: Colombo National Museum",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, ticketed building with guards in the galleries; the grounds close with the museum at 5pm."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title confirmed by URL in the researcher's search; address 18 Guildford Crescent (now Premasiri Kemadasa Mawatha) confirmed. Skeptic nudged the coordinates about 200 m north-east to sit on Guildford Crescent beside the Nelum Pokuna theatre, still from knowledge rather than a map, so medium. Gallery hours from knowledge only.",
+      "name": "Lionel Wendt Art Centre",
+      "neighborhood": "Cinnamon Gardens (Colombo 7)",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "solo",
+        "cozy",
+        "free",
+        "hidden"
+      ],
+      "blurb": "Colombo's oldest working arts venue, opened in 1953 on the site of photographer Lionel Wendt's house, with a theatre and two free galleries that show a rolling programme of local painters and photographers. The ground-floor gallery is almost always empty on a weekday afternoon, and the shaded garden and steps outside are where the city's artists and theatre people drink tea between shows. It is the kind of place a resident sends a friend rather than a tour group.",
+      "tips": "Galleries are free and usually open daytime, but they close between exhibitions, so check the lionelwendt.org listings first. Evenings bring theatre crowds; the garden benches are the quiet spot. It sits a short walk from the National Museum and the park.",
+      "bestTimes": [
+        "afternoon",
+        "morning"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "varies (galleries roughly 10am-6pm when a show is on; check site)",
+      "lat": 6.9108,
+      "lng": 79.865,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Lionel Wendt Art Centre",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Lionel_Wendt_Art_Centre",
+          "label": "Wikipedia: Lionel Wendt Art Centre",
+          "kind": "other"
+        },
+        {
+          "url": "https://lionelwendt.org/about",
+          "label": "Lionel Wendt Art Centre: About",
+          "kind": "official"
+        },
+        {
+          "url": "https://lionelwendt.org/gallery",
+          "label": "Lionel Wendt Art Centre: Galleries",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed venue on a quiet residential street; lit at the entrance on show nights, dim otherwise, so book a ride home from the door after evening performances."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Hours (Mon-Sat 10am-7pm, Sun and Poya 10am-6pm) and address 704 Galle Road confirmed by the researcher's search. Skeptic nudged the coordinates about 250 m north onto the Galle Road frontage in southern Kollupitiya, still from knowledge rather than a map, so medium. Wikipedia has Barefoot (retailer), about the company, not this cafe, so title null.",
+      "name": "Barefoot Garden Cafe",
+      "neighborhood": "Kollupitiya (Colombo 3)",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "green",
+        "rain-ok",
+        "solo",
+        "quiet",
+        "study"
+      ],
+      "blurb": "The courtyard cafe behind Barefoot, the handloom textile shop that has been on Galle Road since the 1960s: a shaded garden of frangipani and tables under a canopy, reached through the shop and its small bookshop and gallery. The traffic noise of Galle Road disappears completely once you are in the back, and it has long been where Colombo's writers and NGO workers spend a slow afternoon with a pot of tea and a book. Sunday afternoons sometimes have live jazz.",
+      "tips": "Walk through the shop to the garden; the tables furthest from the kitchen are quietest. Go on a weekday mid-afternoon for space, and browse the bookshop and upstairs gallery on the way out. Closes at 7pm (6pm Sundays and Poya days), so it is a daytime place.",
+      "bestTimes": [
+        "afternoon",
+        "morning"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "Mon-Sat 10am-7pm, Sun and Poya days 10am-6pm",
+      "lat": 6.8985,
+      "lng": 79.853,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://barefootceylon.com/pages/cafe",
+          "label": "Barefoot: Garden Cafe",
+          "kind": "official"
+        },
+        {
+          "url": "https://visitcolombo.com/content/33-barefoot-garden-cafe",
+          "label": "Visit Colombo: Barefoot Garden Cafe",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, enclosed garden; the only hazard is crossing Galle Road outside, which is fast and has few signalled crossings, so use the one at Kollupitiya junction."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed it is still trading at 105 Chatham Street, Mon-Sat 7:30am-5:30pm, closed Sundays, and that it dates to 1884. Coordinates are my estimate of that Chatham Street address east of the Clock Tower; may be off by 100-200 m. No English Wikipedia article.",
+      "name": "Pagoda Tea Room",
+      "neighborhood": "Fort (Colombo 1)",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "people-watch",
+        "solo"
+      ],
+      "blurb": "A tea room that has been serving Fort's office workers since 1884, in an old building on Chatham Street with wooden tables, ceiling fans and a counter of short eats, fish buns and cakes. It is unfussy, cheap and unchanged, and between the breakfast and lunch rushes you can sit with a pot of Ceylon tea for as long as you like while the street outside goes about its business. Locals know it as the place Duran Duran filmed in the 1980s; nobody else notices.",
+      "tips": "Order at the counter; the breakfast run before 9am is the busiest, so 10am-noon or 2-4pm is the quiet window. It closes at 5:30pm and all day Sunday, when Fort itself is shuttered and empty. Pair it with a walk down Chatham Street to the Clock Tower and the Dutch Hospital.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Mon-Sat 7:30am-5:30pm, closed Sun",
+      "lat": 6.934,
+      "lng": 79.8442,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://i-discoverasia.com/walks/fort-colombo-srilanka/locations/pagoda-tea-room/",
+          "label": "iDiscover: Pagoda Tea Room",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.yamu.lk/kamu/pagoda-tea-rooms/",
+          "label": "Yamu: Pagoda Tea Rooms",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g293962-d1133593-Reviews-Pagoda_Tea_Room-Colombo_Western_Province.html",
+          "label": "Tripadvisor: Pagoda Tea Room",
+          "kind": "forum"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed cafe on a busy commercial street in daylight; Fort empties out after offices close and some streets near the President's House are subject to security checkpoints, so carry ID."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known heritage precinct, written from knowledge; no search spent. Wikipedia title from knowledge, not URL-confirmed. Courtyards are freely accessible; the cafes are commercial.",
+      "name": "Old Colombo Dutch Hospital",
+      "neighborhood": "Fort (Colombo 1)",
+      "category": "plaza",
+      "vibes": [
+        "rain-ok",
+        "night",
+        "people-watch",
+        "cozy",
+        "group",
+        "free"
+      ],
+      "blurb": "A 17th-century Dutch hospital with two long courtyards under tiled roofs and deep verandahs, restored in 2011 as a precinct of cafes and shops opposite the World Trade Center. The courtyards themselves are open to anyone, the arcades keep off both sun and rain, and the benches in the inner courtyard are a calm place to sit while Fort's office crowd comes and goes. Late evening, when the shops shut and the restaurants thin out, it is quiet and lit.",
+      "tips": "Come in from Hospital Street or Bank of Ceylon Mawatha; the inner (eastern) courtyard is the quieter of the two. You can sit on the benches without buying anything. Sunday daytime, when the rest of Fort is closed, is unexpectedly peaceful.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "courtyards open roughly 10am-midnight (shops and cafes vary)",
+      "lat": 6.933,
+      "lng": 79.8417,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Old Colombo Dutch Hospital",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit, staffed precinct with security at the entrances until the restaurants close; the streets around it are quiet and dim late at night, so book a ride from the courtyard."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Historic church, written from knowledge; no search spent. Wikipedia title from knowledge, not URL-confirmed. Coordinates are my estimate of the church on its hill in Pettah and could be 100-200 m off. Visiting hours outside Sunday services depend on the caretaker.",
+      "name": "Wolvendaal Church",
+      "neighborhood": "Pettah (Colombo 11)",
+      "category": "other",
+      "vibes": [
+        "quiet",
+        "hidden",
+        "solo",
+        "rain-ok",
+        "free",
+        "view"
+      ],
+      "blurb": "A Dutch Reformed church of 1749 on a low hill above the market streets of Pettah, thick-walled and cross-shaped, its floor paved with the tombstones of Dutch governors. Inside it is dim, cool and utterly silent while the bazaar roars two streets away; outside, the walled churchyard has benches and shade. It is one of the few places in Pettah where you can sit down at all, and almost nobody visits.",
+      "tips": "Climb Wolvendaal Street from the Main Street end; a caretaker usually opens the doors on weekday daytimes and a small donation is welcome. Sunday morning services are in Sinhala, Tamil and English. Combine it with a wander through the Pettah markets before or after, they are best before noon.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "varies (usually daytime when the caretaker is present; Sunday services)",
+      "lat": 6.9386,
+      "lng": 79.8577,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Wolvendaal Church",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Walled churchyard with a caretaker in daylight; the approach streets are narrow, crowded with handcarts and traffic, and the church is closed after dark, so this is a daytime visit."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, free entry, size (17 acres), opening (April 2016) and Colombo Municipal Council ownership confirmed by the researcher's search. Skeptic corrected the coordinates to 6°58'24.1\"N 79°52'09.9\"E (6.9734, 79.8694), the study-area location given in a published research paper figure that appeared in search; the first draft's longitude (79.872) was about 300 m inland of the beach. Hours not found in either stage, so left as varies. No English Wikipedia article for the park (only the suburb article Mattakkuliya); title null.",
+      "name": "Crow Island Beach Park",
+      "neighborhood": "Mattakkuliya (Colombo 15)",
+      "category": "beach",
+      "vibes": [
+        "sunset",
+        "water",
+        "walk",
+        "quiet",
+        "green",
+        "free",
+        "hidden",
+        "picnic"
+      ],
+      "blurb": "A 17-acre beach park at the northern tip of the city, where the Kelani River meets the sea, with a long paved walkway along the sand, a small lake, mangroves and a kite-flying lawn. It was rebuilt as a public park in 2016 and is used almost entirely by the surrounding neighbourhoods: evening walkers, kids on bikes, families on the grass. The sunset over the open sea with container ships queuing for the port is as good as Galle Face and a fraction as busy.",
+      "tips": "Take a tuk or the bus up to Mattakkuliya; the walkway runs the length of the beach and the benches nearest the river mouth are quietest. Weekday late afternoon is best. Swimming is not advised here, sit and watch instead. Bring water, the stalls are intermittent.",
+      "bestTimes": [
+        "golden-hour",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (roughly dawn to 9pm; check locally)",
+      "lat": 6.9734,
+      "lng": 79.8694,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.colombo.mc.gov.lk/pdf/CROWISLANDBEACHPARKpdf.pdf",
+          "label": "Colombo Municipal Council: Crow Island Beach Park",
+          "kind": "official"
+        },
+        {
+          "url": "https://archives1.dailynews.lk/2023/03/13/features/299141/impressive-beach-park-notorious-past",
+          "label": "Daily News: An impressive Beach Park",
+          "kind": "press"
+        },
+        {
+          "url": "https://colombowithkids.com/parks-and-outdoors/crow-island-beach-park/",
+          "label": "Colombo With Kids: Crow Island Beach Park",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.researchgate.net/figure/Satellite-image-of-the-study-area-Crow-Island-Beach-Park-658241N-7952099E-area_fig1_350097769",
+          "label": "ResearchGate: Crow Island Beach Park study-area coordinates",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g293962-d14972884-Reviews-Crow_Island_Beach_Park-Colombo_Western_Province.html",
+          "label": "Tripadvisor: Crow Island Beach Park",
+          "kind": "forum"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Strong currents where the river meets the sea and no lifeguards, so do not swim; the walkway is lit but the sand and mangrove paths are not, and the park is a long way from the centre, so leave by dusk and arrange your ride back in advance."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known public beach. The first draft placed the shack-lined stretch south of the Mount Lavinia Hotel headland; a skeptic search confirmed the beach restaurants (Loon Tao, La Voile Blanche, The Shore by O, Seafood Cove) sit NORTH of the hotel along College Avenue, so the coordinates, tips and blurb were corrected to that stretch. Coordinates are still my estimate of the College Avenue beach, not a map lookup, so medium. Wikipedia has only the suburb article (Mount Lavinia), not one for the beach, so title null.",
+      "name": "Mount Lavinia Beach",
+      "neighborhood": "Mount Lavinia (Dehiwala-Mount Lavinia)",
+      "category": "beach",
+      "vibes": [
+        "sunset",
+        "water",
+        "walk",
+        "group",
+        "solo",
+        "free",
+        "night",
+        "people-watch"
+      ],
+      "blurb": "Colombo's local beach, a long curve of golden sand about 10 km south of the centre, reached by the coastal railway in twenty minutes. The stretch north of the old hotel headland, along College Avenue, is lined with simple seafood shacks and a few smarter restaurants where you can sit at a table on the sand with a king coconut and watch the sun go down; further north toward Dehiwala the beach is just sand, fishing boats and dog-walkers. Residents come on weekend evenings, and on weekday mornings it is nearly empty.",
+      "tips": "Take the train to Mount Lavinia station, walk down Hotel Road toward the hotel and turn right onto College Avenue; the lanes between the restaurants lead onto the sand. The shacks nearest the headland are busiest, so walk five minutes north for quiet. The sea is rough with strong currents, so paddle rather than swim. Sunset is about 6-6:30pm year round.",
+      "bestTimes": [
+        "golden-hour",
+        "morning",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (shacks roughly 10am-11pm)",
+      "lat": 6.8398,
+      "lng": 79.8625,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.yamu.lk/trending/the-mount-lavinia-roundup/",
+          "label": "Yamu: Mount Lavinia highlights",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.yamu.lk/trending/10-1-beachside/",
+          "label": "Yamu: beachside restaurants in Colombo and Mount Lavinia",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.tripadvisor.com/ShowTopic-g293962-i9270-k5627199-o10-Restaurants_around_Mount_Lavinia-Colombo_Western_Province.html",
+          "label": "Tripadvisor forum: restaurants around Mount Lavinia",
+          "kind": "forum"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "No lifeguards and a strong undertow year round, so stay in the shallows; the restaurant-lined stretch north of the hotel is lit until late but the sand beyond it is dark, so keep to the lit section after sunset and plan the ride or train back."
+      },
+      "lowkeyScore": 2
+    }
+  ]
+}

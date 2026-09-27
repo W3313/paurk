@@ -1,0 +1,621 @@
+{
+  "city": "Athens",
+  "country": "Greece",
+  "slug": "athens",
+  "region": "europe-africa",
+  "cityLat": 37.9755,
+  "cityLng": 23.7348,
+  "timezone": "Europe/Athens",
+  "searchesRun": [
+    "Philopappos Hill Athens wikipedia",
+    "Strefi Hill Exarcheia wikipedia park",
+    "Little Tree Books & Coffee Koukaki Athens opening hours",
+    "Numismatic Museum Athens garden cafe Iliou Melathron opening hours",
+    "Stavros Niarchos Park opening hours National Library of Greece reading room public access",
+    "Kaisariani Monastery opening hours Hymettus aesthetic forest walk",
+    "First Cemetery of Athens opening hours visitors",
+    "Dexameni square Kolonaki Athens cafe open-air cinema",
+    "Strefi Hill Exarcheia renovation fence reopened",
+    "Little Tree Books & Coffee Kavalloti 2 Koukaki Athens",
+    "Kerameikos archaeological site opening hours ticket price 2026",
+    "Pedion tou Areos park Athens opening hours gates"
+  ],
+  "redditSourcedNotes": "Two stages. Research stage ran eight web searches, skeptic stage four more (all twelve in searchesRun); every search returned results. No reddit threads were read for this city. Source URLs are attached only where they appeared in one of those results; other sources arrays are empty rather than invented. The skeptic could not re-fetch any URL directly because outbound requests to those hosts were blocked by the sandbox proxy, so URLs stand on the search results in which they appeared. Confirmed by a search result: English Wikipedia URLs for Philopappou (the hill article, not 'Philopappos Hill'), Strefi Hill, Pedion tou Areos (skeptic), Numismatic Museum of Athens, Stavros Niarchos Foundation Cultural Center, National Library of Greece, Kaisariani Monastery and First Cemetery of Athens; hours for Little Tree Books & Coffee (Tue-Sun 9am-12:30am, re-confirmed by the skeptic in 2026 listings), the Numismatic Museum garden cafe (Mon-Sat 9am-11pm, Sun 9am-8pm), Stavros Niarchos Park (Mon-Thu 6am-midnight, Fri-Sun 6am-2am), the National Library open reading rooms (daily 9am-midnight) and Kaisariani Monastery (8:30am-3:30pm, closed Tuesday). First Cemetery hours conflicted between sources (8am-5pm vs 8am-8pm) and the entry says so. Pedion tou Areos gate hours were not found by either stage. From knowledge only: National Garden (Wikipedia title kept, not URL-confirmed), Flisvos seafront and Kavouri beach (titles null), and every coordinate in the file; the skeptic checked each coordinate against its own knowledge of the sites and found none that needed moving, but Little Tree, Flisvos, Kavouri and Dexameni remain medium confidence. Skeptic changes: dropped Kerameikos, because a search result reported the site and museum closed for upgrade works from 5 May 2025 until further notice and the draft's hours and price were also out of date; added a caveat to Strefi Hill, where a regeneration project fenced parts of the hill before a Council of State ruling stopped it in December 2023 and no result stated what is still fenced; generalised an unverified bus number in the Kavouri tip; added sources that appeared in the skeptic's results for Strefi and Pedion tou Areos. Thirteen spots remain. Safety screen: all thirteen are legitimate public places (parks, hills, a cemetery, a forest, a seafront, a beach, a museum garden cafe, a library, a square, a cafe); none involve trespass or derelict, industrial or rail land. Every safety note was re-read against the standard and none needed rewriting: cautions rest only on physical conditions (unlit hill paths on Philopappou and Strefi, unlit forest trails and a 2 km road walk at Kaisariani, unlit inner sections of Pedion tou Areos) and no note characterises people or neighbourhoods.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known public garden by Syntagma, written from knowledge in both stages; neither stage spent a search on it. Wikipedia title 'National Garden, Athens' kept on high confidence but not URL-confirmed by any search. Coordinates are the garden's centre and match the skeptic's own knowledge. Hours are sunrise-to-sunset from knowledge and approximate.",
+      "name": "National Garden (Ethnikos Kipos)",
+      "neighborhood": "Syntagma / Zappeio",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "solo",
+        "walk",
+        "free",
+        "study",
+        "cozy"
+      ],
+      "blurb": "The old royal garden behind Parliament, 15 hectares of tall palms, cypress avenues, ponds and a small duck lake, walled off from the traffic of Vasilissis Sofias and Amalias. Office workers take lunch on the benches by the sundial and students read under the pergolas, and because the canopy is so dense it is several degrees cooler than the streets around it in July. It is central and famous, but it is also simply where the neighbourhood goes to sit.",
+      "tips": "Enter from Irodou Attikou on the east side rather than Amalias to skip the Syntagma flow; the benches around the duck pond and the small botanical museum corner are the quietest. Gates lock at dusk, and the Zappeion grounds next door stay open later if you are pushed out.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "sunrise-sunset (roughly 6am-8:30pm in summer)",
+      "lat": 37.9733,
+      "lng": 23.7375,
+      "coordConfidence": "high",
+      "wikipediaTitle": "National Garden, Athens",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Gated and closed after sunset; main paths are wide and well used, with staff and a police post at the Amalias gate."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed the hill is a freely accessible Athenian promenade and that the English Wikipedia article is titled 'Philopappou' (the separate 'Philopappos Monument' article covers only the tomb). Coordinates are the monument at the summit.",
+      "name": "Philopappou Hill (Hill of the Muses)",
+      "neighborhood": "Koukaki / Thiseio",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "sunset",
+        "skyline",
+        "green",
+        "walk",
+        "solo",
+        "free",
+        "quiet"
+      ],
+      "blurb": "The pine-covered hill opposite the Acropolis, laced with Dimitris Pikionis's stone-paved paths and topped by a Roman tomb monument. Athenians walk their dogs here after work and sit on the rocks below the monument to watch the sun go down behind the Saronic Gulf with the Parthenon lit up across the valley. It is open ground with no ticket and no gate, and the paths towards the Pnyx are usually empty.",
+      "tips": "Start from the Dionysiou Areopagitou pedestrian street opposite the Acropolis entrance and follow the Pikionis path past the church of Agios Dimitrios Loumbardiaris; the rocks just west of the monument face the sunset, the eastern ledge faces the Acropolis. The marble paving is polished and slippery, so wear grippy shoes.",
+      "bestTimes": [
+        "golden-hour",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 37.9682,
+      "lng": 23.7213,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Philopappou",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Philopappou",
+          "label": "Wikipedia: Philopappou",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.greeka.com/attica/athens/sightseeing/filopappou-hill/",
+          "label": "Greeka: Filopappou Hill",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "The paths are unlit and the stone paving is uneven and slippery; enjoy the sunset but start down while there is still light, or bring a torch and stick to the main Pikionis path back to Dionysiou Areopagitou."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Research stage confirmed a public urban park and the exact Wikipedia title 'Strefi Hill'. Skeptic search found that a regeneration project (backed by Prodea Investments) fenced parts of the hill from 2021 and was stopped by a Council of State ruling in December 2023; no result stated the current state of the fencing, so expect some closed-off sections. Coordinates are the summit terraces and match the skeptic's knowledge. The cafeteria's operating status was not checked.",
+      "name": "Strefi Hill (Lofos Strefi)",
+      "neighborhood": "Exarcheia / Neapoli",
+      "category": "park",
+      "vibes": [
+        "view",
+        "hidden",
+        "quiet",
+        "sunset",
+        "skyline",
+        "green",
+        "solo",
+        "free"
+      ],
+      "blurb": "A small limestone hill and former quarry above Exarcheia, planted with pines and cut with winding paths up to rocky terraces that look across to Lycabettus and the Acropolis. Neighbours use it for dog walks, a basketball court and evening sits on the rocks; almost no visitors find it, so on a weekday afternoon you can have a whole ledge to yourself. It is scruffier than the big parks and that is part of the appeal.",
+      "tips": "Go up from Emmanouil Benaki or Kallidromiou street; the upper terraces on the south side give the Acropolis view and catch the last light. Regeneration works were halted by court order in 2023 and some sections may still be fenced, so follow the open paths. Bring water, there is often nothing open on the hill, and Kallidromiou's Saturday street market is a good pairing.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 37.9866,
+      "lng": 23.7395,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Strefi Hill",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Strefi_Hill",
+          "label": "Wikipedia: Strefi Hill",
+          "kind": "other"
+        },
+        {
+          "url": "https://theblogofdimi.com/strefi-hill-athens-greece/",
+          "label": "The Blog of Dimi: Strefi Hill",
+          "kind": "blog"
+        },
+        {
+          "url": "https://news.gtp.gr/2021/01/20/strefi-hill-revamp-create-oasis-athens-residents-visitors/",
+          "label": "GTP Headlines: Strefi Hill revamp (2021)",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Paths are unlit, steep and rocky with unfenced drops at the old quarry faces, and the hill empties out after dark; go in daylight or for golden hour and leave before it gets dark."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Large public park written from knowledge in the research stage. Skeptic search confirmed the English Wikipedia URL 'Pedion_tou_Areos' and that the park is free and gated, but no result gave gate hours, so 'varies' stands. Coordinates are the park's centre and match the skeptic's knowledge.",
+      "name": "Pedion tou Areos",
+      "neighborhood": "Exarcheia / Kypseli border",
+      "category": "park",
+      "vibes": [
+        "green",
+        "walk",
+        "quiet",
+        "picnic",
+        "solo",
+        "free",
+        "people-watch"
+      ],
+      "blurb": "Athens's biggest inner-city park, a long rectangle of pine and eucalyptus avenues, a small lake and marble busts of 1821 heroes, running north from the Archaeological Museum towards Kypseli. It is used far more by residents than tourists: joggers on the outer loop, families at the playgrounds, people reading on the benches along the central avenue. The northern lawns are the emptiest part.",
+      "tips": "Come in from the Alexandras Avenue entrance by the Supreme Court or from Mavrommataion street; the shaded benches along the main north-south avenue are the best for reading, and the small cafe kiosk near the lake is there when it is open. The park has been through cycles of renovation, so some corners are neater than others.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (gates generally open by day; check locally)",
+      "lat": 37.991,
+      "lng": 23.736,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Pedion tou Areos",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Pedion_tou_Areos",
+          "label": "Wikipedia: Pedion tou Areos",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.greeka.com/attica/athens/sightseeing/pedion-areos/",
+          "label": "Greeka: Pedion tou Areos",
+          "kind": "blog"
+        },
+        {
+          "url": "https://pediontouareostoparkomas.gr/en/about/",
+          "label": "Pedion tou Areos - To Parko mas (park site)",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "A large park where only the main avenues are lit; after dark stay on the lit central avenue near the Alexandras entrance, or better, visit by day."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed the cemetery is open to visitors as a free open-air sculpture garden and the Wikipedia title 'First Cemetery of Athens'. Sources disagreed on hours (8am-5pm vs 8am-8pm), so the entry gives both; treat them as approximate and check at the gate.",
+      "name": "First Cemetery of Athens",
+      "neighborhood": "Mets",
+      "category": "park",
+      "vibes": [
+        "quiet",
+        "green",
+        "solo",
+        "walk",
+        "free",
+        "hidden"
+      ],
+      "blurb": "The city's oldest cemetery, on a cypress-shaded slope behind the Panathenaic Stadium, is in effect an open-air museum of 19th-century marble: Halepas's Sleeping Maiden, the tombs of Schliemann and Melina Mercouri, and long avenues where the only sounds are cats and birds. Athenians treat it as a place to walk and think rather than a morbid one. It is a five-minute walk from the stadium crowds and almost never has more than a handful of visitors.",
+      "tips": "The main gate is on Anapafseos street at the end of Trivonianou; keep to the older upper sections near the entrance for the best sculpture and the quietest benches. Dress and behave as you would in any cemetery, and note it closes well before dark.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 8am-5pm (some sources say to 8pm in summer; check at the gate)",
+      "lat": 37.9635,
+      "lng": 23.7385,
+      "coordConfidence": "high",
+      "wikipediaTitle": "First Cemetery of Athens",
+      "sources": [
+        {
+          "url": "https://www.thisisathens.org/arts-entertainment/sightseeing/first-cemetery-athens",
+          "label": "This is Athens: The First Cemetery of Athens",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/First_Cemetery_of_Athens",
+          "label": "Wikipedia: First Cemetery of Athens",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Walled, staffed at the gate and closed before dark; paths are paved but steep in places."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed the monastery (8:30am-3:30pm, closed Tuesday, ticketed) sits in the Aesthetic Forest of Hymettus with free trails and picnic areas, reached by bus 224 plus a 20-30 minute walk. Wikipedia title 'Kaisariani Monastery' confirmed. Coordinates are the monastery itself.",
+      "name": "Kaisariani Monastery and Hymettus forest",
+      "neighborhood": "Kaisariani",
+      "category": "trail",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "hidden",
+        "picnic",
+        "solo",
+        "view",
+        "water"
+      ],
+      "blurb": "An 11th-century monastery in a fold of Mount Hymettus, surrounded by the pine and cypress forest that the Athens Friends of the Trees replanted in the 1940s. The monastery itself is a small ticketed site, but the forest around it is free: spring-fed fountains, stone picnic benches under the trees, and paths climbing to a ridge with the whole city and the sea laid out below. It is where Athenians go when they need to hear nothing but wind in pines.",
+      "tips": "Take bus 224 from Panepistimiou to the Kaisariani terminus and walk the last 2 km uphill on the paved road, or take a taxi to the gate; the ram's-head fountain by the monastery wall is the classic sit. Bring water and go in the morning; the monastery is closed on Tuesdays but the forest is not.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "forest 24h; monastery Wed-Mon 8:30am-3:30pm, closed Tue (check site)",
+      "lat": 37.9613,
+      "lng": 23.7977,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Kaisariani Monastery",
+      "sources": [
+        {
+          "url": "https://www.thisisathens.org/attractions/kesariani-monastery",
+          "label": "This is Athens: The Kesariani Monastery",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Kaisariani_Monastery",
+          "label": "Wikipedia: Kaisariani Monastery",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Unlit forest trails and a 2 km road walk from the last bus stop with little traffic; go in daylight, tell someone your route if you hike above the monastery, and carry water in summer."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed park hours (Mon-Thu 6am-midnight, Fri-Sun 6am-2am) and the Wikipedia title 'Stavros Niarchos Foundation Cultural Center'. Coordinates are the hilltop lawn above the Lighthouse; the whole park is large, so the point is approximate within it.",
+      "name": "Stavros Niarchos Park",
+      "neighborhood": "Kallithea",
+      "category": "park",
+      "vibes": [
+        "green",
+        "view",
+        "sunset",
+        "water",
+        "night",
+        "picnic",
+        "group",
+        "free",
+        "skyline"
+      ],
+      "blurb": "A 21-hectare Mediterranean garden that climbs a man-made hill to the roof of the Renzo Piano cultural centre, with a long canal at the bottom and lavender, olive and thyme terraces on the way up. From the top lawn you see the Saronic Gulf on one side and the Acropolis and Lycabettus on the other, which makes it the easiest free sunset in the city. It stays open and lit until midnight or later, and on summer evenings half of Kallithea is on the grass.",
+      "tips": "Take the tram or bus to Tzitzifies, or the free shuttle from Syntagma; climb the Great Lawn path to the top terrace by the Lighthouse for the double view. The kiosk canal cafe and the National Library reading rooms below are your rain options, and the running loop is quiet first thing.",
+      "bestTimes": [
+        "golden-hour",
+        "night",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Mon-Thu 6am-midnight, Fri-Sun 6am-2am",
+      "lat": 37.942,
+      "lng": 23.694,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Stavros Niarchos Foundation Cultural Center",
+      "sources": [
+        {
+          "url": "https://www.snfcc.org/en/",
+          "label": "SNFCC official site",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Stavros_Niarchos_Foundation_Cultural_Center",
+          "label": "Wikipedia: Stavros Niarchos Foundation Cultural Center",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit paths, security staff and closing gates; the hill paths are gently sloped but long, and the canal edge is unfenced."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed the library is inside the SNFCC and that its Open Reading Rooms are open daily 9am-midnight, with the Public Library section Mon-Fri 9am-8pm and Sat 9am-2pm. Wikipedia title 'National Library of Greece' confirmed. Coordinates are the library wing of the SNFCC building.",
+      "name": "National Library of Greece (SNFCC)",
+      "neighborhood": "Kallithea",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "study",
+        "quiet",
+        "view",
+        "free",
+        "solo",
+        "cozy",
+        "night"
+      ],
+      "blurb": "The national library moved from its neoclassical home on Panepistimiou to the glass wing of the Stavros Niarchos centre, and its open reading rooms are free to anyone who walks in. Tall shelves, long tables and a wall of glass looking out at the park and the canal; the public section on the lower floors is a proper lending library with a children's area, and the upper rooms are silent. It is open until midnight every day, which makes it the best late study spot in the city.",
+      "tips": "Enter through the main SNFCC foyer and go up to the reading rooms; no card is needed to sit, only to borrow. The lobby cafe and the Lighthouse terrace on the roof are both within a minute, and the park outside is lit until closing.",
+      "bestTimes": [
+        "afternoon",
+        "night",
+        "morning"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Open reading rooms daily 9am-midnight; public library section Mon-Fri 9am-8pm, Sat 9am-2pm (check site)",
+      "lat": 37.9397,
+      "lng": 23.6925,
+      "coordConfidence": "high",
+      "wikipediaTitle": "National Library of Greece",
+      "sources": [
+        {
+          "url": "https://www.nlg.gr/static-page/nlg-in-a-nutshell/?lang=en",
+          "label": "National Library of Greece: NLG in a nutshell",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.snfcc.org/en/snfcc/national-library-of-greece/",
+          "label": "SNFCC: National Library of Greece",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building with security at the door; the park outside is lit and patrolled until it closes."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Coastal seafront park and marina written from knowledge; no search spent on it and no English Wikipedia article I am confident of, so title null. The seafront is long, so the coordinate marks the Flisvos Park end near the marina and is medium confidence.",
+      "name": "Flisvos seafront and marina",
+      "neighborhood": "Palaio Faliro",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunset",
+        "walk",
+        "people-watch",
+        "night",
+        "free",
+        "group",
+        "solo"
+      ],
+      "blurb": "The coastal promenade at Palaio Faliro where the tram from Syntagma reaches the sea: a strip of park with pines and playgrounds, a marina full of very large yachts, and a long paved walk along the water towards the old Averof battleship. Locals come down after work to walk, sit on the sea wall and watch the sun set over the Saronic islands. It is unpretentious in the way that seaside suburbs are, and the sea breeze makes it the coolest evening in the city in August.",
+      "tips": "Take the tram to Trokadero or Flisvos; sit on the western sea wall past the marina cafes for the sunset with your back to the yacht traffic. The cafes in the marina are pricier than the kiosks in the park, which sell coffee and cold drinks until late.",
+      "bestTimes": [
+        "golden-hour",
+        "night",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 37.933,
+      "lng": 23.69,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit promenade next to the tram line and busy well into the night in summer; the sea wall has no railing along stretches, so mind the edge in the dark."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Free public beach written from knowledge in both stages; no search spent on it and no English Wikipedia article either stage was confident of, so title null. Kavouri is a long stretch of coves and pines, so the coordinate is approximate within it (medium). About 18 km from the centre. The bus route number in the draft tip was unverified and has been generalised.",
+      "name": "Kavouri beach",
+      "neighborhood": "Vouliagmeni",
+      "category": "beach",
+      "vibes": [
+        "water",
+        "sunrise",
+        "sunset",
+        "quiet",
+        "green",
+        "picnic",
+        "solo",
+        "free",
+        "walk"
+      ],
+      "blurb": "One of the few stretches of the Athens Riviera that has stayed free and unfenced: sandy coves along the Kavouri peninsula below a pine wood, facing west across the bay towards Glyfada. Off-season and on weekday mornings it is locals swimming laps and pensioners on folding chairs, and the pines give shade to sit and read for hours without paying a sunbed fee. It is where Athenians go when they want the sea without the beach-club scene.",
+      "tips": "Reached by the coastal buses from Elliniko metro towards Vouliagmeni (routes change; check OASA) or by car along Poseidonos; the coves on the north-west side of the peninsula are the quietest, and the pine path around the headland is a good evening walk. Bring your own shade and water outside summer, when the canteens are closed.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 37.819,
+      "lng": 23.766,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "No lifeguard outside summer and no lighting on the beach or pine paths at night; swim in daylight and plan the bus back, as evening services are infrequent."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed the garden refreshment room at the Iliou Melathron (Panepistimiou 12) with an 800 m2 garden, open Mon-Sat 9am-11pm and Sun 9am-8pm, and that the museum itself is 8:30am-3:30pm, closed Tuesday. Wikipedia title 'Numismatic Museum of Athens' confirmed.",
+      "name": "Numismatic Museum garden cafe (Iliou Melathron)",
+      "neighborhood": "Syntagma / Kolonaki",
+      "category": "museum",
+      "vibes": [
+        "hidden",
+        "quiet",
+        "green",
+        "cozy",
+        "solo",
+        "study",
+        "night"
+      ],
+      "blurb": "Heinrich Schliemann's mansion on Panepistimiou houses the coin museum, but the reason locals know it is the walled garden at the back, an 800 square metre pocket of Greek plants and copies of ancient statues with a cafe that keeps going long after the museum shuts. It is a few steps from the loudest avenue in the centre and you cannot hear it. Come with a book, order a coffee and sit under the palms.",
+      "tips": "Walk through the gate on Panepistimiou next to the museum entrance; you do not need a museum ticket for the garden cafe. The museum itself is worth the small fee on a rainy morning and is closed on Tuesdays.",
+      "bestTimes": [
+        "afternoon",
+        "night",
+        "morning"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "garden cafe Mon-Sat 9am-11pm, Sun 9am-8pm; museum Wed-Mon 8:30am-3:30pm (check site)",
+      "lat": 37.9784,
+      "lng": 23.7359,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Numismatic Museum of Athens",
+      "sources": [
+        {
+          "url": "https://www.nummus.gr/en/refreshment-room-cafe/",
+          "label": "Numismatic Museum: Refreshment room - Cafe",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.nummus.gr/en/general-information/",
+          "label": "Numismatic Museum: General information",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Numismatic_Museum_of_Athens",
+          "label": "Wikipedia: Numismatic Museum of Athens",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Walled garden with staff on site, lit in the evening and opening straight onto a busy central avenue."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed a small tree-shaded square at the foot of Lycabettus with a cafe and the Cine Dexameni open-air cinema (summer only), a gathering spot since 1905. No English Wikipedia article found, so title null. Coordinates are the square itself, medium confidence.",
+      "name": "Dexameni Square",
+      "neighborhood": "Kolonaki",
+      "category": "plaza",
+      "vibes": [
+        "cozy",
+        "quiet",
+        "people-watch",
+        "night",
+        "green",
+        "solo",
+        "group",
+        "hidden"
+      ],
+      "blurb": "A small plane-tree square on the slope of Lycabettus, built over Hadrian's ancient reservoir, where Kolonaki goes to sit rather than to be seen. There is one long-running cafe with tables spilling under the trees, an open-air cinema that runs on summer nights, and benches on the square for anyone who wants to sit with a coffee from elsewhere. Papadiamantis and other writers made it their office a century ago and it still has that feel.",
+      "tips": "Walk up from Kolonaki Square along Skoufa or take the steps from Dinokratous; the public benches are free to use and the cafe does not mind slow customers. In summer, buy a cinema ticket early in the evening and have a drink in the square first.",
+      "bestTimes": [
+        "afternoon",
+        "night",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (cafe roughly 9am-late; cinema summer evenings)",
+      "lat": 37.9797,
+      "lng": 23.7433,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.thisisathens.org/arts-entertainment/cine-dexameni",
+          "label": "This is Athens: Cine Dexameni",
+          "kind": "official"
+        },
+        {
+          "url": "https://athensattica.com/point/hadrians-reservoir-dexameni-square/",
+          "label": "Athens Attica: Hadrian's Reservoir - Dexameni Square",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit residential square with a cafe open late; the approach streets are steep and stepped."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Research stage confirmed a bookshop-cafe at Kavalloti 2 in Koukaki/Makrygianni, Tue-Sun 9am-12:30am, closed Monday. Skeptic search in September 2026 returned current listings (official Athens guide, Tripadvisor, HappyCow) with the same address and hours, so it appears still to operate. Street-level coordinates from knowledge, medium confidence. No English Wikipedia article.",
+      "name": "Little Tree Books & Coffee",
+      "neighborhood": "Koukaki / Makrygianni",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "study",
+        "quiet",
+        "solo",
+        "people-watch",
+        "night"
+      ],
+      "blurb": "A small bookshop-cafe on a residential corner behind the Acropolis Museum, with a few shelves of Greek and English titles, a handful of tables inside and more on the pavement under the trees. Neighbourhood regulars read the paper here for hours over a filter coffee, and nobody hurries you; it is open late enough to be a rainy-evening refuge as well as a morning one. It is the kind of place that makes Koukaki feel like a village.",
+      "tips": "Two minutes from Akropoli metro at Kavalloti 2; the inside tables are the quiet ones, the pavement tables are for watching the street. Closed on Mondays, and small enough that it fills on weekend mornings.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Tue-Sun 9am-12:30am, closed Mon (check site)",
+      "lat": 37.968,
+      "lng": 23.7275,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.thisisathens.org/cafes-bakeries/little-tree-books-coffee",
+          "label": "This is Athens: Little Tree Books & Coffee",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.travel.gr/en/experiences-ee/five-bookshops-in-athens-where-you-can-curl-up-with-a-book-and-your-favourite-brew/",
+          "label": "travel.gr: 5 Athens bookshops to curl up in",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed cafe on a lit residential street, open late and two minutes from the metro."
+      },
+      "lowkeyScore": 3
+    }
+  ]
+}

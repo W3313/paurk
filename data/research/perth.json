@@ -1,0 +1,659 @@
+{
+  "city": "Perth",
+  "country": "Australia",
+  "slug": "perth",
+  "region": "asia-pacific",
+  "cityLat": -31.9523,
+  "cityLng": 115.8613,
+  "timezone": "Australia/Perth",
+  "searchesRun": [
+    "AGWA Rooftop Art Gallery of Western Australia free public opening hours",
+    "Crow Books East Victoria Park Albany Highway bookshop opening hours",
+    "Stirling Gardens Perth wikipedia",
+    "Reabold Hill lookout Bold Park boardwalk City Beach",
+    "Gino's Cafe Fremantle South Terrace still open",
+    "Sir James Mitchell Park South Perth wikipedia",
+    "Claisebrook Cove East Perth wikipedia",
+    "UWA Sunken Garden public access Matilda Bay Reserve wikipedia",
+    "Bathers Beach Fremantle wikipedia",
+    "Crow Books 900 Albany Highway East Victoria Park location cross street",
+    "Reabold Hill summit boardwalk Scenic Drive coordinates latitude longitude",
+    "State Library of Western Australia opening hours"
+  ],
+  "redditSourcedNotes": "Two stages. RESEARCH STAGE ran eight searches (first eight entries of searchesRun): AGWA Rooftop confirmed free and open 10am-5pm daily on the gallery's own site (its bar is closed until 2027/28, the sculpture terrace is not); Crow Books confirmed trading at 1/900 Albany Hwy, 9am-9pm Sun-Wed and 9am-10pm Thu-Sat; Gino's confirmed open daily from 5:30am at 1/5 South Terrace; Stirling Gardens, Sir James Mitchell Park, Bold Park, Matilda Bay and Art Gallery of Western Australia confirmed as exact en.wikipedia.org titles; Claisebrook Cove has no article of its own (only Claise Brook and East Perth) so it is null; UWA's venues page says the university encourages public access to the Sunken Garden. REVIEW STAGE had four searches (last four entries) and spent them on: Bathers Beach, which turned out to have an exact article, 'Bathers Beach, Fremantle', now set with its URL; State Library hours, confirmed exactly on slwa.wa.gov.au and no longer marked approximate, with the en.wikipedia title appearing in the same results; Crow Books' address, confirmed as Shop 1/900 Albany Hwy but with no cross street or coordinates in any result; and Reabold Hill, where Trails WA and Tourism WA confirmed the 200 m boardwalk off Scenic Drive but gave no coordinates. Reviewer also tried to pull coordinates and article existence straight from the Wikipedia API, Wikidata and Nominatim, and to HTTP-check every source URL, but the sandbox's egress proxy blocks all of those hosts, so NO coordinate in this file has been checked against a map by either stage and no source URL has been HTTP-verified by the reviewer. Every URL here is one that appeared in a listed search result in one of the two stages; none were typed from memory. The reviewer went over each coordinate against street-level knowledge of Perth: one change, Sir James Mitchell Park moved about 200 m north off the Mill Point Road edge onto the lawn; the rest were left, with the five smaller sites (Reabold Hill, Crow Books, Gino's, Sunken Garden, Claisebrook Cove) kept at medium because they could be off by a block. Wikipedia titles still resting on knowledge alone with no URL seen in either stage: 'Hyde Park, Perth', 'Lake Monger', 'Fremantle Arts Centre'. Hours for Fremantle Arts Centre and the Bold Park gates remain from knowledge and approximate. No reddit threads were read for this city in either stage. Safety screen: all 14 are ordinary public places; none involve trespass, derelict, industrial or rail land; every safety note was re-read against the standard and describes lighting, water edges, gates and paths only, so none needed rewriting. Reabold Hill carries the only caution (unlit bush, gated car park at dusk).",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known inner-city park between William, Vincent, Throssell and Glendower streets; coordinates are the lake area from knowledge, plausible against that street frame but not map-checked. Wikipedia title 'Hyde Park, Perth' kept on knowledge in both stages; neither stage URL-confirmed it. The 'no feeding' sign in the blurb is from memory.",
+      "name": "Hyde Park",
+      "neighborhood": "Highgate / North Perth",
+      "category": "park",
+      "vibes": [
+        "quiet",
+        "green",
+        "water",
+        "picnic",
+        "walk",
+        "solo",
+        "free",
+        "people-watch"
+      ],
+      "blurb": "Two reedy lakes ringed by a path and shaded by enormous Moreton Bay figs and plane trees, ten minutes' walk from the Beaufort Street cafes. It is where inner-north locals go to read on a blanket, feed nobody (signs ask you not to) and watch the coots and long-necked turtles. The tree canopy makes it one of the few genuinely cool green spaces near the centre on a hot afternoon.",
+      "tips": "Come in from William Street or Vincent Street and head for the benches on the western lake, which are quieter than the playground side near Throssell Street. Bring coffee from Beaufort Street; there is nothing sold in the park itself. The figs are the shade to sit under from noon on.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -31.9372,
+      "lng": 115.8635,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Hyde Park, Perth",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit perimeter paths and residential streets on all sides; the lake edges are low and unfenced, so mind your step near the water after dark."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Large well-known lake reserve; coordinates are the lake centre from knowledge and easily within the water body. Wikipedia title 'Lake Monger' kept on knowledge in both stages, not URL-confirmed. The 3.5 km loop length is approximate and from memory.",
+      "name": "Lake Monger",
+      "neighborhood": "Wembley / Leederville",
+      "category": "park",
+      "vibes": [
+        "water",
+        "sunset",
+        "sunrise",
+        "walk",
+        "green",
+        "skyline",
+        "solo",
+        "free"
+      ],
+      "blurb": "A big shallow lake a few kilometres north-west of the city with a flat 3.5 km loop path, black swans in the hundreds and an open view back to the CBD towers across the water. Leederville and Wembley residents walk or run it before work and sit on the eastern grass at dusk when the city lights come on. It is busy enough to feel used and wide enough that you can always find an empty bench.",
+      "tips": "Park or walk in from Lake Monger Drive on the east side for the skyline view, or from Dodd Street on the west side for the quieter benches facing the sunrise. The eastern shore near the Mitchell Freeway has the most people; the north-west corner is the reedy, bird-watching end. Leederville station is about a 15-minute walk.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -31.926,
+      "lng": 115.8265,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Lake Monger",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Only parts of the loop are lit and the far shore is a long way from the road, so do the full circuit in daylight and stick to the eastern, lit stretch at night."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence and location (between Hackett Drive and the river) confirmed via search; Wikipedia article Matilda Bay confirmed. Coordinates are the foreshore lawn from knowledge.",
+      "name": "Matilda Bay Reserve",
+      "neighborhood": "Crawley",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunset",
+        "skyline",
+        "picnic",
+        "group",
+        "solo",
+        "free",
+        "walk"
+      ],
+      "blurb": "A curve of river lawn and old paperbarks between UWA and the Swan River, looking across Perth Water to the city skyline with Kings Park rising on the left. Students, families and after-work swimmers spread out along the grass, and at sunset the towers turn orange over the moored yachts. It is the classic local answer to where to sit by the river without going anywhere near Elizabeth Quay.",
+      "tips": "Enter from Hackett Drive; the lawns south of the boat ramp towards the Matilda Bay tearoom are the quietest and face the skyline. Bring a picnic and something to sit on, and note the car parks fill on summer evenings, so a bus along Stirling Highway or a bike is easier. Swimming is off the small beach only.",
+      "bestTimes": [
+        "golden-hour",
+        "afternoon",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -31.9805,
+      "lng": 115.8225,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Matilda Bay",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Matilda_Bay",
+          "label": "Wikipedia: Matilda Bay",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit along Hackett Drive and busy on warm evenings; the river edge is unfenced and the boat ramp is in use, so keep clear of the ramp and the water in the dark."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title confirmed: en.wikipedia.org/wiki/Stirling_Gardens appeared in results, along with City of Perth and Visit Perth pages. Corner of St Georges Terrace and Barrack Street, coordinates from knowledge.",
+      "name": "Stirling Gardens",
+      "neighborhood": "Perth CBD",
+      "category": "garden",
+      "vibes": [
+        "hidden",
+        "quiet",
+        "green",
+        "solo",
+        "free",
+        "cozy",
+        "people-watch"
+      ],
+      "blurb": "Perth's oldest public garden, laid out in 1845 on the corner of St Georges Terrace and Barrack Street, beside the Supreme Court and below Government House. There is a huge Moreton Bay fig, a small fountain, bronze kangaroos and the May Gibbs gumnut babies, and office workers eat lunch on the benches while the tour groups head straight past to the river. It is a small, shaded, oddly overlooked square in the middle of the city.",
+      "tips": "Enter from Barrack Street or the Terrace; the benches under the fig on the Supreme Court side are the shadiest. Supreme Court Gardens next door are bigger and sunnier if you want lawn. Weekday lunchtime is the only time it is anything but empty.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -31.9563,
+      "lng": 115.862,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Stirling Gardens",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Stirling_Gardens",
+          "label": "Wikipedia: Stirling Gardens",
+          "kind": "other"
+        },
+        {
+          "url": "https://perth.wa.gov.au/hire-and-bookings/all-venues/stirling-gardens",
+          "label": "City of Perth: Stirling Gardens",
+          "kind": "official"
+        },
+        {
+          "url": "https://visitperth.com/see-and-do/parks-gardens-and-reserves/venues/stirling-gardens",
+          "label": "Visit Perth: Stirling Gardens",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Central, lit and overlooked by the courts and Government House; quiet after office hours."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review search confirmed hours on slwa.wa.gov.au (Mon-Thu 9am-8pm, Fri 9am-5:30pm, Sat-Sun 10am-5:30pm, closed public holidays) and address 25 Francis Street; en.wikipedia.org/wiki/State_Library_of_Western_Australia appeared in the same results. Coordinates from knowledge; the building is large and unmistakable on the Cultural Centre plaza.",
+      "name": "State Library of Western Australia",
+      "neighborhood": "Northbridge (Perth Cultural Centre)",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "solo",
+        "free",
+        "cozy"
+      ],
+      "blurb": "The state library sits on the Cultural Centre plaza between the train station and the art gallery, and anyone can walk in, take a desk on the upper floors and stay all day. The reading floors look down onto the plaza through big windows, the ground floor has a cafe and newspapers, and it is the obvious dry, air-conditioned place to think on a 40-degree day or a winter downpour. Free wifi and no membership needed to sit.",
+      "tips": "Take the escalators up; the higher the floor the quieter it gets, and the desks along the windows facing the plaza are the best. Bags are fine but eating is only on the ground floor. Perth station is a two-minute walk across the footbridge.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Thu 9am-8pm, Fri 9am-5:30pm, Sat-Sun 10am-5:30pm; closed public holidays",
+      "lat": -31.9494,
+      "lng": 115.8604,
+      "coordConfidence": "high",
+      "wikipediaTitle": "State Library of Western Australia",
+      "sources": [
+        {
+          "url": "https://slwa.wa.gov.au/plan-my-visit/hours-transport-access/opening-hours",
+          "label": "SLWA: Opening hours",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/State_Library_of_Western_Australia",
+          "label": "Wikipedia: State Library of Western Australia",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building with security at the doors; the plaza outside is lit and next to the station."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed via the gallery's own site: rooftop open 10am-5pm daily, gallery free with voluntary donation, sculpture walk and views; the rooftop bar is closed until 2027/28 but the terrace is not. Wikipedia title Art Gallery of Western Australia confirmed in results.",
+      "name": "AGWA Rooftop",
+      "neighborhood": "Northbridge (Perth Cultural Centre)",
+      "category": "rooftop",
+      "vibes": [
+        "view",
+        "skyline",
+        "free",
+        "solo",
+        "hidden",
+        "rain-ok",
+        "people-watch"
+      ],
+      "blurb": "The Art Gallery of Western Australia opened its roof in 2021 as a free open-air sculpture walk, with pieces from the State Art Collection, benches and wide views over the Cultural Centre, the new museum's roofline, the city towers and out to the Darling Scarp. Very few visitors go up, so on a weekday afternoon you can have a bench and a sculpture to yourself. The gallery floors below are free too if the weather turns.",
+      "tips": "Enter the gallery from the plaza and take the lift to the top; a voluntary donation is asked at the door but not required. The rooftop bar is closed for a refit until 2027/28, so bring your own water. Afternoon light on the scarp side is best; it closes with the gallery at 5pm.",
+      "bestTimes": [
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "10am-5pm daily (check site)",
+      "lat": -31.9499,
+      "lng": 115.8615,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Art Gallery of Western Australia",
+      "sources": [
+        {
+          "url": "https://artgallery.wa.gov.au/plan-your-visit/agwa-rooftop/",
+          "label": "AGWA: Rooftop",
+          "kind": "official"
+        },
+        {
+          "url": "https://artgallery.wa.gov.au/plan-your-visit/",
+          "label": "AGWA: Plan your visit",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Art_Gallery_of_Western_Australia",
+          "label": "Wikipedia: Art Gallery of Western Australia",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed gallery with high parapets; only open in daylight hours."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title confirmed in the research stage (en.wikipedia.org/wiki/Sir_James_Mitchell_Park, 65 ha, Mends Street Jetty to near Heirisson Island). Review moved the point about 200 m north, off the Mill Point Road edge and onto the foreshore lawn; still from knowledge, not map-checked, but the park is 2 km long so any point on the lawn is fine.",
+      "name": "Sir James Mitchell Park",
+      "neighborhood": "South Perth",
+      "category": "waterfront",
+      "vibes": [
+        "skyline",
+        "water",
+        "night",
+        "sunset",
+        "walk",
+        "picnic",
+        "group",
+        "free"
+      ],
+      "blurb": "The long grassy foreshore on the south side of Perth Water, running from Mends Street Jetty east towards the Causeway, with the whole city skyline laid out across the river. It is the postcard view, but the park is 65 hectares of lawn and it is used by South Perth locals walking dogs, running the river loop and sitting on the bank after dark when the towers are lit. Black swans graze the grass right up to the path.",
+      "tips": "Take the ferry from Elizabeth Quay to Mends Street (about seven minutes) and walk east along the water; the benches past the Coode Street jetty are far quieter than the cafe end. Bring a rug, because the good spots are on the grass slope facing the city. The shared path is busy with bikes, so sit off it.",
+      "bestTimes": [
+        "golden-hour",
+        "night",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -31.973,
+      "lng": 115.8625,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Sir James Mitchell Park",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sir_James_Mitchell_Park",
+          "label": "Wikipedia: Sir James Mitchell Park",
+          "kind": "other"
+        },
+        {
+          "url": "https://onlineservices.southperth.wa.gov.au/facilities/facility/sir-james-mitchell-park",
+          "label": "City of South Perth: Sir James Mitchell Park",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Path lit along the whole foreshore and Mill Point Road houses overlook it; the river edge is unfenced and cyclists come through fast, so stay on the grass side of the path at night."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Research stage confirmed the boardwalk on the BGPA site; review search (Trails WA, Tourism WA, AllTrails) confirmed an easy 200 m top trail from a car park on Scenic Drive off Oceanic Drive, 85 m summit, but no result gave coordinates. Point is from knowledge and could be 200-300 m off; medium confidence. Gate hours from knowledge, not confirmed.",
+      "name": "Reabold Hill, Bold Park",
+      "neighborhood": "City Beach / Floreat",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "sunset",
+        "quiet",
+        "green",
+        "walk",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "The highest natural point on the coastal plain, an 85-metre limestone hill inside 437 hectares of tuart and banksia bushland, with a raised timber boardwalk to a summit deck looking over the Indian Ocean one way and the city and the Darling Scarp the other. Nothing is built up here but the boardwalk and a car park, and the wind in the trees is the only noise. Locals come for the sunset over the ocean and leave when the gates close.",
+      "tips": "Drive or cycle up Scenic Drive off Oceanic Drive to the summit car park; the boardwalk is a few hundred metres and has benches at the landings. Or walk up from Perry Lakes on the Zamia Trail (about an hour) for the full bush approach. There is no water or shade at the top, and the car park gate closes around dusk.",
+      "bestTimes": [
+        "golden-hour",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "dawn-dusk (car park gates close at dusk; check site)",
+      "lat": -31.947,
+      "lng": 115.7745,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Bold Park",
+      "sources": [
+        {
+          "url": "https://www.bgpa.wa.gov.au/bold-park/attraction/reabold-hill",
+          "label": "Botanic Gardens and Parks Authority: Reabold Hill",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.bgpa.wa.gov.au/getting-and-around-bold-park",
+          "label": "BGPA: Getting to and around Bold Park",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Bold_Park",
+          "label": "Wikipedia: Bold Park",
+          "kind": "other"
+        },
+        {
+          "url": "https://trailswa.com.au/trails/trail/reabold-hill-summit-boardwalk",
+          "label": "Trails WA: Reabold Hill Summit Boardwalk",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Unlit bushland with no lighting on the boardwalk or trails and the summit car park gated at dusk; go in daylight or arrive for sunset with a torch and a clear plan to be back at the gate before it closes. Sandy limestone paths are loose underfoot."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Long-established free arts centre at 1 Finnerty Street; coordinates from knowledge, consistent with that address. Hours (10am-5pm daily) and the Wikipedia title 'Fremantle Arts Centre' are from knowledge in both stages and were not URL-confirmed; the review budget went to Bathers Beach and the State Library instead.",
+      "name": "Fremantle Arts Centre",
+      "neighborhood": "Fremantle",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "cozy",
+        "green",
+        "quiet",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "A Gothic limestone building from the 1860s, once an asylum, now a free contemporary arts centre with galleries, a bookshop, a courtyard cafe and lawns under big old trees. Fremantle locals treat the grounds as a park: you can wander the exhibitions for half an hour and then sit under the fig with a coffee, and on winter weekdays it is nearly silent. Free concerts fill the lawn on summer Sunday afternoons, so pick your day.",
+      "tips": "Enter from Finnerty Street or from Ord Street through the garden; the courtyard tables are the sheltered spot when it rains and the front lawn is the sunny one. Galleries are free. It is a ten-minute walk uphill from Fremantle station along Queen Street.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "roughly 10am-5pm daily (check site)",
+      "lat": -32.0487,
+      "lng": 115.7523,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Fremantle Arts Centre",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed venue open in daylight only; the grounds are gated after closing."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review search confirmed the exact English Wikipedia article is 'Bathers Beach, Fremantle' (shore below the Round House, south of Arthur Head, South Mole on its northern side); City of Fremantle and Tourism WA pages also appeared. Coordinates from knowledge, consistent with that description.",
+      "name": "Bathers Beach",
+      "neighborhood": "Fremantle",
+      "category": "beach",
+      "vibes": [
+        "sunset",
+        "water",
+        "people-watch",
+        "walk",
+        "solo",
+        "group",
+        "free",
+        "night"
+      ],
+      "blurb": "A short sheltered beach right in Fremantle, between the Round House cliff and the fishing boat harbour, facing straight west into the sunset with the Rottnest ferries crossing in front. It is not a swimming beach in the Cottesloe sense, more a place to sit on the sand or the low limestone wall with fish and chips and watch the sky go. Whalers Tunnel from High Street drops you onto it in thirty seconds.",
+      "tips": "Walk down through the Whalers Tunnel under the Round House, or along the harbour boardwalk from the fish and chip shops. The wall on the northern end catches the last of the sun and stays out of the wind. Bring a jumper even in summer; the sea breeze arrives mid-afternoon.",
+      "bestTimes": [
+        "golden-hour",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -32.0565,
+      "lng": 115.7435,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Bathers Beach, Fremantle",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bathers_Beach,_Fremantle",
+          "label": "Wikipedia: Bathers Beach, Fremantle",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.fremantle.wa.gov.au/services-and-support/city-facilities/bathers-beach/",
+          "label": "City of Fremantle: Bathers Beach",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Unpatrolled beach; the harbour boardwalk is lit and busy until late, but the sand itself is dark after sunset, so sit near the promenade at night."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed via Visit Fremantle and the cafe's own site: open daily from 5:30am at 1/5 South Terrace. Coordinates for the South Terrace / Market Street corner from knowledge, not map-checked.",
+      "name": "Gino's Cafe",
+      "neighborhood": "Fremantle (South Terrace)",
+      "category": "cafe",
+      "vibes": [
+        "people-watch",
+        "cozy",
+        "rain-ok",
+        "solo",
+        "group",
+        "sunrise"
+      ],
+      "blurb": "The anchor of Fremantle's cappuccino strip, an Italian cafe on the corner of South Terrace and Market Street that has been pouring coffee since the 1980s and opens at half past five in the morning. The outdoor tables under the verandah are the best people-watching seats in Fremantle, and inside is the dry option when the winter storms come in off the ocean. Nobody rushes you over a long macchiato.",
+      "tips": "Go early: before 8am you get the whole terrace and the street cleaners. The corner tables face down South Terrace for the long view. Fremantle station is a five-minute walk; there is a full trattoria menu if you stay for lunch.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "5:30am-late daily (check site)",
+      "lat": -32.0563,
+      "lng": 115.7485,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.ginoscafe.com.au/",
+          "label": "Gino's Cafe & Trattoria",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.visitfremantle.com.au/ginos-cafe",
+          "label": "Visit Fremantle: Gino's Cafe",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Busy lit main street with staff on site from before dawn until late."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Research stage confirmed hours from the shop's site; review search confirmed the address Shop 1/900 Albany Hwy, East Victoria Park 6101 (Yellow Pages, Yelp, Urban List) but no result gave a cross street or coordinates, so the point is still from knowledge of the strip and could be a block out either way. Medium confidence kept.",
+      "name": "Crow Books",
+      "neighborhood": "East Victoria Park",
+      "category": "bookstore",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "night",
+        "solo",
+        "quiet",
+        "hidden"
+      ],
+      "blurb": "An independent bookshop on the Albany Highway cafe strip that stays open until 9 or 10 every night, which makes it one of the very few quiet places in Perth to be after dark that is not a bar. Big, well-chosen fiction and non-fiction sections, an armchair or two, and staff who leave you alone to read. Vic Park locals use it as the last stop of an evening out.",
+      "tips": "Bus 30 or 34 along Albany Highway from the city stops nearby; the shop is at 900 Albany Hwy on the East Victoria Park stretch of the cafe strip. Thursday to Saturday it is open until 10pm. Pair it with one of the cafes either side for a table to read at.",
+      "bestTimes": [
+        "night",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Sun-Wed 9am-9pm, Thu-Sat 9am-10pm (check site)",
+      "lat": -31.9895,
+      "lng": 115.9045,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.crowbooks.com.au/about",
+          "label": "Crow Books: About",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.theurbanlist.com/perth/directory/crow-books",
+          "label": "Urban List: Crow Books",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.yellowpages.com.au/wa/east-victoria-park/crow-books-14004122-listing.html",
+          "label": "Yellow Pages: Crow Books, 1/900 Albany Hwy",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed shop on a lit, busy commercial street with late-running buses."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence and character (walled inlet on redeveloped former gasworks land, boardwalks, art walk) confirmed via City of Perth and Tourism WA results. No English Wikipedia article for the cove itself, only Claise Brook and East Perth, so title set to null. Coordinates from knowledge.",
+      "name": "Claisebrook Cove",
+      "neighborhood": "East Perth",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "quiet",
+        "sunrise",
+        "walk",
+        "solo",
+        "night",
+        "free",
+        "hidden"
+      ],
+      "blurb": "A small, still inlet off the Swan River in East Perth, walled in stone and lined with boardwalks, cafes and low apartment blocks, built in the 1990s on what had been the city's gasworks. It is a ten-minute walk from the CBD but the water is glassy, the footbridge is pretty and the benches along the cove face east, so it is the easiest quiet sunrise in central Perth. Riverside paths run out past Victoria Gardens to Heirisson Island if you want to keep walking.",
+      "tips": "Claisebrook station is five minutes away on foot down Royal Street; the western side of the cove near the footbridge has the most benches. Cafes on the cove open early on weekdays. Follow the Art Walk signs along the river for the mosaics in Victoria Gardens.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -31.9525,
+      "lng": 115.8775,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://perth.wa.gov.au/hire-and-bookings/all-venues/claisebrook-cove",
+          "label": "City of Perth: Claisebrook Cove",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.westernaustralia.com/en/attraction/claisebrook-cove/61f381840770ddc625c45f94",
+          "label": "Tourism WA: Claisebrook Cove",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit boardwalks overlooked by apartments; the cove walls drop straight into the water with no railing along most of the edge, so keep back at night."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "UWA's own venues page (in search results) says the university encourages public access to the grounds and describes the Sunken Garden as terraced lawns around a circular grass stage with ponds. It is also a wedding venue, so it can be booked out on weekend afternoons. Coordinates from knowledge near Winthrop Hall, medium confidence. No exact English Wikipedia article for the garden, so null.",
+      "name": "Sunken Garden, UWA",
+      "neighborhood": "Crawley",
+      "category": "garden",
+      "vibes": [
+        "hidden",
+        "quiet",
+        "green",
+        "study",
+        "solo",
+        "free",
+        "cozy"
+      ],
+      "blurb": "A small amphitheatre of terraced lawns, ponds and tall trees dug into an old sand pit on the University of Western Australia's Crawley campus, a minute from Winthrop Hall and the peacocks. The university keeps the grounds open to the public, and the Sunken Garden is where students read between lectures and where nobody else seems to know to go. Combine it with the riverside lawns at Matilda Bay across Hackett Drive.",
+      "tips": "Enter the campus from Stirling Highway near Winthrop Hall and follow the signs south past the Great Court; the garden is below the Hackett buildings. Avoid Saturday afternoons in spring, when it is often booked for weddings. Bus stops on Stirling Highway are right outside.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (open campus grounds; closed for booked events)",
+      "lat": -31.9795,
+      "lng": 115.818,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.uwa.edu.au/theatres/venues/sunken-garden",
+          "label": "UWA: Sunken Garden",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Campus with security patrols and lit main paths; the garden itself is dim after dark, so treat it as a daytime spot."
+      },
+      "lowkeyScore": 5
+    }
+  ]
+}

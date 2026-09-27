@@ -1,0 +1,645 @@
+{
+  "city": "Delhi",
+  "country": "India",
+  "slug": "delhi",
+  "region": "asia-pacific",
+  "cityLat": 28.6139,
+  "cityLng": 77.209,
+  "timezone": "Asia/Kolkata",
+  "searchesRun": [
+    "Sunder Nursery Delhi timings entry ticket 2026",
+    "Aravalli Biodiversity Park Vasant Vihar Delhi timings entry public",
+    "Roshanara Bagh Delhi restoration reopened timings",
+    "Triveni Kala Sangam Terrace Cafe Mandi House timings",
+    "Indian Coffee House Mohan Singh Place Connaught Place still open",
+    "Mehrauli Archaeological Park entry fee timings",
+    "Buddha Jayanti Park Delhi timings",
+    "reddit Delhi quiet places to sit alone and read",
+    "Mehrauli Archaeological Park DDA entry fee ticket 2026",
+    "Garden of Five Senses Saket Delhi timings entry ticket",
+    "Roshanara Bagh reopened after restoration 2025 timings",
+    "Buddha Jayanti Park Delhi entry gate Vandemataram Marg timings closed"
+  ],
+  "redditSourcedNotes": "Two stages. RESEARCH STAGE ran eight searches; the reddit-aimed one returned no reddit threads (only travel and book-club pages), so no reddit-derived opinion exists for this city; the only local-voice fragments were a Time Out note on winter lounging at Sunder Nursery and Lodhi Garden and a Trip.com page on the weekly \"Lodhi Reads\" silent-reading meet. Confirmed by search in that stage: Indian Coffee House at Mohan Singh Place still operating on the top floor (9am-8:30pm); Triveni Terrace Cafe open 10am-9pm, with \"Triveni Kala Sangam\" and \"Roshanara Bagh\" confirmed as exact en.wikipedia.org articles; Aravalli Biodiversity Park free, 5am-7pm; Sunder Nursery hours conflicting between pages (7am-7pm/6pm vs 6am-10pm), conservative range kept. REVIEW STAGE (skeptic) had four searches and spent them on Mehrauli's fee, a replacement spot, Roshanara's reopening and Buddha Jayanti Park's hours. Outcomes: a DDA PDF of revised entry-fee rates (May 2025) confirms Mehrauli Archaeological Park is fee-charging, so free stays false; Buddha Jayanti Park hours are given as the conservative 5am-7pm because pages disagree; Roshanara Bagh's garden reopening is still unconfirmed (only the private club's July 2025 reopening was reported), so hours stay \"varies\"; the Lotus Temple was dropped as a major tourist landmark rather than a low-key sitting place and replaced with the Garden of Five Senses, whose ticket, hours and Wikipedia article appeared in results. en.wikipedia.org was blocked from the review environment, so no Wikipedia title could be checked directly: \"Bahrisons Booksellers\" was set to null as the least certain; \"Agrasen ki Baoli\" was recased from knowledge; Lodi Gardens, Sunder Nursery, Hauz Khas Complex, Mehrauli Archaeological Park, Buddha Jayanti Park, India Habitat Centre and National Gallery of Modern Art are kept on high confidence from knowledge only. All coordinates were checked against remembered Wikipedia/map positions and all 14 fall within 11 km of the centre; none were moved, but Aravalli, Buddha Jayanti, Roshanara and Garden of Five Senses stay medium because only the general site, not the gate, is certain. Hours for the knowledge-only spots (Lodhi, Hauz Khas, Agrasen, IHC, Bahrisons, NGMA) are approximate. Source URLs are only ones that appeared in a search result in one of the two stages; five spots have empty sources arrays rather than invented ones. Safety screen: all 14 notes rest on physical conditions (lighting, closing times, terrain, traffic, staffing); none needed rewriting; caution is set only for Mehrauli Archaeological Park and Aravalli Biodiversity Park, for unlit, uneven terrain with few exits. Geographic gap remains honest: east Delhi across the Yamuna and west Delhi beyond the Ridge have no spots; Lutyens' Delhi/Connaught Place holds 6 of 14.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known public park; a Trip.com page in the reddit search confirmed the weekly 'Lodhi Reads' silent-reading meet. Hours from knowledge (approximate). Wikipedia title 'Lodi Gardens' from knowledge, high confidence but not URL-confirmed.",
+      "name": "Lodhi Garden",
+      "neighborhood": "Lodhi Estate / Lutyens' Delhi",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "picnic",
+        "solo",
+        "group",
+        "free",
+        "people-watch"
+      ],
+      "blurb": "Ninety acres of lawn, old trees and 15th-century Sayyid and Lodi tombs in the middle of Lutyens' Delhi, which the city treats as its front garden. Morning is for walkers and yoga groups; by late afternoon students and office workers are sprawled on the grass around Bara Gumbad and the Sheesh Gumbad with books and chai, and a silent weekly reading meet-up has made a home here. It is famous but it is also genuinely where locals go to think.",
+      "tips": "Enter from Lodhi Road (gate near India International Centre) or Max Mueller Marg; the lawns behind Bara Gumbad and the pond by Sikandar Lodi's tomb are quieter than the Athpula bridge side. Weekday late afternoon in winter is the classic time. Khan Market is a 10-minute walk for coffee.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 5am-8pm (check locally)",
+      "lat": 28.5933,
+      "lng": 77.2197,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Lodi Gardens",
+      "sources": [
+        {
+          "url": "https://om.trip.com/moments/poi-lodhi-garden-94768",
+          "label": "Trip.com: Lodhi Garden as a quiet place",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated, well used and patrolled; main paths are lit until closing, but the tomb interiors and back lawns are dark after sunset, so stay on the main loop in the evening."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, ticketing and JLN Stadium metro access confirmed via search (Delhi Tourism page). Hours conflict between sources; conservative range given. Wikipedia title 'Sunder Nursery' from knowledge, high confidence, not URL-confirmed.",
+      "name": "Sunder Nursery",
+      "neighborhood": "Nizamuddin",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "water",
+        "picnic",
+        "walk",
+        "solo",
+        "group",
+        "study"
+      ],
+      "blurb": "A 90-acre Mughal-era nursery next to Humayun's Tomb, restored by the Aga Khan Trust into a heritage park of lakes, an arboretum, a wildflower meadow and a dozen small 16th-century tombs and pavilions. The modest ticket keeps it far calmer than Lodhi Garden, and in winter Delhi treats sitting on its lawns in the sun as something close to a civic duty. The far northern garden and the amphitheatre bowl are the quietest corners.",
+      "tips": "Entrance is on Mathura Road beside Humayun's Tomb; JLN Stadium (Violet Line) is the nearest metro. Buy the ticket at the gate (UPI accepted), then head past the central axis to the lake and the arboretum at the back. There is a cafe near the entrance; a Sunday organic market runs in winter.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "7am-7pm Apr-Sep, 7am-6pm Oct-Mar (check site)",
+      "lat": 28.5948,
+      "lng": 77.2438,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Sunder Nursery",
+      "sources": [
+        {
+          "url": "https://delhitourism.gov.in/entertainment/sunder_nursery.html",
+          "label": "Delhi Tourism: Sunder Nursery",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.thedilli.in/2024/05/sunder-nursery-delhi-timings-ticket.html",
+          "label": "The Dilli: Sunder Nursery timings and tickets",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Ticketed, fenced and staffed, with guards at the gate; it closes at or before dusk. Lake edges are unfenced in places."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known ASI complex and adjoining DDA park, written from knowledge only (search budget spent elsewhere). Complex closing time varies by season. Wikipedia title 'Hauz Khas Complex' from knowledge, high confidence, not URL-confirmed.",
+      "name": "Hauz Khas Complex & Deer Park",
+      "neighborhood": "Hauz Khas",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunset",
+        "view",
+        "green",
+        "people-watch",
+        "walk",
+        "free",
+        "solo"
+      ],
+      "blurb": "At the end of Hauz Khas Village's lane of boutiques and cafes, the 14th-century madrasa and tomb of Firoz Shah Tughlaq step down to a reservoir dug in the 1290s. The stone platforms and arched cells face west over the water, so this is where south Delhi comes to watch the sun go down with a takeaway coffee. Deer Park behind it is a big, shady DDA park with a fenced deer enclosure, a rose garden and benches under old trees.",
+      "tips": "Walk through the village to the end of the lane for the madrasa; the lower terraces on the lake side have the best light. The ASI complex closes at sunset, so for a longer evening move to the lakeside path in Deer Park (enter from the village or from Safdarjung Enclave). Green Park metro is a 15-minute walk.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "complex roughly 10am-sunset; Deer Park roughly 5am-8pm",
+      "lat": 28.5541,
+      "lng": 77.1921,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Hauz Khas Complex",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Busy on evenings and weekends; the madrasa has low parapets and steep unlit stone stairs, so keep off the upper edges once the light goes. Deer Park paths are only partly lit; leave by closing."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence and hours (roughly 5am-6:30pm) confirmed via search. Review stage: a DDA PDF titled \"Revised Entry Fee Rates for Mehrauli Archaeological Park\" (dda.gov.in, May 2025) appeared in results, so the entry fee is confirmed at official level and free stays false, even though some blog pages still say entry is free (ASI monuments inside may have their own tickets). Wikipedia title from knowledge, high confidence, not URL-confirmed.",
+      "name": "Mehrauli Archaeological Park",
+      "neighborhood": "Mehrauli",
+      "category": "trail",
+      "vibes": [
+        "hidden",
+        "quiet",
+        "walk",
+        "green",
+        "solo",
+        "view",
+        "sunrise"
+      ],
+      "blurb": "Two hundred acres of scrub forest and stone next to the Qutub Minar, with a thousand years of monuments scattered along dirt paths: Jamali Kamali mosque and tomb, Rajon ki Baoli stepwell, Balban's tomb and Metcalfe's follies. While the Qutub car park fills, the park itself gets a trickle of walkers and heritage groups, and you can sit on the steps of the baoli for an hour in silence. It is the closest Delhi comes to an open-air museum with nobody in it.",
+      "tips": "Enter from Anuvrat Marg opposite the Qutub Minar car park or from Mehrauli village; Qutub Minar metro (Yellow Line) plus a short auto ride. DDA charges a small entry fee at the gate. Wear proper shoes, carry water and go in the cool of the morning. Some ASI monuments inside keep their own hours; Jamali Kamali is often locked, but the surrounding area is open.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "5am-6:30pm (check site)",
+      "lat": 28.5187,
+      "lng": 77.1831,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Mehrauli Archaeological Park",
+      "sources": [
+        {
+          "url": "https://dda.gov.in/sites/default/files/2025-05/revised_entry_fee_rates_for_mehrauli_archaeological_park.pdf",
+          "label": "DDA: revised entry fee rates for Mehrauli Archaeological Park (PDF)",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.jaypeehotels.com/blog/mehrauli-archaeological-park",
+          "label": "Jaypee Hotels blog: Mehrauli Archaeological Park",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.tripadvisor.in/Attraction_Review-g304551-d3971182-Reviews-Mehrauli_Archaeological_Park-New_Delhi_National_Capital_Territory_of_Delhi.html",
+          "label": "Tripadvisor: Mehrauli Archaeological Park",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Large, unlit and uneven, with ruins, open stepwells and few exits; phone signal is fine but sightlines are short. Go in daylight, stay on the main paths and be out well before the 6:30pm close."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, free entry and 5am-7pm hours confirmed via search (Delhi Biodiversity Parks programme site). Gate coordinates are approximate (Vasant Vihar side), hence medium. No exact English Wikipedia article confirmed for the Delhi park (the Gurugram one has its own), so title null.",
+      "name": "Aravalli Biodiversity Park",
+      "neighborhood": "Vasant Vihar / Vasant Kunj",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "solo",
+        "hidden",
+        "free",
+        "sunrise"
+      ],
+      "blurb": "Nearly 700 acres of restored Aravalli ridge between Vasant Vihar and Vasant Kunj, run by Delhi University's biodiversity programme: dry forest, old quarry pits turned into lakes, a butterfly conservatory and long gravel trails with almost no built structures. Neighbours use it as a morning walk, birders come for the winter migrants, and by mid-morning on a weekday you can have a whole trail and a bench to yourself. It feels like leaving the city without leaving it.",
+      "tips": "The main gate is on the Vasant Vihar side (Poorvi Marg, near C Block); parking is at the gate and Vasant Vihar metro (Magenta Line) is about 2 km away. Carry water, wear closed shoes, and stick to the marked trails. Guided nature walks run some weekend mornings.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "5am-7pm",
+      "lat": 28.5565,
+      "lng": 77.1605,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.delhibiodiversityparks.org/aravalli-biodiversity-park.html",
+          "label": "Delhi Biodiversity Parks: Aravalli Biodiversity Park",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.jaypeehotels.com/blog/aravalli-biodiversity-park-delhi",
+          "label": "Jaypee Hotels blog: Aravalli Biodiversity Park timings",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Forest trails with no lighting, uneven rocky ground and long stretches out of sight of the gate; quiet on weekday afternoons. Go in daylight, ideally with a friend, and be back at the gate before the 7pm close."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence and free entry confirmed via search. Hours conflict: 5am-7pm on some pages, 6am-8:30pm \"except Sundays\" on others, so the conservative range is given and the Sunday-closure claim is not repeated. Coordinates are the park interior off Vandemataram Marg, within a few hundred metres of the Wikipedia coordinates, medium confidence. Wikipedia title from knowledge, not URL-confirmed (en.wikipedia.org was unreachable from the review environment).",
+      "name": "Buddha Jayanti Park",
+      "neighborhood": "Central Ridge (Sardar Patel Marg)",
+      "category": "park",
+      "vibes": [
+        "quiet",
+        "green",
+        "solo",
+        "walk",
+        "picnic",
+        "free",
+        "hidden"
+      ],
+      "blurb": "A landscaped park carved out of the Central Ridge forest in 1964 to mark 2,500 years since the Buddha's enlightenment, with a gilded Buddha statue on an island, a sapling of the Bodhi tree and lawns rolling down to a stream. It sits between the diplomatic enclave and Karol Bagh but few people outside the neighbourhood use it, so on weekday afternoons it is one of the emptiest big lawns in the city. The forest wall on all sides cuts most of the traffic noise.",
+      "tips": "Enter from Vandemataram Marg (the Ridge road between Dhaula Kuan and Karol Bagh); an auto from Jhandewalan or Shankar Vihar area is easiest. The benches around the Buddha statue and the slope above the stream are the best sitting spots. There is no cafe, so bring a thermos.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 5am-7pm (some pages say 6am-8:30pm; check locally)",
+      "lat": 28.6125,
+      "lng": 77.1735,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Buddha Jayanti Park",
+      "sources": [
+        {
+          "url": "https://www.holidify.com/places/delhi/buddha-jayanti-park-sightseeing-124941.html",
+          "label": "Holidify: Buddha Jayanti Park",
+          "kind": "blog"
+        },
+        {
+          "url": "https://yometro.com/travel-guide/attraction-buddha-jayanti-park",
+          "label": "YoMetro: Buddha Jayanti Park timings and entry",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated DDA park with guards at the gate, but it is surrounded by forest and the interior paths are unlit; the road outside has fast traffic and no footpath in places. Leave before dusk and arrange your ride from the gate."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title confirmed: en.wikipedia.org/wiki/Roshanara_Bagh appeared in results. Restoration was reported due to finish late 2024 and the LG office press release on the restoration appeared in a review-stage search, but the only confirmed 2025 reopening found was of the private Roshanara Club next door, not the garden, so hours stay \"varies\". Coordinates are within about 150 m of the Wikipedia coordinates, medium confidence.",
+      "name": "Roshanara Bagh",
+      "neighborhood": "Shakti Nagar / Kamla Nagar (North Delhi)",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "A 17th-century Mughal garden laid out by Shah Jahan's daughter Roshanara, with her tomb pavilion at its centre and a long water channel, in the old university and Kamla Nagar quarter of north Delhi. It has been a neighbourhood park for a century and was under restoration through 2024, with the pavilion and channel being repaired. Students from Delhi University and residents use it for morning walks and to sit under the trees; almost no visitors from outside the north make it here.",
+      "tips": "It is off Roshanara Road, walking distance from Pulbangash metro (Red Line) or a short auto from Vishwavidyalaya; the Roshanara Club next door is private, so use the public park gate. Go in the morning or late afternoon. Check locally whether the restored pavilion area is fully open.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (roughly dawn-dusk, check locally)",
+      "lat": 28.6755,
+      "lng": 77.1958,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Roshanara Bagh",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Roshanara_Bagh",
+          "label": "Wikipedia: Roshanara Bagh",
+          "kind": "other"
+        },
+        {
+          "url": "https://thepatriot.in/reports/delhi-roshanara-bagh-to-get-a-complete-makeover-by-october-end-54143",
+          "label": "The Patriot: Roshanara Bagh makeover by October end",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.holidify.com/places/delhi/roshanara-bagh-sightseeing-124953.html",
+          "label": "Holidify: Roshanara Bagh",
+          "kind": "blog"
+        },
+        {
+          "url": "https://lg.delhi.gov.in/media/press-release/400-year-old-roshanara-bagh-be-restored-its-past-glory-lg",
+          "label": "Delhi LG office: Roshanara Bagh to be restored",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Walled municipal garden that closes at dusk; paths are unlit and some restoration works may still be fenced off, so go in daylight."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known ASI stepwell, written from knowledge only; hours approximate. Wikipedia title from knowledge, high confidence that the article exists; the casing was changed to \"Agrasen ki Baoli\" (the article title as remembered), and the app follows redirects so either casing should resolve. Not URL-confirmed: en.wikipedia.org was unreachable from the review environment.",
+      "name": "Agrasen ki Baoli",
+      "neighborhood": "Connaught Place (Hailey Road)",
+      "category": "other",
+      "vibes": [
+        "hidden",
+        "quiet",
+        "solo",
+        "free",
+        "people-watch",
+        "study"
+      ],
+      "blurb": "A 60-metre stepwell of 108 steps hidden between office towers on Hailey Road, a five-minute walk from Connaught Place. Sit halfway down the steps and the city noise drops away to pigeons and the echo of the arched galleries; it is where office workers eat lunch and students sketch. It has grown busier since it appeared in films, but on a weekday morning it is still a pocket of quiet in the busiest part of the city.",
+      "tips": "Enter from Hailey Road (off Kasturba Gandhi Marg); Barakhamba Road or Janpath metro are both a short walk. Weekday mornings before 11am are the emptiest. The lower steps are steep and the well is dry, so sit on the upper flights in the shade.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 9am-5:30pm",
+      "lat": 28.6262,
+      "lng": 77.2247,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Agrasen ki Baoli",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed ASI site with a guard, closed by early evening; the steps are steep and worn, so watch your footing and keep away from the low parapets."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known cultural centre on Lodhi Road, written from knowledge only (search budget spent elsewhere); public access to the courtyards, gallery and cafes is long-standing. Wikipedia title 'India Habitat Centre' from knowledge, high confidence, not URL-confirmed.",
+      "name": "India Habitat Centre",
+      "neighborhood": "Lodhi Road",
+      "category": "plaza",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "cozy",
+        "study",
+        "people-watch",
+        "night",
+        "solo",
+        "group"
+      ],
+      "blurb": "Joseph Allen Stein's red-brick complex of courtyards, sunken gardens and shaded walkways, with a free Visual Arts Gallery, film screenings, a small amphitheatre and several cafes. The public can walk in and sit in the courtyards or under the blue louvred canopies for as long as they like, and on a rainy or scorching day it is one of the best covered outdoor spaces in the city. Evenings bring a low hum of talks and exhibitions rather than crowds.",
+      "tips": "Enter from Lodhi Road (Gate 3) or Vardhman Marg; JLN Stadium or Jor Bagh metro plus a short walk. The sunken courtyard by the Visual Arts Gallery and the benches near the Stein Auditorium are the quietest; the cafes are open to non-members, though some restaurants are members-only. Check the events board for free evening programmes.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 9am-10pm (gallery hours shorter)",
+      "lat": 28.5897,
+      "lng": 77.2253,
+      "coordConfidence": "high",
+      "wikipediaTitle": "India Habitat Centre",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, gated complex with security at every entrance and lit courtyards until late; Lodhi Road outside is a busy, lit arterial with autos at the gate."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title confirmed: en.wikipedia.org/wiki/Triveni_Kala_Sangam appeared in results. Cafe hours (10am-9pm) and address (205 Tansen Marg) from Time Out and LBB results.",
+      "name": "Triveni Kala Sangam & Terrace Cafe",
+      "neighborhood": "Mandi House",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "quiet",
+        "rain-ok",
+        "study",
+        "green",
+        "people-watch",
+        "solo"
+      ],
+      "blurb": "An arts centre from the 1950s, also by Joseph Allen Stein, with four free galleries, an open-air amphitheatre and a garden terrace cafe where theatre students, painters and retired civil servants sit for hours over cheap Punjabi food and lemon tea. The building's brise-soleil screens and the trees over the terrace make it shady and cool, and nobody moves you on. It is the Mandi House arts district's living room.",
+      "tips": "Mandi House metro is two minutes away; walk in through the main gate on Tansen Marg and up to the terrace. Wander the galleries first (free, usually 11am-7pm) and time the cafe for mid-afternoon, between the lunch and pre-show rushes. Cash and UPI.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "cafe 10am-9pm; galleries roughly 11am-7pm (check site)",
+      "lat": 28.6263,
+      "lng": 77.2337,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Triveni Kala Sangam",
+      "sources": [
+        {
+          "url": "https://www.timeout.com/delhi/restaurants/triveni-terrace-cafe",
+          "label": "Time Out: Triveni Terrace Cafe",
+          "kind": "press"
+        },
+        {
+          "url": "https://lbb.in/delhi/triveni-terrace-cafe-will-become-your-go-to-place-this-winter/",
+          "label": "LBB: Triveni Terrace Cafe",
+          "kind": "blog"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Triveni_Kala_Sangam",
+          "label": "Wikipedia: Triveni Kala Sangam",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed building in the lit, busy Mandi House arts district, with the metro two minutes away."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Confirmed via search as still operating on the top floor of Mohan Singh Place, 9am-8:30pm (Tripadvisor, The Citizen, a July 2025 blog). No English Wikipedia article for this branch (only the chain), so title null.",
+      "name": "Indian Coffee House, Mohan Singh Place",
+      "neighborhood": "Connaught Place (Baba Kharak Singh Marg)",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "people-watch",
+        "rain-ok",
+        "view",
+        "solo",
+        "group",
+        "study"
+      ],
+      "blurb": "A worker-cooperative coffee house that has been on the top floor of a scruffy 1950s shopping block since 1957, with turbaned waiters, formica tables, a rooftop terrace and a menu of filter coffee, dosas and cutlets that costs almost nothing. Generations of journalists, students and political argument have passed through; today it is still where people sit for two hours over one coffee and nobody minds. The terrace looks over the trees of Baba Kharak Singh Marg.",
+      "tips": "Take the stairs or the old lift to the top floor of Mohan Singh Place, next to Hanuman Mandir; Rajiv Chowk metro is a five-minute walk. The open terrace is the best seat in winter and late afternoon; the indoor hall is cooler in summer. Cash is safest.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "9am-8:30pm",
+      "lat": 28.6286,
+      "lng": 77.2141,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.thecitizen.in/index.php/en/NewsDetail/index/9/17140/Indian-Coffee-House-Brewed-in-History--",
+          "label": "The Citizen: Indian Coffee House, brewed in history",
+          "kind": "press"
+        },
+        {
+          "url": "https://amanjul.wordpress.com/2025/07/31/indian-coffee-house-delhi-a-piece-of-nostalgia/",
+          "label": "Blog (July 2025): Indian Coffee House, a piece of nostalgia",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g304551-d7593757-Reviews-Indian_Coffee_House-New_Delhi_National_Capital_Territory_of_Delhi.html",
+          "label": "Tripadvisor: Indian Coffee House, Mohan Singh Place",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed cafe on a busy, lit central street; the stairwell of the building is dim, so use the lift or take care on the steps."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Long-running bookshop (since 1953) in Khan Market, written from knowledge only; hours approximate. Wikipedia title set to null at review: an article probably exists but could not be confirmed (en.wikipedia.org unreachable from the review environment) and it was the least certain title in the file.",
+      "name": "Bahrisons Booksellers",
+      "neighborhood": "Khan Market",
+      "category": "bookstore",
+      "vibes": [
+        "rain-ok",
+        "cozy",
+        "quiet",
+        "solo",
+        "people-watch"
+      ],
+      "blurb": "Delhi's best-known independent bookshop, opened by a Partition refugee in 1953 and still run by the family from the same Khan Market corner. It is small and packed to the ceiling, with a strong Indian fiction, history and politics section and staff who actually read; browsing for an hour is normal and expected. It is the anchor of a market that also has Faqir Chand's and several cafes for the after-browse coffee.",
+      "tips": "Front lane of Khan Market, near the main entrance; Khan Market metro (Violet Line) is a short walk. Evenings and weekends are busy with shoppers, so go on a weekday morning for a slow browse. The children's shop is separate, in the same market.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly 10:30am-8:30pm daily (check site)",
+      "lat": 28.6002,
+      "lng": 77.227,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed shop in a busy, lit market with security at the entrances and autos outside until late."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known national museum in Jaipur House, written from knowledge only (search budget spent elsewhere); hours and ticket approximate. Wikipedia title 'National Gallery of Modern Art' from knowledge, high confidence, not URL-confirmed.",
+      "name": "National Gallery of Modern Art",
+      "neighborhood": "India Gate (Jaipur House)",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "cozy",
+        "solo",
+        "study",
+        "green"
+      ],
+      "blurb": "India's modern art museum, in a 1930s maharaja's palace at the edge of India Gate lawns with a large glass-and-stone extension behind it. The collection runs from Company paintings and the Bengal School through Amrita Sher-Gil, Tagore and the Progressives to contemporary work, spread across so many rooms that even on weekends you will have whole galleries to yourself. The lawn and the sculpture garden between the two buildings are good for sitting.",
+      "tips": "Entrance is off Sher Shah Road, on the C-Hexagon roundabout at India Gate; Khan Market or Central Secretariat metro plus an auto. The ticket is a few rupees for Indians and more for foreign visitors; closed Mondays and national holidays. The new wing's upper floors are the quietest.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Tue-Sun roughly 11am-6:30pm, closed Mon (check site)",
+      "lat": 28.611,
+      "lng": 77.2343,
+      "coordConfidence": "high",
+      "wikipediaTitle": "National Gallery of Modern Art",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, ticketed museum with bag checks; the roundabout outside has heavy traffic and few crossings, so use the signalled crossings when walking to India Gate."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Added at review to replace the Lotus Temple. Existence, ticket (Rs 35 adult, Rs 15 child/senior), hours (9am-7pm summer, 9am-6pm winter) and distance from Saket metro (about 1 km) confirmed via search; en.wikipedia.org/wiki/Garden_of_Five_Senses appeared in results. Coordinates are for the garden at Said-ul-Ajaib from knowledge, not map-confirmed, hence medium.",
+      "name": "Garden of Five Senses",
+      "neighborhood": "Said-ul-Ajaib / Saket (South Delhi)",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "solo",
+        "group",
+        "picnic",
+        "sunset",
+        "view"
+      ],
+      "blurb": "A 20-acre Delhi Tourism garden laid out in 2003 on a rocky Aravalli slope opposite Saket, with a spiral walk, a lily pond, sculpture, an amphitheatre and terraces of flowering shrubs climbing the ridge. The small ticket keeps it uncrowded on weekdays, and the upper terraces look west over the scrub towards Mehrauli. It is where south Delhi comes for a slow walk and a bench in the sun rather than a landmark.",
+      "tips": "Saket metro (Yellow Line) is about a kilometre away; enter from the Mehrauli-Badarpur Road side and buy the ticket at the gate (cash or UPI; no online booking). The upper terraces and the amphitheatre steps are quietest; the food court near the gate is optional. Last entry about 30 minutes before closing.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "9am-7pm Apr-Sep, 9am-6pm Oct-Mar (check site)",
+      "lat": 28.5137,
+      "lng": 77.1987,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Garden of Five Senses",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Garden_of_Five_Senses",
+          "label": "Wikipedia: Garden of Five Senses",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.jaypeehotels.com/blog/garden-of-five-senses-delhi",
+          "label": "Jaypee Hotels blog: Garden of Five Senses timings and entry",
+          "kind": "blog"
+        },
+        {
+          "url": "https://delhitourism.travel/garden-of-five-senses-delhi",
+          "label": "Delhi Tourism (travel guide): Garden of Five Senses",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Ticketed, fenced and staffed garden that closes at or before dusk; paths climb a rocky slope with uneven steps and low walls, so wear proper shoes. The road outside is a fast arterial with few crossings, so arrange an auto from the gate."
+      },
+      "lowkeyScore": 3
+    }
+  ]
+}

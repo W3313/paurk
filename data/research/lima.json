@@ -1,0 +1,662 @@
+{
+  "city": "Lima",
+  "country": "Peru",
+  "slug": "lima",
+  "region": "americas",
+  "cityLat": -12.0464,
+  "cityLng": -77.0428,
+  "timezone": "America/Lima",
+  "searchesRun": [
+    "Biblioteca Nacional del Perú San Borja horario sala de lectura Av. De la Poesía",
+    "Casa de la Literatura Peruana horario de atención Jr. Áncash 207",
+    "Lugar de la Memoria LUM Miraflores horario Bajada San Martín 151",
+    "Bosque El Olivar San Isidro wikipedia",
+    "Huaca Huallamarca San Isidro horario entrada",
+    "Dédalo Barranco Paseo Sáenz Peña 295 café jardín",
+    "Librería El Virrey Miraflores Bolognesi 510",
+    "Pantanos de Villa Chorrillos horario entrada refugio de vida silvestre",
+    "Parque María Reiche Malecón Cisneros Miraflores ubicación entre Faro La Marina y Av. Angamos",
+    "Parque de la Amistad Surco horario ingreso arco Av. Caminos del Inca",
+    "\"Parque de la Exposición\" Lima en.wikipedia.org",
+    "Museo Larco Café del Museo horario ingreso sin entrada al museo Pueblo Libre"
+  ],
+  "redditSourcedNotes": "Two stages, twelve web searches in total, none of them reddit threads, so nothing here comes from locals' posts. RESEARCH STAGE (8 searches) confirmed existence, address and hours for Biblioteca Nacional (Av. De la Poesía 160, Mon-Sat 8:30am-8pm, free with registration), Casa de la Literatura (Jr. Áncash 207, Tue-Sun 10am-7pm, free), LUM (Bajada San Martín 151, Tue-Sun 10am-6pm, free with ID), El Olivar (public park with en.wikipedia article 'El Olivar, Peru'), Huaca Huallamarca (Tue-Sat 9am-5pm, S/5), Dédalo (Sáenz Peña 295, hours from a directory listing only), El Virrey (Bolognesi 510, Mon-Sat 9:30am-8:30pm, Sun 11am-7pm) and Pantanos de Villa (8:30am-5pm in guided turns). REVIEW STAGE (4 searches) went after the weakest claims. It found the first draft had put Parque María Reiche on Malecón Cisneros; es.wikipedia and visitamiraflores.com place it on Malecón de la Marina at the end of Calle Ignacio Merino, so the spot was renamed and its coordinates moved about 700 m north (still medium confidence, placed from memory). Parque de la Amistad was confirmed free (attractions S/3-10, roughly 10am-10pm) and its arch corrected from 'colonial Moorish arch' to the 29 m Arco de la Amistad. 'Parque de la Exposición' was confirmed as an exact en.wikipedia title. Museo Larco's café was confirmed usable without a ticket, via Calle Navarra 169, Mon-Sat 12pm-10pm and Sun 9am-10pm; the draft's 9am-10pm were the museum's hours. STILL FROM KNOWLEDGE ONLY, with 'sources': []: Parque Reducto No. 2 and Malecón de La Punta (hours approximate). All coordinates in the file come from memory, not from a map lookup: El Olivar, Casa de la Literatura, Reducto, Museo Larco, Exposición are reliable to about a block; BNP, LUM, María Reiche, Huallamarca, Dédalo, El Virrey, La Punta, Pantanos de Villa and Parque de la Amistad are marked medium and may be a few hundred metres off. Wikipedia titles confirmed by a URL in a result: 'El Olivar, Peru', 'Huaca Huallamarca', 'Pantanos de Villa Wildlife Refuge', 'Malecón de Miraflores' (the promenade article, used for the María Reiche spot), 'Desamparados station' (used for Casa de la Literatura because it occupies that building), 'Parque de la Exposición', 'Larco Museum'. Kept from knowledge without URL confirmation: 'National Library of Peru'. Null for LUM, Reducto, Dédalo, El Virrey, La Punta, Parque de la Amistad. Source URLs are attached only where they appeared in a real search result; the review stage could not fetch them to check they still resolve because outbound curl is blocked in this environment, so a reader should expect some link rot. Safety notes describe lighting, staffing, gates, cliff edges and water only; the review found none that characterised people or leaned on a neighbourhood's reputation. The single caution is Pantanos de Villa (open water beside the boardwalks, closes 5pm).",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Public park confirmed via municipal and gob.pe pages; en.wikipedia article 'El Olivar, Peru' appeared in results. Coordinates are the middle of the grove, reliable to about a block. Library hours from knowledge only.",
+      "name": "Bosque El Olivar",
+      "neighborhood": "San Isidro",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "solo",
+        "walk",
+        "study",
+        "free",
+        "picnic",
+        "rain-ok"
+      ],
+      "blurb": "A ten-hectare grove of centuries-old olive trees in the middle of San Isidro, with a small lagoon, gravel paths and benches under the gnarled trunks. Office workers eat lunch here, retirees read the paper, and the trees are full of birds; it is calm even though busy avenues run a block away on either side. The municipal library and cultural centre sit inside the grove, so there is somewhere to go when the garúa drizzle sets in.",
+      "tips": "Enter from Av. Los Incas or Av. Conquistadores and head for the lagoon end for the quietest benches. The Casa de la Cultura holds the free municipal library (roughly 9am-8pm weekdays, shorter weekends); the park itself is open all day and lit at night.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (library roughly 9am-8pm, check site)",
+      "lat": -12.0985,
+      "lng": -77.0355,
+      "coordConfidence": "high",
+      "wikipediaTitle": "El Olivar, Peru",
+      "sources": [
+        {
+          "url": "https://www.gob.pe/43159-lugares-para-visitar-en-san-isidro-bosque-el-olivar",
+          "label": "Municipalidad de San Isidro (gob.pe): Bosque El Olivar",
+          "kind": "official"
+        },
+        {
+          "url": "https://msi.gob.pe/portal/2017/02/24/bosque-el-olivar-es-reconocido-como-area-de-conservacion-ambiental/",
+          "label": "MSI: El Olivar declared conservation area",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Open, well-lit park with municipal serenazgo patrols and streets on all sides; paths are gravel and uneven in places."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, address, free access and hours confirmed via bnp.gob.pe (Mon-Sat 8:30am-8pm, registration required from age 15). Coordinates from knowledge of the San Borja site next to Museo de la Nación; medium confidence. Wikipedia title from knowledge, not URL-confirmed.",
+      "name": "Biblioteca Nacional del Perú",
+      "neighborhood": "San Borja",
+      "category": "library",
+      "vibes": [
+        "quiet",
+        "study",
+        "rain-ok",
+        "solo",
+        "free",
+        "cozy"
+      ],
+      "blurb": "Peru's national library occupies a large modern building in San Borja with several public reading rooms, a study room and an open-air study terrace. Anyone can register for a free reader's card and sit all day with a laptop or a book; it is one of the few genuinely silent indoor places in the city that costs nothing. On a grey winter afternoon it is where San Borja students go to work.",
+      "tips": "Register online or at the Sala de Atención al Usuario on arrival (bring ID). The Sala de Estudio y Terraza is the most relaxed room; the reading rooms are silent. Closed Sundays. The San Borja Sur metro station and Av. Javier Prado buses are a short walk.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Sat 8:30am-8pm, closed Sun (check site)",
+      "lat": -12.088,
+      "lng": -77.0,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "National Library of Peru",
+      "sources": [
+        {
+          "url": "https://www.bnp.gob.pe/horarios-locales/",
+          "label": "BNP: Horarios y locales",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.bnp.gob.pe/servicios/sala-de-lectura/sala-de-estudio-y-terraza/",
+          "label": "BNP: Sala de Estudio y Terraza",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building with security at the entrance; bags are checked and lockers are provided."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, address and hours confirmed via casadelaliteratura.gob.pe and El Comercio (Tue-Sun 10am-7pm, free). The Casa occupies the former Desamparados railway station, whose en.wikipedia article appeared in results, so that title is used. Coordinates reliable to about a block.",
+      "name": "Casa de la Literatura Peruana",
+      "neighborhood": "Centro Histórico",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "cozy",
+        "free",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "A free literature museum and library inside the old Desamparados railway station behind the Government Palace, with a stained-glass ceiling, a reading room with big tables and a café. Exhibitions on Peruvian writers rotate, but most regulars come to read in the library or sit in the hall out of the noise of Jirón Áncash. It is the calmest indoor stop in the historic centre.",
+      "tips": "Walk round the right side of the Palacio de Gobierno from Plaza Mayor to Jr. Áncash 207. The library on the upper floor lends on site and has the quietest seats; the café is at the front. Closed Mondays and on 28-29 July.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Tue-Sun 10am-7pm, closed Mon",
+      "lat": -12.0447,
+      "lng": -77.0286,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Desamparados station",
+      "sources": [
+        {
+          "url": "https://www.casadelaliteratura.gob.pe/contacto/",
+          "label": "Casa de la Literatura: Contacto y horarios",
+          "kind": "official"
+        },
+        {
+          "url": "https://elcomercio.pe/vamos/noticias/lima-casa-de-la-literatura-biblioteca-la-casa-de-la-literatura-peruana-reabrio-sus-puertas-con-nuevos-horarios-noticia/",
+          "label": "El Comercio: Casa de la Literatura reopens with new hours",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed building on a busy pedestrian street beside the Government Palace; leave via Jr. Áncash or Jr. Carabaya towards Plaza Mayor, which stay lit and policed after closing."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, address, free entry and hours confirmed via lum.cultura.pe and museos.cultura.pe (Tue-Sun 10am-6pm). Coordinates placed at the Bajada San Martín cliff site from knowledge, medium confidence. The exact English Wikipedia title was not confirmed, so set to null.",
+      "name": "LUM (Lugar de la Memoria)",
+      "neighborhood": "Miraflores (Bajada San Martín)",
+      "category": "museum",
+      "vibes": [
+        "view",
+        "water",
+        "quiet",
+        "rain-ok",
+        "free",
+        "solo",
+        "sunset"
+      ],
+      "blurb": "The national memorial museum to the 1980-2000 internal conflict, a concrete building stepped into the Costa Verde cliff on the border of Miraflores and San Isidro. The galleries are sober and demand slow attention; afterwards the free public terraces face straight out over the Pacific, and few visitors linger there. Entry is free with ID, and weekday afternoons are almost empty.",
+      "tips": "Bring your DNI or passport. The upper terrace and the ramp down the cliff side are the places to sit after the exhibition; the last light over the sea is at around 6pm, right at closing. Reach it from Malecón de la Marina or by taxi down Bajada San Martín. Closed Mondays.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Tue-Sun 10am-6pm, closed Mon",
+      "lat": -12.1135,
+      "lng": -77.048,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://lum.cultura.pe/actividades/visita-el-lum-presencialmente",
+          "label": "LUM: Visita el LUM presencialmente",
+          "kind": "official"
+        },
+        {
+          "url": "https://museos.cultura.pe/museos/lugar-de-la-memoria-la-tolerancia-y-la-inclusi%C3%B3n-social-0",
+          "label": "Ministerio de Cultura: LUM museum page",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, gated site that closes at 6pm; the terraces have railings. The Bajada San Martín road down to the beach has no pavement in stretches, so arrive from the malecón above rather than from the Costa Verde."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review search (es.wikipedia, visitamiraflores.com) places the park on Malecón de la Marina in north-west Miraflores, at the end of Calle Ignacio Merino, not on Malecón Cisneros as first drafted; name, tips and coordinates corrected. Coordinates re-placed from memory of the es.wikipedia figure near the San Isidro border, just south of LUM, and could still be a couple of hundred metres off along the cliff; medium confidence. Wikipedia title 'Malecón de Miraflores' is the promenade article (URL confirmed), not a park-specific one.",
+      "name": "Parque María Reiche (Malecón de la Marina)",
+      "neighborhood": "Miraflores",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "water",
+        "sunset",
+        "walk",
+        "people-watch",
+        "free",
+        "night",
+        "green"
+      ],
+      "blurb": "The northernmost stretch of the Miraflores cliff-top promenade, where Parque María Reiche's lawns and reproductions of the Nazca lines face the Pacific and the paragliders. Locals run, walk dogs and sit on the grass with the sea sixty metres below; it is the same cliff as the Parque del Amor, minus the coaches and couples' selfies. The fog burns off around midday in winter and the sunset is straight ahead.",
+      "tips": "Walk north from Parque del Amor past the lighthouse along Malecón Cisneros and on to Malecón de la Marina; the park is where Calle Ignacio Merino meets the cliff, a few minutes before the San Isidro border. Benches face west, so bring a layer for the sea wind after dark. Kiosks are few, so carry water.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -12.1155,
+      "lng": -77.044,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Malecón de Miraflores",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Malec%C3%B3n_de_Miraflores",
+          "label": "Wikipedia: Malecón de Miraflores",
+          "kind": "other"
+        },
+        {
+          "url": "https://es.wikipedia.org/wiki/Parque_Maria_Reiche",
+          "label": "Wikipedia (es): Parque Maria Reiche",
+          "kind": "other"
+        },
+        {
+          "url": "https://visitamiraflores.com/lugares/parque-maria-reiche/",
+          "label": "Visita Miraflores: Parque María Reiche",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit promenade with railings along the cliff edge and joggers until late; stay on the paved paths, since the cliff face below is loose and the stairs down to the Costa Verde are unlit after dark."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Historic gated park at Av. Benavides and Av. Ramón Ribeyro written from knowledge only; hours approximate and no search budget remained. Coordinates reliable to about a block. No English Wikipedia title confirmed, so null.",
+      "name": "Parque Reducto No. 2",
+      "neighborhood": "Miraflores",
+      "category": "park",
+      "vibes": [
+        "quiet",
+        "green",
+        "solo",
+        "study",
+        "free",
+        "hidden",
+        "picnic"
+      ],
+      "blurb": "A walled, gated park on Av. Benavides built around the earthworks of an 1881 battle redoubt, now lawns, tall trees, a small museum and quiet paths. Because it is fenced and closes at night, it has none of the through-traffic of Parque Kennedy, and Miraflores residents come here specifically to read on the grass. The traffic noise from Benavides fades a few metres inside.",
+      "tips": "Enter from Av. Benavides or Av. Ramón Ribeyro; the lawns at the back, away from the Benavides gate, are the quietest. Bring a mat, since benches are limited. Roughly 6am-9pm; the small museum inside has its own shorter hours.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 6am-9pm (check site)",
+      "lat": -12.1262,
+      "lng": -77.0218,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced park with a guard at the gate, closed overnight; lit paths and a busy avenue outside."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, address (Av. Nicolás de Ribera 201 at El Rosario), hours (Tue-Sat 9am-5pm) and S/5 entry confirmed via gob.pe and travel pages; en.wikipedia article 'Huaca Huallamarca' appeared in results. Coordinates from knowledge, medium confidence.",
+      "name": "Huaca Huallamarca",
+      "neighborhood": "San Isidro",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "quiet",
+        "solo",
+        "hidden",
+        "skyline",
+        "sunset"
+      ],
+      "blurb": "A restored pre-Inca adobe pyramid standing among San Isidro apartment blocks, with a ramp you can walk up to a flat summit that looks over the whole district and, on a clear day, to the sea. It is much smaller and quieter than Huaca Pucllana; on a weekday you may share the top with one guard and the birds. The small site museum takes ten minutes, the summit takes as long as you want.",
+      "tips": "Pay the S/5 entry at the gate on Av. Nicolás de Ribera; the ramp is steep but short. Late afternoon has the softest light and the fewest school groups. Closed Sunday and Monday, and the site shuts at 5pm, so go by 3:30pm to sit for an hour.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "Tue-Sat 9am-5pm, closed Sun-Mon (check site)",
+      "lat": -12.0958,
+      "lng": -77.0378,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Huaca Huallamarca",
+      "sources": [
+        {
+          "url": "https://www.gob.pe/43126-lugares-para-visitar-en-san-isidro-huaca-huallamarca",
+          "label": "Municipalidad de San Isidro (gob.pe): Huaca Huallamarca",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Huaca_Huallamarca",
+          "label": "Wikipedia: Huaca Huallamarca",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, fenced archaeological site open only in daylight; the adobe ramp has no handrail and is slippery when damp."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review search (cafe.museolarco.org, museolarco.org/caferestaurant) confirmed that the café-restaurant is free to enter without a museum ticket, via the Calle Navarra 169 entrance, and is open Mon-Sat 12pm-10pm and Sun 9am-10pm including holidays; earlier draft hours (9am-10pm daily) were the museum's, not the café's. Wikipedia title 'Larco Museum' confirmed by URL. Coordinates reliable to about a block.",
+      "name": "Museo Larco garden and café",
+      "neighborhood": "Pueblo Libre",
+      "category": "museum",
+      "vibes": [
+        "green",
+        "cozy",
+        "quiet",
+        "rain-ok",
+        "solo",
+        "group",
+        "hidden"
+      ],
+      "blurb": "An 18th-century mansion in Pueblo Libre holding a famous pre-Columbian collection, but the reason to linger is the garden: bougainvillea-draped walls, a courtyard café and benches among the flowers. The café terrace can be used without a museum ticket, and the neighbourhood around it is residential and slow. Locals come for a long lunch or coffee as much as for the ceramics.",
+      "tips": "Use the café entrance on Calle Navarra 169 if you are not visiting the galleries; no ticket is needed for the garden or terrace. It opens at noon on weekdays and stays open until 10pm, later than most places in Lima, so it works as a rainy-night option too. Pair it with a walk to Plaza Bolívar de Pueblo Libre, a few blocks away.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "café Mon-Sat 12pm-10pm, Sun 9am-10pm (museum 9am-10pm daily)",
+      "lat": -12.0725,
+      "lng": -77.071,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Larco Museum",
+      "sources": [
+        {
+          "url": "https://cafe.museolarco.org/en/",
+          "label": "Museo Larco Café-Restaurant (official)",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.museolarco.org/caferestaurant/",
+          "label": "Museo Larco: Café/Restaurant page",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Larco_Museum",
+          "label": "Wikipedia: Larco Museum",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated, staffed grounds with taxis easy to call from the entrance; the surrounding streets are residential and dimly lit at night, so book a ride rather than walking to Av. Brasil."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Historic public park by MALI; English Wikipedia article 'Parque de la Exposición' confirmed by URL in a review search (also en.wikipedia 'Palacio de la Exposición' and a World Monuments Fund page). Hours are still approximate and from knowledge. Coordinates reliable to about a block.",
+      "name": "Parque de la Exposición",
+      "neighborhood": "Centro (Santa Beatriz)",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "free",
+        "solo",
+        "picnic",
+        "rain-ok"
+      ],
+      "blurb": "The 19th-century exhibition grounds on the edge of the historic centre, now a fenced park of lawns, palms, a small lake and pavilions, with the Museo de Arte de Lima (MALI) at its northern end. It is far calmer than the Circuito Mágico del Agua across the avenue and free, and on weekday afternoons you can have a whole lawn to yourself. If it rains, MALI's café and galleries are a minute away.",
+      "tips": "Enter from Paseo Colón or Av. 28 de Julio; the lake end is quietest. MALI's café faces the park and does not require a ticket. The park gates close in the evening, so do not plan on a night visit.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 7am-9pm (check site)",
+      "lat": -12.0605,
+      "lng": -77.0365,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Parque de la Exposición",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Parque_de_la_Exposici%C3%B3n",
+          "label": "Wikipedia: Parque de la Exposición",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.wmf.org/projects/parque-de-la-exposici%C3%B3n",
+          "label": "World Monuments Fund: Parque de la Exposición",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced park with guards at the gates, closed overnight; leave via Paseo Colón, which is lit and busy, and use the Estación Central Metropolitano stop next door."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, address (Sáenz Peña 295) and garden café confirmed via Tripadvisor and directory pages; hours from a directory listing (Mon-Fri 10am-8pm, Sun 11am-7pm) and should be treated as approximate. Coordinates from knowledge, medium confidence. No Wikipedia article.",
+      "name": "Dédalo",
+      "neighborhood": "Barranco",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "green",
+        "quiet",
+        "hidden",
+        "solo",
+        "rain-ok",
+        "study"
+      ],
+      "blurb": "A long-running crafts and design shop in a Barranco mansion whose back garden is a café: tables under trees, a small gallery and almost no street noise. It is a block from the Parque Municipal but feels private, and people sit for hours over a coffee with a book or a laptop. It has been part of Barranco's afternoon routine for more than twenty years.",
+      "tips": "Walk through the shop to reach the garden; order at the café counter at the back. Weekend afternoons fill up, so weekdays are better for a quiet hour. Closes around 8pm, earlier on Sundays.",
+      "bestTimes": [
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "roughly 10am-8pm, Sun to 7pm (check site)",
+      "lat": -12.1467,
+      "lng": -77.0228,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g294316-d23696468-Reviews-Dedalo_Cafe_Barranco-Lima_Lima_Region.html",
+          "label": "Tripadvisor: Dédalo Café Barranco",
+          "kind": "forum"
+        },
+        {
+          "url": "https://www.planetaperu.pe/dedalo-cafe-F170EC90012D3",
+          "label": "PlanetaPerú: Dédalo Café hours",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed shop and café on a residential street a block from the Parque Municipal and its taxis; closes by 8pm."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, address (Calle Bolognesi 510) and hours (Mon-Sat 9:30am-8:30pm, Sun 11am-7pm) confirmed via elvirrey.com and directory pages. Coordinates from knowledge, medium confidence. No Wikipedia article.",
+      "name": "Librería El Virrey",
+      "neighborhood": "Miraflores",
+      "category": "bookstore",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "quiet",
+        "solo",
+        "night"
+      ],
+      "blurb": "One of Lima's oldest independent bookshops, a big wood-floored house on Calle Bolognesi a few minutes from Parque Kennedy with deep Peruvian and Latin American sections and armchairs to read in. Staff leave browsers alone, book launches happen most weeks, and it stays open until 8:30pm, which makes it a good place to wait out the evening drizzle.",
+      "tips": "The upstairs rooms are quietest; look at the events board for launches if you want company, avoid those evenings if you do not. Open every day, shorter hours on Sunday.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Sat 9:30am-8:30pm, Sun 11am-7pm (check site)",
+      "lat": -12.121,
+      "lng": -77.03,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.elvirrey.com/",
+          "label": "Librería El Virrey (official)",
+          "kind": "official"
+        },
+        {
+          "url": "https://enlima.pe/lugares/libreria-el-virrey-miraflores",
+          "label": "En Lima Agenda Cultural: El Virrey Miraflores",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed shop on a lit, busy Miraflores street; open late."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Seaside promenade in the La Punta district of Callao, written from knowledge only; no search budget remained. Coordinates placed near the western tip on Malecón Figueredo and could be a few hundred metres off; medium confidence. District article exists but is not the promenade itself, so title null.",
+      "name": "Malecón de La Punta",
+      "neighborhood": "La Punta, Callao",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunset",
+        "quiet",
+        "walk",
+        "solo",
+        "free",
+        "view",
+        "people-watch"
+      ],
+      "blurb": "A narrow peninsula at the far end of Callao with a stone-beach promenade along both shores, old summer villas, fishing boats and a view out to San Lorenzo island. It is a residential district where people walk the malecón at dusk and sit on the sea wall; almost no visitors from Lima proper make the trip, which is why it stays quiet. The Costa Verde it is not: this is a small-town seafront.",
+      "tips": "Take a taxi or the Callao buses along Av. Sáenz Peña to the end; walk Malecón Figueredo on the south shore for the sunset and Malecón Pardo on the north for the harbour. Bring a windbreaker, since the peninsula is exposed. A few cafés on the plaza serve until the evening.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -12.071,
+      "lng": -77.164,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit promenade with a low sea wall and stone beach; waves break onto the rocks in swell, so keep off the wet stones. Plan the ride home in advance, since the peninsula empties after dark and is a long way from Lima."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Protected wetland confirmed via search (daily 8:30am-5pm, visits in guided turns, small entry fee); en.wikipedia article 'Pantanos de Villa Wildlife Refuge' appeared in results. Coordinates placed at the interpretation centre entrance from knowledge, medium confidence.",
+      "name": "Pantanos de Villa",
+      "neighborhood": "Chorrillos",
+      "category": "trail",
+      "vibes": [
+        "water",
+        "green",
+        "quiet",
+        "walk",
+        "solo",
+        "hidden",
+        "sunrise"
+      ],
+      "blurb": "A 260-hectare protected wetland inside the southern city limits, with boardwalks, birdwatching towers and lagoons full of herons, coots and, from November, thousands of migratory shorebirds. It is a working nature reserve rather than a park, visited in set morning and afternoon turns, and it is one of the few places in Lima where you hear only wind and birds. Bring binoculars and go in the first turn.",
+      "tips": "Entry is at the interpretation centre on the Chorrillos side; turns start at 8:30am, 10:30am, 1:30pm and 3:30pm and last about two hours, with a small fee. The towers are the place to sit. It is 20 km from the centre, so allow an hour by taxi or the Metropolitano to Matellini plus a short ride.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "daily 8:30am-5pm in guided turns (check site)",
+      "lat": -12.212,
+      "lng": -76.995,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Pantanos de Villa Wildlife Refuge",
+      "sources": [
+        {
+          "url": "https://www.ytuqueplanes.com/teapuntas-lima-callao/distritos-con-historia/chorrillos/refugio-de-vida-silvestre-pantanos-de-villa",
+          "label": "Y tú qué planes (PromPerú): Pantanos de Villa",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Pantanos_de_Villa_Wildlife_Refuge",
+          "label": "Wikipedia: Pantanos de Villa Wildlife Refuge",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Daylight only: the reserve closes at 5pm and the boardwalks run beside open water channels with no railings in places. Stay on the marked trails, wear closed shoes and arrange your return transport before the last turn ends."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review search (ytuqueplanes.com, parquedelareserva.com.pe, Infobae) confirmed the park on Av. Caminos del Inca, free entry with paid attractions (S/3-10), and hours of roughly 10am-10pm; the arch is the 29 m Arco de la Amistad, a replica of a 1940s original, not the 'colonial Moorish arch' first drafted. Coordinates from memory of the lake and arch off Caminos del Inca, medium confidence. No English Wikipedia title confirmed, so null.",
+      "name": "Parque de la Amistad",
+      "neighborhood": "Santiago de Surco",
+      "category": "park",
+      "vibes": [
+        "green",
+        "water",
+        "quiet",
+        "picnic",
+        "group",
+        "walk",
+        "night"
+      ],
+      "blurb": "Surco's big neighbourhood park, laid out around a small lake beneath the 29-metre Arco de la Amistad, a replica of a 1940s arch, with a miniature train for children and long lawns under trees. Almost nobody from outside the district comes, so it is where Surco families and students spend the afternoon; the far side of the lake is calm even on Sundays. It stays open into the evening and is lit.",
+      "tips": "Enter from Av. Caminos del Inca; walk past the arch to the lawns on the far side of the lake for the quietest spots. Weekday afternoons are almost empty. Entry is free; the train and other attractions charge S/3-10. A light show runs on the lake in the evening, so the lawns by the water fill up after 8pm.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "daily roughly 10am-10pm (check site)",
+      "lat": -12.1334,
+      "lng": -76.9891,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.ytuqueplanes.com/teapuntas-lima-callao/distritos-con-historia/surco/parque-de-la-amistad",
+          "label": "Y tú qué planes (PromPerú): Parque de la Amistad",
+          "kind": "official"
+        },
+        {
+          "url": "https://parquedelareserva.com.pe/parque-de-la-amistad-de-surco-horario-como-llegar-y-atracciones/",
+          "label": "Parques del Perú: Parque de la Amistad hours and access",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.infobae.com/peru/2025/06/17/el-parque-de-la-amistad-estrena-infinity-park-con-experiencias-sensoriales-a-base-de-ciencia-arte-y-tecnologia/",
+          "label": "Infobae: Parque de la Amistad opens Infinity Park (2025)",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced, lit and gated park with guards at the entrance, closed overnight; the lake edge is unfenced, so watch small children."
+      },
+      "lowkeyScore": 3
+    }
+  ]
+}

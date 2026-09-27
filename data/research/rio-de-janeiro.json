@@ -1,0 +1,652 @@
+{
+  "city": "Rio de Janeiro",
+  "country": "Brazil",
+  "slug": "rio-de-janeiro",
+  "region": "americas",
+  "cityLat": -22.9068,
+  "cityLng": -43.1729,
+  "timezone": "America/Sao_Paulo",
+  "searchesRun": [
+    "Instituto Moreira Salles Gávea Rio horário funcionamento reabertura",
+    "Parque das Ruínas Santa Teresa horário de funcionamento wikipedia",
+    "Sítio Roberto Burle Marx visita agendamento horário Barra de Guaratiba",
+    "Parque Madureira horário de funcionamento Rio de Janeiro",
+    "Museu de Arte do Rio MAR horário funcionamento terraço Praça Mauá",
+    "Real Gabinete Português de Leitura horário visitação",
+    "Pista Cláudio Coutinho Urca horário funcionamento",
+    "Livraria da Travessa Ipanema Visconde de Pirajá horário",
+    "Parque Guinle Laranjeiras horário de funcionamento entrada Rua Gago Coutinho",
+    "Parque Lage horário de funcionamento 2026 entrada gratuita",
+    "Quinta da Boa Vista horário de funcionamento parque portões",
+    "Vista Chinesa Estrada Dona Castorina horário Parque Nacional da Tijuca fechamento"
+  ],
+  "redditSourcedNotes": "Two stages. Researcher stage ran 8 searches, all on existence, public access, hours and English Wikipedia titles; none on reddit or forums, so no 'according to locals' content was read for this city and the lean towards resident-used places is prior knowledge. Researcher outcomes: IMS Rio open Tue-Sun 11am-8pm and free, en.wikipedia 'Moreira Salles Institute'; Parque das Ruínas free, en.wikipedia article exists, hours conflict (Tue-Sun 9-6 vs Thu-Sun 9-4) so marked varies; Parque Madureira Tue-Sun 6am-10pm; MAR Thu-Tue 11am-6pm with a 5th-floor terrace, en.wikipedia 'Museu de Arte do Rio'; Real Gabinete free Mon-Fri 10am-5pm; Pista Cláudio Coutinho free 6am-6pm, en.wikipedia article exists; Livraria da Travessa Ipanema at Visconde de Pirajá 572, Mon-Sat 9am-10pm, Sun 10am-9pm. Skeptic stage had 4 searches and spent them on the researcher's own weak points: Vista Chinesa hours (the draft said 24h; the park's official site says the sector is open 8am-5pm and Estrada Dona Castorina is closed to cars 7-9am weekdays and 7am-7pm weekends/holidays, so hours, tips and best times were rewritten), Parque Lage hours (8am-5pm confirmed, palace closed for restoration, grounds open), Quinta da Boa Vista hours (sources say 5am-7pm or 6am-6pm; left approximate), and Parque Guinle, added as a free public park with a Riotur page to replace the Sítio Roberto Burle Marx, which was dropped because it is guided-tour-only with booking, 43 km out, and not somewhere you can actually sit. Sources are attached only where the URL appeared in one of the 12 result lists; Mureta da Urca, Pedra do Arpoador and Parque do Flamengo were never searched and keep empty sources arrays with hours from knowledge. Wikipedia titles URL-confirmed by search: Moreira Salles Institute, Parque das Ruínas, Museu de Arte do Rio, Pista Cláudio Coutinho. From knowledge only, high confidence: Parque Lage, Royal Portuguese Cabinet of Reading, Arpoador (the article covers the district, so the photo may be the beach rather than the rock), Flamengo Park, Quinta da Boa Vista, Vista Chinesa. Null: Mureta da Urca, Livraria da Travessa, Parque Madureira, Parque Guinle. Coordinates were checked against known addresses and all fall 0.9-18 km from the centre; medium confidence stays on Mureta da Urca (a wall several hundred metres long), Parque do Flamengo (1 km+ park, point near Flamengo beach), Vista Chinesa, Parque Madureira (linear park midpoint) and Parque Guinle. Safety notes were re-read against the standard: one edit, removing an unsourced 'keep valuables close' line from Arpoador so the note rests on wet rock and spray only; the rest describe lighting, closing times, terrain, isolation and transit. Caution remains on Vista Chinesa (unlit isolated forest road) and Parque do Flamengo (large unlit expanse, expressway underpasses).",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Free public park at Rua Jardim Botânico 414, run by the state art school EAV. Review search confirmed free entry and 8am-5pm daily (one source says 6pm) and that the palacete itself is temporarily closed for restoration while the grounds stay open. Wikipedia title from knowledge, not URL-confirmed.",
+      "name": "Parque Lage",
+      "neighborhood": "Jardim Botânico",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "solo",
+        "walk",
+        "picnic",
+        "hidden",
+        "free",
+        "cozy"
+      ],
+      "blurb": "A romantic 1920s mansion and its subtropical garden at the foot of Corcovado, with Christ the Redeemer framed above the palace's courtyard pool. The house is an art school, so the grounds are full of students sketching rather than tour groups, and the paths behind the mansion lead to grottoes, a small aquarium tower and benches under enormous trees where the forest noise drowns the city. The palace is closed for restoration for now, which thins the crowd; the back paths are where you sit anyway.",
+      "tips": "Free entry through the gate on Rua Jardim Botânico; go early or on a weekday, since weekend late mornings fill the courtyard café. Walk past the palace and up the paths towards the forest for the quietest benches; the trail up Corcovado starts here but is a serious hike, so stay in the park if you just want to sit.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "8am-5pm daily (some sources say 6pm; check site)",
+      "lat": -22.9605,
+      "lng": -43.212,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Parque Lage",
+      "sources": [
+        {
+          "url": "https://www.parquelage.org/como-visitar-o-parque-lage/",
+          "label": "Parque Lage: como visitar (official)",
+          "kind": "official"
+        },
+        {
+          "url": "https://guia.melhoresdestinos.com.br/parque-lage-rio-de-janeiro.html",
+          "label": "Melhores Destinos: Parque Lage",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated and staffed park that closes at 5pm; paths are shaded and can be slippery after rain."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed open Tue-Sun 11am-8pm with free admission at Rua Marquês de São Vicente 476, and the en.wikipedia article 'Moreira Salles Institute'. Coordinates from the street address.",
+      "name": "Instituto Moreira Salles",
+      "neighborhood": "Gávea",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "green",
+        "cozy",
+        "solo",
+        "study",
+        "free",
+        "hidden"
+      ],
+      "blurb": "The former Moreira Salles family house in Gávea, a low modernist villa wrapped around a Burle Marx garden with a tiled mural, a shallow pool and lawns that run up into the Tijuca forest. It is a free photography and music archive with quiet exhibition rooms, a café on the terrace and a garden where people sit for hours with a book. Few visitors make it up this far from the beach, so weekday afternoons are close to silent.",
+      "tips": "Free entry; take a bus or taxi up Marquês de São Vicente since it is a steep walk from Gávea's shops. Sit on the terrace by the garden pool or on the lawn under the trees; the café is a good rain refuge and the film screenings are cheap.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Tue-Sun 11am-8pm, closed Mon",
+      "lat": -22.9786,
+      "lng": -43.2412,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Moreira Salles Institute",
+      "sources": [
+        {
+          "url": "https://ims.com.br/en/unidade/ims-rio/",
+          "label": "IMS Rio (official)",
+          "kind": "official"
+        },
+        {
+          "url": "https://riotur.rio/en/que_fazer/moreira-salles-institute/",
+          "label": "Riotur: Instituto Moreira Salles",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed cultural centre with security at the gate; the road outside has little foot traffic after closing, so book a ride from the entrance at night."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Long-standing informal name for the low seawall along Urca's waterfront (Avenida Portugal / João Luís Alves). Not searched; coordinates are a mid-point on a wall several hundred metres long, so marked medium. No English Wikipedia article known, set to null.",
+      "name": "Mureta da Urca",
+      "neighborhood": "Urca",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunset",
+        "night",
+        "view",
+        "people-watch",
+        "group",
+        "free",
+        "skyline"
+      ],
+      "blurb": "The low seawall along Urca's inner bay, where residents sit in a line at dusk with their legs over the water and Botafogo's lights and Christ the Redeemer across the bay. It is one of the calmest corners of the Zona Sul: a peninsula with one road in, fishing boats bobbing below the wall and small bars behind you that sell a beer to take to the wall. Nothing is organised, which is the point.",
+      "tips": "Take a bus or walk in from Botafogo along Avenida Pasteur; the best stretch is between Praia da Urca and the Bar Urca corner. Bring your own drink or buy one from the bars opposite, and sit facing west for the sunset behind Corcovado. Weeknights are quiet, Friday and Saturday evenings are sociable.",
+      "bestTimes": [
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -22.947,
+      "lng": -43.161,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Street-lit and well used into the evening; the wall has no railing and a drop to rocks and water, so mind the edge, especially after a drink."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed a free 1.25 km paved trail from Praça General Tibúrcio at Praia Vermelha, usually open 6am-6pm (hours may change), and the en.wikipedia article 'Pista Cláudio Coutinho'. Coordinates are for the trailhead.",
+      "name": "Pista Cláudio Coutinho",
+      "neighborhood": "Urca (Praia Vermelha)",
+      "category": "trail",
+      "vibes": [
+        "walk",
+        "green",
+        "water",
+        "quiet",
+        "sunrise",
+        "solo",
+        "free",
+        "view"
+      ],
+      "blurb": "A flat, paved 1.25 km path that hugs the base of Sugarloaf between the forest and the open sea, starting from the small beach at Praia Vermelha. Marmosets and birds work the trees overhead while waves break on the rocks below, and there are benches and rock ledges to sit on the whole way. Locals walk or jog it early before the cable-car crowds arrive, then sit by the water at the end of the path.",
+      "tips": "Enter from Praça General Tibúrcio next to the cable-car station; the gate opens around 6am and closes at 6pm, so do not get caught at the far end. No vendors on the path, so bring water; Praia Vermelha beach at the start is a calm place to sit afterwards.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "6am-6pm (check before going)",
+      "lat": -22.9556,
+      "lng": -43.1652,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Pista Cláudio Coutinho",
+      "sources": [
+        {
+          "url": "https://riotur.rio/en/que_fazer/pista-claudio-coutinho-3/",
+          "label": "Riotur: Pista Cláudio Coutinho",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.odiariodeumaviajante.com.br/pista-claudio-coutinho-aos-pes-do-pao-de-acucar/",
+          "label": "O Diário de uma Viajante: Pista Cláudio Coutinho",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated trail inside a military area, staffed at the entrance and closed at 6pm; the paved path is easy but the rocks by the water are wet and uneven, and the Morro da Urca side trail is steep."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed free access at Rua Murtinho Nobre 169 and the en.wikipedia article 'Parque das Ruínas'. Sources disagree on hours (Tue-Sun 9am-6pm vs Thu-Sun 9am-4pm), so hours are marked as varying. Coordinates from the address, next to Museu da Chácara do Céu.",
+      "name": "Parque das Ruínas",
+      "neighborhood": "Santa Teresa",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "skyline",
+        "water",
+        "quiet",
+        "solo",
+        "free",
+        "sunset",
+        "hidden"
+      ],
+      "blurb": "The brick shell of a Belle Époque mansion on the Santa Teresa hillside, turned into a city cultural centre with a glass-and-steel walkway threaded through the ruins. The top platform looks over the whole of Guanabara Bay, Centro's towers and Sugarloaf, and on weekday afternoons you often share it with two or three people. There is a small café and a shady terrace below for reading.",
+      "tips": "Free entry; take the Santa Teresa tram to Largo do Curvelo or walk up from Glória, then follow Rua Murtinho Nobre. The Museu da Chácara do Céu next door has a quiet garden too. Hours vary by source and it closes before dark, so check the Prefeitura's cultura site before going for sunset.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (check site); closed Mon",
+      "lat": -22.9179,
+      "lng": -43.1828,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Parque das Ruínas",
+      "sources": [
+        {
+          "url": "https://riomemorias.com.br/pt/memoria/parque-das-ruinas",
+          "label": "Rio Memórias: Parque das Ruínas",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.odiariodeumaviajante.com.br/parque-das-ruinas-santa-teresa-rio-de-janeiro/",
+          "label": "O Diário de uma Viajante: Parque das Ruínas",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, gated site that closes before dark; the walk down to Glória is on steep, unevenly lit streets, so use the tram or a ride if you leave at closing."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed free visiting Mon-Fri 10am-5pm at Rua Luís de Camões 30, no booking needed; guided tours R$15 Tue/Thu. Wikipedia title 'Royal Portuguese Cabinet of Reading' from knowledge, high confidence but not URL-confirmed.",
+      "name": "Real Gabinete Português de Leitura",
+      "neighborhood": "Centro",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "cozy",
+        "solo",
+        "study",
+        "free",
+        "hidden"
+      ],
+      "blurb": "A 19th-century Portuguese reading room with a carved neo-Manueline hall, three tiers of dark wood galleries and a stained-glass skylight, holding the largest collection of Portuguese literature outside Portugal. It is still a working library, so the hall is silent and you can sit at the reading tables and stay as long as the doors are open. On a rainy weekday in Centro there is nowhere calmer.",
+      "tips": "Free entry on weekdays 10am-5pm, no booking; it is closed at weekends, so plan a lunch-hour visit. The door is on the pedestrian Rua Luís de Camões behind Praça Tiradentes. Speak quietly and skip the flash; the guided tour (Tue 10:30am, Thu 3pm) is the only paid option.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Fri 10am-5pm, closed Sat-Sun",
+      "lat": -22.9054,
+      "lng": -43.182,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Royal Portuguese Cabinet of Reading",
+      "sources": [
+        {
+          "url": "https://www.realgabinete.com.br/Visite-o-RGPL",
+          "label": "Real Gabinete: Visite o RGPL",
+          "kind": "official"
+        },
+        {
+          "url": "https://cafeviagem.com/real-gabinete-portugues-de-leitura-rio/",
+          "label": "Café Viagem: Real Gabinete",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed building on a pedestrian street that is busy in office hours; Centro's streets empty quickly after shops close, so visit within the daytime opening hours it keeps anyway."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed hours Thu-Tue 11am-6pm (closed Wed), a fifth-floor terrace over the bay, and the en.wikipedia article 'Museu de Arte do Rio'. Coordinates for Praça Mauá 5. Ticket prices and free days not in results, so check the site.",
+      "name": "Museu de Arte do Rio (MAR)",
+      "neighborhood": "Centro (Praça Mauá)",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "view",
+        "water",
+        "skyline",
+        "solo",
+        "study",
+        "quiet"
+      ],
+      "blurb": "Two joined buildings on Praça Mauá, a 1910s palace and a former bus station, linked by a wavy concrete roof. The exhibitions on Rio's own history and art are thoughtful and rarely crowded, and the fifth-floor terrace under the roof looks out over Guanabara Bay, the Rio-Niterói bridge and the Museu do Amanhã next door. It is the place to sit indoors in the port district when the Boulevard Olímpico outside is baking or wet.",
+      "tips": "Take the VLT tram to Parada dos Museus; the lift goes straight to the terrace, then work down through the galleries. Closed Wednesdays. Check the site for ticket price and free days; the Museu do Amanhã's plaza outside is free and good for a sit by the water afterwards.",
+      "bestTimes": [
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Thu-Tue 11am-6pm, closed Wed",
+      "lat": -22.8965,
+      "lng": -43.182,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Museu de Arte do Rio",
+      "sources": [
+        {
+          "url": "https://museudeartedorio.org.br/visite/horarios-e-ingresso/",
+          "label": "MAR: horários e ingressos",
+          "kind": "official"
+        },
+        {
+          "url": "https://cultura.prefeitura.rio/espacos-culturais/museus/museu-de-arte-do-rio/",
+          "label": "Prefeitura do Rio: Museu de Arte do Rio",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed museum on a large, lit plaza served by the VLT; the surrounding streets empty out after the museums close, so take the tram rather than walking far after 6pm."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known public rock promontory between Ipanema and Copacabana. Not searched; Wikipedia title 'Arpoador' from knowledge (article covers the neighbourhood and the rock), high confidence but not URL-confirmed. Coordinates for the rock itself.",
+      "name": "Pedra do Arpoador",
+      "neighborhood": "Arpoador / Ipanema",
+      "category": "viewpoint",
+      "vibes": [
+        "sunset",
+        "water",
+        "view",
+        "people-watch",
+        "group",
+        "free",
+        "sunrise",
+        "night"
+      ],
+      "blurb": "The granite headland at the eastern end of Ipanema beach, where the city gathers on the rocks each evening to watch the sun drop behind the Dois Irmãos peaks and, on good nights, applauds when it goes. It is a ritual rather than an attraction: surfers below, fishermen on the outer rocks, and every flat ledge taken by someone with a beer or a book. Mornings are the opposite, empty apart from swimmers and the first surfers.",
+      "tips": "Walk out from the end of Ipanema beach or from Praia do Diabo on the Copacabana side; arrive 45 minutes before sunset for a good ledge. The small Parque Garota de Ipanema behind the rock has benches and shade if the rocks are full. Bring nothing you cannot carry on wet granite.",
+      "bestTimes": [
+        "golden-hour",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -22.9889,
+      "lng": -43.1915,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Arpoador",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Busy and lit from the promenade at sunset; the rocks are wet, uneven and unfenced, and the outer ledges take spray in a swell, so stay off them after dark and wear shoes with grip."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Large Burle Marx-designed public park on reclaimed land. Not searched; Wikipedia title 'Flamengo Park' from knowledge, high confidence but not URL-confirmed. The park is over 1 km long, so coordinates are a point near Flamengo beach and the Marina and marked medium.",
+      "name": "Parque do Flamengo (Aterro)",
+      "neighborhood": "Flamengo / Glória",
+      "category": "park",
+      "vibes": [
+        "green",
+        "water",
+        "walk",
+        "sunrise",
+        "picnic",
+        "group",
+        "free",
+        "view",
+        "skyline"
+      ],
+      "blurb": "A 1.2 million square metre strip of lawns, palms and playing fields along the bay between Centro and Botafogo, laid out by Burle Marx on land reclaimed in the 1960s. Flamengo beach faces Sugarloaf across the water and catches the sunrise, and on Sundays the expressway closes and the whole park becomes a cycling and picnicking commons. On weekdays you can find a bench under the palms with nobody within fifty metres.",
+      "tips": "Cross from Flamengo or Glória metro by the pedestrian underpasses or footbridges; the stretch near the Marina da Glória and the MAM museum has the best bay view, and the beach kiosks sell coconut water. Sunday mornings are the liveliest; weekday mornings the quietest.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -22.934,
+      "lng": -43.17,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Flamengo Park",
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "Very large and open, with long stretches away from any lit street and access by underpass beneath a busy expressway; use it in daylight or early evening on the lit paths by the beach and museum, and cross back before it empties out."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Public park around the former imperial palace (Museu Nacional, being rebuilt after the 2018 fire). Review search confirmed free entry and a gate beside São Cristóvão metro; hours differ between sources (5am-7pm vs 6am-6pm), so treated as approximate. Wikipedia title from knowledge; the search surfaced only the Madeira article 'Quinta da Boa Vista (Madeira)', which implies the Rio park holds the plain title, but this is inference, not a URL hit.",
+      "name": "Quinta da Boa Vista",
+      "neighborhood": "São Cristóvão",
+      "category": "park",
+      "vibes": [
+        "green",
+        "picnic",
+        "walk",
+        "group",
+        "quiet",
+        "free",
+        "water"
+      ],
+      "blurb": "The old imperial park in the Zona Norte, where the palace that became the Museu Nacional stands on a rise above lawns, a lake with a small temple and avenues of huge fig trees. It is a weekend picnic ground for families from the northern neighbourhoods rather than a tourist stop, and on weekdays the lawns and the grotto beside the lake are nearly empty. The palace itself is still being restored after the 2018 fire, so the park is the point.",
+      "tips": "Take the metro to São Cristóvão and walk in through the main gate; the lake and grotto below the palace are the calmest spots, and the zoo (BioParque) next door is a separate paid entry. Bring a mat; vendors sell drinks at the gates. Leave before the gates close at dusk.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 6am-6pm daily (sources vary; check site)",
+      "lat": -22.906,
+      "lng": -43.224,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Quinta da Boa Vista",
+      "sources": [
+        {
+          "url": "https://www.riodejaneiroaqui.com/portugues/quinta.html",
+          "label": "Rio de Janeiro Aqui: Quinta da Boa Vista",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.viajali.com.br/quinta-da-boa-vista/",
+          "label": "Viajali: Quinta da Boa Vista",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced park with a gate that closes at dusk; the palace is a construction site behind hoardings, so keep to the lawns and lake paths, and go in daylight since the park is unlit."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review search on the park's official site confirmed the Vista Chinesa sector is open 8am-5pm daily, not 24h as the first draft said, and that Estrada Dona Castorina is closed to cars 7-9am on weekdays and 7am-7pm on weekends and holidays (bikes and walkers allowed). Coordinates from knowledge, medium confidence. Wikipedia title from knowledge, not URL-confirmed.",
+      "name": "Vista Chinesa",
+      "neighborhood": "Alto da Boa Vista (Tijuca National Park)",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "green",
+        "quiet",
+        "sunrise",
+        "solo",
+        "free",
+        "skyline",
+        "water"
+      ],
+      "blurb": "A 1903 Chinese-style pagoda on the forest road up through Tijuca National Park, looking down over the Lagoa, Ipanema, Sugarloaf and the ocean beyond. It is a favourite of the city's road cyclists, who climb from Jardim Botânico at dawn and sit on the wall to catch their breath as the mist lifts off the lagoon. Outside weekend mornings it is often just you, the birds and the occasional car.",
+      "tips": "Reach it by bike or on foot up Estrada Dona Castorina from Jardim Botânico (about 6 km of climb); there is no bus, and the road is closed to cars 7-9am on weekdays and 7am-7pm on weekends and holidays, so a taxi only works on a weekday outside the morning rush. The Mesa do Imperador viewpoint a little further up is quieter still. Bring water and a layer.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "8am-5pm daily (national park sector)",
+      "lat": -22.9732,
+      "lng": -43.249,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Vista Chinesa",
+      "sources": [
+        {
+          "url": "https://parquenacionaldatijuca.rio/locais/vista-chinesa/",
+          "label": "Parque Nacional da Tijuca: Vista Chinesa (official)",
+          "kind": "official"
+        },
+        {
+          "url": "https://prefeitura.rio/cet-rio/parque-nacional-da-tijuca-e-prefeitura-flexibilizam-o-retorno-de-veiculos-na-estrada-dona-castorina/",
+          "label": "Prefeitura do Rio: vehicle rules on Estrada Dona Castorina",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Isolated forest road with no lighting, patchy phone signal and long gaps between passers-by; the sector closes at 5pm. Go in daylight, ideally on a weekend morning when cyclists are about, and if you came by taxi on a weekday arrange the ride down before you lose signal."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed address Rua Visconde de Pirajá 572 and hours Mon-Sat 9am-10pm, Sun/holidays 10am-9pm. The in-store café is from knowledge (Bazzar café upstairs) and may have changed operator. No English Wikipedia article, set to null.",
+      "name": "Livraria da Travessa (Ipanema)",
+      "neighborhood": "Ipanema",
+      "category": "bookstore",
+      "vibes": [
+        "rain-ok",
+        "cozy",
+        "study",
+        "night",
+        "solo",
+        "people-watch",
+        "quiet"
+      ],
+      "blurb": "Rio's best-loved independent bookshop chain, and the Ipanema branch on Visconde de Pirajá is the one locals treat as a living room: two floors of books, music and a mezzanine café where people read for hours, with evening book launches and readings most weeks. It stays open until 10pm, which makes it one of the few calm indoor places in the Zona Sul after dark that is not a bar.",
+      "tips": "The mezzanine café is the place to settle; go on a weekday evening or a rainy afternoon, since Saturdays are busy. Two blocks from General Osório metro. The Botafogo and Leblon branches are alternatives if this one is hosting an event.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Mon-Sat 9am-10pm, Sun 10am-9pm",
+      "lat": -22.9847,
+      "lng": -43.2063,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.travessa.com.br/wpgNossasLojas.aspx",
+          "label": "Livraria da Travessa: nossas lojas",
+          "kind": "official"
+        },
+        {
+          "url": "https://invexo.com.br/blog/livraria-da-travessa-ipanema/",
+          "label": "Invexo: Livraria da Travessa Ipanema",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed shop on a busy, lit commercial street with the metro two blocks away; open late."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Added at review to replace the guided-tour-only Sítio Burle Marx. Search confirmed a free public park at Rua Gago Coutinho 30, Laranjeiras, with a Riotur page; sources disagree on hours (8am-5pm vs open all hours), so marked as varying. Coordinates from knowledge of the park behind Palácio Laranjeiras, medium confidence. No English Wikipedia title I can vouch for, set to null.",
+      "name": "Parque Guinle",
+      "neighborhood": "Laranjeiras",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "solo",
+        "picnic",
+        "walk",
+        "hidden",
+        "free",
+        "cozy"
+      ],
+      "blurb": "A small landscaped park at the end of a residential street in Laranjeiras, laid out in the 1940s in front of the governor's palace and flanked by three modernist apartment blocks by Lúcio Costa. There is a duck pond, big shade trees, lawns that slope up towards the palace fence and benches that mostly hold neighbours with dogs and newspapers. It is the kind of park a visitor only finds by accident, ten minutes' walk from Largo do Machado metro.",
+      "tips": "Walk up Rua Gago Coutinho from Largo do Machado metro and enter through the arched gate at the top; the benches by the pond are the quietest. Hours vary by source, with some listing 8am-5pm, so treat it as a daytime park. Bring a coffee from Laranjeiras' cafés; there is nothing sold inside.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (some sources 8am-5pm daily); daytime is safe to assume",
+      "lat": -22.9378,
+      "lng": -43.1814,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://riotur.rio/que_fazer/parque-guinle/",
+          "label": "Riotur: Parque Guinle",
+          "kind": "official"
+        },
+        {
+          "url": "https://catracalivre.com.br/gira/parque-guinle-rio/",
+          "label": "Catraca Livre: Parque Guinle",
+          "kind": "press"
+        },
+        {
+          "url": "https://ateondeeupuderir.com/parque-eduardo-guinle/",
+          "label": "Até Onde Eu Puder Ir: Parque Guinle",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated park on a quiet residential cul-de-sac, unlit inside and closed after hours according to most sources; visit in daylight and leave by the Gago Coutinho gate, a lit street that leads straight down to Largo do Machado."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed hours Tue-Sun 6am-10pm, closed Mon, at Rua Soares Caldeira 115. The park is long and narrow along a former power-line corridor, so coordinates are a mid-point and marked medium. English Wikipedia article not confirmed, set to null.",
+      "name": "Parque Madureira",
+      "neighborhood": "Madureira",
+      "category": "park",
+      "vibes": [
+        "green",
+        "walk",
+        "group",
+        "people-watch",
+        "night",
+        "free",
+        "picnic"
+      ],
+      "blurb": "A long linear park opened in 2012 along an old power-line corridor in the Zona Norte, with lawns, a skate park, water features, a Praça do Samba stage and shaded benches, built for the neighbourhoods around Madureira rather than for visitors. It is one of the city's biggest parks and has proper lighting, so it is used from early morning runs until late evening. Weekday afternoons are calm; weekends are family time.",
+      "tips": "Take the SuperVia train to Madureira or Mercadão de Madureira station and walk a few minutes; the section near the Praça do Samba has the most shade and the food stalls. Closed Mondays. Pair it with the Mercadão de Madureira for a completely local afternoon.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Tue-Sun 6am-10pm, closed Mon",
+      "lat": -22.8562,
+      "lng": -43.3408,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://coordenacaogovernamental.prefeitura.rio/category/parque-madureira/",
+          "label": "Prefeitura do Rio: Parque Madureira",
+          "kind": "official"
+        },
+        {
+          "url": "https://viajarcorrendo.com.br/2020/11/parque-madureira-rio-de-janeiro.html",
+          "label": "Viajar Correndo: Parque Madureira",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced, lit and staffed park that closes at 10pm; it is long and narrow, so stay in the busier central sections in the evening and leave by train while services are frequent."
+      },
+      "lowkeyScore": 4
+    }
+  ]
+}

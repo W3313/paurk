@@ -1,0 +1,652 @@
+{
+  "city": "Accra",
+  "country": "Ghana",
+  "slug": "accra",
+  "region": "europe-africa",
+  "cityLat": 5.6037,
+  "cityLng": -0.187,
+  "timezone": "Africa/Accra",
+  "searchesRun": [
+    "Efua Sutherland Children's Park Accra opening hours entrance",
+    "Legon Botanical Gardens Accra entrance fee opening hours",
+    "Library of Africa and the African Diaspora LOATAD Accra visiting hours public",
+    "Nubuke Foundation East Legon opening hours free entry",
+    "Achimota Forest Eco Park Accra open to public entrance fee",
+    "Artists Alliance Gallery Labadi Accra opening hours",
+    "George Padmore Research Library on African Affairs Accra opening hours public",
+    "W. E. B. Du Bois Memorial Centre Accra wikipedia James Town Lighthouse wikipedia",
+    "Legon Botanical Gardens Agbogba Accra location coordinates entrance",
+    "George Padmore Research Library on African Affairs Ring Way Osu Accra location wikipedia",
+    "Cafe Kwae One Airport Square Accra open 2026",
+    "W.E.B. Du Bois Memorial Centre Cantonments Accra 1st Circular Road location map"
+  ],
+  "redditSourcedNotes": "Two stages. RESEARCH STAGE ran eight searches (full budget), all returning results; no reddit threads or according-to-locals posts appeared, so nothing is reddit-sourced. Those searches settled Legon Botanical Gardens hours and fee, Nubuke Foundation hours/address/title, Artists Alliance Gallery hours and title, Achimota Forest title and eco-park status, George Padmore Library title and street, Du Bois Centre title, Jamestown Lighthouse title, and dropped two candidates on evidence (Efua Sutherland Children’s Park opens only for selected programmes; LOATAD is appointment-only). Seven spots (Aburi, Black Star Square, National Museum, Shai Hills, Kokrobite, Alliance Francaise, Cafe Kwae) were written from knowledge with empty sources. SKEPTIC STAGE had four searches and no direct web access: curl and WebFetch to en.wikipedia.org and every source URL were blocked by the network proxy, so no URL in this file has been HTTP-verified by the skeptic; the researcher URLs are kept because five of them (visitghana.com, en.wikipedia Padmore, ghanaremembers, webdbmf.org, duboiscentreghana.com) reappeared verbatim in the skeptic results and the rest follow the same result-list pattern. Skeptic searches found: an en.wikipedia article “Legon Botanical Garden” (title now set), the gardens’ gate at Agbogba Junction on the Haatso-Atomic road; George Padmore Library on Gamel Abdul Nasser Avenue / Ring Way at the Ako Adjei end; Du Bois Centre at 22 First Circular Road near the US Embassy; Cafe Kwae still trading with its own site. Three pins were moved on that evidence plus map knowledge (Legon gardens about 1.5 km north, Padmore about 400 m north-east, Du Bois about 800 m south) and stay medium because Wikipedia coordinates could not be read. Titles held on knowledge only, not URL-confirmed in either stage: Aburi Botanical Gardens, Black Star Square, National Museum of Ghana, Shai Hills Resource Reserve; all four are long-standing articles and are kept. Kokrobite, Alliance Francaise and Cafe Kwae remain null. Hours other than Legon, Nubuke and Artists Alliance are from knowledge and approximate. Safety screen: all 14 are legitimate public places; no note characterises people or leans on a neighbourhood’s reputation, and none needed rewriting; the three cautions (Achimota unlit forest paths, Shai Hills exposed rock and heat, Kokrobite surf and unlit beach) rest on physical conditions. Nothing was dropped at the skeptic stage; Black Star Square and Jamestown Lighthouse are landmarks but are kept as genuine local sitting spots with low lowkey scores.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, fee and hours confirmed by the researcher search (YEN, Visit Ghana, Tripadvisor). Skeptic search confirmed the entrance is at Agbogba Junction on the Haatso-Atomic road (Visit Ghana, Waze, digital address GA-575-2433) and that an en.wikipedia article titled \"Legon Botanical Garden\" (singular) exists, so the title is now set. The original pin (5.6675, -0.183) sat on the north edge of the University of Ghana campus, about 1.5 km south of the gardens, and was moved to the Agbogba side of the Haatso-Atomic road from knowledge of the map; Wikipedia was egress-blocked so the coordinate could not be read off the article. Pin may still be a few hundred metres from the gate, hence medium.",
+      "name": "Legon Botanical Gardens",
+      "neighborhood": "Legon / Haatso",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "water",
+        "quiet",
+        "walk",
+        "picnic",
+        "solo",
+        "group"
+      ],
+      "blurb": "A fifty-hectare stretch of old forestry-department woodland north of the University of Ghana, with a small lake, shaded lawns and paths under teak and mahogany. The canopy walk and kids' playground draw weekend families, but on a weekday afternoon the benches by the water are yours and the birdsong is louder than the traffic on the Haatso road. It is the closest thing central Accra has to a proper botanical garden you can simply sit in.",
+      "tips": "Entry is around GHS 20 at the gate at Agbogba Junction on the Haatso-Atomic road (about five minutes north of the University of Ghana main gate); the canopy walk and canoes cost extra and are optional. Walk past the playground to the far side of the lake for the quietest benches; bring water, there is only a small kiosk. Weekdays before 4pm are the calm window.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "8am-5pm Mon-Fri, 8am-6pm weekends and holidays",
+      "lat": 5.682,
+      "lng": -0.197,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Legon Botanical Garden",
+      "sources": [
+        {
+          "url": "https://yen.com.gh/facts-lifehacks/guides/227206-legon-botanical-garden-background-location-activities-fees-opening-closing-time/",
+          "label": "YEN: Legon Botanical Gardens fees and hours",
+          "kind": "press"
+        },
+        {
+          "url": "https://visitghana.com/legon-botanical-gardens/",
+          "label": "Visit Ghana: Legon Botanical Gardens",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g2146174-d11698434-Reviews-Legon_Botanical_Gardens-Legon_Greater_Accra.html",
+          "label": "Tripadvisor: Legon Botanical Gardens",
+          "kind": "forum"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Legon_Botanical_Garden",
+          "label": "Wikipedia: Legon Botanical Garden",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated, staffed and closed by 5-6pm, so there is no after-dark question; paths are unpaved and muddy after rain, and the lake edge is unfenced."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Written from knowledge, no search spent. Well-known public botanical garden in the Akuapem hills about 30 km north of the city centre (within the 80 km rule). Coordinates place the pin in the garden grounds beside Aburi town from memory; medium confidence. Fee and hours are approximate. Wikipedia title 'Aburi Botanical Gardens' given on high confidence from knowledge, not URL-confirmed.",
+      "name": "Aburi Botanical Gardens",
+      "neighborhood": "Aburi (Akuapem hills, Eastern Region)",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "view",
+        "walk",
+        "picnic",
+        "solo",
+        "group"
+      ],
+      "blurb": "Ghana's oldest botanical garden, laid out in 1890 on a ridge above Accra where the air is several degrees cooler than the coast. Avenues of royal palms, huge old kapok and cedar trees and long lawns run along the hilltop, and Accra residents drive up on Sundays to sit under them with a cooler and forget the city. On weekdays it is almost empty and the mist sits in the trees until mid-morning.",
+      "tips": "Take a trotro or shared taxi from Madina towards Aburi and get down at the garden gate on the main road through town; entry is a small fee at the gate. The palm avenue is the classic bench spot, and the lawns behind the old rest house get the best late light. Bring a layer, it is cool and often damp up here.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "roughly 8am-6pm daily (check locally)",
+      "lat": 5.8506,
+      "lng": -0.1758,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Aburi Botanical Gardens",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Gated garden with staff at the entrance, closed at dusk; the hill road back to Accra is winding and unlit, so plan to leave before dark."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Written from knowledge, no search spent. Unambiguous fixed landmark at the seafront end of Independence Avenue; coordinates high confidence. It is periodically fenced off for state events and rehearsals, hence 'varies'. Wikipedia title 'Black Star Square' given on high confidence from knowledge, not URL-confirmed.",
+      "name": "Black Star Square (Independence Square)",
+      "neighborhood": "Osu Klottey / Ministries seafront",
+      "category": "plaza",
+      "vibes": [
+        "water",
+        "sunset",
+        "night",
+        "view",
+        "people-watch",
+        "walk",
+        "free",
+        "group"
+      ],
+      "blurb": "A vast ceremonial parade ground between the Independence Arch and the sea, empty for 360 days of the year and used by Accra for exactly what it looks made for: evening walks, football, skateboarding, driving lessons and sitting on the concrete stands catching the Atlantic breeze. The sea wall along the southern edge is the best free sunset seat in the centre, with the surf a few metres below and the arch lit up behind you. Go around 5pm and stay until the light goes.",
+      "tips": "Walk in from Independence Avenue past the Arch, or from the Osu Castle side along 28th February Road, and head straight for the sea wall on the far side. It is regularly closed for Independence Day rehearsals, state funerals and events in Feb-Mar and around big holidays, so if the gates are shut, come back another day. No shade at noon, bring water.",
+      "bestTimes": [
+        "golden-hour",
+        "night",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (usually open dawn to late evening, closed for state events)",
+      "lat": 5.549,
+      "lng": -0.1917,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Black Star Square",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "A huge open space with lighting only along the arch and the main road; after dark stay on the lit Independence Avenue side rather than the unlit sea wall, and plan a ride home since there is no transit stop directly on the square."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title 'Jamestown Lighthouse' confirmed by search (en.wikipedia.org/wiki/Jamestown_Lighthouse), along with Tripadvisor and viewGhana pages describing the climb. Coordinates are the lighthouse itself, high confidence. The climb fee and who lets you in are informal (a caretaker), so hours are given as daylight.",
+      "name": "Jamestown Lighthouse",
+      "neighborhood": "Jamestown / Usshertown",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "water",
+        "sunset",
+        "people-watch",
+        "skyline",
+        "walk",
+        "group"
+      ],
+      "blurb": "A red-and-white striped 1930s lighthouse on the bluff above the Jamestown fishing harbour, at the old colonial heart of Accra. For a small tip the caretaker will let you climb the spiral stairs to the gallery, where you look down on hundreds of painted canoes, the surf and the whole coastline to Osu Castle in one direction and Korle Lagoon in the other. Down on the bluff there are low walls to sit on and watch the boats come in, which is what the neighbourhood itself does at the end of the afternoon.",
+      "tips": "Come mid-afternoon, ask at the base of the tower for the caretaker and agree the small climbing fee before you go up; the gallery is narrow and the ladder steep, so wear proper shoes. Pair it with a coffee at one of the cafes along the High Street and a look at the Brazil House next door. Weekday afternoons are far calmer than the Chale Wote festival weekend in August.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "daylight hours (caretaker on site, informal)",
+      "lat": 5.5314,
+      "lng": -0.2114,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Jamestown Lighthouse",
+      "sources": [
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g293797-d6959627-Reviews-James_Town_Lighthouse-Accra_Greater_Accra.html",
+          "label": "Tripadvisor: James Town Lighthouse",
+          "kind": "forum"
+        },
+        {
+          "url": "https://viewghana.com/attractions/james-town-lighthouse/",
+          "label": "viewGhana: Jamestown Lighthouse",
+          "kind": "blog"
+        },
+        {
+          "url": "https://artsandculture.google.com/story/the-jamestown-lighthouse-hacsa-foundation/tgVxDXAVQMCByQ?hl=en",
+          "label": "Google Arts & Culture: The Jamestown Lighthouse",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Steep, narrow stairs and a low gallery railing at the top; climb in daylight only. The bluff edge above the harbour is unfenced in places, so keep back from the drop, and the streets around are unlit once the sun is down."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Written from knowledge, no search spent. Reopened in 2022 after a long renovation; hours not verified this pass, hence 'varies'. Coordinates put the pin on the museum compound on Barnes Road, Adabraka, from memory; medium confidence. Wikipedia title 'National Museum of Ghana' given on high confidence from knowledge, not URL-confirmed.",
+      "name": "National Museum of Ghana",
+      "neighborhood": "Adabraka (Barnes Road)",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "green",
+        "solo",
+        "cozy"
+      ],
+      "blurb": "The country's main museum of ethnography and archaeology, reopened after years of renovation in a modernist 1957 building set in a walled, tree-shaded compound off Barnes Road. Inside it is cool, dim and rarely crowded, with kente, Asante gold weights, carved stools and the chairs of the independence generation; outside, the sculpture garden and its benches are a good place to sit with a notebook between the galleries. It is the obvious rainy-afternoon refuge in central Accra.",
+      "tips": "Entry is a modest ticket at the gate, with a higher rate for non-residents; photography rules vary by gallery, so ask. Do the main hall first, then take your time on the benches in the outdoor sculpture area under the trees. Weekday mornings are quietest; school groups tend to come late morning.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "varies (roughly Tue-Sun 9am-5pm, check before going)",
+      "lat": 5.5597,
+      "lng": -0.2047,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "National Museum of Ghana",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, gated compound with security at the entrance; closes in the late afternoon, and Barnes Road is a busy lit street."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title \"George Padmore Research Library\" confirmed by an en.wikipedia URL in both the researcher and skeptic result lists; the article and a GhanaRemembers piece describe it as a public library on Ring Way (Ring Road East), Osu, run by the Ghana Library Authority, and Waze lists it on Gamel Abdul Nasser Avenue. Those two streets meet just south of the Ako Adjei interchange, next to the Ghana Library Authority head office, so the pin was moved about 400 m north-east to that corner from knowledge; medium confidence, could be a few hundred metres off. Opening hours did not appear in any result, so hours are marked varies.",
+      "name": "George Padmore Research Library on African Affairs",
+      "neighborhood": "Ridge / Osu (Ring Road East at Ako Adjei)",
+      "category": "library",
+      "vibes": [
+        "quiet",
+        "study",
+        "rain-ok",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "A small national research library founded by Kwame Nkrumah in 1961 and named for the Trinidadian pan-Africanist, holding one of the best collections of Ghanaian newspapers, independence-era pamphlets and books by and about Africans anywhere. It is a working library rather than a monument: a hushed reading room with wooden tables, ceiling fans and a handful of researchers, where nobody minds if you sit for an afternoon with your own book. The walled compound off Ring Road East cuts most of the traffic noise.",
+      "tips": "The compound is at the Ako Adjei interchange end of Ring Road East, beside the Ghana Library Authority head office, with the entrance off Gamel Abdul Nasser Avenue. Sign in at the front desk as a visitor; a passport or ID is usually enough, and using the reading room is free. Expect government office hours, roughly weekday mornings and afternoons, and confirm by phone before making a special trip.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "varies (weekday office hours, check with the library)",
+      "lat": 5.57,
+      "lng": -0.1892,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "George Padmore Research Library",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/George_Padmore_Research_Library",
+          "label": "Wikipedia: George Padmore Research Library",
+          "kind": "other"
+        },
+        {
+          "url": "https://ghanaremembers.com/stories/places/the-george-padmore-library-a-pan-africanist-legacy.html",
+          "label": "GhanaRemembers: The George Padmore Library",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.waze.com/live-map/directions/gh/greater-accra-region/accra/george-padmore-research-library-on-african-affairs?to=place.ChIJWYwhvZyQ3w8RuL1oqhqgrFg",
+          "label": "Waze: George Padmore Research Library, Gamel Abdul Nasser Ave",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building open in daytime only; the entrance is on a busy dual carriageway, so cross at the interchange or a marked point."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title \"W. E. B. Du Bois Memorial Centre for Pan African Culture\" confirmed by an en.wikipedia URL in both stages. Skeptic search confirmed the address as No. 22 First Circular Road, Cantonments, a few metres from the US Embassy and close to Ghana International School (duboiscentreghana.com, webdbmf.org). The original pin (5.5893, -0.1742) was about 800 m too far north, towards Labone; it was moved to the First Circular Road / embassy block from knowledge of the map, medium confidence. Hours and fee are from knowledge and approximate; the centre publishes a Plan Your Visit page.",
+      "name": "W. E. B. Du Bois Memorial Centre for Pan-African Culture",
+      "neighborhood": "Cantonments",
+      "category": "museum",
+      "vibes": [
+        "quiet",
+        "green",
+        "study",
+        "solo",
+        "cozy",
+        "hidden"
+      ],
+      "blurb": "The bungalow where W. E. B. Du Bois spent his last two years, now a small memorial centre with his library, personal effects, a mausoleum for him and his wife, and a shaded garden compound in leafy Cantonments. Most days the only sounds are the fans in the library and the guard's radio; you can pay the small entry fee, take the short tour and then sit on the garden benches under the trees for as long as you like. It is one of the calmest paid-for hours in the city.",
+      "tips": "The gate is at No. 22 First Circular Road, Cantonments, a short walk from the US Embassy; entry is a small fee at the gatehouse with an optional guided walk-through of the house. Ask to use the library reading room, which is quiet and cool, then settle on the garden benches near the mausoleum. It sometimes hosts lectures in the open-air courtyard, so check the programme if you want it silent.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly Mon-Sat 9am-5pm (check site)",
+      "lat": 5.5822,
+      "lng": -0.1775,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "W. E. B. Du Bois Memorial Centre for Pan African Culture",
+      "sources": [
+        {
+          "url": "https://webdbmf.org/",
+          "label": "W.E.B. Du Bois Memorial Foundation",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.duboiscentreghana.com/about",
+          "label": "Du Bois Centre Ghana: Explore the Centre",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g293797-d318022-Reviews-W_E_B_DuBois_Center-Accra_Greater_Accra.html",
+          "label": "Tripadvisor: W.E.B. DuBois Center",
+          "kind": "forum"
+        },
+        {
+          "url": "https://www.duboiscentreghana.com/visit",
+          "label": "Du Bois Centre Ghana: Plan Your Visit",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/W._E._B._Du_Bois_Memorial_Centre_for_Pan_African_Culture",
+          "label": "Wikipedia: W. E. B. Du Bois Memorial Centre for Pan African Culture",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Walled, staffed compound on a quiet residential street, closed by late afternoon; fine solo."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Hours (Mon-Sat 9am-5pm, Sun noon-5pm) and location (Omanye House, Accra-Tema Beach Road, Labadi) confirmed by search; Wikipedia title 'Artists Alliance Gallery (Omanye House)' confirmed as an en.wikipedia URL in results. Coordinates place the pin on the beach road in La from memory of the building's position west of the Labadi hotels; medium confidence.",
+      "name": "Artists Alliance Gallery (Omanye House)",
+      "neighborhood": "La / Labadi (beach road)",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "water",
+        "view",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "A three-storey gallery on the beach road in La, founded by painter Ablade Glover, stuffed floor to ceiling with Ghanaian paintings, fantasy coffins, kente, brass and carved doors. Nothing is behind rope, there is no entrance charge and no pressure to buy, and the upper floors have windows over the ocean where you can stand for a long time in the quiet. It is the sort of place Accra residents take visiting friends when they want art without a museum's formality.",
+      "tips": "Take a trotro or ride along the Accra-Tema beach road and get down at Omanye House, a big blue-tiled building on the sea side just west of the Labadi hotels. Start at the top floor and work down; staff are happy for you to linger. The Sunday noon opening is the quietest slot.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Sat 9am-5pm, Sun 12pm-5pm",
+      "lat": 5.5625,
+      "lng": -0.155,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Artists Alliance Gallery (Omanye House)",
+      "sources": [
+        {
+          "url": "https://www.citylifeaccra.com/art-culture-accra-listings/artists-alliance-gallery-2",
+          "label": "City Life Accra: Artists Alliance Gallery",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g293797-d7011467-Reviews-Artists_Alliance_Gallery-Accra_Greater_Accra.html",
+          "label": "Tripadvisor: Artists Alliance Gallery",
+          "kind": "forum"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Artists_Alliance_Gallery_(Omanye_House)",
+          "label": "Wikipedia: Artists Alliance Gallery (Omanye House)",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed building, daytime only; the beach road outside is fast-moving with no proper crossing, so take care getting to and from a vehicle."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Hours (Tue-Sat 10am-5pm), free entry and address (7 Lome Close, East Legon) confirmed by search from the foundation's own site; Wikipedia title 'Nubuke Foundation' confirmed as an en.wikipedia URL in results. Coordinates are my best placement of Lome Close in central East Legon and may be off by several hundred metres; medium confidence, please re-check against the address.",
+      "name": "Nubuke Foundation",
+      "neighborhood": "East Legon",
+      "category": "museum",
+      "vibes": [
+        "quiet",
+        "green",
+        "rain-ok",
+        "cozy",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "A contemporary art foundation in a residential corner of East Legon, with a purpose-built gallery, a library of Ghanaian art books, a small cafe and a garden with sculpture and shade. Entry is free, shows change every few months, and on a weekday there may be nobody else in the galleries. Locals use the garden and cafe tables as a place to work or read after a look at the exhibition.",
+      "tips": "Find 7 Lome Close off the main East Legon roads (ride-hailing works well, the street is small). Check what exhibition is on before going; the garden and cafe are the sitting spots. Closed Sundays and Mondays.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Tue-Sat 10am-5pm",
+      "lat": 5.6366,
+      "lng": -0.1532,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Nubuke Foundation",
+      "sources": [
+        {
+          "url": "https://nubukefoundation.com/open-hours-1",
+          "label": "Nubuke Foundation: Open Hours",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.timeout.com/accra/museums/nubuke-foundation",
+          "label": "Time Out Accra: Nubuke Foundation",
+          "kind": "press"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Nubuke_Foundation",
+          "label": "Wikipedia: Nubuke Foundation",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, gated venue on a residential close, daytime only; fine solo."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title 'Achimota Forest' confirmed by search; results also confirmed the 2016 lease to develop an 'Accra Eco Park', the Accra Zoo inside, weekday opening around 8/9am-5pm, and forest entry described as free with fees for the zoo. Coordinates are my placement near the zoo/eco-park entrance on the eastern side of the reserve and may be off by several hundred metres; medium confidence. Parts of the reserve have been reallocated in recent years, so the accessible area may be smaller than the whole forest shown on maps.",
+      "name": "Achimota Forest (Accra Eco Park)",
+      "neighborhood": "Achimota",
+      "category": "trail",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "solo",
+        "picnic",
+        "hidden"
+      ],
+      "blurb": "The last real forest inside the city, a reserve of tall trees and red-earth paths behind Achimota School that also holds the small Accra Zoo. The eco-park section by the zoo has cleared picnic areas and marked walking trails where the traffic on the Nsawam road disappears within a couple of hundred metres and you hear only hornbills and the wind in the leaves. Weekday mornings you can walk for an hour and meet only a groundskeeper.",
+      "tips": "Enter at the zoo/eco-park gate on the Achimota side and pay the small zoo fee if you want it; ask the guides which trails are open that day, since sections are periodically closed. Bring water and insect repellent, wear closed shoes, and stay on the marked trails near the zoo rather than heading deep into the reserve. Closed or limited at weekends, so go on a weekday.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 8/9am-5pm weekdays (check locally)",
+      "lat": 5.6175,
+      "lng": -0.229,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Achimota Forest",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Achimota_Forest",
+          "label": "Wikipedia: Achimota Forest",
+          "kind": "other"
+        },
+        {
+          "url": "https://caradiseghana.com/top-destinations/accra-zoo-achimota-forest",
+          "label": "Caradise Ghana: Accra Zoo and Achimota Forest",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "A large forest with unlit, unsignposted paths beyond the eco-park core and few exits back to the road; go in daylight, stay on the marked trails near the zoo, ideally with a companion, and leave well before the 5pm close."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Written from knowledge, no search spent. Well-known wildlife reserve about 45 km north-east of the city centre on the Accra-Akosombo road (within the 80 km rule). Coordinates place the pin near the Doryumu entrance and reception from memory; medium confidence. Fees, guide requirement and hours are approximate. Wikipedia title 'Shai Hills Resource Reserve' given on high confidence from knowledge, not URL-confirmed.",
+      "name": "Shai Hills Resource Reserve",
+      "neighborhood": "Doryumu / Shai Hills (Accra-Akosombo road)",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "green",
+        "quiet",
+        "walk",
+        "sunrise",
+        "solo",
+        "group"
+      ],
+      "blurb": "A savanna reserve of grassland and granite inselbergs an hour north-east of Accra, where you walk with a ranger past baboons and antelope up to the top of a bald rock hill and look out over the whole Accra plain to the sea. The caves in the hills were once home to the Shai people, and from the summit at first light the city is a haze on the horizon and the only sound is the wind. It is the day-trip Accra residents make when they need a horizon.",
+      "tips": "Take a trotro towards Akosombo or Dodowa and get down at the reserve gate at Doryumu; pay the entrance and mandatory guide fee at reception, and ask for the short hill climb with the cave and viewpoint. Go as early as the gate opens for cool air and animals, wear shoes with grip and carry at least two litres of water. Weekdays you may be the only party.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "roughly 6am-5pm daily (check locally)",
+      "lat": 5.9083,
+      "lng": 0.05,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Shai Hills Resource Reserve",
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "Steep, exposed rock scrambles with loose surfaces and no shade, in real heat by mid-morning; go early, always with the ranger, carry plenty of water, and do not feed or approach the baboons. Leave time to be back at the gate and on a vehicle before dark."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Written from knowledge, no search spent. Long-standing fishing village beach about 25 km west of the city centre (within the 80 km rule) with several beach lodges and bars; the beach itself is public and free. Coordinates place the pin on the beach in front of the village from memory; medium confidence. No exact English Wikipedia article confirmed for the beach itself, so title is null.",
+      "name": "Kokrobite Beach",
+      "neighborhood": "Kokrobite (Ga South)",
+      "category": "beach",
+      "vibes": [
+        "water",
+        "sunset",
+        "sunrise",
+        "quiet",
+        "walk",
+        "free",
+        "group",
+        "picnic"
+      ],
+      "blurb": "A long curve of palm-backed sand west of the city where fishing canoes are hauled up in the morning and the surf rolls in all day. It fills with day-trippers and drummers on Sunday afternoons, but on a weekday the stretch beyond the lodges is nearly empty and you can sit against a canoe and watch the sea for as long as you like. It is the Accra beach that residents choose when they want quiet rather than a resort.",
+      "tips": "Take a trotro from Kaneshie to Kokrobite (about an hour) or a ride-hail; walk west along the sand past the lodges for the quiet stretch. The lodges will sell you a drink and let you use a chair if you buy something, but the beach itself is free. Watch the fishermen bring the boats in around 7-9am if you come early.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 5.4917,
+      "lng": -0.3667,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "Strong Atlantic surf and rip currents with no lifeguards, so swim only where locals do and never alone; the beach is unlit after dark and the road back to Accra is long, so plan to leave by sunset or stay at a lodge."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Written from knowledge, no search spent. Long-established French cultural centre on Liberation Link in the Airport Residential Area with a garden, open-air stage, library and cafe-bar open to the public. Coordinates place the pin on the compound from memory and may be off by a few hundred metres; medium confidence. Hours vary with the programme, hence 'varies'. No English Wikipedia article for the Accra branch, so title is null.",
+      "name": "Alliance Francaise d'Accra",
+      "neighborhood": "Airport Residential Area",
+      "category": "other",
+      "vibes": [
+        "green",
+        "cozy",
+        "study",
+        "night",
+        "quiet",
+        "solo",
+        "group"
+      ],
+      "blurb": "A cultural centre in a garden compound near the airport, with a shaded courtyard cafe, a small library and media room, and an open-air stage that hosts concerts and film nights. In the daytime the garden tables are one of the calmest places in the area to read or work, and the library is open to anyone who signs in; in the evenings it turns into an easygoing spot for a drink under the trees before a show. It is where a lot of Accra goes for a low-key cultural evening.",
+      "tips": "Enter from Liberation Link, a short road off Liberation Road opposite the airport; sit in the courtyard garden or ask at reception to use the library. Check the programme for concerts and film nights, which are mostly free or cheap; the evenings before big shows are busiest, so go on a quiet night for a calm drink.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (check site; garden and cafe most days, events evenings)",
+      "lat": 5.6068,
+      "lng": -0.1806,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Gated, staffed compound with security at the entrance and lighting in the garden; Liberation Road outside has fast traffic and limited crossings, so use a taxi or ride-hail at night."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Skeptic search confirmed it is still trading at the ground floor of One Airport Square, Airport City (own site lovecafekwae.com, Facebook, Tripadvisor, City Life Accra listings). Hours still approximate. Pin is on the One Airport Square building from knowledge; an Apple Maps result placed it about 600 m south-west (5.6009, -0.1772), which looks like a district-level geocode, so the building pin is kept at medium confidence. Title null: no English Wikipedia article.",
+      "name": "Cafe Kwae (One Airport Square)",
+      "neighborhood": "Airport City",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "study",
+        "solo",
+        "people-watch",
+        "quiet"
+      ],
+      "blurb": "A locally owned specialty coffee house on the ground floor of the One Airport Square office block, roasting Ghanaian and other African beans and serving them to a room of laptops and quiet conversation. It is where Airport City's office workers hide out with a flat white and where students and freelancers settle in for hours with the air-conditioning on. On a hot or rainy afternoon it is a reliable, unhurried place to sit indoors.",
+      "tips": "Walk into One Airport Square from the Airport City side, just off Liberation Road; the cafe is on the ground floor. Weekday afternoons after the lunch rush are the calm time, and the counter staff are used to people staying a long time over one order. Card and mobile money both work.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly 7am-9pm daily (check site)",
+      "lat": 5.6052,
+      "lng": -0.1745,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.lovecafekwae.com/",
+          "label": "Cafe Kwae official site",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g293797-d10118884-Reviews-Cafe_Kwae-Accra_Greater_Accra.html",
+          "label": "Tripadvisor: Cafe Kwae",
+          "kind": "forum"
+        },
+        {
+          "url": "https://www.citylifeaccra.com/restaurant-accra-listings/cafe-kwae",
+          "label": "City Life Accra: Cafe Kwae",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Inside a staffed, air-conditioned office building with security at the doors; busy lit district with taxis at the door."
+      },
+      "lowkeyScore": 3
+    }
+  ]
+}

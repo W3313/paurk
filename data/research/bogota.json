@@ -1,0 +1,644 @@
+{
+  "city": "Bogotá",
+  "country": "Colombia",
+  "slug": "bogota",
+  "region": "americas",
+  "cityLat": 4.711,
+  "cityLng": -74.0721,
+  "timezone": "America/Bogota",
+  "searchesRun": [
+    "Quebrada La Vieja sendero Bogotá horario ingreso",
+    "Humedal Córdoba Bogotá wikipedia",
+    "Biblioteca El Tintal Bogotá wikipedia library",
+    "Centro Cultural Gabriel García Márquez Bogotá horario librería FCE",
+    "Casa Tomada librería café Bogotá Palermo dirección horario",
+    "Jardín Botánico de Bogotá horario entrada 2026",
+    "Virgilio Barco Library Bogotá wikipedia",
+    "Parque Nacional Enrique Olaya Herrera Bogotá wikipedia",
+    "Quinta de Bolívar Bogotá horario entrada 2026 domingo gratis",
+    "Biblioteca Luis Ángel Arango horario de atención 2026",
+    "Paloquemao market Bogotá wikipedia",
+    "\"Bogotá Botanical Garden\" José Celestino Mutis wikipedia"
+  ],
+  "redditSourcedNotes": "Two stages, twelve searches in all, none of them reddit. RESEARCH STAGE (8 searches): all 14 spots drafted from prior knowledge, then searches confirmed Quebrada La Vieja as a public reservation-only trail (bogota.gov.co: Tue-Fri 6:30-11am, weekends 6:30am-12pm, book at caminos.eaab.gov.co, entrance Av Circunvalar con Calle 71); the Wikipedia titles 'Córdoba (wetland)', 'Tintal library', 'Virgilio Barco Library' and 'National Park (Bogotá)'; Centro Cultural GGM address and bookshop hours (FCE site); Casa Tomada address, hours and founding year (own site, Tripadvisor); Jardín Botánico hours and 2026 prices (bogota.gov.co, jbb.gov.co). REVIEW STAGE (4 searches): confirmed en.wikipedia.org URLs for 'Bogotá Botanical Garden', 'Luis Ángel Arango Library' and 'Quinta de Bolívar'; corrected BLAA hours to Mon-Sat 8am-7pm, Sun 9am-4pm (banrepcultural.org) and Quinta de Bolívar to Tue-Sun 9am-5pm with free Sundays and Wednesday afternoons (quintadebolivar.gov.co, El Tiempo); found NO English Wikipedia article for Paloquemao, so that title is now null and two travel-guide URLs from the result replace the empty array. NOT VERIFIED AT EITHER STAGE: every coordinate. The review stage tried to check them against OpenStreetMap and to HEAD-request every source URL, but the network proxy blocked direct requests to wikipedia.org, nominatim and every source domain, so coordinates rest on knowledge of street addresses (high where the address is confirmed and the site is a single building, medium for Quebrada La Vieja's entrance, Virgilio Barco, El Tintal, Casa Tomada, Humedal Córdoba's centre and Paloquemao) and the researcher's URLs were kept because they match the search results it quoted, not because they were opened. Also from knowledge only: both BibloRed libraries' hours, Humedal Córdoba gate hours, Usaquén Sunday market hours, and the El Virrey weekend market (softened to 'sometimes'). Review edits: Casa Tomada's safety note claimed 7pm closing was 'before dark', which is false at 4°N where the sun sets around 6pm all year; rewritten as a lighting note. No safety note at either stage characterises people or leans on a neighbourhood's reputation; cautions are limited to physical conditions (unlit steep forest slopes in Parque Nacional, unlit unstaffed wetland paths by water, a steep muddy altitude trail). All 14 spots are public: two modestly ticketed (Botanical Garden, Quinta de Bolívar, the latter free on Sundays), none derelict, industrial, rail or private.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, hours and ticket prices confirmed by search (bogota.gov.co and jbb.gov.co, 2026). Wikipedia title confirmed at review: en.wikipedia.org/wiki/Bogotá_Botanical_Garden appeared in a search result. Coordinates are the Calle 63 main gate area from knowledge, not map-checked.",
+      "name": "Jardín Botánico José Celestino Mutis",
+      "neighborhood": "Engativá / Salitre (Calle 63)",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "water",
+        "solo",
+        "walk",
+        "rain-ok",
+        "picnic"
+      ],
+      "blurb": "The city's botanical garden, twenty hectares of Andean forest, páramo plantings, ponds, a rose garden and the glasshouse Tropicario, all at 2,600 metres. Weekday mornings it is almost empty apart from gardeners and the odd birdwatcher, and the benches around the lakes and under the wax palms are where people come to read for an hour. The small entry fee keeps it calmer than the free parks nearby.",
+      "tips": "Buy a ticket at the gate on Calle 63 (no online booking needed); go on a weekday morning and head past the Tropicario to the ponds and the páramo section for the quietest benches. Closed Mondays. Bring a jacket, it is cool under the trees even at noon.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "Tue-Fri 8am-5pm, Sat-Sun 9am-5pm, closed Mon",
+      "lat": 4.6686,
+      "lng": -74.1003,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Bogotá Botanical Garden",
+      "sources": [
+        {
+          "url": "https://bogota.gov.co/mi-ciudad/ambiente/horarios-y-precios-de-taquilla-del-jardin-botanico-de-bogota-fotos",
+          "label": "Bogota.gov.co: hours and ticket prices",
+          "kind": "official"
+        },
+        {
+          "url": "https://jbb.gov.co/visitanos/",
+          "label": "Jardín Botánico de Bogotá: Visítanos",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Bogot%C3%A1_Botanical_Garden",
+          "label": "Wikipedia: Bogotá Botanical Garden",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated, ticketed and staffed; closes at 5pm so there is no after-dark question. Paths can be muddy after rain."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title confirmed: en.wikipedia.org/wiki/Virgilio_Barco_Library appeared in results. Hours from knowledge (BibloRed pattern) and marked check site. Coordinates from knowledge of the Av Carrera 60 site, medium.",
+      "name": "Biblioteca Pública Virgilio Barco",
+      "neighborhood": "Teusaquillo / Parque Simón Bolívar",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "water",
+        "view",
+        "green",
+        "free",
+        "solo"
+      ],
+      "blurb": "Rogelio Salmona's circular brick library on the edge of Parque Simón Bolívar, wrapped in reflecting pools and ramps that climb to a roof terrace looking east at the mountains. Inside, the reading rooms are silent and free to anyone; outside, the brick embankments and pools are a favourite spot to sit with a book and watch the light change on the cerros. It is one of the few buildings in the city that feels designed for lingering.",
+      "tips": "Bring ID to register for a seat in the reading rooms; the ramps and outdoor terraces are open whenever the library is. Combine with a walk round the lake in Simón Bolívar park next door. Closed Mondays in the BibloRed pattern, so check the site.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "varies (check site; typically Tue-Sat 8am-8pm, Sun 9:30am-5pm, closed Mon)",
+      "lat": 4.6562,
+      "lng": -74.0917,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Virgilio Barco Library",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Virgilio_Barco_Library",
+          "label": "Wikipedia: Virgilio Barco Library",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.archdaily.com/1000228/architecture-classics-virgilio-barco-library-rogelio-salmona",
+          "label": "ArchDaily: Virgilio Barco Library",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building with security at the door; the surrounding park is large and unlit, so leave with the library rather than lingering outside after dark."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known linear park along the Calle 88 canal, from knowledge only (no search budget spent at either stage). No English Wikipedia article known, so null. Coordinates are the central stretch near Carrera 15 from knowledge, not map-checked; the weekend market mention is unverified and softened at review.",
+      "name": "Parque El Virrey",
+      "neighborhood": "Chicó / El Retiro",
+      "category": "park",
+      "vibes": [
+        "green",
+        "walk",
+        "people-watch",
+        "quiet",
+        "free",
+        "solo",
+        "picnic"
+      ],
+      "blurb": "A long, narrow park following a canal along Calle 88 from Carrera 7 down to the Autopista, lined with eucalyptus and willows and a jogging path. It is where the north of the city walks its dogs, runs before work and reads on the grass at lunchtime, and there is usually a free bench on the canal wall. Weekend mornings sometimes bring a small produce market to the eastern end.",
+      "tips": "The stretch between Carrera 11 and Carrera 15 is the greenest and has the most benches; the western end nearer the Autopista is noisier. Cafés on the streets either side sell coffee to take in. Best before 10am or in the late afternoon light.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 4.6712,
+      "lng": -74.0545,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit path, flanked by residential streets and busy with runners early and late; keep to the path by the road rather than the canal bank after dark."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, public access, entrance location and hours confirmed by search (bogota.gov.co): reservation via the Caminos de los Cerros Orientales app or caminos.eaab.gov.co; Tue-Fri 6:30-11am, weekends and holidays 6:30am-12pm; 1.3 km route; no pets. Coordinates placed at the Circunvalar / Calle 71 entrance from knowledge, medium.",
+      "name": "Sendero Quebrada La Vieja",
+      "neighborhood": "Chapinero Alto (Cerros Orientales)",
+      "category": "trail",
+      "vibes": [
+        "green",
+        "quiet",
+        "sunrise",
+        "water",
+        "view",
+        "walk",
+        "free",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "A stream valley trail into the eastern hills, managed by the water utility and open only in the morning to a limited number of walkers who book a free slot. The 1.3 km route climbs through cloud forest beside the quebrada, and the clearings near the top look back over the whole city with the sound of water instead of traffic. Locals treat it as their pre-work meditation; by noon the gate is shut and the forest is left alone.",
+      "tips": "Book a free slot in the Caminos de los Cerros Orientales app or at caminos.eaab.gov.co and bring the ID you registered with. Enter at Avenida Circunvalar with Calle 71 (walk up from Calle 72 / Carrera 7). Wear proper shoes and a rain layer; no pets and no picking plants.",
+      "bestTimes": [
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Tue-Fri 6:30am-11am, Sat-Sun and holidays 6:30am-12pm, reservation required",
+      "lat": 4.6545,
+      "lng": -74.0475,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://bogota.gov.co/mi-ciudad/habitat/nuevos-horarios-de-ingreso-los-senderos-de-la-quebrada-la-vieja",
+          "label": "Bogota.gov.co: new entry hours for Quebrada La Vieja",
+          "kind": "official"
+        },
+        {
+          "url": "https://bogota.gov.co/mi-ciudad/ambiente/que-debes-hacer-para-ir-al-sendero-de-la-quebrada-la-vieja",
+          "label": "Bogota.gov.co: how to visit the trail",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Steep, muddy, unlit forest path at altitude; staffed gate and morning-only opening. Go within the booked hours, wear grip shoes, and take it slowly if you are new to 2,700 m."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Address (Calle 11 No 4-14) and current hours confirmed at review by search (banrepcultural.org: Mon-Sat 8am-7pm, Sun 9am-4pm; the site warns hours change without notice). Wikipedia title confirmed: en.wikipedia.org/wiki/Luis_Ángel_Arango_Library appeared in results. Coordinates from the confirmed address, high.",
+      "name": "Biblioteca Luis Ángel Arango",
+      "neighborhood": "La Candelaria",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "cozy",
+        "free",
+        "solo"
+      ],
+      "blurb": "The central bank's vast public library in the old town, with reading rooms on several floors, a music hall, exhibition galleries and an inner garden courtyard. It is free, warm and silent, and on a rainy Candelaria afternoon it is where students, pensioners and anyone with a laptop end up. The upper reading rooms have windows onto the tiled roofs and the mountains.",
+      "tips": "Enter on Calle 11 and register with ID at the desk for a reading-room pass; the top-floor rooms are the quietest. The cafeteria and the adjoining Botero and Casa de Moneda museums (also free) are through the same complex if you want a change of scene.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Sat 8am-7pm, Sun 9am-4pm (check site)",
+      "lat": 4.5968,
+      "lng": -74.0728,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Luis Ángel Arango Library",
+      "sources": [
+        {
+          "url": "https://www.banrepcultural.org/bogota/biblioteca-luis-angel-arango",
+          "label": "Banrepcultural: Biblioteca Luis Ángel Arango",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Luis_%C3%81ngel_Arango_Library",
+          "label": "Wikipedia: Luis Ángel Arango Library",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed building with bag checks, closing at 7pm (4pm Sundays); the surrounding pedestrian streets are lit but quieten quickly after shops close, so plan your route to transit before dusk."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, address (Calle 11 No 5-60) and bookshop hours confirmed by search (FCE site). English Wikipedia article not confirmed, so null. Coordinates from the confirmed address, high.",
+      "name": "Centro Cultural Gabriel García Márquez",
+      "neighborhood": "La Candelaria",
+      "category": "bookstore",
+      "vibes": [
+        "rain-ok",
+        "cozy",
+        "quiet",
+        "view",
+        "solo",
+        "study",
+        "hidden"
+      ],
+      "blurb": "Rogelio Salmona's last building: a brick cultural centre with a huge Fondo de Cultura Económica bookshop, a café and open terraces that spiral up to look over the Candelaria roofs to Monserrate. The bookshop lets you browse for hours, and the outdoor patios are a free, quiet place to sit above the street. Most visitors are locals buying books or students between classes.",
+      "tips": "Enter from Calle 11 opposite the Luis Ángel Arango Library; take the ramps up to the top terrace for the view, then the bookshop café for a tinto. Bookshop Mon-Sat 9am-7pm, Sun 10:30am-5pm; the terraces follow roughly the same hours.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Sat 9am-7pm, Sun 10:30am-5pm",
+      "lat": 4.5975,
+      "lng": -74.0745,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.fondodeculturaeconomica.com/Internacional/filial/1002",
+          "label": "FCE: Centro Cultural Gabriel García Márquez",
+          "kind": "official"
+        },
+        {
+          "url": "https://fce.com.co/historia-centro-cultura-ggm/",
+          "label": "FCE Colombia: history of the centre",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed building open into the evening; terraces have low parapets, so mind children near the edges."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Hours and free-Sunday policy confirmed at review by search (quintadebolivar.gov.co, El Tiempo, Pulzo: Tue-Sun 9am-5pm, closed Mondays including holidays, free entry all day Sunday and Wednesdays from 2pm). Wikipedia title confirmed: en.wikipedia.org/wiki/Quinta_de_Bolívar appeared in results. Coordinates from knowledge of the Calle 21 entrance by the Monserrate station, not map-checked.",
+      "name": "Quinta de Bolívar",
+      "neighborhood": "La Candelaria (foot of Monserrate)",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "cozy",
+        "solo",
+        "walk",
+        "hidden"
+      ],
+      "blurb": "The colonial country house Bolívar was given in 1820, now a small museum whose real draw is the garden: terraced lawns, old trees, a stream and stone benches under the cliffs of Monserrate. The gardens are big enough to lose the other visitors, and the sound is birds and running water rather than the city below. Most people walk straight past on their way to the Monserrate funicular.",
+      "tips": "Entrance on Calle 21 by the Monserrate base station; the ticket is small and entry is free all day Sunday and on Wednesdays from 2pm. Sit in the lower garden by the stream for the quietest corner. Weekday mornings are near-empty.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "Tue-Sun 9am-5pm, closed Mon",
+      "lat": 4.6017,
+      "lng": -74.0668,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Quinta de Bolívar",
+      "sources": [
+        {
+          "url": "https://www.quintadebolivar.gov.co/",
+          "label": "Casa Museo Quinta de Bolívar (official)",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.eltiempo.com/bogota/como-ingresar-a-la-quinta-de-bolivar-de-bogota-652802",
+          "label": "El Tiempo: how to visit the Quinta de Bolívar",
+          "kind": "press"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Quinta_de_Bol%C3%ADvar",
+          "label": "Wikipedia: Quinta de Bolívar",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Walled, ticketed and staffed, and closed by late afternoon. The approach from Calle 19 / Avenida Jiménez is busiest and best lit."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known linear park along Carrera 24 in La Soledad; from knowledge only (no search budget spent). No English Wikipedia article known, so null. Coordinates are the middle of the park near Calle 42.",
+      "name": "Park Way",
+      "neighborhood": "Teusaquillo / La Soledad",
+      "category": "park",
+      "vibes": [
+        "green",
+        "walk",
+        "cozy",
+        "people-watch",
+        "night",
+        "free",
+        "solo",
+        "group"
+      ],
+      "blurb": "A tree-lined boulevard park running down the middle of Carrera 24 through 1940s English-style houses, with benches under old urapanes and small cafés, bakeries and a theatre on both sides. It is the city's literary neighbourhood and the park is used the way a village green would be: people read, walk dogs and talk on the benches from morning to late evening. Nothing to see, which is the point.",
+      "tips": "Start at Calle 39 and walk north to Calle 45; the benches mid-way near Calle 42 are shaded and quiet. Pick up a coffee from one of the cafés facing the park. Sundays are livelier when the street closes for the ciclovía nearby.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 4.6335,
+      "lng": -74.0745,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit, residential and overlooked by houses and cafés that stay open into the evening; the road on each side carries slow local traffic only."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, address (Transversal 19 Bis 45D-23, Palermo), hours (Mon-Sat 10am-7pm) and founding year (2008) confirmed by search (libreriacasatomada.com, Tripadvisor). Coordinates estimated from the address, medium.",
+      "name": "Casa Tomada Libros y Café",
+      "neighborhood": "Palermo / Teusaquillo",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "quiet",
+        "study",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "An independent bookshop and café in a converted house on a quiet Palermo side street, run since 2008 with a hand-picked stock of fiction, poetry and Latin American publishers. There are a few tables, good coffee and no pressure to leave; readings and small events happen in the evenings. It is the kind of place locals send each other to rather than tourists.",
+      "tips": "Find it on Transversal 19 Bis just off Calle 45D, a ten-minute walk from Park Way. Mon-Sat 10am-7pm, closed Sundays. Check their Instagram for evening readings if you want company, or go mid-afternoon on a weekday for an empty table.",
+      "bestTimes": [
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Mon-Sat 10am-7pm, closed Sun",
+      "lat": 4.634,
+      "lng": -74.069,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.libreriacasatomada.com/quienes-somos",
+          "label": "Casa Tomada: about us",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g294074-d10404789-Reviews-Casa_Tomada_Libros_y_Cafe-Bogota.html",
+          "label": "Tripadvisor: Casa Tomada Libros y Cafe",
+          "kind": "forum"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed shop on a residential side street; it closes at 7pm, about an hour after Bogotá's year-round 6pm sunset, so the ten-minute walk back to the lit shops and buses on Calle 45 is in the dark on weekdays."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Colonial plaza (Parque de Usaquén) at Carrera 6 with Calle 119; from knowledge only (no search budget spent). Only the district article Usaquén exists on English Wikipedia, so null. Coordinates high.",
+      "name": "Plaza de Usaquén",
+      "neighborhood": "Usaquén",
+      "category": "plaza",
+      "vibes": [
+        "people-watch",
+        "cozy",
+        "quiet",
+        "night",
+        "free",
+        "solo",
+        "group"
+      ],
+      "blurb": "The old village square of Usaquén, a colonial town swallowed by the city, with a whitewashed church, tall trees and benches around a small fountain. On weekdays it is calm and shaded, a place to sit with a coffee from one of the surrounding cafés; on Sundays the flea market fills the streets around it and the mood flips to festive. Restaurants keep the surrounding lanes lit and busy into the evening.",
+      "tips": "Take the benches on the church side for shade; weekday mornings are the quietest. Sunday is market day (roughly 10am-5pm) if you want the opposite of quiet. Walk in from Carrera 7 at Calle 116 or 119.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 4.695,
+      "lng": -74.031,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit square ringed by restaurants that stay open late; cobbled streets are uneven and slippery when wet."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title confirmed: en.wikipedia.org/wiki/Tintal_library appeared in results, along with location (Av Ciudad de Cali, Kennedy, near Tintal Plaza) and history as a converted waste plant by Daniel Bermúdez. Hours from knowledge (BibloRed pattern). Coordinates medium.",
+      "name": "Biblioteca Pública El Tintal Manuel Zapata Olivella",
+      "neighborhood": "Kennedy (El Tintal)",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "green",
+        "free",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "A former rubbish-processing plant turned into a luminous concrete public library, sitting in its own park in the far south-west of the city. The great hall keeps the old building's height and light, the reading rooms are free and quiet, and hardly anyone who does not live in Kennedy has been here. It is the best excuse to see a part of Bogotá visitors never reach.",
+      "tips": "TransMilenio to Biblioteca Tintal station on Avenida Las Américas and walk a few minutes; bring ID to use the reading rooms. The park outside has benches facing the building. Closed Mondays in the BibloRed pattern, so check the site.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "varies (check site; typically Tue-Sat 8am-8pm, Sun 9:30am-5pm, closed Mon)",
+      "lat": 4.6455,
+      "lng": -74.153,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Tintal library",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Tintal_library",
+          "label": "Wikipedia: Tintal library",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed building with security; the park around it is open and unlit in parts, so time your visit to leave with the library and use the TransMilenio station rather than walking far."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title confirmed: en.wikipedia.org/wiki/Córdoba_(wetland) appeared in results; location (Suba, between Calles 116-128 and Avenidas Córdoba, Suba and Boyacá), 44 ha and Ramsar status also confirmed (Secretaría de Ambiente). Coordinates are the wetland's centre, medium. Hours: open-access paths, from knowledge.",
+      "name": "Humedal Córdoba",
+      "neighborhood": "Suba / Niza",
+      "category": "other",
+      "vibes": [
+        "green",
+        "water",
+        "quiet",
+        "sunrise",
+        "walk",
+        "free",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "A 44-hectare Ramsar-listed wetland folded into the residential grid of Suba, with reedbeds, a boardwalk and a footpath along the water. It has more recorded bird species than any other wetland in the city, and early on a weekday you share it with herons, coots and a few neighbours walking dogs. Sitting on a bench here you can forget there are eight million people around you.",
+      "tips": "Enter from Avenida Córdoba around Calle 120 or from the Niza side near Calle 127; the path along the eastern bank has the most benches. Go at first light for birds. Bring binoculars and wear shoes that can get wet; some sections close during works, so follow the signs.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "daylight (paths unlit; some gated sections roughly 6am-6pm)",
+      "lat": 4.704,
+      "lng": -74.07,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Córdoba (wetland)",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/C%C3%B3rdoba_(wetland)",
+          "label": "Wikipedia: Córdoba (wetland)",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.ambientebogota.gov.co/humedal-cordoba",
+          "label": "Secretaría Distrital de Ambiente: Humedal Córdoba",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Unlit, unstaffed paths with soft edges and few exits; go in daylight and stay on the marked path and boardwalk away from the water margin."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title confirmed: en.wikipedia.org/wiki/National_Park_(Bogotá) appeared in results; 1934 opening and national monument status confirmed (IDRD, bogota.gov.co). Coordinates are the lower lawns near Carrera 7, high. Hours from knowledge.",
+      "name": "Parque Nacional Enrique Olaya Herrera",
+      "neighborhood": "Santa Fe / La Merced",
+      "category": "park",
+      "vibes": [
+        "green",
+        "walk",
+        "view",
+        "people-watch",
+        "picnic",
+        "free",
+        "group",
+        "solo"
+      ],
+      "blurb": "The city's oldest large park, opened in 1934, climbing from Carrera 7 up into the eastern hills with lawns, a stream, old stone stairways and a public clock tower. The lower section is where downtown office workers and university students eat lunch on the grass and where the Sunday ciclovía spills in; the upper paths are forest. It is central, free and big enough to find an empty bench.",
+      "tips": "Enter from Carrera 7 between Calles 36 and 39 and keep to the lower lawns and the stream for a sit; the upper forest paths are for daylight only. Sundays bring aerobics classes and cyclists, weekdays are quiet. Pair it with the Museo Nacional two blocks south.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "6am-6pm (upper section), lower lawns open access",
+      "lat": 4.6248,
+      "lng": -74.0648,
+      "coordConfidence": "high",
+      "wikipediaTitle": "National Park (Bogotá)",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/National_Park_(Bogot%C3%A1)",
+          "label": "Wikipedia: National Park (Bogotá)",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.idrd.gov.co/parques/parques-estructurantes/parque-nacional-enrique-olaya",
+          "label": "IDRD: Parque Nacional Enrique Olaya Herrera",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "The upper wooded slopes are steep, unlit and empty after the gates close; stay on the lower lawns near Carrera 7, go in daylight and leave before dusk."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, location (Paloquemao neighbourhood, on the current site since 1967, ~900 stalls, open daily) confirmed at review by search (visitbogota.co, The City Paper Bogotá). A search for an English Wikipedia article returned only travel guides, so the title the researcher guessed ('Paloquemao') is set to null. Coordinates placed at Calle 19 with Carrera 25 from knowledge, not map-checked, medium. Hours approximate; flower section is early morning only.",
+      "name": "Plaza de Mercado de Paloquemao",
+      "neighborhood": "Los Mártires / Paloquemao",
+      "category": "market",
+      "vibes": [
+        "people-watch",
+        "sunrise",
+        "rain-ok",
+        "cozy",
+        "group",
+        "solo"
+      ],
+      "blurb": "The city's great food market: halls of tropical fruit, herbs, meat and, before 8am, a street of flower sellers unloading roses by the armful. It is not quiet, but the small cafeterias inside are where market workers take their breakfast, and sitting at a counter with a caldo and a fresh juice watching the trade is one of the most grounding hours in Bogotá. It is covered, so rain does not matter.",
+      "tips": "Arrive between 6 and 8am for the flowers, then find a cafeteria counter in the main hall; order a jugo of whatever fruit you cannot name. Bring small notes and keep your bag in front of you in the crowded aisles. Most stalls wind down after early afternoon.",
+      "bestTimes": [
+        "morning"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "varies (roughly 4:30am-4:30pm daily, busiest before 10am; Sundays wind down earlier)",
+      "lat": 4.622,
+      "lng": -74.0885,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://visitbogota.co/en/what-to-do-in-bogota/gastronomy/paloquemao-local-market",
+          "label": "Visit Bogotá: Paloquemao Local Market",
+          "kind": "official"
+        },
+        {
+          "url": "https://thecitypaperbogota.com/bogota/paloquemao-the-local-exotic/",
+          "label": "The City Paper Bogotá: Paloquemao market",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Busy, staffed and covered; the surrounding streets carry heavy lorry traffic in the early morning, so take a taxi or app car to the entrance rather than walking from far away."
+      },
+      "lowkeyScore": 2
+    }
+  ]
+}

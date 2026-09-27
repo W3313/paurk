@@ -1,0 +1,636 @@
+{
+  "city": "Dar es Salaam",
+  "country": "Tanzania",
+  "slug": "dar-es-salaam",
+  "region": "europe-africa",
+  "cityLat": -6.816,
+  "cityLng": 39.2803,
+  "timezone": "Africa/Dar_es_Salaam",
+  "searchesRun": [
+    "Dar es Salaam Botanical Gardens opening hours Samora Avenue",
+    "Coco Beach Oyster Bay Dar es Salaam public beach locals weekend",
+    "Village Museum Makumbusho Dar es Salaam opening hours entrance fee",
+    "Nafasi Art Space Mikocheni Dar es Salaam visiting hours",
+    "Alliance Française Dar es Salaam garden cafe library Ali Hassan Mwinyi Road",
+    "Tanzanite Bridge Dar es Salaam pedestrian walkway wikipedia",
+    "A Novel Idea bookshop Dar es Salaam Slipway Msasani",
+    "Tanzania National Central Library Dar es Salaam Bibi Titi Mohammed Road public reading room hours",
+    "Nafasi Art Space Eyasi Road Mikocheni B Dar es Salaam location map",
+    "Alliance Française Dar es Salaam Ali Hassan Mwinyi Road Las Vegas Casino location opening hours",
+    "Village Museum Dar es Salaam Makumbusho wikipedia",
+    "Dar es Salaam Botanical Gardens wikipedia Samora Avenue"
+  ],
+  "redditSourcedNotes": "Two stages, twelve searches in all, none of which surfaced reddit; nothing here is reddit-sourced. RESEARCH STAGE (8 searches) confirmed: Botanical Gardens hours (Mon-Fri 9-5, closed weekends), Coco Beach as a free public shoreline on Toure Drive, Village Museum on New Bagamoyo Road with roughly 9:30-6 hours and a small fee, Nafasi Art Space hours (Mon-Fri 9-5, Sun 1-5), Alliance Francaise on Ali Hassan Mwinyi Road, Tanzanite Bridge as an en.wikipedia article with pedestrian walkways, A Novel Idea at Msasani Slipway since 1992, National Central Library weekday hours 9am-7pm (the FamilySearch page gave Saturday as 9am-2am, read as a typo for 2pm). REVIEW STAGE (4 searches; en.wikipedia.org was blocked by the network proxy, so no Wikipedia page could be opened) confirmed: Nafasi address as Plot 41 Eyasi Road, Light Industrial Area, Mikocheni B, off ITV Road, which moved its pin about 500 m and dropped its confidence to low; Alliance Francaise hours (Mon-Thu 9-6, Fri-Sat 9-4, closed Sun); the Village Museum has a Wikidata item but no en.wikipedia URL appeared, so its title stays null; the Botanical Gardens Lonely Planet and Tripadvisor URLs reappeared, and again no Wikipedia URL. Review also nudged three other pins from knowledge (Tanzanite Bridge mid-span east over the bay mouth, A Novel Idea onto the Slipway complex, Bongoyo onto the island) and left every coordinate at medium or low: none was read off a map result. NOT confirmed by any search, written from knowledge with sources left empty: Mnazi Mmoja Park, the Kivukoni Front seafront, the University of Dar es Salaam Mlimani campus, Bongoyo Island and Mwenge Woodcarvers Market. Source URLs appear only where a search result listed them; the review stage could not HTTP-check them (outbound curl is blocked here) but found none implausible and re-saw six of them. Wikipedia titles kept: National Museum of Tanzania (URL seen in both stages), Tanzanite Bridge (URL seen in research stage), University of Dar es Salaam and Bongoyo Island (knowledge, high confidence, not URL-confirmed). Hours for the unconfirmed spots are approximate. Safety screen: all 14 are ordinary public places (a botanical garden, two museums, an art centre, a cultural centre cafe, a bookshop in a publicly accessible private complex, a public library, a city park, two beaches, a public bridge walkway, a seafront, a university campus, a craft market); none involve trespass, derelict or industrial land, or bar-only venues. All safety notes describe lighting, closing times, tides, sea walls, traffic and the State House photography rule only; review found none that characterised people or neighbourhoods and rewrote none.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, Samora Avenue location (opposite the National Museum, next to the National College of Tourism) and Mon-Fri 9-5 hours confirmed in both stages; the Lonely Planet and Tripadvisor URLs reappeared in the review search. Coordinates from knowledge of the block between Samora Avenue and Ocean Road, medium confidence. No en.wikipedia URL surfaced in either stage, so the title is null. Whether the small cafe is still trading was not confirmed.",
+      "name": "Dar es Salaam Botanical Gardens",
+      "neighborhood": "City Centre (Samora Avenue)",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "solo",
+        "study",
+        "hidden",
+        "walk"
+      ],
+      "blurb": "A small colonial-era botanical garden laid out in 1893 behind the National Museum, with old rain trees, palms, a scattering of benches and a few peacocks wandering the paths. It is a few hundred metres from the Posta bus stands and the Kivukoni traffic, but once inside the tree canopy kills most of the noise. Office workers from the ministries come for a quiet lunch, and on a weekday afternoon you can often have a bench to yourself.",
+      "tips": "Enter from Samora Avenue opposite the National Museum side; it is closed at weekends, so plan a weekday visit. Benches under the biggest trees near the middle are the shadiest, and the small cafe on site is your only refreshment.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Mon-Fri 9am-5pm, closed weekends (check locally)",
+      "lat": -6.8115,
+      "lng": 39.2905,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.lonelyplanet.com/points-of-interest/botanical-gardens/1498135",
+          "label": "Lonely Planet: Botanical Gardens",
+          "kind": "press"
+        },
+        {
+          "url": "https://agardenaday.com/dar-es-salaam-tanzania/",
+          "label": "A Garden a Day: Dar es Salaam",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g293748-d13484944-Reviews-Botanical_Gardens-Dar_es_Salaam_Dar_Es_Salaam_Region.html",
+          "label": "Tripadvisor: Botanical Gardens",
+          "kind": "forum"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Walled garden with staff at the gate; closes at 5pm so there is no after-dark question. Paths are uneven in places."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia URL en.wikipedia.org/wiki/National_Museum_of_Tanzania appeared in a search result. Hours (roughly 9:30am-6pm daily) and paid entry from knowledge; the museum has a separate foreigner rate.",
+      "name": "National Museum and House of Culture",
+      "neighborhood": "City Centre (Shaaban Robert Street)",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "solo",
+        "cozy",
+        "study"
+      ],
+      "blurb": "Tanzania's national museum, a pair of buildings and a shaded courtyard on Shaaban Robert Street next to the Botanical Gardens, with the hominid fossils from Olduvai, colonial-era history and rotating art shows in the newer House of Culture wing. It is rarely crowded outside school-group hours, and the courtyard and upstairs galleries are cool, quiet places to sit with a notebook on a hot or rainy afternoon.",
+      "tips": "Buy a ticket at the gate on Shaaban Robert Street; the House of Culture wing usually has the calmest rooms and the courtyard benches sit under mature trees. Pair it with the Botanical Gardens next door on a weekday.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly 9:30am-6pm daily (check site)",
+      "lat": -6.8108,
+      "lng": 39.2887,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "National Museum of Tanzania",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Tanzania",
+          "label": "Wikipedia: National Museum of Tanzania",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, ticketed building in the government quarter; bag check at the entrance."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Confirmed via search as a free public shoreline on Toure Drive, Oyster Bay, very busy at weekends (Tripadvisor review titled 'Public Local Beach in Oyster bay' plus tour blogs). Coordinates from knowledge of Toure Drive; the beach runs for over a kilometre so the point is approximate. No English Wikipedia article found for the beach itself.",
+      "name": "Coco Beach",
+      "neighborhood": "Oyster Bay (Msasani Peninsula)",
+      "category": "beach",
+      "vibes": [
+        "water",
+        "sunrise",
+        "people-watch",
+        "group",
+        "free",
+        "walk",
+        "picnic"
+      ],
+      "blurb": "The city's public beach: a long strip of sand and rock along Toure Drive on the ocean side of the Msasani Peninsula, lined with coconut palms, mishkaki grills and juice stalls. At weekends it is where Dar comes to be seen, with football on the sand and music from the kiosks; on a weekday morning it is almost empty and the breeze off the Indian Ocean makes it one of the coolest places in town to sit and think. Swimming is possible but the surf and rocks put most people off.",
+      "tips": "Come on a weekday morning for quiet, or Saturday late afternoon for the full scene. The low wall along Toure Drive and the shaded patches under the palms at the northern end are the best places to sit; bring small notes for a coconut or a plate of mishkaki.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -6.769,
+      "lng": 39.286,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.tripadvisor.co.uk/ShowUserReviews-g293748-d6952158-r671214330-Coco_Beach-Dar_es_Salaam_Dar_Es_Salaam_Region.html",
+          "label": "Tripadvisor review: Public Local Beach in Oyster Bay",
+          "kind": "forum"
+        },
+        {
+          "url": "https://www.jambointernationaltour.com/dar-es-salaams-oyster-bay-urban-coastal-charm/",
+          "label": "Jambo International Tour: Oyster Bay",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "The sand is unlit beyond the roadside kiosks and empties quickly after sunset; stay on the Toure Drive side after dark. Rocks and a strong shore break make swimming risky at high tide. Weekend traffic on Toure Drive is heavy."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title from a URL in the research-stage results (review stage could not reach Wikipedia). Protected pedestrian walkways confirmed by The Citizen and allAfrica coverage. Mid-span point moved about 250 m east in review to sit over the bay mouth between the Aga Khan Hospital end of Ocean Road and the Toure Drive end; still from knowledge of the alignment, not a map result, so medium.",
+      "name": "Tanzanite Bridge walkway",
+      "neighborhood": "Oyster Bay to Upanga (Msimbazi Delta)",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "skyline",
+        "water",
+        "night",
+        "sunset",
+        "walk",
+        "free",
+        "people-watch"
+      ],
+      "blurb": "The cable-stayed bridge that opened in 2022 across the mouth of the Msimbazi delta, linking Oyster Bay to the city centre, with a fenced pedestrian walkway on each side. Halfway across you are standing over open water with the ocean on one side, the mangroves of the delta on the other and the downtown towers ahead, and after dark the pylons are lit and half the neighbourhood comes out to walk and take photos. It quickly became one of the city's default evening strolls.",
+      "tips": "Start from the Coco Beach end of Toure Drive and walk south; the seaward walkway has the better view. Go at golden hour and stay for the lights, then walk back the same way rather than crossing the road at the city end.",
+      "bestTimes": [
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -6.792,
+      "lng": 39.2865,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Tanzanite Bridge",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Tanzanite_Bridge",
+          "label": "Wikipedia: Tanzanite Bridge",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.thecitizen.co.tz/tanzania/supplement/tanzanite-bridge-shoots-dar-es-salaam-from-busy-city-to-tourist-destination-3747962",
+          "label": "The Citizen: Tanzanite Bridge",
+          "kind": "press"
+        },
+        {
+          "url": "https://allafrica.com/stories/202202020430.html",
+          "label": "allAfrica: Tanzanite Bridge amazes city dwellers",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Walkways are railed and separated from traffic, and the bridge is lit and busy in the evening. It is exposed, so expect strong wind and no shade; the approach roads at both ends have fast traffic, so cross at the marked points."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence on New Bagamoyo Road, roughly 9:30am-6pm hours and a small entry fee confirmed in both stages (Tripadvisor d317789, Lonely Planet, GetYourGuide); sources disagree on Monday closing. Review search found a Wikidata item (Makumbusho Village Museum) but no en.wikipedia URL, so the title stays null. Coordinates from knowledge of the Makumbusho stop on New Bagamoyo Road, medium confidence; could be a few hundred metres off along the road.",
+      "name": "Village Museum (Makumbusho)",
+      "neighborhood": "Kijitonyama (New Bagamoyo Road)",
+      "category": "museum",
+      "vibes": [
+        "green",
+        "quiet",
+        "solo",
+        "walk",
+        "hidden",
+        "rain-ok"
+      ],
+      "blurb": "An open-air museum of traditional houses from across Tanzania set in a large, shady compound off New Bagamoyo Road, run by the National Museum. Beyond the huts there is a lot of lawn and tree cover, and most days the only other people are a school group and the craftspeople working near the entrance. The thatched shelters make it usable in rain, and the cool interiors of the houses are a good escape from midday heat.",
+      "tips": "Take a daladala or the BRT toward Mwenge and get off at Makumbusho; the gate is on New Bagamoyo Road. Weekday afternoons are quietest, and the small entry fee is cheaper than the National Museum downtown. Ask at the gate whether any dance performances are scheduled if you want it quiet.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "roughly 9:30am-6pm (some sources say closed Mon; check locally)",
+      "lat": -6.7585,
+      "lng": 39.247,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/makumbusho-village-museum-l190815/",
+          "label": "GetYourGuide: Makumbusho Village Museum",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.tripadvisor.com/FAQ_Answers-g293748-d317789-t1841605-What_Is_the_entrance_fee.html",
+          "label": "Tripadvisor FAQ: entrance fee",
+          "kind": "forum"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g293748-d317789-Reviews-Village_Museum-Dar_es_Salaam_Dar_Es_Salaam_Region.html",
+          "label": "Tripadvisor: Village Museum",
+          "kind": "forum"
+        },
+        {
+          "url": "https://www.lonelyplanet.com/tanzania/dar-es-salaam/attractions/village-museum/a/poi-sig/1133011/355642",
+          "label": "Lonely Planet: Village Museum",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced, staffed and closed by early evening. New Bagamoyo Road outside is busy with fast traffic; use the footbridge or the BRT crossings."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review search confirmed the address as Plot 41 Eyasi Road, Light Industrial Area, Mikocheni B (official contact page, Lonely Planet, Nafasi map page: reached from ITV Road or from New Bagamoyo Road just past La Fiesta). That puts it in the light-industrial pocket between Old and New Bagamoyo roads, so the point was moved about 500 m north-west of the first draft; no map result was read, so confidence is low. Hours (Mon-Fri 9-5, Sun 1-5) from listings; free entry to the grounds from knowledge.",
+      "name": "Nafasi Art Space",
+      "neighborhood": "Mikocheni B",
+      "category": "other",
+      "vibes": [
+        "cozy",
+        "quiet",
+        "solo",
+        "group",
+        "hidden",
+        "rain-ok",
+        "people-watch"
+      ],
+      "blurb": "A contemporary art centre in a converted warehouse compound in Mikocheni, with artists' studios around a courtyard, a gallery, a small cafe and shade trees. Outside of openings and the monthly market it is very quiet: painters working with the doors open, a few people on the courtyard benches, and nobody minding if you sit for an hour with a book. It is the closest Dar has to an artists' village and one of the few cultural spaces on the peninsula side that costs nothing to enter.",
+      "tips": "Eyasi Road is in the Mikocheni light-industrial pocket between Old and New Bagamoyo roads, off ITV Road; ask a bajaji driver for Nafasi, most know it. Weekday afternoons are calmest, Sunday afternoon is the only weekend opening, and the compound is closed Saturdays. Check the Facebook page for openings if you want company rather than quiet.",
+      "bestTimes": [
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Fri 9am-5pm, Sun 1pm-5pm, closed Sat (check site)",
+      "lat": -6.765,
+      "lng": 39.236,
+      "coordConfidence": "low",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.nafasiartspace.org/",
+          "label": "Nafasi Art Space official site",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.lonelyplanet.com/tanzania/dar-es-salaam/attractions/nafasi-art-space/a/poi-sig/1500280/355642",
+          "label": "Lonely Planet: Nafasi Art Space",
+          "kind": "press"
+        },
+        {
+          "url": "http://nafasiartspace.blogspot.com/p/map.html",
+          "label": "Nafasi Art Space: map and directions",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.nafasiartspace.org/contact/",
+          "label": "Nafasi Art Space: contact",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated compound with a guard and staff on site during opening hours; the residential side streets around it are unlit, so arrange a bajaji or taxi if you leave after an evening event."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Location on Ali Hassan Mwinyi Road behind Las Vegas Casino confirmed twice (French embassy page, Love Dar, MyGuide Tanzania, Wanderlog). Opening hours Mon-Thu 9-6, Fri-Sat 9-4, closed Sun appeared in a review-stage listing. Coordinates are for that stretch of Ali Hassan Mwinyi Road from knowledge only, medium confidence; could be a couple of hundred metres off.",
+      "name": "Alliance Française de Dar es Salaam",
+      "neighborhood": "Upanga / Oyster Bay border (Ali Hassan Mwinyi Road)",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "green",
+        "quiet",
+        "study",
+        "rain-ok",
+        "solo",
+        "night"
+      ],
+      "blurb": "The French cultural centre, a low-slung compound of classrooms, a resource centre and an open-air stage set in a garden just off Ali Hassan Mwinyi Road. The cafe-restaurant spills out under the trees and is open to anyone, not just students, so it works as a shaded place to read on a weekday afternoon or a relaxed spot for an evening drink when there is a film or concert on. The resource centre is quiet enough to work in.",
+      "tips": "Look for the gate behind the Las Vegas Casino on Ali Hassan Mwinyi Road; tell the guard you are going to the cafe. Weekday afternoons are quiet, Friday evenings often have a screening or live music. Ask whether the resource centre is open to day visitors.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Mon-Thu 9am-6pm, Fri-Sat 9am-4pm, closed Sun; evening events run later (check site)",
+      "lat": -6.7975,
+      "lng": 39.2735,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://tz.diplomatie.gouv.fr/en/alliance-francaise-tanzania",
+          "label": "France in Tanzania: the Alliance française",
+          "kind": "official"
+        },
+        {
+          "url": "https://lovedar.co.tz/alliance-francaise/",
+          "label": "Love Dar: Alliance Francaise",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.myguidetanzania.com/things-to-do/alliance-francaise-de-dar-es-salaam",
+          "label": "MyGuide Tanzania: Alliance Francaise",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Guarded compound with staff on site; Ali Hassan Mwinyi Road is a fast four-lane road with few crossings, so arrange a bajaji or taxi to the gate at night rather than walking along it."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Confirmed via search: A Novel Idea flagship shop at the Msasani Slipway since 1992 (company site, MyGuide Tanzania). Coordinates moved in review about 400 m north to the Slipway waterfront complex itself (the draft point sat in Msasani village); from knowledge, medium confidence. Hours not in results.",
+      "name": "A Novel Idea (Msasani Slipway)",
+      "neighborhood": "Msasani Peninsula (Slipway)",
+      "category": "bookstore",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "quiet",
+        "solo",
+        "water",
+        "sunset"
+      ],
+      "blurb": "Tanzania's longest-running English-language bookshop, in the Slipway waterfront complex on Msasani Bay, with a big Africa section, local fiction and the city's best travel shelf. It is small and calm, and the real reason to come is the combination: browse, buy a paperback, then sit on the public waterfront terrace outside, which faces west over the dhows in Msasani Bay and gets the city's best mainland sunset.",
+      "tips": "Take a bajaji to Slipway; the shop is inside the complex near the waterfront. Come an hour before sunset, then read on the low sea wall or the benches by the boat jetty. The Saturday craft market makes the complex busy; weekdays are quiet.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "varies (roughly 9am-8pm daily; check site)",
+      "lat": -6.7485,
+      "lng": 39.2735,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://anovelidea.co.tz/msasani-slipway/",
+          "label": "A Novel Idea: Msasani Slipway shop",
+          "kind": "official"
+        },
+        {
+          "url": "https://anovelidea.co.tz/about-us/",
+          "label": "A Novel Idea: About us",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Guarded private complex with public access, lit and staffed until late evening. The waterfront edge is unfenced at points, so mind the drop at high tide."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence on Bibi Titi Mohammed Road and weekday hours 9am-7pm confirmed via search (FamilySearch, vymaps). The Saturday hours in the source read '9am-2am', clearly a typo for 2pm. Coordinates from knowledge of Bibi Titi Mohammed Road near the Mnazi Mmoja end, medium confidence. Membership rules for non-Tanzanians not verified.",
+      "name": "National Central Library (Maktaba Kuu ya Taifa)",
+      "neighborhood": "City Centre (Bibi Titi Mohammed Road)",
+      "category": "library",
+      "vibes": [
+        "quiet",
+        "study",
+        "rain-ok",
+        "solo",
+        "free"
+      ],
+      "blurb": "The Tanzania Library Services Board's main public library, a plain 1960s building on Bibi Titi Mohammed Road with large reading rooms, ceiling fans and long tables that fill with students preparing for exams. Anyone can walk in and read on the spot; borrowing needs a membership. On a hot afternoon or during the rains it is one of the few genuinely quiet, free indoor places in the centre.",
+      "tips": "Sign in at the desk and head for the upstairs reading rooms, which are quieter than the ground floor. Weekday mornings are calmest; exam seasons fill the tables. The Mnazi Mmoja BRT station is a short walk away.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Fri 9am-7pm, Sat 9am-2pm, closed Sun (check locally)",
+      "lat": -6.8135,
+      "lng": 39.2795,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.familysearch.org/en/wiki/Tanzania_Archives_and_Libraries",
+          "label": "FamilySearch: Tanzania Archives and Libraries",
+          "kind": "other"
+        },
+        {
+          "url": "https://vymaps.com/TZ/Maktaba-Kuu-Ya-Taifa-49837/",
+          "label": "vymaps: Maktaba Kuu ya Taifa",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building on a main lit road with a BRT station nearby; closes by 7pm."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not confirmed by search (budget spent elsewhere); written from knowledge. The park is the large open ground around the Uhuru Torch monument between Bibi Titi Mohammed Road, Uhuru Street and Lumumba Street, adjacent to the Mnazi Mmoja BRT stop. An 'Uhuru Monument' Wikipedia URL appeared in a search result but I did not confirm it refers to this monument, so title left null. Coordinates medium confidence.",
+      "name": "Mnazi Mmoja Park",
+      "neighborhood": "Kariakoo / City Centre border",
+      "category": "park",
+      "vibes": [
+        "people-watch",
+        "free",
+        "group",
+        "walk",
+        "green",
+        "night"
+      ],
+      "blurb": "The city's big open ground between the centre and Kariakoo, with the Uhuru Torch monument at its heart, lawns, some old shade trees and a ring of benches. It is where downtown workers eat lunch, students sit after school and families come in the early evening when the heat drops, and it is the venue for national celebrations. It is not a hidden garden, but it is the most used free public green space in the centre and it is easy to reach on the BRT.",
+      "tips": "Get off at the Mnazi Mmoja BRT station; the benches under the trees on the Bibi Titi Mohammed Road side are the shadiest. Late afternoon has the best atmosphere. Check whether a rally or event is scheduled, since the ground is fenced off on those days.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (fenced off for events)",
+      "lat": -6.8195,
+      "lng": 39.276,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Open, flat ground bordered by lit main roads and a BRT station; the interior lawns are dimly lit, so stay near the road edges after dark. Heavy traffic on all sides, use the BRT crossings."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not confirmed by search; written from knowledge. The seafront pavement runs from the Kivukoni ferry terminal and fish market along Kivukoni Front and Ocean Road past the Azania Front church toward State House. Coordinates for the stretch by the ferry terminal are the ones I am most confident of. The State House stretch has a long-standing no-photography rule.",
+      "name": "Kivukoni Front seafront",
+      "neighborhood": "Kivukoni (City Centre)",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunrise",
+        "people-watch",
+        "walk",
+        "free",
+        "view",
+        "solo"
+      ],
+      "blurb": "The harbour-mouth seafront at the tip of downtown, where the Kigamboni ferry shuttles across the channel, dhows and container ships pass, and the fish market gets going before dawn. A low sea wall and a pavement run along Kivukoni Front and Ocean Road, and early in the morning it is workers, fishermen and a few joggers watching the sun come up over Kigamboni. It is the most direct way to sit by the water in the city centre without paying for a hotel terrace.",
+      "tips": "Come at sunrise for the fish market and the ferry, sit on the sea wall near the Azania Front Lutheran Church for the best angle. Do not photograph anything along the State House stretch of Ocean Road; guards will stop you. Bring your own drink, the vendors are near the ferry.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -6.8185,
+      "lng": 39.2945,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "Unfenced sea wall with a drop to rocks and water at high tide; the pavement is unevenly lit and empties out after the last ferry, so treat this as a daytime and early-evening spot. The State House section is a security zone where photography is not allowed."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not confirmed by search; written from knowledge. The Mlimani ('on the hill') campus is a large open university site off Sam Nujoma Road / University Road with gated entrances staffed by guards; the public is generally admitted, but access rules can tighten during exams or events. Coordinates for the upper campus near the main library, medium confidence. Wikipedia title high confidence from knowledge.",
+      "name": "University of Dar es Salaam, Mlimani campus",
+      "neighborhood": "Ubungo / Mlimani",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "green",
+        "quiet",
+        "study",
+        "walk",
+        "sunset",
+        "free",
+        "skyline"
+      ],
+      "blurb": "The main university campus sprawls over a wooded hill on the western edge of the city, with 1960s modernist blocks, lawns, big trees and long views back over Dar to the ocean on a clear day. It is one of the few places in the flat city with any elevation, and outside term-time rush it is remarkably calm: students reading under trees, birds in the acacias, and a breeze the downtown never gets. The Nkrumah Hall area and the slopes below the library are the classic places to sit.",
+      "tips": "Take the BRT or a daladala to Ubungo or Mlimani City and a bajaji up to the main gate; say you are visiting the campus. Late afternoon gives the best light over the city. Cafes near the library and the students' centre sell cheap tea and chapati.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (campus gates staffed; daylight visits easiest)",
+      "lat": -6.78,
+      "lng": 39.205,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "University of Dar es Salaam",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Gated campus with guards and lots of foot traffic by day; paths between buildings are unlit and the hill is steep in places, so leave before dark or arrange a bajaji from the gate."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not confirmed by search in either stage; written from knowledge. Bongoyo is part of the Dar es Salaam Marine Reserves, reached by a scheduled boat from Msasani Slipway with a reserve entry fee plus boat fare. Review nudged the point north-west so it sits on the island rather than in the water south-east of it; still approximate for the south-west beach, medium confidence. Wikipedia title from knowledge, high confidence, not URL-confirmed.",
+      "name": "Bongoyo Island",
+      "neighborhood": "Dar es Salaam Marine Reserve (off Msasani)",
+      "category": "beach",
+      "vibes": [
+        "water",
+        "quiet",
+        "solo",
+        "group",
+        "walk",
+        "picnic",
+        "hidden"
+      ],
+      "blurb": "A small uninhabited island in the marine reserve a short boat ride north of the Msasani Peninsula, with a white sand beach, thatched shelters, a couple of nature trails through the scrub and a shack that grills fish. Weekdays it is a handful of people and the tide; weekends the boats fill up. It is the easiest way to get properly away from the city noise for an afternoon without leaving Dar.",
+      "tips": "Boats leave from the Slipway jetty on a rough half-hour schedule from mid-morning, the last return is mid-afternoon; pay the reserve fee at the kiosk. Bring water, sunscreen and cash, shade is limited to the bandas. Weekday mornings are near empty.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "daytime only, boats roughly 9:30am-4pm (check at Slipway)",
+      "lat": -6.711,
+      "lng": 39.254,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Bongoyo Island",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Reserve staff on site by day; no lighting, shelter or water beyond the bandas, so take the last boat back. Coral and sea urchins in the shallows, wear sandals in the water. Crossings are choppy in the afternoon wind."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not confirmed by search; written from knowledge. The woodcarvers' market is a long-standing cluster of open-fronted workshops and stalls near the Mwenge junction on Sam Nujoma Road. Coordinates medium confidence. No English Wikipedia article known.",
+      "name": "Mwenge Woodcarvers Market",
+      "neighborhood": "Mwenge",
+      "category": "market",
+      "vibes": [
+        "people-watch",
+        "cozy",
+        "free",
+        "group",
+        "rain-ok"
+      ],
+      "blurb": "A warren of covered stalls and open workshops near the Mwenge junction where Makonde carvers work ebony and rosewood in front of you, alongside Tingatinga painters and basket sellers. It is a market, so there is selling, but it is also a place where people sit for hours: carvers on low stools, a chai lady, radio on. Pull up a stool beside a workshop and watch, and the hard-sell fades as soon as it is clear you are not in a hurry.",
+      "tips": "Get off the BRT at Mwenge and walk a few minutes toward the Sam Nujoma Road junction; the workshops at the back are calmer than the front stalls. Late morning is when most carvers are working. Bargaining is expected, a small purchase buys goodwill.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "roughly 8am-6pm daily",
+      "lat": -6.769,
+      "lng": 39.224,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Busy, covered market open in daylight only; the Mwenge junction outside has heavy traffic, so use the BRT footbridge."
+      },
+      "lowkeyScore": 3
+    }
+  ]
+}

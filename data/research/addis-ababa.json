@@ -1,0 +1,623 @@
+{
+  "city": "Addis Ababa",
+  "country": "Ethiopia",
+  "slug": "addis-ababa",
+  "region": "europe-africa",
+  "cityLat": 9.0227,
+  "cityLng": 38.7469,
+  "timezone": "Africa/Addis_Ababa",
+  "searchesRun": [
+    "Entoto Park Addis Ababa entrance fee opening hours",
+    "Gullele Botanic Garden Addis Ababa wikipedia opening hours",
+    "Abrehot Library Addis Ababa opening hours wikipedia",
+    "Zoma Museum Addis Ababa Mekanisa opening hours entrance",
+    "Bihere Tsige recreation center park Addis Ababa",
+    "Galani Coffee Addis Ababa Bole cafe",
+    "Peacock Park Bole Addis Ababa public park",
+    "Unity Park Addis Ababa Grand Palace wikipedia opening hours ticket",
+    "Bihere Tsige Park Addis Ababa location Debre Zeit Road Kaliti map",
+    "Galani Coffee Addis Ababa Bole location address",
+    "Holy Trinity Cathedral Addis Ababa wikipedia coordinates",
+    "Sheger Park Friendship Square Addis Ababa wikipedia entrance fee opening hours"
+  ],
+  "redditSourcedNotes": "Two stages. RESEARCH STAGE ran eight searches on existence, access, hours and Wikipedia titles; no reddit threads or 'according to locals' posts were read, so the what-residents-use framing is from prior knowledge. Confirmed then: Entoto Park (5am-6pm, cars banned, fee disputed so free=false), Gullele Botanic Garden (705 ha, 8am-6pm), Abrehot Library (en.wikipedia.org/wiki/Abrehot_Library; own site says open 24/7, offices Mon-Sat 8am-5pm), Zoma Museum (Tue-Sun, 150 birr, closing 6:30 or 8pm), Bihere Tsige (city landmark page, 15 ha), Galani Coffee (est. 2016) and Sheger Park (Wikipedia URL). Peacock Park was dropped as now a ticketed zoo. REVIEW STAGE ran four more searches; two direct fetches of en.wikipedia.org were blocked by the network proxy and returned nothing. Results: Bihere Tsige moved 1.4 km to 8.955, 38.754 from a geoview listing (medium, third-party); Galani Coffee moved about 1 km to the Jacros / Salite Mehret Road area behind the Jackros Villas compound per Waze and Yandex listings (medium, no numeric coordinates seen); Holy Trinity Cathedral title corrected from the parenthesised form to 'Holy Trinity Cathedral, Addis Ababa' (the URL that actually appeared) and pin moved 400 m to the Wikipedia coordinates 9.0308, 38.7666 (high); Sheger Park title re-confirmed, 130 birr entry and Taitu Street main gate added, hours still unconfirmed. Unity Park was dropped as a ticketed palace attraction rather than a sitting place, leaving 13 spots. One safety note (Tomoca) was rewritten to remove an unsourced keep-your-phone-hidden implication; all others describe altitude, lighting, closing times, traffic, terrain and staffing only. STILL FROM KNOWLEDGE with sources empty: Meskel Square, National Museum of Ethiopia, Ethnological Museum at AAU (campus ID checks), Tomoca Wavel Street, Alliance Ethio-Francaise (public access to the garden cafe not confirmed). Their hours are approximate. Wikipedia titles 'Meskel Square' and 'National Museum of Ethiopia' are from knowledge, not URL-confirmed; Entoto Park, Gullele, Zoma, Ethnological Museum, Tomoca and Alliance are null because the exact title was never seen. Coordinates for the Entoto Park gate, Gullele entrance, Abrehot, Ethnological Museum, Zoma, Tomoca, Alliance and Sheger Park remain from memory at medium confidence; Meskel Square and the National Museum are high from knowledge; only Holy Trinity is high from a source. Every source URL listed appeared in an actual search result in one of the two stages.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Existence and 5am-6pm daily hours confirmed by search; sources disagree on whether entry is free (one says ID only, another lists 200 birr for residents and 1000 for foreigners), so free is set to false. No English Wikipedia title seen, left null. Coordinates for the main gate are from memory, medium confidence.",
+      "name": "Entoto Park",
+      "neighborhood": "Gulele (Entoto hills)",
+      "category": "park",
+      "vibes": [
+        "green",
+        "view",
+        "walk",
+        "quiet",
+        "skyline",
+        "sunrise",
+        "group",
+        "solo"
+      ],
+      "blurb": "A large landscaped park in the eucalyptus forest on the Entoto ridge above the city, opened in 2020, with paved and dirt walking paths, lawns, viewing platforms, cafes and a lot of thin, cool air at about 3,000 metres. Weekday mornings are when residents come up to walk or jog before work; weekends fill with families. Away from the adventure-sport corners the forest paths are quiet and the view back over the whole city is the reason to sit.",
+      "tips": "Take a taxi or ride-hail up the Entoto road from Shiro Meda and enter at the main gate; cars are not allowed inside, so expect to walk. Bring ID and cash for the gate, since fee rules have changed more than once, and a layer, since it is several degrees colder than downtown. Ethiopian clocks run six hours behind Western ones, so '11am' on a sign can mean 5am.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "5am-6pm daily",
+      "lat": 9.0806,
+      "lng": 38.7656,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://typicalethiopian.com/entoto-park-%E1%8A%A5%E1%8A%95%E1%8C%A6%E1%8C%A6-%E1%8D%93%E1%88%AD%E1%8A%AD-places-gates-entrance-fee-contact-info/",
+          "label": "Typical Ethiopian: Entoto Park gates and fees",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.trip.com/travel-guide/attraction/addis-ababa/entoto-park-main-entrance-136987300/",
+          "label": "Trip.com: Entoto Park main entrance",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g293791-d15086967-Reviews-Entoto_Natural_Park-Addis_Ababa.html",
+          "label": "Tripadvisor: Entoto Natural Park",
+          "kind": "forum"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "High altitude (around 3,000 m): walk slowly on your first days in the city. Forest paths are unlit and the park closes at 6pm, so plan to be at a gate before dusk and arrange the ride down in advance, since there is little passing transport on the ridge road after dark."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, 705 ha size and 8am-6pm daily hours confirmed by search (ArbNet, BGCI, garden's own site). English Wikipedia title not seen in results, left null. Coordinates from memory for the entrance area in Gulele, medium confidence; the garden is huge so the pin is indicative.",
+      "name": "Gullele Botanic Garden",
+      "neighborhood": "Gulele",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "solo",
+        "hidden",
+        "view",
+        "picnic"
+      ],
+      "blurb": "A 705-hectare botanic garden and forest reserve on the north-western edge of the city, run jointly by the city and Addis Ababa University, with indigenous tree collections, a medicinal-plant section, walking trails and long views back towards town. It gets a fraction of Entoto Park's visitors and on a weekday you can walk for an hour meeting only gardeners and birds. There are benches and lawns near the visitor area for anyone who just wants to sit under juniper trees.",
+      "tips": "Get a taxi to the main gate off the road towards Burayu and ask for a trail map at the entrance; the paths nearest the gate are the easiest, and the higher trails need proper shoes. Bring water and a hat, since shade is patchy on the open slopes, and pay the small entrance fee in cash.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "8am-6pm daily",
+      "lat": 9.079,
+      "lng": 38.718,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://arbnet.org/morton-register/gullele-botanic-garden/",
+          "label": "ArbNet: Gullele Botanic Garden",
+          "kind": "other"
+        },
+        {
+          "url": "https://tools.bgci.org/garden.php?id=4538",
+          "label": "BGCI: Gullele Botanic Garden",
+          "kind": "other"
+        },
+        {
+          "url": "https://gullelebotanicgarden.yolasite.com/",
+          "label": "Gullele Botanic Garden site",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g293791-d10895149-Reviews-Gullele_Botanical_Garden-Addis_Ababa.html",
+          "label": "Tripadvisor: Gullele Botanical Garden",
+          "kind": "forum"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Very large, mostly unfenced hillside with long stretches between other people and no lighting; stay on marked trails, go in daylight and be back at the gate well before the 6pm close. Altitude is above 2,600 m."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title confirmed twice (research and review searches both returned en.wikipedia.org/wiki/Sheger_Park, described as also known as Friendship Park, opened 10 September 2020). Review search sources give a 130 birr entry fee and a main entrance on Taitu Street in front of the Sheraton; no source gave opening hours, so hours stay varies. Coordinates from memory for the park between Menelik II Avenue and the Sheraton hill, medium confidence.",
+      "name": "Sheger Park (Friendship Square)",
+      "neighborhood": "Kazanchis / Menelik II Avenue",
+      "category": "park",
+      "vibes": [
+        "green",
+        "water",
+        "walk",
+        "night",
+        "group",
+        "people-watch",
+        "picnic"
+      ],
+      "blurb": "A long riverside park opened in 2020 along the Bantyeketu stream, between Menelik II Avenue and the Sheraton hill, with lawns, fountains, a lake, an amphitheatre and lit promenades that stay busy into the evening. It is the closest thing central Addis has to an ordinary city park and residents use it that way: couples on the lawn, students with notebooks, families walking after dinner. The stream-side benches at the quieter northern end are the place to read.",
+      "tips": "The main entrance is on Taitu Street in front of the Sheraton Addis; there is also access from the Menelik II Avenue side near the Prime Minister's office. Entry was 130 birr at the time of writing and ID may be asked for. Weekend afternoons and public holidays are packed, so go on a weekday. The paved paths are lit, which makes this one of the few outdoor options after dark.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "varies (check site)",
+      "lat": 9.024,
+      "lng": 38.759,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Sheger Park",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sheger_Park",
+          "label": "Wikipedia: Sheger Park",
+          "kind": "other"
+        },
+        {
+          "url": "https://typicalethiopian.com/friendship-park-addis-ababa-ethiopia-opening-hour-fee-attractions/",
+          "label": "Typical Ethiopian: Friendship Park fee and attractions",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.whatsoutaddis.com/friendship-park-an-oasis-in-the-heart-of-addis/",
+          "label": "What's Out Addis: Friendship Park",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated, staffed and lit park beside major government buildings; paths are paved. Stream edges are low-walled, so mind children near the water."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched; well-known central square, written from knowledge. Wikipedia title 'Meskel Square' kept on high confidence but not URL-confirmed. Renovation with tiered steps, lighting and an underpass completed 2021 from knowledge. Coordinates high confidence.",
+      "name": "Meskel Square",
+      "neighborhood": "Kirkos (city centre)",
+      "category": "plaza",
+      "vibes": [
+        "sunrise",
+        "people-watch",
+        "skyline",
+        "walk",
+        "free",
+        "group",
+        "night"
+      ],
+      "blurb": "The city's great open square, rebuilt in 2021 with wide tiers of steps on its northern slope facing south over the intersection towards Bole. At dawn it is the informal running track of Addis: hundreds of joggers and athletes do laps and stair sets on the tiers before the traffic starts, and sitting halfway up with a coffee from a nearby kiosk you get the whole city waking up in front of you. By day it is hot and open; at night the lit steps become a hangout again.",
+      "tips": "Come before 7am to see the runners, or after sunset when the steps are lit and cooler; the top rows are the quietest. Use the pedestrian underpass or crossings rather than the road, and bring sun protection at midday, since there is no shade. The Red Terror Martyrs' Memorial Museum on the corner is a serious, worthwhile indoor stop.",
+      "bestTimes": [
+        "morning",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 9.0105,
+      "lng": 38.7615,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Meskel Square",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Heavy, fast traffic on all sides: cross by the underpass or marked crossings. The steps are lit at night and there are usually plenty of people; the concrete gets slippery in the rains."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title confirmed: en.wikipedia.org/wiki/Abrehot_Library appeared in results. The library's own site states the building is open to the public 24/7 with office services Mon-Sat 8am-5pm; hours field says so with a check-site caveat since 24h access may vary in practice. Coordinates from memory for the site opposite the parliament in Arat Kilo, medium confidence.",
+      "name": "Abrehot Library",
+      "neighborhood": "Arat Kilo",
+      "category": "library",
+      "vibes": [
+        "study",
+        "quiet",
+        "rain-ok",
+        "free",
+        "solo",
+        "cozy"
+      ],
+      "blurb": "The largest library in Ethiopia, opened in 2022 on a 19,000 square metre site beside the parliament, with reading halls for more than 2,000 people, a children's wing, a cafe and long tables of students working under high ceilings. It is the place Addis goes to study, and a visitor can register at the desk and sit down with a laptop or a book like anyone else. The upper reading rooms are silent and look out over the trees of Arat Kilo.",
+      "tips": "Bring photo ID to register at reception; bags may go through a check. The ground-floor halls fill with students during exam season, so head upstairs for space. The cafe is the easy place to sit if you do not want to register. Signs and staff use Ethiopian 12-hour time as well as Western time, so confirm which one you are being told.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "24h per library site; office services Mon-Sat 8am-5pm (check site)",
+      "lat": 9.032,
+      "lng": 38.766,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Abrehot Library",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Abrehot_Library",
+          "label": "Wikipedia: Abrehot Library",
+          "kind": "other"
+        },
+        {
+          "url": "https://library.abrehot.org.et/",
+          "label": "Abrehot Library catalogue and hours",
+          "kind": "official"
+        },
+        {
+          "url": "https://abrehot.org.et/",
+          "label": "Abrehot Library official site",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building with security screening at the entrance, on a lit main road next to government buildings."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched; national museum written from knowledge. Wikipedia title 'National Museum of Ethiopia' kept on high confidence, not URL-confirmed. Hours approximate. Coordinates high confidence for the museum compound on King George VI Street.",
+      "name": "National Museum of Ethiopia",
+      "neighborhood": "Arat Kilo / Sidist Kilo",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "green",
+        "solo",
+        "cozy"
+      ],
+      "blurb": "Home of the Lucy fossil cast, but the reason to come for an hour is the walled compound around it: a shady garden of sculptures and old trees between the museum and the Lucy restaurant, where staff and students sit out and hardly anyone hurries. Inside, the paleoanthropology basement is cool and dim, and the upper floors of 20th-century Ethiopian painting are usually nearly empty. It is small enough that you never feel obliged to see everything.",
+      "tips": "Pay the modest entrance fee at the gate; the garden benches and cafe terrace are the best sitting spots and the terrace is fine to use for a coffee. Mornings are quietest before tour groups arrive. Combine with Abrehot Library or the Ethnological Museum a short walk uphill.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly 8:30am-5:30pm daily (check site)",
+      "lat": 9.0375,
+      "lng": 38.7614,
+      "coordConfidence": "high",
+      "wikipediaTitle": "National Museum of Ethiopia",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Walled, staffed compound on a main road with bag checks at the gate; closes before dark."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched; written from knowledge. The museum is run by the Institute of Ethiopian Studies in Haile Selassie's former palace on the Addis Ababa University main campus; public access via the campus gate normally requires showing ID. Hours approximate. English Wikipedia title uncertain, left null. Coordinates for the palace building medium confidence.",
+      "name": "Ethnological Museum (Institute of Ethiopian Studies)",
+      "neighborhood": "Sidist Kilo",
+      "category": "museum",
+      "vibes": [
+        "quiet",
+        "green",
+        "rain-ok",
+        "study",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "Emperor Haile Selassie's former Guenete Leul palace, now the main campus of Addis Ababa University and home to the Ethnological Museum upstairs and the Institute of Ethiopian Studies library downstairs. The lawns and old trees in front of the palace steps are where students read between lectures, and the museum's rooms of household objects, musical instruments and icons are calm even on a weekend. The emperor's bedroom is preserved on the first floor.",
+      "tips": "Enter the campus by the Sidist Kilo main gate with photo ID and walk straight up to the palace; the ticket desk is inside the front door. The garden benches and the lion statues on the steps are free to sit at. Weekday mornings during term are livelier; weekend mornings are nearly silent.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly Mon-Fri 8am-5pm, Sat-Sun 9am-5pm (check site)",
+      "lat": 9.041,
+      "lng": 38.7625,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Gated, guarded university campus with ID checks at the entrance; paved paths and daylight-only visiting."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, Tue-Sun opening (closed Mon) and 150 birr adult ticket confirmed by search (zomamuseum.org and directories); closing time reported as either 6:30pm or 8pm, so 6:30pm is used with a caveat. English Wikipedia title not seen, left null. Coordinates from memory for the Mekanisa site, medium confidence.",
+      "name": "Zoma Museum",
+      "neighborhood": "Mekanisa",
+      "category": "museum",
+      "vibes": [
+        "green",
+        "quiet",
+        "cozy",
+        "hidden",
+        "solo",
+        "rain-ok",
+        "picnic"
+      ],
+      "blurb": "An art museum and garden built by artist Elias Sime and curator Meskerem Assegued in Mekanisa, on the south-western edge of the city, out of sculpted mud, straw and stone. Galleries of contemporary Ethiopian work sit among vegetable terraces, a vernacular-architecture garden, a children's school and a small cafe that uses produce from the grounds. Most of the site is outdoors and quietly landscaped, so it works as a garden to sit in as much as a museum to look at.",
+      "tips": "Take a taxi or ride-hail, since it is a long way from any centre and hard to find on foot; the entrance is off the Mekanisa road. Pay the entrance fee at the gate and head for the terraces behind the main galleries for benches with nobody around. Check the website for temporary closures and events before going out.",
+      "bestTimes": [
+        "afternoon",
+        "morning"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Tue-Sun 10am-6:30pm, closed Mon (check site)",
+      "lat": 8.977,
+      "lng": 38.7215,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.zomamuseum.org/",
+          "label": "Zoma Museum official site",
+          "kind": "official"
+        },
+        {
+          "url": "https://momaa.org/directory/zoma-museum-addis-ababa/",
+          "label": "MoMAA directory: Zoma Museum",
+          "kind": "other"
+        },
+        {
+          "url": "https://alladdisevents.com/venue/zoma-museum/",
+          "label": "All Addis Events: Zoma Museum",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, walled site with uneven stone and earth paths that get muddy in the rainy season. It is far from transit, so arrange your ride back before closing."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence confirmed by the research stage (Addis Ababa city government landmark page, 15 ha, Debre Zeit Road). Review stage search returned a geoview listing giving 8 57 18 N, 38 45 14.76 E (about 8.955, 38.754) in Nifas Silk-Lafto Kebele 27 next to Kaliti; the pin was moved 1.4 km from the researcher guess and is now medium confidence (the listing is third-party, not surveyed). Hours and fee remain from knowledge, approximate. No Wikipedia title.",
+      "name": "Bihere Tsige Park",
+      "neighborhood": "Nifas Silk-Lafto / Debre Zeit Road",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "picnic",
+        "group",
+        "walk",
+        "solo"
+      ],
+      "blurb": "A 15-hectare walled garden of old indigenous and exotic trees, flower beds and lawns on the Debre Zeit Road in the south of the city, in use for decades and still the park many Addis residents grew up picnicking in. It is far enough from the centre that visitors are almost all locals: students on the grass, extended families with food, couples on the shaded benches. Birds are the main noise.",
+      "tips": "Take a minibus or ride-hail south on Debre Zeit Road towards Kaliti and ask for Bihere Tsige; the park is in Nifas Silk-Lafto next to Kaliti and a small entrance fee is paid at the gate. Weekday afternoons are quiet, weekends and holidays are busy. Bring your own food and water and leave before the gates shut around dusk.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "varies (roughly 8am-6pm daily)",
+      "lat": 8.955,
+      "lng": 38.7541,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://cityaddisababa.gov.et/en/landmarks/bihere-tsige-",
+          "label": "Addis Ababa City Government: Bihere Tsige",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.researchgate.net/publication/392030421_Visitors'_fondness_and_satisfaction_to_urban_recreational_parks_the_case_of_Bihere-Tsige_Park_Addis_Ababa_Ethiopia",
+          "label": "ResearchGate: visitor study of Bihere-Tsige Park",
+          "kind": "other"
+        },
+        {
+          "url": "https://us.trip.com/travel-guide/attraction/addis-ababa/bihere-tsige-park-137752311/",
+          "label": "Trip.com: Bihere Tsige Park",
+          "kind": "other"
+        },
+        {
+          "url": "https://et.geoview.info/bihere_tsige_park,151360145w",
+          "label": "GeoView: Bihere Tsige Park coordinates",
+          "kind": "other"
+        },
+        {
+          "url": "https://addisgreenspace.wordpress.com/2010/09/22/bihere-tsige/",
+          "label": "A Guide to the Green Spaces of Addis Ababa: Bihere Tsige",
+          "kind": "blog"
+        },
+        {
+          "url": "https://wanderlog.com/place/details/10437415/bihere-tsige-public-park",
+          "label": "Wanderlog: Bihere Tsige Public Park",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Walled, gated park that closes around dusk; paths are unlit, so leave before dark. The road outside is a busy highway with fast traffic, so cross carefully."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched; long-running coffee bar (est. 1953) on Wavel Street in Piazza, written from knowledge. Hours approximate. English Wikipedia title uncertain, left null. Coordinates medium confidence for the Wavel Street shop.",
+      "name": "Tomoca Coffee (Wavel Street)",
+      "neighborhood": "Piazza (Arada)",
+      "category": "cafe",
+      "vibes": [
+        "people-watch",
+        "cozy",
+        "rain-ok",
+        "solo",
+        "quiet"
+      ],
+      "blurb": "The original 1953 Tomoca roastery and coffee bar in Piazza, a narrow wood-panelled room with a map of the coffee regions on the wall, sacks in the window and regulars standing at high tables over macchiatos for about the price of a bus ride. There are only a few stools, so it is more a place to pause than to camp, but twenty minutes here with a cup and a newspaper is one of the city's small rituals. The smell alone is worth the trip.",
+      "tips": "Order at the counter and pay in cash; a macchiato is the classic. Mid-morning and late afternoon are the social hours, early morning is calmest. Nearby Piazza has several other old Italian-era cafes and pastry shops if you want a proper table.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly 7am-8pm daily (check site)",
+      "lat": 9.0345,
+      "lng": 38.7505,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed shop on a busy commercial street; pavements outside are uneven and crowded, and the street is lit in the evening. Standing room only, so there is nowhere to set bags down."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched; French cultural centre with garden cafe and media library on Wavel Street, Piazza, written from knowledge. Hours and current public-access rules not confirmed, marked 'varies'. Coordinates medium confidence.",
+      "name": "Alliance Ethio-Francaise",
+      "neighborhood": "Piazza (Arada)",
+      "category": "other",
+      "vibes": [
+        "green",
+        "cozy",
+        "rain-ok",
+        "quiet",
+        "study",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "The French cultural centre in Piazza, behind a wall on Wavel Street: a leafy courtyard garden with a cafe, an exhibition space, a small cinema and a library. It has been a fixture of the city's arts scene for decades and the garden cafe is one of the few places downtown where you can sit under trees with a coffee and a book without traffic in view. Exhibitions and concerts are frequent and often free.",
+      "tips": "Walk in through the gate on Wavel Street; the garden cafe is open to anyone, while the library may ask for membership to borrow. Check the programme online for free openings and screenings. Quietest on weekday afternoons, lively on event evenings.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "varies (check site)",
+      "lat": 9.0352,
+      "lng": 38.752,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Walled compound with a guard at the gate and a staffed cafe; on a busy central street with good street lighting."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review stage search returned en.wikipedia.org/wiki/Holy_Trinity_Cathedral,_Addis_Ababa (comma form; the researcher title with parentheses was wrong and would have shown no photo) and Wikipedia coordinates 9.0308, 38.7666, so the pin was moved about 400 m and set to high. Interior ticket vs free grounds, and the 8am-6pm grounds hours, are from knowledge and approximate.",
+      "name": "Holy Trinity Cathedral grounds",
+      "neighborhood": "Arat Kilo",
+      "category": "other",
+      "vibes": [
+        "quiet",
+        "green",
+        "solo",
+        "walk",
+        "free"
+      ],
+      "blurb": "The grounds of the 1940s cathedral where Haile Selassie and Sylvia Pankhurst are buried: a walled compound of old trees, memorials and gravel paths east of the parliament, quiet apart from chanting at service times and pilgrims in white shawls. The cathedral interior is ticketed, but the grounds and the benches under the trees are open, and locals come to sit, pray or read. It is a good counterpoint to the traffic of Arat Kilo a few minutes away.",
+      "tips": "Enter by the main gate off the road behind the parliament; dress modestly and remove shoes if you go inside. Early morning has the most atmosphere and the fewest visitors. Sunday and feast-day mornings fill the compound with worshippers, so go on a weekday if you want quiet.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 8am-6pm daily (grounds)",
+      "lat": 9.0308,
+      "lng": 38.7666,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Holy Trinity Cathedral, Addis Ababa",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Holy_Trinity_Cathedral,_Addis_Ababa",
+          "label": "Wikipedia: Holy Trinity Cathedral, Addis Ababa",
+          "kind": "other"
+        },
+        {
+          "url": "https://visitethiopia.et/space/holy-trinity-cathedral",
+          "label": "Visit Ethiopia: Holy Trinity Cathedral",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Walled, gated compound with guards, closed at night; gravel paths and steps are uneven."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence confirmed by the research stage (Tripadvisor, Sprudge, Facebook; est. 2016, Bole Kebele 42). Review stage search returned the address Jacros - Salite Mehret Road, behind the Jackros Villas compound (Waze, Yandex listings), so the researcher pin near the Rwanda embassy was wrong by roughly a kilometre and was moved to the Jacros area; still medium confidence because no listing gave numeric coordinates. Hours from knowledge, approximate.",
+      "name": "Galani Coffee",
+      "neighborhood": "Bole (Jacros)",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "study",
+        "quiet",
+        "solo",
+        "group",
+        "hidden"
+      ],
+      "blurb": "A roastery and cafe in a converted warehouse in Bole, with high ceilings, long wooden tables, plants, a small gallery wall and some of the best-sourced single-origin Ethiopian coffee in the city. It opened in 2016 and became the default working-from-a-cafe spot for the neighbourhood: laptops in the morning, long conversations in the afternoon, and nobody moved on. Rain on the metal roof makes it better, not worse.",
+      "tips": "Ask a ride-hail driver for Galani Coffee at Jacros, on the Salite Mehret road behind the Jackros Villas compound; it is set back from the road, so look for the sign. Order at the counter; pour-overs take a while. Weekday mornings are quietest, weekend brunch is busy.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly 7am-9pm daily (check site)",
+      "lat": 9.006,
+      "lng": 38.804,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g293791-d8374878-Reviews-Galani_Coffee-Addis_Ababa.html",
+          "label": "Tripadvisor: Galani Coffee",
+          "kind": "forum"
+        },
+        {
+          "url": "https://sprudge.com/the-sprudge-guide-to-coffee-in-addis-ababa-269581.html",
+          "label": "Sprudge guide to coffee in Addis Ababa",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.facebook.com/GalaniCoffee/",
+          "label": "Galani Coffee Facebook page",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.waze.com/live-map/directions/et/addis-ababa/addis-ababa/galani-coffee?to=place.ChIJBwcN3DSFSxYRTgyrT2-XSx4",
+          "label": "Waze: Galani Coffee, Jacros - Salite Mehret Rd",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed cafe in a walled compound; the side street outside has limited lighting after dark, so book a ride from the door in the evening."
+      },
+      "lowkeyScore": 4
+    }
+  ]
+}

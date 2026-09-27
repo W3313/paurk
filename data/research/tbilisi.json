@@ -1,0 +1,658 @@
+{
+  "city": "Tbilisi",
+  "country": "Georgia",
+  "slug": "tbilisi",
+  "region": "europe-africa",
+  "cityLat": 41.7151,
+  "cityLng": 44.8271,
+  "timezone": "Asia/Tbilisi",
+  "searchesRun": [
+    "Mziuri Park Tbilisi Vake reopened",
+    "Dedaena Park Tbilisi Dry Bridge river",
+    "National Parliamentary Library of Georgia Gudiashvili street reading room visitors registration",
+    "Prospero's Books Caliban's Coffeehouse Rustaveli Avenue Tbilisi opening hours",
+    "Writers' House of Georgia Machabeli street garden cafe visit",
+    "Chronicle of Georgia monument Tbilisi Sea wikipedia",
+    "Mushtaidi Garden Tbilisi wikipedia",
+    "Lisi Lake Tbilisi walking path wikipedia",
+    "Chronicle of Georgia monument Tbilisi coordinates 41.77 44.82",
+    "National Library of Georgia Gudiashvili street Tbilisi coordinates",
+    "\"Turtle Lake\" Tbilisi wikipedia Kus Tba",
+    "Writers' House of Georgia 13 Machabeli coordinates Cafe Littera open 2026"
+  ],
+  "redditSourcedNotes": "Two stages, twelve web searches in total, all listed in searchesRun. RESEARCH STAGE (8 searches) confirmed: Mziuri reopened in June 2020 after the 2015 flood (EEAS page); Dedaena Park is on the right bank by the Dry Bridge and was recently renovated (georgia.travel and others); Prospero's Books & Caliban's Coffee is at 34 Rustaveli Ave, 9:30am-9pm (In Your Pocket); the Writers' House is at 13 Machabeli St with Cafe Littera in its garden; and en.wikipedia articles for Chronicle of Georgia, Mushthaid Garden, Lisi Lake, National Library of Georgia and Writers' House of Georgia appeared as result URLs. REVIEW STAGE (4 searches): en.wikipedia.org and every other outbound host were blocked by the network proxy, so no source URL could be opened directly and none was re-read; the review relied on search-result snippets and prior knowledge. Outcomes: (1) Chronicle of Georgia's Wikipedia coordinate as quoted in the result (41.7705, 44.8104) is about 900 m from the draft pin, so the pin moved to the Wikipedia value and confidence was lowered from high to medium because the two positions disagree; (2) the National Library address (Gudiashvili/Purtseladze, nos. 3-7) was reconfirmed but no coordinates were found, and the draft pin sat on Rustaveli Avenue, so it was moved about 300 m to the Gudiashvili block from knowledge; (3) 'Turtle Lake (Tbilisi)' was confirmed as the exact article title and set; (4) the Writers' House address was reconfirmed and Cafe Littera appears to be trading in 2026 per a Gault&Millau listing, but a Culinary Backstreets piece about its uncertain future also surfaced, so the tip says to check. Writers' House and Prospero's pins were nudged 100-200 m from knowledge of their streets. The Mushtaidi tip's unverified 'Mayakovski Street' entrance was replaced with the Tsabadze Street side. Spots never covered by any search (Vake Park apart from one incidental result, National Botanical Garden, Mtatsminda Pantheon, Simon Janashia Museum, Tbilisi Sea) remain written from prior knowledge with sources [] or a single incidental source, and their Wikipedia titles (Vake Park, National Botanical Garden of Georgia, Mtatsminda Pantheon, Simon Janashia Museum of Georgia, Tbilisi Sea) are from memory, not URL-confirmed; Mtatsminda Pantheon's article did appear as an incidental result URL in the review stage. No reddit content was read in either stage; nothing is attributed to locals. Source URLs are only ones that appeared in a search result in one of the two stages; they could not be resolved from this environment, so a reader should expect some to have moved. Coordinates: only Lisi Lake is high confidence; Mziuri is low (long ravine park, pin position along it uncertain); everything else is medium with expected error of up to a few hundred metres. Hours are approximate throughout; Botanical Garden, Pantheon, Mushtaidi gate, museum and library hours in particular should be checked. Safety notes were read against the standard and none needed rewriting: they describe lighting, gradients, closing times, staffing, water and isolation only. The two cautions (Chronicle of Georgia, Tbilisi Sea shore) rest on unlit, unstaffed, exposed sites with no transit after dark.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Existence confirmed incidentally (georgia.to Vake Park page appeared in the Mziuri search). Coordinates and hours from memory; pin is at the Chavchavadze Avenue entrance area. Wikipedia title from memory, not URL-confirmed.",
+      "name": "Vake Park",
+      "neighborhood": "Vake",
+      "category": "park",
+      "vibes": [
+        "green",
+        "walk",
+        "people-watch",
+        "quiet",
+        "solo",
+        "group",
+        "free",
+        "night"
+      ],
+      "blurb": "The big Soviet-era park at the western end of Chavchavadze Avenue, laid out as a long axis of fountains and stairs climbing to a war memorial, with wooded slopes on either side. Vake residents use it the way other cities use a town square: early runners, chess players, grandparents on benches, teenagers after school. The formal centre is busy, but the shaded paths that zigzag up the hillside are where you can sit for an hour without anyone passing.",
+      "tips": "Take bus or marshrutka along Chavchavadze to the terminus and walk in past the fountains; the benches on the upper terraces by the memorial look back down over the park and Vake's rooftops. From the top a road and a path continue up to Turtle Lake, so the two pair well.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 41.7078,
+      "lng": 44.75,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Vake Park",
+      "sources": [
+        {
+          "url": "https://georgia.to/en/places-to-go/tbilisi/vake-park/",
+          "label": "georgia.to: Vake Park",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Main axis and lower paths are lit and used late; the wooded side paths are unlit, so keep to the central stairs after dark."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review-stage search returned the en.wikipedia article 'Turtle Lake (Tbilisi)' and georgia.travel's Turtle Lake page, confirming a public lake on the northern slope of the Mtatsminda ridge at about 687 m with a swimming season in summer. Coordinates from memory of the lake's position (consistent with Wikipedia's 41°42'10\"N 44°44'35\"E as remembered); medium. Cable car hours not confirmed.",
+      "name": "Turtle Lake (Kus Tba)",
+      "neighborhood": "Vake (hills above the park)",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "green",
+        "walk",
+        "sunset",
+        "view",
+        "solo",
+        "group",
+        "free"
+      ],
+      "blurb": "A small reservoir in the hills above Vake, reached by a cable car from the park or a winding road, with a 1.5 km path circling the water and cafes along one shore. It sits a few hundred metres higher than the city, so summer evenings are noticeably cooler and the far side of the loop, away from the cafes, is quiet even on weekends. Locals walk laps, swim in season and sit on the wall watching the light go off the hills.",
+      "tips": "The cable car from Vake Park runs only in daytime and closes on windy days; a taxi or the walk up from the park's top takes about 25 minutes. Head to the wooded eastern side of the loop for empty benches, and bring a layer, since it is windier than downtown.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (cable car and cafes daytime only)",
+      "lat": 41.7028,
+      "lng": 44.7442,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Turtle Lake (Tbilisi)",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Turtle_Lake_(Tbilisi)",
+          "label": "Wikipedia: Turtle Lake (Tbilisi)",
+          "kind": "other"
+        },
+        {
+          "url": "https://georgia.travel/turtle-lake",
+          "label": "Georgia Travel: Turtle Lake",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "The loop path is lit near the cafes but not all the way round, and the road down to Vake is unlit with no pavement; plan a taxi or leave before dark."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed the park reopened in June 2020 after the 2015 flood, with bike paths, artificial lake and playgrounds (EEAS). Coordinates are LOW confidence: Mziuri is a long ravine park between Vake and Vera under Chavchavadze Avenue and I am not sure where along it this pin falls. No English Wikipedia article confirmed, so null.",
+      "name": "Mziuri Park",
+      "neighborhood": "Vake / Vera (Vere river gorge)",
+      "category": "park",
+      "vibes": [
+        "green",
+        "water",
+        "walk",
+        "quiet",
+        "free",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "A long, narrow park running along the Vere river gorge below Chavchavadze Avenue, originally built in the 1980s as a children's park and rebuilt after the 2015 flood destroyed it. The renovation gave it bike paths, a small artificial lake, a skate park and new bridges, but the point for a quiet hour is the gorge itself: you drop a few flights of stairs from busy Vake streets and the traffic noise disappears under the trees. Weekday mornings it is mostly dog walkers and parents with prams.",
+      "tips": "Stairs lead down from several points on Chavchavadze Avenue and from the Vake side streets; the lake end is the busiest, so walk further along the river for benches with nobody around. Paths are paved and flat once you are down in the gorge.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 41.7115,
+      "lng": 44.762,
+      "coordConfidence": "low",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.eeas.europa.eu/delegations/georgia/tbilisi-mziuri-park-reopened-eu-support_en",
+          "label": "EU Delegation: Mziuri Park reopened",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.reinisfischer.com/mziuri-park-tbilisi",
+          "label": "Reinis Fischer: Mziuri Park",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Sunk in a gorge below street level with limited sightlines from the road; the main paths are lit but the side paths are not, so go in daylight and use the main stair exits."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known public garden behind Narikala, written from knowledge (no search spent). Small entry fee applies; hours vary by season and should be checked. Coordinates from memory of the garden's lower section near the Botanikuri Street entrance. Wikipedia title from memory, not URL-confirmed.",
+      "name": "National Botanical Garden of Georgia",
+      "neighborhood": "Old Town / Sololaki (behind Narikala)",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "water",
+        "quiet",
+        "walk",
+        "solo",
+        "hidden",
+        "picnic"
+      ],
+      "blurb": "A 19th-century botanical garden filling the Tsavkisistskali gorge directly behind Narikala fortress, with a waterfall, old stone bridges and terraces of trees climbing the hillside. Most fortress visitors never come down here, so a ten-minute walk from the entrance puts you on a bench by the stream with birdsong and almost no people. The upper paths towards the Sololaki ridge are steeper and emptier still, and give views back over the Old Town.",
+      "tips": "Enter from the top of Botanikuri Street below the fortress (there is also an upper gate near the Mother of Georgia statue); pay the small fee at the kiosk and follow the stream upstream past the waterfall. Wear shoes for uneven paths and bring water, since there is little to buy inside.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "varies (roughly 9am-8pm summer, 10am-6pm winter, check site)",
+      "lat": 41.6875,
+      "lng": 44.8065,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "National Botanical Garden of Georgia",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Gated and staffed, closed after hours; paths are steep and uneven with unfenced drops by the stream, so mind footing and leave before closing."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known cemetery-terrace at the funicular's middle station, written from knowledge (no search spent on it). Coordinates from memory, consistent with the Wikipedia coordinate as remembered (41.6947, 44.788); medium. Hours approximate. The en.wikipedia article 'Mtatsminda Pantheon' appeared incidentally as a result URL in the review stage, so the title is URL-confirmed.",
+      "name": "Mtatsminda Pantheon",
+      "neighborhood": "Mtatsminda",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "quiet",
+        "skyline",
+        "sunset",
+        "solo",
+        "free",
+        "walk"
+      ],
+      "blurb": "The terrace around St David's church halfway up Mtatsminda, where Georgia's writers and public figures are buried and where the funicular pauses at its middle station. It is a cemetery, so people keep their voices down, and the wide ledge in front of the church looks straight over the Old Town roofs and the river. Locals come up on foot to light a candle, read a gravestone or two and sit on the wall while the city turns gold below them.",
+      "tips": "Get off the funicular at the middle station or walk up from the top of Mtatsminda Street via the steep lane and steps (about 20 minutes from Rustaveli). Sunset is the moment; the amusement park at the summit is the opposite of low-key, so stop here.",
+      "bestTimes": [
+        "golden-hour",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (roughly daytime to dusk; funicular runs later)",
+      "lat": 41.6947,
+      "lng": 44.7872,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Mtatsminda Pantheon",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mtatsminda_Pantheon",
+          "label": "Wikipedia: Mtatsminda Pantheon",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "The footpath up from Mtatsminda Street is steep and unlit; take the funicular after dark or descend before dusk."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed location (right bank by the Dry Bridge), post-war origin, recent renovation and skate park. Coordinates from memory of the park's position between the Dry Bridge and Saarbrucken Bridge. Unsure whether an exact English Wikipedia article exists, so null.",
+      "name": "Dedaena Park",
+      "neighborhood": "Mtatsminda district (right bank, Dry Bridge)",
+      "category": "park",
+      "vibes": [
+        "green",
+        "water",
+        "people-watch",
+        "walk",
+        "free",
+        "night",
+        "group",
+        "solo"
+      ],
+      "blurb": "A riverside park on the right bank of the Mtkvari beside the Dry Bridge, named for the 1978 demonstrations in defence of the Georgian language. It was renovated a few years ago with new lawns, a skate park and seating, and it is where the flea-market browsers, skaters and office workers from the nearby ministries end up sitting. The upper edge of the park is quiet and shaded even when the market is in full swing at the weekend.",
+      "tips": "Come on a weekday afternoon if you want it empty, or on Saturday morning to combine it with the Dry Bridge market next door. Benches along the river side face the left bank and the Saarbrucken Bridge; the skate park is at the far end if you want to watch rather than read.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 41.704,
+      "lng": 44.803,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://georgia.travel/family-attractions/dedaena-park",
+          "label": "Georgia Travel: Dedaena Park",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.livetheworld.com/activities/georgia/dedaena-park",
+          "label": "Live the World: Dedaena Park",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit, central and bordered by a busy embankment road; the river edge below the park has no railing in places, so stay on the park level at night."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Research-stage search confirmed history (1830s-40s, public since 1858), size (about 11 ha), the Silk Museum on site and the en.wikipedia article 'Mushthaid Garden' (that spelling). Coordinates from memory of the park north-west of Station Square, consistent with the article as remembered; medium. Review stage replaced the draft's unverified 'Mayakovski Street' entrance with the Tsabadze Street / Silk Museum side, which I am more confident of. Gate hours are a guess for a gated park.",
+      "name": "Mushtaidi Garden",
+      "neighborhood": "Didube / Chugureti (near Station Square)",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "solo",
+        "free",
+        "hidden",
+        "cozy"
+      ],
+      "blurb": "Tbilisi's oldest garden, laid out in the 1830s by an exiled Persian cleric and public since 1858, sitting between the railway and the north end of Aghmashenebeli Avenue. It has a children's railway that has run since Soviet times, huge old plane trees, the small State Silk Museum on its edge and almost no tourists, since it is well north of anything on the standard route. Neighbourhood pensioners play backgammon here and it is one of the calmest places to sit in the whole Didube-Chugureti area.",
+      "tips": "It is a five-minute walk from Station Square metro; the Silk Museum sits on the Tsabadze Street edge of the park and the gates on that side and on the Aghmashenebeli Avenue side are the easiest to find. Sit in the older, wooded northern half rather than by the playgrounds, and if it rains the Silk Museum is a small, oddly charming indoor option.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (gated park, roughly early morning to late evening)",
+      "lat": 41.7258,
+      "lng": 44.7911,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Mushthaid Garden",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mushthaid_Garden",
+          "label": "Wikipedia: Mushthaid Garden",
+          "kind": "other"
+        },
+        {
+          "url": "https://georgia.travel/family-attractions/mushtaidi-garden",
+          "label": "Georgia Travel: Mushtaidi Garden",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Walled and gated, with lit main paths; the tree cover makes the interior dark early in winter, so treat it as a daytime spot."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed a 3 km walking and cycling loop, cafes and playgrounds, and the en.wikipedia article 'Lisi Lake'. Coordinates are the lake centre from the Wikipedia article as remembered and consistent with the search; the loop is walkable from any shore.",
+      "name": "Lisi Lake",
+      "neighborhood": "Saburtalo / Lisi (western edge)",
+      "category": "trail",
+      "vibes": [
+        "water",
+        "walk",
+        "sunset",
+        "quiet",
+        "solo",
+        "free",
+        "green",
+        "stargaze"
+      ],
+      "blurb": "A shallow lake in the dry hills on the western edge of Saburtalo, ringed by a flat 3 km path that joggers and cyclists use before and after work. The west and north shores are bare hillside with wide skies, so sunsets are long and the light on the water is the point; the south shore has a few open-air cafes and playgrounds if you want company. It feels like countryside twenty minutes from the metro.",
+      "tips": "Take a taxi or bus from Saburtalo (Delisi metro is closest) to the south shore car park, then walk anticlockwise for the empty stretches. There is little shade, so go early or late in summer and carry water.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 41.7431,
+      "lng": 44.7347,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Lisi Lake",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Lisi_Lake",
+          "label": "Wikipedia: Lisi Lake",
+          "kind": "other"
+        },
+        {
+          "url": "https://moedani.online/en/blog/lisis-tba-tbilisi-rogor-mividet-da-ratom-uyvart-adgilobrivebs-79.html",
+          "label": "Moedani: Lisi Lake, how to get there",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Only the cafe shore is lit; the rest of the loop is unlit and far from any bus stop, so finish the circuit by dusk or bring a light and a ride home."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed the monument (Zurab Tsereteli, 1985, unfinished) on Keeni Hill by the Tbilisi Sea and the en.wikipedia article 'Chronicle of Georgia'. Review stage: the Wikipedia coordinate quoted in the search result (41.7705, 44.8104) is about 900 m west of the draft pin (41.7675, 44.8208), so the pin was moved to the Wikipedia value; because the two candidate positions disagree and the page itself could not be opened, confidence is medium, not high. Navigate to 'Chronicle of Georgia' by name once nearby.",
+      "name": "Chronicle of Georgia",
+      "neighborhood": "Nadzaladevi (hill above the Tbilisi Sea)",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "sunset",
+        "water",
+        "skyline",
+        "free",
+        "group",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "Sixteen enormous bronze-clad columns on a bare hilltop above the Tbilisi Sea, begun in 1985 and never finished, carved with kings, saints and scenes from the national epic. There is no ticket, no fence and usually only a handful of people, and the view runs across the reservoir one way and over the northern suburbs to the mountains the other. Locals drive up for sunset, sit on the steps under the columns and stay until the city lights come on.",
+      "tips": "It is about 8 km from the centre, so take a taxi (cheap) or bus to Tbilisi Sea and walk up the long staircase; there is nowhere to buy water, so bring some. The west-facing steps get the sunset, and the columns cast deep shade at midday.",
+      "bestTimes": [
+        "golden-hour",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 41.7705,
+      "lng": 44.8104,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Chronicle of Georgia",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Chronicle_of_Georgia",
+          "label": "Wikipedia: Chronicle of Georgia",
+          "kind": "other"
+        },
+        {
+          "url": "https://wander-lush.org/chronicles-of-georgia-tbilisi/",
+          "label": "Wander-Lush: visiting the Chronicles of Georgia",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Exposed, unlit hilltop with no staff, no transit after dark and a long open staircase; go in daylight or for sunset with a taxi arranged for the return, and keep off the high steps in wind."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Searches (both stages) confirmed the address (Buildings I-IV at Lado Gudiashvili and Anton Purtseladze streets, nos. 3, 5 and 7), the en.wikipedia article 'National Library of Georgia' and that some Building I reading halls were closed for reconstruction on indexed pages; no page gave coordinates and current registration rules or hours were not confirmed. Review stage moved the pin about 300 m south from the draft (which sat on Rustaveli Avenue near the museum) to the Gudiashvili Street block behind Freedom Square, from knowledge of the street; medium confidence.",
+      "name": "National Library of Georgia",
+      "neighborhood": "Sololaki (behind Freedom Square)",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "cozy",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "The national library occupies a run of ornate late-19th-century buildings on Gudiashvili and Purtseladze streets, a couple of blocks behind Freedom Square, with painted ceilings, tall windows and old wooden reading desks. Students and researchers use the reading halls all day, and it is the most beautiful free indoor space in the city to sit with a book when the weather turns. Some halls have been under reconstruction, so check which reading room is open before relying on a particular one.",
+      "tips": "Bring a passport or ID; a free reader card is issued at the entrance desk and a library staff member will point you to whichever reading hall is open. Phones on silent, bags in the cloakroom, and the courtyard between the buildings is a good spot for a break.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "varies (check site; closed Sundays)",
+      "lat": 41.6926,
+      "lng": 44.8,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "National Library of Georgia",
+      "sources": [
+        {
+          "url": "https://www.nplg.gov.ge/eng/Reading_Halls",
+          "label": "National Library of Georgia: reading halls",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/National_Library_of_Georgia",
+          "label": "Wikipedia: National Library of Georgia",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.nplg.gov.ge/eng/Location",
+          "label": "National Library of Georgia: locations",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building with security at the door; the surrounding streets are central and lit."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Research-stage search confirmed the address (34 Rustaveli Ave), daily hours 9:30am-9pm (In Your Pocket, possibly stale) and 2025-2026 listings suggesting it still trades. Review stage did not spend a search here; pin nudged about 100 m south-east so it sits on the even-numbered side of Rustaveli roughly opposite the Opera, from memory of the courtyard; medium. No English Wikipedia article, so null.",
+      "name": "Prospero's Books & Caliban's Coffee",
+      "neighborhood": "Rustaveli Avenue (Mtatsminda district)",
+      "category": "bookstore",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "study",
+        "quiet",
+        "solo",
+        "hidden",
+        "people-watch"
+      ],
+      "blurb": "An English-language bookshop and coffeehouse in a courtyard off Rustaveli Avenue, open since the late 1990s and for years the default meeting point for the city's readers, teachers and expats. You step through an archway from the avenue into a small yard with tables under a tree, with the shop rooms on one side and the coffee counter on the other. Nobody minds if you read for two hours over one cup, and the courtyard walls cut the avenue noise to a murmur.",
+      "tips": "The archway at number 34 is easy to miss; look for the small sign between the shops. Courtyard tables are the prize in good weather, the back room is quietest in the rain, and it is a five-minute walk from Rustaveli metro.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "9:30am-9pm daily (check site)",
+      "lat": 41.6996,
+      "lng": 44.7951,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.inyourpocket.com/tbilisi/Prosperos-Books-and-Calibans-Coffee-Shop_112671v",
+          "label": "In Your Pocket: Prospero's Books & Caliban's",
+          "kind": "press"
+        },
+        {
+          "url": "https://prosperosbookshop.com/",
+          "label": "Prospero's Books official site",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed shop on the city's main avenue, open until 9pm; the courtyard is lit."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Searches in both stages confirmed the address (13 Ivane Machabeli St, Sololaki), the 1903-05 Sarajishvili mansion by Karl Zaar, Cafe Littera in the rear garden and the en.wikipedia article 'Writers' House of Georgia'. Review stage: a Gault&Millau listing and a 2026-dated aggregator page suggest the cafe is still trading, but a Culinary Backstreets piece titled 'Cafe Littera ... Faces an Uncertain Future' also appeared, so check before relying on the cafe; the house and garden are a public institution regardless. Pin moved about 200 m north-west to the Machabeli Street block from knowledge of the street (no page gave coordinates); medium. Cafe hours not found.",
+      "name": "Writers' House of Georgia (garden)",
+      "neighborhood": "Sololaki",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "green",
+        "quiet",
+        "hidden",
+        "solo",
+        "group",
+        "rain-ok"
+      ],
+      "blurb": "An art nouveau mansion built for the brandy magnate David Sarajishvili in 1903-05, now the Writers' House, a public literary institution with a museum floor, readings and a shaded rear garden dominated by one huge pine. Cafe Littera serves in the garden and on the tiled terrace, and outside meal hours it is one of the calmest places in Sololaki to sit with a coffee under old trees. The rooms inside, with their stained glass and painted ceilings, are worth a slow wander when it rains.",
+      "tips": "Walk in through the front gate on Machabeli Street and go round the house to the garden; you do not need a reservation just to sit with a drink, but the cafe fills for dinner and its future has been reported as uncertain, so check it is open. The Writers' House programme lists evening readings, many in English.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": false,
+      "hours": "varies (check site)",
+      "lat": 41.6915,
+      "lng": 44.8003,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Writers' House of Georgia",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Writers'_House_of_Georgia",
+          "label": "Wikipedia: Writers' House of Georgia",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.livetheworld.com/post/writers-house-of-georgia-a-mysterious-palace-of-art-o1vd",
+          "label": "Live the World: Writers' House of Georgia",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.theworlds50best.com/discovery/Establishments/Georgia/Tbilisi/Caf%C3%A9-Littera.html",
+          "label": "50 Best Discovery: Cafe Littera",
+          "kind": "press"
+        },
+        {
+          "url": "https://ge.gaultmillau.com/en/restaurants/cafe-littera",
+          "label": "Gault&Millau: Cafe Littera",
+          "kind": "press"
+        },
+        {
+          "url": "https://culinarybackstreets.com/stories/tbilisi/cafe-littera-2",
+          "label": "Culinary Backstreets: Cafe Littera faces an uncertain future",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed venue inside a gated garden; Sololaki's streets are narrow with uneven pavements, so watch your step at night."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Main building of the Georgian National Museum at 3 Rustaveli Ave, written from knowledge (no search spent). Hours from memory of the standard Tue-Sun 10am-6pm pattern; check before going. Coordinates from memory; medium. Wikipedia title 'Simon Janashia Museum of Georgia' from memory, high confidence but not URL-confirmed.",
+      "name": "Simon Janashia Museum of Georgia",
+      "neighborhood": "Rustaveli Avenue (Mtatsminda district)",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "cozy",
+        "solo",
+        "study"
+      ],
+      "blurb": "The main building of the Georgian National Museum, a few steps from Freedom Square, best known for the basement treasury of Colchian gold and the top-floor exhibition on the Soviet occupation. Between school groups it is a calm, cool, high-ceilinged place to spend a rainy afternoon, and the galleries of medieval stonework and old photographs of Tbilisi are almost always empty. There are benches in most rooms and a small cafe.",
+      "tips": "Closed Mondays; go on a weekday afternoon after the tour groups leave the treasury. Buy a single ticket at the desk (small fee, discounts for students) and leave big bags in the cloakroom.",
+      "bestTimes": [
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Tue-Sun 10am-6pm, closed Mon (check site)",
+      "lat": 41.695,
+      "lng": 44.8,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Simon Janashia Museum of Georgia",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public museum on the main avenue with security at the entrance."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "The Tbilisi Sea reservoir appeared in the Chronicle of Georgia search results (8.75 km long, artificial lake). Written mainly from knowledge; the pin is on the south-western shore near the beach and club area and is medium confidence. Beach clubs on the shore charge entry; the public shoreline and dam road do not. Wikipedia title 'Tbilisi Sea' from memory, not URL-confirmed.",
+      "name": "Tbilisi Sea (south-west shore)",
+      "neighborhood": "Nadzaladevi / Gldani",
+      "category": "beach",
+      "vibes": [
+        "water",
+        "sunrise",
+        "sunset",
+        "quiet",
+        "walk",
+        "free",
+        "solo",
+        "stargaze"
+      ],
+      "blurb": "An 8 km reservoir on the northern edge of the city, built in the 1950s and used by Tbilisi as its beach in summer. The paid beach clubs take a stretch of the south-west shore, but the rest is open bank, a dam road you can walk along and wide water with bare hills behind, and outside July and August you will share it with anglers and almost nobody else. Sunrise comes straight across the water.",
+      "tips": "Take a taxi or bus from Sarajishvili or Ghrmaghele metro to the beach area, then walk along the shore away from the clubs for free, quiet bank. No shade and little to buy out of season, so bring water and a hat; pair it with the Chronicle of Georgia on the hill above.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (beach clubs seasonal, paid)",
+      "lat": 41.7625,
+      "lng": 44.8375,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Tbilisi Sea",
+      "sources": [
+        {
+          "url": "https://www.reinisfischer.com/chronicle-georgia-monument-near-tbilisi-sea",
+          "label": "Reinis Fischer: Chronicle of Georgia near Tbilisi Sea",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Unlit open shoreline with no lifeguards outside the paid beaches and no transit after dark; swim only in the marked areas in season and leave before dusk."
+      },
+      "lowkeyScore": 4
+    }
+  ]
+}

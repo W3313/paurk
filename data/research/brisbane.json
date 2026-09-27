@@ -1,0 +1,655 @@
+{
+  "city": "Brisbane",
+  "country": "Australia",
+  "slug": "brisbane",
+  "region": "asia-pacific",
+  "cityLat": -27.4698,
+  "cityLng": 153.0251,
+  "timezone": "Australia/Brisbane",
+  "searchesRun": [
+    "Wilson Outlook Reserve New Farm Brisbane lookout Story Bridge",
+    "Mt Gravatt Outlook Reserve Brisbane opening hours gate",
+    "Avid Reader bookshop West End Brisbane opening hours",
+    "Three Monkeys Coffee and Tea House Mollison Street West End Brisbane hours",
+    "State Library of Queensland opening hours",
+    "Sherwood Arboretum Brisbane wikipedia",
+    "Shorncliffe Pier wikipedia",
+    "Gallery of Modern Art Brisbane wikipedia Queensland Art Gallery Watermall",
+    "Wilson Outlook Reserve Bowen Terrace New Farm lookout Howard Smith Wharves lift",
+    "Brisbane Botanic Gardens Mount Coot-tha City Botanic Gardens Roma Street Parkland (site:en.wikipedia.org)",
+    "Kangaroo Point Cliffs New Farm Park Queensland Art Gallery Orleigh Park Brisbane (site:en.wikipedia.org)",
+    "Mount Gravatt Outlook Reserve gates locked closing time Brisbane City Council"
+  ],
+  "redditSourcedNotes": "Two stages, twelve web searches in total, and no reddit or other local-opinion pages read for this city, so the \"what locals use\" framing throughout comes from prior knowledge rather than sourced discussion. RESEARCH STAGE (8 searches) confirmed: Wilson Outlook Reserve is a Brisbane City Council park on Bowen Terrace with a lift to Howard Smith Wharves; Mount Gravatt Outlook Reserve gates are locked at 11pm (one listing said 7pm); Avid Reader at 193 Boundary St, Mon-Sat 8:30am-6pm, Sun 8:30am-5pm; The Three Monkeys still trading at 58 Mollison St with hours differing between listings; State Library of Queensland hours Mon-Thu 10am-8pm, Fri-Sun 10am-5pm; the exact en.wikipedia titles Sherwood Arboretum and Shorncliffe pier (lowercase p). REVIEW STAGE (4 searches, budget capped) re-checked the points most likely to be wrong. Direct lookups against the Wikipedia API and the OpenStreetMap geocoder were blocked by the network, so no coordinate could be map-verified: the three medium-confidence coordinates (Wilson Outlook, Avid Reader, The Three Monkeys) stay medium and are placed from street addresses and knowledge, and the rest are from knowledge of well-known sites, marked high only where the site is unmistakable. Wikipedia titles URL-confirmed in review: Brisbane Botanic Gardens, Mount Coot-tha; Kangaroo Point Cliffs; New Farm Park; Queensland Art Gallery. Two titles were changed to the form the search actually returned, because the app follows redirects and a confirmed URL beats a remembered title: City Botanic Gardens now uses \"Brisbane City Botanic Gardens\", and Roma Street Parkland uses \"Roma Street Parklands\" (plural). State Library of Queensland is the one title still resting on knowledge alone. Orleigh Park, Wilson Outlook Reserve, Mount Gravatt Outlook Reserve, Avid Reader and The Three Monkeys have null titles; a review search restricted to the Wikipedia domain did not surface an Orleigh Park article. The Mount Gravatt council URL was replaced with the one that appeared in the review results (the earlier path may have been an older address for the same page) and the heritage-register page was added; the 11pm gate time was confirmed a second time. Every source URL in the file appeared in a research- or review-stage result list; Wikipedia article URLs were added as sources where the review search returned them. Hours for the parks (\"24h\") follow Brisbane City Council practice from knowledge and were not checked park by park; Roma Street Parkland, Sherwood Arboretum and the Mount Coot-tha gardens hours are approximate. Safety screen: all 14 spots are public parks, a pier, a library, a gallery, a bookshop and a cafe; nothing involves crossing a fence, entering a closed site or leaving public land. All 14 safety notes were read against the standard and none needed rewriting: every note describes lighting, closing times, terrain, water or staffing, and the two cautions (Sherwood Arboretum, Mount Gravatt Outlook Reserve) rest on unlit paths and an unlit summit road.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Long-established public botanic garden at Gardens Point; open 24 hours per council practice (not checked per park). Review search returned the article at en.wikipedia.org/wiki/Brisbane_City_Botanic_Gardens, so that URL-confirmed form is used rather than the bare \"City Botanic Gardens\".",
+      "name": "City Botanic Gardens",
+      "neighborhood": "CBD (Gardens Point)",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "water",
+        "quiet",
+        "walk",
+        "solo",
+        "free",
+        "picnic",
+        "night"
+      ],
+      "blurb": "Brisbane's oldest garden fills the river bend at the bottom of the CBD, a five-minute walk from Queen Street but with its own weather: fig trees the size of buildings, bamboo groves, a duck pond and lawns that run down to the river. Office workers eat lunch on the grass and students from the QUT campus next door spread out under the figs. It never closes, and the river path is lit after dark.",
+      "tips": "Come in from Alice Street or along the Riverwalk from Eagle Street; the bamboo grove and the pond on the Alice Street side are the quietest corners, and the Riverwalk benches on the eastern edge face Kangaroo Point for the evening light. Free wifi near the rotunda.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -27.4753,
+      "lng": 153.0301,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Brisbane City Botanic Gardens",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Brisbane_City_Botanic_Gardens",
+          "label": "Wikipedia: Brisbane City Botanic Gardens",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Main paths and the Riverwalk are lit and well used into the evening; interior garden paths are dim after dark, so stay on the river side at night."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known public parkland above Roma Street station; overall parkland open daily, Spectacle Garden closes in the evening, so hours are given as varies (not checked against the council site). Review search returned the article at en.wikipedia.org/wiki/Roma_Street_Parklands (plural in the URL), so that URL-confirmed form is used.",
+      "name": "Roma Street Parkland",
+      "neighborhood": "Spring Hill / CBD",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "water",
+        "quiet",
+        "hidden",
+        "solo",
+        "walk",
+        "free",
+        "study"
+      ],
+      "blurb": "Sixteen hectares of subtropical garden built over old railway yards on the hill behind Roma Street station, with a lake, a fern gully, a rainforest walk and the very manicured Spectacle Garden. It is big enough and folded enough that you can lose the city entirely two hundred metres from the Transit Centre. Lawyers from the courts precinct and Spring Hill residents use it as a lunchtime and after-work park.",
+      "tips": "Enter from Parkland Boulevard beside the station or from Wickham Terrace and drop down; the benches around the lake and the Fern Gully boardwalk are the calmest, while the Spectacle Garden closes in the evening. Free parkland shuttle if the hill is too steep.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (parkland open daily; Spectacle Garden closes evenings, check site)",
+      "lat": -27.4622,
+      "lng": 153.0196,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Roma Street Parklands",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Roma_Street_Parklands",
+          "label": "Wikipedia: Roma Street Parkland",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed parkland with lit main paths; the gully boardwalks and steps are unlit and slippery after rain, so use the main paths after dark."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Public clifftop park on River Terrace, open 24 hours per council practice. Wikipedia title URL-confirmed by the review search (en.wikipedia.org/wiki/Kangaroo_Point_Cliffs). Coordinates from knowledge of the cliff line opposite the City Botanic Gardens.",
+      "name": "Kangaroo Point Cliffs Park",
+      "neighborhood": "Kangaroo Point",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "skyline",
+        "sunset",
+        "night",
+        "water",
+        "people-watch",
+        "free",
+        "group"
+      ],
+      "blurb": "A strip of grass along the top of the old quarry cliffs on the south bank, looking straight across the river at the CBD towers and the City Botanic Gardens. Locals bring takeaway and a rug at dusk, rock climbers work the floodlit cliff face below until late, and the whole thing costs nothing. It is a five-minute walk from the Story Bridge or a free ferry hop from Eagle Street.",
+      "tips": "Sit on the grass along River Terrace near the small kiosk for the widest skyline view; the stairs down to the riverside path are steep but lead to quieter benches at the base of the cliffs. Weekend evenings get busy with picnics, weekday mornings are near empty.",
+      "bestTimes": [
+        "golden-hour",
+        "night",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -27.4775,
+      "lng": 153.0336,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Kangaroo Point Cliffs",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kangaroo_Point_Cliffs",
+          "label": "Wikipedia: Kangaroo Point Cliffs",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Clifftop is fenced and floodlit at night, and the park stays populated late; keep to the fenced edge and use the lit stairs rather than shortcuts on the slope."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Two searches (research and review) both returned the Brisbane City Council park page for Wilson Outlook Reserve on Bowen Terrace, with a lift down to Howard Smith Wharves; a business listing in the review results gives the address as 231 Bowen Terrace. Coordinates are still from knowledge of the cliff line above the wharves, not from a map result, and could be 100 m off along Bowen Terrace, so medium. Geocoder lookups were blocked by the network. No English Wikipedia article found in either search.",
+      "name": "Wilson Outlook Reserve",
+      "neighborhood": "New Farm",
+      "category": "viewpoint",
+      "vibes": [
+        "hidden",
+        "view",
+        "skyline",
+        "sunset",
+        "night",
+        "water",
+        "quiet",
+        "free"
+      ],
+      "blurb": "A pocket of lawn and benches on the cliff at the end of Bowen Terrace, directly above Howard Smith Wharves, with the Story Bridge filling the whole view and the river curving away to the CBD. Most people below never notice it is there, so while the wharves fill up on a Friday night you can sit on the fence line above with a coffee and the same view. A public lift links it to the riverside path.",
+      "tips": "Walk along Bowen Terrace (the reserve is at about no. 231) from the Story Bridge end, or take the lift up from Howard Smith Wharves; the benches nearest the bridge have the best framing and the bridge lights come on at dusk. Small park, so bring your own everything.",
+      "bestTimes": [
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -27.4636,
+      "lng": 153.0398,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.brisbane.qld.gov.au/parks-and-recreation/parks-and-greenspaces/book-a-park-site/wilson-outlook-reserve",
+          "label": "Brisbane City Council: Wilson Outlook Reserve",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.mustdobrisbane.com/outdoors-parks-parks-z-lookouts/wilson-outlook-reserve-new-farm",
+          "label": "Must Do Brisbane: Wilson Outlook Reserve",
+          "kind": "blog"
+        },
+        {
+          "url": "https://www.tripadvisor.com.au/Attraction_Review-g255068-d17635437-Reviews-Wilson_s_Outlook_Reserve-Brisbane_Brisbane_Region_Queensland.html",
+          "label": "Tripadvisor: Wilson's Outlook Reserve",
+          "kind": "forum"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced lookout on a residential street with street lighting and the lit wharves below; the lift and stairs are the only way down the cliff."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Large heritage-listed riverside park beside the Brisbane Powerhouse; open 24 hours per council practice (not checked). Wikipedia title URL-confirmed by the review search (en.wikipedia.org/wiki/New_Farm_Park).",
+      "name": "New Farm Park",
+      "neighborhood": "New Farm",
+      "category": "park",
+      "vibes": [
+        "green",
+        "water",
+        "picnic",
+        "group",
+        "solo",
+        "walk",
+        "free",
+        "people-watch"
+      ],
+      "blurb": "The inner north's big riverside park: avenues of jacarandas, formal rose gardens, enormous figs with a treehouse playground built into them, and a long lawn running down to the river next to the Brisbane Powerhouse. On weekends it is full of picnics and dogs; on a weekday afternoon the riverbank benches under the figs are almost private. The Powerhouse foyer and cafe next door are the wet-weather fallback.",
+      "tips": "Take the CityCat to New Farm Park terminal and walk upstream past the Powerhouse for the quietest benches; the rose gardens near Brunswick Street are best in spring and the jacarandas in late October. Farmers market at the Powerhouse on Saturday mornings.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -27.4701,
+      "lng": 153.0511,
+      "coordConfidence": "high",
+      "wikipediaTitle": "New Farm Park",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/New_Farm_Park",
+          "label": "Wikipedia: New Farm Park",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Main paths and the Powerhouse forecourt are lit; the riverbank lawn is unlit and the bank drops straight to the water, so stay on the paths after dark."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Hours confirmed from the library's own site via the research-stage search: Mon-Thu 10am-8pm, Fri-Sun 10am-5pm. Wikipedia title from knowledge, high confidence; neither stage spent a search on it, so it is not URL-confirmed.",
+      "name": "State Library of Queensland",
+      "neighborhood": "South Brisbane (Cultural Centre)",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "study",
+        "quiet",
+        "view",
+        "water",
+        "cozy",
+        "solo",
+        "free"
+      ],
+      "blurb": "A big concrete-and-glass public library on the river at Kurilpa Point, with open reading terraces that look across the water to the CBD and a lot of free seating that nobody polices. Anyone can walk in and stay all day with a laptop or a book, and the upper levels get quieter as you climb. On a wet afternoon it is the most comfortable free room in the city.",
+      "tips": "Level 3 and 4 reading rooms are the quietest; the outdoor terraces and the Queensland Terrace on level 4 have the river view and shade. Free wifi and lockers, and the Library Cafe on the ground floor closes mid afternoon.",
+      "bestTimes": [
+        "afternoon",
+        "morning"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Thu 10am-8pm, Fri-Sun 10am-5pm",
+      "lat": -27.4712,
+      "lng": 153.0181,
+      "coordConfidence": "high",
+      "wikipediaTitle": "State Library of Queensland",
+      "sources": [
+        {
+          "url": "https://www.slq.qld.gov.au/visit/opening-hours",
+          "label": "State Library of Queensland: opening hours",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.slq.qld.gov.au/plan-my-visit/hours-transport-access",
+          "label": "State Library of Queensland: hours, transport and access",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building with security on the doors; the Cultural Centre forecourt outside is lit and busy until the theatres empty."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Free public gallery in the Cultural Centre. Wikipedia title URL-confirmed by the review search (en.wikipedia.org/wiki/Queensland_Art_Gallery). Hours (10am-5pm daily) and the Watermall description (indoor pool with sculptures, unrailed edge) are from knowledge; no search surfaced them.",
+      "name": "Queensland Art Gallery (Watermall)",
+      "neighborhood": "South Brisbane (Cultural Centre)",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "water",
+        "cozy",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "The older, quieter half of QAGOMA, a 1980s concrete gallery built around a long indoor pool called the Watermall, with sculptures standing in the water and daylight coming down from above. Entry to the collection is free, and the benches along the Watermall and in the sculpture courtyard are where South Bank workers go to sit in the cool on a hot day. Most visitors head for GOMA next door, which leaves this building calm.",
+      "tips": "Enter from the Cultural Centre forecourt by the Victoria Bridge end, walk straight through to the Watermall and take the benches at the far end near the sculpture courtyard. Free, no bag bigger than a daypack, and the cafe by the water is a quiet lunch spot.",
+      "bestTimes": [
+        "afternoon",
+        "morning"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "10am-5pm daily (check site for exhibition variations)",
+      "lat": -27.4729,
+      "lng": 153.0177,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Queensland Art Gallery",
+      "sources": [
+        {
+          "url": "https://artguide.com.au/gallery/queensland-art-gallery-and-gallery-of-modern-art/",
+          "label": "Art Guide Australia: QAG and GOMA",
+          "kind": "other"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Queensland_Art_Gallery",
+          "label": "Wikipedia: Queensland Art Gallery",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed, air-conditioned public gallery; the Watermall edge is unrailed, so watch small children near the water."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Independent bookshop trading since 1997; address and hours confirmed via search (193 Boundary St; Mon-Sat 8:30am-6pm, Sun 8:30am-5pm). Coordinates from the street address, medium confidence. No English Wikipedia article.",
+      "name": "Avid Reader",
+      "neighborhood": "West End",
+      "category": "bookstore",
+      "vibes": [
+        "rain-ok",
+        "cozy",
+        "solo",
+        "quiet",
+        "people-watch",
+        "free"
+      ],
+      "blurb": "West End's independent bookshop on Boundary Street, in business since the 1990s, with a small cafe at the back and a courtyard where people read for an hour over a coffee. It runs author events most weeks, so the shop feels like a neighbourhood room rather than a retailer, and staff are used to browsers who stay. A good rain-day anchor for the West End strip.",
+      "tips": "Take the 199 or 192 bus down Boundary Street; the cafe tables in the back courtyard are the calm spot, and the shop is busiest at Saturday lunchtime. Check the events calendar if you want an empty shop, or if you want the opposite.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Sat 8:30am-6pm, Sun 8:30am-5pm",
+      "lat": -27.4806,
+      "lng": 153.0107,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://avidreader.com.au/pages/6435-CONTACT",
+          "label": "Avid Reader: contact and hours",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.mustdobrisbane.com/shopping-books-independent/avid-reader-bookshop-west-end",
+          "label": "Must Do Brisbane: Avid Reader",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed shop on a busy, lit main street with frequent buses; closes early evening."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Long-running cafe at 58 Mollison St confirmed still trading via search (Broadsheet, own site, Yelp updated 2026); listings disagree on closing time so hours are given as approximate. Coordinates from the street address, medium confidence.",
+      "name": "The Three Monkeys",
+      "neighborhood": "West End",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "night",
+        "solo",
+        "group",
+        "study"
+      ],
+      "blurb": "A West End institution on Mollison Street, a dim, cushion-strewn coffee and tea house with Moroccan lamps, a leafy back courtyard and a menu that has barely changed in twenty years. It is one of the few places in Brisbane where you can sit over a pot of tea at nine on a weeknight without anyone hurrying you. Students, shift workers and people avoiding the pubs on Boundary Street all end up here.",
+      "tips": "Walk two minutes from Boundary Street; the back courtyard is the quiet zone and the front room is for people-watching. Order at the counter, and the chai and the cakes are the point. Hours vary by day, so check before a late visit.",
+      "bestTimes": [
+        "night",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly 9am-9pm Mon-Sat, 9am-7pm Sun, later some nights (check site)",
+      "lat": -27.4818,
+      "lng": 153.0117,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.broadsheet.com.au/brisbane/south-brisbane/restaurants/the-three-monkeys",
+          "label": "Broadsheet: The Three Monkeys",
+          "kind": "press"
+        },
+        {
+          "url": "https://thethreemonkeyscoffeeteahouse.com/",
+          "label": "The Three Monkeys: official site",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed cafe on a residential side street a short lit walk from Boundary Street buses; open into the evening."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Public riverside park in West End, open 24 hours per council practice; coordinates from knowledge of the Hill End riverbank, high confidence. No search spent on a Wikipedia title, so null.",
+      "name": "Orleigh Park",
+      "neighborhood": "West End (Hill End)",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunset",
+        "green",
+        "picnic",
+        "walk",
+        "quiet",
+        "solo",
+        "free"
+      ],
+      "blurb": "A long grassy park on the West End river bend, facing west across the water to Toowong and the Regatta, with huge old figs, a riverside path and a CityCat stop at each end. It is where West End goes at the end of the day: dog walkers, slacklines, someone with a guitar, and a lot of people just sitting on the bank watching the sun drop behind Mount Coot-tha. The kiosk near the ferry keeps it from being entirely wild.",
+      "tips": "Take the CityCat to West End terminal and walk downstream to the figs, or come along the riverside path from Davies Park. Benches under the trees on the upstream end are the quietest, and the west-facing bank is the sunset seat.",
+      "bestTimes": [
+        "golden-hour",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -27.4868,
+      "lng": 153.0042,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Riverside path is lit and the park is used until after dark in summer; the bank is unfenced and steep in places, so keep to the path at night."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title confirmed: en.wikipedia.org/wiki/Sherwood_Arboretum. Heritage-listed council park with river frontage confirmed via council and heritage-register results. Hours from knowledge; caution kept for the unlit riverbank.",
+      "name": "Sherwood Arboretum",
+      "neighborhood": "Sherwood",
+      "category": "park",
+      "vibes": [
+        "green",
+        "water",
+        "quiet",
+        "hidden",
+        "solo",
+        "walk",
+        "picnic",
+        "free"
+      ],
+      "blurb": "Fifteen hectares of native trees planted from 1925 along the river in the western suburbs, with an avenue of seventy-two kauri pines, a freshwater wetland full of birds and a long stretch of riverbank with almost nobody on it. It is a neighbourhood park rather than a destination, which is why on a weekday you can read under a hundred-year-old tree with only the lorikeets for company. Twenty minutes from the CBD by train to Sherwood.",
+      "tips": "Walk from Sherwood station down Sherwood Road to Turner Street; the benches on the river side beyond the wetland are the quietest, and the kauri avenue is the shaded route. No cafe, so bring a thermos.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies (open daily; check council site)",
+      "lat": -27.5308,
+      "lng": 152.9747,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Sherwood Arboretum",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sherwood_Arboretum",
+          "label": "Wikipedia: Sherwood Arboretum",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.brisbane.qld.gov.au/parks-and-recreation/botanic-gardens/sherwood-arboretum",
+          "label": "Brisbane City Council: Sherwood Arboretum",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "No lighting on the riverbank or wetland paths and few people after dusk; go in daylight, and the bank is muddy and steep near the water after rain."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Council botanic garden at the foot of Mount Coot-tha, free entry confirmed by the review search. Wikipedia title URL-confirmed (en.wikipedia.org/wiki/Brisbane_Botanic_Gardens,_Mount_Coot-tha). Hours (roughly 8am-5:30pm, earlier close in winter) are from knowledge and not checked.",
+      "name": "Brisbane Botanic Gardens, Mount Coot-tha",
+      "neighborhood": "Toowong / Mount Coot-tha",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "water",
+        "walk",
+        "solo",
+        "picnic",
+        "free"
+      ],
+      "blurb": "The city's main botanic garden at the foot of Mount Coot-tha, with a Japanese garden, a rainforest gully, a lagoon, a tropical dome and a lot of lawn between them. It is far enough out that it rarely feels busy outside school holidays, and the Japanese garden and the bamboo grove are the kind of place people come to sit alone for an hour. The planetarium is in the grounds if the weather turns.",
+      "tips": "Bus 471 from the city stops at the gate; head left to the Japanese garden and the lagoon for the quiet end, and avoid the lawn near the cafe on weekends. Gates close at 5:30pm in summer and 5pm in winter, so plan around that.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "8am-5:30pm (to 5pm Apr-Aug; check site)",
+      "lat": -27.4757,
+      "lng": 152.9758,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Brisbane Botanic Gardens, Mount Coot-tha",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Brisbane_Botanic_Gardens,_Mount_Coot-tha",
+          "label": "Wikipedia: Brisbane Botanic Gardens, Mount Coot-tha",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated, staffed garden that closes before dusk; the gully paths are steep and slippery when wet."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Both the research and review searches returned results saying the summit gates are locked at 11pm (one research-stage listing said 7pm, so a late visit still deserves a check). Council page and Brisbane Heritage Register entry for the reserve appeared in the review results. Coordinates from knowledge of the summit car park and lookout, high confidence. No exact English Wikipedia article for the reserve (only the suburb), so null.",
+      "name": "Mount Gravatt Outlook Reserve",
+      "neighborhood": "Mount Gravatt",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "skyline",
+        "sunset",
+        "night",
+        "stargaze",
+        "green",
+        "free",
+        "group"
+      ],
+      "blurb": "The southside's lookout: a bushland summit in Toohey Forest with a lawn, a small cafe and a wide view north over the suburbs to the CBD towers and Moreton Bay. It gets a fraction of Mount Coot-tha's traffic and is where people from the south drive up after dinner to sit on the wall and watch the city lights. Toohey Forest walking tracks start from the same car park.",
+      "tips": "Drive or cycle up Shire Road from Logan Road (there is no bus to the top); the wall on the north edge of the lawn has the view, and the cafe is open mornings to mid afternoon. Bring a jumper, it is windier than it looks.",
+      "bestTimes": [
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "summit gates reported locked at 11pm (check council site)",
+      "lat": -27.5395,
+      "lng": 153.0739,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.brisbane.qld.gov.au/clean-and-green/natural-environment-and-water/bushland-reserves/mount-gravatt-outlook-reserve",
+          "label": "Brisbane City Council: Toohey Forest and Mount Gravatt Lookout",
+          "kind": "official"
+        },
+        {
+          "url": "http://heritage.brisbane.qld.gov.au/heritage-places/1095",
+          "label": "Brisbane Heritage Register: Mount Gravatt Outlook Reserve",
+          "kind": "official"
+        },
+        {
+          "url": "https://brisbanekids.com.au/mount-gravatt-outlook-reserve-in-mt-gravatt-playground-with-city-views/",
+          "label": "Brisbane Kids: Mount Gravatt Outlook Reserve",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Isolated bushland summit reached by a narrow winding road with no footpath or lighting; the walking tracks are unlit, so go up by car or with lights, stay on the lawn and lookout after dark, and leave before the gates lock."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Wikipedia title confirmed as en.wikipedia.org/wiki/Shorncliffe_pier (lowercase p). Pier rebuilt and reopened March 2016 per results; public foreshore park with no closing time per council practice.",
+      "name": "Shorncliffe Pier and Moora Park",
+      "neighborhood": "Shorncliffe / Sandgate",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunrise",
+        "quiet",
+        "walk",
+        "solo",
+        "view",
+        "free",
+        "picnic"
+      ],
+      "blurb": "A 350-metre timber-decked pier reaching out into Bramble Bay from the low cliffs of Moora Park, on the bayside edge of the city about half an hour from the CBD by train. It faces east over the water to the Redcliffe peninsula, so this is where Brisbane comes for sunrise, and on a weekday morning the company is a few anglers and dog walkers. The foreshore path runs for kilometres in both directions if you want to keep walking.",
+      "tips": "Train to Shorncliffe station and walk five minutes down to the water; the rotunda at the end of the pier is the seat, and the benches on the Moora Park cliff above catch the breeze. There are cafes back along Sandgate's Brighton Road but nothing on the pier itself.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": -27.3271,
+      "lng": 153.0868,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Shorncliffe pier",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Shorncliffe_pier",
+          "label": "Wikipedia: Shorncliffe pier",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.brisbane.qld.gov.au/events-arts-and-culture/art-and-culture/heritage-trails/shorncliffe-heritage-trail",
+          "label": "Brisbane City Council: Shorncliffe Heritage Trail",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Pier has handrails and lighting, and the foreshore is used from before dawn; the deck is slippery when wet and there is no shade on the pier in the middle of the day."
+      },
+      "lowkeyScore": 3
+    }
+  ]
+}

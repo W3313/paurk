@@ -1,0 +1,618 @@
+{
+  "city": "Stockholm",
+  "country": "Sweden",
+  "slug": "stockholm",
+  "region": "europe-africa",
+  "cityLat": 59.3293,
+  "cityLng": 18.0686,
+  "timezone": "Europe/Stockholm",
+  "searchesRun": [
+    "Stockholms stadsbibliotek Odenplan renovering stängt öppettider 2026",
+    "Rönnells Antikvariat Birger Jarlsgatan 32 öppettider",
+    "Hallwylska museet öppettider fri entré innergård",
+    "Rosendals Trädgård Djurgården öppettider trädgårdskafé",
+    "Bergianska trädgården öppettider entré parken gratis",
+    "Vete-Katten Kungsgatan 55 öppettider konditori",
+    "Skinnarviksberget wikipedia Södermalm highest natural point",
+    "Evert Taubes terrass Riddarholmen wikipedia",
+    "Hagaparken Solna en.wikipedia Haga Park English article",
+    "Skinnarviksberget Södermalm hill en.wikipedia",
+    "Bergianska trädgården Bergius Botanic Garden Stockholm en.wikipedia",
+    "Kungliga biblioteket Humlegården öppettider lånekort legitimation 18 år läsesal"
+  ],
+  "redditSourcedNotes": "Two stages worked on this file. RESEARCH STAGE ran eight searches (the first eight in searchesRun), all on existence, current opening status, hours and Wikipedia titles; none were reddit threads, so the local-use claims in the blurbs rest on prior knowledge of the city. Outcomes there: Stockholm Public Library (Asplund's Stadsbibliotek at Odenplan) was found to be closed for renovation since midsummer 2024 with reopening planned for 2027-28, so it was dropped and the National Library in Humlegården used instead. Rönnells Antikvariat (Mon-Fri 10-18, Sat 12-16), Vete-Katten (Mon-Fri 7.30-20, Sat-Sun 9-19), Rosendals trädgårdskafé (daily 11-17) and Hallwyl Museum (Tue-Sun) had hours confirmed from their own sites; Hallwyl is marked paid because results said only under-19s enter free (Sweden ended free entry at state museums in 2023, so this is consistent). Bergianska outdoor garden confirmed free and open round the clock, greenhouses paid. SKEPTIC STAGE re-checked JSON validity, slug, all fourteen coordinates against the city centre (all within 7 km) and against known street positions (no corrections needed; medium confidence kept on the large parks, the 2 km promenade and the two street-address pins), and every safety note against the people/neighbourhood rule (none needed rewriting; all describe lighting, closing, unfenced edges or terrain). It then spent four searches: en.wikipedia.org confirmed the exact titles Hagaparken and Bergianska trädgården; a second en.wikipedia-only search for Skinnarviksberget again returned no article, so it stays null; kb.se confirmed the National Library card rule (over 18, valid ID) and that non-card visitors may use reading rooms when space allows, and those two kb.se pages were added as sources. Wikipedia titles now URL-confirmed: Hagaparken, Bergianska trädgården, Rosendals Trädgård, Vete-Katten, Hallwyl Museum. Still from knowledge only, kept on high confidence: Vitabergsparken, Tantolunden, Långholmen, Norr Mälarstrand, National Library of Sweden, Skogskyrkogården. Null: Skinnarviksberget, Evert Taubes terrass (Swedish article only), Rönnells. Sources: URLs are attached only where they appeared in a search result (now 8 of 14 spots); the skeptic could not re-fetch the research-stage URLs because outbound fetches other than search were blocked, so they were kept on the strength of the recorded queries and their official-site paths rather than re-verified. The other six spots keep empty sources arrays rather than invented ones. Hours for the National Library and the Skogskyrkogården visitor centre remain unread; all other hours come from the sites named above. Safety screen: all 14 are ordinary public places (parks, quays, a cemetery park, a library, a museum, a cafe, a bookshop); no trespass, derelict, industrial or rail land. Caution is set only for unfenced rock edges at Skinnarviksberget and for unlit paths after dark at Långholmen and Skogskyrkogården.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, free access and 24h status confirmed via Visit Stockholm and other search results (53 m, highest natural point in central Stockholm, part of Skinnarviksparken). Two searches (research stage and skeptic stage, the second restricted to en.wikipedia.org) surfaced no English article, so wikipediaTitle stays null rather than guessed. Coordinates from knowledge.",
+      "name": "Skinnarviksberget",
+      "neighborhood": "Södermalm (Hornstull / Zinkensdamm)",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "sunset",
+        "skyline",
+        "water",
+        "free",
+        "group",
+        "solo",
+        "picnic",
+        "night"
+      ],
+      "blurb": "A bare granite hilltop on the north edge of Södermalm, 53 metres up, with an open sweep across Riddarfjärden to the City Hall tower, Kungsholmen and the Old Town roofs. There is no tower, kiosk or fence, just rock, a few pines and whoever has brought a blanket, which is why it has stayed the neighbourhood's default sunset spot rather than a tour-bus stop. On summer evenings the whole ridge fills with small groups, and on a weekday morning you may have it alone.",
+      "tips": "Walk up from Zinkensdamm metro via Ludvigsbergsgatan or from Hornsgatan by the steps at Yttersta Tvärgränd; there are no railings and the rock is uneven, so wear flat shoes. Bring your own drinks (alcohol is banned in the park midnight to 7am) and a layer, since the top is exposed to the wind off the water.",
+      "bestTimes": [
+        "golden-hour",
+        "night",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 59.3195,
+      "lng": 18.053,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.visitstockholm.com/o/skinnarviksberget/",
+          "label": "Visit Stockholm: Skinnarviksberget",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.stockholm-online.de/en/skinnarviksberget/",
+          "label": "Stockholm Online: the rock viewpoint on Södermalm",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Unfenced rock with steep drops on the north side and no lighting on the summit; the granite is slippery when wet or icy, so keep back from the edge after dark and use the lit streets to descend."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known public park on Södermalm, from knowledge; not searched. Wikipedia title kept on high confidence but not URL-confirmed. Coordinates are for the hilltop by Sofia kyrka.",
+      "name": "Vitabergsparken",
+      "neighborhood": "Södermalm (SoFo)",
+      "category": "park",
+      "vibes": [
+        "green",
+        "quiet",
+        "view",
+        "picnic",
+        "solo",
+        "walk",
+        "free",
+        "sunset"
+      ],
+      "blurb": "A hilly park around Sofia kyrka on eastern Södermalm, with rocky outcrops, old wooden houses from the 18th century preserved along its edge and a small open-air stage used for free summer concerts. Locals from the SoFo streets come up here with a coffee to sit on the rocks facing west, and the slopes below the church are where the neighbourhood sunbathes. It is big enough to find an empty bench even on a warm Saturday.",
+      "tips": "Come up from Skånegatan or Malmgårdsvägen and head for the rocks on the western slope for the view over the rooftops; the lawns on the south side towards Vita bergen's old cottages are the quietest. Check the Parkteatern programme in summer if you want to avoid, or catch, a concert evening.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 59.3128,
+      "lng": 18.0868,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Vitabergsparken",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit main paths and residential streets on all sides; the rocky slopes are uneven and unlit, so stick to the paths after dark."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known public park and allotment area on Årstaviken, from knowledge; not searched. Wikipedia title kept on high confidence but not URL-confirmed. Pin is on the waterside path below the allotments; the park is large so treat it as an area.",
+      "name": "Tantolunden",
+      "neighborhood": "Södermalm (Hornstull / Zinkensdamm)",
+      "category": "park",
+      "vibes": [
+        "green",
+        "water",
+        "quiet",
+        "walk",
+        "picnic",
+        "solo",
+        "free",
+        "sunrise"
+      ],
+      "blurb": "A big, sloping park on the south shore of Södermalm that runs down to the bay of Årstaviken, with a hillside of tiny allotment cottages and their flower gardens above the waterside path. The lawns by the water are the classic Söder picnic ground, but the paths between the allotments and the benches along the shore towards Eriksdal stay calm even on the busiest summer day. Facing south over the water, it gets sun all day and a good view of the trains crossing the Årsta bridges.",
+      "tips": "Enter from Zinkensdamm or Hornstull metro and walk downhill to the water; follow the shore path east past the Tanto allotments for the quieter benches. There is a small kiosk and a beach in summer, and the whole shoreline is on a flat, pram-friendly path.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 59.3115,
+      "lng": 18.0455,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Tantolunden",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit shoreline path and busy with joggers and dog walkers; the water edge is unfenced and the allotment paths are unlit, so stay on the main path at night."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Public island park with a former prison (now hotel and hostel), from knowledge; not searched. Wikipedia title kept on high confidence but not URL-confirmed. Pin is on the north-shore beach (Långholmsbadet) area, medium confidence.",
+      "name": "Långholmen",
+      "neighborhood": "Södermalm (Hornstull / Långholmen)",
+      "category": "beach",
+      "vibes": [
+        "water",
+        "green",
+        "quiet",
+        "walk",
+        "sunset",
+        "solo",
+        "free",
+        "picnic",
+        "hidden"
+      ],
+      "blurb": "A long, wooded island off the west end of Södermalm, reached by a footbridge from Hornstull, with rocky bathing spots along its north shore, a small sandy beach and paths through old orchards around the former prison. Most of the island is nature and footpath, and from the western rocks you look out over Mälaren towards the Västerbron bridge and the sunset. In summer people swim from the rocks after work; the rest of the year it is dog walkers and one or two readers on the shore.",
+      "tips": "Cross Pålsundsbron from Hornstull or the footbridge under Västerbron and follow the shore path west; the flat rocks past the beach are the best sitting spots and face the evening sun. There is a cafe by the old prison in season, and swimming is unsupervised.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 59.3215,
+      "lng": 18.0295,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Långholmen",
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "Shore paths and rocks are unlit and the island empties after dusk; go in daylight or at golden hour and plan the walk back to Hornstull before dark. Unfenced water edge."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known quayside promenade on Kungsholmen, from knowledge; not searched. Wikipedia title kept on high confidence but not URL-confirmed. The promenade is 2 km long; pin is roughly midway near the Rålambshovsparken end, medium confidence.",
+      "name": "Norr Mälarstrand",
+      "neighborhood": "Kungsholmen",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "walk",
+        "view",
+        "skyline",
+        "quiet",
+        "solo",
+        "free",
+        "sunrise",
+        "night"
+      ],
+      "blurb": "A tree-lined quay running the length of Kungsholmen's south shore from the City Hall to Rålambshovsparken, with benches, moored houseboats and small lawns right at the water. Across Riddarfjärden you see the whole Södermalm ridge and the Old Town spires, and because the promenade is long the people spread out: a bench to yourself is usually a few minutes' walk away. Residents use it for the evening walk and the morning coffee, and it works in any season.",
+      "tips": "Start at Rådhuset metro or the City Hall and walk west with the water on your left; the section past Kungsholmstorg towards Rålambshovsparken is the calmest. A couple of seasonal cafe boats moor along the quay, and the path is flat and lit end to end.",
+      "bestTimes": [
+        "morning",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 59.3268,
+      "lng": 18.04,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Norr Mälarstrand",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit along its whole length with a residential street beside it; the quay edge is unfenced, so keep back from it when icy."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Large royal park in Solna, from knowledge. Skeptic search confirmed the English Wikipedia article is titled exactly Hagaparken (en.wikipedia.org/wiki/Hagaparken), so the title is URL-confirmed. Pin is near the Koppartälten and the great lawn, medium confidence for a park this size; coordinates from knowledge, not a map result.",
+      "name": "Hagaparken",
+      "neighborhood": "Solna (Haga)",
+      "category": "park",
+      "vibes": [
+        "green",
+        "water",
+        "quiet",
+        "walk",
+        "picnic",
+        "solo",
+        "group",
+        "free",
+        "sunset"
+      ],
+      "blurb": "An 18th-century English landscape park on the shore of Brunnsviken, just north of the city, with an enormous sloping lawn, the blue-and-gold Copper Tents, a ruined palace foundation and long lakeside paths. It is part of the Royal National City Park and big enough to swallow a Sunday's worth of visitors without feeling busy; the paths along the water towards the Echo Temple are where you go to be alone. Locals from Vasastan and Solna treat it as their back garden.",
+      "tips": "Take the metro to Odenplan and bus 515, or walk 20 minutes north from Odenplan along Brunnsviken; the great lawn faces east over the water and the Koppartälten cafe serves coffee in season. Head north past the Echo Temple for the quiet benches by the lake.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 59.3636,
+      "lng": 18.0353,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Hagaparken",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Large park with lit main paths near the entrances but unlit lakeside trails; stay on the lit paths after dark and note the last bus times back to Odenplan."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed the outdoor garden is open round the clock with free admission; greenhouses are paid (adults 100 kr, closed Mondays) and Victoriahuset is seasonal. Skeptic search confirmed the English Wikipedia title is exactly Bergianska trädgården (Bergius Botanic Garden is only a redirect). Coordinates from knowledge.",
+      "name": "Bergianska trädgården",
+      "neighborhood": "Norra Djurgården (Frescati)",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "water",
+        "quiet",
+        "walk",
+        "solo",
+        "picnic",
+        "free",
+        "rain-ok",
+        "hidden"
+      ],
+      "blurb": "Stockholm University's botanical garden on the shore of Brunnsviken, with a Japanese pond, an Italian terrace, a kitchen garden and long lawns running down to the water. The outdoor garden is free and never closes, so university staff and Frescati neighbours use it as an ordinary park, while the two glasshouses give you a warm, green room on a wet day for a small fee. It is a metro stop from the centre and almost never crowded.",
+      "tips": "Take the metro to Universitetet and walk 5 minutes east; the benches by the pond and along the Brunnsviken shore are the quietest. The Edvard Anderson glasshouse is open year-round except Mondays and has a cafe, so it makes a good rainy-day plan.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (garden); greenhouses Tue-Sun, paid, check site",
+      "lat": 59.3703,
+      "lng": 18.0468,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Bergianska trädgården",
+      "sources": [
+        {
+          "url": "https://www.bergianska.se/bes%C3%B6k-oss/bes%C3%B6ksinformation",
+          "label": "Bergianska trädgården: visitor information",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.smartakartan.se/stockholm/bergianska-tradgarden/",
+          "label": "Smarta Kartan: Bergianska trädgården",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Open garden with a university campus beside it; paths are unlit away from the entrance and the shore is unfenced, so go in daylight."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence and current hours confirmed via the garden's own site (cafe daily 11-17, no reservations, cashless). Wikipedia title confirmed by en.wikipedia URL in results. Coordinates from knowledge.",
+      "name": "Rosendals Trädgård",
+      "neighborhood": "Djurgården",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "cozy",
+        "quiet",
+        "picnic",
+        "group",
+        "solo",
+        "walk",
+        "rain-ok"
+      ],
+      "blurb": "A biodynamic market garden behind Rosendal Palace on Djurgården, with greenhouses, an orchard, cutting-flower fields and a bakery-cafe that serves its lunch and cinnamon buns to be eaten under the apple trees. Anyone can wander the garden for free; the cafe is where the city goes for a slow weekday afternoon, and eating in the orchard on a blanket is the accepted way to do it. It is far enough along Djurgården that the museum crowds thin out before you arrive.",
+      "tips": "Take tram 7 to Bellmansro or walk 20 minutes from Djurgårdsbron along Rosendalsvägen; the cafe is open daily 11-17, cashless, and does not take bookings, so go before noon or after 3pm to avoid the queue. In poor weather the winterised cafe and glasshouse still have seats.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "garden dawn-dusk; cafe daily 11am-5pm (check site)",
+      "lat": 59.3272,
+      "lng": 18.113,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Rosendals Trädgård",
+      "sources": [
+        {
+          "url": "https://www.rosendalstradgard.se/oppettider/",
+          "label": "Rosendals Trädgård: opening hours",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.visitstockholm.com/o/rosendals-garden-cafe/",
+          "label": "Visit Stockholm: Rosendals trädgårdskafé",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed garden in the daytime; the walk back along Djurgården's roads is unlit in places after closing, so leave before dark in winter."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Chosen after search showed the Stadsbibliotek at Odenplan is closed for renovation until about 2028. Skeptic search of kb.se confirmed: a free library card requires being over 18 and showing valid ID or passport, the reading rooms are primarily for collection users but other visitors may sit there when space allows, and hours differ between reading rooms. Exact opening hours were not read, so the hours field points to the site. Wikipedia title from knowledge, not URL-confirmed.",
+      "name": "Kungliga biblioteket (National Library of Sweden)",
+      "neighborhood": "Östermalm (Humlegården)",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "green",
+        "solo",
+        "free",
+        "cozy"
+      ],
+      "blurb": "Sweden's national library sits in the middle of Humlegården park, a 19th-century building with a vaulted main reading room and modern underground halls. It is a research library rather than a lending one, which keeps it far quieter than the branch libraries: anyone can walk into the entrance hall and cafe, and a free library card (bring ID, 18+) gets you into the reading rooms for the day. Afterwards the park benches under the elms are right outside the door.",
+      "tips": "Enter from Humlegården; register for a card at the front desk with photo ID (18+), leave coats and bags in the lockers, and head for the main reading room upstairs. You can also just sit in a reading room without a card when there is space. The cafe is open to everyone. Closed Sundays and hours vary by room and season, so check the site.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "varies (check kb.se; closed Sun)",
+      "lat": 59.3395,
+      "lng": 18.0722,
+      "coordConfidence": "high",
+      "wikipediaTitle": "National Library of Sweden",
+      "sources": [
+        {
+          "url": "https://www.kb.se/eng/planning-a-visit/opening-hours.html",
+          "label": "Kungliga biblioteket: opening hours",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.kb.se/hitta-och-bestall/bestall-och-lana/lanekort-pa-kb/laneavtal.html",
+          "label": "Kungliga biblioteket: library card terms (18+, ID)",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building with bag lockers; Humlegården's paths outside are lit, and Östermalmstorg metro is a five-minute walk."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Search confirmed the museum is open Tue-Sun and that free admission now applies only to under-19s, so marked paid; I had believed it was free for all. Courtyard restaurant confirmed for summer. Wikipedia title confirmed by en.wikipedia URL in results. Coordinates from knowledge (Hamngatan 4).",
+      "name": "Hallwylska museet (Hallwyl Museum)",
+      "neighborhood": "Östermalm / Norrmalm (Berzelii park)",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "cozy",
+        "quiet",
+        "hidden",
+        "solo"
+      ],
+      "blurb": "A 1890s private palace on Hamngatan kept exactly as the Hallwyl family left it, from the panelled dining room to the bathroom fittings, with an enclosed stone courtyard off the street that becomes a cafe terrace in summer. It is a small, slow museum where you can sit in the rooms rather than shuffle through them, and it is a hundred metres from the Stureplan traffic without any of its noise. On a wet afternoon it is one of the easiest indoor refuges in the centre.",
+      "tips": "Entrance is from Hamngatan opposite Berzelii park; adults pay admission, under-19s go free, and the courtyard cafe can be visited without a ticket in season. Closed Mondays. Kungsträdgården metro is two minutes away.",
+      "bestTimes": [
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Tue-Sun, closed Mon (check site for times)",
+      "lat": 59.333,
+      "lng": 18.0745,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Hallwyl Museum",
+      "sources": [
+        {
+          "url": "https://hallwylskamuseet.se/besok/oppettider/",
+          "label": "Hallwylska museet: opening hours",
+          "kind": "official"
+        },
+        {
+          "url": "https://hallwylskamuseet.se/besok/priser-och-biljetter/",
+          "label": "Hallwylska museet: prices and tickets",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed museum on a busy, well-lit central street; the courtyard has cobbles and steps."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence and hours confirmed via the cafe's own site (Mon-Fri 7.30am-8pm, Sat-Sun 9am-7pm, three entrances). Open since 1928. Wikipedia title confirmed by en.wikipedia URL in results. Coordinates from knowledge (Kungsgatan 55).",
+      "name": "Vete-Katten",
+      "neighborhood": "Norrmalm (Kungsgatan)",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "people-watch",
+        "solo",
+        "study",
+        "quiet"
+      ],
+      "blurb": "A konditori open since 1928 that sprawls through a warren of small rooms between Kungsgatan and Klara Norra Kyrkogata, all lace curtains, oil paintings and marble-topped tables. You order at the counter and then disappear into a back room with a princess cake or a cardamom bun; nobody moves you on, and the inner rooms stay quiet even when the front is full of shoppers. It is where Stockholmers take visiting parents and where they go alone with a newspaper.",
+      "tips": "Use the Klara Norra Kyrkogata or Gamla Brogatan entrance and keep walking through the rooms to the back for a calm table; weekday mornings before 10 are the quietest. Card only, and the lunch rush from noon to 1.30 fills every room.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Mon-Fri 7:30am-8pm, Sat-Sun 9am-7pm (check site)",
+      "lat": 59.3348,
+      "lng": 18.059,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Vete-Katten",
+      "sources": [
+        {
+          "url": "https://vetekatten.se/en/butiker-konditorier/kungsgatan-55/",
+          "label": "Vete-Katten: Kungsgatan 55",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.visitstockholm.com/o/vetekatten/",
+          "label": "Visit Stockholm: Vetekatten Kungsgatan",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Busy central street with staff on site and metro stations at both ends of the block."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, address and hours confirmed via the shop's own site and Visit Stockholm (Mon-Fri 10-18, Sat 12-16, closed Sun; trading since 1929). No English Wikipedia article known, set to null. Coordinates from knowledge of Birger Jarlsgatan 32, medium confidence on the exact building.",
+      "name": "Rönnells Antikvariat",
+      "neighborhood": "Östermalm (Birger Jarlsgatan)",
+      "category": "bookstore",
+      "vibes": [
+        "rain-ok",
+        "cozy",
+        "quiet",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "Stockholm's largest second-hand bookshop, trading since 1929 and run as a foundation, with two floors of fiction, art, philosophy and oddities on Birger Jarlsgatan between Stureplan and Humlegården. It has a few chairs, a mezzanine with a view over the shelves and regular evening readings, and nobody minds if you read a chapter standing up. A good half-hour indoors on the way to or from the park.",
+      "tips": "Look for the green shopfront at number 32; the art and Swedish-literature sections are upstairs and quietest. Closed Sundays and it shuts at 4pm on Saturdays, so plan for a weekday afternoon. Östermalmstorg metro is a short walk.",
+      "bestTimes": [
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Fri 10am-6pm, Sat 12-4pm, closed Sun",
+      "lat": 59.3376,
+      "lng": 18.0724,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://ronnells.se/",
+          "label": "Rönnells antikvariat (official)",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.visitstockholm.com/o/ronnells-antikvariat/",
+          "label": "Visit Stockholm: Rönnells Antikvariat",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed shop on a main, well-lit street with heavy foot traffic."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence confirmed via Swedish Wikipedia and a city document in search results (paved terrace on western Riddarholmen, named 1983, Taube statue 1990). No English Wikipedia article, so set to null. Coordinates from knowledge.",
+      "name": "Evert Taubes terrass",
+      "neighborhood": "Gamla stan (Riddarholmen)",
+      "category": "plaza",
+      "vibes": [
+        "view",
+        "water",
+        "sunset",
+        "skyline",
+        "quiet",
+        "solo",
+        "free",
+        "night"
+      ],
+      "blurb": "A stone terrace at the western tip of Riddarholmen, the small island beside the Old Town, facing straight down Riddarfjärden with the City Hall on one side and the Södermalm cliffs on the other. It is a five-minute walk from the Gamla stan crowds but the island has no shops or bars, so in the evening it is you, the statue of the troubadour Evert Taube and the sunset over the water. Locals come here on purpose for the last light.",
+      "tips": "Walk over the small bridge from Riddarhustorget or Munkbron and go round the church to the west side; the low wall at the water's edge is the seat. There is nothing to buy on the island, so bring a coffee from the Old Town, and note the terrace is exposed to the wind off the lake.",
+      "bestTimes": [
+        "golden-hour",
+        "night",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 59.3247,
+      "lng": 18.0625,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://sv.wikipedia.org/wiki/Evert_Taubes_terrass",
+          "label": "Swedish Wikipedia: Evert Taubes terrass",
+          "kind": "other"
+        },
+        {
+          "url": "https://trippa.se/tripp/evert-taubes-terrass-riddarholmen",
+          "label": "Trippa: Evert Taubes terrass",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Lit terrace with an unfenced quay edge; the island is quiet at night, and Gamla stan metro is a five-minute walk across the bridge."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "UNESCO-listed cemetery park, from knowledge; not searched. Wikipedia title kept on high confidence but not URL-confirmed. Pin is on the main approach near the Cross and the Meditation Grove; hours for the visitor centre are seasonal and not verified.",
+      "name": "Skogskyrkogården",
+      "neighborhood": "Enskede (Söderort)",
+      "category": "park",
+      "vibes": [
+        "quiet",
+        "green",
+        "walk",
+        "solo",
+        "free",
+        "sunrise",
+        "sunset",
+        "hidden"
+      ],
+      "blurb": "The Woodland Cemetery, designed by Asplund and Lewerentz in the 1920s and now a UNESCO site: a great open meadow, a granite cross, a hilltop grove of elms and then miles of pine forest with graves under the trees. It is one of the quietest places reachable on the metro, twenty minutes from the centre, and locals walk, sit and think here as they would in any park, while respecting that it is a working cemetery. The light across the meadow at the start and end of the day is the reason to come.",
+      "tips": "Take the green line to Skogskyrkogården and enter through the main gate; walk up to the Meditation Grove on the hill for the view over the meadow and chapels. Keep voices low, stay off funeral processions' routes, and remember the metro is the only easy way back.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h (visitor centre seasonal, check site)",
+      "lat": 59.2762,
+      "lng": 18.1008,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Skogskyrkogården",
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "Very large site with unlit forest paths and few people after dusk; visit in daylight or at golden hour and be back at the main gate, near the lit metro station, before dark."
+      },
+      "lowkeyScore": 4
+    }
+  ]
+}

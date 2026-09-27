@@ -1,0 +1,627 @@
+{
+  "city": "Vienna",
+  "country": "Austria",
+  "slug": "vienna",
+  "region": "europe-africa",
+  "cityLat": 48.2082,
+  "cityLng": 16.3738,
+  "timezone": "Europe/Vienna",
+  "searchesRun": [
+    "Setagayapark Wien Gallmeyergasse Öffnungszeiten",
+    "Türkenschanzpark Vienna wikipedia",
+    "Botanical Garden University of Vienna Rennweg opening hours free admission",
+    "Hauptbücherei Wien Urban-Loritz-Platz Öffnungszeiten Dachterrasse",
+    "phil Buchhandlung Café Gumpendorfer Straße Wien Öffnungszeiten",
+    "Wien Museum Karlsplatz permanent exhibition free admission opening hours",
+    "Wasserpark Floridsdorf Wien Alte Donau Park",
+    "Steinhofgründe Wien Öffnungszeiten Erholungsgebiet",
+    "nominatim.openstreetmap.org: Hermannpark, Wien (blocked by proxy, no result)",
+    "nominatim.openstreetmap.org: Reichsbrücke, Wien (blocked by proxy, no result)",
+    "nominatim.openstreetmap.org: Steinhofgründe, Wien (blocked by proxy, no result)",
+    "phil Buchhandlung Café Gumpendorfer Straße 10-12 Wien official website"
+  ],
+  "redditSourcedNotes": "Two stages. Research stage ran eight searches, all of which returned results, and spent them on existence, public access, hours and Wikipedia titles for the less obvious entries: Setagayapark (City of Vienna page, seasonal hours, closed Nov-Mar), Türkenschanzpark (City of Vienna page; only a German Wikipedia article surfaced, English title null), the University Botanical Garden (official site, free admission, exact English article), the Hauptbücherei (Büchereien Wien page, Mon-Fri 11-19 / Sat 11-17, public roof terrace), phil (official site and wien.info), Wien Museum (wien.info; permanent exhibition free), Floridsdorfer Wasserpark (City of Vienna page; German article only, title null) and the Steinhofgründe (City of Vienna page; open around the clock, no dogs or bikes). Café Sperl's English Wikipedia URL appeared incidentally in the phil search. Review stage had a cap of four searches: three were OpenStreetMap Nominatim lookups (Hermannpark, Reichsbrücke, Steinhofgründe) that the egress proxy blocked, so they returned nothing and the coordinate fixes below rest on geometry and memory rather than a map result; the fourth confirmed that cafephil.at and phil.info are both real phil sites and that phil is a laptop-free café, which corrected the draft blurb. Coordinate fixes: the Hermannpark pin was moved about 300 m north onto the canal bank (the draft pin sat inland in the street grid); the Donauinsel pin was moved about 250 m west onto the island (the draft pin was east of the island's centreline, likely in the Neue Donau); the Steinhofgründe pin was nudged north onto the meadows. All three stay medium confidence, as do Setagayapark and the Wasserpark, whose pins were left as drafted. The nine other pins are high confidence from knowledge. Five entries (Augarten, Donauinsel, Donaukanal at Hermannpark, MuseumsQuartier courtyards, Zentralfriedhof) come from prior knowledge only in both stages, with sources left empty rather than invented; their Wikipedia titles are well-known articles kept on high confidence but not URL-confirmed. Türkenschanzpark may well have an English article but it was not seen in any result, so it stays null. No reddit threads or 'locals say' content were read for this city in either stage. Hours for Café Sperl, the Zentralfriedhof, Augarten and the MuseumsQuartier courtyards are from memory and approximate; the MQ hours were softened from '24h' to 'until late' because overnight access was not verified. Safety screen: all 14 places are ordinary public parks, promenades, a cemetery, a library, a museum, two cafes and a bookshop; nothing involves trespass, derelict or industrial land; no safety note needed rewriting, all describe lighting, closing times, water and terrain. Two entries carry caution for unlit terrain after dark (Steinhofgründe, Donauinsel).",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known public baroque park with the Porzellanmanufaktur and two flak towers inside; from knowledge only, no search spent. Gate hours are seasonal and approximate. Wikipedia title kept on high confidence, not URL-confirmed in either stage.",
+      "name": "Augarten",
+      "neighborhood": "Leopoldstadt (2nd)",
+      "category": "park",
+      "vibes": [
+        "quiet",
+        "green",
+        "walk",
+        "solo",
+        "picnic",
+        "free",
+        "study"
+      ],
+      "blurb": "Vienna's oldest baroque garden, a walled grid of long chestnut and lime avenues with two enormous concrete flak towers rising out of the lawns. Because it sits across the canal in Leopoldstadt, tour groups rarely make it here, and on weekday afternoons the side avenues are mostly students from the nearby university buildings, joggers and people reading on the benches. The rear meadows behind the porcelain factory are the emptiest part.",
+      "tips": "Enter from Obere Augartenstraße (main gate) or the Taborstraße side; walk past the first tower and head for the diagonal avenues at the back for the quietest benches. The gates close in the evening, later in summer, so check the sign at the entrance. Tram 2 or 31 to Obere Augartenstraße.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 6am-dusk (later in summer, gates locked at night)",
+      "lat": 48.2248,
+      "lng": 16.3768,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Augarten",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Walled and gated park that is locked overnight; the main avenues are lit but the side paths are not, so leave before the gates close."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, size and public access confirmed via the City of Vienna page in search; Paulinenwarte tower and ponds confirmed. Search surfaced only the German Wikipedia article, so English title set to null. Hours from the city's general park rules (open all day).",
+      "name": "Türkenschanzpark",
+      "neighborhood": "Währing (18th)",
+      "category": "park",
+      "vibes": [
+        "quiet",
+        "green",
+        "water",
+        "walk",
+        "solo",
+        "picnic",
+        "free",
+        "view"
+      ],
+      "blurb": "A hilly 15-hectare landscape park in the villa district of Währing, laid out in 1888 with ponds, a small waterfall, winding paths and the Paulinenwarte lookout tower in the middle. It is the neighbourhood's living room rather than a sight: students from the Universität für Bodenkultur next door eat lunch on the slopes, and the upper lawns are quiet enough to read in even on a Sunday.",
+      "tips": "Come by tram 40 or 41 to Gersthof and walk a few minutes uphill; the terraces around the ponds on the lower side are the calmest, and the lawn below the Paulinenwarte catches the evening sun. There is a small café pavilion in the park in season.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "open all day (paths unlit after dark)",
+      "lat": 48.2352,
+      "lng": 16.3338,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.wien.gv.at/umwelt/parks/anlagen/tuerkenschanzpark.html",
+          "label": "City of Vienna: Türkenschanzpark",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.wien.gv.at/english/environment/parks/tuerkenschanz.html",
+          "label": "City of Vienna (English): Türkenschanz Park",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Well-used residential park with lit main paths; the slopes and steps are steep and slippery when wet, and side paths are unlit after dark."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Address (Gallmeyergasse 4, 1190) and seasonal hours confirmed via the City of Vienna page in search: open Apr-Oct, 7am-8pm in April and September, 7am-9pm May-Aug, 7am-7pm October, closed Nov-Mar. Coordinates are for the garden site off Gallmeyergasse and are medium confidence. No English Wikipedia article confirmed, so title null.",
+      "name": "Setagayapark",
+      "neighborhood": "Döbling (19th)",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "green",
+        "water",
+        "hidden",
+        "solo",
+        "free",
+        "cozy"
+      ],
+      "blurb": "A small Japanese garden gifted by Vienna's twin district Setagaya in Tokyo, tucked into a residential street in Döbling: a pond with koi, a stone lantern, a tea-house pavilion and a stream running under little bridges. It is compact and gets busy for the cherry blossom in April, but on an ordinary weekday it is one of the stillest places in the city, with a few benches around the water and the traffic noise blocked by hedges.",
+      "tips": "Take tram 37 to Barawitzkagasse or the S-Bahn to Oberdöbling and walk up Gallmeyergasse; sit on the bench by the pond furthest from the entrance. It is closed all winter and on days with snow or ice, and the gates shut on time, so check the seasonal hours before going.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Apr-Oct only: 7am-8pm (Apr, Sep), 7am-9pm (May-Aug), 7am-7pm (Oct); closed Nov-Mar",
+      "lat": 48.2432,
+      "lng": 16.3562,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.wien.gv.at/umwelt/parks/anlagen/setagayapark.html",
+          "label": "City of Vienna: Setagayapark",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.heldenderfreizeit.com/setagayapark-wien-hype/",
+          "label": "Helden der Freizeit: Setagayapark",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Small fenced garden on a quiet residential street, gated and closed at the posted hours; paths and stepping stones are slippery when wet."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Free admission, Rennweg 14 entrance and the exact English Wikipedia article confirmed via search (official site and en.wikipedia.org/wiki/Botanical_Garden_of_the_University_of_Vienna). Hours are seasonal; search gave 9:30am-7:30pm May-Aug and earlier closing off season, so listed as varies.",
+      "name": "Botanischer Garten der Universität Wien",
+      "neighborhood": "Landstraße (3rd)",
+      "category": "garden",
+      "vibes": [
+        "quiet",
+        "green",
+        "solo",
+        "study",
+        "walk",
+        "free",
+        "hidden"
+      ],
+      "blurb": "An eight-hectare university botanical garden squeezed between the Belvedere gardens and Rennweg, with 11,000 plant species, greenhouses, a small alpine garden and long grassy slopes. The Belvedere next door draws the crowds, so the botanical garden stays close to empty on weekdays; students study on the benches under the big trees, and nobody minds if you sit for an hour without looking at a single label.",
+      "tips": "Use the Rennweg gate by tram 71 (Unteres Belvedere) or the Mechelgasse gate at the top; the upper terraces near the alpine garden are the quietest and get afternoon sun. Entry is free but it closes at dusk and stays shut from 24 December to 6 January.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies by season, roughly 10am-dusk (9:30am-7:30pm May-Aug; check site)",
+      "lat": 48.1922,
+      "lng": 16.3843,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Botanical Garden of the University of Vienna",
+      "sources": [
+        {
+          "url": "https://botanischergarten.univie.ac.at/en/your-visit/entrancesopening-hours/",
+          "label": "University of Vienna Botanical Garden: entrances and hours",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Botanical_Garden_of_the_University_of_Vienna",
+          "label": "Wikipedia: Botanical Garden of the University of Vienna",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Fenced, staffed garden that closes at dusk; sloping gravel paths, so mind your footing after rain."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known public island park; from knowledge only across both stages, no search result. Review stage moved the pin about 250 m west: the island runs north-west from the Reichsbrücke and the original 48.235/16.409 sat east of its centreline, most likely in the Neue Donau or on the far bank. New pin is roughly 600 m north-west of the U1 station on the island itself, placed from geometry (a Nominatim lookup was blocked), so it stays medium confidence. Wikipedia title kept on high confidence, not URL-confirmed.",
+      "name": "Donauinsel (north of Reichsbrücke)",
+      "neighborhood": "Donaustadt / Floridsdorf (21st-22nd)",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "sunset",
+        "sunrise",
+        "walk",
+        "quiet",
+        "solo",
+        "picnic",
+        "free",
+        "stargaze"
+      ],
+      "blurb": "A 21-kilometre artificial island between the Danube and the Neue Donau, and the city's default place to lie on a bank and stare at water. The bit around the U1 stop is busy with bars, but ten minutes' walk north or south of the bridge the gravel beaches and grass are mostly locals swimming, cycling and sitting with a beer as the sun drops behind the Kahlenberg. In winter it is empty and windswept, which has its own appeal.",
+      "tips": "Take U1 to Donauinsel and walk north along the Neue Donau side, away from the bars, until the path is quiet; the west-facing bank gets the sunset. Bring everything with you, since there are no kiosks once you leave the bridge area, and the paths are unlit further out.",
+      "bestTimes": [
+        "golden-hour",
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 48.233,
+      "lng": 16.408,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Donauinsel",
+      "sources": [],
+      "safety": {
+        "level": "caution",
+        "note": "Unlit beyond the bridge areas, with unfenced banks and fast current on the main Danube side; stay on the Neue Donau side, swim only where marked and head back towards the U-Bahn before it gets fully dark."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Public canal-side promenade and small park in the 3rd district; from knowledge only across both stages. Review stage moved the pin about 300 m north: the original 48.2055 sat inland in the Landstraße street grid, not on the canal. New pin is the Weißgerberlände bank beside Hermannpark, between Franzensbrücke and Rotundenbrücke, placed from memory of the canal's course (a Nominatim lookup was blocked), so it stays medium confidence. Wikipedia title is the canal article (Donaukanal), kept on high confidence, not URL-confirmed.",
+      "name": "Donaukanal at Hermannpark",
+      "neighborhood": "Landstraße (3rd), Weißgerberlände",
+      "category": "waterfront",
+      "vibes": [
+        "water",
+        "walk",
+        "quiet",
+        "solo",
+        "night",
+        "free",
+        "people-watch",
+        "sunset"
+      ],
+      "blurb": "The Donaukanal near Schwedenplatz is all bars and graffiti, but follow the bank south-east past the Franzensbrücke and it thins out into a plain grass slope and a small park with benches facing the water. Cyclists roll past on the towpath, rowers and the odd tour boat go by, and the Hundertwasserhaus is a couple of streets behind you. It is where people from the 3rd district come to sit with a coffee rather than a place anyone travels to.",
+      "tips": "Take U3 or U4 to Landstraße and walk down Weißgerberlände, or U4 to Schwedenplatz and follow the canal path south-east for fifteen minutes; the grass slope below Hermannpark is the best spot for a blanket. The main path is lit and busy until late in summer.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 48.2084,
+      "lng": 16.3938,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "Donaukanal",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit towpath with a steady flow of cyclists and walkers; the stone quay edge is unfenced, so keep off the lower steps in the dark or when wet."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Recreation area, 24h opening and the no-dogs / no-bikes rule confirmed via the City of Vienna page in the research-stage search; bus 46A/46B to Feuerwache Steinhof confirmed. Review stage nudged the pin about 150 m north onto the open meadows above the hospital's northern boundary; a Nominatim lookup was blocked, so this is from memory of the site and remains medium confidence. The English Wikipedia article 'Steinhof (Vienna)' is about the hospital, not the meadows, so title null.",
+      "name": "Steinhofgründe",
+      "neighborhood": "Penzing / Ottakring (14th-16th)",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "skyline",
+        "sunset",
+        "green",
+        "quiet",
+        "walk",
+        "solo",
+        "picnic",
+        "free"
+      ],
+      "blurb": "Forty-five hectares of meadows, ponds and woodland on the hill above the Otto Wagner hospital, kept car-free, dog-free and bike-free by the city. The upper meadows look straight down over the western districts to the whole city with the golden dome of the Kirche am Steinhof in the foreground, and on a weekday evening you share it with a few walkers and the people who live in Ottakring below. There are no facilities, which is exactly why it stays quiet.",
+      "tips": "Take bus 46A or 46B to Feuerwache Steinhof, or walk up from the Ottakring end via Rosental; the first big meadow above the entrance has the best view and benches at its edge. Bring water and a layer, since it is exposed, and remember it is unlit, so start back before dusk.",
+      "bestTimes": [
+        "golden-hour",
+        "afternoon",
+        "morning"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 48.2178,
+      "lng": 16.2835,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.wien.gv.at/freizeit/naherholungsgebiet-steinhof",
+          "label": "City of Vienna: Erholungsgebiet Steinhofgründe",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.stadt-wien.at/freizeit/ausflugsziele/parks-parkanlagen/steinhofgruende.html",
+          "label": "stadt-wien.at: Steinhofgründe",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Unlit meadows and woodland paths with no staff and a 15-minute walk to the nearest bus stop; go in daylight or leave at dusk, and wear proper shoes as the tracks are muddy after rain."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Address (Urban-Loritz-Platz 2a), hours (Mon-Fri 11am-7pm, Sat 11am-5pm) and the public roof terrace with Café Oben confirmed via the Büchereien Wien page in search. No English Wikipedia article for the building found, so title null.",
+      "name": "Hauptbücherei Wien",
+      "neighborhood": "Neubau / Rudolfsheim-Fünfhaus (7th-15th), Gürtel",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "study",
+        "quiet",
+        "view",
+        "sunset",
+        "solo",
+        "free",
+        "skyline"
+      ],
+      "blurb": "Vienna's main public library, a long low block straddling the Gürtel ring road above the U6 station, with a huge outdoor staircase climbing to a roof terrace that faces west. Inside anyone can sit in the reading areas with a laptop or a book without a card; outside, the steps and the roof are a free public balcony where people watch the sun go down over the western hills with the traffic humming below. On a wet day it is one of the easiest places in the city to spend three hours.",
+      "tips": "Take U6 to Burggasse-Stadthalle, which opens straight onto the square; the quietest seats are on the upper floors at the far end from the entrance, and the roof terrace is open whenever the library is. Café Oben on the roof is paid, the steps are not.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Fri 11am-7pm, Sat 11am-5pm, closed Sun (check site)",
+      "lat": 48.2033,
+      "lng": 16.3383,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien/Standorte-%C3%96ffnungszeiten/Hauptb%C3%BCcherei",
+          "label": "Büchereien Wien: Hauptbücherei am Urban-Loritz-Platz",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.falter.at/location/2229/hauptbuecherei-buechereien-wien",
+          "label": "Falter: Hauptbücherei",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building directly above a U-Bahn station on a busy, well-lit square; the outdoor staircase is steep and closes with the library."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Long-running coffee house (1880) at Gumpendorfer Straße 11; the English Wikipedia URL en.wikipedia.org/wiki/Café_Sperl appeared in the phil search results, so title kept. Hours are from knowledge (Sunday closures in summer are a known quirk) and should be checked.",
+      "name": "Café Sperl",
+      "neighborhood": "Mariahilf (6th)",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "quiet",
+        "people-watch",
+        "solo",
+        "study"
+      ],
+      "blurb": "A classic Viennese coffee house that has kept its 1880 interior: marble tables, worn velvet benches, billiard tables at the back and a rack of newspapers on wooden holders. The unwritten rule still applies, so one Melange buys you the table for as long as you want, and on weekday afternoons the back room is mostly locals reading. It is on every guidebook list but is far enough from the Ring that it never feels overrun.",
+      "tips": "Sit in the window bays along Gumpendorfer Straße or at the back near the billiard tables; the waiters bring a glass of water with the coffee and will not hurry you. Cash is still the safer bet. Take U2 to Museumsquartier or the 57A bus.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "roughly Mon-Sat 7am-10pm, Sun 11am-8pm; often closed Sun in Jul-Aug (check site)",
+      "lat": 48.1995,
+      "lng": 16.3617,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Café Sperl",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Caf%C3%A9_Sperl",
+          "label": "Wikipedia: Café Sperl",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed cafe on a lit, busy street a few minutes from the U2; nothing to note."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, address (Gumpendorfer Straße 10-12) and hours confirmed via search in both stages; cafephil.at appeared as a real result in the review-stage search alongside phil.info, so both sources are genuine. That search also described phil as a laptop-free café, so the draft's 'people work here on laptops' line was removed. It is a bookshop with a café and evening bar, listed as a bookstore. No English Wikipedia article, title null.",
+      "name": "phil",
+      "neighborhood": "Mariahilf (6th)",
+      "category": "bookstore",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "people-watch",
+        "solo",
+        "group",
+        "night"
+      ],
+      "blurb": "A bookshop that is also a café, across the road from Café Sperl: retro sofas and formica tables set among shelves of about 20,000 books, most of them for sale, with breakfast until early afternoon and a bar in the evening. It is a laptop-free room, which is the point: people browse standing up, read on the sofas and sit for hours with a single coffee, and readings take over in the evenings. It is the newer, scruffier counterpart to the old coffee houses and is where a lot of the 6th district actually goes.",
+      "tips": "Take U2 to Museumsquartier and walk two minutes down Gumpendorfer Straße; the seats in the back by the bookshelves are quietest, and weekday mornings after the breakfast rush are calmest. Leave the laptop at home, bring a book or buy one there.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Mon 2pm-9pm, Tue-Thu 9am-10pm, Fri-Sat 9am-11pm, Sun 9am-9pm (check site)",
+      "lat": 48.1993,
+      "lng": 16.3622,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.cafephil.at/",
+          "label": "phil: official site",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.wien.info/en/dine-drink/coffeehouses/phil-355236",
+          "label": "wien.info: phil",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.phil.info/",
+          "label": "phil: phil.info",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed venue open late on a lit main street next to the U2; nothing to note."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Well-known public cultural complex with open courtyards; from knowledge only across both stages, no search spent. Whether the yards stay open all night was not verified, so hours are given as 'until late' rather than 24h. Wikipedia title kept on high confidence, not URL-confirmed.",
+      "name": "MuseumsQuartier courtyards",
+      "neighborhood": "Neubau (7th)",
+      "category": "plaza",
+      "vibes": [
+        "people-watch",
+        "group",
+        "solo",
+        "night",
+        "free",
+        "rain-ok",
+        "hidden"
+      ],
+      "blurb": "The former imperial stables turned museum complex has a big main courtyard full of the moulded plastic loungers everyone calls Enzis, plus a string of smaller inner courtyards behind the baroque wings. The main yard is where the city sits with a takeaway drink on summer evenings; the back courtyards off Breite Gasse and around the Dschungel theatre are much quieter and have covered arcades if it rains. You do not need a ticket for any of it.",
+      "tips": "Enter from the Museumsplatz side (U2 Museumsquartier) and walk straight through to the smaller courtyards at the back for a quiet bench; the arcades along the old stable wings give shelter. The MQ Point shop and several cafes are inside if you need a bathroom. Winter brings a small ice-stock rink and a few stalls.",
+      "bestTimes": [
+        "afternoon",
+        "night",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "courtyards open daily until late (venue hours vary; check site)",
+      "lat": 48.2034,
+      "lng": 16.359,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Museumsquartier",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Enclosed, well-lit courtyards with staff and security in the museum wings, busy until late; the cobbles are uneven and icy in winter."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Free permanent exhibition, Karlsplatz 8 address and hours (Tue-Fri 9am-6pm, Thu to 9pm, Sat-Sun 10am-6pm, closed Mon) confirmed via wien.info and other search results; reopened late 2023 after extension. Wikipedia title kept on high confidence (article 'Wien Museum'), not URL-confirmed in either stage.",
+      "name": "Wien Museum",
+      "neighborhood": "Wieden (4th), Karlsplatz",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "solo",
+        "free",
+        "study",
+        "cozy"
+      ],
+      "blurb": "The city's own history museum on Karlsplatz, rebuilt with a floating new top floor and, since reopening, a free permanent exhibition that runs from Roman Vindobona to the present across three floors. Because it is free, people treat it like a public building: you can wander in from the rain, sit on the benches in the model-of-Vienna room or the atrium, and leave again without a ticket. The café and the terrace on the top level are open to anyone.",
+      "tips": "Take U1, U2 or U4 to Karlsplatz and use the entrance facing the Karlskirche; go straight to the upper floors for the quietest rooms, and try a Thursday evening when it stays open until 9pm. Only the temporary shows on the top floor are ticketed.",
+      "bestTimes": [
+        "afternoon",
+        "night"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Tue-Fri 9am-6pm (Thu to 9pm), Sat-Sun 10am-6pm, closed Mon",
+      "lat": 48.1988,
+      "lng": 16.3728,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Wien Museum",
+      "sources": [
+        {
+          "url": "https://www.wien.info/en/art-culture/museums-exhibitions/museum-karlsplatz-352826",
+          "label": "wien.info: Wien Museum",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.visitingvienna.com/sights/museums/wien-museum-karlsplatz/",
+          "label": "Visiting Vienna: Wien Museum on Karlsplatz",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed museum on a lit central square with U-Bahn access; nothing to note."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "One of Europe's largest cemeteries, fully public with benches, roads and a tram stop at the main gate; from knowledge only, no search spent. Hours are seasonal and from memory. Wikipedia title kept on high confidence, not URL-confirmed in either stage.",
+      "name": "Zentralfriedhof",
+      "neighborhood": "Simmering (11th)",
+      "category": "park",
+      "vibes": [
+        "quiet",
+        "green",
+        "walk",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "A cemetery the size of a small town, 2.5 square kilometres of avenues, chapels and old trees on the south-eastern edge of the city, with deer wandering the older sections and Beethoven, Brahms and Schubert in a cluster near the main gate. Viennese treat it as a park: people walk, cycle the roads and sit on the benches of the overgrown old Jewish section, where whole avenues are empty on a weekday. It is a long tram ride, and that is why it is calm.",
+      "tips": "Take tram 71 or 6 to Zentralfriedhof 2. Tor for the main avenue and composers, or 3. Tor for the quieter far side; the old Jewish section by 1. Tor is the most overgrown and empty. Hours change with the season and the gates are locked on time, so check the sign at the gate.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "varies by season, roughly 7am-6pm (to 8pm May-Aug, 8am-5pm Nov-Feb); gates locked at closing",
+      "lat": 48.1508,
+      "lng": 16.4402,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Vienna Central Cemetery",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Gated, staffed and closed overnight; it is very large and mostly unlit, so keep an eye on the closing time and the distance back to the gate you came in by."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence (1928-29 park at the Alte Donau, 14 ha, two ponds with Japanese-style bridges) confirmed via the City of Vienna page and other search results. Only a German Wikipedia article surfaced, so English title null. Pin is on the park between the Alte Donau and Floridsdorfer Brücke and is medium confidence.",
+      "name": "Floridsdorfer Wasserpark",
+      "neighborhood": "Floridsdorf (21st)",
+      "category": "park",
+      "vibes": [
+        "water",
+        "quiet",
+        "green",
+        "walk",
+        "solo",
+        "free",
+        "hidden",
+        "sunset"
+      ],
+      "blurb": "A 14-hectare park on a remnant of the old Danube channel across the river in Floridsdorf, a third of it water: two ponds joined by canals, an island, steep little Japanese-style bridges and a lot of ducks, coots and swans that stay all winter because a warm spring keeps the water open. Almost nobody outside the 21st district knows it, so it is a place for a slow loop and a bench by the water rather than a destination.",
+      "tips": "Take U6 to Neue Donau or tram 31 to Floridsdorfer Brücke and walk in from Am Wasserpark; the benches on the island are the quietest, and the western pond faces the sunset. There are no cafes inside, and the paths are unlit, so it is a daytime place outside summer.",
+      "bestTimes": [
+        "morning",
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 48.2478,
+      "lng": 16.3962,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.wien.gv.at/umwelt/parks/anlagen/wasser.html",
+          "label": "City of Vienna: Wasserpark in Floridsdorf",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.stadtbekannt.at/spaziergaenge/radeln-und-baden-zwischen-floridsdorfer-wasserpark-und-lobau/",
+          "label": "Stadtbekannt: Wasserpark to Lobau walk",
+          "kind": "blog"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Unfenced pond edges and narrow steep bridges, and the paths are unlit, so treat it as a daylight-to-dusk spot; the U6 stop is a five-minute walk."
+      },
+      "lowkeyScore": 4
+    }
+  ]
+}

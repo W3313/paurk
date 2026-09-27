@@ -1,0 +1,693 @@
+{
+  "city": "Medellín",
+  "country": "Colombia",
+  "slug": "medellin",
+  "region": "americas",
+  "cityLat": 6.2442,
+  "cityLng": -75.5812,
+  "timezone": "America/Bogota",
+  "searchesRun": [
+    "Jardín Botánico de Medellín wikipedia horario entrada",
+    "Cerro El Volador Medellín parque horario wikipedia",
+    "Parque Biblioteca Belén Medellín horario",
+    "Parque Biblioteca León de Greiff La Ladera Medellín horario",
+    "Casa Museo Otraparte Envigado horario wikipedia",
+    "Biblioteca Pública Piloto Medellín wikipedia horario",
+    "Parque de los Pies Descalzos Medellín wikipedia",
+    "Pergamino Café Medellín Carrera 37 El Poblado horario",
+    "Parque Arví Metrocable línea L 2026 horario cierre mantenimiento",
+    "Parque Biblioteca Belén Medellín dirección Carrera 76 ubicación",
+    "Biblioteca EPM Medellín horario de atención 2026",
+    "Museo Casa de la Memoria Medellín horario entrada gratuita"
+  ],
+  "redditSourcedNotes": "Two stages. RESEARCH STAGE spent its 8 searches on hours, addresses and English Wikipedia titles for eight of the fourteen spots (Jardín Botánico, Biblioteca Pública Piloto, Cerro El Volador, Pies Descalzos, La Ladera, Parque Biblioteca Belén, Otraparte, Pergamino) and attached only URLs that appeared in those results; English titles confirmed by URL for Botanical Garden of Medellín, El Volador hill, León de Greiff Library and Barefoot Park. REVIEW STAGE had 4 searches and spent them on Parque Arví / Cable L status, the Parque Biblioteca Belén address, Biblioteca EPM hours and Museo Casa de la Memoria hours; all four returned results and their URLs are the only new sources added. Every attempt to open a page (Wikipedia, the source sites, the search-result pages) was blocked by the network egress proxy, so NO source URL in this file has been fetched by either stage: they are URLs as the search engine printed them, and hours are from result snippets, not from the pages. Corrections made on review: Parque Arví hours were wrong (Cable L closes Tuesdays, not Mondays, and shut 19-24 Sep 2026 for maintenance); Biblioteca EPM closes at 5:30pm so the dusk-view claim was removed and the hours replaced; Casa de la Memoria hours filled in from its own site listing; the Belén library pin was moved about a kilometre south to match its Calle 18A address and downgraded to low confidence because the research-stage point sat at the church square; the MAMM entry was renamed to the museum alone; the Parque Arví Wikipedia title was nulled as unconfirmed and the MAMM title is kept from knowledge only. Written from prior knowledge with sources left empty: MAMM, Parque Lineal La Presidenta and Primer Parque de Laureles. No reddit threads or forum posts were read in either stage, so nothing here is a sourced local opinion. Coordinates for all spots come from knowledge of street addresses, not from a map result; confidence flags are honest about that. Safety screen on review: all 14 notes describe lighting, staffing, closing times, terrain or how fast a place empties, none characterise people or neighbourhoods, and none needed rewriting; caution is set only on Cerro El Volador and Parque Arví for unlit slopes and forest trails.",
+  "spots": [
+    {
+      "reviewed": true,
+      "verifyNote": "Hours and free entry confirmed from the garden's own site and Semana (Tue-Sun 9am-4pm, closed Mon). English Wikipedia article 'Botanical Garden of Medellín' appeared in results. Coordinates from knowledge of the site next to Universidad metro station.",
+      "name": "Jardín Botánico de Medellín",
+      "neighborhood": "Aranjuez (Zona Norte)",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "water",
+        "picnic",
+        "walk",
+        "solo",
+        "group",
+        "free",
+        "rain-ok"
+      ],
+      "blurb": "Fourteen hectares of guadua bamboo, palms, a lagoon with turtles and iguanas, and the Orquideorama, a wooden honeycomb canopy that keeps the rain off. Entry is free and it sits right beside Universidad metro station, so students and families from the north of the city treat it as their back garden rather than an attraction. The lawns behind the lagoon and the benches under the bamboo are where people go to read.",
+      "tips": "Enter from the Universidad metro side (Calle 73 with Carrera 51D); the lagoon shore and the bamboo grove are quietest on weekday mornings. Closed Mondays and the Tuesday after a holiday Monday; the butterfly house is the only paid part. Bring water, there are few kiosks inside.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Tue-Sun 9am-4pm, closed Mon",
+      "lat": 6.27,
+      "lng": -75.564,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Botanical Garden of Medellín",
+      "sources": [
+        {
+          "url": "https://www.botanicomedellin.org/visitanos/llegar-es-facil/horarios-de-visita/",
+          "label": "Jardín Botánico: horarios de visita",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.semana.com/nacion/medellin/articulo/que-precio-tiene-la-entrada-al-jardin-botanico-de-medellin-y-que-actividades-puede-realizar/202621/",
+          "label": "Semana: entry price and activities",
+          "kind": "press"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Botanical_Garden_of_Medell%C3%ADn",
+          "label": "Wikipedia: Botanical Garden of Medellín",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Gated, staffed and closed by 4pm; paths are paved and the metro station is at the gate."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, address (Carrera 64 #50-32) and hours confirmed from the library's site and Comfenalco Infolocal. Only Spanish Wikipedia appeared, so title null. Coordinates from the address, medium confidence.",
+      "name": "Biblioteca Pública Piloto",
+      "neighborhood": "Carlos E. Restrepo (Otrabanda)",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "cozy",
+        "solo",
+        "free",
+        "green"
+      ],
+      "blurb": "Medellín's main public library, founded with UNESCO in the 1950s, sits in Carlos E. Restrepo, a low-rise 1970s neighbourhood of brick blocks, big trees and small plazas that is one of the calmest corners of the city. Anyone can walk in and use the reading rooms, the photographic archive gallery or the garden, and the surrounding barrio has bakeries and cafes on almost every corner for afterwards.",
+      "tips": "Take Metro line B to Suramericana and walk five minutes; the main hall opens at 8am. Take a seat in the reading rooms upstairs or the courtyard, then wander the pedestrian lanes of Carlos E. Restrepo behind it. Closed Sundays.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Fri 8:30am-7pm, Sat 9am-6pm, closed Sun (check site)",
+      "lat": 6.2582,
+      "lng": -75.579,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.bibliotecapiloto.gov.co/informacion-general/",
+          "label": "Biblioteca Pública Piloto: información general",
+          "kind": "official"
+        },
+        {
+          "url": "https://infolocal.comfenalcoantioquia.com/index.php/biblioteca-publica-piloto",
+          "label": "Comfenalco Infolocal: Biblioteca Pública Piloto",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed public building with security at the door; the surrounding streets are residential and lit, and the metro station is a short walk."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Confirmed as the city's largest urban natural park (107 ha) by the Alcaldía and Medellín.Travel; English Wikipedia article 'El Volador hill' appeared in results. Hours disagree between sources (5am-5pm vs 8am-6pm) so they are given as a range. Summit coordinates from knowledge.",
+      "name": "Cerro El Volador",
+      "neighborhood": "Robledo / Universidad Nacional (Comuna 7)",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "skyline",
+        "green",
+        "sunset",
+        "walk",
+        "solo",
+        "group",
+        "free",
+        "picnic"
+      ],
+      "blurb": "A green hill rising about 80 m out of the western side of the valley, with a paved road spiralling to the top and 360-degree views over the whole city and the Metrocable lines on the far slopes. It is a regional natural park with over a hundred bird species and pre-Hispanic burial sites, and on weekends it fills with families, runners and kite flyers; on weekday mornings you can have the summit benches to yourself.",
+      "tips": "Enter from Carrera 65 opposite the Universidad Nacional campus and follow the road up (about 25 minutes on foot); the summit faces the sunset over the western hills and the city lights come on to the east. Leave before the gates close and carry water, there is little shade on the top.",
+      "bestTimes": [
+        "morning",
+        "golden-hour"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 5am-6pm (sources differ, check locally)",
+      "lat": 6.2648,
+      "lng": -75.5836,
+      "coordConfidence": "high",
+      "wikipediaTitle": "El Volador hill",
+      "sources": [
+        {
+          "url": "https://www.medellin.gov.co/es/secretaria-medio-ambiente/medellin-biodiversa/cerro-el-volador/",
+          "label": "Alcaldía de Medellín: Cerro El Volador",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.medellin.travel/parque-natural-cerro-el-volador/?lang=en",
+          "label": "Medellín.Travel: Cerro El Volador",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/El_Volador_hill",
+          "label": "Wikipedia: El Volador hill",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Gated park with unlit slopes that empties well before closing; go in daylight, stay on the paved road rather than the dirt shortcuts, and be back at the gate before dusk."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Existence, location beside the EPM building and free public access confirmed by Alcaldía, Medellín.Travel and Atlas Obscura; English Wikipedia article 'Barefoot Park' appeared in results. Hours from knowledge only.",
+      "name": "Parque de los Pies Descalzos",
+      "neighborhood": "La Alpujarra (Centro)",
+      "category": "plaza",
+      "vibes": [
+        "water",
+        "green",
+        "quiet",
+        "solo",
+        "free",
+        "people-watch",
+        "walk"
+      ],
+      "blurb": "A zen-inspired public park in front of the EPM headquarters, built around the idea of taking your shoes off: a sand garden, shallow pools and fountains, and a dense grove of guadua bamboo with stone benches where the traffic noise of the civic centre drops away. Office workers eat lunch on the bamboo paths and children run through the fountains; it is one of the few genuinely calm spots in the downtown grid.",
+      "tips": "Walk from Alpujarra metro station along Calle 44; the bamboo grove on the north side is the shady, quiet part and the fountains are the busy part. Sit on the stone slabs among the bamboo. Fountains are usually switched off in the evening.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "roughly 6am-10pm (check locally)",
+      "lat": 6.2453,
+      "lng": -75.576,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Barefoot Park",
+      "sources": [
+        {
+          "url": "https://www.medellin.travel/barefoot-park-of-medellin/?lang=en",
+          "label": "Medellín.Travel: Barefoot Park",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.atlasobscura.com/places/parque-de-los-pies-descalzos-barefoot-park",
+          "label": "Atlas Obscura: Parque de los Pies Descalzos",
+          "kind": "blog"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Barefoot_Park",
+          "label": "Wikipedia: Barefoot Park",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Open, lit civic space beside EPM and the Museo del Agua with security nearby; the surrounding blocks empty after office hours, so pair a night visit with the metro rather than a long walk."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review-stage search: Comfenalco Infolocal and the Grupo EPM FAQ page appeared with hours Mon-Sat 8:10am-5:30pm; an EPM press item says the library reopened after a closure, so hours may still shift. The research stage had it open into the evening and described watching the plaza lights come on from inside, which the 5:30pm close rules out; removed. Pages could not be fetched, so hours are from result snippets. Location on Plaza de Cisneros confirmed; coordinates from knowledge, high. Wikipedia title null: not confirmed.",
+      "name": "Biblioteca EPM",
+      "neighborhood": "Plaza de Cisneros / Parque de las Luces (Centro)",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "solo",
+        "free",
+        "view"
+      ],
+      "blurb": "A pyramid-shaped concrete and glass library built by the public utility EPM on the edge of the Plaza de Cisneros, the square planted with a forest of 24-metre light poles. Inside it is bright and quiet, with reading rooms on several floors looking out over the plaza and the old Vásquez and Carré buildings, and it is free to anyone who walks in. It is a science-and-technology library by remit, but nobody minds if you just sit with your own book.",
+      "tips": "Alpujarra and San Antonio metro stations are both a few minutes' walk. Take the upper reading rooms for the view over the plaza; a bag check is normal at the entrance. It closes at 5:30pm and all day Sunday, so it is an afternoon place, not an evening one.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Sat 8:10am-5:30pm, closed Sun (check site)",
+      "lat": 6.2468,
+      "lng": -75.5722,
+      "coordConfidence": "high",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://infolocal.comfenalcoantioquia.com/index.php/biblioteca-publica-epm",
+          "label": "Comfenalco Infolocal: Biblioteca Pública EPM",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.grupo-epm.com/site/bibliotecaepm/preguntas-frecuentes-biblioteca-epm/",
+          "label": "Grupo EPM: Biblioteca EPM FAQ",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.epm.com.co/institucional/sala-de-prensa/noticias-y-novedades/biblioteca-epm-reabrio-sus-puertas/",
+          "label": "EPM: Biblioteca EPM reabrió sus puertas",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed building with a bag check at the door; the plaza outside is lit but the surrounding blocks empty out after offices close, so leave by metro rather than walking far."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review-stage search: the museum's own horario page, Medellín.Travel and an Alcaldía press item appeared, giving free entry, address Calle 51 #36-66 in Parque Bicentenario and hours Tue-Fri 9am-6pm, Sat/Sun/holidays 10am-4pm, closed Mon. Pages could not be fetched, so this is from result snippets. Coordinates from the address, medium. Wikipedia title null: not confirmed.",
+      "name": "Museo Casa de la Memoria",
+      "neighborhood": "Boston / Parque Bicentenario (Centro-oriente)",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "solo",
+        "free",
+        "green",
+        "water"
+      ],
+      "blurb": "A free museum about the city's and the country's armed conflict, built into the slope of the Parque Bicentenario along the Santa Elena stream. The exhibitions are heavy and meant to be sat with, and the building gives you room to do that: a long, dim entry hall, benches, a library and a terrace facing the park. Outside, the park's water channel and lawns are a quiet place to decompress afterwards.",
+      "tips": "Walk up Calle 51 from the Parque Bolívar area or take a taxi to Parque Bicentenario; allow time for the entry hall's audio pieces and the free downloadable audio guide. Sit on the terrace or by the water channel outside afterwards. Closed Mondays, and the Tuesday after a holiday Monday.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Tue-Fri 9am-6pm, Sat/Sun/holidays 10am-4pm, closed Mon (check site)",
+      "lat": 6.247,
+      "lng": -75.559,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.museocasadelamemoria.gov.co/visitanos/horario-de-atencion/",
+          "label": "Museo Casa de la Memoria: horario de atención",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.medellin.travel/casa-de-la-memoria-museum/?lang=en",
+          "label": "Medellín.Travel: Casa de la Memoria Museum",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.medellin.gov.co/es/sala-de-prensa/noticias/el-museo-casa-de-la-memoria-de-medellin-una-alternativa-cultural-para-disfrutar-en-vacaciones/",
+          "label": "Alcaldía de Medellín: Museo Casa de la Memoria",
+          "kind": "press"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed museum; the park outside is lit along the main path but quieter after closing, so visit in daylight and leave with the crowd."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Address (Calle 59A #36-30) and hours (Mon-Sat 9am-7pm, Sun from 10am) from the Medellín library system and blog; English Wikipedia article 'León de Greiff Library' appeared in results. Coordinates from the address, medium confidence.",
+      "name": "Parque Biblioteca León de Greiff (La Ladera)",
+      "neighborhood": "Enciso / La Ladera (Comuna 8)",
+      "category": "viewpoint",
+      "vibes": [
+        "view",
+        "skyline",
+        "sunset",
+        "study",
+        "rain-ok",
+        "free",
+        "solo",
+        "hidden"
+      ],
+      "blurb": "One of the library parks the city built in its hillside neighbourhoods in the 2000s, three concrete boxes stepping across the slope of the old Ladera jail site with a long public terrace on top. The reading rooms are free and quiet, and the terrace, which anyone can use, looks straight down over the centre and across the valley to El Volador. It is a resident's library first, and out-of-towners are rare.",
+      "tips": "Take a taxi or bus up Calle 59A (it is a steep climb on foot from Prado metro); sit on the terrace between the boxes for the view, or inside the reading rooms if it rains. Go in the afternoon and leave before the library closes, since the terrace is the only lit part after dark.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Sat 9am-7pm, Sun and holidays from 10am (check site)",
+      "lat": 6.2517,
+      "lng": -75.549,
+      "coordConfidence": "medium",
+      "wikipediaTitle": "León de Greiff Library",
+      "sources": [
+        {
+          "url": "https://bibliotecasmedellin.gov.co/blog/parque-biblioteca-leon-de-greiff-la-ladera/",
+          "label": "Sistema de Bibliotecas de Medellín: La Ladera",
+          "kind": "official"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Le%C3%B3n_de_Greiff_Library",
+          "label": "Wikipedia: León de Greiff Library",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed building with security during opening hours; the hillside streets around it are steep and lit unevenly, so arrive and leave by taxi or bus in daylight."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched in either stage; written from knowledge. MAMM moved to Ciudad del Río in 2009 into the Talleres Robledo building; the courtyard and the adjacent Parque Lineal Ciudad del Río are free, galleries are paid. English Wikipedia title kept on strong memory of the article under its Spanish name; it could not be URL-confirmed (Wikipedia is blocked from this environment), so treat as unverified. Name field narrowed to the museum; the park is described in the blurb.",
+      "name": "Museo de Arte Moderno de Medellín (MAMM)",
+      "neighborhood": "Ciudad del Río (El Poblado)",
+      "category": "museum",
+      "vibes": [
+        "rain-ok",
+        "people-watch",
+        "group",
+        "solo",
+        "picnic",
+        "cozy",
+        "night",
+        "walk"
+      ],
+      "blurb": "The modern art museum occupies a converted steel workshop and a newer stacked concrete extension beside a flat public park of lawns, food trucks and a skate area that has become the weekend picnic ground for the whole south of the city. You can sit in the museum's open courtyard and cafe without a ticket, or take the galleries and cinema when it rains. On weekday afternoons the park is almost empty and the lawn under the trees is a good place to read.",
+      "tips": "Industriales metro station is a ten-minute walk across the river. The rooftop terrace of the new wing opens with the galleries; the ground-floor courtyard and the park are free. Check the MAMM site for cinema and free-entry days.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "varies (museum roughly Tue-Sun daytime, park 24h; check site)",
+      "lat": 6.2237,
+      "lng": -75.5738,
+      "coordConfidence": "high",
+      "wikipediaTitle": "Museo de Arte Moderno de Medellín",
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Flat, lit park surrounded by apartment towers and restaurants that stay open into the evening; the riverside road on the west edge is fast traffic, so cross at the lights."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched; written from knowledge. A linear park along the La Presidenta stream between Parque Lleras and Avenida El Poblado. Coordinates from knowledge of the stretch near Calle 7, medium confidence. No English Wikipedia article known.",
+      "name": "Parque Lineal La Presidenta",
+      "neighborhood": "El Poblado",
+      "category": "park",
+      "vibes": [
+        "green",
+        "water",
+        "quiet",
+        "walk",
+        "solo",
+        "free",
+        "hidden",
+        "picnic"
+      ],
+      "blurb": "A strip of tall trees, lawns and stone paths that follows the La Presidenta stream for several blocks between Avenida El Poblado and the Parque Lleras bar zone. It is a few hundred metres from the loudest nightlife in the city but in daytime it is where neighbourhood dog walkers, nannies and people on laptops go, with the sound of the stream covering the traffic. Benches are scattered under the mango and guayacán trees.",
+      "tips": "Enter from Carrera 43A (Avenida El Poblado) around Calle 8 or from the Lleras side on Carrera 37A; the section furthest from Lleras is quietest. Poblado metro station is a steep ten-minute walk downhill. Best before the evening crowds head to the bars.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 6.2088,
+      "lng": -75.568,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Overlooked by apartment buildings and lit along the paths; the stream edge is unfenced in places, so stay on the paths after dark."
+      },
+      "lowkeyScore": 4
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Address (Carrera 37 #8A-37) and hours (Mon-Sat 8am-8pm, Sun 9am-7pm) from Pergamino's own site and Medellín.Travel; first branch open since 2013. Coordinates from the address, medium confidence. Hours may have changed since the pages were written.",
+      "name": "Pergamino Café",
+      "neighborhood": "El Poblado (Provenza)",
+      "category": "cafe",
+      "vibes": [
+        "cozy",
+        "rain-ok",
+        "study",
+        "people-watch",
+        "solo",
+        "group"
+      ],
+      "blurb": "The original branch of a family coffee company that sources from Antioquia farms, a wood-and-brick corner cafe with a shaded terrace that has been the neighbourhood's laptop-and-book spot for more than a decade. The coffee is the point, but nobody hurries you, and on a rainy afternoon the inside room fills with people reading. It is a chain now but this corner still feels like the local it started as.",
+      "tips": "Order at the counter and take the terrace under the trees if it is dry, or the back tables for quiet; weekday mornings are calm and weekend afternoons are packed. Poblado metro is a fifteen-minute uphill walk, so consider a bus or taxi back.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": true,
+      "free": false,
+      "hours": "Mon-Sat 8am-8pm, Sun 9am-7pm (check site)",
+      "lat": 6.2107,
+      "lng": -75.5665,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://co.pergamino.co/pages/locaciones",
+          "label": "Pergamino: locaciones",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.medellin.travel/amantes-del-cafe/cafe-pergamino/",
+          "label": "Medellín.Travel: Café Pergamino",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed cafe on a lit, busy street of shops and restaurants that stays active into the evening."
+      },
+      "lowkeyScore": 2
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Not searched; written from knowledge. The first of the round parks along Circular 73 in Laureles, a long-established neighbourhood square with cafes around it. Coordinates approximate to the plaza, medium confidence. No English Wikipedia article known.",
+      "name": "Primer Parque de Laureles",
+      "neighborhood": "Laureles",
+      "category": "plaza",
+      "vibes": [
+        "people-watch",
+        "green",
+        "cozy",
+        "solo",
+        "group",
+        "free",
+        "night",
+        "walk"
+      ],
+      "blurb": "A round, tree-shaded plaza at the head of the curving avenues of Laureles, a flat, mid-century neighbourhood laid out on a garden-city plan that residents rank among the most walkable in the city. Old men play chess, joggers loop the Circulares, and the cafes, bakeries and small bars on the ring road put tables out under the trees. It is where the neighbourhood sits in the evening rather than a place anyone travels to see.",
+      "tips": "Take Metro line B to Estadio or Floresta and walk ten minutes into the grid; the benches on the shaded south side are the quiet ones and any of the cafes around the ring will let you sit for an hour. The Segundo Parque a few blocks along Circular 73 is smaller and quieter still.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "24h",
+      "lat": 6.2445,
+      "lng": -75.592,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [],
+      "safety": {
+        "level": "ok",
+        "note": "Lit plaza ringed by cafes that stay open into the night, on flat residential streets with steady foot traffic."
+      },
+      "lowkeyScore": 3
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Research stage had address and hours from the library system and Colombia.travel. Review-stage search confirmed the address (Carrera 76 #18A-19, Comuna 16, access via Avenida 80 or Carrera 76, opened 15 March 2008, Hiroshi Naito with the University of Tokyo) via Waze, planetacolombia, Archello and librarytechnology results. The research-stage coordinate sat at the latitude of the Belén church (Calle 30A); Calle 18A is about a kilometre further south, so the point was moved south along Carrera 76 and marked LOW, since no map result could be fetched. A human should check this pin before it ships.",
+      "name": "Parque Biblioteca Belén",
+      "neighborhood": "Belén (Comuna 16)",
+      "category": "library",
+      "vibes": [
+        "rain-ok",
+        "quiet",
+        "study",
+        "water",
+        "cozy",
+        "solo",
+        "free",
+        "hidden"
+      ],
+      "blurb": "A library park designed by a team from the University of Tokyo, a set of low pavilions around a still reflecting pool and courtyards planted in a Japanese style, in a residential neighbourhood on the south-western side of the city. The reading rooms and the Sala Japonesa are free, and the courtyards around the water are the quietest public space in Belén. Almost nobody outside the barrio knows it is there.",
+      "tips": "Reached from Avenida 80 or Carrera 76: the library is at Carrera 76 with Calle 18A, roughly a kilometre south of the Belén church square, so take a bus or taxi to the door rather than walking from Belén Parque. Sit on the edge of the pool courtyard or in the Japanese room. Open late on weekdays, short hours on Sundays.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour"
+      ],
+      "indoor": true,
+      "free": true,
+      "hours": "Mon-Sat 9am-8pm, Sun and holidays 10am-4pm (check site)",
+      "lat": 6.2265,
+      "lng": -75.6015,
+      "coordConfidence": "low",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://bibliotecasmedellin.gov.co/parque-biblioteca-belen/",
+          "label": "Sistema de Bibliotecas de Medellín: Parque Biblioteca Belén",
+          "kind": "official"
+        },
+        {
+          "url": "https://colombia.travel/en/medellin/bethlehem-park-library",
+          "label": "Colombia.travel: Belén Park Library",
+          "kind": "official"
+        },
+        {
+          "url": "https://archello.com/project/parque-biblioteca-belen",
+          "label": "Archello: Parque Biblioteca Belén",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.planetacolombia.com/parque-biblioteca-belen-F120EC00E12D94D",
+          "label": "Planeta Colombia: Parque Biblioteca Belén (address, hours)",
+          "kind": "other"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed library with security during opening hours; the pool is unfenced and shallow, and the surrounding streets are residential and lit."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Address (Cra 43A #27A Sur-11, Envigado) and hours (Mon-Sat 11am-8:30pm, closed Sun and holidays) from otraparte.org and the Envigado municipality. No English Wikipedia article appeared, so title null. Coordinates from the address, medium confidence. Envigado is a separate municipality about 9 km south of the centre.",
+      "name": "Casa Museo Otraparte",
+      "neighborhood": "Envigado (Avenida Fernando González)",
+      "category": "garden",
+      "vibes": [
+        "green",
+        "quiet",
+        "cozy",
+        "solo",
+        "free",
+        "hidden",
+        "night",
+        "rain-ok"
+      ],
+      "blurb": "The house and garden of the philosopher Fernando González, kept as a free museum and cultural centre by a small foundation in Envigado, the town at the south end of the metro. The garden is the reason to come: old trees, a small cafe that spills onto the lawn, and evening talks and readings for a mostly local crowd. It is a place people from the southern suburbs go to think, exactly as its owner intended.",
+      "tips": "Metro to Envigado or Ayurá then a short taxi or a twenty-minute walk along Carrera 43A; entry is free and the cafe keeps the garden open into the evening. Check the programme, since a talk or concert can fill the lawn. Closed Sundays and holidays.",
+      "bestTimes": [
+        "afternoon",
+        "golden-hour",
+        "night"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Mon-Sat 11am-8:30pm, closed Sun and holidays (check site)",
+      "lat": 6.173,
+      "lng": -75.5915,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.otraparte.org/casa-museo/",
+          "label": "Otraparte.org: Casa Museo",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.envigado.gov.co/secretaria-de-la-cultura/casa-museo-otraparte",
+          "label": "Alcaldía de Envigado: Casa Museo Otraparte",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "ok",
+        "note": "Staffed house and garden on a main avenue with lighting and traffic; leave by taxi or metro after evening events."
+      },
+      "lowkeyScore": 5
+    },
+    {
+      "reviewed": true,
+      "verifyNote": "Review-stage search confirmed the park is reached by Metrocable line L from Santo Domingo, that line L runs Wed-Mon 9am-6pm (Sun/holidays from 8:30am) and has closed every Tuesday since April 2025, and that it shut 19-24 Sep 2026 for annual maintenance (Semana, Metro de Medellín, El Colombiano, ifmnoticias, parquearvi.org FAQ all in results; pages themselves could not be fetched). The research stage had it closed Mondays, which was wrong. Wikipedia title set to null: neither stage confirmed the exact English article name. Coordinates are the Arví cable station area from knowledge, medium.",
+      "name": "Parque Arví",
+      "neighborhood": "Santa Elena (Corregimiento)",
+      "category": "trail",
+      "vibes": [
+        "green",
+        "quiet",
+        "walk",
+        "picnic",
+        "solo",
+        "group",
+        "view",
+        "rain-ok"
+      ],
+      "blurb": "A 16,000-hectare forest reserve on the cool plateau above the eastern rim of the valley, reached by riding two Metrocable lines up from Acevedo. The station area has a farmers' market and picnic lawns, and marked trails lead off into pine and cloud forest where within ten minutes the only sound is birds. At 2,400 m it is several degrees cooler than the city, and a bench by the Piedras Blancas reservoir is as far from traffic as you can get on a metro ticket.",
+      "tips": "Metro to Acevedo, cable K to Santo Domingo, then cable L (separate fare) to Arví. Cable L does not run on Tuesdays and shuts for about a week of annual maintenance (19-24 Sep in 2026), so check the Metro site the day before. Go early: the last cable down is around 6pm. Stick to the marked trails and bring a rain layer, it clouds over most afternoons.",
+      "bestTimes": [
+        "morning",
+        "afternoon"
+      ],
+      "indoor": false,
+      "free": true,
+      "hours": "Wed-Mon 9am-6pm (Sun/holidays from 8:30am); closed Tue with Cable L; cable fare applies (check site)",
+      "lat": 6.2839,
+      "lng": -75.503,
+      "coordConfidence": "medium",
+      "wikipediaTitle": null,
+      "sources": [
+        {
+          "url": "https://www.semana.com/nacion/medellin/articulo/en-que-horario-presta-servicio-el-cable-arvi-linea-l-y-cual-es-su-tarifa/202632/",
+          "label": "Semana: Cable Arví (línea L) hours and fare",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.elcolombiano.com/medellin/mantenimiento-linea-l-metro-cable-parque-arvi-EK28776893",
+          "label": "El Colombiano: línea L maintenance closure",
+          "kind": "press"
+        },
+        {
+          "url": "https://parquearvi.org/publicaciones/248/preguntas-frecuentes-parque-arvi/",
+          "label": "Parque Arví: preguntas frecuentes",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.metrodemedellin.gov.co/al-dia/noticias/estratos-12-y-3-pagaran-75-menos-por-viajar-en-el-metrocable-turistico-arvi",
+          "label": "Metro de Medellín: Arví cable fare news",
+          "kind": "official"
+        }
+      ],
+      "safety": {
+        "level": "caution",
+        "note": "Forest trails are unlit, unfenced and empty out early; stay on the marked routes, go with someone if you leave the station area, and be back before the last cable down."
+      },
+      "lowkeyScore": 3
+    }
+  ]
+}
