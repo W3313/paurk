@@ -11,7 +11,10 @@ function datasetCounts() {
     const d = JSON.parse(readFileSync(new URL('./src/data/spots.json', import.meta.url), 'utf8')) as {
       cities: unknown[]; spots: unknown[]
     }
-    return { cities: String(d.cities.length), spots: String(d.spots.length) }
+    // Grouped: these land in the meta description, which is what a search result prints. "1,229
+    // quiet parks" reads as a number; "1229 quiet parks" reads as a serial.
+    const group = (n: number) => n.toLocaleString('en-US')
+    return { cities: group(d.cities.length), spots: group(d.spots.length) }
   } catch {
     return { cities: '', spots: '' }
   }

@@ -162,7 +162,7 @@ export default function App() {
       mode === 'spot' && spot && city ? `${spot.name}, ${city.name} · Paurk`
       : mode === 'city' && city ? `${city.name} · Paurk`
       : mode === 'saved' ? 'Saved · Paurk'
-      : 'Paurk · somewhere to breathe, wherever, whenever'
+      : 'Paurk'
     document.title = title
   }, [mode, city, spotId])
 
